@@ -28,7 +28,12 @@ def git(*args: str, text: bool = True) -> subprocess.CompletedProcess:
 
 
 def normalize_relpath(path: str) -> str:
-    return path.replace("\\", "/").lstrip("./")
+    normalized = path.replace("\\", "/")
+    while normalized.startswith("./"):
+        normalized = normalized[2:]
+    if normalized.startswith("/"):
+        normalized = normalized[1:]
+    return normalized
 
 
 def read_file_at_ref(ref: str, rel_path: str) -> bytes:
@@ -125,14 +130,18 @@ def render_update_dc(
     del_paths: list[str],
 ) -> str:
     lines: list[str] = []
+    same_base = base.strip() == base_new.strip()
+    same_dlc = dlc.strip() == dlc_new.strip()
     lines.append("isHidden = false")
     lines.append("")
     lines.append("[version]")
     lines.append(f"platform = {dc_quote(platform)}")
     lines.append(f"base = {dc_quote(base)}")
-    lines.append(f"base_new = {dc_quote(base_new)}")
+    if not same_base:
+        lines.append(f"base_new = {dc_quote(base_new)}")
     lines.append(f"dlc = {dc_quote(dlc)}")
-    lines.append(f"dlc_new = {dc_quote(dlc_new)}")
+    if not same_dlc:
+        lines.append(f"dlc_new = {dc_quote(dlc_new)}")
     lines.append("")
     lines.append("[changelog]")
     lines.append(f"en_us = {dc_string(changelog)}")
@@ -189,6 +198,10 @@ def main() -> int:
     parser.add_argument("--out-dir", default="out")
     parser.add_argument("--work-dir", default="work")
     args = parser.parse_args()
+
+    if args.base.strip() == args.base_new.strip() and args.dlc.strip() == args.dlc_new.strip():
+        print("Invalid version input: base/base_new and dlc/dlc_new are both unchanged.", file=sys.stderr)
+        return 2
 
     platform_label = {
         "client": "Client",

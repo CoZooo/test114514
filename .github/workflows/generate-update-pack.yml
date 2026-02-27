@@ -41,6 +41,19 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Validate version change
+        shell: bash
+        run: |
+          BASE="${{ inputs.base }}"
+          BASE_NEW="${{ inputs.base_new }}"
+          DLC="${{ inputs.dlc }}"
+          DLC_NEW="${{ inputs.dlc_new }}"
+          if [ "$BASE" = "$BASE_NEW" ] && [ "$DLC" = "$DLC_NEW" ]; then
+            echo "Invalid input: base/base_new and dlc/dlc_new are both unchanged." >&2
+            echo "At least one side must change." >&2
+            exit 1
+          fi
+
       - name: Resolve diff base ref
         id: base_ref
         shell: bash
@@ -68,7 +81,7 @@ jobs:
                   right="${tag#*/}"
                   if [ "$right" = "$TARGET_PAIR" ]; then
                     RESOLVED="$tag"
-                    SOURCE="previous_hot_update_tag"
+                    SOURCE="target_pair_hot_update_tag"
                     break
                   fi
                 ;;
@@ -79,11 +92,12 @@ jobs:
               while IFS= read -r tag; do
                 [ -z "$tag" ] && continue
                 case "$tag" in
-                  */*) continue ;;
+                  */*)
+                    RESOLVED="$tag"
+                    SOURCE="latest_hot_update_tag"
+                    break
+                  ;;
                 esac
-                RESOLVED="$tag"
-                SOURCE="latest_normal_tag"
-                break
               done < <(git for-each-ref --sort=-creatordate --format='%(refname:short)' refs/tags)
             fi
 
@@ -101,7 +115,7 @@ jobs:
         run: |
           mkdir -p out
           result="$(
-            python3 tools/update-pack/generate_update_pack.py \
+            python3 .github/tools/generate_update_pack.py \
               --from-ref "${{ steps.base_ref.outputs.resolved_from_ref }}" \
               --to-ref "HEAD" \
               --platform "${{ inputs.platform }}" \
