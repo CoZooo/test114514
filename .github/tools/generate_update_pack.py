@@ -270,19 +270,7 @@ def main() -> int:
     changelog_path.write_text(changelog + "\n", encoding="utf-8")
 
     notes_path = out_dir / f"{platform_label}_{version_pair}.release-notes.md"
-    notes_lines = [
-        f"# Hot Update {release_tag}",
-        "",
-        f"- Platform: `{args.platform}`",
-        f"- Package: `{zip_name}`",
-        f"- Diff: `{args.from_ref}` -> `{args.to_ref}`",
-        "",
-        "## Changelog",
-        "",
-        changelog if changelog.strip() else "_(No changelog content found)_",
-        "",
-    ]
-    notes_path.write_text("\n".join(notes_lines), encoding="utf-8")
+    notes_path.write_text(changelog + "\n", encoding="utf-8")
 
     print(f"zip_path={zip_path.as_posix()}")
     print(f"asset_name={zip_name}")

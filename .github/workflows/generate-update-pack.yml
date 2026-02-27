@@ -162,7 +162,6 @@ jobs:
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" "$ASSET" --clobber
-            gh release edit "$TAG" --notes-file "$NOTES"
           else
             gh release create "$TAG" "$ASSET" --title "$TAG" --notes-file "$NOTES"
           fi
