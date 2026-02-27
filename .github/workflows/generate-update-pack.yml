@@ -3,13 +3,10 @@ name: Generate Update Pack
 on:
   workflow_dispatch:
     inputs:
-      branch:
-        description: "Target branch to build package from"
-        required: true
-        default: "main"
       from_ref:
-        description: "Previous update git ref (tag/commit/branch) for diff base"
-        required: true
+        description: "Optional diff base ref (auto detect if empty)"
+        required: false
+        default: ""
       platform:
         description: "Update package platform"
         required: true
@@ -44,18 +41,68 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Switch to target branch
+      - name: Resolve diff base ref
+        id: base_ref
+        shell: bash
         run: |
-          git checkout "${{ inputs.branch }}"
-          git pull --ff-only origin "${{ inputs.branch }}"
+          INPUT_FROM_REF="${{ inputs.from_ref }}"
+          BASE="${{ inputs.base }}"
+          DLC="${{ inputs.dlc }}"
+
+          if [ -n "$INPUT_FROM_REF" ]; then
+            if ! git rev-parse --verify --quiet "$INPUT_FROM_REF^{commit}" >/dev/null; then
+              echo "Invalid from_ref: $INPUT_FROM_REF" >&2
+              exit 1
+            fi
+            RESOLVED="$INPUT_FROM_REF"
+            SOURCE="input"
+          else
+            TARGET_PAIR="${BASE}+${DLC}"
+            RESOLVED=""
+            SOURCE=""
+
+            while IFS= read -r tag; do
+              [ -z "$tag" ] && continue
+              case "$tag" in
+                */*)
+                  right="${tag#*/}"
+                  if [ "$right" = "$TARGET_PAIR" ]; then
+                    RESOLVED="$tag"
+                    SOURCE="previous_hot_update_tag"
+                    break
+                  fi
+                ;;
+              esac
+            done < <(git for-each-ref --sort=-creatordate --format='%(refname:short)' refs/tags)
+
+            if [ -z "$RESOLVED" ]; then
+              while IFS= read -r tag; do
+                [ -z "$tag" ] && continue
+                case "$tag" in
+                  */*) continue ;;
+                esac
+                RESOLVED="$tag"
+                SOURCE="latest_normal_tag"
+                break
+              done < <(git for-each-ref --sort=-creatordate --format='%(refname:short)' refs/tags)
+            fi
+
+            if [ -z "$RESOLVED" ]; then
+              RESOLVED="$(git rev-list --max-parents=0 HEAD | tail -n 1)"
+              SOURCE="initial_commit"
+            fi
+          fi
+
+          echo "resolved_from_ref=$RESOLVED" >> "$GITHUB_OUTPUT"
+          echo "resolved_from_ref_source=$SOURCE" >> "$GITHUB_OUTPUT"
 
       - name: Generate update package
         id: generate
         run: |
           mkdir -p out
           result="$(
-            python3 .github/tools/generate_update_pack.py \
-              --from-ref "${{ inputs.from_ref }}" \
+            python3 tools/update-pack/generate_update_pack.py \
+              --from-ref "${{ steps.base_ref.outputs.resolved_from_ref }}" \
               --to-ref "HEAD" \
               --platform "${{ inputs.platform }}" \
               --base "${{ inputs.base }}" \
@@ -72,6 +119,8 @@ jobs:
 
       - name: Show generated info
         run: |
+          echo "Diff base ref: ${{ steps.base_ref.outputs.resolved_from_ref }}"
+          echo "Diff base source: ${{ steps.base_ref.outputs.resolved_from_ref_source }}"
           echo "Release tag suggestion: ${{ steps.generate.outputs.release_tag }}"
           echo "Asset name: ${{ steps.generate.outputs.asset_name }}"
           echo "Zip path: ${{ steps.generate.outputs.zip_path }}"
