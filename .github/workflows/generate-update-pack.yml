@@ -1,0 +1,105 @@
+name: Generate Update Pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Target branch to build package from"
+        required: true
+        default: "main"
+      from_ref:
+        description: "Previous update git ref (tag/commit/branch) for diff base"
+        required: true
+      platform:
+        description: "Update package platform"
+        required: true
+        type: choice
+        options:
+          - universal
+          - client
+          - server
+        default: universal
+      base:
+        description: "Current base version"
+        required: true
+      base_new:
+        description: "New base version"
+        required: true
+      dlc:
+        description: "Current DLC version"
+        required: true
+      dlc_new:
+        description: "New DLC version"
+        required: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Switch to target branch
+        run: |
+          git checkout "${{ inputs.branch }}"
+          git pull --ff-only origin "${{ inputs.branch }}"
+
+      - name: Generate update package
+        id: generate
+        run: |
+          mkdir -p out
+          result="$(
+            python3 .github/tools/generate_update_pack.py \
+              --from-ref "${{ inputs.from_ref }}" \
+              --to-ref "HEAD" \
+              --platform "${{ inputs.platform }}" \
+              --base "${{ inputs.base }}" \
+              --base-new "${{ inputs.base_new }}" \
+              --dlc "${{ inputs.dlc }}" \
+              --dlc-new "${{ inputs.dlc_new }}"
+          )"
+          echo "$result"
+          while IFS= read -r line; do
+            if [ -n "$line" ]; then
+              echo "$line" >> "$GITHUB_OUTPUT"
+            fi
+          done <<< "$result"
+
+      - name: Show generated info
+        run: |
+          echo "Release tag suggestion: ${{ steps.generate.outputs.release_tag }}"
+          echo "Asset name: ${{ steps.generate.outputs.asset_name }}"
+          echo "Zip path: ${{ steps.generate.outputs.zip_path }}"
+          echo "Added files: ${{ steps.generate.outputs.add_count }}"
+          echo "Deleted files: ${{ steps.generate.outputs.del_count }}"
+
+      - name: Upload package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-package-${{ inputs.platform }}-${{ inputs.base_new }}-${{ inputs.dlc_new }}
+          path: |
+            ${{ steps.generate.outputs.zip_path }}
+            ${{ steps.generate.outputs.summary_path }}
+            ${{ steps.generate.outputs.changelog_path }}
+            ${{ steps.generate.outputs.release_notes_path }}
+            work/**/update.dc
+
+      - name: Publish to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ steps.generate.outputs.release_tag }}"
+          ASSET="${{ steps.generate.outputs.zip_path }}"
+          NOTES="${{ steps.generate.outputs.release_notes_path }}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ASSET" --clobber
+            gh release edit "$TAG" --notes-file "$NOTES"
+          else
+            gh release create "$TAG" "$ASSET" --title "$TAG" --notes-file "$NOTES"
+          fi
