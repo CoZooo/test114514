@@ -1,0 +1,853 @@
+{
+	"size": "large",
+	"color": "rainbow",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [
+                {
+                    "entity": "sons_of_sins:wistiver",
+					"count": 1
+                },
+                {
+                    "entity": "sons_of_sins:walking_bed",
+					"count": 1
+                },
+                {
+                    "entity": "sons_of_sins:prowler",
+					"count": 1
+                },
+                {
+                    "entity": "sons_of_sins:kelvin",
+					"count": 1
+                },
+                {
+                    "entity": "sons_of_sins:butcher",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "goety:apostle",
+					"count": 1
+                },
+                {
+                    "entity": "faded_conquest_2:vessel_of_calamity",
+					"count": 1
+                },
+                {
+                    "entity": "faded_conquest_2:radiance_guardian",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                },
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "goety:plunge",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "depthcrawler:deepboss",
+					"count": 1
+                },
+                {
+                    "entity": "depthcrawler:ancientdeep",
+					"count": 1
+                },
+                {
+                    "entity": "goety:wither_necromancer",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "stalwart_dungeons:shelterer",
+					"count": 2
+				},
+				{
+					"entity": "cataclysm:ender_guardian",
+					"count": 2
+				}
+			],
+			"modifiers": [ 
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 800,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "infinite_abyss:frozen_wither",
+					"count": 2
+				},
+                {
+                    "entity": "minecraft:wither",
+					"count": 2
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                },
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "goety:plunge",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "graveyard:lich",
+					"count": 1
+				},
+				{
+                    "entity": "stalwart_dungeons:nether_keeper",
+					"count": 1
+                },
+                {
+                    "entity": "luminous_halloween:horseless_headsman",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "stalwart_dungeons:awful_ghast",
+					"count": 2
+                },
+                {
+                    "entity": "cataclysm:netherite_monstrosity",
+					"count": 1
+                },
+                {
+                    "entity": "cataclysm:ignis",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                },
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "goety:plunge",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "cataclysm:maledictus",
+					"count": 1
+                },
+                {
+                    "entity": "entity_303:entity_303",
+					"count": 2
+                },
+                {
+                    "entity": "theinkarena:blot",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "goety:hostile_redstone_monstrosity",
+					"count": 1
+                },
+                {
+                    "entity": "goety:vizier",
+					"count": 1
+                },
+                {
+                    "entity": "faded_conquest_2:aero_guardian",
+					"count": 1
+                },
+                {
+                    "entity": "faded_conquest_2:doomharbor_lich",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "arcalis_bosses:jack",
+					"count": 1
+                },
+                {
+                    "entity": "arcalis_bosses:the_deathbringer",
+					"count": 1
+                },
+                {
+                    "entity": "cthulhufishing:obsessed_eye_boss",
+					"count": 1
+                },
+                {
+                    "entity": "goety:hostile_redstone_golem",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "corundumguardian:corundum_guardian",
+					"count": 2
+                },
+                {
+                    "entity": "binah:binah_v_2",
+					"count": 2
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "arcalis_bosses:captain_deadbone",
+					"count": 1
+                },
+                {
+                    "entity": "infinite_abyss:crystal_construct",
+					"count": 1
+                },
+                {
+                    "entity": "infinite_abyss:charya",
+					"count": 1
+                },
+				{
+					"entity": "irons_spellbooks:dead_king",
+					"count": 1
+				}
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "mowziesmobs:umvuthi",
+					"count": 1
+                },
+                {
+                    "entity": "mowziesmobs:frostmaw",
+					"count": 1
+                },
+                {
+                    "entity": "goety:hostile_redstone_golem",
+					"count": 2
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "mutantmonsters:mutant_zombie",
+					"count": 1
+                },
+                {
+                    "entity": "mutantmonsters:mutant_skeleton",
+					"count": 1
+                },
+                {
+                    "entity": "mutantmonsters:mutant_enderman",
+					"count": 1
+                },
+                {
+                    "entity": "mutantmonsters:mutant_creeper",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "mokels_boss_mantyd:boss_mantyd",
+					"count": 1
+                },
+                {
+                    "entity": "mokels_witch_boss:witchboss",
+					"count": 1
+                },
+                {
+                    "entity": "faded_conquest_2:the_plauge_bringer",
+					"count": 1
+                },
+                {
+                    "entity": "goety:minister",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "minecraft:elder_guardian",
+					"count": 1
+                },
+                {
+                    "entity": "call_of_drowner:drowner",
+					"count": 1
+                },
+                {
+                    "entity": "call_of_drowner:deepwater_piranha",
+					"count": 1
+                },
+                {
+                    "entity": "cataclysm:the_leviathan",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "bosses_of_mass_destruction:void_blossom",
+					"count": 1
+                },
+				{
+                    "entity": "bosses_of_mass_destruction:lich",
+					"count": 1
+                },
+                {
+                    "entity": "aquamirae:captain_cornelia",
+					"count": 1
+                },
+                {
+                    "entity": "cthulhufishing:ice_crab",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "hs_bosses:sand_warrior",
+					"count": 1
+                },
+                {
+                    "entity": "cthulhufishing:fossil_fish",
+					"count": 2
+                },
+                {
+                    "entity": "faded_conquest_2:terrible_ten",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "minecraft:warden",
+					"count": 1
+                },
+                {
+                    "entity": "callfromthedepth_:corruptedstalker",
+					"count": 1
+                },
+                {
+                    "entity": "callfromthedepth_:agonysoul",
+					"count": 1
+                },
+                {
+                    "entity": "whisperwoods:hirschgeist",
+					"count": 1
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 500,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "cataclysm:nameless_sorcerer",
+					"count": 2
+                },
+                {
+                    "entity": "awakened_bosses:herobrine",
+					"count": 2
+                }
+			],
+			"modifiers": [ 
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.80
+				},
+				{
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10000.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "aquamirae:poseidons_breakfast",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 100
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_ender_part",
+				"count": 16
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "avaritia:infinity_catalyst",
+				"count": 16
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:qb",
+				"count": 8
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

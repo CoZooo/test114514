@@ -1,0 +1,41 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    }
+  ],
+  "output": {
+    "item": "locusazzurro_icaruswings:quantum_fuel",
+	"count": 8
+  },
+  "tablet": {
+    "item": "minecraft:nether_star"
+  }
+}

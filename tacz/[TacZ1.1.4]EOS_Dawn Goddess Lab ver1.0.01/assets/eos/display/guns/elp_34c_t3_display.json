@@ -1,0 +1,68 @@
+{
+  "model": "eos:gun/elp_34c_t3_geo",
+  "texture": "eos:gun/uv/elp_34c_t3",
+  "lod": {
+    "model": "eos:gun/lod/elp_34c_t3",
+    "texture": "eos:gun/lod/elp_34c_t3"
+  },
+  "hud": "eos:gun/hud/elp_34c_t3",
+  "slot": "eos:gun/slot/elp_34c_t3",
+  "animation": "eos:elp_34c_t3",
+  "ammo_count_style": "percent",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "eos:flash/plasma_flash",
+    "scale": 0.75
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot":"eos:eos_ar/elp_34_t3_shoot",
+    "shoot_3p": "eos:eos_ar/elp_34_t3_shoot",
+    "reload_empty": "eos:eos_ar/elp_34_t3_reload_empty",
+    "reload_tactical": "eos:eos_ar/elp_34_t3_reload_tactical",
+    "inspect": "eos:eos_ar/elp_34_t3_inspect",
+    "inspect_empty": "eos:eos_ar/elp_34_t3_inspect",
+    "draw": "tacz:hk416d/hk416d_draw",
+    "put_away": "tacz:hk416d/hk416d_put_away",
+    "silence": "eos:eos_ar/elp_34_t3_silence",
+    "silence_3p": "eos:eos_ar/elp_34_t3_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+  },
+  "text_show": {
+	    "ammo_count_text_show_pos": {
+      "scale": 0.2,
+      "align": "right",
+      "shadow": false,
+      "color": "#ffe980",
+      "light": 15,
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

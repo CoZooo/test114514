@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "item": "minecraft:coal"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "embers:caminite_blend"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:glock_17"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

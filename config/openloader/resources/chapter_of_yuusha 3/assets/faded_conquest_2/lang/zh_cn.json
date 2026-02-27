@@ -1,0 +1,241 @@
+{
+  "item.faded_conquest_2.lichspell_spawn_egg": "末日巫妖-地穴守护者刷怪蛋",
+  "item.faded_conquest_2.sentry_spawn_egg": "哨卫者刷怪蛋",
+  "entity.faded_conquest_2.calamity_beam": "灾厄射线",
+  "item.faded_conquest_2.infested_spawn_egg": "感染者刷怪蛋",
+  "item.faded_conquest_2.blocknight_paladin_spawn_egg": "方块圣骑士刷怪蛋",
+  "entity.faded_conquest_2.summoned_creeper": "召唤苦力怕",
+  "advancements.pbslain.title": "打倒病人",
+  "item.faded_conquest_2.vessel_shield_spawn_egg": "灾厄魂灵刷怪蛋",
+  "block.faded_conquest_2.clay_pillar": "粘土柱",
+  "block.faded_conquest_2.calamity_growth": "灾厄生长",
+  "block.faded_conquest_2.unbreakable_pillar": "加固支柱",
+  "item.faded_conquest_2.lich_2_spawnegg": "末日巫妖（二阶段）刷怪蛋",
+  "block.faded_conquest_2.terrible_tensummon": "惊骇的十之方块骑士召唤方块",
+  "block.faded_conquest_2.unbreakable_brick_stairs": "加固砖台阶",
+
+
+  "block.faded_conquest_2.petrified_wood": "石化木",
+
+  "item.faded_conquest_2.storm_charge": "风暴能量晶体",
+  "block.faded_conquest_2.dark_bricks": "深色砖块",
+  "item.faded_conquest_2.eye_of_the_storm": "风暴眼球",
+  "entity.faded_conquest_2.poisonspikea": "毒刺",
+  "block.faded_conquest_2.agspawner": "召唤天空守卫者",
+
+  "block.faded_conquest_2.infusedpolished_grimstone": "注入抛光磨石",
+  "entity.faded_conquest_2.sentry": "哨卫者",
+  "block.faded_conquest_2.cube_sensor": "立方体传感器",
+  "entity.faded_conquest_2.blocknight_longarm": "长臂方块骑士",
+  "block.faded_conquest_2.cracked_unbreakable_bricks": "碎裂的加固砖",
+  "entity.faded_conquest_2.blocknight_heavyman": "重型方块骑士",
+  "entity.faded_conquest_2.blocknight_leaper": "跳跃方块骑士",
+  "item.faded_conquest_2.the_plauge_bringerp_2_spawn_egg": "☠ 异端堕落先知 ☠ 刷怪蛋",
+
+  "block.faded_conquest_2.dream_alloy_bricks": "梦想合金砖",
+  "block.faded_conquest_2.open_giant_door": "巨型门",
+  "death.attack.vaporize": "%1$s 被蒸发了",
+  "item.faded_conquest_2.fadedking_p_2egg": "衰落之王（二阶段）刷怪蛋",
+  "item.faded_conquest_2.radiance_guardian_spawnegg": "光辉守卫者刷怪蛋",
+  "item.faded_conquest_2.vessel_of_calamity_spawn_egg": "灾厄魂灵刷怪蛋",
+
+  "item.faded_conquest_2.plague_bringer_p_1_spawn_egg": "瘟疫使者（一阶段）刷怪蛋",
+
+
+  "entity.faded_conquest_2.agdunegon": "Ag地牢",
+  "item.faded_conquest_2.calamity_beam_spawn_egg": "灾厄射线刷怪蛋",
+  "painting.faded_conquest_2.rose.title": "玫瑰",
+  "entity.faded_conquest_2.blocknight_servant": "方块圣骑士",
+  "item.faded_conquest_2.stormclasher_katana": "风暴激光剑",
+
+  "item.faded_conquest_2.keyof_pestilence": "瘟疫钥匙",
+
+
+  "entity.faded_conquest_2.vessel_shield": "灾厄魂灵",
+  "entity.faded_conquest_2.toxicrow": "带毒乌鸦",
+  "item.faded_conquest_2.blocknightfist_spawn_egg": "拳击方块骑士刷怪蛋",
+  "biome.faded_conquest_2.abyss": "死寂之海",
+  "block.faded_conquest_2.magic_mirror": "魔法镜",
+  "item.faded_conquest_2.blocknight_servant_spawn_egg": "方块圣骑士刷怪蛋",
+
+  "item.faded_conquest_2.radiance_guardian_spawn_egg": "领域探索之光辉守卫者刷怪蛋",
+  "item.faded_conquest_2.summon_blocknight": "方块圣骑士召唤器",
+
+  "item.faded_conquest_2.fcdungeon_spawn_egg": "Fc地牢刷怪蛋",
+  "block.faded_conquest_2.skull_pile": "骷髅堆",
+
+  "item.faded_conquest_2.lich_phase_2_spawn_egg": "灵魂收割者末日巫妖刷怪蛋",
+  "entity.faded_conquest_2.doomharbor_lich": "末日巫妖-地穴守护者",
+  "painting.faded_conquest_2.day_after_tommorow.author": "末影收集器",
+
+  "item.faded_conquest_2.pbprefight_spawn_egg": "瘟疫使者刷怪蛋",
+
+  "block.faded_conquest_2.mysterious_crown": "神秘王冠",
+  "block.faded_conquest_2.ominous_skull": "不祥头骨",
+  "block.faded_conquest_2.active_cube_sensor": "立方体传感器",
+
+  "item.faded_conquest_2.calamitycagebreak_spawn_egg": "灾厄牢笼破坏刷怪蛋",
+  "entity.faded_conquest_2.calamitycagebreak": "灾厄牢笼破坏",
+  "block.faded_conquest_2.cageofcalamity": "灾厄牢笼",
+  "block.faded_conquest_2.gildgrass": "镀金草",
+  "entity.faded_conquest_2.lich_phase_2": "末日巫妖-灵魂收割者",
+  "block.faded_conquest_2.unbreakable_tile_slab": "强化瓷砖板",
+  "item.faded_conquest_2.key_of_war": "战争钥匙",
+  "entity.faded_conquest_2.dormant_cube": "束缚立方体",
+  "item.faded_conquest_2.toxic_sludge_bucket": "有毒污泥桶",
+  "entity.faded_conquest_2.cube_of_calamity": "灾厄立方体",
+  "block.faded_conquest_2.esoteric_idol": "神秘雕像",
+
+  "item.faded_conquest_2.summon_calamity_vessel_1": "灾厄魂灵刷怪蛋",
+  "item.faded_conquest_2.whirlwind_spawn_egg": "旋风刷怪蛋",
+
+
+  "block.faded_conquest_2.abyssal_growth": "深渊生长",
+  "item.faded_conquest_2.agdunegon_spawn_egg": "Ag地牢刷怪蛋",
+  "item.faded_conquest_2.summoned_spider_spawn_egg": "恶魔蜘蛛刷怪蛋",
+  "entity.faded_conquest_2.ttphase_2": "惊骇的十之方块骑士（二阶段）",
+  "entity.faded_conquest_2.pbprefight": "- ( ☠ 瘟疫使者 ☠ ) -",
+  "painting.faded_conquest_2.rose.author": "末影收集器",
+  "entity.faded_conquest_2.infested": "感染者",
+  "item.faded_conquest_2.blocknight_fool_spawn_egg": "愚者方块骑士刷怪蛋",
+  "entity.faded_conquest_2.blocknight_paladin": "方块圣骑士",
+  "entity.faded_conquest_2.heiroglyph_room": "Fc地牢",
+
+  "entity.faded_conquest_2.meteor": "陨石",
+
+  "item.faded_conquest_2.heiroglyph_room_spawn_egg": "Fc地牢刷怪蛋",
+
+  "entity.faded_conquest_2.mimic": "惊骇宝箱怪",
+  "entity.faded_conquest_2.blocknight_fool": "愚者方块骑士",
+  "item.faded_conquest_2.key_of_conquest": "征服钥匙",
+  "entity.faded_conquest_2.binded_cube": "束缚立方体",
+
+  "block.faded_conquest_2.unbreakable_brick_wall": "加固砖墙",
+  "block.faded_conquest_2.unbreakable_tile_stairs": "加固瓷砖楼梯",
+  "entity.faded_conquest_2.fcdungeon": "Fc地牢",
+
+  "item.faded_conquest_2.blocknight_heavyman_spawn_egg": "重型方块骑士刷怪蛋",
+  "item.faded_conquest_2.the_plauge_bringer_spawn_egg": "瘟疫使者刷怪蛋",
+  "block.faded_conquest_2.unbreakable_brick_slab": "加固砖台阶",
+
+
+
+  "item.faded_conquest_2.aero_guardian_spawn_egg": "天空守卫者刷怪蛋",
+
+  "block.faded_conquest_2.unbreakable_tile_wall": "加固瓷砖墙",
+  "item.faded_conquest_2.abyssal_device": "深渊装置",
+  "item.faded_conquest_2.terrible_ten_phase_2_spawn_egg": "惊骇的十之方块骑士（二阶段）刷怪蛋",
+  "item.faded_conquest_2.vfx_maiasma_spawn_egg": "Fc地牢刷怪蛋",
+  "entity.faded_conquest_2.radiance_guardian": "{ ☾ ☼ 辉光守卫者-领域探索 ☼ ☽ }",
+  "item.faded_conquest_2.doomharbor_lich_spawn_egg": "末日巫妖-地穴守护者刷怪蛋",
+
+
+  "item.faded_conquest_2.blocknight_boot_spawn_egg": "践踏方块骑士刷怪蛋",
+  "item.faded_conquest_2.mimic_spawn_egg": "惊骇宝箱怪刷怪蛋",
+  "entity.faded_conquest_2.the_plauge_bringer": "瘟疫使者",
+  "block.faded_conquest_2.chaos_vein": "混沌藤蔓",
+  "entity.faded_conquest_2.blocknightfist": "拳击方块骑士",
+  "entity.faded_conquest_2.sensoreffect": "束缚立方体",
+
+  "item.faded_conquest_2.demon_spawn_egg": "灾厄恶魔刷怪蛋",
+
+  "item.faded_conquest_2.gate_key": "门钥匙",
+
+
+  "item.faded_conquest_2.pbdowned_spawn_egg": "- ( ☠ 瘟疫使者 ☠ ) -刷怪蛋",
+  "item.faded_conquest_2.key_of_death": "死亡钥匙",
+  "block.faded_conquest_2.toxic_lantern": "有毒灯笼",
+
+  "entity.faded_conquest_2.vessel_of_calamity": "灾厄魂灵",
+  "item.faded_conquest_2.binded_cube_spawn_egg": "束缚立方体刷怪蛋",
+  "item.faded_conquest_2.poisonspikea_spawn_egg": "毒刺刷怪蛋",
+  "death.attack.vaporize.item": "%1$s 被 %2$s 用 %3$s 蒸发了",
+  "block.faded_conquest_2.grimstone": "格里姆石",
+  "entity.faded_conquest_2.poison_spike_b": "毒刺",
+
+  "biome.faded_conquest_2.pantheon_of_gods": "众神万神殿",
+
+  "entity.faded_conquest_2.vfx_maiasma": "Fc地牢",
+  "block.faded_conquest_2.chiseled_unbreakable_brick_slab": "强化瓦砖板",
+  "block.faded_conquest_2.h_5": "海洛格里夫",
+  "block.faded_conquest_2.h_4": "海洛格里夫",
+
+  "block.faded_conquest_2.giant_door": "巨型门",
+  "block.faded_conquest_2.h_3": "海洛格里夫",
+  "block.faded_conquest_2.h_2": "海洛格里夫",
+  "block.faded_conquest_2.h_9": "海洛格里夫",
+  "block.faded_conquest_2.h_8": "海洛格里夫",
+  "block.faded_conquest_2.h_7": "海洛格里夫",
+  "entity.faded_conquest_2.vessel_sword": "灾厄魂灵",
+  "block.faded_conquest_2.h_6": "海洛格里夫",
+  "block.faded_conquest_2.toxic_magma": "有毒岩浆",
+  "block.faded_conquest_2.chiseled_unbreakable_brick_stairs": "强化砖楼梯",
+  "block.faded_conquest_2.wicked_vine": "邪恶藤蔓",
+  "block.faded_conquest_2.h_1": "海洛格里夫",
+  "painting.faded_conquest_2.faded_king_portrait.title": "衰落之王肖像",
+  "item.faded_conquest_2.vessel_spawn_spawn_egg": "灾厄魂灵刷怪蛋",
+  "item.faded_conquest_2.calamity_spell_spawn_egg": "灾厄法术刷怪蛋",
+
+  "block.faded_conquest_2.dream_alloy_pillar": "梦想合金支柱",
+  "entity.faded_conquest_2.aero_guardian": "天空守卫者",
+  "entity.faded_conquest_2.summoned_spider": "恶魔蜘蛛",
+  "item.faded_conquest_2.lich_1_spawnegg": "末日巫妖（一阶段）刷怪蛋",
+  "entity.faded_conquest_2.pbdowned": "- ( ☠ 瘟疫使者 ☠ ) -",
+  "entity.faded_conquest_2.blocknight_boot": "践踏方块骑士",
+  "item.faded_conquest_2.mr_void_spawn_egg": "Fc地牢刷怪蛋",
+  "entity.faded_conquest_2.lichspell": "末日巫妖-地穴守护者",
+  "entity.faded_conquest_2.faded_king": "黛洛利恩-衰落之王",
+  "item.faded_conquest_2.toxicrow_spawn_egg": "带毒乌鸦刷怪蛋",
+  "item.faded_conquest_2.faded_kingp_2_spawn_egg": "黛洛利恩-复仇暴君刷怪蛋",
+  "block.faded_conquest_2.unbreakable_bricks": "加固砖",
+  "entity.faded_conquest_2.mr_void": "Fc地牢",
+  "block.faded_conquest_2.etherstone": "以太石头",
+  "item.faded_conquest_2.puny_juggernaut_spawn_egg": "惊骇的小型方块骑士主宰刷怪蛋",
+  "entity.faded_conquest_2.vfx_purple_aura": "Fc地牢",
+  "item.faded_conquest_2.cube_of_calamity_spawn_egg": "灾厄立方体刷怪蛋",
+
+
+  "item.faded_conquest_2.vessel_sword_spawn_egg": "灾厄魂灵刷怪蛋",
+  "block.faded_conquest_2.toxic_sludge": "有毒污泥",
+  "item.faded_conquest_2.plaguebringer_phase_2_spawn_egg": "瘟疫使者（二阶段）刷怪蛋",
+
+  "block.faded_conquest_2.calamity_lamp": "灾厄灯笼",
+  "block.faded_conquest_2.fcspawner": "召唤衰落之王",
+  "item.faded_conquest_2.faded_kingegg": "衰落之王（一阶段）刷怪蛋",
+
+  "entity.faded_conquest_2.terrible_ten": "惊骇的十之方块骑士",
+  "block.faded_conquest_2.chiseled_unbreakable_brick_wall": "强化瓦砖墙",
+
+  "block.faded_conquest_2.dream_alloy_block": "梦想合金方块",
+  "entity.faded_conquest_2.calamity_spell": "灾厄法术",
+  "entity.faded_conquest_2.demon": "灾厄恶魔",
+  "item.faded_conquest_2.poison_spike_b_spawn_egg": "毒刺刷怪蛋",
+  "entity.faded_conquest_2.faded_kingp_2": "黛洛利恩-复仇暴君",
+  "item.faded_conquest_2.blocknight_longarm_spawn_egg": "长臂方块骑士刷怪蛋",
+  "item.faded_conquest_2.vfx_purple_aura_spawn_egg": "Fc地牢刷怪蛋",
+
+  "painting.faded_conquest_2.faded_king_portrait.author": "末影收集器",
+  "block.faded_conquest_2.petrified_branch": "石化枝",
+  "painting.faded_conquest_2.day_after_tommorow.title": "明日之后",
+  "item.faded_conquest_2.war_claymore": "古代战刃",
+  "block.faded_conquest_2.unbreakable_tiles": "强化瓦块",
+  "block.faded_conquest_2.smooth_dream_alloy_block": "抛光梦想合金块",
+  "item.faded_conquest_2.faded_king_spawn_egg": "黛洛利恩-衰落之王刷怪蛋",
+  "fluid.faded_conquest_2.toxic_sludge": "有毒污泥",
+  "block.faded_conquest_2.mimic_chest": "箱子",
+  "entity.faded_conquest_2.whirlwind": "旋风",
+  "block.faded_conquest_2.polished_grimstone": "抛光磨石",
+
+  "item.faded_conquest_2.dormant_cube_spawn_egg": "束缚立方体刷怪蛋",
+  "death.attack.vaporize.player": "%1$s 在试图逃离 %2$s 时被蒸发了",
+  "item.faded_conquest_2.vfx_purple_cloud_item": "添加视觉特效紫色光环",
+  "entity.faded_conquest_2.vessel_spawn": "灾厄魂灵",
+  "item.faded_conquest_2.terrible_ten_spawn_egg": "惊骇的十之方块骑士刷怪蛋",
+  "entity.faded_conquest_2.puny_juggernaut": "惊骇的小型方块骑士主宰",
+  "block.faded_conquest_2.chiseled_unbreakable_bricks": "强化瓦砖",
+  "item.faded_conquest_2.ttphase_2_spawn_egg": "惊骇的十之方块骑士（二阶段）刷怪蛋",
+  "item.faded_conquest_2.blocknight_leaper_spawn_egg": "跳跃方块骑士刷怪蛋",
+  "block.faded_conquest_2.chiseled_dream_alloy": "梦想合金支柱",
+  "entity.faded_conquest_2.the_plauge_bringerp_2": "☠ 异端堕落先知 ☠ ",
+  "item.faded_conquest_2.sensoreffect_spawn_egg": "束缚立方体刷怪蛋"
+}

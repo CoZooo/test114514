@@ -1,0 +1,704 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_5"
+	group: "381A0F9F8CC8976C"
+	icon: "malum:blazing_quartz"
+	id: "34557DCDFAAE7B5F"
+	images: [
+		{
+			alpha: 180
+			color: 14095173
+			height: 12.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 13.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 11.0d
+			x: 8.0d
+			y: -1.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"基础设定：与原版一样用黑曜石围框架，然后点火。"
+				""
+				"&e额外设定：下界需战斗和采掘100级才能进入。"
+				""
+				"&6备注：前往下界时，最好不要让饱食度满，否则一旦受伤自然回复血量时，会大量吸收饮水值。"
+				""
+				"&c特性：通过传送门进入维度后可能会因界面卡住而客户端崩溃，重启游戏即可，在进入后用指路石传送不会出现上述情况。"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:obsidian"
+			id: "3C43624A849355DC"
+			rewards: [
+				{
+					id: "375731A83A8648F6"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "77E8DAA50321ABA6"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6A6B940398BDD145"
+				type: "dimension"
+			}]
+			title: "&c下界之门"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["可利用精魂灌注合成。魔金粒可用金兰花种子复制。佩戴无咒之戒击杀残暴猪灵、凋零骷髅均有几率获得下界合金碎片"]
+			hide_dependency_lines: true
+			id: "0E413CCDD3AA9226"
+			rewards: [{
+				id: "148E9DED40963F62"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3886CF90E2AD39CE"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["利用灵魂提取器右击灵魂沙可获得灵魂。"]
+			hide_dependency_lines: true
+			id: "155904D3A3E74D17"
+			rewards: [{
+				id: "1E76A7072C524003"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "555A54091B5A42EA"
+				item: "forbidden_arcanus:soul"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["利用灵魂提取器右击灵魂沙可获得灵魂。"]
+			hide_dependency_lines: true
+			id: "548EC98755B98165"
+			rewards: [{
+				id: "1E811B6C37ED0C68"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AE2617DCCEA22CC"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:soul_extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "13971AF73FD9E52F"
+			rewards: [
+				{
+					id: "3AB9F0F95EF3955C"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "197C55D0E440204E"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "51DB9BA83D611E09"
+				item: "forbidden_arcanus:dark_nether_star"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["佩戴[无咒之戒]的情况下击杀[凋灵]获得的战利品，通常掉落二至四个。"]
+			hide_dependency_lines: true
+			id: "25632896D7CAD0F4"
+			rewards: [{
+				id: "40F0689127A135F6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43A4B9F29F32B8D4"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"可通过合成获得。"
+				""
+				"或在下界灵魂沙谷的熔岩池上寻找灵魂监狱。"
+			]
+			hide_dependency_lines: true
+			id: "5EFA48749C9942BB"
+			rewards: [{
+				id: "1E821226EFE98B00"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A780BF1337FADD9"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"直接击杀[疣猪兽]可几率获得[疣猪兽粗皮]。"
+				""
+				"&e在召唤祭坛中可召唤[疣猪兽]。召唤需要的材料为疣猪兽粗皮、神圣金锭、下界合金碎片及咒灰，激活工具为博丽的御币。"
+				""
+				"&c疣猪兽是通常生成于绯红森林和堡垒遗迹中的疣猪兽棚，其生成无视亮度影响，且不会在菌光体或下界疣上生成。"
+			]
+			hide_dependency_lines: true
+			id: "30DEF5608F8B81F4"
+			rewards: [{
+				id: "37D6468E10532935"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09E47A412E5DEEAB"
+				item: "irons_spellbooks:hogskin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"安装扫描模块后一定范围内透视特定方块。"
+				""
+				"&e安装[常见矿石]扫描模块可扫描出[符文石]、[神秘水晶矿]等矿石。"
+				""
+				"&6还有更多扫描模块，自行JEI搜索。其中方块扫描模块可以指定方块进行扫描。"
+				""
+				"&c不兼容光影，会导致不显示高亮。"
+			]
+			hide_dependency_lines: true
+			id: "7037880FE4F6B2BC"
+			rewards: [{
+				id: "1C41A57EEC8E0ED9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "15EA33E95F97C08C"
+					item: "scannable:scanner"
+					type: "item"
+				}
+				{
+					id: "79A4F4658E4BFC25"
+					item: "scannable:blank_module"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "1B205B3305F7C8CE"
+			rewards: [{
+				id: "5A1903D2BE367BC1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F8A80AC5657175E"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "4032A4BB0A6ADC2F"
+			rewards: [{
+				id: "56BBCF2441CDC16B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "144AE533A21B21FD"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "5E0B3F03CEFC430D"
+			rewards: [{
+				id: "5A48F6AE8894BF33"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5641E052EE9A3055"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"在肥沃灵魂土上种植两种菌类，一段时间后就会长成对应的菌群。"
+				""
+				"菌群共有四个生长阶段。你可以在它彻底成熟后（长有五个菌盖时）手持剪刀左击以收获整个菌群，不使用剪刀则掉落5个菌类。也可以右击收获单个菌类，并减少一层菌盖（最少保留两个菌盖）。"
+				""
+				"菌群可以加速灵魂堆肥变为肥沃灵魂土的过程。"
+			]
+			hide_dependency_lines: true
+			id: "783D448C56F88EF4"
+			rewards: [{
+				id: "706C6A5C9288AE72"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66A764EA96C48F3F"
+				item: "nethersdelight:crimson_fungus_colony"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"用农夫乐事的刀击杀[疣猪兽]后掉落1张[疣猪兽精皮]，不受抢夺附魔影响。"
+				""
+				"&c疣猪兽是通常生成于绯红森林和堡垒遗迹中的疣猪兽棚，其生成无视亮度影响，且不会在菌光体或下界疣上生成。"
+				""
+				"&e在召唤祭坛中可召唤[疣猪兽]。召唤需要的材料为疣猪兽粗皮、神圣金锭、下界合金碎片及咒灰，激活工具为博丽的御币。"
+				""
+				"&6疣猪兽精皮可主手小刀，然后用法术击杀疣猪兽获得。"
+			]
+			hide_dependency_lines: true
+			id: "3528B177F7FC2F33"
+			rewards: [{
+				id: "5C1DB91F46449DF4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F0AD28A1CCDE56B"
+				item: "nethersdelight:hoglin_hide"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"用剪刀右击采集成熟的枪药草茎顶端掉落。"
+				""
+				"枪药草茎：自然生成于绯红森林群系，也可以由玩家合成。放置后会随机向上生长（最大高度为3格）或在其顶部结出果实。用刀（农夫乐事的）破坏任意部分掉落枪药草杆，用剪刀（不兼容部分模组）右击成熟的果实可采集枪药珠。"
+				""
+				"&6可用骨粉直接催熟获得大量。"
+				""
+				"&c注意：与生物接触，被弹射物击中或不使用刀破坏时将会发生小型爆炸并留下火焰。"
+			]
+			hide_dependency_lines: true
+			id: "5AA99EC8918853E8"
+			rewards: [{
+				id: "2F463D897161F770"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FEFDDF1BE0A6F71"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"在佩戴无咒之戒时击杀恶魂有几率特殊掉落。"
+				""
+				"&6新增在额外地牢的灵魂监狱内有几率发现渡鸦斗篷和灵液滴。灵魂监狱详见树海化章节的额外地牢任务。"
+			]
+			hide_dependency_lines: true
+			id: "4E2B81D4BBD41064"
+			rewards: [{
+				id: "0F7702670EEE020D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30E58C40F600E455"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"凋灵骷髅（10%）或烈焰人（5%）掉落、通过炎风罐提取。"
+				""
+				"在下界滑翔时若携带玻璃罐，则有几率会转化为炎风罐，几率与飞行速度和高度相关。下界最优飞行高度为63。"
+			]
+			hide_dependency_lines: true
+			id: "4942ADA9CED8BAA3"
+			rewards: [{
+				id: "0CF6C3AE62DF6DBD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BC727973BE0891D"
+				item: "locusazzurro_icaruswings:nether_essence"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["击杀岩浆怪或烈焰人均可掉落。"]
+			hide_dependency_lines: true
+			id: "728A42580BC2DB35"
+			rewards: [{
+				id: "67EB09C942E8BD2F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1945929C03DE7D14"
+				item: "reliquary:molten_core"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"杀死诡异末影人（为7星至8星）后掉落。用法和原版的末影珍珠相同，但不会使得玩家受伤且在落地后获得5秒的缓降效果。"
+				""
+				"&6会大量生成在诡异森林的中心堡垒处。可用探险家指南针搜索“Citadel”找到。"
+			]
+			hide_dependency_lines: true
+			id: "6ECCC7F49C85C953"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F22546E93A6836B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "152DA4EBDEB8C5A6"
+				item: "bygonenether:warped_ender_pearl"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"将[下界佳肴]右击投喂给[猪灵]交易获得。"
+				""
+				"&c要想让猪灵变为中立，只能佩戴[无尽贪婪契约]。"
+			]
+			hide_dependency_lines: true
+			id: "5260CA6A893C3778"
+			rewards: [{
+				id: "18E11D015E1DBE7F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D9D3DB0BF083A6B"
+				item: "crockpot:cooked_hoglin_nose"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"用行刑者之斧击杀凋零骷髅更容易获得凋灵骷髅头颅。"
+				""
+				"&6在墓园（Graveyard）模组的建筑中有几率找到凋零骷髅刷怪笼。"
+				""
+				"&c用PMMO分解凋零枯骨有几率获得凋零骷髅刷怪蛋。"
+				""
+				"&e在下界远古战场内会刷新残缺凋灵，击杀也有几率获得凋零骷髅头颅（不兼容行刑者之斧）。可用探险家指南针搜索“Ancient Battleground”找到下界远古战场。"
+				""
+				"&3新增非玩家击杀凋零骷髅时会有额外5%几率掉落。"
+			]
+			hide_dependency_lines: true
+			id: "061B27D690428584"
+			rewards: [{
+				id: "585A41155CCFEFDA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0645035E3E6DD745"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["击杀在[下界要塞]生成的[要塞守卫]可获得。"]
+			hide_dependency_lines: true
+			id: "20E7FDFE32936B3F"
+			rewards: [{
+				id: "6C6BEB45143E769A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32E517C9B0069BFE"
+				item: "hmag:burning_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["击杀部分娘化的怪物可获得。"]
+			hide_dependency_lines: true
+			id: "1B7DE07CB1F00B41"
+			rewards: [{
+				id: "0D26601B5306251B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30263E4B540F5412"
+				item: "hmag:necrofiber"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"击杀绯红屠戮者可获得。"
+				""
+				"&6绯红屠戮者无视亮度生成在绯红森林生物群系，在超级血月也会生成。"
+			]
+			hide_dependency_lines: true
+			id: "2FC5C67AD7011A23"
+			rewards: [{
+				id: "3F2B52FA9534030D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64B0CBEF9948DC25"
+				item: "hmag:crimson_cuticula"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"通过在下界维度中击杀下界铁掌获得。在击杀下界铁掌Boss后，会在Boss死亡处生成一个箱子，箱子中必定包含一个烈焰之眼。"
+				""
+				"&6详见天顶巨兽章节。龙前不好打。"
+			]
+			hide_dependency_lines: true
+			id: "33BED217F7CB0931"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "494BC3633255B225"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "548776CD1BE5EE0E"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"湿熔岩绵自然生成于下界岩浆海底，利用锄开采效率最高。将湿熔岩绵放入水里面可变回熔岩绵。熔岩绵可吸收周围的熔岩变为湿熔岩绵。"
+				""
+				"&6此外，击杀下界铁掌可获得熔岩绵。"
+			]
+			hide_dependency_lines: true
+			id: "648B98E9690D47CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "090C0CC80AE42F8D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A009F59C35801BC"
+				item: "netherdepthsupgrade:lava_sponge"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "4CFD1AB7A1DCAD4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B755ED12DC8B702"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "713C691D7798D854"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: ["击杀下界铁掌的宝箱内会有。用来召唤惊骇恶魂。"]
+			hide_dependency_lines: true
+			id: "0376957E59E49473"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45408FBE613CFCA3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4544A397BDBA86EA"
+				item: {
+					Count: 1
+					id: "yuusha:chaos_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			hide_dependency_lines: true
+			id: "5078EEE4FED07AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FC8EAE643651780"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49A54797A78607BD"
+				item: "confluence:demon_heart"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C43624A849355DC"]
+			description: [
+				"手持荧石块右击即可充能，储能量最大为4，空手右击已充能的重生锚即可在下界设置重生点（在主世界和末地这么做会产生爆炸和火焰，类似在下界和末地使用床）。"
+				""
+				"每次重生消耗1点能量，能量耗尽后重生点失效。重生锚也可用发射器发射荧石补充能量。"
+			]
+			hide_dependency_lines: true
+			id: "247C7EA15BD9B5D9"
+			rewards: [{
+				id: "13EA4920F4EECC81"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D86A19D7831F649"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["&9『下界』"]
+	title: "&6※ 下界炼狱"
+}

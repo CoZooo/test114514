@@ -1,0 +1,57 @@
+{
+  "type": "avaritia:shapeless_extreme_craft",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "crockpot:asparagus"
+    },
+    {
+      "item": "crockpot:corn"
+    },
+    {
+      "item": "crockpot:eggplant"
+    },
+    {
+      "item": "crockpot:garlic"
+    },
+    {
+      "item": "crockpot:pepper"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersrespite:rose_hips"
+    },
+    {
+      "item": "farmersrespite:coffee_cake_slice"
+    },
+    {
+      "item": "farmersdelight:cake_slice"
+    },
+    {
+      "item": "grimoireofgaia:golden_apple_pie_slice"
+    },
+    {
+      "item": "youkaishomecoming:soybean"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "avaritia:neutron_nugget"
+    }
+  ],
+  "result": {
+    "item": "avaritia:ultimate_stew"
+  }
+}

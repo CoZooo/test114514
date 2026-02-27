@@ -1,0 +1,25 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "eidolon:offering_incense"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    }
+  ],
+  "output": {
+    "item": "eidolon:holy_symbol"
+  },
+  "tablet": {
+    "item": "eidolon:gold_inlay"
+  }
+}

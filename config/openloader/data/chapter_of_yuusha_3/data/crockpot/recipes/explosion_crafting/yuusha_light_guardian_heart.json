@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:light_guardian_heart"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:light_guardian_heart"
+}

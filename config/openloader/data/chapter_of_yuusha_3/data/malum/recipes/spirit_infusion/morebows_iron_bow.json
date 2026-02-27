@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "item": "minecraft:iron_block",
+      "count": 1
+    },
+    {
+      "item": "hmag:evil_crystal_upgrade_smithing_template",
+      "count": 1
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:copper_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "morebows:iron_bow"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 2
+    },
+    {
+      "type": "earthen",
+      "count": 2
+    }
+  ]
+}

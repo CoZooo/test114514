@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "morebows:enderite_bow",
+    "count": 1
+  },
+  "wissen": 8000,
+  "ingredients": [
+    {
+      "item": "morebows:gilded_netherite_bow"
+    },
+    {
+      "item": "stalwart_dungeons:ancient_fire"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    }
+  ]
+}

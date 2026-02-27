@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "crockpot:volt_goat_horn"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "crockpot:volt_goat_horn"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    }
+  ],
+  "result": {
+    "item": "goety:thunderbolt_focus"
+  }
+}

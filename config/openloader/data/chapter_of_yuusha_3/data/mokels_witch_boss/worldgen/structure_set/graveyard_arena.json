@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mokels_witch_boss:graveyard_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 421222926
+  }
+}

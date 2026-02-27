@@ -1,0 +1,12 @@
+{
+	"objectives": [
+		"fletcher_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"fletcher_rews",
+		"_all_rews",
+		"darkstone_upgrade_smithing_template_rews",
+		"angelheart_vial"
+	]
+}

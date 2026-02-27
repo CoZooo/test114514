@@ -1,0 +1,10 @@
+{
+	"defense_style":{
+		"yuusha":5
+	},
+	"defense_element":{
+		"god":5,
+		"fire":5,
+		"normal":10
+	}
+}

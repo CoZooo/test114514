@@ -1,0 +1,19 @@
+{
+  "slot": "pgp:attachment/slot/z750scope",
+  "model": "pgp:attachment/z750scope_geo",
+  "texture": "pgp:attachment/uv/z750scope",
+  "lod": {
+    "model": "pgp:attachment/lod/z750scope_geo",
+    "texture": "pgp:attachment/lod/z750scope"
+  },
+  "zoom": [
+    2.0,
+    2.0
+  ],
+  "scope": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "pgp:attachments/scope_general_d",
+    "uninstall": "pgp:attachments/scope_general_d"
+  }
+}

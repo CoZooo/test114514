@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "morebows:gilded_netherite_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 80000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "apotheosis:infused_breath"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "apotheosis:infused_breath"
+    },
+    {
+      "item": "yuusha:ignitium_star"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+    }
+  ],
+  "result": {
+    "item": "enigmaticaddons:dragon_bow"
+  }
+}

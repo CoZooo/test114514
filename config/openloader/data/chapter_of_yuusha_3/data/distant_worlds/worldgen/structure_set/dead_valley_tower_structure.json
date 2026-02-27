@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "distant_worlds:dead_valley_tower_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "salt": 2076432007
+  }
+}

@@ -1,0 +1,9 @@
+
+["Goety Iron Spell Config"]
+	necromancerFocusCastTime = 20
+	necromancerFocusSoulsCost = 25
+	necromancerFocusCooldown = 8
+	fieryFocusCastTime = 20
+	fieryFocusSoulsCost = 50
+	fieryFocusCooldown = 8
+

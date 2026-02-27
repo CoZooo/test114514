@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10.0,
+              "add": false
+            }
+          ],
+          "name": "netherdepthsupgrade:warped_kelp",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10.0,
+              "add": false
+            }
+          ],
+          "weight": 10,
+          "name": "netherdepthsupgrade:warped_seagrass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "netherdepthsupgrade:fortress_grouper_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "netherdepthsupgrade:eyeball"
+        }
+      ]
+    }
+  ]
+}

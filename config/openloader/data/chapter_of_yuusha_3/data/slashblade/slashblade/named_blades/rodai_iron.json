@@ -1,0 +1,23 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:rodai_iron",
+  "properties": {
+    "attack_base": 22.0,
+    "max_damage": 44,
+    "slash_art": "ak:king"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 10196425,
+    "texture": "slashblade:model/rodai_iron.png"
+  }
+}

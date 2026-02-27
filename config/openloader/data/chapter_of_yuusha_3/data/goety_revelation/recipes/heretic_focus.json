@@ -1,0 +1,51 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_10"
+  },
+  "craftType": "adept_nether",
+  "soulCost": 20000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:infernal_tome"
+    },
+    {
+      "item": "yuusha:ancient_aether_shard"
+    },
+    {
+      "item": "goety:infernal_tome"
+    },
+    {
+      "item": "yuusha:ancient_aether_shard"
+    },
+    {
+      "item": "apotheosis:ancient_material"
+    },
+    {
+      "item": "apotheosis:ancient_material"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "depthcrawler:corruptingot"
+    },
+    {
+      "item": "depthcrawler:corruptingot"
+    },
+    {
+      "item": "depthcrawler:corruptingot"
+    },
+    {
+      "item": "depthcrawler:corruptingot"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:heretic_focus"
+  }
+}

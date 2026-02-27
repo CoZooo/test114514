@@ -1,0 +1,13 @@
+{
+  "requirements": {
+    "PLACE": { "flying": 10 },
+	"INTERACT": { "flying": 10 },
+	"TOOL": { "flying": 10 },
+	"USE": { "flying": 10 }
+  },
+  "negative_effect": 
+    { 
+	"apotheosis_modern_ragnarok:freeze": 4, 
+	"aetherworks:pulldown": 4
+	}
+}

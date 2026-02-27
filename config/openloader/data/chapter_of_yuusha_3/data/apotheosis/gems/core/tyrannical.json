@@ -1,0 +1,110 @@
+{
+	"variant": "tyrannical",
+	"weight": 10,
+	"quality": 0,
+	"unique": true,
+	"dimensions": [
+		"infinite_abyss:sixth_layer",
+		"minecraft:overworld",
+		"minecraft:the_nether",
+		"minecraft:the_end"
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "obscure_api:critical_hit",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.04,
+				"uncommon": 0.06,
+				"rare": 0.08,
+				"epic": 0.10,
+				"mythic": 0.12,
+				"ancient": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "obscure_api:critical_hit",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.04,
+				"uncommon": 0.06,
+				"rare": 0.08,
+				"epic": 0.10,
+				"mythic": 0.12,
+				"ancient": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate", "leggings"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "ADDITION",
+			"values": {
+				"common": 10,
+				"uncommon": 12,
+				"rare": 14,
+				"epic": 16,
+				"mythic": 18,
+				"ancient": 20
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.1,
+				"uncommon": 0.2,
+				"rare": 0.3,
+				"epic": 0.4,
+				"mythic": 0.5,
+				"ancient": 1.0
+			}
+		},
+        {
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "obscure_api:critical_hit",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.04,
+				"uncommon": 0.06,
+				"rare": 0.08,
+				"epic": 0.10,
+				"mythic": 0.12,
+				"ancient": 0.15
+			}
+		}
+	]
+}

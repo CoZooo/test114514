@@ -1,0 +1,74 @@
+{
+  "additional_requirements": {
+	"enhancers": [
+      "forbidden_arcanus:divine_pact"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 8000,
+    "blood": 40000,
+    "experience": 3000,
+    "souls": 400
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_helmet"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:ender_rod"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_chestplate"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:ender_rod"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_leggings"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:ender_rod"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_boots"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:ender_rod"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "yuusha:madoka_law_shard"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticaddons:etherium_core"
+    }
+  }
+}

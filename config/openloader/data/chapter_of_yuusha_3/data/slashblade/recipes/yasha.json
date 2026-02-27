@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:yasha",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "proud_soul": 1000
+      }
+    },
+    "C": {
+      "item": "eidolon:illwood_leaves"
+    },
+    "G": {
+      "item": "minecraft:oxidized_copper"
+    },
+    "L": {
+      "item": "minecraft:blackstone"
+    },
+    "P": {
+      "item": "crabbersdelight:pearl"
+    },
+    "Q": {
+      "item": "wizards_reborn:nether_salt_block"
+    },
+    "R": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "pattern": [
+    "PRQ",
+    "RL ",
+    "BGC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

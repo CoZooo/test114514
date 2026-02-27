@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    }
+  ],
+  "output": {
+    "item": "goety:night_beacon",
+	"count": 1
+  },
+  "tablet": {
+    "item": "castle_in_the_sky:fake_beacon"
+  }
+}

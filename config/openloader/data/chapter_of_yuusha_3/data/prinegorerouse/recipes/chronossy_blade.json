@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:chronossy_blade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "ak:dragon_cross"
+    },
+    "B": {
+      "item": "slashblade:proudsoul"
+    },
+    "C": {
+      "item": "yuusha:dragon_heart"
+    }
+  },
+  "pattern": [
+    " BC",
+    "BAB",
+    "CB "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

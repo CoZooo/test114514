@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "yuusha:sirenhead_pearl"
+  },
+  "output": {
+    "item": "moonstone:cell_dna_suppression",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 1
+    },
+    {
+      "type": "arcane",
+      "count": 1
+    },
+    {
+      "type": "wicked",
+      "count": 1
+    },
+    {
+      "type": "eldritch",
+      "count": 1
+    }
+  ]
+}

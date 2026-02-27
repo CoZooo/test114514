@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:blue",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "I": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "L": {
+      "item": "locusazzurro_icaruswings:linen_string"
+    },
+    "S": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 100
+      }
+    }
+  },
+  "pattern": [
+    "BCI",
+    "CI ",
+    "SL "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

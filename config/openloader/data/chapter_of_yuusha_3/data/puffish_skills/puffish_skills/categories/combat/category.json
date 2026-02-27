@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": false,
+	"title": "战斗",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "distant_worlds:firon_sword"
+		}
+	},
+	"background": "textures/block/fire_coral_block.png"
+}

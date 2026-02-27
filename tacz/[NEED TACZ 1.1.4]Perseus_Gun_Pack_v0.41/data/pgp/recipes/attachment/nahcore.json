@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "embers:focal_lens"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "faded_conquest_2:eye_of_the_storm"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:nahcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

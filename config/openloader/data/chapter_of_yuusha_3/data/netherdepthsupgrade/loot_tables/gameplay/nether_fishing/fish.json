@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:searing_cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:glowdine"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:wither_bonefish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:lava_pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:bonefish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:obsidianfish"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:magmacubefish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:soulsucker"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:eyeball_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:fortress_grouper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "netherdepthsupgrade:blazefish"
+        }
+      ]
+    }
+  ]
+}

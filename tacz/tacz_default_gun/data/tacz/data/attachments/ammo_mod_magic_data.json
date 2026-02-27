@@ -1,0 +1,18 @@
+{
+  "weight": 0.6,
+  "ads": {
+    // 加数（多个配件的数值相加，作为第一个乘区）
+    "addend": 0.02
+  },
+  "pierce": {
+    "function": "if (x > 0) then y = x + 8 else y = x + 8 end"
+  },
+  "armor_ignore": {
+    "multiplier": 0
+  },
+  "damage": {
+    "multiplier": 2.5
+  },
+  // 扩容弹夹（匣）等级
+  "extended_mag_level": 3
+}

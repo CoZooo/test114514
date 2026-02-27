@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "distant_worlds:dalite_crystal"
+    }
+  ],
+  "result": {
+    "item": "distant_worlds:dalite_nugget",
+    "count": 5
+  }
+}
+

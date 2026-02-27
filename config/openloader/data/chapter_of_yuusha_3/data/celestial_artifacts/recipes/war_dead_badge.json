@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "itemToggle",
+        "war_dead_badge"
+      ],
+      "path": "celestial_configs/celestial_artifacts-common.toml"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "celestial_core:fire_essence"
+    },
+    "B": {
+      "item": "celestial_core:death_essence"
+    },
+    "C": {
+      "item": "stalwart_dungeons:void_crystal"
+    },
+    "D": {
+      "item": "yuusha:calamity_ingot"
+    },
+    "E": {
+      "item": "angelcraft_bosses:recompensa_boss"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "BEA",
+    "DCD"
+  ],
+  "result": {
+    "item": "celestial_artifacts:war_dead_badge"
+  },
+  "show_notification": true
+}

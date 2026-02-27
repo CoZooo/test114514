@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_basic"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "aetherworks:suevite"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "embers:raw_lead"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:moss_block"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:budding_amethyst"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

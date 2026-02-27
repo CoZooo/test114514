@@ -1,0 +1,8 @@
+{
+  "name": "eos.gun.chasing_light.name",
+  "display": "eos:chasing_light_display",
+  "data": "eos:chasing_light_data",
+  "type": "rifle",
+  "tooltip": "eos.gun.chasing_light.desc",
+  "sort": 16
+}

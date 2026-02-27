@@ -1,0 +1,40 @@
+{
+  "type": "crockpot:piglin_bartering",
+  "ingredient": {
+    "item": "grimoireofgaia:trader_token"
+  },
+  "results": [
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "majruszsaccessories:gambling_card",
+      "weight": 85
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "majruszsaccessories:removal_card",
+      "weight": 5
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "majruszsaccessories:reverse_card",
+      "weight": 5
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "eidolon:crimson_gem",
+      "weight": 5
+    }
+  ]
+}

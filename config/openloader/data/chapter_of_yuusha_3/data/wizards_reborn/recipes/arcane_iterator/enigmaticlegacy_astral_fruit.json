@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "enigmaticlegacy:astral_fruit",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "distant_worlds:glistering_garsale_fruit"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    }
+  ]
+}

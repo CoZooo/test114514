@@ -1,0 +1,6 @@
+{
+	"name": "特别感谢",
+	"description": "此类别包含有关那些已经成为遥远世界模组的一部分的特殊条目。",
+	"icon": "distant_worlds:textures/screens/special_thanks_icon.png",
+	"sortnum": 3
+}

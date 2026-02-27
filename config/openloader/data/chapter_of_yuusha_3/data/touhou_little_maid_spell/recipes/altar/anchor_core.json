@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:anchor_core",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.45,
+  "ingredients": [
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "aetherworks:aether_amalgam"
+    },
+    {
+      "item": "avaritia:infinity_catalyst"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    }
+  ]
+}

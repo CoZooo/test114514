@@ -1,0 +1,11 @@
+{
+  "tooltip.tacz.attachment.yaw.decrease": "- 水平后坐力",
+  "tooltip.tacz.attachment.yaw.increase": "+ 水平后坐力",
+  "tooltip.tacz.attachment.pitch.decrease": "- 竖直后坐力",
+  "tooltip.tacz.attachment.pitch.increase": "+ 竖直后坐力",
+
+
+	"block.tacz.statue": "石制神像",
+	"item.tacz.ammo_box.all_type_creative": "全类型无尽弹药盒",
+	"attribute.name.tacz.bullet_resistance": "枪械抗性"
+}

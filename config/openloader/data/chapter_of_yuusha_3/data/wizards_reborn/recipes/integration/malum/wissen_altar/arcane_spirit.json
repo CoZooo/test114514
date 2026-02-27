@@ -1,0 +1,7 @@
+{
+  "type": "wizards_reborn:wissen_altar",
+  "ingredient": {
+    "item": "avaritia:neutron_nugget"
+  },
+  "wissen": 1800
+}

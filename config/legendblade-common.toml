@@ -1,0 +1,35 @@
+#Whether to enable abnormal damage repair
+#是否启用平衡捍卫者
+open_damege_fix = false
+#The forging number affects the sa and se ratio, with a default forging ratio of 1 and an additional ratio of 0.1
+#锻数影响sa倍率，默认1锻造：0.1额外倍率（已不再维护）
+damegeadd = 0.1
+#damegeadd max if 0 is off
+#锻造数影响倍率上限，0为关闭（已不在维护）
+damegeaddmax = 0.0
+#seven sword kill or no kill
+#魔刀sa是否靠杀敌启动
+sevenbladeskill = true
+#soul crystal loot
+#魂缚晶的掉落要求血量（看基础值）
+soul_crystal = 200.0
+#damage repair distance max
+#平衡捍卫者最大削减
+distance = 5.0
+#damage repair distance min
+#平衡捍卫者削减
+blanke_damage_amount = 0.2
+#Can the sword that uses the combo system receive damage increase from the combo system?
+#使用到连击系统的拔刀剑是否能收到连击系统增伤
+comboadd = false
+#Extra drop configuration item for soul crystal (algorithm based on monster's maximum health - required health)/This configuration item
+#魂缚晶的额外掉落配置项（算法为怪物最大血量-要求血量）/本配置项
+soul_crystal_extra = 50.0
+#Extra drop configuration item for Soul Binding Crystals (algorithm based on monster's maximum health - required health)/This configuration item
+#魂缚晶一次最多能掉多少
+soul_crystal_extra_max = 10.0
+#魂缚晶增幅多少杀敌数
+soul_crystal_add_kill_count = 100.0
+#魂缚晶增幅多少耀魂数
+soul_crystal_add_proud_soul_count = 300.0
+

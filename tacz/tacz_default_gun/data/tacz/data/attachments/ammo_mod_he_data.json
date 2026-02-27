@@ -1,0 +1,10 @@
+{
+  "weight": 0.6,
+  "explosion": {
+    "explode": true
+  },
+  "damage": {
+    "multiplier": 8.0
+  },
+  "extended_mag_level": 3
+}

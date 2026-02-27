@@ -1,0 +1,34 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:nihilbx",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "slashblade_addon:crimsoncherry",
+        "refine": 5
+      }
+    },
+    "D": {
+      "item": "moonstone:blood_jelly"
+    },
+    "B": {
+      "item": "eeeabsmobs:heart_of_pagan"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    }
+  },
+  "pattern": [
+    "DSD",
+    "BCB",
+    "DSD"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

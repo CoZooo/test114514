@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_void",
+  "spawners": {
+    "type": "luminous_halloween:pumpkin_minion",
+    "weight": 0,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

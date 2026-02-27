@@ -1,0 +1,31 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:nihilul",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade_addon:nihilex",
+        "proud_soul": 20000,
+        "refine": 2
+      }
+    },
+    "P": {
+      "item": "malum:auric_embers"
+    },
+    "S": {
+      "item": "goety_cataclysm:abyss_essence"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "SBS",
+    "PSP"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

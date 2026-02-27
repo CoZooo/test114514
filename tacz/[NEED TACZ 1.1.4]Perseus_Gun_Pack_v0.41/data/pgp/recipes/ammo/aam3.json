@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gems/emerald"
+      },
+      "count":8
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "pgp:aam_lv3",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

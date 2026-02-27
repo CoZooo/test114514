@@ -1,0 +1,7 @@
+{
+	"effect.eeeabsmobs.erode_effect": "朽蚀",
+	"item.eeeabsmobs.immortal_sword.tip": "赋予被攻击者朽蚀状态",
+	
+	"effect.eeeabsmobs.vertigo_effect": "朽化",
+	"effect.eeeabsmobs.vertigo_effect.description": "朽化期间无法使用物品与放置方块、攻击生物与破坏方块、移动与转动视角。"
+}

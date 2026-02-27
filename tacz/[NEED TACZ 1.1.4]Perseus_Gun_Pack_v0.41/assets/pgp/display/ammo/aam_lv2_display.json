@@ -1,0 +1,28 @@
+{
+  "slot": "pgp:ammo/slot/aam_lv2",
+  // 子弹实体模型和贴图
+  "entity": {
+    "model": "pgp:ammo_entity/sasr_entity_geo_",
+    "texture": "pgp:ammo_entity/sasr_entity_"
+  },
+  "tracer_color": "#75d147",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "ground": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fixed": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

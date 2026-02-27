@@ -1,0 +1,9 @@
+{
+  "name": "eos.gun.elp_72_t3.name",
+  "display": "eos:elp_72_t3_display",
+  "data": "eos:elp_72_t3_data",
+  "tooltip": "eos.gun.elp_72_t3.desc",
+  "type": "shotgun",
+  "item_type": "modern_kinetic",
+  "sort": 16
+}

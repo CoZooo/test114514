@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "distant_worlds:layered_mud"
+  },
+  "to": {
+    "item": "distant_worlds:lifeless_grass"
+  }
+}

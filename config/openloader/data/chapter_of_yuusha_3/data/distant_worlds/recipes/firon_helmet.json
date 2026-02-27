@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "call_of_yucutan:jades_helmet"
+  },
+  "addition": {
+    "item": "distant_worlds:firon_block"
+  },
+  "result": {
+    "item": "distant_worlds:firon_helmet"
+  },
+  "template": {
+    "item": "stalwart_dungeons:awful_crystal"
+  }
+}

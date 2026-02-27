@@ -1,0 +1,8 @@
+{
+    "bonus":{
+        "BIOME":{
+            "excavation": 1.5,
+		    "farming": 0.75
+        }
+    }
+}

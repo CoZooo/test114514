@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BAB",
+    "CFC",
+    "BCB"
+  ],
+  "reagents": "DDDD",
+  "key": {
+    "A": {
+      "item": "infinite_abyss:violet_diamond_block"
+    },
+    "B": {
+      "item": "goety:occult_fabric"
+    },
+    "C": {
+      "item": "minecraft:blue_wool"
+    },
+    "D": {
+      "item": "infinite_abyss:vicerite_crystal"
+    },
+    "F": {
+      "item": "arcalis_bosses:jacks_hat_helmet"
+    }
+  },
+  "result": {
+    "item": "arcalis_bosses:cursed_pirate_hat"
+  }
+}

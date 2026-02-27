@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "chapter_of_yuusha_3_core:task_expert"
+    }
+  ],
+  "result": [
+    {
+      "item": "touhou_little_maid:owner_conversion_tool",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "item": "goety_revelation:dimensional_will"
+  }
+}

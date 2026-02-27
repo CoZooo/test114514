@@ -1,0 +1,10 @@
+{
+  "type": "aether:enchanting",
+  "category": "enchanting_misc",
+  "cookingtime": 2400,
+  "experience": 100.0,
+  "ingredient": {
+    "tag": "mutantmonsters:loot_item"
+  },
+  "result": "yuusha:mutant_cube"
+}

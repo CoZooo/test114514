@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "crockpot:netherosia": {
+            "salvageMax": 8,
+            "baseChance": 0.5,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.005
+            },
+            "levelReq": {
+                "smithing": 100
+            },
+            "xpPerItem": {
+                "smithing": 2500
+            }
+        }
+    }
+}

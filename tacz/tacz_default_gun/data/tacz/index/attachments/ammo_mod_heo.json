@@ -1,0 +1,7 @@
+{
+  "name": "tacz.attachment.ammo_mod_heo.name",
+  "display": "tacz:ammo_mod_heo_display",
+  "data": "tacz:ammo_mod_heo_data",
+  "tooltip": "tacz.attachment.ammo_mod_heo.desc",
+  "type": "extended_mag"
+}

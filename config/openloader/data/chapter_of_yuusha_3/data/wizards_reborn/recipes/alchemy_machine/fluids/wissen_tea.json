@@ -1,0 +1,31 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputFluid": {
+    "fluid": "wizards_reborn:wissen_tea",
+    "amount": 1000
+  },
+  "steam": 150,
+  "ingredients": [
+    {
+      "item": "wizards_reborn:petals"
+    },
+    {
+      "item": "wizards_reborn:petals"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "minecraft:water",
+      "amount" : 1000
+    }
+  ]
+}

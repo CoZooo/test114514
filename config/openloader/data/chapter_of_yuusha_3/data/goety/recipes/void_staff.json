@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "end",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "goety:void_block"
+    }
+  ],
+  "result": {
+    "item": "goety:void_staff"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "yuusha_plant"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:wheat_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "output": "minecraft:melon_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "output": "minecraft:pumpkin_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "output": "minecraft:beetroot_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "output": "minecraft:potato",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    },
+    {
+      "output": "minecraft:carrot",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      }
+    }
+  ]
+}

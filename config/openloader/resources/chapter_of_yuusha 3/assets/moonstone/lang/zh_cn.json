@@ -1,0 +1,217 @@
+{
+	"entity.moonstone.small_zombie": "小型细胞僵尸",
+
+	"item.plague.tool.string.un": "可自由穿戴和脱下",
+
+	"item.moonstone.tool.string.sword": "鼠标移上去右击开关飞剑功能",
+	"item.moonstone.tooltips.off": "飞剑功能已开启",
+	"item.moonstone.tooltips.on": "飞剑功能已关闭",
+
+	"item.nightmare_base_black_eye_eye.tool.string.2": "当你看向任意生物时，你会获得20%的全伤害加成",
+
+	"item.nine_sword_book.tool.string.7": "下一次斩击会造成（快捷栏内所有剑类武器伤害的总和）的生命值",
+	"item.nine_sword_book.tool.string.8": "冷却时间 5 秒",
+	
+	"item.nightmare_base.tool.string": "近战伤害、生命值、护甲 -30%",
+
+	"item.moonstone.god_ambush": "漂流发酵「类神」",
+	"item.moonstone.god_putrefactive": "腐败抗性「类神」",
+	"item.moonstone.god_fermentation": "埋伏性狩猎「类神」",
+	"item.moonstone.god_autolytic": "自溶性抑制「类神」",
+	"item.moonstone.god_regenerative": "再生活性化「类神」",
+
+  "item.nightmare_base_stone.tool.string.1": "下列物品不再通过此饰品解锁",
+  "item.nightmare_base_black_eye.tool.string.1": "下列物品不再通过此饰品解锁",
+
+  "item.moonstone.germ": "远古细菌",
+  "item.moonstone.fungus": "远古真菌",
+  "item.moonstone.virus": "远古病毒",
+  "item.moonstone.parasite": "渊碎灵质虫",
+  
+  "item.nightmare_base_stone_brain.tool.string": "满血时全伤害 -100%",
+  "item.nightmare_base_stone_brain.tool.string.1": "非满血时全伤害 +50%",
+  "item.nightmare_base_stone_brain.tool.string.2": "非满血时抗性 +50%",
+
+  "item.nightmare_base_stone_virus.tool.string": "近战伤害 +100%",
+  "item.nightmare_base_stone_virus.tool.string.1": "治疗效果 +100%",
+  "item.nightmare_base_stone_virus.tool.string.2": "近战必杀伤害 +100%",
+  "item.malice_die.tool.string.2": "+3.3% 近战伤害",
+  "item.malice_die.tool.string.3": "+3% 生命恢复",
+  "item.malice_die.tool.string.4": "+2.7% 速度",
+  "item.malice_die.tool.string.5": "+2.5% 攻击速度",
+  "item.malice_die.tool.string.6": "+2% 护甲",
+  "item.malice_die.tool.string.7": "+1.7% 近战必杀伤害",
+  "item.soulbattery.tool.string": "+25％ 近战必杀伤害",
+  "attribute.name.moonstone.cit": "近战必杀伤害",
+  "attribute.name.moonstone.hurt": "受到伤害",
+
+  "item.mummification.tool.string": "有效抑制僵尸的腐化速度，但是会减低僵尸20%的攻击伤害",
+  
+
+  "item.nightmare_base_insight_insane.tool.string": "在击杀生物后同时获得以下两种效果：",
+  "item.nightmare_base_insight_insane.tool.string.1": "①根据所击杀生物的强度恢复玩家生命值",
+  "item.nightmare_base_insight_insane.tool.string.2": "②下一次造成伤害时全伤害提升50%",
+
+	"item.universe.tool.string": "佩戴时 +10% 全伤害，造成伤害后才会进入森罗万象状态，持续5秒",
+	"item.universe.tool.string.1": "森罗万象：每造成一种不同类型的伤害会叠加一层万象之忆",
+	"item.universe.tool.string.2": "万象之忆：每层 +5% 全伤害，攻击会刷新森罗万象持续时间",
+	
+  "attribute.name.moonstone.all_attack": "全伤害",
+
+  "item.max_sword.tool.string.2": "下一次攻击将造成4倍伤害",
+
+	"item.immortal.tool.string.5": "深渊和噩梦物品无效化，需看该饰品的物品描述是否说明属于深渊或噩梦",
+
+	"moonstone.nightmare.name": "这个物品需同时佩戴「深渊之眼」饰品才能使用和生效",
+
+  "item.fermentation.tool.string": "玩家攻击时造成的单次伤害提升至原来的500％",
+  "item.fermentation.tool.string.1": "在造成伤害后会进入5秒冷却时间",
+  "item.fermentation.tool.string.2": "在冷却时间内，玩家全伤害降低至原来的15％",
+  "item.fermentation.tool.string.3": "· 病原体依然保有狩猎的本能，这使它们能耐心等待，并给予致命一击！",
+
+	"item.nightmare_head.tool.string.7": "可自由穿戴和脱下",
+
+  "moonstone.jei.item.moonstone.nightmare_base_fool_betray": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_fool_bone": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_fool_soul": "获取方式详见物品说明",
+
+  "moonstone.jei.item.moonstone.nightmare_base_start_power": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_start_egg": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_start_pod": "获取方式详见物品说明",
+
+  "moonstone.jei.item.moonstone.nightmare_base_insight_drug": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_insight_insane": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_insight_collapse": "获取方式详见物品说明",
+
+	"moonstone.jei.item.moonstone.owner_blood_vex": "血珠击中后会恢复主人的生命值\n其数值取决于血灵增生体的伤害\n血灵增生体的伤害降低3点",
+	"moonstone.jei.item.moonstone.owner_blood_earth": "血灵增生体不会再攻击\n但会变成一个超级磁铁，它不仅可以吸引生物和掉落物并且还可以吸引然后吞噬弹射物\n吞噬弹射物恢复主人生命值\n\n你可以用来运送村民或者干什么别的",
+	"moonstone.jei.item.moonstone.owner_blood_effect_eye": "血球会在击中时附加大量的负面效果\n减少50%血珠伤害",
+	"moonstone.jei.item.moonstone.owner_blood_effect_eye": "血球会在击中时附加大量的负面效果\n减少50%血珠伤害",
+	"moonstone.jei.item.moonstone.owner_blood_boom_eye": "血球会在击中时爆炸\n减少20%血珠速度\n增加200%血灵增生体的攻击间隔\n每次爆炸都相当于你发起了攻击\n\n我觉得你应该穿点防爆的东西....",
+	"moonstone.jei.item.moonstone.owner_blood_speed_eye": "减少50%血灵增生体的攻击间隔\n增加300%血珠速度\n但是发射的血珠不再会追踪生物",
+	"moonstone.jei.item.moonstone.owner_blood_attack_eye": "增加10%血灵增生体的攻击间隔\n增加20%血灵伤害",
+	"moonstone.jei.item.moonstone.owner_blood_eye": "减少20%血灵增生体的攻击间隔”",
+
+	"moonstone.jei.item.moonstone.nightmare_base.all": " ",
+
+  "moonstone.jei.item.moonstone.nightmare_base_redemption_deception": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_redemption_degenerate": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_redemption_down_and_out": "获取方式详见物品说明",
+
+  "moonstone.jei.item.moonstone.nightmare_base_reversal_card": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_reversal_mysterious": "获取方式详见物品说明",
+  "moonstone.jei.item.moonstone.nightmare_base_reversal_orb": "获取方式详见物品说明",
+  
+	"moonstone.jei.item.moonstone.nightmare_base_black_eye_heart": "获取方式详见物品说明",
+	"moonstone.jei.item.moonstone.nightmare_base_black_eye_eye": "获取方式详见物品说明",
+	"moonstone.jei.item.moonstone.nightmare_base_black_eye_red": "获取方式详见物品说明",
+
+	"moonstone.jei.item.moonstone.nightmare_base_stone_brain": "获取方式详见物品说明",
+	"moonstone.jei.item.moonstone.nightmare_base_stone_meet": "获取方式详见物品说明",
+	"moonstone.jei.item.moonstone.nightmare_base_stone_virus": "获取方式详见物品说明",
+
+  "moonstone.jei.loot.all": "获取方式详见物品说明",
+
+  "moonstone.jei.pain.all": "获取方式详见物品说明",
+  "moonstone.jei.nanodoom.all": "获取方式详见物品说明",
+  "moonstone.jei.wind_and_rain": "获取方式详见物品说明",
+
+  "moonstone.jei.bloodvirus.all": "获取方式详见物品说明",
+  "moonstone.jei.bloodvirus": "获取方式详见物品说明",
+  "moonstone.jei.bloodvirus.treasure.all": "获取方式详见物品说明",
+
+  "moonstone.jei.calcification": "受到350次伤害，需要佩戴医药箱",
+  "moonstone.jei.masticatory": "吃8个金苹果，需要佩戴医药箱",
+  "moonstone.jei.polyphagia": "吃个附魔金苹果，需要佩戴医药箱",
+  "moonstone.jei.quadriceps": "跳500次，需要佩戴医药箱",
+  "moonstone.jei.reanimation": "死掉一次，需要佩戴医药箱",
+
+  "moonstone.jei.necora.all": "获取方式详见物品说明",
+  "moonstone.jei.necora.treasure.all": "获取方式详见物品说明",
+  "moonstone.jei.necora.giant_nightmare.all": "获取方式详见物品说明",
+
+  "moonstone.jei.necora.bnabush.all": "获取方式详见物品说明",
+
+  "moonstone.jei.giant": "获取方式详见物品说明",
+  "moonstone.jei.giant_nightmare": "获取方式详见物品说明",
+  "moonstone.jei.cell": "获取方式详见物品说明",
+  "moonstone.jei.cell.all": "获取方式详见物品说明",
+
+	"item.motor.tool.string": "增加15%在空中、水下、陆地的所有速度",
+
+	"item.immortal.tool.string": "受到攻击有80%的概率规避伤害",
+	"item.immortal.tool.string.1": "每隔5秒对周围生物施加一层枯朽Buff，最多达到5级",
+	"item.immortal.tool.string.2": "被施加的生物每级枯朽Buff会减少",
+	"item.immortal.tool.string.3": "20%抗性、护甲、治疗和5%的伤害、移速、攻速",
+
+	"item.nightmare_head.tool.string.3": "洞悉者的邪术法球自身的反弹伤害能力已失效",
+	"item.maxamout.tool.string.6": "原始纹章自身的反弹伤害能力已失效",
+
+	"moonstone.jei.maxamout": "详见原始纹章的物品说明提示",
+	"moonstone.jei.ectoplasm.ectoplasmball": "详见灵质球的物品说明提示",
+	"moonstone.jei.ectoplasm.ectoplasmcloub": "详见灵质球的物品说明提示",
+
+	"moonstone.use.dna": "可用神圣宝石与猪灵交易获得",
+	"item.moonstone.organizational_regeneration": "组织活性化",
+	
+	"curios.modifiers.necora": "佩戴基因锁时：",
+	"curios.modifiers.crystal": "佩戴水晶时：",
+
+	"moonstone.super_nightmare.name": "该物品无需佩戴噩梦基座也能使用",
+	"curios.modifiers.nightmare": "§4佩戴在噩梦之槽时：",
+
+	"moonstone.twelve.1": "[诛神剑碑]生肖：子鼠",
+	"moonstone.twelve.2": "[诛神剑碑]生肖：丑牛",
+	"moonstone.twelve.3": "[诛神剑碑]生肖：寅虎",
+	"moonstone.twelve.4": "[诛神剑碑]生肖：卯兔",
+	"moonstone.twelve.5": "[诛神剑碑]生肖：辰龙",
+	"moonstone.twelve.6": "[诛神剑碑]生肖：巳蛇",
+	"moonstone.twelve.7": "[诛神剑碑]生肖：午马",
+	"moonstone.twelve.8": "[诛神剑碑]生肖：未羊",
+	"moonstone.twelve.9": "[诛神剑碑]生肖：申猴",
+	"moonstone.twelve.10": "[诛神剑碑]生肖：酉鸡",
+	"moonstone.twelve.11": "[诛神剑碑]生肖：戌狗",
+	"moonstone.twelve.12": "[诛神剑碑]生肖：亥猪",
+
+	
+	"item.nightmare_base_fool_soul.tool.string": "每佩戴一件噩梦之槽饰品",
+	"item.nightmare_base_fool_soul.tool.string.1": "治疗增加3%",
+	"item.nightmare_base_fool_soul.tool.string.2": "每佩戴一件噩梦之槽饰品",
+	"item.nightmare_base_fool_soul.tool.string.3": "生命值增加6",
+	"item.rage_eye.tool.string": "手持偷盗者的狂暴之眼左击生物会偷取记录其2%基础属性",
+	"item.rage_eye.tool.string.4": "偷取记录的属性显示于饰品上，最大值不超过你的1%，最后佩戴即可生效",
+	"item.pain_ring.tool.string": "每次恢复血量时+1%抛瓦（不超过50%）",
+	"item.nightmare_base_insight_drug.tool.string": "近战伤害、护甲、生命值提高50%",
+	"item.nightmare_base_insight_drug.tool.string.1": "但是每佩戴一件噩梦系列饰品，此奖励都将减少5%，最低到10%",
+	"item.nightmare_base_fool_bone.tool.string.1": "那么你对他的伤害增加15%",
+	"item.nightmare_base_redemption_deception.tool.string": "抵御必死伤害，恢复1%生命值",
+	"item.nightmare_base_redemption_deception.tool.string.1": "并获得3秒的无敌和平息附近生物的怒火，冷却60秒",
+	"item.nightmare_base_stone_virus.tool.string.3": "受到任意伤害都会额外附加100%最大生命值的惩罚，不受任何加成影响",
+	"item.nightmareeye.tool.string": "可制作获得，可配合深渊遗物系列饰品提升属性",
+	"item.nightmareeye.tool.string.1": "佩戴后玩家受到伤害增加33％，原版基础属性会降低25%",
+	"item.nine_sword_book.tool.string.all": "修炼到[剑帝][剑祖]级别后，属性增长降低22.5%",
+	"item.moonstone.twelve_sword":"诛神剑碑",
+	"item.nightmareeye.tool.string.2": "可自由穿戴和脱下",
+	"item.probability_stone.tool.string.1": "据说这是原始生命态尼比鲁的残骸，具有极高的食物多样性",
+	"item.dnas.tool.string": "[基因残片]打开物品栏并左击拿起，右击可放入培养皿",
+	"item.moonstone.plagues": "亚特格拉德病毒『重生』",
+	"item.moonstone.plague": "失活的亚特格拉德病毒",
+	"curios.identifier.man": "激发基因锁",
+	"curios.identifier.ncrdna": "魔人基因锁",
+	"curios.identifier.dna": "异种基因锁",
+	"curios.identifier.necora": "原生基因锁",
+	"curios.modifiers.man": "佩戴基因锁时：",
+	"curios.modifiers.ncrdna": "佩戴基因锁时：",
+	"curios.modifiers.medicine": "佩戴药物时：",
+	"curios.modifiers.dna": "佩戴基因锁时：",
+	"item.cell_rage.tool.string": "你的近战伤害增加25%，暗影蝠的伤害减半（可单独佩戴）",
+	"item.cell_immortal.tool.string": "你的护甲值增加10点，暗影蝠的护甲值也增加10点（可单独佩戴）",
+	"item.brain.tool.string": "攻击一个生物12次后，第13次造成1.75倍的伤害",
+	"item.moonstone.beacon": "双生花",
+	"item.beacon.tool.string.1": "被攻击时把已有的药水效果以范围效果的形式转移给攻击玩家的目标",
+	"advancements.tooltip.beacon.hand": "双生花",
+	"advancements.tooltip.beacon.text": "我听到了[双生花]的回响"
+}
+
+
+

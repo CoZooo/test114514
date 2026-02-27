@@ -1,0 +1,41 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "ABA",
+    "DED",
+    "CFC"
+  ],
+  "reagents": "HGIG",
+  "key": {
+    "A": {
+      "item": "minecraft:scute"
+    },
+    "B": {
+      "item": "deep_aether:stratus_ingot"
+    },
+    "C": {
+      "item": "aquamirae:golden_moth_in_a_jar"
+    },
+    "D": {
+      "item": "reliquary:infernal_tear"
+    },
+    "E": {
+      "item": "enigmaticlegacy:hunter_guidebook"
+    },
+    "F": {
+      "item": "enigmaticlegacy:earth_heart"
+    },
+    "G": {
+      "item": "moonstone:blood_jelly"
+    },
+    "H": {
+      "item": "cataclysm:remnant_skull"
+    },
+    "I": {
+      "item": "embers:wildfire_core"
+    }
+  },
+  "result": {
+    "item": "enigmaticaddons:sanguinary_handbook"
+  }
+}

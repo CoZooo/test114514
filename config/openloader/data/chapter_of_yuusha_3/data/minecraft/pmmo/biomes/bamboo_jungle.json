@@ -1,0 +1,13 @@
+{
+    "bonus":{
+        "BIOME":{
+            "agility": 5.0,
+		    "swimming": 5.0,
+            "fishing": 5.0,
+            "combat": 1.25,
+            "archery": 1.5,
+            "woodcutting": 0.75,
+            "farming": 0.75
+        }
+    }
+}

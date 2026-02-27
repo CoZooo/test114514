@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:chaos_book",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.35,
+  "ingredients": [
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "yuusha:blood_star"
+    }
+  ]
+}

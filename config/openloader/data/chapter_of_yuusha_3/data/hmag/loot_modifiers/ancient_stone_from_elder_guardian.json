@@ -1,0 +1,30 @@
+{
+  "type": "hmag:add_item_for_entity",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/elder_guardian"
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_count",
+      "count": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "function": "minecraft:looting_enchant",
+      "count": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ],
+  "addition": "minecraft:pufferfish"
+}

@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "locusazzurro_icaruswings:steel_ingot": {
+            "salvageMax": 8,
+            "baseChance": 0.25,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.0075
+            },
+            "levelReq": {
+                "smithing": 100
+            },
+            "xpPerItem": {
+                "smithing": 1000
+            }
+        }
+    }
+}

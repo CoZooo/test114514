@@ -1,0 +1,4 @@
+#Cache all entity capabilities. Could cause problems. Use it with caution
+cacheAll = false
+capabilityCachingWhitelist = ["top/theillusivec4/curios/api/type/capability/ICuriosItemHandler"]
+

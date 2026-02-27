@@ -1,0 +1,16 @@
+{
+	"defense_element":{
+		"god":99,
+		"darkness":99,
+		"fire":99,
+		"ice":99,
+		"light":99,
+		"water":99,
+		"normal":99,
+		"thunder":99,
+		"flora":99,
+		"earth":99,
+		"wind":99
+	},
+	"biome_dependency":false
+}

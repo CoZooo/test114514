@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:wind_core"
+  },
+  "craftType": "deep",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "aether:skyroot_water_bucket"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "tag": "forge:gems/prismarine"
+    }
+  ],
+  "result": {
+    "item": "goety:tidal_focus"
+  }
+}

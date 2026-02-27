@@ -1,0 +1,25 @@
+{
+  "celestial_artifacts.charms.holy_sword_3": "每损失1点生命提高%s造成伤害",
+
+  "celestial_artifacts.curse.origin_curse": "近战伤害降低%s",
+  "celestial_artifacts.curse.origin_bonus": "提高%s挖掘速度与近战伤害",
+
+  "celestial_artifacts.curse.life_curse": "降低%s最大生命，降低%s圣灵之力",
+  "celestial_artifacts.curse.life_bonus": "提高%s最大生命与%s圣灵之力",
+  "celestial_artifacts.charms.demon_curse_1": "每1%额外圣灵之力:",
+
+	"celestial_artifacts.bracelet.scarlet_0": "攻击目标时额外消耗自身生命到最大生命的0.001%",
+	"celestial_artifacts.necklace.gallop": "穿戴后所有攻击都会增加相当于移动速度数值的100倍的固定数值伤害",
+  "celestial_artifacts.charms.demon_curse_0": "玩家无法自然回血",
+  "item.celestial_artifacts.magic_arrow_bag": "魔灵箭袋",
+  "celestial_artifacts.bracelet.scarlet_1": "每消耗1点生命攻击提高相当于目标最大生命0.001%点伤害，上限0.1%",
+  "item.celestial_artifacts.cross_necklace": "光之十字项链",
+  "item.celestial_artifacts.guardian_eye": "守卫者眼球",
+  "celestial_artifacts.curse.scroll_1": "受到圆环之理的指引，诅咒已减弱",
+  "celestial_artifacts.curse.scroll_2": "解锁一些强大的饰品和掉落物，寻找并装备刻蚀板来反转诅咒",
+  "celestial_artifacts.curse.nihility_curse": "受到负面效果时长为%s",
+  "celestial_artifacts.curse.desire_curse": "周围的生物将远离你，中立生物（除了蜜蜂）会主动攻击你",
+  "item.celestial_artifacts.catastrophe_scroll": "无厄之册",
+  "curios.modifiers.catastrophe": "佩戴无厄之册时：",
+  "curios.identifier.catastrophe": "星月-无厄"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "_NJ",
+    "_WN",
+    "G__",
+    "ABAB"
+  ],
+  "key": {
+    "G": {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    "N": {
+      "item": "eidolon:arcane_gold_nugget"
+    },
+    "W": {
+      "item": "forbidden_arcanus:edelwood_stick"
+    },
+    "A": {
+      "item": "wizards_reborn:precision_crystal"
+    },
+    "J": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "B": {
+      "item": "illagerinvasion:hallowed_gem"
+    }
+  },
+  "output": {
+    "item": "wizards_reborn:arcane_wand"
+  },
+  "wissen": 1000
+}

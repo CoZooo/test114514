@@ -1,0 +1,250 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+	  "rolls": 1.0,
+      "entries": [
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/abandoned_mineshaft"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/ancient_city"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/ancient_city_ice_box"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/bastion_bridge"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/bastion_hoglin_stable"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/bastion_other"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/bastion_treasure"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/buried_treasure"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/desert_pyramid"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 30,
+          "name": "minecraft:chests/end_city_treasure"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/igloo_chest"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/jungle_temple"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/jungle_temple_dispenser"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/nether_bridge"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/pillager_outpost"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/ruined_portal"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/shipwreck_map"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/shipwreck_supply"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/shipwreck_treasure"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/simple_dungeon"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/stronghold_corridor"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/stronghold_crossing"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/stronghold_library"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/underwater_ruin_big"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/underwater_ruin_small"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 10,
+          "name": "minecraft:chests/woodland_mansion"
+        }
+        ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+		  "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "enigmaticlegacy:recall_potion"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:mending_mixture"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:void_stone"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:extradimensional_eye"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:forbidden_axe"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:unholy_grail"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:lore_inscriber"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:tattered_tome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:withered_tome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:corrupted_tome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:enchantment_transposer"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:tattered_tome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:withered_tome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "enigmaticlegacy:corrupted_tome"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 75,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 25,
+          "name": "celestial_artifacts:unowned_pendant"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/dungeon"
+}

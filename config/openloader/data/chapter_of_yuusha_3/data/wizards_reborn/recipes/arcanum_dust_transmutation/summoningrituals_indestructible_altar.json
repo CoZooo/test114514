@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "summoningrituals:altar"
+  },
+  "to": {
+    "item": "summoningrituals:indestructible_altar"
+  }
+}

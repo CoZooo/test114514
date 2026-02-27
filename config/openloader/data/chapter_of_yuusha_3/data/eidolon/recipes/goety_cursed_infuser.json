@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "   ",
+    "ADA",
+    "EEE"
+  ],
+  "reagents": "CFBF",
+  "key": {
+    "A": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "B": {
+      "item": "graveyard:dark_iron_block"
+    },
+    "C": {
+      "item": "faded_conquest_2:keyof_pestilence"
+    },
+    "D": {
+      "item": "yuusha:cursed_star"
+    },
+    "E": {
+      "item": "goety:gold_banded_marble"
+    },
+    "F": {
+      "item": "irons_spellbooks:arcane_salvage"
+    }
+  },
+  "result": {
+    "item": "goety:cursed_infuser"
+  }
+}

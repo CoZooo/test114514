@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "irons_spellbooks:netherite_mage_chestplate",
+    "count": 1
+  },
+  "wissen": 2000,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:pumpkin_chestplate"
+    },
+    {
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    },
+    {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    {
+      "item": "irons_spellbooks:magic_cloth"
+    }
+  ]
+}

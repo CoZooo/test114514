@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+  },
+  "base": {
+    "item": "illager_additions:royal_guard_spearman_boots"
+  },
+  "addition": {
+    "item": "yuusha:destructed_hope"
+  },
+  "result": {
+    "item": "callfromthedepth_:depth_armor_boots"
+  }
+}

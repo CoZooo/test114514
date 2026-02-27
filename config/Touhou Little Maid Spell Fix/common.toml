@@ -1,0 +1,8 @@
+
+#万法皆通 - 法术战斗配置
+[spellCombat]
+	#启用法术施放前清除目标无敌时间
+	#当设置为true时，女仆在施放法术前会清除目标的伤害免疫时间
+	#这允许更频繁的法术连击，但可能影响游戏平衡
+	clearInvulnerabilityOnCast = false
+

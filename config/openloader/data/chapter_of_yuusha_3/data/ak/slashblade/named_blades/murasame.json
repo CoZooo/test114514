@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    }
+  ],
+  "name": "ak:murasame",
+  "properties": {
+    "attack_base": 68.0,
+    "max_damage": 136,
+    "slash_art": "ak:dragon",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/murasame/sange.obj",
+    "summon_sword_color": 14236233,
+    "texture": "ak:model/named/murasame/blood.png"
+  }
+}

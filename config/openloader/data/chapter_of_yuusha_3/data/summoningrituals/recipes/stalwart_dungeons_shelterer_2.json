@@ -1,0 +1,18 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "stalwart_dungeons:shelterer",
+            "count": 1,
+            "offset": { "x": 16, "y": 4, "z": 16 },
+            "spread": { "x": 24, "y": 4, "z": 24 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "yuusha:summon_shelterer" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

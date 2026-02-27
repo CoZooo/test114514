@@ -1,0 +1,19 @@
+{
+	"name": "MCreator",
+	"icon": "distant_worlds:textures/screens/mcreator_logo.png",
+	"category": "distant_worlds:special_thanks",
+	"read_by_default": "true",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Special thanks to the $(#ea7f17)$(l)MCreator Team$() and its community for the great software and support!$(br2)I'm glad you liked my mod and gave it MOTW status.$(br2)Also a special thanks to $(#ea7f17)$(l)NerdyPuzzle$() for creating awesome plugins that allow me to make this mod so much better!"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Links",
+			"text": "Click on the text to follow the link!$(br2)$(l:https://mcreator.net/)MCreator Website$(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Also check out the mod page on the MCreator website!$(/l)"
+		}
+
+	]
+}

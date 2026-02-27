@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BAB",
+    "CFC",
+    "BCB"
+  ],
+  "reagents": "DDDD",
+  "key": {
+    "A": {
+      "item": "infinite_abyss:puffball_heart"
+    },
+    "B": {
+      "item": "goety:dark_fabric"
+    },
+    "C": {
+      "item": "minecraft:black_wool"
+    },
+    "D": {
+      "item": "infinite_abyss:glow_bulb"
+    },
+    "F": {
+      "item": "arcalis_bosses:cursed_cloth_shard"
+    }
+  },
+  "result": {
+    "item": "arcalis_bosses:cursed_robe"
+  }
+}

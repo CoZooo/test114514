@@ -1,0 +1,5080 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "c"
+	group: "4D78AB976801888E"
+	icon: "embers:winding_gears"
+	id: "58C28B88F430973E"
+	images: [
+		{
+			alpha: 200
+			color: 15952929
+			height: 32.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 46.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 34.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 48.0d
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"035C4C2172727AA8"
+				"37FB78A6A9130C94"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"获取：开局可以在村庄等建筑直接找到[工作台]。也可利用一些前期材料制作获得。"
+				""
+				"&c特性：部分冲突的合成，只能用原版类型的工作台进行切换合成。"
+				""
+				"&e你知道吗？在打开工作台等合成界面时，此时如果利用JEI查看合成，可以点击出现的加号，从而快速将物品挪到合成台中。"
+				""
+				"&6进展：在前期可制作简易刀剑模组的武器，具有尚可的基础伤害。具体可JEI搜索“Simplyswords”。"
+			]
+			id: "479232119C07EDDE"
+			rewards: [{
+				id: "500542DC33CC8F13"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39051A9EB5BA6824"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			dependency_requirement: "one_completed"
+			description: [
+				"获取：开局可以在村庄等建筑寻找到[熔炉]。或者获得[工作台]后，制作[营火]，然后用[营火]烧制获得[木炭]，再制作。"
+				""
+				"&6兼容：只有用原版熔炉、高炉、烟熏炉等功能方块进行烧炼，才能获得PMMO巧匠经验。"
+				""
+				"&e你知道吗？点击右上角的标记按钮，就可以在界面右侧显示待进行的任务。"
+				""
+				"&c需求：部分物品需要有一定的PMMO技能等级才能使用，在物品下方的说明都会有提示。"
+			]
+			id: "5EB8C2CECAAE6FCA"
+			rewards: [{
+				id: "7101A2301CA8BBC5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05D19D7AC14E9B60"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CAFB7EE12D45DBA"]
+			description: ["用来制作手稿等。"]
+			id: "21C11696FFAB1967"
+			rewards: [{
+				id: "5553E98EAA1A1FC1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4382E0203A21DED8"
+				item: "locusazzurro_icaruswings:linen"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21C11696FFAB1967"]
+			description: ["用来制作解码器。"]
+			id: "42E19D4A1529FB25"
+			rewards: [{
+				id: "5B6C5B0D4D284487"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CF753B2ADD1037F"
+				item: "locusazzurro_icaruswings:daedalus_manuscript"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D6E447009E2F2C6"]
+			description: [
+				"[遗物]可在[文化宝藏袋]及各种战利品箱有几率获得。"
+				""
+				"&6[解码器]在合成中不会消耗。"
+			]
+			id: "2D26502511900B60"
+			rewards: [{
+				id: "07379500BEB00396"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "698982B133C8CB8E"
+				item: "locusazzurro_icaruswings:daedalus_decryptor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"基础设定：1.默认按G键可用部分枪械近战。2.手持枪械按Z键可替换配件，弹夹配件可增加大量枪械伤害，刺刀配件可增加大量近战伤害。3.手持枪械时默认按H键切换开火模式。4.可通过原版工作台的多态合成按钮，选择制作的枪械工作台。"
+				""
+				"&e进阶：1.可利用弹药盒、虚空之泪或背包的补货升级进行子弹存储。2.枪械射击准度偏差，最好都开镜射击或者其他方式辅助射中。3.枪械对大部分生物有爆头伤害，且伤害与距离有关。4.所有枪械均为无属性打击类型伤害。"
+				""
+				"&c特性：1.枪械能无视反射精英属性，不会受到反伤。2.穿戴只增加远程伤害的装备、饰品，不会增加枪械伤害，需要全伤害或者怪物易伤饰品才行。"
+				""
+				"&6材料获取：1.子弹所需的[枪药珠]可直接催熟[枪药草杆]获得。2.火药可利用精魂坩埚制作，也可向怪物娘购买，[星河贸易站]有商人怪物娘刷怪蛋。"
+				""
+				"&2额外：此整合包有[神化：现代诸神黄昏]模组。允许永恒枪械工坊中的枪支带有神化的词缀，并且添加了仅适用于枪支的新词缀。神化Boss需遥远世界章节才能开启。"
+				""
+				"&3护甲穿透说明：枪械的护甲穿透，是指有n%的枪械伤害转化为无视护甲、韧性减伤的伤害。"
+			]
+			id: "36BEEC8847E93938"
+			rewards: [{
+				id: "5F20534EE8BFD414"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "273277903C74DD30"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			description: [
+				"新增在僵尸地牢、骷髅地牢、蜘蛛地牢内击杀相应怪物有小几率获得（非玩家击杀也行，不包括小型地牢）。"
+				""
+				"&6可用探险家指南针搜索上述地牢的中文名称。"
+			]
+			id: "1D6E447009E2F2C6"
+			rewards: [{
+				id: "311B7FADD4AE8168"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10AB0E0473B1E26D"
+				item: "locusazzurro_icaruswings:steel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6791AC1C763AF5E1"]
+			description: [
+				"可合成。找不到丛林可制作[自然指南针]。"
+				""
+				"&e生成于丛林的友好生物，玩家可通过给鹦鹉吃大部分种子驯服，驯服后可以对它按右键使它坐下，坐下后不会跟随玩家移动。"
+				""
+				"&6驯服的鹦鹉有可能飞到主人肩膀上，但玩家跳跃，受到攻击，睡觉和进入飞行状态都会使鹦鹉掉下来。"
+				""
+				"&c用小麦碎粒喂食鹦鹉可获得鹦鹉羽毛，可以是鸟笼里的鹦鹉，但要对准鹦鹉实体喂食。流浪商人或制箭师也可交易到鹦鹉羽毛。"
+			]
+			id: "3F56CC82AE296DA8"
+			rewards: [{
+				id: "2773C2C5ED0ABFF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18A786B96CD82824"
+				item: "minecraft:parrot_spawn_egg"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"点燃且有干草块在下方的[营火]或[灵魂营火]半径8格内有高额的生命恢复效果。利用营火即可制作木炭。"
+				""
+				"&c你知道吗？烈焰术士之杖放在物品栏内即可灭火。"
+				""
+				"&e手持末影珍珠碎片右击营火可召唤幻翼。手持注魔膜右击营火可召唤幻骨蝠。"
+			]
+			icon: "minecraft:campfire"
+			id: "48BB7096D6663817"
+			rewards: [{
+				id: "3A17D60E6C0D083D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BDFA5BC234A3388"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"获取：直接挖掘原木，可合成获得木板。"
+				""
+				"&c建议：开局地形是平原或森林有战斗高塔，或者是村庄，里面必定有工作台或铁锭。"
+				""
+				"&e可用其它原木合成变为橡木原木。"
+			]
+			icon: "minecraft:oak_planks"
+			id: "035C4C2172727AA8"
+			rewards: [{
+				id: "62B2088057A83FE1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11619C65A7687261"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"部分物品可在切石机中制作各种附魔书。JEI搜索附魔书，对相应等级的附魔按R键即可查询合成："
+				"&6杀手X、愤怒X、力量X、缚灵X、亡灵杀手XX"
+				"&3保护V、魔法保护V、元素保护V"
+				"&3饵钓V、饵钓III"
+				"&9分裂、拆分、捕捉V、噬魂V"
+				"&c诅咒附魔：永恒绑定诅咒、悲恸诅咒、绑定诅咒、消失诅咒、狂怒、滑手诅咒、吸血鬼诅咒、锈蚀诅咒、矛盾诅咒、易损诅咒、疲劳诅咒、生命修补"
+				""
+				"&e搜索附魔、物品信息时必须用中文。"
+			]
+			id: "41264B48A1063918"
+			rewards: [{
+				id: "6AA57232E97786E2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37EDDAD7D01319CD"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41264B48A1063918"]
+			description: [
+				"切石机中制作。"
+				""
+				"&e[亚麻籽]击杀妖精女仆有50%几率掉落，或者与农民交易获得。亚麻籽种植即可获得亚麻。"
+				""
+				"&c妖精女仆在夜晚的草原生物群系生成。"
+				""
+				"&6部分物品可将方块转化为可疑方块从而进行考古，相关内容详见上层世界章节刷子任务。例如骨头右击沙砾可将其转变为可疑沙砾，可考古出木炭、羽毛、绿宝石、亚麻籽、邪恶水晶碎片，佩戴远古甲虫后还有几率考古出嗅探兽蛋。"
+			]
+			id: "4CAFB7EE12D45DBA"
+			rewards: [{
+				id: "74B206198CAAD7BA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BB96D6568A35D73"
+				item: "locusazzurro_icaruswings:linen_string"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["可制作或者野外建筑获得。"]
+			id: "27E757FD3904287A"
+			rewards: [{
+				id: "1B3BB962F33A55B8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7801F741BEE2BA5E"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BF5703BE85CEE1E"]
+			description: [
+				"训练人偶：用于测试玩家及武器的伤害、DPS与防具效果，白色为普通、虚空、其它伤害，蓝色为原版魔法伤害，紫色为间接魔法伤害（如药水等），橙色为原版火焰伤害。"
+				""
+				"&6头颅变化：给训练人偶装备亡灵生物头颅、海龟壳、掠夺旗帜可以使其变为亡灵生物、海洋生物、灾厄村民。给之装备南瓜或南瓜灯可以使其变为稻草人，驱赶周围的动物。"
+				""
+				"&c额外说明：训练人偶属于中立单位，部分附魔、技能加伤无法适用。测试时需注意。"
+				""
+				"&e注意：玩家按住Shift键用任意武器攻击训练人偶，会把训练人偶变回掉落物，尤其某些具有持续伤害的武器。"
+				""
+				"&3DPS说明：训练人偶没有无敌帧时间，而大部分生物都具有一定的无敌帧时间，因此超高频伤害攻击训练人偶会显示虚高的DPS。"
+			]
+			id: "20EE9EC0980B1466"
+			rewards: [{
+				id: "72086C9A66A75FF1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BFB0290A6CFC7BE"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["41264B48A1063918"]
+			description: [
+				"杀手和锋利10级附魔都可在切石机中制作。还能在工作台中进一步升级为20级附魔。"
+				""
+				"&c所有用于合成或任务的[附魔书]，都不能是用[铁砧]合成过的二手货，必须要是[直接合成]获得或者神化[附魔储备台]里取出的。"
+				""
+				"&e杀手附魔：对怪物增加伤害，每级+1.5，同时增加附带的缓慢效果。"
+				""
+				"&6锋利附魔：对生物增加伤害，每级+0.5点，可以享受部分饰品加成。"
+			]
+			id: "5D73E219D33CAC67"
+			rewards: [{
+				id: "2C4486ACD47A23CC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "杀手X"
+			tasks: [
+				{
+					id: "3FC200727A1D7258"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:slayer"
+								lvl: 10s
+							}]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "41DC4974CC659AD7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19DBD00D8987FDAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 20s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"现在铁傀儡自带高额减伤。"
+				""
+				"&e用剪刀对南瓜右击可雕刻南瓜。"
+			]
+			icon: "minecraft:iron_block"
+			id: "1A214D376C566C4F"
+			rewards: [{
+				id: "3F862D923EEFDA60"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "47C0A70D7B56362C"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "7F5B3167A94ABC95"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+			]
+			title: "铁傀儡"
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["41264B48A1063918"]
+			description: [
+				"切石机中制作。"
+				""
+				"&6&6寻找丛林：可用自然指南针。"
+			]
+			id: "6791AC1C763AF5E1"
+			rewards: [{
+				id: "499B95D318079899"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22733A8E978D68B0"
+				item: "locusazzurro_icaruswings:wheat_grains"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"用来升级装备。"
+				""
+				"&6锻造台的部分合成表不显示合成产物，实际是有的。"
+				""
+				"&e开局送的木剑和皮革盔甲是不可破坏的，可以在锻造台中用相应的材料进行升级。"
+			]
+			id: "3AE222F25C500418"
+			rewards: [{
+				id: "0E4200FC4ECEF431"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "756C69E8A726B4BA"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["035C4C2172727AA8"]
+			dependency_requirement: "one_completed"
+			description: [
+				"获取：[铁锭]可通过寻找战利品箱等获得。"
+				""
+				"&e额外获取：也可通过将地上的粗铁物品爆炸获得铁锭。还可将方块形式的铁矿利用爆炸获得铁锭。"
+				""
+				"&6防具耐久：因怪物伤害大幅提高，请确保你的盔甲有无法破坏或者永恒之石升级，否则很容易炸耐久。"
+			]
+			id: "37FB78A6A9130C94"
+			rewards: [{
+				id: "6143438FDF8538FB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1064050C7CB668A7"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CAFB7EE12D45DBA"]
+			description: [
+				"绷带可以移除流血效果，并提供不长时间的高额“弱恢复”效果。黄金绷带与绷带类似，但提供的“弱恢复”效果更为强大，并在较长时间内免疫流血debuff。"
+				""
+				"&6“弱恢复”效果会给予生命恢复，但是受伤后会消失。"
+			]
+			id: "4E383C3A15417881"
+			rewards: [{
+				id: "5C1D0B5BC9001FB0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C2B901B68DFF92A"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["前期可以用箱子，但是不建议用大量箱子存储，箱子多了渲染会卡。建议用木桶，木桶还可以升级成金属桶。详细看[须弥]章节。"]
+			id: "4275A5E9FDD6A137"
+			rewards: [{
+				id: "568243324E4E552C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "713417C67EFDB220"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			id: "3D669F2EEC59AFEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B09725E91D41ACD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "17F6B05F66B6940A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48BB7096D6663817"]
+			description: [
+				"利用营火即可制作木炭。"
+				""
+				"&6也可通过考古获得，详见上层世界章节刷子任务。"
+			]
+			id: "721609AB5BBAA735"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50A16EB471EC3405"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30D9FEA73099EC5A"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["对水域右击可自动钓鱼。有按键可修改自动钓鱼配置，在“按键绑定”中，选择查找“类别”，搜索“自动钓鱼”，即可修改自动钓鱼模组的按键。"]
+			id: "0E4314F30B1EE0FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B849E254497068E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BB30DE2C977C33B"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CACEEC3041090CD"]
+			description: ["只能在熔炼炉中熔炼。利用压印锤可将熔融碳素钢变为锭。"]
+			id: "19755515ED271CB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75B64E52184BA18C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30E3E84D2E59FF7A"
+				item: "locusazzurro_icaruswings:steel_mixture"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6791AC1C763AF5E1"]
+			description: [
+				"要先把鹦鹉驯服，然后把鹦鹉弄到肩上，才能右击放入鸟笼中。"
+				""
+				"&c喂食时不能直接对着鹦鹉，要对着鹦鹉周围的鸟笼。"
+			]
+			id: "657D057A1483E69E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "784B56DA4E893026"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "686A2EADEF7C707E"
+				item: "crockpot:birdcage"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657D057A1483E69E"]
+			description: ["肉类喂食鸟笼内的鹦鹉，即可获得鹦鹉蛋。"]
+			id: "179A06AF94DD553B"
+			rewards: [{
+				id: "05CA9CD27DD0A5D1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4BDA6F5E5A018759"
+					item: "crockpot:parrot_egg_red_blue"
+					title: "鹦鹉蛋"
+					type: "item"
+				}
+				{
+					id: "5DCA2978AD9726CA"
+					item: "crockpot:parrot_egg_blue"
+					type: "item"
+				}
+				{
+					id: "371CA87C4942FA92"
+					item: "crockpot:parrot_egg_green"
+					type: "item"
+				}
+				{
+					id: "0D01316EFF953966"
+					item: "crockpot:parrot_egg_yellow_blue"
+					type: "item"
+				}
+				{
+					id: "56D9597FCA68D1D6"
+					item: "crockpot:parrot_egg_gray"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"累积惩罚：无论是重命名、修复、还是合并操作，都会为物品增加“操作数”，其经验花费会因物品先前曾在铁砧上的操作获得的“操作数”而增加，这些额外增加的花费被称作“累积惩罚”。对于一件从未放上铁砧的物品，其操作数为0，累积惩罚为0。一个物品每次在铁砧上操作过后（不包括重命名），其操作数都会增加1，其当前累积惩罚都会在前一次基础上乘2再加1。当合并两个物品时，玩家会同时受到两件物品的累积惩罚。操作数和累积惩罚甚至会作用在不会磨损的物品上，譬如附魔书。使用合成方格和砂轮进行的物品修复操作可重置操作数为0，但同时也会丢失所有的非诅咒魔咒的魔咒。"
+				""
+				"&c通过某些模组可以获得超过神化上限的附魔等级，但是如果在铁砧中操作，会强制将等级同步为神化模组最高附魔等级上限。"
+				""
+				"&e铁砧可附魔分裂、拆分、耐久等附魔。拆分和分裂附魔书可在切石机中合成。自行JEI搜索附魔的中文名后，按R键可查看。对着较低级的附魔，按U键才可查看用途。"
+				""
+				"&6更多内容可见刷怪笼碎片任务。"
+			]
+			id: "43ECCAB09CCC60C7"
+			rewards: [{
+				id: "23C7D2B86A3A2E1F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57F6432414947C83"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BA58FB23CD68C98"]
+			description: [
+				"只能通过悬赏板获得。"
+				""
+				"&6只有铁匠、制箭、工具、发明悬赏会有几率出[锻造模板：应用物品修饰]。"
+				""
+				"&e可制作缚灵附魔书。"
+			]
+			id: "296E25D3A2AA8B7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D87ACBD03EA953F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DF10E90D37EBA3A"
+				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"砂轮为武器匠村民的职业方块。"
+				""
+				"&6可以利用砂轮来清除装备的附魔等级惩罚。"
+				""
+				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+			]
+			id: "0BC3AB75CC36ECA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A48CB360163097"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "537FAF75671DD431"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"悬赏板可合成获得，也能在村庄中找到。可挖掘重新放置。不同悬赏令同时放置时，需求和奖励会交叉出现。"
+				""
+				"&6悬赏板的刷新速度已提高，最好先把悬赏任务拿下来，否则容易刷新掉。"
+				""
+				"&c在完成悬赏任务后，手持悬赏任务右击悬赏板即可完成任务。"
+				""
+				"&e部分可能有用的悬赏。渔民悬赏：海之眷顾、诱饵附魔。图书悬赏：保护、魔法保护、捕捉、横扫之刃、支解附魔。牧师悬赏：支解附魔。工具、盔甲悬赏：自动烧炼、时运附魔。绘图悬赏：自然指南针、归途指南针、三折地图。余烬悬赏：各种余烬装置。"
+				""
+				"&2发明悬赏还能刷新一些精致存储的存储装置。精致存储也能通过合成获得，详见须弥章节相关任务。新增大部分悬赏传说级奖励寂灭之星，史诗级奖励丘比娃娃。"
+				""
+				"&3牧师悬赏会刷新卷轴撰写台、法术抄写台、初学者日志。皮革悬赏会刷新卸货升级、拾取升级。农民悬赏会刷新富饶莲叶。指路石和忏悔之镜可刷新在绘图悬赏、图书悬赏。牧羊悬赏会刷新严冬剪刀、剪刀相关附魔、时运、效率附魔、金羊毛。"
+			]
+			id: "4BA58FB23CD68C98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C92BC42BF291485"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24EB10248D3439FD"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BA58FB23CD68C98"]
+			description: [
+				"只能通过悬赏板获得。"
+				""
+				"&6只有渔民、屠夫、绘图、皮革悬赏会有几率出[余烬之心]。"
+				""
+				"&e余烬之心能制作力量和神射手5级、无限、背刺10级、捕捉5级、横扫之刃5级、本能释放等附魔书。"
+				""
+				"&c余烬之心可制作远古盔甲，适合近战穿戴，且可以在锻造台中继续升级。"
+			]
+			id: "1F0A901BFF71AE81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2207BB6F38C04CCA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "159D849150D6FE83"
+				item: "yuusha:ember_heart"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["035C4C2172727AA8"]
+			id: "0CEAA0620372215D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "055619C9804F5162"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E7B8D10D244A982"
+				item: "embers:caminite_blend"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27E757FD3904287A"]
+			id: "5234FA5C2941AD96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F3F6D378569B671"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74594EFA5B2F5683"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5234FA5C2941AD96"]
+			description: ["详看[古代宝典]的[自然能量]章节。"]
+			id: "551D4E6967CB89E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A8BE3FA67060D21"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32C8C9F295746C54"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			description: ["可以扩展余烬机械的接口数量。也是制作机械的材料。"]
+			id: "5F57A7E5CE4CF56E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38944683F79F12FA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "此余烬线路非必须发展，可根据需要情况自行选择 "
+			tasks: [{
+				id: "17AF748B7CC09A38"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F57A7E5CE4CF56E"]
+			description: [
+				"将其放置在主世界的基岩上方，便可以开采余烬晶体。开采的速度与当前位置的余烬能量密度有关。"
+				""
+				"&6最好在其上方添加[机械核心]以扩展接口数量。接着可以用[物品提取器]和[物品管道]输入输出物品。"
+				""
+				"&c可用漏斗等装置，往上述与[余烬晶体开采机]相连的[机械核心]输入任意可用作熔炉燃烧的物品作为燃料，该机器才会运作。"
+				""
+				"&e用物品提取器+物品管道，可从上述机械核心输出各种余烬晶体。"
+				""
+				"{image:yuusha:textures/renwu_kaicai.png width:140 height:90 align:center}"
+			]
+			id: "27AEAEB5F659194B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BBDCC6B5D4E5C39"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B403E2806FAD649"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27E757FD3904287A"]
+			description: [
+				"古代宝典可制作获得，在[星河贸易站]中也可交易获得。对余烬模组的内容有较为详尽的说明。"
+				""
+				"&6太古动力核心的获取要在此章节后面任务线。"
+			]
+			id: "29F641AE8FC7BE47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35DFADB92FD89D83"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "251D40CB62CBE48F"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			id: "07C60F67369AAE51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FAC262C8EF27C4A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "195D08B9AA4E0ADE"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27AEAEB5F659194B"]
+			description: [
+				"利用相应的管道可以传输物品或流体。"
+				""
+				"&c必须添加相应的提取器，才可以从容器内把物品或流体提取出来进入管道运输。提取器要红石信号激活。"
+				""
+				"&e利用工匠锤或者木棍可以分离或连接相邻的管道。"
+			]
+			id: "7E19E7452278E701"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562D1D38568C15BE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "283485B6A391EEC4"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "7EBD75C2DFEBC19E"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "25AE58C94340CDFA"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "140C2540EF2E93E8"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			title: "传输"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27AEAEB5F659194B"]
+			description: [
+				"手持时可显示当前位置的余烬能量密度。指针越往右越高。"
+				""
+				"&6用处可能不大。"
+			]
+			id: "7F0DBFC26F193C43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E2142ADEFD973C4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43011DFEBB3E70F8"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DF03E74DBF1DC6C"]
+			description: ["可以显示余烬机械的输入和输出接口情况。"]
+			id: "07256A680732DA66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B7EF16055C493CC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "690FAA7618D7433B"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27AEAEB5F659194B"]
+			description: [
+				"可将余烬晶体转化为余烬能量。详看[古代宝典]的[自然能量]章节。"
+				""
+				"&e在下半部分的侧面输入余烬晶体。"
+				""
+				"&6在上半部分的侧面输出余烬能量。"
+				""
+				"{image:yuusha:textures/renwu_jifaqi.png width:155 height:110 align:center}"
+			]
+			id: "6E0CDF19DC0180EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "713120E15F435158"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B18BC7321C13EB3"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E0CDF19DC0180EC"]
+			description: [
+				"放在余烬能量激发器的上半部分，可以显示余烬能量数量。其它具有余烬能量的机械，也可显示。"
+				""
+				"&6不同的刻度盘可以显示余烬机械内的不同信息。"
+				""
+				"&c刻度盘会根据热量发出不同的红石信号，可以据此进行半自动化。需红石比较器输出红石信号。"
+			]
+			id: "613494D2FF554DCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "154E3CA740C5B655"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3E0591EA35BEDAF4"
+					item: "embers:ember_dial"
+					type: "item"
+				}
+				{
+					id: "6BA62A390FC58571"
+					item: "embers:item_dial"
+					type: "item"
+				}
+				{
+					id: "29FF7975628190B5"
+					item: "embers:fluid_dial"
+					type: "item"
+				}
+			]
+			title: "刻度盘"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E0CDF19DC0180EC"]
+			description: [
+				"可以将余烬能量发出。还可制作余烬能量喷射器，能更快传输能量。"
+				""
+				"&6可放置在余烬能量激发器等能产生余烬能量机械的上半部分的侧面，会有连接纹理出现。"
+				""
+				"&c需红石信号激活。"
+				""
+				"&e更多信息看[古代宝典]的[火焰机械]和[冶金构造]章节。"
+			]
+			id: "1E707AFB0F3E898A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "575ADAFA77BB9DD1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "169763305B16FB9C"
+				item: "embers:ember_emitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E707AFB0F3E898A"]
+			description: [
+				"对着余烬机械的能量接收处右击可放置并有连接纹理特效，此时可让该机械接收余烬能量。还可制作余烬能量漏斗，能更快传输能量。"
+				""
+				"&e需用工匠锤先右击余烬能量发射器，再右击接收器，会将两者连接。"
+				""
+				"&c如果发送能量过远可能会丢失能量。"
+				""
+				"&6可放置在熔炼炉的下半部分。"
+			]
+			id: "72C78E20CFD6988A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6384571C22FDD9C4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "158AD13709CA082B"
+				item: "embers:ember_receiver"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E707AFB0F3E898A"]
+			description: [
+				"下半部分的侧面可输入余烬能量。右击可将矿物放入上半部分，可熔化矿物会熔化为流体，可用流体提取器和流体管道输出。"
+				""
+				"&e详看[古代宝典]的[火焰机械]章节。"
+				""
+				"{image:yuusha:textures/renwu_ronglianlu.png width:120 height:110 align:center}"
+			]
+			id: "6D4670426D0FF24F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64CE8068FB44AF10"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A564B55AE9167DF"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72C78E20CFD6988A"]
+			description: ["可延长余烬能量传输范围。"]
+			id: "7334AA118AB7AAB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0789CDA78522074E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07D7047C0AA2CF9E"
+				item: "embers:ember_relay"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D4670426D0FF24F"]
+			description: [
+				"在压印基座上方空一格后（即在第二格处）将压印锤放置，给压印锤放入适当的模板，通过流体管道给压印基座输入熔融金属，即可获得产物。在压印基座下方放置一个储物仓可收集产物。"
+				""
+				"&6压印锤需要余烬能量启动。"
+				""
+				"&e详看[古代宝典]的[火焰机械]章节。"
+				""
+				"{image:yuusha:textures/renwu_yayinchui.png width:80 height:110 align:center}"
+			]
+			id: "4DBBBC64F052F20A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197FDDF7CAA49617"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "09AD7B7E4C3678B0"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "347FCA87AB14B5CA"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D4670426D0FF24F"]
+			description: [
+				"混合离心器下半部分侧面的每个面都是一个独立的储罐，当液体以特定组合泵入这些储罐，并且给混合离心器的上半部分的侧面输入余烬能量时，将制作合金流体，可以从上半部分的侧面输出。"
+				""
+				"&6最好在下半部分的侧面放置流体刻度盘，以查看内部的流体。"
+				""
+				"{image:yuusha:textures/renwu_hunhelixin.png width:120 height:100 align:center}"
+			]
+			id: "6EB1BA618C26C7C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327C3A6AC8AB0003"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B389A9DE58AF3A3"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			id: "1B06D68D00AE837A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3B0EB4F7557383"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19E530D253AA36E6"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"主世界深板岩层可挖掘到。"
+				""
+				"&e常与金矿石伴生，用扫描器的稀有矿石模块可扫描到（颜色、位置和金矿石都很像）。"
+			]
+			id: "63A360BC3F7D7CA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D3C82FF9F2492A0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EA47CD66A5A4814"
+				item: "malum:cthonic_gold"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6E0CDF19DC0180EC"]
+			description: [
+				"可以提高余烬能量激发器的产能。额外需要提供水。"
+				""
+				"&6详见古代宝典。"
+			]
+			id: "55C45F06CBAF2432"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038BB831DF3771E6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0383FC12799E5E13"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E19E7452278E701"]
+			description: [
+				"需消耗余烬能量进行泵水。下方需水源。"
+				""
+				"{image:yuusha:textures/renwu_jixiebeng.png width:100 height:80 align:center}"
+			]
+			id: "15C7574C7CE77C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20E072FA36297DC6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "362CEAAECADD0070"
+				item: "embers:mechanical_pump"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E0CDF19DC0180EC"]
+			description: [
+				"将微型锅炉放在任意产生或消耗余烬能量的机械侧面，且其中有足够的水后开始制造蒸汽。蒸汽需要在上方输出，如果内部蒸汽过多则会爆炸。"
+				""
+				"&6详看[古代宝典]的[火焰机械]章节。"
+				""
+				"&c好像只接受机械泵或者熔炼炉烧制雪球出来的水，可能需要流体管道输入。也可用帝王圣杯给流体容器灌水，再用流体管道输入微型锅炉。"
+				""
+				"&e该机械要处于运作状态才会在微型锅炉内生成蒸汽。"
+				""
+				"&3最好对着余烬能量激发器的下半部分的侧面放置，才会顺利连接。"
+			]
+			id: "43C887CE8D3355BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "478686B823325EDD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "436DC0E27182D911"
+				item: "embers:mini_boiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E707AFB0F3E898A"]
+			description: [
+				"铜质余烬能量单元的升级版。"
+				""
+				"&6用工匠透镜可看到只有其下方有接口。"
+				""
+				"&c可以将余烬晶体从其接口输入，会提高其可存储的余烬能量，并且其上方的发光晶体会增大。"
+			]
+			id: "2A16DDD4A7A3141E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C46936D062E41EA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65664022569CC2DB"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6FEF4356F9DE8DF8"]
+			description: [
+				"冷却、能量消耗、伤害均大幅优化。上述伤害受到魔法技能等级加成。"
+				""
+				"&6需[余烬能量筒]或[余烬能量罐]在副手提供能量。"
+			]
+			id: "34FFDACACBB66CF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69778EEB1C910ED1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "7E0BB67623BEB26A"
+				item: "embers:blazing_ray"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FEF4356F9DE8DF8"]
+			description: [
+				"冷却、能量消耗、伤害均大幅优化。上述伤害受到魔法技能等级加成。"
+				""
+				"&6需[余烬能量筒]或[余烬能量罐]在副手提供能量。"
+			]
+			id: "37F02A6EF09F03BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2051EEE4ECEC7296"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "34235E8668610F88"
+				item: "embers:cinder_staff"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FEF4356F9DE8DF8"]
+			description: [
+				"现在所有余烬能量容器均可佩戴在达琍特存储栏位。"
+				""
+				"&6可给大多数余烬及其附属模组的装备，提供余烬能量。"
+			]
+			id: "00889E05C58F4768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F53CDFC57430092"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AF7BB526FEAD656"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 6000.0d
+						}
+					}
+					id: "embers:ember_cartridge"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 6000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B06D68D00AE837A"]
+			description: [
+				"右击可放入手持能量容器，从而给之充能。需余烬能量激发器、余烬能量发射器、余烬能量接收器获得余烬能量充能。"
+				""
+				"&6详见[古代宝典]的[冶金构造]章节。"
+			]
+			id: "6FEF4356F9DE8DF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197584CC7E55DF81"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "218E3258742F1F16"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DF03E74DBF1DC6C"]
+			description: [
+				"消耗余烬能量将任意物品变为灰烬。"
+				""
+				"&6详见[古代宝典]的[冶金构造]章节。"
+			]
+			id: "5194CE8226A44928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696EB7F5CDB6AFA6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "029E25DD934F26DC"
+				item: "embers:cinder_plinth"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5194CE8226A44928"]
+			id: "31ED8BF42D897EC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60E4E86708A47EE1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "064A6FDEE19E5D30"
+				item: "embers:ash"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72C78E20CFD6988A"]
+			description: [
+				"通过右击炼金台除了底面以外的五个面来放入物品。炼金术基座必须放入金属元素象征和相应物品。最后用光束炮正对着炼金台，需余烬能量和红石信号激活，轰击炼金台启动炼金。《古代宝典》的冶金构造章节有部分说明。"
+				""
+				"&6JEI显示的合成表，中间物品为放置在炼金台上；周围物品为放置在炼金基座上半部，而金属元素象征则放置在炼金基座下半部。"
+				""
+				"&c炼金基座上的物品固定，但是每个存档的金属元素象征不固定，需要你去尝试，JEI内显示的合成所需的金属元素象征，为0-n的个数。光束炮需消耗余烬能量，并用红石激活。"
+				""
+				"{image:yuusha:textures/renwu_lianjintai.png width:120 height:160 align:center}"
+				"{@pagebreak}"
+				"以下为以胶粘剂的制作为例，讲解余烬的炼金台："
+				""
+				"1. 摆好炼金台、炼金基座、光束炮。"
+				"2. 按JEI合成表，对炼金台右击放入粘土，对2个炼金基座上半部分右击分别放入骨粉。"
+				"3. 在放有骨粉的炼金基座的下半部分需放入元素象征，而根据JEI所提示的元素象征种类有铅和铁，代表每个炼金基座都有可能是铅或铁，这时只能尝试。"
+				"4.  这种比较好尝试，直接放入2个铁之元素象征，如果成功了就说明是2铁。如果失败了，根据炼金废料提示，有1个发光点则说明1铁1铅，有0个发光点则说明2铅0铁。"
+				"5. 如果用解构石板看炼金废料，上面显示的元素象征和物品材料的位置有关系，但是发光点和元素象征的位置顺序无关系，仅代表正确的数量。"
+				""
+				"&6所以大部分炼金台合成都可以在第一次尝试时，全部放入同种的元素象征，先确定有几个元素象征，然后再调位置。"
+			]
+			id: "1235861346DD3BE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54A2B900E7871C79"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意有两页任务介绍"
+			tasks: [
+				{
+					id: "694795575143762F"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0CE1993BD597B3CC"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "449CB3B055CBB503"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3578C367F242BE56"]
+			id: "6D51AB975D4F94BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FFB709803F65AAC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "671A3589EE0799C2"
+				item: "embers:copper_aspectus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1235861346DD3BE7"]
+			description: [
+				"1. 右击炼金废料会显示文本提示当前有多少发光点。"
+				""
+				"2. 发光点提示当前有多少个正确的象征且与物品对应。"
+				""
+				"3. 苍白的发光点则提示有该象征，但是与物品不对应。"
+				""
+				"&6《古代宝典》的[炼金术]章节有部分内容。"
+				""
+				"&c更多相关信息详见前述炼金台任务的第一页和第二页。"
+			]
+			id: "4BF5703BE85CEE1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B56802B06377CA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09341F25CEC60A52"
+				item: "embers:alchemical_waste"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BF5703BE85CEE1E"]
+			description: [
+				"解码石板：将炼金废料放入解码石板中，可以更为方便查看闪光点，从而计算正确的配方。"
+				""
+				"&c位置说明： 如果用解构石板看炼金废料，上面显示的元素象征和物品材料的位置有关系，但是发光点和元素象征的位置顺序无关系，仅代表正确的数量。"
+				""
+				"&6用途：解码石板主要在于能记录元素象征和物品材料的对应位置，发光点的数量显示和直接查看废料是一样的。"
+				""
+				"&e相关信息：详见前述炼金台任务的第一页和第二页。"
+			]
+			id: "16ACFB9F04E0F2CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "113FF92CBF739567"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05EB6D27044F5D2F"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1235861346DD3BE7"]
+			description: [
+				"将记忆刻录器连接到炼金台且提供纸时，可以记录成功的炼金配方。"
+				""
+				"&6需直接对着炼金台侧面放置，能看到有连接材质改变，不能对着周围的方块放置。"
+			]
+			id: "651136B800BC6448"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F8166A03AFB03D2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "598266B27A9663F5"
+				item: "embers:mnemonic_inscriber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B9AE6F103B8FED2"]
+			id: "561F34F44CC42B17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4512B3F917E24942"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03BE2B6B314C1508"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B06D68D00AE837A"]
+			description: ["利用余烬晶体簇可以复制余烬晶体碎片。"]
+			id: "5B9AE6F103B8FED2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0F4CE8110C07B2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76956BFB638FA82E"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B06D68D00AE837A"]
+			description: [
+				"用于给满热值的工具和装备升级的多方块机器。拥有32000灰烬能量缓存，工作一次需要3200余烬能量。必须在中心方块的底下放机械核心才能注入能量。"
+				""
+				"当炼狱锻炉有了足够能量后，可以右键打开中间的活板门。玩家需要将满热值的物品扔进去，再扔进一些余烬晶体，最后关上门。此时锻炉会冒出滚滚浓烟，约10秒后活板门会自动打开，并有概率成功对物品进行升级。其概率P=2×arctan（n）÷π。n等于投入的余烬晶体的数量（余烬晶体算1数量，余烬晶体碎片算1/6数量）。"
+				""
+				"如果升级成功，物品把所有热值转化并开启一个升级槽位。如果升级失败，物品会保留所有热值。但是无论成功与否，玩家放入的晶体和晶体碎片一定会消失。"
+				""
+				"&6[古代宝典]的[增强锻造]章节也有描述。"
+				""
+				"&c可手持机械核心对着炼狱熔炉底部中心处右击就能放置，不能按住Shift键，不能对其它方块。之后可将余烬能量接收器、余烬能量刻度盘放上。"
+				""
+				"&e必须有足够的能量才会成功工作一次，否则只会消耗能量而无法进行一次升级判定。一般半组左右的余烬晶体即可。"
+			]
+			id: "70E0D10746E03AD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60555916F0DAA1B4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C249ABD19A0A828"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B06D68D00AE837A"]
+			description: [
+				"用以修复物品耐久，或者给装备附加特定强化。"
+				""
+				"&6详见[古代宝典]的[增强锻造]章节。"
+				""
+				"&c必须先放装备，然后再放入强化材料。需工匠锤敲击。"
+			]
+			id: "633D6D816965AD85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25ECBBB13FB06806"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BC76319617C10F1"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["633D6D816965AD85"]
+			description: [
+				"消耗余烬能量可以代替人工锤击。需红石信号激活。"
+				""
+				"&6详见[古代宝典]的[增强锻造]章节。"
+			]
+			id: "41FA7CF3FCFFEF17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5314E6C9EAEDA545"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "479B8C374C3628B4"
+				item: "embers:automatic_hammer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B06D68D00AE837A"]
+			id: "096BEDADFCFB99FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "620B68EDBAC079A8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A2CB22C883021F5"
+				item: "aetherworks:aether_amalgam"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["096BEDADFCFB99FF"]
+			description: [
+				"含杂天华液收集的多方块结构（整体结构是中央立柱，周围八个立柱呈圆形围绕）摆放如下："
+				"1. 首先摆放中央立柱，在平地上放置一个流体容器，上面放置两个方镁矾支柱，再放置一个折射棱镜。"
+				"2. 接着在中央立柱的四个面，隔两格空气，依次从下往上摆放两个太古石砖、一个太古镶边砖、一个月光增幅器（侧面的蓝色玻璃面需对着中央立柱）。"
+				"3. 在中央立柱的四个斜角，隔一格空气，依次从下往上摆放一个太古石砖、一个太古镶边砖。"
+				"4. 最终会形成一个结构，砖的颜色会显示为蓝色。"
+				""
+				"&e详见[古代宝典]的[日轮映像]章节。"
+				""
+				"&6需注意只有夜晚才会收集液体，可用幻梦模组时间仪式内的月光仪式或者树海化章节的月亮任务跳到夜晚。"
+				""
+				"&c该结构必须露天放置。"
+				""
+				"{image:yuusha:textures/renwu_tianhua.png width:135 height:105 align:center}"
+			]
+			id: "67E1C9BD07A3C58E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C5AF2377492AA2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1A44100EC21A0139"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0F25EEAC66EFDEA8"
+					item: { Count: 2, id: "aetherworks:prism_support" }
+					type: "item"
+				}
+				{
+					id: "37534F3A20A0051B"
+					item: {
+						Count: 1
+						id: "embers:fluid_vessel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "195119526B7CDD9D"
+					item: { Count: 12, id: "embers:archaic_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3956427C912330EB"
+					item: { Count: 8, id: "embers:archaic_edge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7BF8450B015F5A26"
+					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E1C9BD07A3C58E"]
+			description: [
+				"在两格高的柱子上方分别放置天华聚焦仪，可加速收集过程。"
+				""
+				"&6能够大幅度提升收集速度。"
+			]
+			id: "165C66C236C896C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57565CACE058F736"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4ECED43C0A69962E"
+				item: "aetherworks:aether_prism_controller_matrix"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E1C9BD07A3C58E"]
+			id: "0D5AABB4D694CC80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A964C9E1A7E0080"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CED82C7976349FD"
+				item: "aetherworks:aspectus_aetherium"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4B52478CF36355"]
+			description: [
+				"在对应槽位中放置组件，在天华锻座中有足量热量时捶打工具锻台，即可缓慢而谨慎地组装出许多有用的工具与物品。"
+				""
+				"&c需注意天华工具锻台在锤击合成时，会消耗天华锻座的热量和余烬能量。"
+				""
+				"&e天华工具锻台的材料放置有顺序要求（可以看材料摆放显示的方向），需按JEI的顺序摆放。顺利摆放且热量足够时，会发出粒子效果，提示可以锤击。"
+			]
+			id: "29826B64D078E0E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4130DE954737FD83"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C80AECCC906CD04"
+				item: "aetherworks:forge_tool_station"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0918BC3A95E54380"
+				"4FFDE0B9E66D6FA1"
+			]
+			description: [
+				"在天华锻座旁放置金属成型台，并倒入天华气溶胶，然后向金属成型台中放入合适的原材料，金属成型台便会消耗余烬能量和热量，直至加工结束，并于此时消耗天华气溶胶。可以使用铁桶倒入或盛出流体。"
+				""
+				"&c顺利摆放且热量足够时，会有粒子效果提示开始加工。"
+				""
+				"{image:yuusha:textures/renwu_redstone.png width:150 height:100 align:center}"
+				""
+				"&6上图是一个利用红石比较器进行简单控制温度的示例。锻座计量表会根据热量发出不同的红石信号。"
+				""
+				"&e图解：锻座计量表在热量2800以上时，会发出红石信号强度15，经红石比较器读取后，经过15格红石，会将红石火把反转，然后天华锻座加热器会停止工作。"
+			]
+			id: "14C1C4E98D498A50"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F9F142BBD5E8477"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "只需要完成任一前置任务即可开启"
+			tasks: [{
+				id: "65E80D82D063C7B0"
+				item: "aetherworks:forge_metal_former"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D14B8E5653176DB"]
+			description: [
+				"天华锻座需消耗余烬能量和热量，可进行多种制作。务必不要让热量累积过多，否则会发生爆炸。"
+				""
+				"&6放下后，可看到天华锻座分两部分，包括锻座中心和锻座基座。锻座中心为凸起来部分，可放置余烬能量刻度盘和锻座计量表显示信息，并可接收余烬能量，制作物品需消耗余烬能量和热量。锻座基座为平台，平台上可放置金属成型台等制作物品的装置，平台边可放置天华锻座加热器等改变热量的装置。"
+				""
+				"&e详见[古代宝典]的[日轮映像]章节。"
+				""
+				"{image:yuusha:textures/renwu_tianhuaduanzuo.png width:170 height:115 align:center}"
+			]
+			id: "496474BEE3E67D70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BDCBFD746752E89"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需击杀先驱者才能继续往下制作"
+			tasks: [{
+				id: "155EC2FF4142E62C"
+				item: "aetherworks:aether_forge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14C1C4E98D498A50"]
+			id: "33F1C5EBE2CE711D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CEE521497BBBF21"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CA71DC6B91E8A3A"
+				item: "aetherworks:gem_aether"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["496474BEE3E67D70"]
+			description: [
+				"在天华锻座基座周围放置若干台加热器、散热口、冷却器，即可加热锻座并控温。所有组件均受红石控制。"
+				""
+				"&c向天华锻座加热器供应余烬能量和水，且其下方有熔岩或熔融金属时，它会向天华锻座产出热量。"
+				""
+				"&e详见[古代宝典]的[日轮映像]章节。"
+			]
+			id: "4FFDE0B9E66D6FA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EC04D99D6E71320"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44CE9AB1745B0FF3"
+				item: "aetherworks:forge_heater"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["496474BEE3E67D70"]
+			description: [
+				"锻座计量表可以在查看时显示天华锻座当前的热量。"
+				""
+				"&e详见[古代宝典]的[日轮映像]章节。"
+				""
+				"&c计量表会根据热量发出不同的红石信号，可以据此进行半自动化。需红石比较器输出红石信号。"
+			]
+			id: "0918BC3A95E54380"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F130B078670E6A4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A844E94AD3ECE64"
+				item: "aetherworks:heat_dial"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000D517C96345B25"]
+			description: [
+				"天华砧用于改进粗制物品和破开晶球。在砧上放置物品后，其上会出现一个感叹号。在感叹号为绿色时捶打会推进加工进度，并消耗热量和余烬能量。在不为绿色时捶打会记一振，三振即物品损毁。而若是热量散逸导致温度降至范围之外，则所有的进度都将丢失。"
+				""
+				"&c需注意必须在绿色感叹号时敲击。"
+				""
+				"&6顺利摆放且热量足够时，会有粒子效果提示可以锤击。"
+			]
+			id: "2CB62B5CB87E202E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D491D04DDD6E93"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22707AA2485646B9"
+				item: "aetherworks:forge_anvil"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33F1C5EBE2CE711D"]
+			id: "3F4B52478CF36355"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E01DF998BA9D285"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AFC8488FD07F6EA"
+				item: "aetherworks:aether_pearl"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["14C1C4E98D498A50"]
+			description: ["现在天华工具和捕月能量工具在主世界的白天或夜晚都能生效。"]
+			id: "000D517C96345B25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FFD24C8DE756EBF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "181E351E0689F059"
+					item: "aetherworks:ingot_aether"
+					type: "item"
+				}
+				{
+					id: "68510DB001E7453C"
+					item: "aetherworks:plate_aether"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["现在船除了玩家可坐外，无法禁锢任何其它生物。"]
+			id: "4965B04DF5CDBB05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5851DDCC2B7E77B5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05B4D0A55DFEBFCF"
+				item: "minecraft:oak_boat"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1235861346DD3BE7"]
+			id: "36BCF7C691BC5475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DFA1BBDAD77FB39"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0818D83EA7BC6DF5"
+				item: "embers:creative_ember_source"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["50CDD3F833BEFB8A"]
+			id: "004BAA3A2972097C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A8D4F9E736FE924"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50210BB1F0D099B2"
+				item: "ancientreforging:ancient_reforging_table"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: [
+				"星河贸易站新增了很多交易。"
+				""
+				"&6各种女孩刷怪蛋可以兑换原版的怪物掉落材料。贸易商人还能兑换经验书籍等。末影人女孩可兑换末影之眼。上述交易都不是固定的，可能有些特别便宜的交易项目。"
+				""
+				"&c死亡图腾内置冷却时间，不像原版不死图腾一样可以一直复活。"
+				""
+				"&3用海船墓地之回响可以在小市场中兑换部分修改刷怪笼的材料。"
+				""
+				"&e因PMMO的问题，部分物品会有特殊NBT无法与其他相同物品堆叠，且无法在星河贸易站中交易。把有问题的物品和其它正常物品一起丢出去重新捡起来应该可以解决；或者重新再搞点新的。"
+				""
+				"&2多人联机特性：星河贸易站无法用JEI查看交易内容。"
+			]
+			id: "6345272D9825406F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F6A234DACC819B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "534B18E82B03C5A0"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E707AFB0F3E898A"]
+			id: "4DF03E74DBF1DC6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7275B59D3FA83530"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "552DEFD277F672CA"
+				item: "embers:lead_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			description: ["击杀任意突变体可制作优秀枪械材料。"]
+			id: "097F2BB751E9C8D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DBACE8C8DCA12EC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B8F3747BFCAED24"
+				item: "yuusha:uncommon_material"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			description: ["击杀化石鱼可制作史诗枪械材料。"]
+			id: "74990F38DB90BE0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BCB90B2ED79D7F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D61BB6F09BF83C7"
+				item: "yuusha:epic_material"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			description: ["击杀远古墨魂化身可制作传奇枪械材料。"]
+			id: "48B093B17A286D3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "573949846386F413"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74397AEFE2516FA6"
+				item: "yuusha:legendary_material"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			description: ["击杀灾厄教父可制作稀有枪械材料。"]
+			id: "2E54999A0314A054"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583DF375B238F886"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B585963BDBA3791"
+				item: "yuusha:rare_material"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			description: ["击杀腐化英雄可制作终极枪械材料。"]
+			id: "33AFA065C7AC0456"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A72736CA928015"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35AC7CCDAFCB7631"
+				item: "yuusha:ultimate_material"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["大部分动物具有高额抗性，在前期可以用长矛击杀。"]
+			id: "153558B7FF507A10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ED90FA131020C83"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D9894A0447BA445"
+				item: {
+					Count: 1
+					id: "mowziesmobs:spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["你知道吗？玩家可以利用指路石来传送用拴绳拴住的动物，只需要消耗额外的经验即可。"]
+			id: "2957609BCB84161D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "676863C81789DD90"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41B5571311BDEA6D"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			description: [
+				"将灵魂原油和蒸汽混合即可获得。"
+				""
+				"&6在JEI搜索[烬铸原液]，对着其液体形态按R键可查看具体合成。"
+				""
+				"&c&c可用流体提取器把混合离心器内的流体抽取出来。"
+			]
+			id: "6351E7A8D69C8153"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F448996B7628D31"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61A972E7EAA96B44"
+				item: "embers:dwarven_oil_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["551D4E6967CB89E1"]
+			description: [
+				"手持太阳石锭右击辊压机可制作太阳石板材。"
+				""
+				"&6太阳石锭的获取详见上层世界章节的太阳石粗矿。"
+				""
+				"&c击杀霜冻巨兽、乌姆武蒂-太阳鸟、钢铁守护者都分别有四分之一几率掉落四种未完成的组件。在各种地牢宝箱中也有几率获得未完成的组件。"
+			]
+			id: "5DF3D5CAF2B353B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "182F25E0A8F48826"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6844891A4A046ACB"
+				item: "rustic_engineer:solarite_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["727FF075D6865ACE"]
+			description: [
+				"这是一只六条腿的机械蜘蛛，在陆地运输时非常敏捷，甚至能快速翻山越岭。当然它也可以辅助你的战斗，当按下“F”键时它在地上结网（存在特性无效）。"
+				""
+				"&6载具需要燃料才能用，shift+右键对载具可以打开载具物品栏，燃料仓上格补水桶，下格放煤炭，然后载具就能顺利运行。"
+			]
+			id: "3C16C19C07B0051F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62DF0D4765A18A5D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BBFC2322B96E3E8"
+				item: "rustic_engineer:spider_mech_item"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["727FF075D6865ACE"]
+			description: [
+				"这是一种蒸汽气球驱动的运输工具，能够在空中航行。当你探索世界时，你也可以在里面储存一些物品。使用W、A、D键进行水平移动，使用SPACE/S键进行垂直移动。"
+				""
+				"&6载具需要燃料才能用，shift+右键对载具可以打开载具物品栏，燃料仓上格补水桶，下格放煤炭，然后载具就能顺利运行。"
+			]
+			id: "2A67D560B1B4BBC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70EB19D95936B5B1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "073FE4F7E5E68D0D"
+				item: "rustic_engineer:air_ship_item"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["727FF075D6865ACE"]
+			description: [
+				"这是一艘看起来有些像深海怪物的潜艇。但它能让你海洋深处航行而不溺水。当你溺水时进入潜艇，就可以恢复你的氧气值。"
+				""
+				"&6载具需要燃料才能用，shift+右键对载具可以打开载具物品栏，燃料仓上格补水桶，下格放煤炭，然后载具就能顺利运行。"
+			]
+			id: "2DCF5FAFF62171E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B4753F65558450A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EB8CEBE281A11CB"
+				item: "rustic_engineer:abyssal_submarine_item"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["727FF075D6865ACE"]
+			description: [
+				"一种可用于快速飞行的机械昆虫。当你探索世界时，你也可以在里面储存一些物品。使用W键往你看向的方向移动，使用SPACE/S键进行垂直移动。"
+				""
+				"&6载具需要燃料才能用，shift+右键对载具可以打开载具物品栏，燃料仓上格补水桶，下格放煤炭，然后载具就能顺利运行。"
+			]
+			id: "2A2BCD69E2147D93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DF274D51C56AC08"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E9F15773E0FA195"
+				item: "rustic_engineer:dragonfly_item"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["551D4E6967CB89E1"]
+			description: [
+				"需击杀天顶巨兽章节“愚者”阶段的任意Boss，然后将其掉落物丢进细雪中转化获得。"
+				""
+				"&6能量晶核还能制作多种附魔书。"
+				""
+				"&e作为基础枪械材料，可在枪械工作台中制作多种枪械。"
+				""
+				"&c战士和枪械盔甲方面在宝具章节有更多介绍。"
+			]
+			id: "0F9131DFA586E12E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BCF8C51ED534E1E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A48AD5238BE6C74"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["551D4E6967CB89E1"]
+			description: [
+				"刷怪笼可制作，但制作出来的无法刷怪，需要放入刷怪蛋才能刷怪。此外，利用[精准采集]可挖掘获得野外有怪物的[刷怪笼]。"
+				""
+				"&6[神化]模组提供了修改刷怪笼属性的方法，可以更方便地去刷怪。持对应物品右击刷怪笼即可调节属性，对着JEI里的刷怪笼按R键可查看调节刷怪笼的材料。"
+				""
+				"&c部分建筑结构的刷怪笼并不是原版或神化的刷怪笼，不能拿来进行神化改造，也无法精准采集获得。"
+			]
+			id: "77E4CF9A92B37E3B"
+			rewards: [{
+				id: "2AF123FBC1AE233D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17A137DCF61C3601"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2CB62B5CB87E202E"]
+			description: ["消耗余烬能量右击进行挖掘。"]
+			id: "71B93C1CD35810B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F80675DCF716AE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B355802C1824C49"
+				item: "aetherworks:tool_rod_infused"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1ADDFDE7C7A7BB6E"]
+			description: [
+				"给任意镐类用黎明砧打上调谐柱件，然后在挖掘方块时，有概率掉落对应生物群系的晶球，受时运影响。"
+				""
+				"&6掉晶球的概率已大幅度提高。晶球可以用此章节的天华砧破开。"
+			]
+			id: "7D4F025133C9291D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C7148BF49405CBB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1B0D846A73215051"
+					item: "aetherworks:geode_end"
+					type: "item"
+				}
+				{
+					id: "78CFB38F987F0DB1"
+					item: "aetherworks:geode_nether"
+					type: "item"
+				}
+				{
+					id: "09002D14CB8292BC"
+					item: "aetherworks:geode_hot"
+					type: "item"
+				}
+				{
+					id: "47C3E068B9953350"
+					item: "aetherworks:geode_cold"
+					type: "item"
+				}
+				{
+					id: "75AB0081E838B0E1"
+					item: "aetherworks:geode_ocean"
+					type: "item"
+				}
+				{
+					id: "4A9BFC31053D4494"
+					item: "aetherworks:geode_deep"
+					type: "item"
+				}
+				{
+					id: "3152EC97332F01CE"
+					item: "aetherworks:geode_basic"
+					type: "item"
+				}
+			]
+			title: "晶球"
+			x: 12.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"633D6D816965AD85"
+				"70E0D10746E03AD5"
+			]
+			description: [
+				"热量值获取：将装备和太古动力核心放在黎明砧上，并用工匠锤多次右击敲击，装备会获得吸收热量的能力。正常使用装备会获得热量值。"
+				""
+				"&6增强槽获取：在热量值满后，利用炼狱锻炉可将装备回火处理，从而获得增强槽。将装备和余烬晶体投入炼狱锻炉中，有几率获得增强槽，成功几率与投入的余烬晶体数量呈正相关。"
+				""
+				"&c增强槽使用：在装备至少有1个增强槽时，调谐柱件才能通过黎明砧打到装备上。"
+				""
+				"&e额外相关：飞行禁锢器也可作为增强槽的使用部件，让余烬能量弹射物给予被击中生物锚定效果，从而使之失去飞行能力。"
+			]
+			id: "1ADDFDE7C7A7BB6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D20D4A2FF29D2F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BA6BB16CFC66BBD"
+				item: "aetherworks:tuning_cylinder"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7E01F440A9BC98E2"]
+			description: ["用作神化重铸台中重铸装备的神化词缀。最多会出现有5个镶孔的装备词缀。"]
+			id: "50CDD3F833BEFB8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522B698C684BDC4B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A274941F7DD5B55"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FB8D03A5201B0CF"]
+			id: "7E01F440A9BC98E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BDB6881BEFB3BED"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "065F436354FA927D"
+				item: "yuusha:ancient_aether_shard"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["316119D053D0D03F"]
+			description: [
+				"手持任意晶球右击远古精灵瓶罐即可获得。"
+				""
+				"&6将瓶罐放在地上，然后用远古精灵右击瓶罐即可装罐。"
+			]
+			id: "5FB8D03A5201B0CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2282AFC3246B467F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "065ADF7D0AF065AE"
+				item: "yuusha:strange_crystal"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657D057A1483E69E"]
+			id: "595733E70B0B4633"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A6AF64C36E01F73"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B094A1DC5AC0738"
+				item: "eidolon:spawn_raven"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			description: [
+				"太阳石锭可制作瓦琍斯盔甲，全套可以抗击退，且制作出来的为不可破坏。可以给女仆穿或者前期使用。"
+				""
+				"&c瓦琍斯盔甲只建议『玩家是勇者』世界线制作给女仆扛伤。『女仆是勇者』世界线会有任务提示有其它女仆盔甲。"
+			]
+			id: "76C29FC9F7E45CE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39D7188607EF4373"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BDC23DA1AD6BA3E"
+				item: "rustic_engineer:solarite_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["551D4E6967CB89E1"]
+			description: ["手持太阳石锭右击辊压机可制作太阳石板材。"]
+			id: "3DCBDFA759068678"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CB78B6ABCF72C57"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D498E540016E2FE"
+				item: {
+					Count: 1
+					id: "rustic_engineer:hydraulic_press"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["551D4E6967CB89E1"]
+			description: [
+				"利用太阳扳手Shift+右击可拆卸机械载具。"
+				""
+				"&c用太阳扳手拆卸后各种机械载具后，机械载具里存储的东西全会清空。"
+			]
+			id: "727FF075D6865ACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5113B14C51A75CE9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B7FD912B38DAC5F"
+				item: "rustic_engineer:pipe_wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4DBBBC64F052F20A"]
+			description: ["压印锤需要模板来制作物品。"]
+			id: "2CACEEC3041090CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DEB8E441C324B06"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2B1904AAE065F873"
+					item: "embers:ingot_stamp"
+					type: "item"
+				}
+				{
+					id: "1D1A2CDFC23E25A6"
+					item: "embers:plate_stamp"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E19E7452278E701"]
+			description: ["可以存储大部分流体，蒸汽除外。"]
+			id: "36588985A12CD874"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A4221FE39D16AA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EC256D7F80603FB"
+				item: "embers:fluid_vessel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D6E447009E2F2C6"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Creative: 1b
+				}
+			}
+			id: "6BC726EB4A5E75DA"
+			rewards: [{
+				id: "550ED28792846821"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						AllTypeCreative: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "04488D7503E3C7CF"
+				item: "yuusha:fake_box"
+				type: "item"
+			}]
+			title: "&5全类型无尽弹药盒"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43ECCAB09CCC60C7"]
+			description: [
+				"整合包有丰富的武器、装备、饰品词缀效果。将物品和刷怪笼碎片一起放入铁砧可重置[星月词缀]。"
+				""
+				"&6详见树海化章节的星月词缀任务。"
+			]
+			id: "18E9307D2A066030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C412B31BF6B4F0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52C3E3F5B6EDB2D4"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16C5F995D1E2FF41"]
+			description: [
+				"回收台能将带词缀的装备转化为1-4个珍宝材料，珍宝材料类型取决于装备稀有度和自身的剩余耐久度。剩余耐久度低时，最大输出数量会降低，剩余耐久度再低也会至少输出1个。"
+				""
+				"&6神化Boss需遥远世界章节才能开启。下级挑战门也可获得部分神化重铸材料。"
+			]
+			hide_dependency_lines: false
+			id: "317C37E5EF08429E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E52C0617D4455E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4884814918FD7B88"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["096BEDADFCFB99FF"]
+			description: [
+				"重铸台：用来改变装备神化词缀，需珍宝材料和宝石粉。武器附加神化词缀后，其元素属性会不显示，只能手持后看屏幕右下角的属性。“将造成魔法伤害”词条会使得武器伤害变为魔法伤害，并受到魔灵之力、魔能强度加成伤害。"
+				""
+				"&e弓箭类词缀：神化暴击率、神化暴击伤害、弹射物速度、弹射物伤害、蓄力速度。"
+				""
+				"&3近战类词缀：近战伤害、神化暴击率、神化暴击伤害、攻击速度、生命值伤害、生命偷取、过量治疗。"
+				""
+				"&6枪械类词缀：神化暴击率、神化暴击伤害、射击伤害、生命值伤害、过量治疗。"
+				""
+				"&6枪械类词缀特殊说明：1.枪械100%护甲穿透的，护甲穿透属性无额外效果；2.有几率出现不消耗子弹词缀，材料越好几率越高。"
+				""
+				"&c神化重铸材料：需要通关下级挑战传送门获取不稳定红石余烬（可复制）制作。神化Boss需遥远世界章节才能开启（前期基本没足够的材料进行神化重铸）。"
+				""
+				"&2神化暴击率：攻击时有几率出现神化暴击，会基于神化暴击伤害造成伤害。如果神化暴击率高于100%会触发多重神化暴击。"
+			]
+			id: "16C5F995D1E2FF41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F5CF12BD2F0F750"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5112182A0F8DC8D3"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16C5F995D1E2FF41"]
+			id: "423C5DE3002A855B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6308498074DBA66C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F785B9BD250C893"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16C5F995D1E2FF41"]
+			id: "2B33F19D9B85AA29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7818EB7BF68DC0A8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B4CFADE87A6FB13"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70E0D10746E03AD5"]
+			description: [
+				"所有遗物饰品都可进行PMMO回收，对着炼狱锻炉中心SHIFT+右击，可几率回收出刷怪笼碎片和遗物经验瓶。"
+				""
+				"&c部分遗物饰品需击杀Boss获得，部分遗物饰品可在各种战利品箱中找到。"
+				""
+				"&6此整合包降低了大部分遗物饰品升级所需要的遗物经验值。"
+				""
+				"&e遗物饰品在使用时会获得遗物经验，或者可利用遗物经验瓶获得经验。"
+			]
+			id: "1D1380E7BDA9747F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FD2D9C67F80B606"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C4C58AC72D00C0C"
+				item: "relics:relic_experience_bottle"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16C5F995D1E2FF41"]
+			description: [
+				"基本设定：史诗级词缀需击杀龙后Boss，并制作神化Boss召唤器，在末地召唤神化Boss才可获得。"
+				""
+				"&6装备说明：只有史诗及以上级别武器，才有几率出现星裂效果词缀。每级星裂效果可以抵消星灵之力1级的效果，主要用来应对星灵之力5级及以上的生物。大部分神化宝石都可以通过在工作台中合成进行升级。"
+				""
+				"&e特殊宝石说明：部分宝石需特定维度才有几率获得：主世界（地球、王室）、下界（炽狱、嗜血领主）、末地（影激、法师克星）。无间之炼狱专有各种法术宝石，其中包括突破宝石等。上述特殊宝石的掉率与幸运有关，幸运越高掉率越高。"
+				""
+				"&c词条说明：铁之咒语模组法杖星裂词条“攻击目标时造成星裂”只能通过近战攻击触发，诡厄巫法魔杖的星裂词条可通过部分弹射物聚晶攻击触发。"
+				""
+				"&3级别说明：神化Boss召唤器召唤出来的神化Boss等级，在末地维度或者无间之炼狱维度为史诗级别，在来无回之都维度为神话级别。"
+				""
+				"&2效果说明：星灵之力（抗性提升）效果每级可增加20%的抗性，而星裂效果每级会降低20%的抗性，两者可以抵消。穿透效果每级可降低10%护甲。过量治疗会基于你造成实际伤害的百分比转化为你的黄血。"
+			]
+			id: "0C0570E07FB9E929"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ABAC639A5B7DB41"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29880AD6992B0A9E"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BA58FB23CD68C98"]
+			description: [
+				"击杀太古魔像获得。"
+				""
+				"&6太古魔像只会在古遗天境维度生成。需要黑暗环境。"
+				""
+				"&c余烬模组的建筑也只会生成在古遗天境，该建筑内有几率生成太古魔像。可用探险家指南针搜索“Small Ruin”找到。"
+			]
+			id: "11BE1190C7330DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19917441C90385EF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78B4DBDA970B98DB"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C0570E07FB9E929"]
+			id: "316119D053D0D03F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10BAB63C7365229A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F0A513404F52C90"
+				item: "forbidden_arcanus:corrupted_pixie"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50CDD3F833BEFB8A"]
+			id: "71A2A2491FD3D3B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0749C5739CA4897A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D328B691BB1C636"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["004BAA3A2972097C"]
+			id: "552C850FB0653EF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554D36A0059A83EC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19DF3EEE05808B3E"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			description: [
+				"制作面包、金胡萝卜、烤制马铃薯可在前期获得较多的烹饪经验。"
+				""
+				"&c把灵魂净化度、蛋白质等除了糖类以外的营养吃到90%以上，可以获得大量的近战攻击力，这在前期很有用。"
+			]
+			id: "683A37F4526C1979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278B26A7F5ABA1E8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DED1052A5AA1BDF"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4BA58FB23CD68C98"]
+			description: [
+				"可在星河贸易站交易获得。除了贸易商人外，还可用荷斯陶诺斯货币换取其它有用的商人刷怪蛋。"
+				""
+				"&6贸易商人可交易出各种宝箱，包括丛林宝箱、沙漠宝箱等。"
+			]
+			id: "3EE5E441427DA2C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7008D877ABD2B6C2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F8D43D93644339B"
+				item: "grimoireofgaia:spawn_trader"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035C4C2172727AA8"]
+			description: ["找到燧石即可制作。"]
+			id: "37B139F3C45DBD7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F24A7829E546939"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4395D9CA0BEC2D98"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37B139F3C45DBD7E"]
+			description: ["用农夫乐事的刀破坏草类植物或作物有几率获得。"]
+			id: "1AE0DD1AED79CEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A1B7318672F168F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65ADEB4C112E2F80"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			description: [
+				"以下为以胶粘剂的制作为例，讲解余烬的炼金台："
+				""
+				"1. 摆好炼金台、炼金基座、光束炮。"
+				"2. 按JEI合成表，对炼金台右击放入粘土，对2个炼金基座上半部分右击分别放入骨粉。"
+				"3. 在放有骨粉的炼金基座的下半部分需放入元素象征，而根据JEI所提示的元素象征种类有铅和铁，代表每个炼金基座都有可能是铅或铁，这时只能尝试。"
+				"4.  这种比较好尝试，直接放入2个铁之元素象征，如果成功了就说明是2铁。如果失败了，根据炼金废料提示，有1个发光点则说明1铁1铅，有0个发光点则说明2铅0铁。"
+				"5. 如果用解构石板看炼金废料，上面显示的发光点和元素象征的位置顺序无关系，仅代表正确的数量。"
+				""
+				"&6所以大部分炼金台合成都可以在第一次尝试时，全部放入同种的元素象征，先确定有几个元素象征，然后再调位置。"
+			]
+			id: "3578C367F242BE56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1584739D582D4C28"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C14EF08F60F3352"
+				item: "embers:adhesive"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1235861346DD3BE7"]
+			description: ["可以在铁砧中直接改写饰品的词缀。"]
+			id: "6A5C45EBEDF7C687"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13821951EFA8214E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06B6EFED3E0D426F"
+				item: {
+					Count: 1
+					id: "celestial_forge:modifier_book"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["可制作或野外找到。酿造可用漏斗、红石等自动化。"]
+			hide_dependency_lines: true
+			id: "63B5A0C849A0F875"
+			rewards: [{
+				id: "375535BC3C58EF16"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0887BEC611765785"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63B5A0C849A0F875"]
+			description: [
+				"可制作易伤药水，对部分高护甲的Boss具有奇效。"
+				""
+				"&c仅能降低护甲值，不能降低韧性值。护甲与韧性的减伤详见树海化章节盾牌机制及减伤计算改良任务。"
+			]
+			id: "2B6A7487EF185471"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6834540404DD9342"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EDB2C414762B2CF"
+				item: "eidolon:tattered_cloth"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BA58FB23CD68C98"]
+			description: [
+				"用作锻造模板。以太古动力核心为材料，可以在锻造台处将模组内下界合金武器升级成符文武器，拥有更强的属性及随机符文能力，重置随机能力需将符文武器放入锻造台重锻。"
+				""
+				"&e符文武器需在打开物品栏时，用左击拿起符文武器，从而获得符文能力。"
+				""
+				"&c简易刀剑模组的所有武器，无法通过开启宝箱获取，具体获取途径需JEI查看其合成或者说明提示。"
+			]
+			id: "4B53BAA1B42F3CBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B800B86A3427E0C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "644A2FB7E99F3535"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F9131DFA586E12E"]
+			description: ["只能通过精魂祭坛制作获得。"]
+			id: "5C9E4AD7B1C53C0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2690342AFDEDD456"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0049E5D3A640CBDE"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C9E4AD7B1C53C0C"]
+			description: ["可以在切石机中刷新。"]
+			id: "543AEE360AB08573"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41CF5C61447779C3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25929CFF9AFD1809"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C9E4AD7B1C53C0C"]
+			description: ["可以在切石机中刷新。"]
+			id: "57041B395CCC2F85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46785C9ADFAC9FE8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BD275EC1F9F9831"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21C11696FFAB1967"]
+			description: ["纯净织布可以洗开局的神秘护身符，可以洗成吸血词缀。"]
+			id: "6A6C4B3976D5EBDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "061A17D5F27ADD88"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31E73165C1CFD117"
+				item: "hmag:purification_cloth"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70E0D10746E03AD5"]
+			description: [
+				"可利用PMMO巧匠技能分解材料，从而直接获得特定刷怪蛋。"
+				""
+				"&6关于PMMO巧匠技能，详见树海化章节巧匠等级任务。"
+			]
+			id: "4F2CD69F28E26D89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "770DE11D75CDC63D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5DAC214070F1005D"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "03877EF4308524AE"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3F1326E0444E4C20"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "24B51BB01F4A63A8"
+					item: "minecraft:enderman_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2EAF226727E5E70A"
+					item: "minecraft:pig_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "365BFFE2C601CBB5"
+					item: "minecraft:rabbit_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3119D6B406D26C9B"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6B827D13C9DF5219"
+					item: "minecraft:shulker_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "06D0CEDC98948B5D"
+					item: "minecraft:strider_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1FB6DFFE8108E4F8"
+					item: "minecraft:warden_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "08DFF24F00A54887"
+					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0D21CAAE76E76212"
+					item: "hmag:monolith_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "38036939AEE05982"
+					item: "touhou_little_maid:fairy_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5E897A0C1CB3EAB3"
+					item: "minecraft:evoker_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4AC059FB35205F98"
+					item: "minecraft:ghast_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "24AAEEDE03FABB18"
+					item: "minecraft:witch_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3346F212B5652496"
+					item: "goety:haunted_armor_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1F0871837B9E8A0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "callfromthedepth_:citadelguardian_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "7B49AA7215CF2A0B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:husk_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "2CE1F90B2683A4DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:stray_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			title: "刷怪蛋"
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D6E447009E2F2C6"]
+			description: ["可消耗充能，从而复制碳素钢等材料。"]
+			id: "43D86042D2FD6061"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA42DE0A7B70F7E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "332D8D3F57F2B6BC"
+				item: {
+					Count: 1
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 10000
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4275A5E9FDD6A137"]
+			description: [
+				"各种建筑手杖可同时放置多个方块，还有升级版。自行在JEI搜索“@wand”。"
+				""
+				"&6特性：主手持手杖，副手空手时，对着已放下的方块按住Ctrl+Shift+右键可撤回用该建筑手杖所放下的方块，以此来回刷特定的PMMO技能经验。"
+				""
+				"&e额外用法：与核心合成后，对着空气按Ctrl+Shift+右击可打开配置界面，对着空气按Shift+左击可切换核心功能。"
+			]
+			id: "325F3F7260BC71E3"
+			rewards: [{
+				id: "3B33EBE82F97393D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BBA7C06D47210B5"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["496474BEE3E67D70"]
+			description: [
+				"在天华锻座基座周围放置若干台加热器、散热口、冷却器，即可加热锻座并控温。所有组件均受红石控制。"
+				""
+				"&3向天华锻座冷却器供应余烬能量和水，且其下方有任意种类的冰时，它会消耗冰，并立即令天华锻座的温度降低500度。"
+				""
+				"&2天华锻座散热口无需使用余烬能量或其他材料。激活时，它会持续移走天华锻座的热量，直至温度降至100度或以下为止。"
+				""
+				"&e详见[古代宝典]的[日轮映像]章节。"
+				""
+				"&6据说天华锻座可以用一个加热器配两个散热口保持恒温，需加温时就关掉一个散热口。请确保你有足够的余烬能量。"
+			]
+			id: "4B607D9A9A4C643E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B27718B226C969D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7FC6630B467E98D3"
+					item: "aetherworks:forge_vent"
+					type: "item"
+				}
+				{
+					id: "7958D89597F40D6A"
+					item: "aetherworks:forge_cooler"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D6E447009E2F2C6"]
+			description: [
+				"该枪械工作台有部分简单制作的枪械，适合前期使用。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-240-116-tan_xian.png width:120 height:58 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "04A0276164C941B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B6B2C5806BB61CD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "5132178D1E9D51E2"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "emxcust:emxcust"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6351E7A8D69C8153"]
+			id: "7D2DC2B8F55EAD38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4834987E509E54A6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44A6FA21F01E5A21"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72C78E20CFD6988A"]
+			id: "3D14B8E5653176DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17B981123150D59B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19F8B60B25A3238B"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"该枪械工作台有部分特殊制作的枪械。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-240-115-da_xing_yuan_zi.png width:120 height:58 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "31513189CD356654"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB881B36B6989CA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "0DA1C075298DA4E7"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "pgp:printer"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"该枪械工作台有部分特殊制作的枪械。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-240-118-zhong_duan.png width:120 height:59 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "57EB823F9B10B616"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD2F753AEBE322E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "01F891439652D181"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "applied_armorer:worckbench_applied_armorer"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"该枪械工作台有部分特殊制作的枪械。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-238-116-shu_guang.png width:119 height:58 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "5A23EA6F361AACB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F23A34C5F2ADA51"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "57841B7115B787DE"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "eos:eos_printer"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"该枪械工作台有部分特殊制作的枪械。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-255-135-ci_yuan.png width:128 height:68 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "4DFE8D59237A0830"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B6764B6B109AF56"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "6A4178E05F58787F"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "ocle:fzj_table"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D26502511900B60"]
+			description: [
+				"该枪械工作台有部分特殊制作的枪械。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+				""
+				"&c在任务的大界面时或者点击打开任务物品到最后时，对着该任务物品按R键或U键可查看合成。"
+				""
+				"{image:yuusha:textures/tacz-240-117-ni_jing_zhong_ke.png width:120 height:59 align:center}"
+				""
+				"&6部分枪械会造成爆炸伤害炸毁掉落物，可以佩戴具有强大物品吸力的饰品来防止掉落物销毁，比如损坏的磁铁、背包的磁铁升级等。"
+			]
+			id: "5C0785A8BB4D8182"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07391574185AC389"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "13A355526A27A1A7"
+				item: {
+					Count: 1
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "emxarms:emx_workbench"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5234FA5C2941AD96"]
+			description: [
+				"该枪械工作台主要用来制作各式弹药和配件。"
+				""
+				"&e详细枪械说明详见此章节零点枪械工作台任务。"
+			]
+			id: "00F42058528DBA60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C3DBFC13868E53E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "枪械伤害（享受枪械技能等级加成）"
+			tasks: [{
+				id: "05BD3471F5BBFFE2"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "emxarms:sky_workbench"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6E0CDF19DC0180EC"]
+			description: [
+				"下方通入能量和输出物品。当中心方块被灰烬能量充能后，线圈将开始升温。"
+				""
+				"&6将需要烧炼的物品投掷到线圈炉顶部的线圈上，线圈炉会开始烧炼。"
+				""
+				"&e线圈越热，顶部的粒子效果就越明亮，冶炼物品的速度也越快。它会吧冶炼后的物品放入自身内部缓存，可以使用管线从底部泵出。"
+			]
+			id: "099A444FFB7EA52D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F4A0427E18B2FE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E2091840737D724"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["153558B7FF507A10"]
+			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 1
+					color: 15962537
+					display: {
+						color: 16765952
+					}
+					isReward: 1
+					label: "樱花蜂房"
+					oneUse: 1
+					size: 15
+					state: 5
+					structureName: "config/capsule/rewards/bee.nbt"
+				}
+			}
+			id: "6517595F83872503"
+			rewards: [{
+				id: "73941B62216B4441"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 1
+						color: 15962537
+						display: {
+							color: 16765952
+						}
+						isReward: 1
+						label: "樱花蜂房"
+						oneUse: 1
+						size: 15
+						state: 5
+						structureName: "config/capsule/rewards/bee.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "5C1432ED79BD6077"
+					item: { Count: 6, id: "minecraft:beehive" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3B77F2CECCC1DC72"
+					item: {
+						Count: 64
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:cherry_planks"
+					}
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«樱花蜂房»胶囊"
+			x: -11.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41264B48A1063918"]
+			description: [
+				"该一次性胶囊仅提供一个好看的黑曜石平台，以供玩家将刷怪笼放置在灯笼位置。"
+				""
+				"&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"
+			]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 1
+					color: 16770560
+					display: {
+						color: 6901921
+					}
+					isReward: 1
+					label: "刷怪笼平台"
+					oneUse: 1
+					size: 23
+					state: 5
+					structureName: "config/capsule/rewards/spwners.nbt"
+				}
+			}
+			id: "2241B8B242AE0C7D"
+			rewards: [{
+				id: "5C5DC23EA4FF7987"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 1
+						color: 16770560
+						display: {
+							color: 6901921
+						}
+						isReward: 1
+						label: "刷怪笼平台"
+						oneUse: 1
+						size: 23
+						state: 5
+						structureName: "config/capsule/rewards/spwners.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 361L
+				id: "704637CFD53DAF35"
+				item: { Count: 361, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			title: "兑换 一次性«刷怪笼平台»胶囊"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BA58FB23CD68C98"]
+			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 0
+					color: 15919834
+					display: {
+						color: 16093080
+					}
+					isReward: 1
+					label: "樱花小屋"
+					oneUse: 1
+					size: 29
+					state: 5
+					structureName: "config/capsule/rewards/home-finalversion.nbt"
+				}
+			}
+			id: "12B572195CEEE720"
+			rewards: [{
+				id: "618FC6BE916D4AE0"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 0
+						color: 15919834
+						display: {
+							color: 16093080
+						}
+						isReward: 1
+						label: "樱花小屋"
+						oneUse: 1
+						size: 29
+						state: 5
+						structureName: "config/capsule/rewards/home-finalversion.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "437C9FE0650453E6"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1D1A3396C38C5915"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1218FE48D2CD3E18"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "62DCB53128619991"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "337EE8940B6ED052"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7317C49D813A1007"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "51F0021819D21FA7"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4318A5605B0C5D3F"
+					item: "youkaishomecoming:steamer_pot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "56BAA65101FAE688"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6F01636EC83CB639"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "19E4059FFF31F1DC"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5FB6DF39B9D9F1F6"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«樱花小屋»胶囊"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"165C66C236C896C6"
+				"67E1C9BD07A3C58E"
+			]
+			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 0
+					color: 16628019
+					display: {
+						color: 39638
+					}
+					isReward: 1
+					label: "天华聚石阵"
+					oneUse: 1
+					size: 7
+					state: 5
+					structureName: "config/capsule/rewards/hanza-tianhuaye-shouji.nbt"
+				}
+			}
+			id: "4CF764FB09B2438B"
+			rewards: [{
+				id: "0CAD9BBE18BC7079"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 0
+						color: 16628019
+						display: {
+							color: 39638
+						}
+						isReward: 1
+						label: "天华聚石阵"
+						oneUse: 1
+						size: 7
+						state: 5
+						structureName: "config/capsule/rewards/hanza-tianhuaye-shouji.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "549628705BBF3A0A"
+					item: "aetherworks:prism"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "509E2B4E696AF5D9"
+					item: { Count: 2, id: "aetherworks:prism_support" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "513C6E42C0DC161B"
+					item: {
+						Count: 1
+						id: "embers:fluid_vessel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "4A26377237855DC6"
+					item: { Count: 12, id: "embers:archaic_bricks" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "421219B1E6DBAC2A"
+					item: { Count: 8, id: "embers:archaic_edge" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1082BBBE7188EC70"
+					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4BAE85E38FA96E05"
+					item: { Count: 4, id: "aetherworks:aether_prism_controller_matrix" }
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«天华聚石阵»胶囊"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["21C11696FFAB1967"]
+			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 1
+					color: 15752050
+					display: {
+						color: 11719221
+					}
+					isReward: 1
+					label: "农场"
+					oneUse: 1
+					size: 13
+					state: 5
+					structureName: "config/capsule/rewards/farm.nbt"
+				}
+			}
+			id: "65A52DA178565A61"
+			rewards: [{
+				id: "4EE57B10C5C98532"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 1
+						color: 15752050
+						display: {
+							color: 11719221
+						}
+						isReward: 1
+						label: "农场"
+						oneUse: 1
+						size: 13
+						state: 5
+						structureName: "config/capsule/rewards/farm.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6E0B047AD868BE73"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			title: "兑换 一次性«农场»胶囊"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5C9E4AD7B1C53C0C"]
+			id: "4A01AB17C5259DA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DADF08A1FB656D4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57B1017DE2CFC5AC"
+				item: "yuusha:destructed_dimension_will"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4CAFB7EE12D45DBA"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 1
+					color: 16089632
+					display: {
+						color: 16231612
+					}
+					isReward: 1
+					label: "萌兔小屋"
+					oneUse: 1
+					size: 19
+					state: 5
+					structureName: "config/capsule/rewards/rabit_house.nbt"
+				}
+			}
+			id: "71B4E208ACB75E2C"
+			rewards: [{
+				id: "451095705EBA905D"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 1
+						color: 16089632
+						display: {
+							color: 16231612
+						}
+						isReward: 1
+						label: "萌兔小屋"
+						oneUse: 1
+						size: 19
+						state: 5
+						structureName: "config/capsule/rewards/rabit_house.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "44B006D9A0F02B36"
+				item: { Count: 128, id: "minecraft:white_wool" }
+				type: "item"
+			}]
+			title: "兑换 一次性«萌兔小屋»胶囊"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["035C4C2172727AA8"]
+			description: ["任意胶囊都可以在切石机中制作成钻石。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 0
+					color: 6668948
+					display: {
+						color: 11526116
+					}
+					isReward: 1
+					label: "水上小屋"
+					oneUse: 1
+					size: 19
+					state: 5
+					structureName: "config/capsule/rewards/startroom.nbt"
+				}
+			}
+			id: "575D9A3EF310B9F9"
+			rewards: [{
+				id: "45BD32F23C0E1525"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 0
+						color: 6668948
+						display: {
+							color: 11526116
+						}
+						isReward: 1
+						label: "水上小屋"
+						oneUse: 1
+						size: 19
+						state: 5
+						structureName: "config/capsule/rewards/startroom.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "301B2E8D180A9592"
+					item: { Count: 64, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "146F1B97AFCC9A21"
+					item: {
+						Count: 64
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«水上小屋»胶囊"
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["479232119C07EDDE"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 0
+					color: 5649956
+					display: {
+						color: 16776953
+					}
+					isReward: 1
+					label: "雪中小屋"
+					oneUse: 1
+					size: 19
+					state: 5
+					structureName: "config/capsule/rewards/home_mid.nbt"
+				}
+			}
+			id: "71B4AB9F41840CFB"
+			rewards: [{
+				id: "354242942679A9D1"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 0
+						color: 5649956
+						display: {
+							color: 16776953
+						}
+						isReward: 1
+						label: "雪中小屋"
+						oneUse: 1
+						size: 19
+						state: 5
+						structureName: "config/capsule/rewards/home_mid.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "52DE96AD669054E8"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7FE9C3279EE4AE07"
+					item: {
+						Count: 64
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:spruce_planks"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3E5DED850775EB9B"
+					item: {
+						Count: 64
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:spruce_planks"
+					}
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«雪中小屋»胶囊"
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37FB78A6A9130C94"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 1
+					color: 11719221
+					display: {
+						color: 14592906
+					}
+					isReward: 1
+					label: "原木橱窗"
+					oneUse: 1
+					size: 7
+					state: 5
+					structureName: "config/capsule/rewards/table_1.nbt"
+				}
+			}
+			id: "6752B37C8CA00C03"
+			rewards: [{
+				id: "6BB57B1EA5B4A5C0"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 1
+						color: 11719221
+						display: {
+							color: 14592906
+						}
+						isReward: 1
+						label: "原木橱窗"
+						oneUse: 1
+						size: 7
+						state: 5
+						structureName: "config/capsule/rewards/table_1.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "28ED853D74939536"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1DF0C954EB78B737"
+					item: {
+						Count: 64
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:oak_planks"
+					}
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«原木橱窗»胶囊"
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AE222F25C500418"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 0
+					color: 14095173
+					display: {
+						color: 8214662
+					}
+					isReward: 1
+					label: "附魔坛"
+					oneUse: 1
+					size: 13
+					state: 5
+					structureName: "config/capsule/rewards/enchanter"
+				}
+			}
+			id: "62ED320A0E6F2A4E"
+			rewards: [{
+				id: "200C5563B78EA219"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 0
+						color: 14095173
+						display: {
+							color: 8214662
+						}
+						isReward: 1
+						label: "附魔坛"
+						oneUse: 1
+						size: 13
+						state: 5
+						structureName: "config/capsule/rewards/enchanter"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "523C90B20F5ACA83"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "063EE67496362726"
+					item: { Count: 15, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«附魔坛»胶囊"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 0
+					color: 11879220
+					display: {
+						color: 2575677
+					}
+					isReward: 1
+					label: "锅炉房"
+					oneUse: 1
+					size: 15
+					state: 5
+					structureName: "config/capsule/rewards/guo_lu_fang"
+				}
+			}
+			id: "48436304666F979E"
+			rewards: [{
+				id: "1DB208B7592423A0"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 0
+						color: 11879220
+						display: {
+							color: 2575677
+						}
+						isReward: 1
+						label: "锅炉房"
+						oneUse: 1
+						size: 15
+						state: 5
+						structureName: "config/capsule/rewards/guo_lu_fang"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "04A911785EBF8D03"
+					item: { Count: 2, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "10A5C6FDEB6388EE"
+					item: { Count: 2, id: "minecraft:blast_furnace" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "74C64CACF1696205"
+					item: { Count: 16, id: "minecraft:deepslate" }
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«锅炉房»胶囊"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["43ECCAB09CCC60C7"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "eo"
+					canRotate: 1
+					color: 15679798
+					display: {
+						color: 31047
+					}
+					isReward: 1
+					label: "圣诞树"
+					oneUse: 1
+					size: 19
+					state: 5
+					structureName: "config/capsule/rewards/sheng_dan_shu"
+				}
+			}
+			id: "5F3D9FE650B508F5"
+			rewards: [{
+				id: "729182F398F8912B"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "eo"
+						canRotate: 1
+						color: 15679798
+						display: {
+							color: 31047
+						}
+						isReward: 1
+						label: "圣诞树"
+						oneUse: 1
+						size: 19
+						state: 5
+						structureName: "config/capsule/rewards/sheng_dan_shu"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "64C20343BDAD97C3"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "兑换 一次性«圣诞树»胶囊"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["153558B7FF507A10"]
+			description: [
+				"可在切石机中制作各种气球。还可用于在召唤祭坛中召唤云鲸。"
+				""
+				"&e手持兔子脚右击石制神像可获得跳跃指环。"
+			]
+			id: "3E5523BCBB59D6A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778DF2B1AFAF1EFF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "177835167C596803"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:ectoplasmcloub"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1AE0DD1AED79CEC7"]
+			description: [
+				"除了骨头外，还有不少物品可转化出可疑方块。"
+				""
+				"&6相关内容详见上层世界章节的刷子任务。"
+			]
+			id: "0F78F8E19E05E5D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1582AD2D3B4C05C8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3062F57F62CD5BD3"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["479232119C07EDDE"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Lovin"
+					canRotate: 1b
+					color: 16559895
+					display: {
+						color: 10500409
+					}
+					isReward: 1b
+					label: "Touhou.nbt"
+					oneUse: 1b
+					size: 9
+					state: 5
+					structureName: "config/capsule/rewards/touhou.nbt"
+				}
+			}
+			id: "51CDEA5A0AB8D951"
+			rewards: [{
+				id: "60CBED42D0488D40"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Lovin"
+						canRotate: 1b
+						color: 16559895
+						display: {
+							color: 10500409
+						}
+						isReward: 1b
+						label: "女仆祭坛"
+						oneUse: 1b
+						size: 9
+						state: 5
+						structureName: "config/capsule/rewards/touhou.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					id: "189091F6C0E39EC9"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "7471E40FFCB1B58E"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«女仆祭坛»胶囊"
+			x: -13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0E4314F30B1EE0FB"]
+			description: [
+				"在钓鱼时有几率给钓竿增加狂热垂钓附魔和提升等级。部分宝箱内也有几率出现狂热垂钓附魔。"
+				""
+				"&6狂热垂钓：有几率在钓鱼时获得额外的战利品，在下雨几率提升。此附魔可以通过使用一个钓鱼竿多次钓鱼而自然获得与提高其附魔等级，达到最大等级8级时显示为钓鱼爱好者，并获得该成就。"
+				""
+				"&c优化：在下雨时，该附魔升级几率提升至默认10倍。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 10s
+						}
+						{
+							id: "minecraft:fortune"
+							lvl: 5s
+						}
+					]
+				}
+			}
+			id: "6C1E4E580B8D70A7"
+			rewards: [{
+				id: "106928BD9D973693"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "majruszsenchantments:fishing_fanatic_true"
+				criterion: ""
+				id: "3E5B4CF73FF86CF7"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["&9『发展』"]
+	title: "&6※ 匠作"
+}

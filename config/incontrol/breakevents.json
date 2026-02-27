@@ -1,0 +1,12 @@
+[
+  {
+    "block": "callfromthedepth_:corruptedstone",
+	"message": "§c该方块无法破坏！",
+    "result": "deny"
+  },
+  {
+    "block": "forbidden_arcanus:hephaestus_forge",
+	"message": "§c该方块无法破坏！",
+    "result": "deny"
+  }
+]

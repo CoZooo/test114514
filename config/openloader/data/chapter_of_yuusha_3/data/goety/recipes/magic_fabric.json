@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+       "item": "yuusha:ectoplasm_string"
+    },
+    {
+       "item": "yuusha:ectoplasm_string"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:magic_fabric",
+    "count": 4
+  }
+}

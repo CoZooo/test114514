@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_hot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:magma_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquary:molten_core",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hmag:burning_core",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquary:salamander_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquamirae:golden_moth_in_a_jar"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "reliquary:molten_core",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquamirae:golden_moth_in_a_jar"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "yuusha:archaeology/blaze_misc"
+}

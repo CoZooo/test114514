@@ -1,0 +1,22 @@
+{
+	"item.cataclysm.gauntlet_of_bulwark": "真正的勇者之拳「散华」",
+	"entity.cataclysm.ancient_remnant": "远古遗魂「爆裂形态」",
+	"item.cataclysm.ancient_remnant_spawn_egg": "远古遗魂「爆裂形态」刷怪蛋",
+
+	"item.cataclysm.cursed_bow": "§d咒魂弓『封弓』",
+	"item.cataclysm.wrath_of_the_desert": "§d沙暴之怒『封弓』",
+
+	"item.cataclysm.laser_gatling": "激光暴雨梨花袖箭",
+
+	"entity.cataclysm.the_harbinger": "先驱者「爆裂形态」",
+	"item.cataclysm.the_harbinger_spawn_egg": "先驱者「爆裂形态」刷怪蛋",
+
+	"item.cataclysm.netherite_monstrosity_spawn_egg": "下界合金巨兽「爆裂形态」刷怪蛋",
+	"entity.cataclysm.netherite_monstrosity": "下界合金巨兽「爆裂形态」",
+	"item.cataclysm.soul_render2.desc": "潜行时右击可释放戟阵技能",
+	"item.cataclysm.sandstorm_in_a_bottle": "狂沙瓶",
+	"item.cataclysm.abyss_eye": "幽匿之眼",
+	"item.cataclysm.flame_eye": "异火之眼",
+	"item.cataclysm.nameless_sorcerer_spawn_egg": "未来神巫刷怪蛋",
+	"entity.cataclysm.nameless_sorcerer": "未来神巫"
+}

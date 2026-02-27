@@ -1,0 +1,15 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "irons_spellbooks:spell_power",
+	"operation": "MULTIPLY_BASE",
+	"values": {
+		"uncommon": 0.05,
+		"rare": 0.10,
+		"epic": 0.15,
+		"mythic": 0.20,
+		"ancient": 0.25
+	},
+	"types": [
+		"sword", "trident"
+	]
+}

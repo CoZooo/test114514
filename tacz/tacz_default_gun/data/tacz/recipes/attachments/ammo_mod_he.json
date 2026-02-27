@@ -1,0 +1,26 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "infinite_abyss:flawless_charium"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "cataclysm:cursed_eye"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:pale_pearl"
+      }
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_he"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "crockpot:parrot_feeding",
+  "ingredient": {
+    "item": "yuusha:grief_seed"
+  },
+  "result": {
+    "count": {
+      "max": 1,
+      "min": 0
+    },
+    "item": "moonstone:ectoplasmball"
+  }
+}

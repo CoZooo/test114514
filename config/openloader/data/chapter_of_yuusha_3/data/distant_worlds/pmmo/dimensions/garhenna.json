@@ -1,0 +1,23 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 2.50,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "castle_in_the_sky:sacred_castle_effect": 0,
+		"distant_worlds:suppression": 3,
+		"cataclysm:blazing_brand": 1,
+		"attributeslib:sundering": 1,
+		"minecraft:unluck": 19
+    },
+    "travel_req":{
+        "alchemy": 50
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

@@ -1,0 +1,6 @@
+{
+  "frostArrowsShouldBeCold": true,
+  "oldFrostArrowMobSlowdown": false,
+  "oldFrostArrowRendering": true,
+  "customArrowMultiShot": "AlwaysCustomArrows"
+}

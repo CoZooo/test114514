@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"INTERACT": {"smithing": 10},
+		"PLACE": {"smithing": 10}
+	}
+}

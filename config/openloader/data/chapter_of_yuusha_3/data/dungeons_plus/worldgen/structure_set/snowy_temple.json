@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 1.0,
+    "offset": 8,
+    "salt": 2124655984,
+    "spacing": 18,
+    "structure": "dungeons_plus:snowy_temple"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_plus:snowy_temple",
+      "weight": 1
+    }
+  ]
+}

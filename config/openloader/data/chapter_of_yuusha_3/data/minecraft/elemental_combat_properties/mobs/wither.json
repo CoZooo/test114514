@@ -1,0 +1,19 @@
+{
+	"attack_style":"yuusha",
+	"attack_element":"god",
+	"defense_style":{
+		"hit":90,
+		"slash":90,
+		"stab":90,
+		"bash":90,
+		"projectile":90,
+		"explosion":90,
+		"magic":90,
+		"bite":90,
+		"environment":90
+	},
+	"defense_element":{
+		"darkness":200
+	},
+	"biome_dependency":false
+}

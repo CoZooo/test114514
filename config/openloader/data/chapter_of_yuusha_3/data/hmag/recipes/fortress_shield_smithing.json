@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cataclysm:ancient_metal_block"
+  },
+  "base": {
+    "item": "shieldexp:griefer_shield"
+  },
+  "result": {
+    "item": "hmag:fortress_shield"
+  },
+  "template": {
+    "item": "call_of_drowner:coral_smithing_template"
+  }
+}

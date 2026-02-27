@@ -1,0 +1,47 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "apotheosis:scavenger",
+      "lvl": 5
+    },
+    {
+      "id": "goety:soul_eater",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:death_blade",
+      "lvl": 3
+    }
+  ],
+  "name": "slashblade_addon:crimsoncherry",
+  "properties": {
+    "attack_base": 43.0,
+    "max_damage": 86,
+    "slash_art": "slashblade:sakura_end",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/nihil/nihil.obj",
+	"summon_sword_color": 15817580,
+    "texture": "slashblade_addon:model/nihil/crimsoncherry.png"
+  }
+}

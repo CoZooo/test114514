@@ -1,0 +1,22 @@
+{
+	"effect.attributeslib.bleeding": "血殇",
+
+    "effect.minecraft.instant_health.desc": "立即恢复一定量生命值。",
+    "effect.minecraft.instant_damage.desc": "立即造成一定量魔法伤害。",
+
+    "effect.minecraft.fire_resistance.desc": "对火属性有一定抗性",
+	"effect.minecraft.fire_resistance.description": "对火属性有一定抗性",
+
+	"effect.attributeslib.sundering": "星裂",
+    "effect.attributeslib.sundering.desc": "每等级增加20%受到的伤害，可抵消星灵之力效果。",
+    "effect.attributeslib.sundering.description": "每等级增加20%受到的伤害，可抵消星灵之力效果。",
+	
+    "effect.minecraft.resistance.desc": "每等级减少20%受到的伤害，会被星裂效果抵消。",
+    "effect.minecraft.resistance.description": "每等级减少20%受到的伤害，会被星裂效果抵消。",
+
+    "attributeslib:crit_chance": "神化暴击率",
+    "attributeslib:crit_chance.desc": "你造成暴击伤害的几率，根据你的暴击伤害造成额外伤害，超过100%则会多重暴击。",
+
+    "attributeslib:crit_damage": "神化暴击伤害",
+    "attributeslib:crit_damage.desc": "暴击的伤害乘数，包括原版跳跃暴击。"
+}

@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:chaos_star"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:neutron_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "eos:alloy",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

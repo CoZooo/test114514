@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 1
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:toyako",
+  "properties": {
+    "attack_base": 13.0,
+    "max_damage": 26,
+    "slash_art": "ak:liulifan_city",
+    "sword_type": [
+      "none"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/toyako/toyako.obj",
+	"summon_sword_color": 11526116,
+    "texture": "slashblade_addon:model/toyako/toyako.png"
+  }
+}

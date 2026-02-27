@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/norcore",
+  "model": "pgp:attachment/norcore_geo",
+  "texture": "pgp:attachment/uv/norcore",
+  "lod": {
+    "model": "pgp:attachment/lod/norcore_lod",
+    "texture": "pgp:attachment/lod/norcore_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

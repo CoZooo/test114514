@@ -1,0 +1,27 @@
+{
+  "gem": "apotheosis:core/tyrannical",
+  "bonuses": [
+    {
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "apotheosis_modern_ragnarok.all_gun",
+			"types": [
+				"apotheosis_modern_ragnarok:shotgun",
+				"apotheosis_modern_ragnarok:full_auto",
+				"apotheosis_modern_ragnarok:semi_auto",
+				"apotheosis_modern_ragnarok:bolt_action"
+			]
+		},
+		"attribute": "obscure_api:critical_hit",
+		"operation": "MULTIPLY_BASE",
+		"values": {
+			"common": 0.04,
+			"uncommon": 0.06,
+			"rare": 0.08,
+			"epic": 0.10,
+			"mythic": 0.12,
+			"ancient": 0.15
+		}
+    }
+  ]
+}

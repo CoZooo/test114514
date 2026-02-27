@@ -1,0 +1,9 @@
+{
+  "asset_name": "prismarine",
+  "description": {
+    "color": "#416E97",
+    "translate": "trim_material.additionaltrims.prismarine"
+  },
+  "ingredient": "celestial_core:ocean_ingot",
+  "item_model_index": 0.9
+}

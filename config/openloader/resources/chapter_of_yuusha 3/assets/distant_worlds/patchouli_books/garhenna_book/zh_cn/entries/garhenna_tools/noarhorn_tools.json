@@ -1,0 +1,20 @@
+{
+	"name": "诺翰壬兽工具",
+	"icon": "distant_worlds:noarhorn_axe",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 5,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_axe_recipe",
+			"text": "用这些尖刺和其他材料，你可以制作诺翰壬兽斧。它会略提高迦塞尔果和威琍特 果的掉率。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

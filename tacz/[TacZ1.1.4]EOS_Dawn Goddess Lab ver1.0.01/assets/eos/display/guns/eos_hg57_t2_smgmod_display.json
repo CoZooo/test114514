@@ -1,0 +1,69 @@
+{
+  "model": "eos:gun/eos_hg57_t2_smgmod_geo",
+  "texture": "eos:gun/uv/eos_hg57_t2",
+  "lod": {
+    "model": "eos:gun/lod/eos_hg57_t2_smgmod",
+    "texture": "eos:gun/lod/eos_hg57_t2_smgmod"
+  },
+  "hud": "eos:gun/hud/eos_hg57_t2_smgmod",
+  "slot": "eos:gun/slot/eos_hg57_t2_smgmod",
+  "animation": "eos:eos_hg57_t2_smgmod",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.6
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "eos:eos_hg/eos_hg_shoot2",
+    "shoot_3p": "eos:eos_hg/eos_hg_shoot2",
+    "silence": "tacz:victor45/vector_silence",
+    "silence_3p": "tacz:victor45/vector_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_03",
+    "melee_stock": "tacz:melee_stock/melee_stock_01"
+  },
+  // 枪械模型上的文本显示
+  "text_show": {
+	    "ammo_count_text_show_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.2,
+      // 对齐方式：right，center，left
+      "align": "right",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#ffe980",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

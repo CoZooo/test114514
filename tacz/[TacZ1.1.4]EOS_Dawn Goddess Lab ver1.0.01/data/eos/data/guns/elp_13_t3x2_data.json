@@ -1,0 +1,118 @@
+{
+  "ammo": "eos:battery",
+  "ammo_amount": 32,
+  "extended_mag_ammo_amount": [
+    36,
+    44,
+    52
+  ],
+  "bolt": "open_bolt",
+  "rpm": 300,
+  "bullet": {
+    "life": 10,
+    "bullet_amount": 1,
+    "damage": 1800,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.7,
+      "head_shot_multiplier": 1.75,
+      "damage_adjust": [
+        {"distance": 15, "damage": 1800},
+        {"distance": 30, "damage": 1800},
+        {"distance": 45, "damage": 1800},
+        {"distance": 60, "damage": 1800},
+        {"distance": "infinite", "damage": 1800}
+      ]
+    },
+    "speed": 170,
+    "gravity": 0,
+    "knockback": 0,
+    "friction": 0.01,
+    "ignite": false,
+    "pierce": 0
+  },
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 2.5,
+      "tactical": 2.5
+    },
+    "cooldown": {
+      "empty": 3.58,
+      "tactical": 3.25
+    }
+  },
+  "weight": 35.5,
+  "draw_time": 0.88,
+  "put_away_time": 0.6,
+  "aim_time": 0.2,
+  "sprint_time": 0.3,
+  "fire_mode": [
+    "semi",
+    "burst",
+    "auto"
+  ],
+  "fire_mode_adjust": {
+    // 全自动状态的数值调整，如无调整可不写
+    "auto": {
+      // 加算，全自动模式的开火数值调整，如无调整可不写
+      "damage": 0,
+      "rpm": -150,
+      "speed": 0,
+      "knockback": 0,
+      "armor_ignore": 0,
+      "head_shot_multiplier": 0,
+      "aim_inaccuracy": 0,
+      "other_inaccuracy": 0
+    },
+    // 半自动状态的数值调整，如无调整可不写
+    "semi": {
+      // 加算，半自动模式的开火数值调整，如无调整可不写
+      "damage": 0,
+      "rpm": 0,
+      "speed": 0,
+      "knockback": 0,
+      "armor_ignore": 0,
+      "head_shot_multiplier": 0,
+      "aim_inaccuracy": 0,
+      "other_inaccuracy": 0
+    }
+  },
+  "allow_attachment_types": [
+    "extended_mag",
+    "stock"
+  ],
+  "burst_data": {
+    "continuous_shoot": true,
+    "count": 1,
+    "bpm": 1200,
+    "min_interval": 0.3
+  },
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [5.0, 5.0]},
+      {"time": 0.4, "value": [3.0, 3.0]},
+      {"time": 0.65, "value": [-1.225, -1.225]},
+      {"time": 0.85, "value": [0.625, 0.625]},
+      {"time": 1.1, "value": [0, 0]},
+      {"time": 1.2, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.6, 0.6]},
+      {"time": 0.5, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 7,
+    "move": 10,
+    "sneak": 5,
+    "lie": 3,
+    "aim": 0.7
+  },
+  "script": "eos:elp_13_t3x2",
+  "script_param": {
+    "mag_feed": 2.5,
+    "mag": 3.25,
+    "mag_empty": 3.58
+  }
+}

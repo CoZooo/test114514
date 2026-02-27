@@ -1,0 +1,97 @@
+{
+  "ammo": "applied_armorer:fluix_battery",
+  "ammo_amount": 100,
+  "extended_mag_ammo_amount": [
+    150,
+    200,
+    250
+  ],
+  "bolt": "open_bolt",
+  "rpm": 600,
+  "bullet": {
+    "life": 1,
+    "bullet_amount": 1,
+    "damage": 880,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.35,
+      "head_shot_multiplier": 1.875,
+      "damage_adjust": [
+        {"distance": 15, "damage": 880},
+        {"distance": 30, "damage": 748},
+        {"distance": 45, "damage": 616},
+        {"distance": "infinite", "damage": 484}
+      ]
+    },
+    "speed": 450,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 1,
+    "explosion": {
+      // 是否爆炸，默认为 false，如果希望默认爆炸则设置为 true
+       "explode": true,
+      // 延时爆炸，单位：秒
+      // "delay": 30,
+      // 爆炸半径，单位：米（格）
+      "radius": 0.5,
+      // 爆炸伤害
+      "damage": 550,
+      // 爆炸导致的击退，默认为 false，需要服务器也开启爆炸击退才能使用
+      "knockback": false,
+      // 爆炸是否破坏方块，默认为 false，需要服务器也开启爆炸破坏方块才能使用
+       "destroy_block": false
+    }
+  },
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 2.79,
+      "tactical": 2.79
+    },
+    "cooldown": {
+      "empty": 4.75,
+      "tactical": 4.75
+    }
+  },
+  "draw_time": 0.71,
+  "put_away_time": 0.75,
+  "aim_time": 0.3,
+  "sprint_time": 0.25,
+  "weight": 32,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.2,
+    "reload": -0.15
+  },
+  "crawl_recoil_multiplier": 0.9,
+  "fire_mode": [
+    "auto"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [2.2, 2.2]},
+      {"time": 0.2, "value": [1.2, 1.2]},
+      {"time": 0.3, "value": [-1.02, -1.02]},
+      {"time": 0.5, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.1, 0.1]},
+      {"time": 0.2, "value": [-0.1, 0.1]},
+      {"time": 0.35, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 8,
+    "move": 12,
+    "sneak": 5,
+    "lie": 3,
+    "aim": 1
+  },
+  "hurt_bob_tweak_multiplier": 0,
+  "allow_attachment_types": [
+    "extended_mag",
+    "stock"
+  ]
+}

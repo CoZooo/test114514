@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "FDF",
+    "BAC",
+    "FEF"
+  ],
+  "reagents": "GGGG",
+  "key": {
+    "A": {
+      "item": "moonstone:redamout"
+    },
+    "B": {
+      "item": "goety:cryptic_eye"
+    },
+    "C": {
+      "item": "confluence:eye_of_the_golem"
+    },
+    "D": {
+      "item": "eidolon:shadow_gem"
+    },
+    "E": {
+      "item": "moonstone:ectoplasmprism"
+    },
+    "F": {
+      "item": "moonstone:blood"
+    },
+    "G": {
+      "item": "moonstone:blood_jelly"
+    }
+  },
+  "result": {
+    "item": "moonstone:twistedamout"
+  }
+}

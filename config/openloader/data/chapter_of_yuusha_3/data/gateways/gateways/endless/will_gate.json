@@ -1,0 +1,79 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#F2EADA",
+	"base_wave": {
+        "entities": [
+			{
+				"entity": "goety:sorcerer",
+				"count": 8
+			}
+		],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "minecraft:instant_health",
+						"amplifier": 1
+					}
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "attributeslib:vitality",
+						"amplifier": 4
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 10.0
+				}
+            ],
+        "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:destructed_dimension_will",
+				"count": 4
+			}
+        }],
+        "max_wave_time": 2400,
+        "setup_time": 120
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 1,
+                "max": 9
+            },
+            "modifiers": [{
+                "attribute": "generic.max_health",
+                "operation": "multiply_base",
+                "value": 1.0
+            }],
+            "max_wave_time": -200,
+            "setup_time": -10
+        },
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 10,
+                "max": 10
+            },
+            "rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "yuusha:destructed_dimension_will",
+					"count": 4
+				}
+			}]
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "name_plate"
+    },
+    "spawn_algorithm": "gateways:inward_spiral"
+}

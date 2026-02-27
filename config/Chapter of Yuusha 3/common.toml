@@ -1,0 +1,507 @@
+
+#诡厄巫法相关配置
+[goetySettings]
+	#绝对零度聚晶非霜冻类型魔杖光环基础伤害
+	#Range: 0.0 ~ 3.4028234663852886E38
+	nonFrostWandAuraBaseDamage = 30.0
+	#绝对零度聚晶非霜冻类型魔杖光环强效加成
+	#Range: 0.0 ~ 3.4028234663852886E38
+	nonFrostWandAuraPotencyBonus = 10.0
+	#绝对零度聚晶霜冻类型魔杖光环基础伤害
+	#Range: 0.0 ~ 3.4028234663852886E38
+	frostWandAuraBaseDamage = 750.0
+	#绝对零度聚晶霜冻类型魔杖光环强效加成
+	#Range: 0.0 ~ 3.4028234663852886E38
+	frostWandAuraPotencyBonus = 250.0
+	#绝对零度聚晶非霜冻类型魔杖冰刺基础伤害
+	#Range: 0.0 ~ 3.4028234663852886E38
+	nonFrostWandIcicleBaseDamage = 30.0
+	#绝对零度聚晶非霜冻类型魔杖冰刺强效加成
+	#Range: 0.0 ~ 3.4028234663852886E38
+	nonFrostWandIciclePotencyBonus = 10.0
+	#绝对零度聚晶霜冻类型魔杖冰刺基础伤害
+	#Range: 0.0 ~ 3.4028234663852886E38
+	frostWandIcicleBaseDamage = 2250.0
+	#绝对零度聚晶霜冻类型魔杖冰刺强效加成
+	#Range: 0.0 ~ 3.4028234663852886E38
+	frostWandIciclePotencyBonus = 250.0
+	#弱化聚晶侵蚀默认等级
+	#Range: 0 ~ 255
+	weakeningSappedDefault = 2
+	#弱化聚晶侵蚀最大等级
+	#Range: 0 ~ 255
+	weakeningSappedMax = 255
+	#弱化聚晶虚弱默认等级
+	#Range: 0 ~ 255
+	weakeningWeaknessDefault = 20
+	#弱化聚晶虚弱最大等级
+	#Range: 0 ~ 255
+	weakeningWeaknessMax = 255
+
+#勇者之章3核心配置
+[coreSettings]
+	#是否完全禁止玩家攻击时的伤害粒子渲染
+	attackParticle = true
+	#是否清理命中方块后不允许捡起的箭矢
+	disappearWhenCantPickup = true
+	#是否启用DEBUG模式
+	debugMode = false
+	#是否禁止手持盔甲右击切换盔甲功能
+	armorSwapWithEquipmentSlotEnabled = true
+	#是否在玩家进入服务器时同步服务器配置到客户端，只同步部分数值让客户端渲染
+	configSyncEnabled = false
+	#网络包压缩等级,警告!!!不懂不要乱动,这个配置会修改服务器最底层的数据包压缩等级
+	#-1:我的世界默认的数据包压缩等级(其实就是6),0:不启用压缩~9:最高等级压缩
+	#对于绝大多数情况不要动他
+	#如果你的服务器 CPU 性能强劲,但网络带宽有限时：可以尝试调高压缩等级。更高的压缩率会让数据包更小,节省带宽，减少玩家网络延迟，但会消耗更多 CPU 资源
+	#如果你的服务器 CPU 是瓶颈,但带宽充足：可以尝试调低压缩等级。这样压缩速度更快，CPU 负担更轻，服务器能更快地处理并发送数据包，但代价是数据包会稍大一些，占用更多带宽
+	#Range: -1 ~ 9
+	compressionEncoderDeflaterLevel = -1
+	#启用网络包流量监听
+	enableNetworkTrafficDebug = false
+	#自动打印统计log,秒为单位，-1禁用
+	#Range: -1 ~ 9223372036854775807
+	trafficLogInterval = 300
+
+	#自动装备饰品配置
+	[coreSettings.autoEquipCurioSettings]
+		#每多少tick检查一次
+		#Range: > 1
+		curiosEquipTick = 40
+		#会被自动装备的饰品列表
+		#格式: ["modid:item1", "modid:item2"]
+		curiosEquipmentWhiteList = []
+		#每次自动装备饰品的重试次数
+		#Range: 0 ~ 10
+		curiosEquipmentRetries = 1
+		#是否在成功装备时发送提示
+		sendPlayerMessage = true
+		#是否检测光标上的物品
+		carriedEnabled = false
+		#是否检测玩家尝试捡起的物品
+		pickupEnabled = true
+		#是否检测玩家丢弃的物品
+		tossEnabled = false
+		#是否启用tick检测
+		tickEnabled = true
+		#是否检测容器添加操作
+		containerEnabled = false
+
+	#属性配置
+	[coreSettings.attributeSettings]
+		#属性惩罚配置
+		#当配置的前一个属性小于等于0时,后一个属性会被附加一个 *0 的最终乘区
+		attributePunishment = ["irons_spellbooks:max_mana,minecraft:generic.attack_speed", "minecraft:generic.attack_speed,lodestone:magic_proficiency"]
+
+		#CY3过量治疗配置
+		[coreSettings.attributeSettings.cy3_excessiveTreatmentSettings]
+			#过量治疗属性最大护盾值,1=当前实体最大生命值,0=禁用功能
+			#Range: 0.0 ~ 100.0
+			limit = 1.0
+
+	#附魔配置
+	[coreSettings.enchantmentsSettings]
+		#破甲附魔生效上限
+		#Range: 0 ~ 255
+		sunderingEnchantmentMax = 3
+		#破甲附魔额外允许附加在持有指定tag的物品上,请自行向物品添加你指定的tag.格式为chapter_of_yuusha_3_core:wand,基础支持诡厄与铁魔法的所有法杖，创造模式无视该配置将允许被附魔在任何物品上
+		sunderingEnchantmentTag = "wand"
+		#破甲附魔额外允许附加在持有指定nbt的物品上,以支持动态设定
+		sunderingEnchantmentNBT = "isWand"
+		#弓用多重射击附魔生效上限
+		#Range: 0 ~ 255
+		multishotEnchantmentMax = 1
+		#弓用多重射击每级额外箭矢
+		#Range: 0 ~ 5
+		multishotEnchantmentArrow = 1
+		#弓用多重射击附魔额外箭矢伤害
+		#Range: 0.001 ~ 100.0
+		multishotEnchantmentDamage = 0.1
+		#是否启用多重射击箭矢优化，该优化会设置箭矢无法被保存到区块
+		multishotArrowUnload = true
+		#魔化箭矢伤害转换百分比
+		#Range: 0.001 ~ 100.0
+		magicalArrowDamage = 0.05
+		#魔化箭矢附魔生效上限
+		#Range: 0 ~ 255
+		magicalArrowMax = 5
+		#魔化箭矢伤害来源是否为玩家
+		magicalArrowSources = true
+		#流体穿透附魔生效上限,4级就完全无视阻力了甚至比在空气中还快
+		#Range: 0 ~ 4
+		fluidPenetrationEnchantmentMax = 4
+		#盔甲诅咒附魔生效上限
+		#Range: 0 ~ 255
+		curseOfArrowEnchantmentMax = 5
+		#盔甲诅咒附魔每级概率
+		#Range: 0.0 ~ 1.0
+		curseOfArrowEnchantmentBaseChancePerLevel = 0.02
+		#是否替换魔化箭矢伤害方式
+		magicalArrowEchoingStrikeEnabled = true
+		#回响打击伤害半径
+		#Range: 0.0 ~ 20.0
+		magicalArrowEchoingStrikeRadius = 3.0
+
+		[coreSettings.enchantmentsSettings.dampeningPenetration]
+			#抑制穿透附魔生效上限
+			#Range: 0 ~ 255
+			dampeningPenetrationEnchantmentMax = 5
+
+		#魔能强化配置
+		[coreSettings.enchantmentsSettings.magicEnergy]
+			#每级属性增加
+			#Range: 0.0 ~ 3.4028234663852886E38
+			value = 0.05
+			#最大生效属性
+			#Range: 0 ~ 255
+			max = 20
+			#属性id
+			attribute = "eidolon:magic_power"
+
+	#饰品配置
+	[coreSettings.CY3_curiosSettings]
+
+		#适应配置
+		[coreSettings.CY3_curiosSettings.adaptationSettings]
+			#适应效率：公式为:1/(1 + 配置值 * 受伤次数)
+			#Range: 0.0 ~ 1.0
+			adaptationEfficiency = 0.2
+			#适应消失的tick数。当实体有一段时间没受到对应类型的伤害时适应就会消失
+			#Range: > 0
+			tickDuration = 100
+
+		#泰坦之力配置
+		[coreSettings.CY3_curiosSettings.powerOfTitans]
+			#惩罚应用生命值阈值
+			#Range: 0.0 ~ 1.0
+			lowHealthThreshold = 0.8
+			#生命系数
+			#Range: 1.0 ~ 3.4028234663852886E38
+			healthBase = 100.0
+			#惩罚比例，在当前生命值低于lowHealthThreshold时造成的伤害减少，默认减少80%
+			#Range: 0.0 ~ 1.0
+			penaltyMultiplier = 0.8
+			#攻击系数,伤害增加公式是=0.5 + damageCoefficient * pow(maxHealth/healthBase,damageExponent)
+			#Range: 0.0 ~ 3.4028234663852886E38
+			damageCoefficient = 5.0
+			#基础增加攻击力
+			#Range: 0.0 ~ 3.4028234663852886E38
+			damageBase = 0.5
+			#指数系数
+			#Range: 0.01 ~ 3.4028234663852886E38
+			damageExponent = 0.7
+
+		#神话过量治疗配置
+		[coreSettings.CY3_curiosSettings.ExcessiveTreatment]
+			#饰品属性基础值
+			#Range: 0.0 ~ 1.7976931348623157E308
+			value = 0.02
+
+		#过量治疗配置
+		[coreSettings.CY3_curiosSettings.CY3_ExcessiveTreatment]
+			#饰品属性基础值
+			#Range: 0.0 ~ 1.7976931348623157E308
+			value = 1.0
+
+		#内存感知护符配置
+		[coreSettings.CY3_curiosSettings.MemoryAmulet]
+			#低内存减伤
+			#Range: 0.0 ~ 1.0
+			minDamageBonus = 1.0
+			#高内存增伤
+			#Range: 0.0 ~ 1.7976931348623157E308
+			maxDamageBonus = 1.0
+			#低内存阈值
+			#Range: 0.0 ~ 0.49
+			lowMemoryThreshold = 0.3
+			#高内存阈值
+			#Range: 0.51 ~ 1.0
+			highMemoryThreshold = 0.8
+
+		#任务达人饰品配置
+		[coreSettings.CY3_curiosSettings.TaskExpert]
+			#属性配置列表，格式: 'modid:attribute_name,operation,per_task_gain,max_gain'
+			#操作类型: 0=加法, 1=乘法, 2=独立乘法
+			#例如: 'minecraft:generic.max_health,0,1.0,20.0' - 生命值加成，每任务+1，上限20
+			#例如: 'minecraft:generic.attack_damage,1,0.1,2.0' - 攻击伤害倍乘，每任务+10%，上限200%
+			attributes = ["minecraft:generic.max_health,0,0.5,500.0", "minecraft:generic.movement_speed,1,0.002,0.5", "moonstone:all_attack,1,0.0001,0.1"]
+			#阶段奖励配置列表，格式: '任务数量,奖励类型,参数...'
+			#奖励类型: attribute=属性奖励, effect=状态效果奖励, curios=槽位奖励
+			#属性奖励格式: '任务数量,attribute,属性ID,操作类型,增益值'
+			#例如: '10,attribute,minecraft:generic.attack_speed,1,0.1' - 完成10个任务后，攻击速度+10%
+			#状态效果格式: '任务数量,effect,效果ID,效果等级'
+			#例如: '25,effect,minecraft:strength,0' - 完成25个任务后，获得力量I效果
+			#槽位奖励格式: '任务数量,curios,槽位id,操作类型,数值
+			#例如: '30,curios,ring,0,2' - 完成30个任务后,获得1个戒指槽位
+			stage_rewards = ["50,effect,minecraft:speed,0", "150,attribute,minecraft:generic.armor,0,10", "250,attribute,minecraft:generic.attack_speed,1,0.25"]
+
+		#破空之愿配置
+		[coreSettings.CY3_curiosSettings.draw_power]
+			#最大生效tick上限,-1不限制
+			#Range: > -1
+			tick_max = -1
+			#每tick伤害独立乘区增加
+			#Range: 0.0 ~ 1.7976931348623157E308
+			power = 0.04
+			#最大伤害乘区,2就是最大能*3的伤害
+			#Range: 0.0 ~ 1.7976931348623157E308
+			power_max = 2.0
+
+		#战法师指环配置
+		[coreSettings.CY3_curiosSettings.war_mage_ring]
+			#法力恢复的独立乘区数值
+			#Range: 0.0 ~ 100.0
+			mana_regeneration = 1.0
+			#每点法力能抵抗的伤害值
+			#Range: 0.0 ~ 3.4028234663852886E38
+			damageResistancePerMana = 10.0
+
+		#药水效果配置
+		[coreSettings.CY3_curiosSettings.mobEffectSettings]
+
+			#空丝化效果配置
+			[coreSettings.CY3_curiosSettings.mobEffectSettings.voidification]
+				#基础伤害
+				#Range: > 0
+				voidificationDamage = 6
+				#是否无视无敌时间
+				voidificationNoInvulnerable = false
+
+		#修复配置
+		[coreSettings.CY3_curiosSettings.FixSettings]
+			#是否启用非法属性修复
+			enableSanitization = true
+			#是否启用物品堆叠修复，该修复会强制空nbt物品与无nbt物品相等来修复无法堆叠问题
+			enableItemStack = true
+			#是否允许打印日志
+			logEnable = false
+
+		#物品配置
+		[coreSettings.CY3_curiosSettings.itemSettings]
+
+			#万用拆除器配置
+			[coreSettings.CY3_curiosSettings.itemSettings.universalUnequip]
+				#是否启用
+				enabled = true
+				#是否允许卸下盔甲
+				armorEnabled = true
+
+	#冠军词条配置
+	[coreSettings.championsSettings]
+		#grudge词条受到的非仇恨实体来源的伤害百分比
+		#Range: 0.0 ~ 10.0
+		grudgeAffixHurt = 0.1
+		#grudge词条在伤害来源实体距离超过多少时触发
+		#Range: 0.0 ~ 2048.0
+		grudgeAffixDistance = 5.0
+		#grudge词条是否对无来源伤害生效
+		grudgeAffixSourceNull = true
+		#assassin词条瞬移攻击的伤害倍率
+		#Range: 0.0 ~ 100.0
+		assassinAffixDamage = 3.0
+		#assassin词条每隔多少tick瞬移一次,20tick=1秒
+		#Range: > 1
+		assassinAffixTeleportationTick = 100
+		#liquid词条的水清理半径，不要太大，8格半径就要处理2,100个方块
+		#Range: 0 ~ 100
+		liquidAffixRadius = 6
+		#liquid词条每多少tick清理水，不要太过频繁
+		#Range: > 5
+		liquidAffixTick = 20
+		#air_break词条清理高度
+		#Range: 0 ~ 255
+		airBreakAffixHeight = 4
+		#air_break词条清理半径
+		#Range: 0 ~ 255
+		airBreakAffixRadius = 4
+		#air_break词条清理频率,不应过高
+		#Range: > 1
+		airBreakAffixTick = 20
+		#air_break词条清理黑名单，这些方块不会被清理，特别注意所有不可破坏方块都不会被清理
+		#格式示例: ["minecraft:stone", "minecraft:obsidian"]
+		airBreakAffixBlocks = []
+
+		#新抑制词条配置
+		[coreSettings.championsSettings.dampening]
+			#是否启用新抑制词条
+			enabled = false
+			#基础效果系数
+			#Range: 0.0 ~ 1.0
+			baseEffect = 0.7
+			#惩罚因子
+			#Range: 0.0 ~ 1.0
+			penaltyFactor = 0.5
+			#奖励因子
+			#Range: 0.0 ~ 1.0
+			bonusFactor = 0.1
+			#最大效果上限
+			#Range: 0.0 ~ 1.0
+			maxEffect = 0.85
+
+	#星月遗物配置
+	[coreSettings.celestial_artifactsSettings]
+
+		#古代殉葬品配置
+		[coreSettings.celestial_artifactsSettings.sacrificialObject]
+			#是否启用古代殉葬品强化
+			strengthen = false
+			#殉葬白名单(实体注册ID)，会额外添加其中的实体进入殉葬列表
+			#格式示例: ["minecraft:zombie", "minecraft:skeleton"]
+			whitelist = []
+			#殉葬黑名单(实体注册ID)，这些实体不会被殉葬效果影响
+			#格式示例: ["minecraft:villager", "minecraft:cow"]
+			blacklist = []
+			#是否启用殉葬削弱，使其能被神秘遗物附加的纯化抗性抵挡
+			pureResistanceEffectEnabled = false
+			#是否启用殉葬削弱，使其受到目标精英怪等级影响
+			weakeningEnabled = false
+			#伤害指数衰减基础系数
+			#Range: 0.001 ~ 1.0
+			damageBaseMultiplier = 0.7
+			#最小伤害比例（基于玩家最大生命值的百分比）
+			#Range: 0.001 ~ 1.0
+			minDamageRatio = 0.05
+			#绝对最小伤害值
+			#Range: 0.0 ~ 1.7976931348623157E308
+			minAbsoluteDamage = 4.0
+
+	#无尽贪婪配置
+	[coreSettings.avaritiaSettings]
+		#跟踪箭是否会在消失时爆炸
+		traceArrowExplode = false
+		#天堂箭是否在命中实体时也触发箭雨
+		heavenArrowOnHitEntityBarrage = true
+		#是否启用寰宇支配之剑强化,该强化会使被杀死实体的重生被无效
+		infinitySwordStrengthen = false
+
+	#现代化诸神黄昏配置
+	[coreSettings.apotheosisModernRagnarokSettings]
+		#是否启用姿态系统
+		posture_system_enabled = false
+
+	#神话配置
+	[coreSettings.apotheosisSettings]
+
+		#附魔配置
+		[coreSettings.apotheosisSettings.enchantmentSettings]
+
+			#捕捉配置
+			[coreSettings.apotheosisSettings.enchantmentSettings.capturingEnchantSettings]
+				#是否允许捕捉附魔附加在弓上
+				bowEnabled = false
+				#是否允许捕捉附魔附加在铁魔法法杖和诡厄法杖上
+				wandEnabled = false
+
+#精妙背包配置
+[sophisticatedBackpacksConfig]
+	#是否启用卸货升级对rs终端生效
+	depositUpgradeRS = true
+	#是否启用RS拾取升级,使背包捡起的物品直接进入RS,会被任意磁铁升级覆盖
+	rsPickupUpgrade = true
+	#是否启用RS磁铁升级,自动捡起附近的物品进入RS
+	rsMagnetUpgrade = true
+
+#饰品栏配置
+[curiosSettings]
+	#是否禁止手持饰品右击自动装备功能
+	curioRightClickEquipmentEnabled = true
+
+#FTB任务相关配置
+[ftbQuestsSettings]
+	#是否开启分块传输来同步任务,启用后可支持超过2MB的任务大小
+	enableChunk = true
+	#是否启用压缩来进一步降低网络压力
+	enableCompression = true
+	#允许客户端重新请求每块数据的最大重试次数
+	#Range: 0 ~ 255
+	maxRetryAttempts = 3
+	#是否在FTB任务尝试匹配拔刀剑时进行部分兼容性处理,如果发现物品匹配异常可以关闭该功能
+	slashBladeCompat = true
+	#是否在FTB任务尝试匹配物品时忽略星月再锻的词条,如果发现物品匹配异常可以关闭该功能
+	#TRUE      忽略所有物品的星月词条.
+	#DEFAULT   只忽略拔刀剑的星月词条
+	#FALSE     不忽略星月词条.
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	celestialForgeCompat = "DEFAULT"
+
+#神秘遗物附加配置
+[enigmaticAddons]
+
+	#药水效果配置
+	[enigmaticAddons.effects]
+
+		#纯化抗性配置
+		[enigmaticAddons.effects.pureResistance]
+			#每级伤害减免
+			#Range: 0.0 ~ 1.0
+			damageReduction = 0.2
+			#每级伤害免疫概率
+			#Range: 0.0 ~ 1.0
+			harmImmunity = 0.2
+
+#月之石配置
+[moonStoneModConfig]
+
+	#饰品配置
+	[moonStoneModConfig.curios]
+
+		#罪孽囚笼配置
+		[moonStoneModConfig.curios.the_prison_of_sin]
+			#基础加成
+			#Range: 1.0 ~ 1.7976931348623157E308
+			baseMultiplier = 1.1
+			#最大额外加成
+			#Range: 0.0 ~ 1.7976931348623157E308
+			maxBonus = 0.25
+			#衰减因子
+			#Range: 0.0 ~ 1.0
+			decayFactor = 0.01
+			#属性黑名单(属性注册ID)，这些属性不会被罪孽囚笼效果影响
+			#格式示例: ["minecraft:generic.max_health", "minecraft:generic.attack_damage"]
+			blacklist = []
+
+#元素战斗配置
+[elementalCombatConfig]
+	#关闭元素战斗在物品创建时的攻击能力附加
+	#关闭后属性将会在真正使用时创建避免精妙背包磁力升级堆叠问题
+	itemAttachDataEnabled = true
+	#关闭元素战斗在物品创建时的防御能力附加
+	#关闭后属性将会在真正使用时创建避免精妙背包磁力升级堆叠问题
+	itemDefenseDataEnabled = true
+
+#拔刀剑基础配置
+[slashblade]
+	#默认SA
+	defaultSA = "slashblade:piercing"
+	#是否允许渲染自定义模型
+	enableCustomModel = true
+
+#神秘遗物配置
+[enigmatic_legacy]
+
+	#饰品配置
+	[enigmatic_legacy.curios]
+
+		#千咒卷轴配置
+		[enigmatic_legacy.curios.cursed_scroll]
+			#基础诅咒生效上限
+			#Range: > 0
+			baseCurseCount = 20
+			#完成指定任务提升诅咒生效上限配置列表，格式: '任务ID,数量'
+			#例如: '236157B049B38896,50' - 完成236157B049B38896任务后,诅咒数量上限提升50
+			ftbCurseCount = ["76FC9361919880D0,20", "555FD97CE5538E94,40", "0482FB3C029760BE,20", "43609A81D4903CB6,150"]
+
+#虚空之力配置
+[powerOfTheVoidCommonSettings]
+
+	#祭血仪式配置
+	[powerOfTheVoidCommonSettings.powerOfTheVoidCommonSettings]
+		#是否启用祭血仪式修改
+		modify = true
+		#伤害吸收消耗
+		#Range: 0.0 ~ 3.4028234663852886E38
+		absorption_base_cost = 1000.0
+		#生命值消耗
+		#Range: 0.0 ~ 3.4028234663852886E38
+		health_base_cost = 10.0
+

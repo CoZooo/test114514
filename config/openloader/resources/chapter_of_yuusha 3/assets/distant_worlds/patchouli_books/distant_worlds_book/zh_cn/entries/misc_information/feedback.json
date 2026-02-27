@@ -1,0 +1,17 @@
+{
+	"name": "反馈",
+	"icon": "minecraft:writable_book",
+	"category": "distant_worlds:misc_information",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "如果你能告诉我你发现的错误，分享你的想法或帮助本地化，我将不胜感激。如果你能提供帮助，请在社交网络上与我联系。"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Links",
+			"text": "Click on the text to follow the link!$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/distant-worlds)Distant Worlds | Curseforge$(/l)$(br2)$(l:https://modrinth.com/mod/distant-worlds)Distant Worlds | Modrinth$(/l)$(br2)$(l:https://mcreator.net/modification/92563/distant-worlds)Distant Worlds | MCreator$(/l)$(br2)$(l:https://discord.com/invite/PmYRE6Y)Discord Server$(/l)$(br2)$(l:https://patreon.com/TANC57)Patreon Page$(/l)"
+		}
+	]
+}

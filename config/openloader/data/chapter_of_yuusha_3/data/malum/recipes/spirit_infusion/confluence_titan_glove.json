@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "count": 4,
+      "item": "celestial_core:midnight_fragment"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "confluence:feral_claws"
+  },
+  "output": {
+    "count": 1,
+    "item": "confluence:titan_glove"
+  },
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 8
+    }
+  ]
+}

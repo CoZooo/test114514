@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.magazine_t3_4.name",
+  "tooltip": "eos.attachment.magazine_t3_4.tooltip",
+  "display": "eos:magazine_t3_4_display",
+  "data": "eos:magazine_t3_4_data",
+  "type": "laser"
+}

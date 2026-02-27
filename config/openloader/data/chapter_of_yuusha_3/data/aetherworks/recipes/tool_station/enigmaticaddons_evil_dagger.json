@@ -1,0 +1,26 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "crockpot:volt_goat_horn"
+    },
+    {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_rod"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "output": {
+    "item": "enigmaticaddons:evil_dagger",
+    "count": 1
+  },
+  "temperature": 2100,
+  "temperature_rate": 12.0
+}

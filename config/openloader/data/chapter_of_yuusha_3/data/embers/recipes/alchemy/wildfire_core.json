@@ -1,0 +1,29 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "tag": "forge:ingots/dawnstone"
+    },
+    {
+      "item": "aether:bronze_dungeon_key"
+    },
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "output": {
+    "item": "embers:wildfire_core",
+	"count": 4
+  },
+  "tablet": {
+    "item": "embers:ancient_motive_core"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "touhou_little_maid:film"
+  },
+  "craftType": "master_forge",
+  "entity_to_sacrifice": {
+    "tag": "goety:fairy",
+    "display_name": "entity.touhou_little_maid.fairy"
+  },
+  "soulCost": 20000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    }
+  ],
+  "result": {
+    "item": "yuusha:de_soul_shard"
+  }
+}

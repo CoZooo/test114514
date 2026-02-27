@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "embers:ashen_fabric"
+    },
+    {
+      "count": 4,
+      "item": "embers:dawnstone_ingot"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "yuusha:lost_blade_fake"
+  },
+  "output": {
+    "count": 1,
+    "item": "embers:ashen_cloak"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 2
+    }
+  ]
+}

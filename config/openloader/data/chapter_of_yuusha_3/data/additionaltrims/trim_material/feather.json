@@ -1,0 +1,9 @@
+{
+  "asset_name": "feather",
+  "description": {
+    "color": "#ECECEC",
+    "translate": "trim_material.additionaltrims.feather"
+  },
+  "ingredient": "forbidden_arcanus:golden_feather",
+  "item_model_index": 0.2
+}

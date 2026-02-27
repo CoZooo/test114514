@@ -1,0 +1,25 @@
+{
+	"item.queencats.golden_wheat": "黄金小麦",
+	
+    "item.queencats.queen_bunny_spawn_egg": "女王兔娘刷怪蛋",
+    "item.queencats.princess_bunny_spawn_egg": "公主兔娘刷怪蛋",
+    "item.queencats.queen_cow_spawn_egg": "女王牛娘刷怪蛋",
+    "item.queencats.princess_cow_spawn_egg": "公主牛娘刷怪蛋",
+	
+    "entity.queencats.queen_bunny": "女王兔娘",
+    "entity.queencats.princess_bunny": "公主兔娘",
+
+    "entity.queencats.queen_cow": "女王牛娘",
+    "entity.queencats.princess_cow": "公主牛娘",
+	
+    "queencats.humanoid_bunny_ambient": "兔娘：叫",
+    "queencats.humanoid_bunny_eat": "兔娘：进食",
+    "queencats.humanoid_bunny_hurt": "兔娘：受伤",
+    "queencats.humanoid_bunny_death": "兔娘：死亡",
+
+    "queencats.humanoid_cow_ambient": "牛娘：叫",
+    "queencats.humanoid_cow_eat": "牛娘：进食",
+    "queencats.humanoid_cow_hurt": "牛娘：受伤",
+    "queencats.humanoid_cow_death": "牛娘：死亡",
+    "queencats.humanoid_cow_milk": "牛娘：挤奶"
+}

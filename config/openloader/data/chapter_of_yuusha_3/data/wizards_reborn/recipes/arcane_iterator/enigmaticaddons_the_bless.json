@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "enigmaticaddons:the_bless",
+    "count": 1
+  },
+  "wissen": 8000,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:the_twist"
+    },
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    },
+    {
+      "item": "cataclysm:flame_eye"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    },
+    {
+      "item": "cataclysm:flame_eye"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    }
+  ]
+}

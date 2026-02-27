@@ -1,0 +1,41 @@
+{
+  // 白名单，只有在白名单中的配方才会被显示，如果白名单为空，默认为全集
+  // 可以使用正则表达式，正则表达式请以^开头，$结尾
+  // 常用例子：匹配命名空间xxx下的所有配方：^xxx:.*$
+  "whitelist": [
+    "emxarms:gun/emx_draftsman",
+	"emxarms:gun/emx_enforcer",
+	"emxarms:gun/emx_expel32",
+	"emxarms:gun/emx_expel32se",
+	"emxarms:gun/emx_kund50",
+	"emxarms:gun/emx_kund50ex",
+	"emxarms:gun/emx_mg57",
+	"emxarms:gun/emx_pmg90",
+	"emxarms:gun/emx_pulse",
+	"emxarms:gun/emx_pulsex2",
+	"emxarms:gun/emx_rivet",
+	"emxarms:gun/emx_sf7b",
+	"emxarms:gun/emx_tknife",
+	"emxarms:gun/emx_umx32",
+	"emxarms:gun/emx_umx57",
+	"tacz:gun/deagle_golden",
+	"tacz:gun/m4a1",
+	"tacz:gun/ump45",
+	"tacz:gun/vector45",
+	"tacz:gun/db_short",
+	"tacz:gun/p320",
+	"tacz:gun/scar_l",
+	"tacz:gun/sks_tactical",
+	"tacz:gun/aug",
+	"applied_armorer:gun/niklas_lever_vigenere",
+	"applied_armorer:gun/moritz_sniper_semi_k30",
+	"emxcust:gun/rd704_murusama",
+	"emxarms:gun/emx_umx32_koei",
+    "emxarms:gun/emx_draftsman_ev",
+	"applied_armorer:gun/moritz_gernade_gl3"
+  ],
+  // 黑名单，在白名单中的配方中，如果在黑名单中，则不会被显示
+  "blacklist": [
+    "tacz:test"
+  ]
+}

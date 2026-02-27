@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.stock_t3_core_2.name",
+  "display": "eos:stock_t3_core_2_display",
+  "data": "eos:stock_t3_core_2_data",
+  "type": "stock",
+  "sort": 256
+}

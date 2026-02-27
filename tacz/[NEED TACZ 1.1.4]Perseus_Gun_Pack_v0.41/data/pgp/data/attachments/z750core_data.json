@@ -1,0 +1,10 @@
+{
+	"weight": 0,
+	"extended_mag_level": 3,
+	"damage": {
+		"multiplier":1.75
+	},
+	"pierce": {
+		"addend": 4
+	}
+}

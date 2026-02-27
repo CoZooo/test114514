@@ -1,0 +1,149 @@
+
+#These settings define which perks are used and the settings which govern them.
+[Perks]
+
+	[Perks.For_Event]
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "love"
+			perk = "pmmo:fireworks"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "love"
+			perk = "pmmo:attribute"
+			multiplicative = true
+			base = -10.0
+			attribute = "obscure_api:penetration"
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "building"
+			per_level = 0.02
+			perk = "pmmo:attribute"
+			attribute = "forge:reach_distance"
+			max_boost = 2.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "agility"
+			per_level = 5.0E-5
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.movement_speed"
+			max_boost = 0.05
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "endurance"
+			per_level = 0.1
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.max_health"
+			max_boost = 100.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "combat"
+			per_level = 0.1
+			perk = "pmmo:attribute"
+			attribute = "minecraft:generic.attack_damage"
+			max_boost = 100.0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			per_level = 0
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:spell_power"
+			max_boost = 0
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			per_level = 2.5E-4
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:cooldown_reduction"
+			max_boost = 0.25
+
+		[[Perks.For_Event.SKILL_UP]]
+			skill = "magic"
+			per_level = 0.001
+			perk = "pmmo:attribute"
+			attribute = "irons_spellbooks:mana_regen"
+			max_boost = 1.0
+
+		[[Perks.For_Event.ENTITY]]
+			skill = "charisma"
+			perk = "pmmo:villager_boost"
+
+		[[Perks.For_Event.SPRINT_JUMP]]
+			skill = "agility"
+			per_level = 0.001
+			perk = "pmmo:jump_boost"
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:fall"
+			skill = "agility"
+			per_level = 0.025
+			perk = "pmmo:damage_reduce"
+
+		[[Perks.For_Event.RECEIVE_DAMAGE]]
+			for_damage = "minecraft:mob_attack"
+			skill = "endurance"
+			per_level = 7.5E-4
+			perk = "pmmo:damage_reduce"
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			applies_to = ["minecraft:bow", "minecraft:crossbow", "wizards_reborn:arcane_wood_bow", "aether:phoenix_bow", "goety:hunters_bow", "aquaculture:neptunium_bow", "cataclysm:cursed_bow", "enigmaticaddons:dragon_bow", "hmag:crimson_bow", "callfromthedepth_:soulbow", "avaritia:infinity_bow", "aether_redux:subzero_crossbow", "irons_spellbooks:autoloader_crossbow", "cataclysm:laser_gatling", "aquamirae:poisoned_chakra", "aquamirae:maze_rose", "relics:solid_snowball", "cataclysm:wrath_of_the_desert", "goety_revelation:bow_of_revelation", "morebows:copper_bow", "morebows:diamond_bow", "morebows:netherite_bow", "morebows:gilded_netherite_bow", "morebows:enderite_bow", "morebows:golden_bow", "morebows:iron_bow", "morebows:emerald_bow", "morebows:gilded_enderite_bow", "too_many_bows:frostbite", "too_many_bows:auroras_grace", "too_many_bows:burnt_relic", "too_many_bows:aethers_call", "too_many_bows:ancient_sage_bow", "too_many_bows:arc_heavens", "too_many_bows:arcane_bow", "too_many_bows:astral_bound", "too_many_bows:crimson_nexus", "too_many_bows:cyroheart_bow", "too_many_bows:dark_bow", "too_many_bows:demons_grasp", "too_many_bows:dragons_breath", "too_many_bows:dusk_reaper", "too_many_bows:emerald_sage_bow", "too_many_bows:ethereal_hunter", "too_many_bows:flame_bow", "too_many_bows:ironclad_bow", "too_many_bows:necro_flame_bow", "too_many_bows:radiance", "too_many_bows:scatter_bow", "too_many_bows:sentinels_wrath", "too_many_bows:shulker_blast", "too_many_bows:solar_bow", "too_many_bows:spectral_whisper", "too_many_bows:tidal_bow", "too_many_bows:torchbearer", "too_many_bows:twin_shadows", "too_many_bows:verdant_vigor", "too_many_bows:verdant_viper", "too_many_bows:vitality_weaver", "too_many_bows:webstring", "too_many_bows:wind_bow", "enigmaticaddons:quartz_scepter"]
+			skill = "archery"
+			perk = "pmmo:damage_boost"
+			per_level = 0.004
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			for_damage = "minecraft:magic"
+			applies_to = ["embers:blazing_ray", "embers:cinder_staff", "goety:dark_wand", "goety:necro_staff", "goety:wind_staff", "goety:storm_staff", "goety:frost_staff", "goety:wild_staff", "goety:nether_staff", "goety:nameless_staff", "goety:ominous_staff", "goety:abyss_staff", "goety:geo_staff", "goety:void_staff", "wizards_reborn:arcane_wand", "cataclysm:void_assault_shoulder_weapon", "majruszsdifficulty:sonic_boom_scroll", "majruszsdifficulty:evoker_fang_scroll", "irons_spellbooks:hither_thither_wand", "irons_spellbooks:lightning_rod", "irons_spellbooks:blood_staff", "irons_spellbooks:graybeard_staff", "irons_spellbooks:ice_staff", "irons_spellbooks:artificer_cane", "malum:totemic_staff", "born_in_chaos_v1:pumpkinstaffa", "born_in_chaos_v1:staff_of_magic_arrows", "born_in_chaos_v1:bonescaller_staff", "goety_revelation:frostbloom_staff"]
+			skill = "magic"
+			perk = "pmmo:damage_boost"
+			per_level = 0.004
+
+		[[Perks.For_Event.DEAL_DAMAGE]]
+			applies_to = ["tacz:modern_kinetic_gun", "cataclysm:wither_assault_shoulder_weapon"]
+			skill = "gunslinging"
+			perk = "pmmo:damage_boost"
+			per_level = 0.004
+
+		[[Perks.For_Event.CROUCH_JUMP]]
+			skill = "agility"
+			per_level = 0.0015
+			perk = "pmmo:jump_boost"
+
+		[[Perks.For_Event.SUBMERGED]]
+			skill = "swimming"
+			perk = "pmmo:breath"
+			min_level = 100
+
+		[[Perks.For_Event.SUBMERGED]]
+			skill = "swimming"
+			effect = "minecraft:night_vision"
+			perk = "pmmo:effect"
+			min_level = 25
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			pickaxe_dig = 2.5E-4
+			skill = "mining"
+			perk = "pmmo:break_speed"
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			shovel_dig = 2.5E-4
+			skill = "excavation"
+			perk = "pmmo:break_speed"
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			skill = "woodcutting"
+			perk = "pmmo:break_speed"
+			axe_dig = 2.5E-4
+
+		[[Perks.For_Event.BREAK_SPEED]]
+			shears_dig = 2.5E-4
+			sword_dig = 2.5E-4
+			skill = "farming"
+			perk = "pmmo:break_speed"
+			hoe_dig = 2.5E-4
+
+		[[Perks.For_Event.JUMP]]
+			skill = "agility"
+			per_level = 5.0E-4
+			perk = "pmmo:jump_boost"
+

@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "挖矿",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "enigmaticlegacy:etherium_pickaxe"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/stone.png"
+}

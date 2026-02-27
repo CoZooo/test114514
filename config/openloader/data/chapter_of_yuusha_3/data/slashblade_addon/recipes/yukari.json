@@ -1,0 +1,30 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:yukari",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+	    "proud_soul": 3000,
+        "name": "slashblade:yuzukitukumo"
+      }
+    },
+    "I": {
+      "item": "slashblade:proudsoul"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "ISI",
+    "SBS",
+    "ISI"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

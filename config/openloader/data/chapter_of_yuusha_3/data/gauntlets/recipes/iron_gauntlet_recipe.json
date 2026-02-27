@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "gauntlets:fisting_glove"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "item": "gauntlets:iron_gauntlet"
+  }
+}

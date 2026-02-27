@@ -1,0 +1,24 @@
+{
+  "spell.refined_mod.frost_strike": "冰霜打击",
+  "spell.refined_mod.frost_strike.guide": "在你的武器中注入冰和霜并进行横扫打击。伤害会随着你持有的武器的近战伤害而增加。",
+  "spell.refined_mod.thunder_strike": "雷霆打击",
+  "spell.refined_mod.thunder_strike.guide": "用你的武器召唤闪电。伤害会随着你持有的武器的近战伤害和附魔而增加。",
+  "spell.refined_mod.moon_slash": "月之斩击",
+  "spell.refined_mod.moon_slash.guide": "从玩家武器中释放出一道月光波",
+  "spell.refined_mod.summon_wolves": "召唤狼",
+  "spell.refined_mod.summon_wolves.guide": "召唤一群忠诚的狼，它们会跟随并保护你",
+
+  "death.attack.refined_mod.summon_wolves": "%1$s 被袭击 %2$s 的狼",
+  "effect.refined_mod.wolf_timer": "召唤狼",
+  "effect.refined_mod.wolf_timer.description": "显示你召唤物的剩余时间和数量",
+  "entity.refined_mod.summoned_wolf": "被召唤的狼",
+
+  "item.refined_mod.summer_rain_sword": "夏季雨",
+  "item.refined_mod.flame_tongue_sword": "火焰舌",
+
+  "item.refined_mod.jades_jewel_music_disc": "音乐唱片",
+  "item.refined_mod.jades_jewel_music_disc.desc": "Zero - Jade's Jewel",
+
+
+  "ui.irons_spellbooks.recast_count": "施法次数：%d "
+}

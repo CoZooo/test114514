@@ -1,0 +1,6 @@
+{
+	"name": "自然",
+	"description": "该类别包含由迦赫纳维度添加的所有自然物体的摘要。",
+	"icon": "distant_worlds:textures/screens/garhenna_natural_icon.png",
+	"sortnum": 5
+}

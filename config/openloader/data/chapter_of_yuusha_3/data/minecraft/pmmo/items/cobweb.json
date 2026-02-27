@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": {"combat": 75},
+	"INTERACT": {"combat": 75}
+  }
+}

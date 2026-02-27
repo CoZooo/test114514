@@ -1,0 +1,30 @@
+{
+    "variant": "cooldown",
+    "weight": 50,
+    "quality": 0,
+	"unique": true,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "anything",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots"]
+            },
+            "attribute": "irons_spellbooks:cooldown_reduction",
+            "operation": "MULTIPLY_BASE",
+            "values":
+            {
+                "epic": 0.10,
+                "mythic": 0.15,
+                "ancient": 0.20
+            }
+        }
+    ]
+}

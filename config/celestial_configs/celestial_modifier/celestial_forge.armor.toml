@@ -1,0 +1,16 @@
+
+["Modifiers for armors"]
+	#This configuration file is based on index. it means, 'half_hearted' -> '300' -> 'generic.max_health' -> '1.0' -> '0' is the first index.
+	#You may need to make a resource pack to save the customization-required translation key for the attributes if the mod author didn't do that, or your customization on other mods' attribute may not look well
+	#A hint on the translation key format: attribute.modxxx.attributexxx, e.g. attribute.minecraft.generic.attack_damage
+	#The name of the modifier
+	NAMES = ["hearty", "armored", "spiked", "hasty", "arcane"]
+	#The weight of the modifier in the modifiers pool
+	WEIGHTS = ["100", "100", "100", "100", "100"]
+	#The attribute of the modifier has. One modifier can have multiple attributes. Use ';' to split different attributes
+	ATTRIBUTES = ["minecraft:generic.max_health", "minecraft:generic.armor;minecraft:generic.armor_toughness", "minecraft:generic.attack_damage;minecraft:generic.attack_speed", "minecraft:generic.attack_speed;minecraft:generic.movement_speed", "irons_spellbooks:max_mana;minecraft:generic.attack_speed"]
+	#The amount used to calculate the attribute effect. Also can be multiple. Use ';' to split
+	AMOUNTS = ["0.1", "10.0;5.0", "0.1;-0.05", "0.1;0.1", "0.2;-0.1"]
+	#The operation ID of the attribute calculation. Can be three values: 0,1,2. 0 is ADDITION. 1 is MULTIPLY_BASE. 2 is MULTIPLY_TOTAL. you can refer to the calculation of the attributes already in the game
+	OPERATIONS_IDS = ["1", "0;0", "1;1", "1;1", "1;1"]
+

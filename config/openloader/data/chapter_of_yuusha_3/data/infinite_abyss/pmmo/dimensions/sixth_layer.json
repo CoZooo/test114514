@@ -1,0 +1,19 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 0.75,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "apotheosis_modern_ragnarok:freeze": 2,
+		"distant_worlds:suppression": 3,
+		"attributeslib:sundering": 1
+    },
+    "travel_req":{},
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

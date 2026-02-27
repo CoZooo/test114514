@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "cataclysm:lacrima"
+    },
+    {
+      "count": 1,
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:arc_heavens"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    }
+  ]
+}

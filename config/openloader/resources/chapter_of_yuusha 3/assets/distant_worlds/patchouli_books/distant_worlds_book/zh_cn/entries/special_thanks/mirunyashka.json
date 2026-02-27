@@ -1,0 +1,27 @@
+{
+	"name": "MiruNyashka",
+	"icon": "distant_worlds:textures/screens/mirunyashka_head.png",
+	"category": "distant_worlds:special_thanks",
+	"read_by_default": "true",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "First of all, I want to express my deep gratitude to the girl under nickname $(#ea7f17)$(l)MiruNyashka$() and her community.$(br2)Thank you for inspiring me with your creativity to take this path for the first time and start developing my own modifications!"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Not always the Distant Worlds mod was the way we see it now, but I was still accepted in your community and supported. After some time, cooperation with you gave me a second wind and understanding that there are many people for whom I want to work further. With these thoughts, I took my project to a whole new level of quality, starting from scratch."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Thank you for cheering and inspiring me in the saddest and most joyful moments, and most importantly, for not letting me abandon this wonderful project.$(br)Know that you are also an important part of this mod, there is a lot of your merit here, and without you there would be nothing. $(br)I wish you inspiration, success in your work and all the best!$(br)Have a nice game!"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Links",
+			"text": "Click on the text to follow the link!$(br2)$(l:https://www.youtube.com/channel/UCSko00FmY5mMDGi5bzUaRzA)YouTube Channel$(/l)"
+		}
+
+	]
+}

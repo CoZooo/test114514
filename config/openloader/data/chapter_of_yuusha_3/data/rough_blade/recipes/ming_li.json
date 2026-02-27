@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "rough_blade:ming_li",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "prinegorerouse:fatestar"
+    },
+    "B": {
+      "item": "prinegorerouse:chronos"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "E": {
+      "item": "goety_revelation:doom_medal"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "proud_soul": 50000,
+        "refine": 5
+      }
+    }
+  },
+  "pattern": [
+    "ACE",
+    "CDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

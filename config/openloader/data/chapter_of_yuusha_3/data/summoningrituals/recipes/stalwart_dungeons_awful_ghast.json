@@ -1,0 +1,20 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "stalwart_dungeons:awful_ghast",
+            "count": 1,
+            "offset": { "x": 0, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "minecraft:netherite_block" }, "count": 1 },
+        { "ingredient": { "item": "yuusha:chaos_star" }, "count": 1 },
+        { "ingredient": { "item": "netherdepthsupgrade:lava_sponge" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

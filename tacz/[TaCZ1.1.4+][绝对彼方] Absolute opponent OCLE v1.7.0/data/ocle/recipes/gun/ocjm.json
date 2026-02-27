@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:time_rift_charge"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "goety:withered_manuscript"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_wings_recharger"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ocle:ocjm"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

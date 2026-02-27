@@ -1,0 +1,96 @@
+{
+  "type": "crockpot:piglin_bartering",
+  "ingredient": {
+    "item": "illagerinvasion:hallowed_gem"
+  },
+  "results": [
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:spore_outbreak",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:plague_book",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:exercise_reinforcement",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:detect",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:bloodstain",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:blood_stasis",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:bone_structure",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:mummification",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:weak",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:tumour",
+      "weight": 1
+    },
+    {
+      "count": {
+        "max": 1,
+        "min": 1
+      },
+      "item": "moonstone:organizational_regeneration",
+      "weight": 1
+    }
+  ]
+}

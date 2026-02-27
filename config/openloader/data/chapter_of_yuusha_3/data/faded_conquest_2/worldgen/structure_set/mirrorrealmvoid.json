@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "faded_conquest_2:mirrorrealmvoid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 0,
+    "salt": 1948817325
+  }
+}

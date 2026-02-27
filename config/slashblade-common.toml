@@ -1,0 +1,62 @@
+
+#General settings
+[general]
+	#Determining the spawn chance of sabigatana.
+	#Range: 0.0 ~ 1.0
+	sabigatana_spawn_chance = 0.0
+	#Determining the spawn chance of a broken sabigatana.
+	#Range: 0.0 ~ 1.0
+	broken_sabigatana_spawn_chance = 0.25
+	#Determines whether to make hunger effect repair slashblade.
+	#If enable, if player has hunger effect, your slashblade in hotbar will be repaired, cost player's hunger.
+	hunger_can_repair = true
+	#Determines whether to enable slashblade's PVP.
+	#If enable, player can attack player with SlashBlade.
+	pvp_enable = false
+	#Determines whether to enable slashblade's friendly fire.
+	#If enable, player can attack friendly entity with SlashBlade.
+	friendly_enable = true
+	#Determining the proud soul cost for single summon mirage blade.
+	#Range: > 1
+	summon_sword_cost = 2
+	#Determining the proud soul cost for summon blade arts.
+	#Range: > 1
+	summon_blade_art_cost = 20
+	#Determining the max proud soul count for single mobs kill.
+	#Range: > 1
+	max_proud_soul_got = 100
+	#Determining the base exhaustion for slashblade's self-repair.
+	#Range: 1.0E-4 ~ 1.7976931348623157E308
+	bewitched_hunger_exhaustion = 0.05
+	#Determining the level cost for refine a slashblade.
+	#Range: > 1
+	refine_level_cost = 100
+	#Determines whether to enable slashblade's self-repair.
+	#If enable, bewitched slashblade will try repair itself, cost hunger & exp.
+	self_repair = true
+	#Determines whether slashblade's self-repair cost experiences.
+	#If enable, self repair will cost player's experiences.
+	self_repair_cost_exp = true
+	#Determining the base exp cost for slashblade's self-repair.
+	#Range: > 1
+	bewitched_exp_cost = 1
+	#Blade Damage: Base Damage × Multiplier.[Default: 1.0D]
+	#Range: 0.0 ~ 1024.0
+	slashblade_damage_multiplier = 0.1
+	#S-Rank Refine Bonus: Each Refine × Multiplier'value Damage.[Default: 1.D]
+	#Range: 0.0 ~ 1024.0
+	refine_damage_multiplier = 1.0
+	#The maximum number of refine of Trapezohedron.[Default: 2147483647(infinity)]
+	#Range: > 200
+	trapezohedron_max_refine = 250
+	#Example: 'minecraft:sharpness', That will prevent the enchantment from dropping the corresponding proudsoul tiny.
+	non-droppable_enchantments = ["minecraft:thorns", "distant_worlds:salmoran_sting", "enigmaticlegacy:nemesis", "majruszsenchantments:repulsion", "majruszsenchantments:telekinesis", "celestial_enchantments:withering_blade", "celestial_enchantments:upward_pick", "celestial_enchantments:vampire_slash", "celestial_enchantments:unstable_blade", "celestial_enchantments:fierce_slash", "celestial_enchantments:revenge", "celestial_enchantments:hidden_blade", "celestial_enchantments:misfortune_blade", "celestial_enchantments:knight_slash", "celestial_enchantments:fatal_blow", "celestial_enchantments:light_armor_killer", "celestial_enchantments:quick_step_puncture", "celestial_enchantments:cluster_awareness", "celestial_enchantments:quenched_blade", "celestial_enchantments:words_of_wisdom", "celestial_enchantments:destruction_crack", "celestial_enchantments:suppression_blade", "celestial_enchantments:death_blade", "celestial_enchantments:magic_blade", "celestial_enchantments:void_chain", "celestial_enchantments:shadow_touch", "celestial_enchantments:hand_of_thief", "celestial_enchantments:void_protection", "celestial_enchantments:abyssal_contact", "celestial_enchantments:solid_armor", "celestial_enchantments:flame_strike", "celestial_enchantments:destroy_resonance", "celestial_enchantments:frost_thorns", "celestial_enchantments:trauma_absorption", "celestial_enchantments:eyes_in_the_shadows", "celestial_enchantments:have_a_nice_dream", "celestial_enchantments:corrupt_scholar", "celestial_enchantments:knowledge_scholar", "celestial_enchantments:moon_blessing", "celestial_enchantments:sun_blessing", "celestial_enchantments:rain_and_dew_grace", "celestial_enchantments:gift_of_thunder_god", "celestial_enchantments:the_source_of_sin", "celestial_enchantments:echo_effect", "celestial_enchantments:origin_of_life", "celestial_enchantments:life_shield", "celestial_enchantments:turtle_assimilation", "celestial_enchantments:celestial_shelter", "celestial_enchantments:potion_affinity", "celestial_enchantments:pure_body", "celestial_enchantments:dolphin_assimilation", "celestial_enchantments:leopard_assimilation", "celestial_enchantments:corruption_body", "celestial_enchantments:holy_prayer", "celestial_enchantments:dimension_explorer", "celestial_enchantments:fireproof_boots", "celestial_enchantments:fleet_of_foot", "celestial_enchantments:rabbit_assimilation", "celestial_enchantments:parting_wish", "celestial_enchantments:death_hatred", "celestial_enchantments:death_pact", "celestial_enchantments:arrow_of_traction", "celestial_enchantments:arrow_storm", "celestial_enchantments:explosive_arrow", "celestial_enchantments:lightning_arrow", "celestial_enchantments:sharp_arrow", "celestial_enchantments:divine_projection", "celestial_enchantments:constraints_shield", "celestial_enchantments:holy_shield", "celestial_enchantments:reactive_block", "celestial_enchantments:scorching_shield", "celestial_enchantments:sharp_halberd_tip", "celestial_enchantments:explosive_halberd", "celestial_enchantments:photo_dynamic", "celestial_enchantments:accelerate_growth", "celestial_enchantments:born_in_shadow", "celestial_enchantments:photosynthesis", "celestial_enchantments:destruction_curse", "celestial_enchantments:overeating_curse", "celestial_enchantments:curse_of_weakness", "celestial_enchantments:powerless_curse", "celestial_enchantments:dragging_curse", "celestial_enchantments:curse_of_gravity", "celestial_enchantments:curse_of_withering", "celestial_enchantments:curse_of_illiteracy", "celestial_enchantments:cures_of_corrosion", "call_of_drowner:spawn_trident", "domesticationinnovation:health_boost", "domesticationinnovation:fireproof", "domesticationinnovation:immunity_frame", "domesticationinnovation:deflection", "domesticationinnovation:poison_resistance", "domesticationinnovation:chain_lightning", "domesticationinnovation:speedster", "domesticationinnovation:frost_fang", "domesticationinnovation:magnetic", "domesticationinnovation:linked_inventory", "domesticationinnovation:total_recall", "domesticationinnovation:health_siphon", "domesticationinnovation:bubbling", "domesticationinnovation:herding", "domesticationinnovation:vampire", "domesticationinnovation:void_cloud", "domesticationinnovation:charisma", "domesticationinnovation:shadow_hands", "domesticationinnovation:disc_jockey", "domesticationinnovation:defusal", "domesticationinnovation:warping_bite", "domesticationinnovation:ore_scenting", "domesticationinnovation:gluttonous", "domesticationinnovation:psychic_wall", "domesticationinnovation:intimidation", "domesticationinnovation:tethered_teleport", "domesticationinnovation:muffled", "domesticationinnovation:blazing_protection", "domesticationinnovation:healing_aura", "domesticationinnovation:rejuvenation", "domesticationinnovation:undead_curse", "domesticationinnovation:infamy_curse", "domesticationinnovation:blight_curse", "domesticationinnovation:immaturity_curse", "goety_revelation:reality_piercer", "capsule:recall", "chapter_of_yuusha_3_core:multishot", "chapter_of_yuusha_3_core:sundering", "chapter_of_yuusha_3_core:dampening_penetration", "chapter_of_yuusha_3_core:magic_energy", "minecraft:power", "cthulhufishing:power_of_the_extinct"]
+	#Determining the count for proud soul when blade be broken.
+	#Range: 1 ~ 64
+	max_proudsoul_drop = 64
+	#Determining the count for enchanted proud soul when blade be broken.
+	#Range: 1 ~ 64
+	max_enchanted_proudsoul_drop = 16
+	#Does crafting sum up the refine of all ingredients? If false, then it only takes the maximum refine.
+	do_crafting_sum_refine = true
+

@@ -1,0 +1,44 @@
+{
+	"name": "海琍斯特盔甲",
+	"icon": "distant_worlds:helyst_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 2,
+	"advancement": "distant_worlds:encased_soul",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "海琍斯特盔甲非常耐用，基于塞尔摩壬盔甲，它不仅可以更有效地保护你免受塞尔摩壬的毒刺，还可以保护你免受压制效果的伤害。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_helmet",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)塞尔摩壬头盔$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_chestplate",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)塞尔摩壬胸甲$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_leggings",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)塞尔摩壬护腿$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_boots",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)塞尔摩壬靴子$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/helyst",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

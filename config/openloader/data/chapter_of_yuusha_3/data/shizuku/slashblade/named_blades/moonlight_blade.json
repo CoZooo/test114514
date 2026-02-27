@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:moonlight_blade",
+  "properties": {
+    "attack_base": 23.5,
+    "max_damage": 570,
+    "slash_art": "shizuku:moonlight_slash",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 12632256,
+    "texture": "shizuku:model/shizuku/zi.png"
+  }
+}
+
+

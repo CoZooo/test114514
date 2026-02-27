@@ -1,0 +1,31 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:tartarus_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:sabigatana",
+        "proud_soul": 30000,
+        "refine": 3
+      }
+    },
+    "C": {
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    "P": {
+      "item": "prinegorerouse:tartarus"
+    }
+  },
+  "pattern": [
+    "PCP",
+    "CBC",
+    "PCP"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

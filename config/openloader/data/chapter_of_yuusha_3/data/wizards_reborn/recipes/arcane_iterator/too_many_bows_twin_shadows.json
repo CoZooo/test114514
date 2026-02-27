@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:twin_shadows",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "morebows:diamond_bow"
+    },
+    {
+      "item": "yuusha:ink_heart"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "yuusha:ice_blood"
+    }
+  ]
+}

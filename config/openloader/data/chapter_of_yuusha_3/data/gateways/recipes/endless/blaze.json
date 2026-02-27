@@ -1,0 +1,31 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "NNN",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "celestial_core:fire_essence"
+    },
+	"A": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:basic/blaze"
+      }
+    },
+	"B": {
+      "item": "minecraft:magma_cream"
+    },
+	"N": {
+      "item": "locusazzurro_icaruswings:nether_essence"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/blaze"
+}

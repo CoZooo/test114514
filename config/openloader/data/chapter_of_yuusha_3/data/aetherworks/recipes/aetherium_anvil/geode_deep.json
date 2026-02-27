@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_deep"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:ember_crystal"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "embers:ember_shard"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "embers:ember_grit"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:sculk"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:raw_lead"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

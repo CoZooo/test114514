@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 32
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:stock_eos_tactical"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

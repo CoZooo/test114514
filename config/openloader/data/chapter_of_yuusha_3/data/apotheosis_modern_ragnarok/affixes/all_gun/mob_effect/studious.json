@@ -1,0 +1,37 @@
+{
+  "type": "apotheosis_modern_ragnarok:mob_effect_ads",
+  "mob_effect": "attributeslib:sundering",
+  "target": "ADS_TARGET",
+  "values": {
+    "epic": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": 0
+    },
+    "mythic": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": 1
+    },
+    "ancient": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": 2
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto",
+    "apotheosis_modern_ragnarok:bolt_action"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:trident"
+  },
+  "research": "lord",
+  "craftType": "master_forge",
+  "soulCost": 40000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "awakened_bosses:herobrine_block"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:gungnir"
+  }
+}

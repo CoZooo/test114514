@@ -1,0 +1,20 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "nethersdelight:hoglin_hide",
+    "count": 1
+  },
+  "wissen": 50,
+  "steam": 100,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:hogskin"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "wizards_reborn:alchemy_oil",
+      "amount" : 100
+    }
+  ]
+}

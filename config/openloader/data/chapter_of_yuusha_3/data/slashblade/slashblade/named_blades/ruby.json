@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:ruby",
+  "properties": {
+    "attack_base": 31.0,
+    "max_damage": 62,
+    "slash_art": "ak:king"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 13068648,
+    "texture": "slashblade:model/ruby.png"
+  }
+}

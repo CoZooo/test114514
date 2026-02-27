@@ -1,0 +1,7 @@
+{
+  "name": "emxarms.gun.emx_kund50ex_al.name",
+  "display": "emxarms:emx_kund50ex_al_display",
+      "tooltip": "emxarms.gun.emx_kund50ex_al.desc",
+  "data": "emxarms:emx_kund50ex_al_data",
+  "type": "pistol"
+}

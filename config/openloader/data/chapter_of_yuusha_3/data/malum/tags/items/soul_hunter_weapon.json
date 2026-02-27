@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "values": [
+    "#malum:scythe",
+    "malum:soul_stained_steel_axe",
+    "malum:soul_stained_steel_pickaxe",
+    "malum:soul_stained_steel_shovel",
+    "malum:soul_stained_steel_sword",
+    "malum:soul_stained_steel_hoe",
+    "malum:soul_stained_steel_knife",
+    "too_many_bows:radiance",
+    "slashblade:slashblade_silverbamboo",
+    "irons_spellbooks:graybeard_staff"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "endrem:nether_eye"
+  },
+  "craftType": "adept_nether",
+  "soulCost": 10,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:rods/blaze"
+    },
+    {
+      "item": "goety:ectoplasm"
+    }
+  ],
+  "result": {
+    "item": "goety:bygone_scroll"
+  }
+}

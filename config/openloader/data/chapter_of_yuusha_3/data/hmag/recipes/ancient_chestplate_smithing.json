@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "yuusha:ember_heart"
+  },
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "result": {
+    "item": "hmag:ancient_chestplate"
+  },
+  "template": {
+    "item": "hmag:evil_crystal_upgrade_smithing_template"
+  }
+}

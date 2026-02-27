@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " S ",
+    "sas",
+    " s "
+  ],
+  "reagents": "udid",
+  "key": {
+    "s": {
+      "item": "aether_redux:gilded_holystone"
+    },
+    "S": {
+      "item": "goety:marble"
+    },
+    "u": {
+      "item": "eidolon:holy_symbol"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    },
+    "d": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "a": {
+      "item": "callfromthedepth_:marble_block"
+    }
+  },
+  "result": {
+    "item": "eidolon:unholy_effigy"
+  }
+}

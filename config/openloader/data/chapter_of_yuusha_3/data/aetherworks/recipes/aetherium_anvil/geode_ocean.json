@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_ocean"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "distant_worlds:raw_dalite"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "chance": 15.0,
+      "count": 8,
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:sea_lantern"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:sniffer_egg"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "yuusha:sea_core"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

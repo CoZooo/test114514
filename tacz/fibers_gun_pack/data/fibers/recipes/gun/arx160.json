@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "item": "embers:silver_ingot"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:dragonskin"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "fibers:arx160"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

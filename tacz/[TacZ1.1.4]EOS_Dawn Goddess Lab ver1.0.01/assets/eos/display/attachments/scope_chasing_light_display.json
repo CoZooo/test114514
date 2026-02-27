@@ -1,0 +1,18 @@
+{
+  "slot": "eos:attachment/slot/scope_chasing_light",
+  "model": "eos:attachment/scope_chasing_light_geo",
+  "texture": "eos:gun/uv/chasing_light",
+  "lod": {
+    "model": "eos:attachment/lod/scope_chasing_light",
+    "texture": "eos:attachment/lod/scope_chasing_light"
+  },
+  "zoom": [
+    1.25,2.5
+  ],
+  "scope": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}

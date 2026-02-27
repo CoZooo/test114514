@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:respawn_anchor"
+    }
+  ],
+  "result": [
+    {
+      "item": "enigmaticlegacy:end_anchor",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "item": "goety_revelation:dimensional_will"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "072",
+    "345",
+    "618"
+  ],
+  "key": {
+    "0": {
+      "item": "infinite_abyss:astarium_crystal"
+    },
+    "1": {
+      "item": "infinite_abyss:dead_crystal_heart"
+    },
+    "2": {
+      "item": "infinite_abyss:astarium_crystal"
+    },
+    "3": {
+      "item": "forbidden_arcanus:soulless_sand"
+    },
+    "4": {
+      "item": "cataclysm:draugr_head"
+    },
+    "5": {
+      "item": "forbidden_arcanus:soulless_sand"
+    },
+    "6": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "7": {
+      "item": "infinite_abyss:flawless_light_blue_crystal"
+    },
+    "8": {
+      "item": "cataclysm:black_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "infinite_abyss:wither_artefact",
+    "count": 1
+  }
+}

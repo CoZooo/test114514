@@ -1,0 +1,9 @@
+
+["Auto-Targeting Setting"]
+	#Enable the enemy lock-on?[Default:true]
+	enablesEnemyLockOn = true
+	#Enable the sneaking no backoff?[Default:false]
+	enablesSneakingNoBackOff = false
+	#Enable Generation 1 first-person render?[Default:true]
+	enablesGeneration1FirstPersonRender = true
+

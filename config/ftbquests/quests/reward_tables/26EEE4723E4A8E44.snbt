@@ -1,0 +1,2133 @@
+{
+	icon: "enigmaticlegacy:loot_generator"
+	id: "26EEE4723E4A8E44"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "hmag:purification_cloth"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:gold_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:iron_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:diamond_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:emerald_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:quartz_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:lapis_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:redstone_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:copper_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "aquaculture:neptunium_ingot"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:heart_of_the_sea"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:dungeon"
+						LootTable: "treasurebags:bags/dungeon"
+					}
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:sticks_and_stones"
+						LootTable: "treasurebags:bags/sticks_and_stones"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:literacy"
+						LootTable: "treasurebags:bags/literacy"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:ender"
+						LootTable: "treasurebags:bags/ender"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:player"
+						LootTable: "treasurebags:bags/player"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:nature"
+						LootTable: "treasurebags:bags/nature"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "treasurebags:treasure_bag"
+				tag: {
+					silentlib.LootContainer: {
+						BagType: "treasurebags:ingots"
+						LootTable: "treasurebags:bags/ingots"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "locusazzurro_icaruswings:wind_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "aquaculture:neptunium_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "hmag:lightning_particle"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:holy_hand_grenade"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "waystones:waystone"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "farmersdelight:backstabbing"
+						lvl: 10s
+					}]
+					RepairCost: 1
+					Unbreakable: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "mowziesmobs:naga_fang_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "locusazzurro_icaruswings:anemone"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_invisibility"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsdifficulty:undead_battle_standard"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsdifficulty:golden_bandage"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							amount: 16
+							filter: {
+								Count: 1b
+								ForgeCaps: {
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+								}
+								id: "minecraft:ender_pearl"
+							}
+						}]
+					}
+				}
+				id: "reliquary:ender_staff"
+				tag: {
+					count: 16
+					enabled: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							amount: 0
+							filter: {
+								Count: 1b
+								ForgeCaps: {
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+								}
+								id: "minecraft:bone_meal"
+							}
+						}]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:harvest_rod"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:base": {
+								element: {
+									fire: 5
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "reliquary:salamander_eye"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:sojourner_staff"
+				tag: {
+					Current: 0
+					Items: [{
+						Name: "minecraft:torch"
+						Quantity: 64
+					}]
+					enabled: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:serpent_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:lantern_of_paranoia"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:fertile_lily_pad"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:void_tear"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:infernal_tear"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:angelheart_vial"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "bosses_of_mass_destruction:charged_ender_pearl"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "illagerinvasion:lost_candle"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "illagerinvasion:platinum_sheet"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "enigmaticlegacy:recall_potion"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:bag_book"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:bag_record"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_hat"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:shears_of_winter"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:handgun"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:magazines/storm_magazine"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:pedestals/red_pedestal"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "reliquary:wraith_node"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_overworld"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_iron"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_end"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_nether"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_gold"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:chest_dungeon"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:box_diamond"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:chest_jungle"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "hmag:insomnia_fruit"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "enigmaticlegacy:soul_compass"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "enigmaticlegacy:cosmic_cake"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "enigmaticlegacy:astral_potato"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:novelty_drinking_hat"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:shock_pendant"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:charm_of_sinking"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:whoopee_cushion"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:cloud_in_a_bottle"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "artifacts:power_glove"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "sophisticatedbackpacks:pickup_upgrade"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "sophisticatedbackpacks:deposit_upgrade"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "sophisticatedbackpacks:restock_upgrade"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "bosses_of_mass_destruction:levitation_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "bosses_of_mass_destruction:monolith_block"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "distant_worlds:dalite_indicator"
+			}
+		}
+		{ item: "bhc:red_heart_canister" }
+		{ item: "bhc:yellow_heart_canister" }
+		{ item: "bhc:green_heart_canister" }
+		{ item: "bhc:blue_heart_canister" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:deco_mandragora_pot"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_creeper_girl"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:deco_nest_harpy"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_dullahan"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_ender_girl"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_maid"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_mermaid"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_nine_tails"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "grimoireofgaia:doll_slime_girl"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "hmag:soul_powder_block"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:dice"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:owl_feather"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:horseshoe"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:onyx"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:gambling_card"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:removal_card"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "majruszsaccessories:reverse_card"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:gem_dust"
+			}
+			weight: 3.0f
+		}
+		{ item: "moonstone:nanorobot" }
+		{ item: "moonstone:nanocube" }
+		{ item: "moonstone:wind" }
+		{
+			item: {
+				Count: 1
+				id: "celestial_artifacts:yellow_duck"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "fire"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:void_assault_shoulder_weapon"
+				tag: { }
+			}
+		}
+		{ item: "goety:hook_bell" }
+		{ item: "irons_spellbooks:concentration_amulet" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "irons_spellbooks:silver_ring"
+			}
+		}
+		{ item: "irons_spellbooks:lurker_ring" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "bash"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:soul_render"
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "bash"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:the_annihilator"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:laser_gatling"
+				tag: {
+					Charged: 0b
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cataclysm:wither_assault_shoulder_weapon" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "bash"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:tidal_claws"
+			}
+		}
+		{ item: "confluence:extendo_grip" }
+		{ item: "confluence:toolbox" }
+		{ item: "confluence:toolbelt" }
+		{ item: "confluence:ancient_chisel" }
+		{ item: "majruszsaccessories:adventurer_kit" }
+		{ item: "majruszsaccessories:ancient_scarab" }
+		{ item: "majruszsaccessories:angler_trophy" }
+		{ item: "majruszsaccessories:certificate_of_taming" }
+		{ item: "majruszsaccessories:discount_voucher" }
+		{ item: "majruszsaccessories:dream_catcher" }
+		{ item: "majruszsaccessories:idol_of_fertility" }
+		{ item: "majruszsaccessories:lucky_rock" }
+		{ item: "majruszsaccessories:metal_lure" }
+		{ item: "majruszsaccessories:miner_guide" }
+		{ item: "majruszsaccessories:swimmer_guide" }
+		{ item: "majruszsaccessories:tamed_potato_beetle" }
+		{ item: "majruszsaccessories:tool_scraps" }
+		{ item: "majruszsaccessories:unbreakable_fishing_line" }
+		{
+			item: {
+				Count: 1
+				id: "reliquary:alkahestry_tome"
+				tag: {
+					Damage: 10000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "yuusha:fake_knowledge_book"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:ray_of_siphoning"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:fang_strike"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:fang_ward"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:firebolt"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:heal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:icicle"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:shockwave"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:poison_arrow"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{ item: "irons_spellbooks:inscription_table" }
+		{ item: "refinedstorage:64k_storage_disk" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "moonstone:ectoplasmsoul"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "aether:agility_cape"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "moonstone:wind"
+			}
+		}
+		{ item: "aether:valkyrie_cape" }
+		{
+			item: {
+				Count: 1
+				id: "lost_aether_content:phoenix_cape"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ancient_aether:ancient_ring" }
+		{ item: "ancient_aether:hermes_pendant" }
+		{ item: "ancient_aether:ancient_pendant" }
+		{ item: "aether:regeneration_stone" }
+		{ item: "aether_redux:ring_of_wisdom" }
+		{
+			item: {
+				Count: 1
+				id: "faded_conquest_2:stormclasher_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aetherworks:shovel_slime"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "aetherworks:shovel_prismarine"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aetherworks:hoe_honey"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aetherworks:hoe_amethyst"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aetherworks:crossbow_magma"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "eidolon:raven_cloak"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:invisibility"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:hk_mp5a5"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 20
+					GunFireMode: "AUTO"
+					GunId: "tacz:uzi"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{ item: "mokels_witch_boss:flask_of_healinglvltwo" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "rustic_engineer:spider_mech_item"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "rustic_engineer:air_ship_item"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "rustic_engineer:dragonfly_item"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "rustic_engineer:abyssal_submarine_item"
+			}
+		}
+		{ item: "wizards_reborn:arcane_wood_cane" }
+		{
+			item: {
+				Count: 1
+				id: "locusazzurro_icaruswings:ikaros_wings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "locusazzurro_icaruswings:astraea_wings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "locusazzurro_icaruswings:flandre_magic_wings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "locusazzurro_icaruswings:hiyori_wings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "locusazzurro_icaruswings:melan_wings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "irons_spellbooks:invisibility_ring"
+			}
+		}
+		{ item: "goety:haunted_jug" }
+		{ item: "reliquary:emperor_chalice" }
+	]
+	title: "时空乱流"
+}

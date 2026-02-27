@@ -1,0 +1,60 @@
+{
+  "gem": "apotheosis:core/solar",
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.all_auto",
+        "types": [
+          "apotheosis_modern_ragnarok:full_auto",
+          "apotheosis_modern_ragnarok:semi_auto"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "ADDITION",
+      "values": {
+				"uncommon": 0.01,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.shotgun",
+        "types": [
+          "apotheosis_modern_ragnarok:shotgun"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "ADDITION",
+      "values": {
+				"uncommon": 0.01,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.bolt_action",
+        "types": [
+          "apotheosis_modern_ragnarok:bolt_action"
+        ]
+      },
+      "attribute": "attributeslib:overheal",
+      "operation": "ADDITION",
+      "values": {
+				"uncommon": 0.01,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.05
+      }
+    }
+  ]
+}

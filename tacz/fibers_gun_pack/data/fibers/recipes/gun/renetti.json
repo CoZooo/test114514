@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "item": "embers:silver_ingot"
+      },
+      "count": 9
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:smoldering_scorched_log"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "celestial_core:treasure_fragment"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "fibers:renetti"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,80 @@
+{
+  "item.chapter_of_yuusha_3_core.war_mage_ring.tooltip": "§7佩戴后能使用铁之咒语模组的法力值来抵抗伤害，在所有的减伤应用后结算",
+
+  "item.chapter_of_yuusha_3_core.maid_accidental_harm_amulet": "{flow}神赐天道符{/flow}",
+  "item.chapter_of_yuusha_3_core.maid_accidental_harm_amulet.tooltip": "§7女仆佩戴后将免疫大部分来自玩家的伤害，并对无来源伤害拥有15%×好感等级的减伤",
+  
+  "item.chapter_of_yuusha_3_core.adaptation": "{flow}「世界」此岸魔女之册{/flow}",
+  "item.chapter_of_yuusha_3_core.adaptation.tooltip": "§7在一定时间内受到相同类型的伤害会逐渐降低，每次只能适应一种伤害",
+
+  "biome.chapter_of_yuusha_3_core.empty_biome_1": "永昼空境",
+  "biome.chapter_of_yuusha_3_core.empty_biome": "永夜空境",
+
+  "tooltip.celestial_artifacts.solar_magnet.enabled": "吸引功能已启用",
+  "tooltip.celestial_artifacts.solar_magnet.disabled": "吸引功能已禁用",
+  "tooltip.celestial_artifacts.solar_magnet.usage": "鼠标移上去右击开关吸引功能",
+
+  "enchantment.chapter_of_yuusha_3_core.magic_energy": "魔灵强化",
+  "enchantment.chapter_of_yuusha_3_core.magic_energy.desc": "于乘法乘区增强魔灵之力属性",
+
+  "item.chapter_of_yuusha_3_core.recoil_absorber": "{flow}阴阳玉{/flow}",
+  "item.chapter_of_yuusha_3_core.recoil_absorber.tooltip": "§7佩戴后玩家可化解反射精英词条的伤害（不会受到反射伤害）",
+  
+  "item.chapter_of_yuusha_3_core.forever_love": "{flow}真爱永恒{/flow}",
+  "item.chapter_of_yuusha_3_core.forever_love.tooltip": "§7玩家佩戴无法对自己的女仆造成伤害，女仆佩戴会根据好感加伤加抗且无法受到玩家伤害",
+  
+  "item.chapter_of_yuusha_3_core.maid_irons_spell": "魔术炉心",
+  "item.chapter_of_yuusha_3_core.maid_irons_spell.tooltip": "§7女仆佩戴后，铁之咒语模组的法术伤害翻倍",
+  
+  "item.chapter_of_yuusha_3_core.true_sight_gem.tooltip": "§7女仆装备后将无视可见度削减效果（例如：隐身等）",
+  
+  "item.chapter_of_yuusha_3_core.draw_power": "{flow}破空之愿{/flow}",
+  "item.chapter_of_yuusha_3_core.draw_power.tooltip1": "根据弓的蓄力时间增加箭矢伤害，增加的伤害为独立乘区",
+
+  "item.chapter_of_yuusha_3_core.cy3_excessive_treatment": "{flow}天罡血炼{/flow}",
+  "item.chapter_of_yuusha_3_core.cy3_excessive_treatment.tooltip": "§7将溢出的回血量转化为最高等量于玩家最大血量的伤害吸收",
+  "attribute.name.excessive_treatment": "血炼罡气",
+
+  "item.chapter_of_yuusha_3_core.task_expert": "{flow}命戒「日之呼吸」{/flow}",
+
+  "item.chapter_of_yuusha_3_core.insulation": "{flow}绝缘体{/flow}",
+  "item.chapter_of_yuusha_3_core.insulation.tooltip": "§7佩戴后无视怪物的磁力精英属性，并免疫闪电伤害",
+
+  "item.chapter_of_yuusha_3_core.life_limiter": "{flow}魂之接力{/flow}",
+  "item.chapter_of_yuusha_3_core.life_limiter.tooltip": "§7佩戴后你的生命值将如风中残烛（当前生命值不会超过1点）",
+
+  "item.chapter_of_yuusha_3_core.universal_unequip": "{flow}虫箭「恶意歼灭」{/flow}",
+  "item.chapter_of_yuusha_3_core.universal_unequip.tooltip": "§7拿起右击需要卸下的饰品或装备并消耗虫箭可以将其强制拆卸",
+
+  "item.chapter_of_yuusha_3_core.excessive_treatment": "{flow}时之沙漏{/flow}",
+  "item.chapter_of_yuusha_3_core.excessive_treatment.tooltip": "§7攻击时根据造成的伤害获得时之护盾（伤害吸收）",
+
+	"effect.chapter_of_yuusha_3_core.voidification.desc": "拥有该效果时会持续受到魔法伤害。",
+	"effect.chapter_of_yuusha_3_core.voidification.description": "拥有该效果时会持续受到魔法伤害。",
+
+  "enchantment.chapter_of_yuusha_3_core.curse_of_arrow.desc": "攻击每级2%几率为目标穿戴皮革盔甲",
+
+  "tooltip.chapter_of_yuusha_3_core.toughness": " %s",
+
+  "enchantment.chapter_of_yuusha_3_core.piercing": "穿透引弓",
+  "enchantment.chapter_of_yuusha_3_core.multishot": "多重引弓",
+  "enchantment.chapter_of_yuusha_3_core.piercing.desc": "允许箭矢穿透实体，每级附魔增加一实体。",
+  "enchantment.chapter_of_yuusha_3_core.multishot.desc": "一次射出多只箭，每级附魔增加一箭矢，额外的箭矢只会造成较低的伤害，过多的箭矢可能会导致卡顿。",
+  "enchantment.chapter_of_yuusha_3_core.magical_arrow": "魔化箭矢",
+  "enchantment.chapter_of_yuusha_3_core.magical_arrow.desc": "命中实体后对其造成回响打击，附加箭矢伤害的2%×附魔等级的法术伤害，不享受法术强度加成。",
+  "enchantment.chapter_of_yuusha_3_core.sundering": "星裂相位",
+  "enchantment.chapter_of_yuusha_3_core.sundering.desc": "仅适用于法杖，施法可赋予附魔等级的星裂效果，可用无暇以上的法师克星宝石提升等级。",
+
+  "enchantment.chapter_of_yuusha_3_core.fluid_penetration": "流体穿透",
+  "enchantment.chapter_of_yuusha_3_core.fluid_penetration.desc": "降低箭矢在水中的阻力，4级甚至能让箭矢在水中的阻力比在空气中更低",
+
+  "item.sophisticatedbackpacks.rs_pickup_upgrade": "{flow}次元拾取升级{/flow}",
+  "item.sophisticatedbackpacks.rs_pickup_upgrade.tooltip": "§7使背包捡起的物品直接进入次元存储网络\n需先手持并shift右击次元存储稳定器记录信息才可使用",
+  "item.sophisticatedbackpacks.rs_magnet_upgrade": "{flow}次元磁铁升级{/flow}",
+  "item.sophisticatedbackpacks.rs_magnet_upgrade.tooltip": "§7将一定范围内的物品直接吸入次元存储网络\n需先手持并shift右击次元存储稳定器记录信息才可使用",
+
+  "gui.sophisticatedcore.upgrades.rs_pickup": "次元拾取升级",
+  "gui.sophisticatedcore.upgrades.rs_pickup.tooltip": "§7次元拾取设置",
+  "gui.sophisticatedcore.upgrades.rs_magnet": "次元磁铁升级",
+  "gui.sophisticatedcore.upgrades.rs_magnet.tooltip": "§7次元磁铁设置"
+}

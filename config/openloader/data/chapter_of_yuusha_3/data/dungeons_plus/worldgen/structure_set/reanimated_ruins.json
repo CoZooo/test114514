@@ -1,0 +1,25 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 1.0,
+    "offset": 8,
+    "salt": 1559498436,
+    "spacing": 18,
+    "structure": "dungeons_plus:reanimated_ruins"
+  },
+  "structures": [
+    {
+      "structure": "dungeons_plus:reanimated_ruins_mossy",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_plus:reanimated_ruins_mesa",
+      "weight": 1
+    },
+    {
+      "structure": "dungeons_plus:reanimated_ruins_frozen",
+      "weight": 1
+    }
+  ]
+}

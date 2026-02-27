@@ -1,0 +1,32 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:plates/dawnstone"
+    },
+    {
+      "tag": "forge:plates/silver"
+    },
+    {
+      "tag": "forge:plates/dawnstone"
+    },
+    {
+      "tag": "forge:plates/silver"
+    }
+  ],
+  "output": {
+    "item": "embers:focal_lens",
+	"count": 4
+  },
+  "tablet": {
+    "item": "embers:ember_crystal"
+  }
+}

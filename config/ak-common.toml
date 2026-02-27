@@ -1,0 +1,10 @@
+#血统等级B进阶需击杀的小怪数量;The number of small monsters that need to be killed to advance to bloodline level B.
+#Range: > 1
+up_b_kill_number = 1000
+#血统等级A进阶需击杀的Boss;Bosses that need to be killed for advanced bloodline level A.
+up_s_bossr = ["call_of_yucutan:kukulkan"]
+#龙骨十字的可掉落对象;Dropable objects of Dragon Cross.
+drop_dragon_cross_boss = ["depthcrawler:ancientdeep"]
+#世界树枝丫的可掉落对象;Dropable Objects on World Branches.
+drop_world_tree_boss = "darkdoppelganger:dark_doppelganger"
+

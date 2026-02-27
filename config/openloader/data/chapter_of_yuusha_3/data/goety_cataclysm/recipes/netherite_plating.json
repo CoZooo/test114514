@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "nbn",
+    "bob",
+    "nbn"
+  ],
+  "key":
+  {
+    "n":
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    "o":
+    {
+      "item": "forbidden_arcanus:processed_obsidian_block"
+    },
+    "b":
+    {
+      "item": "celestial_core:fire_essence"
+    }
+  },
+  "result":
+  {
+    "item": "goety_cataclysm:netherite_plating",
+    "count": 4
+  }
+}

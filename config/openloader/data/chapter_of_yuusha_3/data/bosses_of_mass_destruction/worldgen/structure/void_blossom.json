@@ -1,0 +1,12 @@
+{
+  "type": "bosses_of_mass_destruction:void_blossom",
+
+  "step": "surface_structures",
+  "biomes": "infinite_abyss:first_layer_cavern",
+  "spawn_overrides": {
+    "monster" : {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}

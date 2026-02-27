@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "yuusha:orichalcum",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "yuusha:unstable_glowstone_part"
+    },
+    {
+      "item": "stalwart_dungeons:void_crystal"
+    },
+    {
+      "item": "goety:unholy_blood"
+    }
+  ]
+}

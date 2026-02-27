@@ -1,0 +1,17 @@
+
+#General Settings
+[general]
+	#Determines whether the SlashArt 'DivineCrossSA' can change the time
+	#if true,day and night will change when you use it.
+	time_can_change = true
+	#Determine whether SpecialEffects will be active when blades in offhand
+	#if true, the SpecialEffects will be active in Offhand.
+	offhand_can_active = true
+	#Determines whether the debuff from SE can be active or not
+	#if true, players will get the buffs from SE.
+	do_debuff_work = true
+	#Determines the difficulty of crafting blades
+	#ranging zero to ten.
+	#Range: 0 ~ 10
+	difficulty = 5
+

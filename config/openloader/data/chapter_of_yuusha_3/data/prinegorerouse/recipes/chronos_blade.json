@@ -1,0 +1,34 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:chronos_blade",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "slashblade_addon:tboen",
+        "refine": 2
+      }
+    },
+    "H": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "G": {
+      "item": "malum:complete_design"
+    },
+    "F": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    }
+  },
+  "pattern": [
+    "HG ",
+    "FDF",
+    " GH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

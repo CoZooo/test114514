@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "wizards_reborn:arcane_wood_logs"
+    }
+  ],
+  "result": [
+    {
+      "item": "wizards_reborn:arcane_wood_branch",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "nethersdelight:tools/machetes"
+  }
+}

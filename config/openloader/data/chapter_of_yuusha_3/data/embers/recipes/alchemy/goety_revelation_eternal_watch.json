@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "locusazzurro_icaruswings:demeter_charge"
+    },
+    {
+      "item": "yuusha:curse_astral_dust"
+    },
+    {
+      "item": "avaritia:neutron_gear"
+    },
+    {
+      "item": "locusazzurro_icaruswings:demeter_charge"
+    },
+    {
+      "item": "yuusha:curse_astral_dust"
+    },
+    {
+      "item": "avaritia:neutron_gear"
+    }
+  ],
+  "output": {
+    "item": "goety_revelation:eternal_watch",
+	"count": 1
+  },
+  "tablet": {
+    "item": "youkaishomecoming:moon_lantern"
+  }
+}

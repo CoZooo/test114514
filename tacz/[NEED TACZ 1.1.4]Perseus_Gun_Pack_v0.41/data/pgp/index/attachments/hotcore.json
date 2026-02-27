@@ -1,0 +1,6 @@
+{
+  "name": "pgp.attachment.hotcore.name",
+  "display": "pgp:hotcore_display",
+  "data": "pgp:hotcore_data",
+  "type": "extended_mag"
+}

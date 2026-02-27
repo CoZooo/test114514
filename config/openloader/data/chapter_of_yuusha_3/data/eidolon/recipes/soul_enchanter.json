@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " b ",
+    "gog",
+    "ooo"
+  ],
+  "reagents": "didi",
+  "key": {
+    "b": {
+      "item": "minecraft:book"
+    },
+    "g": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "d": {
+      "item": "celestial_enchantments:legendary_celestial_catalyst"
+    },
+    "i": {
+      "item": "eidolon:gold_inlay"
+    }
+  },
+  "result": {
+    "item": "eidolon:soul_enchanter"
+  }
+}

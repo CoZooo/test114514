@@ -1,0 +1,12 @@
+{
+	"weight": 0,
+	"damage": {
+		"multiplier":1.75
+	},
+	"head_shot":{
+		"addend": 3.2
+	},
+	"aim_inaccuracy": {
+    "multiplier": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "celestial_core:treasure_fragment",
+    "count": 1
+  },
+  "output": {
+    "item": "moonstone:greedamout",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_scylla",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 8
+    }
+  ]
+}

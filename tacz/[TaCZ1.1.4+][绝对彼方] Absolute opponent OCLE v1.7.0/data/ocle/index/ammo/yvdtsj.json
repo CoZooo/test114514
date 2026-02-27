@@ -1,0 +1,11 @@
+{
+  // 弹药的显示名称，可以在语言文件中定义
+  "name": "ocle.ammo.yvdtsj.name",
+  // 指定我们在上文中创建的效果文件
+  "display": "ocle:yvdtsj_display",
+  // 弹药文本提示
+  "tooltip": "ocle.ammo.yvdtsj.desc",
+  // 弹药的最大堆叠数量
+  "stack_size": 64
+}
+    

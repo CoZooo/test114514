@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/jade"
+    },
+    {
+      "tag": "forge:storage_blocks/copper"
+    },
+    {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    {
+      "tag": "forge:storage_blocks/copper"
+    },
+    {
+      "item": "irons_spellbooks:energized_core"
+    },
+    {
+      "tag": "forge:storage_blocks/copper"
+    },
+    {
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "tag": "forge:storage_blocks/copper"
+    }
+  ],
+  "result": {
+    "item": "goety:discharge_focus"
+  }
+}

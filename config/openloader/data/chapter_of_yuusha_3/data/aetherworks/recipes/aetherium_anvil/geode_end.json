@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_end"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "distant_worlds:raw_firon"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:end_stone"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "moonstone:magicstone"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

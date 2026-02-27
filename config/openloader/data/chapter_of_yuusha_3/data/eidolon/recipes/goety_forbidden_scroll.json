@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "reagents": "bbbb",
+  "key": {
+    "a": {
+      "item": "goety:forbidden_fragment"
+    },
+    "b": {
+      "item": "sons_of_sins:bottle_of_blood"
+    }
+  },
+  "result": {
+    "item": "goety:forbidden_scroll"
+  }
+}

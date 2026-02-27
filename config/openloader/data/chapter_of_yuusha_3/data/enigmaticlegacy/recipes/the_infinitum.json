@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "enigmaticlegacy:is_enabled",
+      "item": "enigmaticlegacy:the_infinitum"
+    }
+  ],
+  "pattern": [
+    "HPH",
+    "DXE",
+    "NAN"
+  ],
+  "key": {
+    "X": {
+      "item": "enigmaticlegacy:the_twist"
+    },
+	"H": {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+	"N": {
+      "item": "enigmaticlegacy:evil_ingot"
+    },
+	"A": {
+      "item": "moonstone:obsidiancrystalingot"
+    },
+	"P": {
+      "item": "nmcmobs:yeti_horn"
+    },
+	"E": {
+      "item": "enigmaticlegacy:abyssal_heart"
+    },
+	"D": {
+      "item": "infinite_abyss:dead_crystal_heart"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:the_infinitum"
+  }
+}

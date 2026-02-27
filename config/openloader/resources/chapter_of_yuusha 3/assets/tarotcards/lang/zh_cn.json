@@ -1,0 +1,5 @@
+{
+	"item.tarotcards.the_hierophant.desc": "经验值获取时有几率增加 +%d%%。",
+	"item.tarotcards.temperance.desc": "减少 %d%% 饥饿消耗。",
+	"item.tarotcards.the_star.desc": "基础触及距离提高 +%d%%。"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "_AD",
+    "ASA",
+    "DA_",
+    "C___"
+  ],
+  "key": {
+    "S": {
+      "item": "embers:silver_plate"
+    },
+    "D": {
+      "item": "embers:dawnstone_plate"
+    },
+    "A": {
+      "item": "aetherworks:aether_shard"
+    },
+    "C": {
+      "item": "aether_redux:sentry_chip"
+    }
+  },
+  "output": {
+    "item": "aetherworks:tuning_cylinder",
+    "count": 1
+  },
+  "wissen": 500
+}

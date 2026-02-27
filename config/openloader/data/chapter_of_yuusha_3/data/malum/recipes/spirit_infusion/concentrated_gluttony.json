@@ -1,0 +1,35 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 1,
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "count": 1,
+      "item": "eidolon:death_essence"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "item": "farmersrespite:strong_gamblers_tea"
+  },
+  "output": {
+    "count": 2,
+    "item": "malum:concentrated_gluttony"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 2
+    },
+    {
+      "type": "sacred",
+      "count": 2
+    },
+    {
+      "type": "wicked",
+      "count": 2
+    }
+  ]
+}

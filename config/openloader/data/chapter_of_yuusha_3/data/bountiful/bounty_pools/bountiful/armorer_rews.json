@@ -1,0 +1,219 @@
+
+{
+	"content": {
+
+        "armorer_rew_ench_book_fortune": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8500,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}"
+        },
+
+        "armorer_rew_ench_book_smelter": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"majruszsenchantments:smelter\"}]}"
+        },
+
+        "armorer_rew_greek_fire_bucket": {
+            "type": "item",
+            "content": "locusazzurro_icaruswings:greek_fire_bucket",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+
+
+        "armorer_rew_chainmail_helmet": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:chainmail_helmet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000,
+            "nbt": "{Damage:0}"
+        },
+        "armorer_rew_chainmail_chest": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:chainmail_chestplate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6400,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_chainmail_legs": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:chainmail_leggings",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5600,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_chainmail_boots": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:chainmail_boots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3200,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_bell": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:bell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 4000
+        },
+
+
+        "armorer_rew_neutron_horse_armor": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "avaritia:neutron_horse_armor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 20000,
+            "nbt": "{Enchantments: [{lvl: 10s, id: \"minecraft:frost_walker\"}, {lvl: 10s, id: \"minecraft:protection\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}]}"
+        },
+
+        "armorer_rew_nether_helm": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:terrible_helmet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_nether_chest": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:terrible_chestplate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 48000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_nether_legs": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:terrible_leggings",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 42000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_nether_boots": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:terrible_boots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 24000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_abyssal_tiara": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:abyssal_tiara",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_abyssal_heaume": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:abyssal_heaume",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_abyssal_brigantine": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:abyssal_brigantine",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 48000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_abyssal_leggings": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:abyssal_leggings",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 42000,
+            "nbt": "{Damage:0}"
+        },
+
+        "armorer_rew_abyssal_boots": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "aquamirae:abyssal_boots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 24000,
+            "nbt": "{Damage:0}"
+        }
+
+	}
+
+}

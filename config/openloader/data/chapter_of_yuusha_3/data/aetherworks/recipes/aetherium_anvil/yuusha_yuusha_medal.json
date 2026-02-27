@@ -1,0 +1,48 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 4,
+  "emberPerHit": 10,
+  "input": {
+    "item": "yuusha:ancient_aether_shard"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:common_material"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:uncommon_material"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:rare_material"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:mythic_material"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "apotheosis:ancient_material"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "yuusha:yuusha_medal"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

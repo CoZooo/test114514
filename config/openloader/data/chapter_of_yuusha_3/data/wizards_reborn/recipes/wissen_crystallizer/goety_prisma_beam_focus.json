@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "goety:prisma_beam_focus",
+    "count": 1
+  },
+  "wissen": 800,
+  "ingredients": [
+    {
+      "item": "goety:empty_focus"
+    },
+    {
+      "item": "endrem:guardian_eye"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "reliquary:guardian_spike"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ]
+}

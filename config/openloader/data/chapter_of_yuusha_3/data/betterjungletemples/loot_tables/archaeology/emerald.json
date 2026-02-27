@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:adventurer_kit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:ancient_scarab"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:angler_trophy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:certificate_of_taming"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:discount_voucher"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:dream_catcher"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:idol_of_fertility"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:lucky_rock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:metal_lure"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:miner_guide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:secret_ingredient"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:swimmer_guide"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tamed_potato_beetle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:tool_scraps"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:unbreakable_fishing_line"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

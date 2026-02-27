@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_nether"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "distant_worlds:raw_curelite"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:basalt"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:blackstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "forbidden_arcanus:soulless_sand"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:gilded_blackstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "minecraft:glowstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "minecraft:ancient_debris"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "irons_spellbooks:arcane_debris"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

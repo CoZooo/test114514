@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "moonstone:ragegene"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 500,
+  "duration": 20,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "result": {
+    "item": "moonstone:bloodgene"
+  }
+}

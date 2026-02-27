@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/glowstone"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_eos_eh_72_hud_sight"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

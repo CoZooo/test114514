@@ -1,0 +1,43 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "moonstone:bloodvirus"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "soulCost": 80000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "sons_of_sins:wistivers_jaws"
+    },
+    {
+      "item": "sons_of_sins:puppet_of_strife"
+    },
+    {
+      "item": "sons_of_sins:hand_of_riot"
+    },
+    {
+      "item": "sons_of_sins:ether_engine"
+    },
+    {
+      "item": "sons_of_sins:cursed_head"
+    },
+    {
+      "item": "sons_of_sins:touch_of_greed"
+    },
+    {
+      "item": "sons_of_sins:butcher_cleaver"
+    },
+    {
+      "item": "crockpot:candy"
+    },
+    {
+      "item": "farmersrespite:strong_coffee"
+    }
+  ],
+  "result": {
+    "item": "moonstone:plague"
+  }
+}

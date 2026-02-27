@@ -1,0 +1,30 @@
+{
+    "variant": "spell_resist",
+    "weight": 50,
+    "quality": 0,
+	"unique": true,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "armor",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots"]
+            },
+            "attribute": "irons_spellbooks:spell_resist",
+            "operation": "MULTIPLY_BASE",
+            "values":
+            {
+                "epic": 0.05,
+                "mythic": 0.10,
+                "ancient": 0.15
+            }
+        }
+    ]
+}

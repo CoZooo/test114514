@@ -1,0 +1,64 @@
+{
+  "type": "youkaishomecoming:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "buzzier_bees:honey_apple"
+    },
+    {
+      "item": "buzzier_bees:honey_apple"
+    },
+    {
+      "item": "buzzier_bees:honey_apple"
+    },
+    {
+      "item": "buzzier_bees:honey_apple"
+    },
+    {
+      "item": "goety:magic_emerald"
+    },
+    {
+      "item": "goety:magic_emerald"
+    },
+    {
+      "item": "forbidden_arcanus:xpetrified_orb"
+    },
+    {
+      "item": "forbidden_arcanus:xpetrified_orb"
+    }
+  ],
+  "inputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "outputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "results": [
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "bhc:relic_apple"
+    }
+  ],
+  "time": 1200
+}

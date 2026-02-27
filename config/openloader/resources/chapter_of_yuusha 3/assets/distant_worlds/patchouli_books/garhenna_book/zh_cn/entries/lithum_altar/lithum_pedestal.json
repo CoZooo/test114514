@@ -1,0 +1,21 @@
+{
+	"name": "琍斯石基座",
+	"icon": "distant_worlds:lithum_pedestal",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 7,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_pedestal_recipe",
+			"text": "琍斯石基座是在仪式开始时用来存放物品的额外地方。一个包含某种物品的基座会向空中发射少量的达琍特火花。过早结束仪式不会将物品归还到基座上。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:dark_metal_nugget"
+    },
+    "b": {
+      "item": "irons_spellbooks:blood_vial"
+    },
+    "c": {
+      "item": "minecraft:bone"
+    },
+    "d": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "e": {
+      "item": "mowziesmobs:bluff_rod"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:bonescaller_staff",
+    "count": 1
+  }
+}

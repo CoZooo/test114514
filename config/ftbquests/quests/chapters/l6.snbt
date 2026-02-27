@@ -1,0 +1,4391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6"
+	group: "4D78AB976801888E"
+	icon: "youkaishomecoming:seven_colored_yokan"
+	id: "14DB1A3FEF4FE352"
+	images: [
+		{
+			alpha: 180
+			height: 20.0d
+			image: "yuusha:textures/eat.png"
+			order: -1
+			rotation: 0.0d
+			width: 33.4d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			alpha: 128
+			color: 15962537
+			height: 19.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			alpha: 128
+			color: 8737441
+			height: 19.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 10.5d
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			alpha: 128
+			color: 15919834
+			height: 21.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 34.9d
+			x: -5.0d
+			y: -5.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["JEI搜索“@crockpot”，有多种来自饥荒游戏的食物。"]
+			id: "09BC5760A83DE884"
+			rewards: [{
+				id: "1D6D97716DE8444E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B2CB0860F287F1C"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"用熔岩钓鱼竿可在下界岩浆里钓鱼。比如烈焰棒、凋灵骷髅头颅、恶魂之泪等宝藏。以及下界疣、下界海带等垃圾。"
+				""
+				"&6此整合包重新平衡了在下界维度熔岩钓鱼的产物。"
+				""
+				"&c下界的鱼比主世界的更为难杀。"
+				""
+				"&e新增击杀下界不同生物会掉落各种岩浆鱼，详细看各种岩浆鱼的说明。"
+				""
+				"&3要注意海之眷顾附魔会提高宝藏几率，降低鱼类几率。"
+				""
+				"&2新增有小几率钓出丘比娃娃。"
+			]
+			id: "0D4388A595A5C852"
+			rewards: [{
+				id: "7A3CA99B787F0B19"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43F41090CB66694E"
+				item: {
+					Count: 1
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			description: ["可制作。"]
+			id: "7A5537743D1F23F8"
+			rewards: [{
+				id: "3549BFE9431BDC28"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BA9C79E3E65C2F6"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -12.0d
+		}
+		{
+			id: "62710E0022D4D8EF"
+			rewards: [{
+				id: "6B9AFD1DDE83AA8A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "68AA27B45CD4C9D6"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "1F82E5F4A0C7088A"
+			rewards: [{
+				id: "7D95D50AECD2174E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "304C9730C4A10D21"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "6F16DECE720A4615"
+			rewards: [{
+				id: "0654111822B87199"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "3899B24EE207D3C5"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			id: "007713D59AC35B90"
+			rewards: [{
+				id: "67D76AA963A48A7F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "391422B7214242EC"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "3770532D6BD65F7C"
+			rewards: [{
+				id: "359C5D66D3B2D57B"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "546211700AF336FF"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "2A95ED5D3B24878A"
+			rewards: [{
+				id: "6B1470F2BD8FFFB3"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "784EA43B48492EB1"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			id: "74D7A2CF62D6592C"
+			rewards: [{
+				id: "02D28B33696EE2A3"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0CD1FC89ACDAC42A"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			id: "6EB0A530BC5B0CEC"
+			rewards: [{
+				id: "25CD2206E8ED567A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "136214A7F3DE73E7"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "2C4EF5AEDD8FF499"
+			rewards: [{
+				id: "61350C8BF4267C4B"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0A3B5376D39BD507"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "37567B15EFE4A09C"
+			rewards: [{
+				id: "07CC2C7296B8C467"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "450924C651B5FF1D"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "1A7114DE896D8895"
+			rewards: [{
+				id: "55660DA230328BE7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1090EE0AF9C4D285"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "6853ABC00076AB18"
+			rewards: [{
+				id: "08FEF65F7A61CAF8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2FE3B8865182D0C2"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "3923DAD1BA8AC183"
+			rewards: [{
+				id: "0A29FE177C1206F9"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "07F7F2312B9F2C09"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "7A66E02BD0F4C77B"
+			rewards: [{
+				id: "329CC5E127DDE2A0"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0DB843910E316311"
+				item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "2115859E2D7F6194"
+			rewards: [{
+				id: "73114D80DB269B2E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "75462BA25C919E1F"
+				item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "49718FA5B2ED206E"
+			rewards: [{
+				id: "5288AAA4EF7D71B8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "557830BBB58A5965"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "173C1F2DD291F987"
+			rewards: [{
+				id: "73155EBFAA757181"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0DBC5B9C2271A6A9"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "3DD0E56500FA421D"
+			rewards: [{
+				id: "75BB0C98A30BB4F8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2FAFFB9A181B2BE4"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "194A6E2CF9A9DC85"
+			rewards: [{
+				id: "41AB85CC003D1C04"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2E4BE6FA67DE371B"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "45D12F44B1666116"
+			rewards: [{
+				id: "0CF88C28C8C3B911"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "41E211DFA8A5416D"
+				item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "46215323AE16D5DB"
+			rewards: [{
+				id: "0BC852DCDBB59003"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0258D8340D1C35F2"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "70DD1E22CEA9CA65"
+			rewards: [{
+				id: "6B1CBB7B09C59255"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "69256D40ED496C51"
+				item: "buzzier_bees:glazed_porkchop"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "0E21EEF29507D18C"
+			rewards: [{
+				id: "3460EDC1E8B20F95"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "5479584441ECD80B"
+				item: "buzzier_bees:honey_bread"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"可制作获得。钓具箱可改变鱼竿的部件。"
+				""
+				"&e部分实体鱼类的生成有所限制：八目鳗现在只会生成在河流和冷水区域，章鱼人只会在暖水或沙滩区域生成。"
+				""
+				"&6钓鱼不受上述实体鱼类生成影响。"
+			]
+			hide_dependency_lines: true
+			id: "62B1BF6E7DC16E4C"
+			rewards: [{
+				id: "1C03827763851F1D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "38D75D4B2F9890FE"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4356A5FEDAF2CB"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			description: ["JEI搜索“@crockpot”，有多种来自饥荒游戏的食物。"]
+			hide_dependency_lines: true
+			id: "211031174FDCC77F"
+			rewards: [{
+				id: "30392F70ADF1A31C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18E78C3B2DA4A0A7"
+				item: "crockpot:portable_crock_pot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"获得生鳕鱼。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "651CA06A953F5DE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E68FE2469B9962"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1158EB204403434A"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -9.0d
+		}
+		{
+			id: "45AE28ADA31EFC79"
+			rewards: [{
+				id: "7688887F1F64F404"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59C93EB945F74400"
+				item: "crockpot:salmon_sushi"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			id: "6177532B2A511664"
+			rewards: [{
+				id: "585B4D24C6B47D07"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A8D60CC1BA0833D"
+				item: "crockpot:watermelon_icle"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			id: "4DD4BCD58475607C"
+			rewards: [{
+				id: "6BA2A995E7055DA1"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DB8370080E69F59"
+				item: "crockpot:veg_stinger"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			id: "06D36CA4D6D2F7AF"
+			rewards: [{
+				id: "521DAE70F5E15C37"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "439ABEFCB2027E7E"
+				item: "crockpot:turkey_dinner"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			id: "0F9C9D3E7C6EB324"
+			rewards: [{
+				id: "783002ACD9E361DE"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C20051A05856E0D"
+				item: "crockpot:tropical_bouillabaisse"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			id: "61532A2D018AEAE9"
+			rewards: [{
+				id: "3A2B71D3A2093294"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D91D5ACFB0D4AE"
+				item: "crockpot:tea"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			id: "4AB1B09EB66E1113"
+			rewards: [{
+				id: "0AF689D94B271B59"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68ABC111131254EC"
+				item: "crockpot:taffy"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			id: "24E95E55A4DDC930"
+			rewards: [{
+				id: "45C82318624F738C"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54FA2D39F3EC4B3B"
+				item: "crockpot:surf_n_turf"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			id: "36F98AC896CF957E"
+			rewards: [{
+				id: "0B1C2F8A7701455D"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33CBC4C140FA9D02"
+				item: "crockpot:stuffed_eggplant"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			id: "76010FDF39679A5C"
+			rewards: [{
+				id: "0BF28E5741892B69"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "394C00BE02A93711"
+				item: "crockpot:ice_cream"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.0d
+		}
+		{
+			id: "5EF0017AC0487984"
+			rewards: [{
+				id: "6FE3AD956ED68FE0"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27EFE35256E7B595"
+				item: "crockpot:hot_cocoa"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			id: "4D57135C86927C18"
+			rewards: [{
+				id: "735A10CE99B6D969"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B6B7C6ECD93918"
+				item: "crockpot:hot_chili"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			id: "1FCCF7393FC77DBB"
+			rewards: [{
+				id: "0A907CC6E8861514"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4958EA4504D52C90"
+				item: "crockpot:honey_nuggets"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			id: "6EB92046381FB2BD"
+			rewards: [{
+				id: "10F584BA5A895EFA"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "171D0388C1F82A13"
+				item: "crockpot:honey_ham"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			id: "6147AFC92E8AE4AC"
+			rewards: [{
+				id: "109ABFB11E62B044"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF4C81060E55648"
+				item: "crockpot:gazpacho"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			id: "3D3C5A0D96FFAC4F"
+			rewards: [{
+				id: "4D4DFFE5FA6CEEE8"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CB0DC4017E9964A"
+				item: "crockpot:fruit_medley"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			id: "4DC034B5F20B3D52"
+			rewards: [{
+				id: "255E00FD49353C97"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B69A100F4D2BA3F"
+				item: "crockpot:froggle_bunwich"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			id: "74EC45774FCD5762"
+			rewards: [{
+				id: "408D69857C48F2D2"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AF12CEEB68AFA1A"
+				item: "crockpot:flower_salad"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"用该物品与猪灵交易可获得多种物品，详细查看JEI，在JEI中对着下界佳肴按右键。"
+				""
+				"&e需手持[下界佳肴]右击[猪灵]才可交易，不能在其愤怒状态下进行交易。"
+				""
+				"&6[黑石粉]需爆破放置在地上的方块形式的[黑石]。需注意不能在FTB的圈地保护里。"
+				""
+				"&2不要让猪灵在主世界僵尸化，否则生成的僵尸猪灵的血量会很高。"
+				""
+				"&c要想让猪灵变为中立，只能佩戴[无尽贪婪契约]。"
+				""
+				"&3利用PMMO分解凋灵图腾也可获得下界佳肴。"
+			]
+			id: "347F362EEE7B0261"
+			rewards: [{
+				id: "5257FE637FBA423C"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DBDB95B77CF3965"
+				item: "crockpot:netherosia"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			id: "61E87F955CCCEED8"
+			rewards: [{
+				id: "269306FD8F73E6EE"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3BBC2E6B2FB1EE"
+				item: "crockpot:mushy_cake"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			id: "1C0971AA082AECF8"
+			rewards: [{
+				id: "5F458B03DDE1A8FB"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0055BC7C1FFEE2CD"
+				item: "crockpot:moqueca"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			id: "13CF4D0DB00787BF"
+			rewards: [{
+				id: "03706F9D419C07A8"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "548BEF04674F888A"
+				item: "crockpot:monster_tartare"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			id: "0D687DE56DB4A14C"
+			rewards: [{
+				id: "35200B59EE899DDC"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2480A300504AC010"
+				item: "crockpot:monster_lasagna"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			id: "5567B60B413A0E59"
+			rewards: [{
+				id: "2741D44D4E7F9F8E"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3501D1523BB6FC57"
+				item: "crockpot:meat_balls"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			id: "78A4B7424D0DC360"
+			rewards: [{
+				id: "3295D928452D50B4"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F430C0F7B94C131"
+				item: "crockpot:kabobs"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			id: "5EC30D4622828762"
+			rewards: [{
+				id: "298D903D05347EC1"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FE595562A9188F0"
+				item: "crockpot:jammy_preserves"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			id: "56F2408DE92E1E83"
+			rewards: [{
+				id: "5725D3E103D56F67"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "556DFD6EC90C25D3"
+				item: "crockpot:iced_tea"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			id: "608AE7CA2FD2C8B7"
+			rewards: [{
+				id: "53C28DCDB7ED83DB"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67CB83293DE3A098"
+				item: "crockpot:seafood_gumbo"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			id: "6D27AF2677833C7F"
+			rewards: [{
+				id: "13385BC88F48911D"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD34D47BB07F7AB"
+				item: "crockpot:salsa"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			id: "678DB2F1AD3CDF84"
+			rewards: [{
+				id: "720A25EA17CED665"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "087658437EBA55C0"
+				item: "crockpot:ratatouille"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			id: "58C0ACDCE139EED2"
+			rewards: [{
+				id: "0DE95F9205C90F60"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "492CD759AA1E365E"
+				item: "crockpot:pumpkin_cookie"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "110AAD2740FE500E"
+			rewards: [{
+				id: "458C10D96D7EA35D"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A917A07DE7739C9"
+				item: "crockpot:pow_cake"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			id: "40F9E5908C9022C9"
+			rewards: [{
+				id: "2674664430EFD28E"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "334145EB6B5ACC2C"
+				item: "crockpot:potato_tornado"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			id: "7D4249A75F54CEC6"
+			rewards: [{
+				id: "323CD3DF22C1BABC"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71E96D9459BD8DFA"
+				item: "crockpot:potato_souffle"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			id: "02AC203C44065A22"
+			rewards: [{
+				id: "00E5698BAB5FBA4B"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6639604EE1419752"
+				item: "crockpot:perogies"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			id: "262062F089C0C801"
+			rewards: [{
+				id: "109CBDC240C01AA0"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "003DD230FD7B6612"
+				item: "crockpot:pepper_popper"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "584906A860A60751"
+			rewards: [{
+				id: "5420090E720AC647"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E0F96B57E8B6B8"
+				item: "crockpot:fish_tacos"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			id: "5025DC0EFEA32B4F"
+			rewards: [{
+				id: "4CB1F9DEA87D5FBC"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AC711E0B72DC798"
+				item: "crockpot:fish_sticks"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			id: "4958F3C4853357BA"
+			rewards: [{
+				id: "282F0E2155250772"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B628BBE31972646"
+				item: "crockpot:ceviche"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			id: "7B3BC35FA4031856"
+			rewards: [{
+				id: "1DDB4D9778E4E589"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E56595990A3279A"
+				item: "crockpot:candy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			id: "753713B79ED16322"
+			rewards: [{
+				id: "69F0AE2CFF46611F"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6883A79AD8A938F9"
+				item: "crockpot:california_roll"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			id: "46D67F4AB9A05675"
+			rewards: [{
+				id: "4A05F3F11790CC66"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51157F437444E639"
+				item: "crockpot:bunny_stew"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			id: "72E8DD6D62230AE7"
+			rewards: [{
+				id: "58D9D9EE6124D437"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CCD1B42F73C4315"
+				item: "crockpot:bone_stew"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			id: "0444807AED7A8074"
+			rewards: [{
+				id: "1D466ADB4BD96424"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21082D4834A699A6"
+				item: "crockpot:bacon_eggs"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			id: "20B474D268B1D3F4"
+			rewards: [{
+				id: "1C0D8A81321A6826"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4302EE2A0D2F74E6"
+				item: "crockpot:bone_soup"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			id: "6D8BE569362D594F"
+			rewards: [{
+				id: "4C7C90EC0D742DC8"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "027E8C35EA585264"
+				item: "crockpot:asparagus_soup"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			id: "6DAC2BBF8F181612"
+			rewards: [{
+				id: "5CEFAE78D994B1BE"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D591D8C6B7EEB5E"
+				item: {
+					Count: 1
+					id: "crockpot:milkmade_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			id: "2484F85460667123"
+			rewards: [{
+				id: "377F64A3DEF5BE9A"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78D0847F5D9411CA"
+				item: "crockpot:syrup"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"用4瓶[蜂蜜]右键放入[陶制蜜酒罐]开始酿造，取出时用[玻璃罐]取出。[蜜酒酿造]的时间是现实时间1个小时。"
+				""
+				"[酒罐]处于酿造中状态时内部会有[蜂蜜色液体]并生成[橙色药水粒子]，[酒罐]需要放置在[受到阳光直射]的位置才可以推进[酿造进度]。"
+				""
+				"酿造成功后内部液体会变为[金黄色]并不再生成粒子效果。"
+				""
+				"&6现在各种[蜜酒]有较高额的食物多样性，且不同种可以累加。"
+			]
+			id: "66B6CFE9A2BA835C"
+			rewards: [{
+				id: "63C0837839AD8AE0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "51ADECFB8BC44338"
+					item: "locusazzurro_icaruswings:mead_pot"
+					type: "item"
+				}
+				{
+					id: "369E8BD19630FF6B"
+					item: "locusazzurro_icaruswings:glass_jar"
+					type: "item"
+				}
+				{
+					id: "72A1BBF2D10B70E2"
+					item: "locusazzurro_icaruswings:mead"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			description: ["&e新增击杀溺尸几率获得金鱼、龟、蛙腿等。"]
+			id: "4770B41516353648"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EB2E09685A7AFBA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7A8BC306D231AE69"
+					item: "aquaculture:starshell_turtle"
+					type: "item"
+				}
+				{
+					id: "27A53064CE99D487"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "aquaculture:box_turtle"
+					}
+					type: "item"
+				}
+				{
+					id: "6C341F688B68B9B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "aquaculture:arrau_turtle"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"沃土无法被直接制作，只能通过有机肥料自然降解获得。将有机肥料放置于世界中，一段时间后有机肥料将会自然降解为沃土。沃土不会退化回泥土或有机肥料。"
+				""
+				"有机肥料的降解在日光下和在水附近会被加速。此外，还可以放置催化物来加速分解。默认有以下几种催化物，它们位于有机肥料周围 3*3*2 的范围内时可以加快有机肥料的分解。"
+				""
+				"两种蘑菇、两种菌落、灰化土、菌丝、沃土及沃土耕地、其他有机肥料。"
+				""
+				"为可种植的作物提供土壤，并将其上种植的作物生长过程随机加速。可在其上方种植甘蔗以及仙人掌，种植甘蔗时周围不需要有水源。使用锄右击沃土可将之变为沃土耕地。沃土耕地不会因缺水、生物踩踏或者上方是西瓜或南瓜而退化回沃土。为蘑菇生长为菌落提供基础。沃土上的蘑菇可以生长为菌落。"
+			]
+			id: "08D5A63791C61BB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B0432A9CD5D877E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27F2D812AC21CBA5"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"肥沃灵魂土只能通过分解灵魂堆肥获得。将灵魂堆肥放置于世界中，一段时间后将会自行分解为肥沃灵魂土。"
+				""
+				"灵魂堆肥的分解在火焰和熔岩附近会被加速。此外，还可以放置催化物来加速分解。默认有以下几种催化物，它们位于灵魂堆肥周围3*3*2的范围内时可以加快分解。"
+				""
+				"两种菌类、两种菌群、下界疣、拟康乃馨、灰化土、灵魂沙、灵魂土、骨块、菌丝、肥沃灵魂土、其他灵魂堆肥。"
+				""
+				"可以为下界疣种植提供土壤，并将其上种植的下界疣生长过程随机加速。可在其上方种植甘蔗，仙人掌与枪药草茎，种植甘蔗时周围不需要有水源。为菌类生长为菌群提供基础。肥沃灵魂土上的菌类一段时间后最终会生长为菌群。在黑暗环境下（方块光不大于1）时上方会随机生成拟康乃馨。"
+			]
+			id: "3C0AC5C0BD515FAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0612D3E8B14F3FBA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74AD45AAE4D2A03B"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"在处于黑暗环境中（方块光不大于1）的肥沃灵魂土上方生成。"
+				""
+				"&c用骨粉右击可获得更多的拟康乃馨。"
+				""
+				"&6手持部分食物（例如鱿鱼墨面、盘装蜜汁火腿、盘装填馅疣猪兽火腿、盘装填馅疣猪兽鼻、盘装烤填馅疣猪兽等具有“nethersdelight:meal_item”标签的食物），右击灵魂沃土上的拟康乃馨会消耗，并复制该食物。"
+			]
+			id: "54BA14E4A9C1076F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ECA39F91B794B56"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CB11750669FA297"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			description: ["在沃土上种植蘑菇，一段时间后它就会长成菌落。菌落共有四个生长阶段。你可以在菌落彻底成熟后（长有五个菌盖时）手持剪刀左击以收获整个菌落。"]
+			id: "16C45C0E9C18D168"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A3B55F89F7C0BB7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A9E873E4C38A303"
+				item: "farmersdelight:brown_mushroom_colony"
+				type: "item"
+			}]
+			title: "蘑菇菌落"
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "791607E53A1E2475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F48B912A54A7F77"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1AC14311CD22C529"
+				item: "minecraft:beef"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "0C28B133CB323CE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BEE9DD44C43BFEF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3968819990DAFD70"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "1C01FE7B4CA634E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "736DE08367A3558D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4918B409073BCB83"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "13390B8BF17414D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23B3AE84CC8DAD56"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E23D9D7DCD4A19B"
+				item: "minecraft:mutton"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&2食物宝藏袋里新增有熟的。"
+			]
+			id: "301BF364293554E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B85F13CFC356EEB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F6B6536FE81F90B"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"击杀该动物获得额外的狩猎经验。"
+				""
+				"&e新增击杀[兔子]额外几率掉落[幸运兔子脚]。"
+			]
+			id: "125C152E69DCA8EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5710D449F9676618"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08D3B5192E903530"
+				item: "minecraft:rabbit_foot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			description: ["较高的食物多样性。"]
+			id: "2E9DEE68DCBB2773"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E85FD4DD2C27C9F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "人生无常，大虫包小肠。"
+			tasks: [{
+				id: "1C53431BF7897E93"
+				item: "born_in_chaos_v1:fried_maggot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"拿[桶]右键[牛]可获得[牛奶桶]。"
+				""
+				"拿[玻璃瓶]右击[牛]获得[牛奶瓶]。"
+				""
+				"[奶瓶]可在工作台中合成，也可闪电合成。"
+			]
+			icon: "minecraft:milk_bucket"
+			id: "2E3901592A6869E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "734E1BA7D53D04FA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5996447E772A8F43"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "21E9E6D701352422"
+					item: "crockpot:milk_bottle"
+					type: "item"
+				}
+				{
+					id: "2E7DEE5DAD843E2E"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+			]
+			title: "奶"
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"野生茶树生成于沼泽生物群系，数量十分稀少。"
+				""
+				"&6破坏后掉落茶籽（可种植），使用剪刀可以完整采集。"
+				""
+				"&c新增虚空之花额外掉落茶树树苗。详见天顶巨兽章节。"
+			]
+			id: "4834FB11A470A461"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "189579E984BADED5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3832E28F8B1D76A0"
+				item: "farmersrespite:wild_tea_bush"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"绿茶叶：采摘成熟阶段为绿色的茶树得到，用于制作食物和冲泡茶饮。"
+				""
+				"黄茶叶：采摘成熟阶段为黄色或黄褐色的茶树得到，用于制作食物和冲泡茶饮。"
+				""
+				"红茶叶：采摘成熟阶段为黄褐色或褐色的茶树得到，用于制作食物和冲泡茶饮。"
+			]
+			hide_dependency_lines: true
+			id: "29CBA29B3A94BF1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C34D1D480761951"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0C2F846F1D3F030D"
+					item: "farmersrespite:green_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "40DADF5DB15634B7"
+					item: "farmersrespite:yellow_tea_leaves"
+					type: "item"
+				}
+				{
+					id: "608758FC4D7EED2C"
+					item: "farmersrespite:black_tea_leaves"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"完成“暴食会高兴的”成就挑战后获得，自带附魔光效。当任意物品栏或饰品栏存在该物品时，可无视饥饿值食用食物。"
+				""
+				"&6只需要吃完CrockPot模组的所有料理即可，该模组的全部料理都是用[烹饪锅]或[便携烹饪锅]制作。"
+				""
+				"&e该成就具体可按默认L键查看进度。"
+			]
+			id: "2264544B7737FCED"
+			rewards: [{
+				id: "17489F3574330A63"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "尝遍天下料理"
+			tasks: [{
+				id: "2118D712F1B7186E"
+				item: "crockpot:gnaws_coin"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -12.0d
+		}
+		{
+			id: "3FCBDACAB10BEEFB"
+			rewards: [{
+				id: "166A61CADB5586C7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0FBC7EA668D2D680"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "1259C9CCBBF6CAE4"
+			rewards: [{
+				id: "471B41AC21D8C96F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "15AD5156DDA39BDC"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "6A96190340F970B5"
+			rewards: [{
+				id: "226B92376B55D1CB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1A56EACD5144C7E1"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "61F7CEA6BAE5E53F"
+			rewards: [{
+				id: "24E168816C6C6590"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1AC1F6DF27E90C64"
+				item: "netherdepthsupgrade:baked_soulsucker_stew"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "7C4F7C9126691467"
+			rewards: [{
+				id: "3AFF8338AE2DA201"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "04EE15D8DBA33ABF"
+				item: "netherdepthsupgrade:baked_glowdine_stew"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "2652B67A3AF8E789"
+			rewards: [{
+				id: "774A9047D42172D5"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0C13F34E00A7C7A2"
+				item: "netherdepthsupgrade:baked_obsidianfish_stew"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "1DBA064E79550097"
+			rewards: [{
+				id: "0C96A259422A968F"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "37149FA49D407BBF"
+				item: "netherdepthsupgrade:baked_blazefish_stew"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "769761E79660035F"
+			rewards: [{
+				id: "23A579B127CCCA6E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2677D3B610AC7104"
+				item: "netherdepthsupgrade:baked_magmacubefish_stew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "364FACD19862BAD1"
+			rewards: [{
+				id: "076C674C026C4A27"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "418BCE1FCF0D0C7C"
+				item: "netherdepthsupgrade:baked_searing_cod_stew"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "5797F3789C025477"
+			rewards: [{
+				id: "535266C8930DEBD0"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "498B03161C13FADA"
+				item: "netherdepthsupgrade:baked_lava_pufferfish_stew"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "11945E0F5110010E"
+			rewards: [{
+				id: "2190E8134D81496A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "7C161247A33F7978"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "40D8D88C8D4A1020"
+			rewards: [{
+				id: "1AA8F879CA00BF6C"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "3437C1D77BAD02A0"
+				item: {
+					Count: 1
+					id: "farmersdelight:apple_cider"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "1974724454D101DA"
+			rewards: [{
+				id: "69F88452ED7892C4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "7E50641E6E213744"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "399258FAC1819A56"
+			rewards: [{
+				id: "5EF959E0DA057A2A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "79C6E106001D2C46"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "36C7B720B8CA99A9"
+			rewards: [{
+				id: "3295860D7C645CCB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0386582746AC63EB"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "44ACA23B40D7A7AB"
+			rewards: [{
+				id: "2809DC3F6CFCFBB3"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "39406AF538004B0B"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "43C6EE6EBFDDA281"
+			rewards: [{
+				id: "2F0EC64993561793"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "23AE8CB4F0A0467B"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "3DCD444B2B1B1003"
+			rewards: [{
+				id: "29C12C06E10134E7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "216D6C7CBA9184B6"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "51CFC756669A9764"
+			rewards: [{
+				id: "7C7FDFEE92E653D5"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "040C5EFA4118816E"
+				item: "hmag:bat_stew"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "482F26D9852A5406"
+			rewards: [{
+				id: "7A3858F8FCC21370"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "033A75A4C9876F50"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "06E4B77E92F2ABAF"
+			rewards: [{
+				id: "6CC2A34813DF7A8A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2470020F9B04A981"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "61B7AAF9120B85AA"
+			rewards: [{
+				id: "06A9020ACC84DC01"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "34620FC4845CD3FE"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "7176B552F3BEC2D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D5310C7891B1ED8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72E553F830FC9D9A"
+				item: "farmersdelight:cod_slice"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -10.0d
+		}
+		{
+			id: "7777D58BBE33F2E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C888D59BFE26574"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3819B587033DAED5"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.0d
+		}
+		{
+			id: "34B34EEA599D4FDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BBACCADBDADCB62"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "581F824A17D369E2"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			id: "7953E896A4049FF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788E8F03126E3437"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2146B0BB73EAE67E"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			id: "51450BA0D998C9B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "033376AB21D1CC48"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13ED0EFBCD0DB565"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			id: "45D94E12572178BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "279CF2D116FDED3B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C5C9F86E3AFE42E"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			id: "0B0FEAE9A1F54EB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4088547565007AC3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03D85ACE0A6CBA2F"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.0d
+		}
+		{
+			description: ["饥饿值满时无法食用。食用后会传送一段距离。范围很小，只有3格左右。"]
+			id: "2902216939F0F43F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67E3DED958461FF3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67F545222C3E9381"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			id: "2017E75040398A2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62CA09BF0B7C4903"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0127CB0F1DC9CF71"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			description: ["在沃土上种植蘑菇，一段时间后它就会长成菌落。菌落共有四个生长阶段。你可以在菌落彻底成熟后（长有五个菌盖时）手持剪刀左击以收获整个菌落。"]
+			id: "02D64B2ACF1B5BF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E95EA8BF5F83D68"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42CC12B505D453FF"
+				item: "farmersdelight:red_mushroom_colony"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			description: ["寻找获得。"]
+			id: "66A5BF6C784401AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D8C138F9450284D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67D267356CF7AD50"
+				item: "hmag:cureberry"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			description: ["可以消除各种酩酊、醉酒效果。"]
+			id: "23A012E10C59739C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44C52FB1AB79ADD5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "139A06FD83338EAE"
+				item: "immortalers_delight:golden_himekaido"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			description: ["枪药草茎：自然生成于绯红森林群系，也可以由玩家合成。放置后会随机向上生长（最大高度为3格）或在其顶部结出果实。用刀（农夫乐事的）破坏任意部分掉落枪药草杆，用剪刀（不兼容部分mod的）右击成熟的果实可采集枪药珠。"]
+			id: "1A3F2CA6F1E054F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7500AD680F7CBFD3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73FC9FC0022608A1"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			id: "2929F19F5C8A2A68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1706EEAE2300EB2B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D66ACAB6E782DD1"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			id: "79717B4BE7BC2FB1"
+			rewards: [{
+				amount: 5000L
+				id: "7248E670FADB8D63"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "315A3CE0B034D001"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "643DB207BBFBF6D5"
+			rewards: [{
+				amount: 15000L
+				id: "0D6A52B2B31AFAA5"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +15000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "52BDCBB7389A50D3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_invisibility"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "493564FB61923F7E"
+			rewards: [{
+				amount: 10000L
+				id: "5A38F7B3DADA03FB"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +10000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "40B36182E01B5105"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_leaping"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "5C37655C2AD9444B"
+			rewards: [{
+				amount: 5000L
+				id: "2564524B8180BAB2"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "1FDD649935AA651E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			id: "72C0C1506D98D9B1"
+			rewards: [{
+				amount: 5000L
+				id: "0DE9329DB66FE6A5"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "6C9F8BF1FA890A80"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			id: "50C7C76971276B22"
+			rewards: [{
+				amount: 5000L
+				id: "24407B1C764B3CC6"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "035D983D3BC7C06D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "22527B25B26F75E7"
+			rewards: [{
+				amount: 5000L
+				id: "1230B12795D0D278"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "3BC9AD1A5C6351B3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:strong_vitality"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			id: "74B50D85DB9D3BE9"
+			rewards: [{
+				amount: 5000L
+				id: "3EDC017070E74C48"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "7A3EEB06D49BC4B9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			id: "21B003105ECC1CFA"
+			rewards: [{
+				amount: 5000L
+				id: "086514A56BF482FC"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "74371B1224BF5097"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "0D3F89B2DFE0192F"
+			rewards: [{
+				amount: 5000L
+				id: "74C0685525BB6A72"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "0406E40B36FEF3BF"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "mowziesmobs:long_poison_resist"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "68F880F95FA4FBCC"
+			rewards: [{
+				amount: 50000L
+				id: "4A3FFEEF72006966"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +50000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "6A9DF4DEB962E3D0"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "eidolon:long_anchored"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "47D960FA7FE1AF67"
+			rewards: [{
+				amount: 5000L
+				id: "6BB93DF7CDCA2633"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "67E3B38F335A1EF9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:absorption"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "32CC41E2C2E32DB5"
+			rewards: [{
+				amount: 5000L
+				id: "08D2A3B3EA87208E"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "46E611B53717C257"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:long_haste"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			id: "4804DDE19D0C6C3E"
+			rewards: [{
+				amount: 15000L
+				id: "30C761D8A2738C7B"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +15000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "1C2EC5B30B6DA3F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "reliquary:potion"
+					tag: {
+						effects: [{
+							duration: 1
+							name: "minecraft:saturation"
+							potency: 9
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "4C590826653A40D8"
+			rewards: [{
+				amount: 15000L
+				id: "1FAA0DFAA21C3467"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +15000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "4FF95D59FC66237A"
+				item: {
+					Count: 1
+					id: "reliquary:potion"
+					tag: {
+						effects: [{
+							duration: 2250
+							name: "minecraft:health_boost"
+							potency: 1
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "3D8A34D2283E8EDD"
+			rewards: [{
+				amount: 20000L
+				id: "0A19173BBD8A36AA"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +20000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "402E75B11392722B"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "apotheosis:strong_grievous"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "63FC8F2D07C4AF36"
+			rewards: [{
+				amount: 20000L
+				id: "678E9ABC793B8705"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +20000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "753D269A961C722F"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "4C266218DF29140C"
+			rewards: [{
+				amount: 5000L
+				id: "478476ACE29105DB"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "31542D42014D0DAF"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:long_knowledge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			id: "4E874D949C080A66"
+			rewards: [{
+				amount: 5000L
+				id: "199D2FD588FFA813"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "5E2C92E073E63B93"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:strong_knowledge"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			id: "38F02DC424B6D4CD"
+			rewards: [{
+				amount: 10000L
+				id: "0FCFDDFC96FF5C86"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +10000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "431C438EBA8705BE"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_leaping"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "332035A56A6199DE"
+			rewards: [{
+				amount: 5000L
+				id: "3D84D826F8157312"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "697DE03AF7A8ACB1"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			id: "7ADD96A6B87C5C5D"
+			rewards: [{
+				amount: 5000L
+				id: "6C722A1F68F0B437"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "598A1CF98583D249"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			id: "4B025FB11FB41A9A"
+			rewards: [{
+				amount: 5000L
+				id: "79F477A6B5B3AE75"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "7E974A6ABBA5A472"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			id: "1C3F4969E396ED6B"
+			rewards: [{
+				amount: 5000L
+				id: "0C4CF96D0EEC6550"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "3F5DDF15E8E573C3"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			id: "5EED62FD00A1344A"
+			rewards: [{
+				amount: 5000L
+				id: "72FA48EC9BB7BA8F"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "58EC36216E3C33C5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "apotheosis:strong_haste"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			id: "62505B80857DCC4B"
+			rewards: [{
+				amount: 5000L
+				id: "576BA9FB836A69EA"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "6C3C09A4129FF341"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_turtle_master"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "395A9A9F619769B7"
+			rewards: [{
+				amount: 20000L
+				id: "3C50DFD96EEE4271"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +20000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "04A741D6BD3A4062"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "buzzier_bees:long_luck"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "2FDC627B043A24F2"
+			rewards: [{
+				amount: 20000L
+				id: "572676FC2DE6C847"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +20000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "75387835A233EC74"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "buzzier_bees:strong_luck"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "449B5C7814DF0CFB"
+			rewards: [{
+				amount: 5000L
+				id: "5F88EE250D60F376"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "64A3FC85A053522D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:common_potion"
+					tag: {
+						EnigmaticPotion: "long_molten_heart"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			id: "3231D9B518F53BE7"
+			rewards: [{
+				amount: 5000L
+				id: "61EE31776A1069D0"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "123E673A0596AE7D"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:common_potion"
+					tag: {
+						EnigmaticPotion: "long_frozen_heart"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			id: "5A7B34B81D4FE76D"
+			rewards: [{
+				amount: 15000L
+				id: "019634628F1234CE"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +15000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "4168EB41E896A3E5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "netherdepthsupgrade:long_lava_vision"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "4E5800769AFE6871"
+			rewards: [{
+				amount: 5000L
+				id: "5318B8AFFFB8CB7B"
+				ignoreBonuses: false
+				skill: "alchemy"
+				title: "酿造经验 +5000点"
+				type: "pmmo:xpreward"
+			}]
+			tasks: [{
+				id: "30D359018F2A450E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_three"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "47D95B6C05A56F74"
+			rewards: [{
+				id: "3B34D1DF5B168AA7"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2365F2992F797B69"
+				item: "crockpot:breakfast_skillet"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			id: "113D852047D55D78"
+			rewards: [{
+				id: "750D4EBA3EB2396E"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "365EA75B0EF10136"
+				item: "crockpot:glow_berry_mousse"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			id: "607ABBE1C2E4719A"
+			rewards: [{
+				id: "4698AECE314394D9"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ABF17E8816EB6C5"
+				item: "crockpot:mashed_potatoes"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			id: "666486CBE99780ED"
+			rewards: [{
+				id: "4D1D5E1974CB260D"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "748B2B68399344F3"
+				item: "crockpot:plain_omelette"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			id: "308007DB019BA17C"
+			rewards: [{
+				id: "37D7DB97D769B004"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "248430ED83B922F3"
+				item: "crockpot:scotch_egg"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			id: "5F8C0C57B3B3A7A9"
+			rewards: [{
+				id: "504384069B857D00"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25AFCC0445407070"
+				item: "crockpot:volt_goat_jelly"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"伏特羊属于中立生物，未被攻击前会极快速地逃离靠近的目标；玩家很难在没有任何加成的基础移速下追上伏特羊，但伏特羊会在玩家持有吸引自身的物品时缓慢靠近而非逃离玩家。"
+				""
+				"&c若自身受到攻击，伏特羊则不再逃离；快速追击目标，仅进行近战攻击（可被盾牌格挡）；伏特羊不会因自身周围其它伏特羊受伤而攻击对其它伏特羊造成伤害的非敌对目标。"
+				""
+				"&6生成在古遗天境维度。可以用小麦吸引/繁殖伏特羊。手持空桶右键伏特羊可以挤奶。"
+				""
+				"&e伏特羊被闪电劈中后会变为充能状态：永久获得带电I效果，基础攻击力提升；充能状态下，伏特羊周围会环绕闪电特效；且攻击欲望大增：不再对玩家中立，主动敌对并攻击任何靠近的玩家；已进入充能状态的伏特羊会在2个游戏日后变回正常。"
+				""
+				"&3你知道吗？玩家可以利用指路石来传送用拴绳拴住的动物，只需要消耗额外的经验即可。"
+			]
+			id: "2442B33B8B3AF0CF"
+			rewards: [{
+				id: "5CDA02F77580AB52"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E85C8512BCB229C"
+				item: "crockpot:volt_goat_horn"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			id: "1D67487D88869617"
+			rewards: [{
+				id: "3B25F402B08E4213"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "46426099A8BC26BF"
+				item: "buzzier_bees:honey_apple"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "085071CA7E0268EB"
+			rewards: [{
+				id: "002B1EF05EA1DB6A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "6484972467C012FD"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "625BEB67CC3F521D"
+			rewards: [{
+				id: "6D3B092E99349C69"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "354575A553952F6C"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "48A14565DC513752"
+			rewards: [{
+				id: "0C6353FB4DFAF1C8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "041E848E598E2DDD"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "318C1C757D23EF67"
+			rewards: [{
+				id: "1D75D0E50EFDFD19"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "5A67FA0990C77F3F"
+				item: {
+					Count: 1
+					id: "farmersrespite:long_dandelion_tea"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "27A2ACA0FECCFA55"
+			rewards: [{
+				id: "1A32AE1E693930F6"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "22A75F5FFC037882"
+				item: {
+					Count: 1
+					id: "farmersrespite:long_green_tea"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "517929DB3846619D"
+			rewards: [{
+				id: "4CBB7CF2BFBFE7FF"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "32FC63D564DED8C3"
+				item: {
+					Count: 1
+					id: "farmersrespite:long_black_tea"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "37742B23BF242653"
+			rewards: [{
+				id: "07AD2FB27D7F2AB1"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "7C6AF75650692A79"
+				item: {
+					Count: 1
+					id: "farmersrespite:long_rose_hip_tea"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "5B585087FC33F2BD"
+			rewards: [{
+				id: "4A5B27F1AB064B8A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "317325F58D0B8D4A"
+				item: {
+					Count: 1
+					id: "farmersrespite:coffee"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "74DD45D337E2F853"
+			rewards: [{
+				id: "68AE623967300599"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "6AFCCD4D5E6F3D91"
+				item: {
+					Count: 1
+					id: "farmersrespite:long_yellow_tea"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "135E9476854A25DA"
+			rewards: [{
+				id: "0FF31592D67D3465"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "73CBC0858C33BD1D"
+				item: {
+					Count: 1
+					id: "farmersrespite:strong_melon_juice"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"水壶可被用于冲泡以及储存茶饮。与厨锅一样，水壶的下方需要热源加热，热源的判定及使用方式与厨锅一致。"
+				""
+				"&c水壶内可能需要放入更多的材料才会开始合成。"
+				""
+				"&6据说水壶内不能用脏水，只能用熔炼炉熔炼雪球出来水，并且不能用桶装，只能用管道运输到水壶内。"
+			]
+			id: "16C05437878047C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215E50F6BA8E9A34"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02FD927D6B7B2782"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"野生咖啡丛自然生成于下界的玄武岩三角洲群系，破坏可获得咖啡豆，需用咖啡豆才能进行种植，只能种植在玄武岩，磨制玄武岩，平滑玄武岩和岩浆块上。在下界种植时无需特殊条件就能正常生长。"
+				""
+				"如果在主世界种植，以种植的咖啡豆为中心5×5×2范围内的农作物会被转变为凋零根须，每株作物能使之生长一个生长阶段。"
+				""
+				"种植的咖啡豆最高可生长到3格（需要4格空间），主干上总共会长出3根可结果的树枝，右键成熟的树枝即可收获1个咖啡浆果。"
+			]
+			id: "7EA1836039742457"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "092A1F85E9B39F66"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "077B760AB1DB0E00"
+					item: "farmersrespite:coffee_berries"
+					type: "item"
+				}
+				{
+					id: "6A6B6ADD970C3D59"
+					item: "farmersrespite:coffee_beans"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			description: [
+				"咖啡：饮用后获得咖啡冲击效果。"
+				""
+				"咖啡冲击：食用咖啡类食物后获得。能使玩家移动速度提升，攻击速度提升。"
+			]
+			id: "7739471F2B8EB238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DB9BE3A1A14DA8E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "759296D43EA34896"
+				item: {
+					Count: 1
+					id: "farmersrespite:strong_coffee"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"放入相应的诱饵即可自动产出部分水产食材。不放置诱饵也可产出物品，但75%产出垃圾，25%产出食材。漏斗可以提取并转移捕蟹笼内的产物。"
+				""
+				"捕蟹笼必须在周围3*3格内没有水以外的流体/方块时才会开始工作。顺利工作时可以打开其操作界面。"
+				""
+				"若捕蟹笼处于河流、海洋等生物群系且满足上述放置需求，捕蟹笼的产出所需时间会缩短为基础的一半。"
+				""
+				"&6捕蟹笼的基础产出所需时间已缩短为30秒至60秒。"
+			]
+			id: "135FA60CCF99FFF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F24934D9B7ADF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DCDEA2CC31B9554"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"爆炸放置在地上的黑石可获得黑石粉，不能在FTB圈地保护内。"
+				""
+				"&c要想让猪灵变为中立，只能佩戴[无尽贪婪契约]。"
+			]
+			hide_dependency_lines: true
+			id: "4204A9D463B1B245"
+			rewards: [{
+				id: "1CA5D5E002D327DC"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:nature"
+							LootTable: "treasurebags:bags/nature"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DCACDD3A6EE83D8"
+				item: "crockpot:collected_dust"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"紫水晶祭坛自然生成于沉没之城，手持物品右击可将物品放上去展示。"
+				""
+				"&e玩家将紫水晶巨蟹的掉落物紫水晶蟹肉放入其中，祭坛会发出类似信标的光束，一段时间后放入的紫水晶蟹肉会转化为受祝福的紫水晶蟹肉，右键祭坛可将其取下。如果吃下就可以获得紫水晶祝福buff，有利于玩家与利维坦的战斗。"
+				""
+				"&c食用受祝福的紫水晶蟹肉可获得紫水晶祝福。紫水晶祝福能帮助玩家免疫黑暗、深渊恐惧和深渊烧灼，有利于玩家与利维坦的战斗。"
+				""
+				"&6紫水晶巨蟹（5星，固定有适应属性）可以在召唤祭坛中召唤。召唤需要的材料为虚空百合、咒灰，激活工具为博丽的御币。需注意对斩击类有较高抗性，大部分剑类都是。"
+			]
+			id: "60CA94B2C60B7E16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "539CE954A8DAEF68"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E87BCD99226BB6E"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			description: ["在击杀牛时有小几率获得永恒牛肉。"]
+			id: "1ADF18A33AC608EE"
+			rewards: [{
+				id: "63CC1F247DF7BE86"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44D96D565C511B47"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.0d
+		}
+		{
+			id: "41A2BACD923EDA01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46DB8AF319C56AC3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "21056AE26DF06187"
+					item: "youkaishomecoming:steamer_pot"
+					type: "item"
+				}
+				{
+					id: "24A9845690B67B34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "youkaishomecoming:steamer_rack"
+					}
+					type: "item"
+				}
+				{
+					id: "62C30C04E39BEA2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "youkaishomecoming:steamer_lid"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			description: ["现在粗布的合成更为简单。"]
+			id: "1173402BEACCC4D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "777A4617999D6F6E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4354D3E1FEA23A97"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "4E4F0B1248F9F9E4"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"灵梦的大蝴蝶结获取：投喂「灵梦」以妖怪的归家内所有正常食物后，会得到进度——满足的灵梦，并得到灵梦的大蝴蝶结。可在进度中查看投喂的完成度。"
+				""
+				"&6新增获取：完成此任务的幻想乡美食家进度，可以获得该模组灵梦的大蝴蝶结等装备，上述装备需穿戴在头盔处。该进度需要你进食妖怪的归家模组内所有的食物。"
+				""
+				"&c此外，灵梦的大蝴蝶结也能通过击杀妖怪归家模组的Boss获得材料，然后制作获得。"
+				""
+				"&e该成就具体可按默认L键查看进度。"
+			]
+			icon: {
+				Count: 1
+				id: "youkaishomecoming:reimu_hairband"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "722E79B3E52CAD3A"
+			rewards: [
+				{
+					id: "54572367838A35B0"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:reimu_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50307042DF4EF77C"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:suwako_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F000F81D5C6199C"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:koishi_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21D6953E1BA14A04"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:cirno_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76782D2437C782AB"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:rumia_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "youkaishomecoming:main/enthusiastic"
+				criterion: ""
+				id: "4EC111D702F9BA17"
+				type: "advancement"
+			}]
+			x: -15.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"千古乐事超凡模式：会检测玩家属性决定是否激活，以下内容有四项以上进度满足时，激活超凡模式。"
+				""
+				"①最大生命值≥80点；②最大生命值≥200点；③护甲值≥30点；④护甲值≥40点。⑤盔甲韧性≥20点；⑥基础攻击≥40点或实际伤害＞60点；⑦基础攻击≥100点或实际伤害≥200点。"
+				""
+				"&6用远古纤维可将沙子转化为可疑沙子，可以考古出各种千古乐事的食物。"
+			]
+			id: "6E8E9D8351B46B47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4B5F595A84B6DD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D222BF41B389778"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "immortalers_delight:enchantal_cooler"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			id: "3C2F4E7B591652AA"
+			tasks: [
+				{
+					id: "61BBCA1E12771665"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "youkaishomecoming:cuisine_board"
+					}
+					type: "item"
+				}
+				{
+					id: "45EE7487FFBB1155"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "youkaishomecoming:fermentation_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "4D2E2F15EB102FE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "youkaishomecoming:drying_rack"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -12.0d
+		}
+	]
+	subtitle: ["&9『食物』"]
+	title: "&6※ 好好吃"
+}

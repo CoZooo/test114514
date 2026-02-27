@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      },
+      "count": 11
+    },
+    {
+      "item": {
+        "item": "aetherworks:aspectus_aetherium"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "cataclysm:void_eye"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m249"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "ecd",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_star"
+    },
+    "b": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "c": {
+      "item": "mokels_witch_boss:flask_of_healing"
+    },
+    "d": {
+      "item": "minecraft:experience_bottle"
+    },
+    "e": {
+      "item": "relics:relic_experience_bottle"
+    }
+  },
+  "result": {
+    "item": "mokels_witch_boss:flask_of_healinglvltwo",
+    "count": 1
+  }
+}

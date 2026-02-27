@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BAB",
+    "ADA",
+    "EBE"
+  ],
+  "reagents": "C   ",
+  "key": {
+    "A": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "B": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "C": {
+      "item": "reliquary:destruction_catalyst"
+    },
+    "D": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "E": {
+      "item": "celestial_core:death_essence"
+    }
+  },
+  "result": {
+    "item": "celestial_artifacts:destroyer_badge"
+  }
+}

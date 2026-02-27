@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_protection",
+      "lvl": 5
+    }
+  ],
+  "name": "ak:kill_dragon",
+  "properties": {
+    "attack_base": 56.0,
+    "max_damage": 112,
+    "slash_art": "ak:fire_slash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/kill_dragon/sange.obj",
+    "summon_sword_color": 15538497,
+    "texture": "ak:model/named/kill_dragon/blood.png"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety_cataclysm:lightning_spear_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 50,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:lacrima"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "cataclysm:lacrima"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:thunder_rage_focus"
+  }
+}

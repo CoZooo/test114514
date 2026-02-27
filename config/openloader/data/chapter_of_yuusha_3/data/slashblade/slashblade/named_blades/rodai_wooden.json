@@ -1,0 +1,23 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:rodai_wooden",
+  "properties": {
+    "attack_base": 12.0,
+    "max_damage": 24,
+    "slash_art": "slashblade:piercing"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 8865823,
+    "texture": "slashblade:model/rodai_wooden.png"
+  }
+}

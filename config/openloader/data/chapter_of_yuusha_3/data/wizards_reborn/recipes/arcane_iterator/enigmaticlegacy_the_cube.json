@@ -1,0 +1,49 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "enigmaticlegacy:the_cube",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "yuusha:madoka_law_shard"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    {
+      "item": "enigmaticlegacy:blazing_core"
+    },
+    {
+      "item": "enigmaticlegacy:angel_blessing"
+    },
+    {
+      "item": "enigmaticaddons:revival_leaf"
+    },
+    {
+      "item": "enigmaticaddons:lost_engine"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:eye_of_nebula"
+    },
+    {
+      "item": "enigmaticlegacy:ocean_stone"
+    },
+    {
+      "item": "enigmaticlegacy:void_pearl"
+    },
+    {
+      "item": "enigmaticaddons:etherium_core"
+    },
+    {
+      "item": "enigmaticaddons:forgotten_ice"
+    }
+  ]
+}

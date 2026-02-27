@@ -1,0 +1,18 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 500,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "result": {
+    "item": "yuusha:curse_astral_dust"
+  }
+}

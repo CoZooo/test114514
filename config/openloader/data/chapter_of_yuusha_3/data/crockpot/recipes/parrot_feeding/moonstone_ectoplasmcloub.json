@@ -1,0 +1,13 @@
+{
+  "type": "crockpot:parrot_feeding",
+  "ingredient": {
+    "item": "moonstone:ectoplasmhorseshoe"
+  },
+  "result": {
+    "count": {
+      "max": 8,
+      "min": 4
+    },
+    "item": "moonstone:ectoplasmcloub"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "enchantment": {
+    "enchantment": "celestial_enchantments:curse_of_illiteracy"
+  },
+  "wissen": 1000,
+  "experience": 10,
+  "health": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    }
+  ]
+}

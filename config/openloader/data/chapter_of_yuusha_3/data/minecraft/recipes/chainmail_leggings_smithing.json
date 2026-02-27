@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "item": "aether_redux:sentrite_chain"
+  },
+  "result": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

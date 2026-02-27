@@ -1,0 +1,203 @@
+{
+	icon: {
+		Count: 1
+		id: "apotheosis:potion_charm"
+		tag: {
+			Damage: 0
+			Potion: "stalwart_dungeons:spore"
+		}
+	}
+	id: "4ECB10ACBB19987D"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "born_in_chaos_v1:potion_of_magical_depletion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "born_in_chaos_v1:intoxication_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "buzzier_bees:strong_unluck"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "eidolon:vulnerable"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "hmag:hmag.ender_rage_strong"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "crabbersdelight:inky_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "aether_redux:long_intoxication"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:strong_slowness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:strong_poison"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:long_weakness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:strong_grievous"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "majruszsdifficulty:strong_wither"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "stalwart_dungeons:burning"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "distant_worlds:suppression_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "distant_worlds:sticky_shackles_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:strong_fatigue"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:strong_sundering"
+				}
+			}
+		}
+	]
+	title: "永恒负面药水护符"
+}

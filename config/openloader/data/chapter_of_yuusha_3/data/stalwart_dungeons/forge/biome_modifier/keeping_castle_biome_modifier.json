@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "infinite_abyss:second_layer_cavern",
+  "features": "stalwart_dungeons:keeping_castle",
+  "step": "underground_structures"
+}

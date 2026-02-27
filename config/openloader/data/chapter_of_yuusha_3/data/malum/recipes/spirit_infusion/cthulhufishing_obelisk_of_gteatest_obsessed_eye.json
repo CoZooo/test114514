@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "infinite_abyss:fourth_layer_deepstone",
+    "count": 2
+  },
+  "output": {
+    "item": "cthulhufishing:obelisk_of_gteatest_obsessed_eye",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "infinite_abyss:deepsilver_plate",
+      "count": 2
+    },
+    {
+      "item": "celestial_core:virtual_gold_nugget",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

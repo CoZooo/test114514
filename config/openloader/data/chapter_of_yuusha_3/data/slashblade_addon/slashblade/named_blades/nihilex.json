@@ -1,0 +1,43 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+    }
+  ],
+  "name": "slashblade_addon:nihilex",
+  "properties": {
+    "attack_base": 38.0,
+    "max_damage": 76,
+    "slash_art": "slashblade:wave_edge",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/nihil/nihil.obj",
+	"summon_sword_color": 8651304,
+    "texture": "slashblade_addon:model/nihil/nihilex.png"
+  }
+}

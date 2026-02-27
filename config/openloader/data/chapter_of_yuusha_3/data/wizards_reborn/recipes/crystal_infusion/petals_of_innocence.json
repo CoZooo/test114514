@@ -1,0 +1,40 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "wizards_reborn:petals_of_innocence",
+    "count": 1
+  },
+  "light": 450,
+  "ingredients": [
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "wizards_reborn:arcanum_dust"
+    },
+    {
+      "item": "wizards_reborn:petals"
+    },
+    {
+      "item": "nethersdelight:mimicarnation"
+    },
+    {
+      "item": "wizards_reborn:natural_calx"
+    },
+    {
+      "item": "faded_conquest_2:storm_charge"
+    },
+    {
+      "item": "wizards_reborn:natural_calx"
+    },
+    {
+      "item": "nethersdelight:mimicarnation"
+    },
+    {
+      "item": "wizards_reborn:petals"
+    },
+    {
+      "item": "wizards_reborn:arcanum_dust"
+    }
+  ]
+}

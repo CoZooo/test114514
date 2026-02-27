@@ -1,0 +1,8 @@
+{
+    "name": "emxarms.gun.emx_mg57_yh.name",
+    "display": "emxarms:emx_mg57_yh_display",
+    "tooltip": "emxarms.gun.emx_mg57_yh.desc",
+    "data": "emxarms:emx_mg57_yh_data",
+    "type": "mg",
+    "sort": 2
+}

@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "depthcrawler:soullessgem"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "distant_worlds:module_core_stabilization"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "distant_worlds:module_core_destabilization"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "ocle:yvdtsj",
+    "count": 2
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "AlA",
+    "lsl",
+    "AlA"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "goety:empty_focus"
+    },
+    "l":
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    "A":
+    {
+      "item": "hmag:lightning_particle"
+    }
+  },
+  "result":
+  {
+    "item": "goety:electrocute_focus",
+    "count": 1
+  }
+}

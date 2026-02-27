@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "tag": "irons_spellbooks:school_focus"
+  },
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_chestplate"
+  },
+  "template": {
+    "item": "hmag:evil_crystal_upgrade_smithing_template"
+  }
+}
+
+

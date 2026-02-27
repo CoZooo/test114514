@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"USE": {"magic": 1000},
+		"INTERACT": {"magic": 1000}
+	}
+}

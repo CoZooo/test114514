@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb_block",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "moonstone:brain",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dungeons_plus:leviathan_archaeology_common"
+}

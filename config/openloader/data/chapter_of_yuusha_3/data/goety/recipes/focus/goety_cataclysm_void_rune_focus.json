@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "end",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:void_stone"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "cataclysm:void_stone"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "cataclysm:void_core"
+    },
+    {
+      "item": "cataclysm:void_core"
+    },
+    {
+      "item": "cataclysm:void_lantern_block"
+    },
+    {
+      "item": "cataclysm:void_lantern_block"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:void_rune_focus"
+  }
+}

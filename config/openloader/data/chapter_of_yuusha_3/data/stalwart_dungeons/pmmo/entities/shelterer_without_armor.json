@@ -1,0 +1,28 @@
+{
+  "xp_values": {
+    "DEATH": {
+		"crafting": 1000000,
+		"mining": 1000000,
+		"building": 1000000,
+		"excavation": 1000000,
+		"woodcutting": 1000000,
+		"farming": 1000000,
+		"agility": 1000000,
+		"endurance": 1000000,
+		"combat": 1000000,
+		"archery": 1000000,
+		"smithing": 1000000,
+		"flying": 1000000,
+		"swimming": 1000000,
+		"fishing": 1000000,
+		"magic": 1000000,
+		"slayer": 1000000,
+		"hunter": 1000000,
+		"taming": 1000000,
+		"cooking": 1000000,
+		"alchemy": 1000000,
+		"sailing": 1000000,
+		"gunslinging": 1000000
+	}
+  }
+}

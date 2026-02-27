@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "confluence:bezoar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:holy_water"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:vitamins"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:energy_bar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:blindfold"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:flashlight"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:fast_clock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:trifold_map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:hand_drill"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:shot_put"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "yuusha:archaeology/confluence_misc"
+}

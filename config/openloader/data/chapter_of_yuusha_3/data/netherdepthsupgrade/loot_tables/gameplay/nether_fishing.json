@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "quality": -2,
+          "name": "netherdepthsupgrade:gameplay/nether_fishing/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 2,
+          "name": "netherdepthsupgrade:gameplay/nether_fishing/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 60,
+          "quality": -1,
+          "name": "netherdepthsupgrade:gameplay/nether_fishing/fish"
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "moonstone:ectoplasmball",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:golden_ring",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

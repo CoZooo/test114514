@@ -1,0 +1,10 @@
+{
+  "slot": "eos:attachment/slot/bayonet_eternity",
+  "model": "eos:attachment/bayonet_eternity_geo",
+  "texture": "eos:attachment/uv/bayonet_eternity",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "values": [
+    "minecraft:terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:light_gray_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:red_sand",
+    "deep_aether:golden_heights_grass_block",
+    "deep_aether:golden_heights_dirt_path",
+    "aether:enchanted_aether_grass_block",
+    "aether:aether_dirt_path",
+	"aether:aether_grass_block",
+	"deep_aether:aether_moss_block"
+  ]
+}

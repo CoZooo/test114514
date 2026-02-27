@@ -1,0 +1,26 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:fluorescent_bar",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade"
+    },
+    "P": {
+      "item": "forbidden_arcanus:deorum_glass"
+    },
+    "S": {
+      "item": "slashblade:proudsoul"
+    }
+  },
+  "pattern": [
+    " PS",
+    "PBP",
+    "SP "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

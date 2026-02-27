@@ -1,0 +1,19 @@
+{
+  "slot": "pgp:attachment/slot/6012neptune",
+  "model": "pgp:attachment/6012neptune_geo",
+  "texture": "pgp:attachment/uv/6012neptune",
+  "lod": {
+    "model": "pgp:attachment/lod/6012neptune_lod",
+    "texture": "pgp:attachment/lod/6012neptune_lod"
+  },
+  "zoom": [
+    6,
+    12
+  ],
+  "scope": true,
+  "fov": 70.0,
+  "sounds": {
+    "install": "pgp:attachments/scope_general_d",
+    "uninstall": "pgp:attachments/scope_general_d"
+  }
+}

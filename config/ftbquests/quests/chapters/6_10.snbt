@@ -1,0 +1,700 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_10"
+	group: "381A0F9F8CC8976C"
+	icon: "cataclysm:lacrima"
+	id: "68E72FD914265EDF"
+	images: [
+		{
+			alpha: 180
+			color: 39638
+			height: 12.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 21.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 22.5d
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["49C9042038B3AC58"]
+			id: "5F891CAD961BD6A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521047863C23B2A0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "197383E56D3EC06B"
+				item: "grimoireofgaia:holstaurus_token"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"手持荷斯陶诺斯货币右击石制神像，即可进入「众神万神殿」维度。荷斯陶诺斯货币会消耗。在该维度无法激活大部分需主世界激活的装置。"
+				""
+				"&6众神万神殿维度内会自然生成各种幻想乡妖怪（附近生物超过4个后不会生成）。请勿在拥有半妖化等情况下进入，否则可能会被主动攻击。"
+				""
+				"&c在众神万神殿维度里，跳进虚空可以进入到「死寂之海」维度。"
+				""
+				"&e手持兔子脚右击石制神像可获得跳跃指环。"
+				""
+				"&3手持贸易商人货币右击石制神像，即可进入「永夜空境」维度。贸易商人货币会消耗。在该维度为恒定永夜且只有基岩平台，其余和下界相似，刷怪笼和袭击都可以正常触发（袭击不能在基岩上刷怪）。"
+			]
+			id: "49C9042038B3AC58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39CC75D7AC4ECFB8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "710F5070E1480AA9"
+				item: "tacz:statue"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			description: [
+				"利用风暴之眼在死寂之海维度可以找到卫城，女神雕像在卫城建筑的特定地方。手持愚者之宴右击女神雕像可将天气变为&e晴天&r。以下物品右击献给女神雕像可给最近的玩家赐予特定奖励："
+				""
+				"&2· 附魔之瓶：+ 200 原版经验"
+				"&c· 悲叹之种：+ 5000 战斗经验"
+				"&c· 深渊反应物：+ 50000 战斗经验"
+				"&e· 骷髅突变体残骸：+ 10000 箭术经验"
+				"&e· 虚空之颚：+ 500000 箭术经验"
+				"&e· 宽头箭：+ 1000 箭术经验"
+				"&7· 幻翼膜、澄空精魂：+ 100 飞行经验"
+				"&7· 飞升之翼：+ 800 飞行经验"
+				"&7· 龙蛋：+ 30000 飞行经验"
+				"&9· 奥术源质：+ 35000 魔法经验"
+				"&9· 空白符文：+ 115000 魔法经验"
+				"&9· 灵能墓石：+ 1350000 魔法经验"
+				"&b· 古代灵魂：+ 100 灵魂能量"
+				"&b· 虚空荆棘：+ 1000 灵魂能量"
+				"&b· 幽匿之心：+ 10000 灵魂能量"
+				"&b· 灵魂红宝石：+ 25000 灵魂能量"
+				"&b· 渊兽灵眸：+ 50000 灵魂能量"
+				"&b· 冰立方：+ 10 灵魂能量"
+				"&3· 海王锭：+ 250 钓鱼经验"
+				"&3· 海洋精华：+ 1350 钓鱼经验"
+				"&3· 泪宝石：+ 550 钓鱼经验"
+				"&6· 能量晶核：+ 4000 狩猎经验"
+				"&e· 虚空庇晶：+ 750000 巧匠经验"
+				"&e· 遗物经验瓶：+ 2500 巧匠经验"
+				"&9· 古代金锭：+ 500 航海经验"
+				"&9· 翡翠：+ 500 航海经验"
+				"&9· 赤铁：+ 500 航海经验"
+				"&6· 下界之星：+ 60000 屠夫经验"
+				"&6· 暗黑下界之星：+ 100000 屠夫经验"
+				"&a· 自定义符卡：+500000 幻想经验"
+				"&4· 奇异节日糖果：+ 10000 忍耐经验"
+				"&c· 暗影精粹：+ 2500 炼金经验"
+				"&c· 幽古合金碎片：+ 500 炼金经验"
+				"&c· 冥魂锭：+ 3500 炼金经验"
+				"{@pagebreak}"
+			]
+			id: "1BAD0890ADF07540"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A62BCEF366AF0AA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BD33B1167A6015B"
+				item: "cataclysm:goddess_statue"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EBCDF791BDF57C4"]
+			description: [
+				"博丽神社（Hakurei Shrine）现在只会自然生成在众神万神殿维度。神社结构门口有赛钱箱，投入八颗绿宝石或金锭可召唤灵梦。"
+				""
+				"&6博丽神社中的箱子里面有很多食材和食物，二楼有众多本模组的袋装红茶、袋装乌龙茶、袋装黄豆。"
+				""
+				"&c赛钱箱在采掘后无掉落，请勿破坏。"
+				""
+				"&e此外，荒废的平原住宅 （Immortalers Relic）也只会自然生成在众神万神殿维度。内含多个可疑的沙砾，使用刷子刷扫有几率获取嗅探兽蛋。"
+			]
+			id: "6265C327C934098F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDFDD8A3C452ACC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "youkaishomecoming:donation_box"
+				}
+				id: "22DC05F4AE9F79C9"
+				observe_type: 0
+				timer: 0L
+				title: "观察：赛钱箱"
+				to_observe: "youkaishomecoming:donation_box"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EBCDF791BDF57C4"]
+			description: [
+				"卫城有瓶子草、火把花、女神雕像等重要物品。"
+				""
+				"&6卫城相关内容详见天顶巨兽章节斯库拉任务。"
+				""
+				"&c击杀卫城内的小怪有小几率掉落怨影吊坠，几率与怪物血量有关。"
+			]
+			icon: "faded_conquest_2:petrified_wood"
+			id: "269E4D32033DB321"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DEE1757B362FEB6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "faded_conquest_2:the_abyss"
+				id: "0EF23B8C1CB0B124"
+				type: "dimension"
+			}]
+			title: "&5死寂之海"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F891CAD961BD6A0"]
+			description: [
+				"在众神万神殿维度里，跳进虚空可以进入到「死寂之海」维度。"
+				""
+				"&6指路石可在死寂之海和众神万神殿维度生成。"
+				""
+				"&e在众神万神殿维度，在加载区块内，可以刷新最多两个云鲸。"
+			]
+			icon: "faded_conquest_2:gildgrass"
+			id: "7EBCDF791BDF57C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E31787CC50E3EED"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "08786ADE88B1EAE1"
+					item: "deep_aether:aerwhale_saddle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "faded_conquest_2:the_mirror_realm"
+				id: "1EB54FB667077A35"
+				type: "dimension"
+			}]
+			title: "&3万神殿之门"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			id: "0A46B5CD5BCDE055"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A56441D156ADF18"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C7EA4DBAAE79729"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "cataclysm:essence_of_the_storm"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			description: [
+				"阿·普切神像自然生成于死寂之海的致命墓穴，或是由玩家合成。"
+				""
+				"&e以主世界夜晚月相为准，新月时手持荧石粉等物品右击阿·普切神像，有几率获得阿·普切的祝福。"
+				""
+				"&6可用探险家指南针搜索“Deadly Crypt”找到。"
+				""
+				"&3拥有阿·普切的祝福时可手持特定物品右击阿·普切神像，将其转化为另一种物品，转化时不显示特效，直接右击取回即可。"
+				""
+				"&c只有持有阿·普切的祝福效果的玩家才能正常破坏并获得此方块。请勿在无相应的祝福效果时破坏阿·普切神像，会出现恐怖的生物。"
+			]
+			id: "20CF2449DF3B9BCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "144C28FC99A633C8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49C925BC6054A249"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "call_of_yucutan:fragment_of_death"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			description: [
+				"库库尔坎神像自然生成于死寂之海的蔓生神庙，或是由玩家合成。"
+				""
+				"&e以主世界夜晚月相为准，满月时手持紫水晶等物品右击库库尔坎神像，有几率获得库库尔坎的祝福。"
+				""
+				"&6可用探险家指南针搜索“Overgrown Temple”找到"
+				""
+				"&3拥有库库尔坎的祝福时可手持特定物品右击库库尔坎神像，将其转化为另一种物品，转化时不显示特效，直接右击取回即可。"
+				""
+				"&c只有持有库库尔坎的祝福效果的玩家才能正常破坏并获得此方块。请勿在无相应的祝福效果时破坏库库尔坎神像，会出现恐怖的生物。"
+			]
+			id: "44E78B501593F040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BC4107646B75B4A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32EDC1162A39327C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "call_of_yucutan:fragment_of_rebirth"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			id: "29B09D4AB068468F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13C996E5D0466ACC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C791E0CE8B1E069"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:magic_dust"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			description: [
+				"&6药水黑名单新增&r：星裂、瞬间伤害、侵蚀、重伤、空丝化、生于混沌模组除魔力耗尽外、易燃性、狱火、幽灵状态、深渊庇佑、止心术、真实隐身、回响打击、不朽、血殇、催眠外表、激冷、洪荒之力、属性伤害、属性抗性、简易刀剑特殊效果、冻结、迦赫纳免疫、迦赫纳侵蚀、暴力、不屈、暴血、奇迹般的转变等。"
+				""
+				"&6属性黑名单新增&r：属性伤害抗性、枪械射速、魔法伤害、格挡、全伤害、穿透、闪避、实体距离等。"
+				""
+				"&3属性加成说明：属性限制12%上限。在死亡后需重进游戏才会让属性重新生效。可分别放置在物品栏、古旧书袋内同时生效属性加成。"
+				""
+				"&2药水效果说明：提供效果可在古旧书袋内生效两个，物品栏内生效一个。免疫效果在物品栏内为强免疫，直接无法受到该效果。而在古旧书袋内为弱免疫，只是短时间内不停清除该效果。"
+				""
+				"&e额外说明：可放入魔法石英戒指提高效果，还可调整青金石消耗数量提高期望数值。"
+			]
+			id: "08DF60CCD4D27B67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CD79C9B96C2447C"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "7FB00777C594611A"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:sanae_gohei"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:quick_charge"
+									lvl: 3s
+								}
+								{
+									id: "touhou_little_maid:speedy"
+									lvl: 2s
+								}
+								{
+									id: "touhou_little_maid:impeding"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:multishot"
+									lvl: 1s
+								}
+								{
+									id: "touhou_little_maid:enders_ender"
+									lvl: 1s
+								}
+							]
+							RepairCost: 63
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64599977C0D3BB8E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticaddons:artificial_flower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			id: "524C78BD9DD00801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1C3A52CA7193C5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D4AF4BBE308E55E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:chaos_ingot"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["269E4D32033DB321"]
+			id: "340D901B227B2D99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67502160BD6ADB7A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26D8033043036FD5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "call_of_yucutan:mayan_calendar"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BAD0890ADF07540"]
+			description: [
+				"提交此任务物品，可将主手的遗物饰品变为满星级。"
+				""
+				"&c不要对女仆世界线的特殊猎人腰带进行此操作，会让其数值打回原形。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "relics:relic_experience_bottle"
+			}
+			id: "7651684F53F69575"
+			rewards: [{
+				command: "/relics maximize"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "relics:relic_experience_bottle"
+				}
+				id: "1DEA3FA50ABBE71D"
+				team_reward: false
+				title: "将主手的遗物饰品变为满星级"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E6CEFA6C5431845"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "call_of_yucutan:fragment_of_death"
+				}
+				type: "item"
+			}]
+			title: "将主手的遗物饰品变为满星级"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BAD0890ADF07540"]
+			description: [
+				"提交此任务物品，可将主手的遗物饰品变为满星级。"
+				""
+				"&c不要对女仆世界线的特殊猎人腰带进行此操作，会让其数值打回原形。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "relics:relic_experience_bottle"
+			}
+			id: "5F76D41C285785E1"
+			rewards: [{
+				command: "/relics maximize"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "relics:relic_experience_bottle"
+				}
+				id: "5EDFC9B25FF24DC0"
+				team_reward: false
+				title: "将主手的遗物饰品变为满星级"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "784458E25BA89789"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "call_of_yucutan:fragment_of_rebirth"
+				}
+				type: "item"
+			}]
+			title: "将主手的遗物饰品变为满星级"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20CF2449DF3B9BCD"]
+			description: [
+				"杀死鸡、牛、羊驼等动物增加1点淘气值，杀死成年村民使淘气值增加10点，杀死幼年村民则增加15点；杀其他生物不会增加。当食用厌心姜饼人时增加3点淘气值；食用悚异的曲奇牛奶时减少3点。"
+				""
+				"&6死亡会清空淘气值。"
+				""
+				"&e当玩家的淘气值初次到达50时，会伴随黑暗buff生成两只坎普斯的亲仆（7星）。当玩家的淘气值初次到达100时，会伴随黑暗buff生成一只坎普斯（8星）。当淘气值初次到达100之后每增加50点就会再生成一只坎普斯。"
+				""
+				"&c坎普斯及亲仆无法在主世界、下界生成。"
+			]
+			id: "43E2617D32415EC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2941957EB52929"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F37C2D561B860D2"
+				item: "born_in_chaos_v1:evilometer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EBCDF791BDF57C4"]
+			description: [
+				"妖怪归家模组的大部分首领都会额外在万神殿维度自然生成，此外模组还有自带的生成方式。"
+				""
+				"&e琪露诺&r：当玩家拥有妖怪化效果时在雪原、高山雪原、平原刷新，并且会主动攻击带有妖怪化效果的玩家。弹幕击杀掉落物：妖精冰晶（可以用来制作妖精糖果）。"
+				""
+				"&e博丽灵梦&r：在村民面前第一次食用怪肉时，会得到短暂的黑暗效果，并得到警告，再次食用怪肉后，在附近会刷出博丽灵梦。并直接进入敌对状态。在妖怪化或半妖怪化状态下攻击村民，会得到短暂的黑暗效果 ，并得到警告，再次在妖怪化或半妖怪化状态下攻击村民后，在附近会刷出博丽灵梦，并直接进入敌对状态。也可在赛钱箱中投入8颗绿宝石或金锭召唤。玩家未拥有妖怪化效果时将会一直回复生命值。半妖怪化状态下，灵梦会直接进入敌对状态。妖怪化状态下无反应。弹幕击杀掉落物：「梦想天生」。"
+				""
+				"&e雾雨魔理沙&r：若已触发过灵梦的一次警告，则下一次在村民面前食用怪肉时概率生成，并直接进入敌对状态。弹幕击杀掉落物：恋符「极限火花」。"
+				""
+				"&e东风谷早苗&r：若已触发过灵梦的一次警告，则下一次在村民面前食用怪肉时概率生成。并直接进入敌对状态。弹幕击杀掉落物：秘术「一脉单传的弹幕」。"
+				"{@pagebreak}"
+				"&e八云紫&r：使用非弹幕类伤害击败博丽灵梦时生成。弹幕击杀掉落物: 魍魉「二重黑死蝶」、结界「光与暗的网目」。"
+				""
+				"&e古明地恋&r：当玩家在半妖怪化效果下企图在下界的基岩上层获取帽子先生时生成。弹幕击杀掉落物：暂无。"
+				""
+				"&e米斯蒂娅·萝蕾拉&r：使用生八目鳗右键鹦鹉召唤（不消耗物品）。弹幕击杀掉落物：夜雀「午夜的合唱指挥」。"
+				""
+				"&e露米娅&r：会出现在主世界野外，中立单位，会主动攻击有半妖怪化效果的玩家。在玩家处于妖怪化期间，可以与其以怪肉巧克力慕斯作为货币进行交易。掉落物：红色环玉弹幕、黑色环玉弹幕。若露米娅在生命值全满时直接遭受来自其他实体包括下落的铁砧的致命伤害，则露米娅的强度则会转换为Extra难度。弹幕击杀掉落物：红色环玉弹幕、黑色环玉弹幕、露米娅的发带。"
+			]
+			id: "45C5D783CE85FF4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB897178815C9AB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "694B7C50CF082E06"
+				item: "youkaishomecoming:custom_spell_homing"
+				type: "item"
+			}]
+			title: "&6妖怪归家模组的首领说明"
+			x: -4.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["&9『秘境』"]
+	title: "&6※ 死寂幻乡"
+}

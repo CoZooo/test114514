@@ -1,0 +1,14 @@
+{
+  "type": "malum:runeworking",
+  "output": {
+    "item": "simplyswords:runic_tablet"
+  },
+  "primaryInput": {
+    "count": 1,
+    "item": "rustic_engineer:solarite_ingot"
+  },
+  "secondaryInput": {
+    "count": 8,
+    "item": "malum:arcane_spirit"
+  }
+}

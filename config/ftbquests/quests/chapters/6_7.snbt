@@ -1,0 +1,911 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_7"
+	group: "13D24688CE1CFEDA"
+	icon: {
+		Count: 1
+		id: "goety_revelation:bow_of_revelation"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0D8C597100E73421"
+	images: [
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 27.5d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			alpha: 200
+			color: 10551890
+			height: 12.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 26.0d
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"树海化任务里会奖励一把无限附魔的不可破坏的弓。此外在各种宝箱内，可能会出现『妖弓』和『印弓』。"
+				""
+				"&5弓兵前期极为困难，谨慎选择。"
+				""
+				"&c『妖弓』：只要有“无限”附魔，即可不消耗使用各种特殊箭类，无法使用“无尽箭袋”附魔。『印弓』：射出的箭为固定种类的箭，无法享受特殊箭类的加成，无法使用“无尽箭袋”等无限附魔。『封弓』：必须要有“无尽箭袋”附魔才能不消耗使用各种特殊箭类。"
+				""
+				"&6大部分弓类会在其名称显示是『妖弓』『印弓』『封弓』，如果没提示，则大概率是『封弓』。"
+				""
+				"&3此外，『妖弓』和『印弓』会不兼容大部分星月附魔的弓类附魔，虽然能附魔上，但是没有实际效果，大部分『封弓』应该都兼容星月附魔。"
+				""
+				"&2大部分箭矢现在可以无视生物的弹射物免疫和限伤，比如霜冻巨兽、钢铁守护者、滑行魔石、武神女王、帝王云鲸、使徒、亚波伦等。"
+				""
+				"&e元素战斗：1.大部分弓类发射的箭，其元素战斗的属性和攻击类型，会优先计算弓类所显示的种类，如果弓类为无属性，则再计算箭矢的属性。2.印弓的元素属性为直接继承弓的，无属性的印弓不会继承箭矢的属性。"
+			]
+			id: "2C6FBF1EF4E43EEE"
+			rewards: [{
+				id: "41F70944B13B20B7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「矢量突破」"
+			tasks: [{
+				id: "20859E0353C0CE86"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}]
+						Unbreakable: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C6FBF1EF4E43EEE"]
+			description: [
+				"需要获得一支箭才能使用无限附魔。"
+				""
+				"&e在前期还可制作猎手之弓等有用的弓。"
+				""
+				"&c现在射在方块上面的无法拾取的箭会直接消失。"
+				""
+				"&6请勿用弓箭提前杀死带有无敌的灾厄村民（如灾厄术士等），会导致游戏崩溃。"
+				""
+				"&3现在营养值也会增加投射物伤害。详见树海化章节食物营养任务。"
+				""
+				"&5怪物会以射箭的玩家为优先攻击目标。"
+			]
+			id: "6577BA563E6EF855"
+			rewards: [{
+				id: "0D526BCA11A39D82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63E4B400584F820D"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C6FBF1EF4E43EEE"]
+			description: [
+				"可制作多种附魔，相关内容见树海化章节。"
+				""
+				"&6射手饰品和装备，分别见礼装和宝具章节。"
+				""
+				"&2还有部分附魔，只能通过附魔台获得，如穿透引弓等。"
+				""
+				"&e各种宝箱（包括地牢宝藏袋）内有几率开出特殊的弓，在前期可能会有一定的帮助。"
+				""
+				"&c需注意，魔化箭矢会给予回响打击攻击，属于暗属性，部分Boss被暗属性攻击会回血。"
+			]
+			id: "5B7F7FC114E8B1FD"
+			rewards: [{
+				id: "403353215B61371F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38A7A98760C460F9"
+				item: "yuusha:ember_heart"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C6FBF1EF4E43EEE"]
+			description: [
+				"玩家每拥有n点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"
+				""
+				"&6可用弓升级锻造模板和纯净织布，将部分弓还原为对应的基础弓类。如果用锻造台不行可尝试用精魂祭坛。"
+				""
+				"&c不能有耐久度消耗，包括使用永恒陨星后，可能会导致额外NBT而无法在锻造台中合成。"
+			]
+			id: "0EDC861ECB6F7C72"
+			rewards: [{
+				id: "5DF2E4828B523B34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1FEEFF22C4A3A1BC"
+				item: {
+					Count: 1
+					id: "morebows:copper_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0EDC861ECB6F7C72"]
+			description: ["还可制作霜噬。"]
+			id: "45EBFDDFBE5BB20E"
+			rewards: [{
+				id: "150DDEF842F5838A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51B079C700F739A0"
+				item: {
+					Count: 1
+					id: "morebows:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45EBFDDFBE5BB20E"]
+			description: [
+				"还可制作焰灼遗物、极光之耀、光辉。"
+				""
+				"&e光辉：等同于粗制镰刀，可给予目标化魂状态，以收割精魂，及获得粗制镰刀的特殊掉落物。"
+			]
+			id: "4FF2B21BA64B9D58"
+			rewards: [{
+				id: "4397B96335FAF84F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C2B509E78D7E6A0"
+				item: {
+					Count: 1
+					id: "morebows:golden_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4FF2B21BA64B9D58"]
+			description: ["还可制作天空之弧、海王弓。"]
+			id: "72581A4833C8E5CF"
+			rewards: [{
+				id: "19AD517248DD21AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65898F8CDA958DC1"
+				item: {
+					Count: 1
+					id: "morebows:emerald_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72581A4833C8E5CF"]
+			description: ["还可制作咒魂弓、绯红联结、双生对影。"]
+			id: "30110F82734B1943"
+			rewards: [{
+				id: "7DE7FFBC085D8CEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "318961E6A56A9E48"
+				item: {
+					Count: 1
+					id: "morebows:diamond_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30110F82734B1943"]
+			description: ["还可制作超凡猎弓。"]
+			id: "5EEDCAF216A0E5DA"
+			rewards: [{
+				id: "07859D6D8417C4BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "291894538716A5BA"
+				item: {
+					Count: 1
+					id: "morebows:netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EEDCAF216A0E5DA"]
+			description: ["还可制作沙暴之怒、龙息弓。"]
+			id: "4B7AFB543EF748CA"
+			rewards: [{
+				id: "7607E9ECD8733506"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D58B16F676962D5"
+				item: {
+					Count: 1
+					id: "morebows:gilded_netherite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B7AFB543EF748CA"]
+			id: "6B60D4C76D6FCE26"
+			rewards: [{
+				id: "6B671E73D1D98ADA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58213BF25F91E5AD"
+				item: {
+					Count: 1
+					id: "morebows:enderite_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6577BA563E6EF855"]
+			description: ["玩家每拥有 n 点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"]
+			id: "1E1FEB3B54AEE4F3"
+			rewards: [{
+				id: "7F4A21F91461925C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "771B426214D7E37D"
+				item: "xtraarrows:iron_arrow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1FEB3B54AEE4F3"]
+			description: ["玩家每拥有n点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"]
+			id: "29EFC3B42765A7D1"
+			rewards: [{
+				id: "7CC5FF9CEA013FDA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7AC5E437C456E6C8"
+				item: "xtraarrows:golden_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1FEB3B54AEE4F3"]
+			description: ["玩家每拥有n点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"]
+			id: "662D4E174EC1B4CF"
+			rewards: [{
+				id: "0E20C7DDA3782DC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31102266B7CBEFCC"
+				item: "xtraarrows:diamond_arrow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1FEB3B54AEE4F3"]
+			description: ["玩家每拥有n点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"]
+			id: "13E3DE853828BD56"
+			rewards: [{
+				id: "03A69C420AC3E528"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2072EB06A43E30C4"
+				item: "xtraarrows:netherite_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1FEB3B54AEE4F3"]
+			description: [
+				"吸血箭类会额外附加魔法伤害，可以破除适应。"
+				""
+				"&6此外还有各种特殊箭类，可JEI查看铁箭的用途合成，或者搜“@xtra”可以显示。"
+				""
+				"&c大部分弓类发射的箭，其元素战斗的属性和攻击类型，会优先计算弓所显示的种类，如果弓为无属性，则再计算箭矢的属性。"
+				""
+				"&e要注意有部分Boss会完全免疫暗属性。"
+			]
+			id: "759D07D62B8BB9A4"
+			rewards: [{
+				id: "5144432420DA915E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7667EC286E5BA7F3"
+				item: "xtraarrows:iron_life_steal_arrow"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B60D4C76D6FCE26"]
+			id: "6A2011E360DF2CEA"
+			rewards: [
+				{
+					id: "68D0A7F3EEE0A63D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34398711CAC767F8"
+					item: "yuusha:soul_gem_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7969825407432763"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A2011E360DF2CEA"]
+			id: "574D088C9AD25941"
+			rewards: [{
+				id: "0CF1C98130A00353"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7942AF7EB5FCABA4"
+				item: {
+					Count: 1
+					id: "goety_revelation:bow_of_revelation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5B7F7FC114E8B1FD"]
+			description: [
+				"宝藏袋可开出具有会心属性铁质盔甲，适合制作更为高级的弓兵盔甲。"
+				""
+				"&6弓兵盔甲详见宝具章节任务。"
+				""
+				"&c会心属性：会心几率最高100%，触发会心时，玩家全伤害×2倍。虽然属性面板显示玩家基础会心为0，但实际只要在独立乘区有加成即可。"
+				""
+				"&e穿透属性：玩家的穿透属性限制为0，没有效果。"
+			]
+			id: "199421AD25F56B0C"
+			rewards: [{
+				id: "12EEC2065679BE4E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "531026224A254F47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "aquamirae:treasure_pouch"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["72581A4833C8E5CF"]
+			id: "5C9CE306B689168F"
+			rewards: [{
+				id: "2D20BED75F35A7B7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AAD0E03F81355E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:angels_sight"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6577BA563E6EF855"]
+			description: [
+				"可搭配叠装弩箭、神射手、快速装填、无尽弩箭等附魔。"
+				""
+				"&6快速装填附魔可通过战利品、附魔台获得。"
+				""
+				"&e叠装弩箭可通过战利品、附魔台、村民交易获得。"
+				""
+				"&c无尽弩箭可通过附魔台、战利品获得。"
+				""
+				"&2神射手可通过附魔台、制作获得。"
+			]
+			id: "004624B200B604AE"
+			rewards: [{
+				id: "5767E0B6C623871E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E7D581144F0F7F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B7F7FC114E8B1FD"]
+			description: [
+				"弓兵的饰品介绍，详见礼装章节“箭术+幸运类”，里面的“箭术类”基本涵盖弓兵的专署饰品。"
+				""
+				"&6此外还有全伤类饰品，同样适用。"
+			]
+			id: "59A055C61E1C9B66"
+			rewards: [{
+				id: "6A69271815C36187"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19F229D663FE2697"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:spirit_crown"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EDC861ECB6F7C72"]
+			description: [
+				"头盔：穿戴时使用弓会额外射出两发无法拾起的箭矢。"
+				""
+				"胸甲：穿戴时大幅度加快拉弓速度。"
+				""
+				"护腿：穿戴时持续给予玩家（5秒2级）迅捷。"
+				""
+				"靴子：穿戴时持续给予玩家（5秒2级）跳跃提升。"
+			]
+			id: "42B526DD8BCE7869"
+			rewards: [{
+				id: "750AA8FBEF62B601"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1AD8C930BE0FD060"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05FE4599908C623E"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07DE676954647CA1"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2964F3A757B4541F"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6577BA563E6EF855"]
+			description: [
+				"利用嗅探兽可获得千古乐事模组的所有作物。"
+				""
+				"&6上述任一物品（除黄金颅）均可右击沙子转化为特定的可疑沙子，可以考古出以上作物的种子。"
+				""
+				"&e黄金颅可通过天华砧获得。"
+			]
+			id: "44FAA5CA0E818BDC"
+			rewards: [{
+				id: "6B3621FEEE27FF64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:heart_of_revenge"
+				}
+				type: "item"
+			}]
+			subtitle: "非必须路线"
+			tasks: [
+				{
+					id: "0C5019903ABA8C2E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:sniffer_fur"
+					}
+					type: "item"
+				}
+				{
+					id: "3899B84C91F661D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:evolutcorn"
+					}
+					type: "item"
+				}
+				{
+					id: "489744087798369C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:pearlip"
+					}
+					type: "item"
+				}
+				{
+					id: "6D1D993BEE5605A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:contains_tea_leisamboo"
+					}
+					type: "item"
+				}
+				{
+					id: "5E4C6F5EC2BC3186"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:himekaido"
+					}
+					type: "item"
+				}
+				{
+					id: "3FBDF63C2B102D95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:alfalfa"
+					}
+					type: "item"
+				}
+				{
+					id: "791D9730CDB4C4AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:kwat_wheat"
+					}
+					type: "item"
+				}
+				{
+					id: "721D35E326209E1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:warped_laurel"
+					}
+					type: "item"
+				}
+				{
+					id: "6046CDFC30C8DA61"
+					item: "yuusha:gold_skull"
+					type: "item"
+				}
+			]
+			title: "&e进度：千古之忆"
+			x: -6.5d
+			y: -6.5d
+		}
+	]
+	subtitle: ["&9『御射使用指南』"]
+	title: "&6※ 疾矢"
+}

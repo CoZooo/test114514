@@ -1,0 +1,19 @@
+{
+  "whitelist": [
+    "^applied_armorer:gun.*$",
+	
+	"fibers:gun/renetti",
+	"tacz:gun/m16a4",
+	"tacz:gun/scar_h",
+	"tacz:gun/rpk",
+	"tacz:gun/rpg7",
+	"emxarms:gun/emx_expel32_lb",
+	"emxarms:gun/emx_umx57h"
+  ],
+  "blacklist": [
+	"applied_armorer:gun/niklas_lever_vigenere",
+	"applied_armorer:gun/moritz_sniper_semi_k30",
+	"applied_armorer:gun/moritz_mg_emg_prototype",
+	"applied_armorer:gun/moritz_gernade_gl3"
+  ]
+}

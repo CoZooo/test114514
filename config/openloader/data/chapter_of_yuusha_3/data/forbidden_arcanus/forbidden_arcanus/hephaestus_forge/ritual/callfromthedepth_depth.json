@@ -1,0 +1,62 @@
+{
+  "additional_requirements": {
+	"enhancers": [
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 200,
+    "blood": 2000,
+    "experience": 100,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "callfromthedepth_:sculkhearth"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:sculk_catalyst"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "born_in_chaos_v1:dark_rod"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "born_in_chaos_v1:dark_rod"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "ancient_aether:ancient_dungeon_key"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "callfromthedepth_:depth"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:katana",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "slashblade:slashblade"
+    },
+    "P": {
+      "item": "slashblade:proudsoul"
+    },
+    "S": {
+      "item": "aether:zanite_sword"
+    }
+  },
+  "pattern": [
+    "  P",
+    " B ",
+    "S  "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

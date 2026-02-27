@@ -1,0 +1,39 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:yataghans",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 100,
+        "refine": 1
+      }
+    },
+    "B": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "item": "celestial_core:sakura_steel"
+    },
+    "D": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "E": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "F": {
+      "item": "crabbersdelight:pearl"
+    }
+  },
+  "pattern": [
+    "DBC",
+    "BAE",
+    "CEF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

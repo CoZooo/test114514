@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "malum:spirit_fabric"
+    },
+    {
+      "count": 4,
+      "item": "malum:null_slate"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:ignitium_star"
+    },
+    {
+      "count": 1,
+      "item": "faded_conquest_2:key_of_death"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "irons_spellbooks:pumpkin_leggings"
+  },
+  "output": {
+    "item": "malum:soul_hunter_leggings"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 32
+    },
+    {
+      "type": "aerial",
+      "count": 32
+    },
+    {
+      "type": "earthen",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 32
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deep_aether:skyjade_block"
+  },
+  "base": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "result": {
+    "item": "deep_aether:skyjade_helmet"
+  },
+  "template": {
+    "item": "hmag:nether_star_fragment"
+  }
+}

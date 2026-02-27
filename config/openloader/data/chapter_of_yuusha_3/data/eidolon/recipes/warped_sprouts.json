@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "yuusha:chaos_fly" },
+        { "item": "moonstone:blood_jelly" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "eidolon:ender_calx" }
+      ]
+    },
+    {
+      "items": [
+	    { "item": "minecraft:warped_fungus" },
+        { "item": "minecraft:nether_wart" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:warped_sprouts",
+    "count": 8
+  }
+}

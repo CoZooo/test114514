@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:monster_skin"
+      },
+      "count": 13
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:fangofthe_hound_leader"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "wizards_reborn:precision_crystal"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_umx32_koei"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

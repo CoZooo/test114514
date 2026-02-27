@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "chapter_of_yuusha_3_core:item/war_mage_ring"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"name": "琍斯石核心",
+	"icon": "distant_worlds:lithum_core",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 8,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_core_recipe",
+			"text": "琍斯石核心是整个结构的心脏。它将之前列出的所有材料组合成一个整体，并在仪式期间指导整个结构的活动。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "在上面你可以看到两个指示器。第一个指示器，当激活时，显示与所需供应相比转移的达琍特能量。如果你打断了一个激活的仪式，能量不会回到储存库，而是会完全失去。第二个指示器显示了结构上的压力水平，以及达琍特晶体从之前的仪式中恢复所需的时间。"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "在对每个仪式的描述中，你会遇到这样的常规能量单位$(#ea7f17)$(l)DE - Dalite Energy（达琍特能量）$() 和 $(#992032)$(l)DRP - Dalite Recovery Points（达琍特能量点）$()，表示相应的值。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

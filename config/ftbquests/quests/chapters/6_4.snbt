@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_4"
+	group: "13D24688CE1CFEDA"
+	icon: {
+		Count: 1
+		id: "hmag:nemesis_blade"
+		tag: {
+			Damage: 0
+			hmag.level: 6b
+		}
+	}
+	id: "720BF9F19E0D3BAB"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 14.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 33.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 15.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 34.5d
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: ["余烬之心可以制作背刺等附魔书。任务抽奖也能获得满附魔的金刀。"]
+			id: "7FEE93A0EC622CA8"
+			rewards: [{
+				id: "7A1E85830AB255F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C23D0F87BDFF63F"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"开局树海化章节任务直接送一把，可以开局用用。"
+				""
+				"&e近战的发展路线，在匠作章节和咒法章节均有涉及。"
+				""
+				"&c近战上手较为困难，谨慎选择。"
+			]
+			id: "4B90ECAB3AB1A80A"
+			rewards: [{
+				id: "0EDBD17F523BFEEA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「落魄剑士」"
+			tasks: [{
+				id: "1683EEC3DD7E5E00"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"符文石板可用于在锻造台制作符文武器。"
+				""
+				"&6各种符文武器可直接在切石机中重置符文之力。"
+			]
+			id: "42414683631FD44D"
+			rewards: [{
+				id: "0DAF5003074DA866"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "016D69A6AF0980D8"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"可用来制作多种简易刀剑武器，建议JEI自行查看可以制作的武器，基本龙前都有着不同等级的武器。"
+				""
+				"&6部分可能用到的简易刀剑武器，如荣缎劈刀、硫磺阔剑、烈风、日炎、噩兆等。"
+				""
+				"&e硫磺阔剑的附加爆炸伤害、烈风的附加效果伤害、日炎和噩兆的战旗技能，都能很好地破适应。"
+				""
+				"&c大部分简易刀剑武器，都属于剑类，可以享受九剑归一诀的加成。"
+			]
+			id: "3D7B259CA8DDF429"
+			rewards: [{
+				id: "44A7F30BFF650121"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "765B64595B334F92"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["也许会用到。"]
+			id: "1070A4B1CA140D39"
+			rewards: [{
+				id: "5EAFAC048AF91F17"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EC4054E4DDE9783"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"近战的加伤饰品，可以直接看礼装章节的近战类和全伤类饰品，基本用到的都在里面。"
+				""
+				"&6狂野爪、古代戒指、古代吊坠饰品可以增加玩家的基础攻速，部分武器或者部分维度可能会用到。"
+			]
+			id: "01146DB59F67C389"
+			rewards: [{
+				id: "1D3706B8FF36DD56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "299DC99136A3AD31"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["也许会用到。"]
+			id: "0A9444740B72A825"
+			rewards: [{
+				id: "3210048590A5277B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AA9144E553BF812"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: [
+				"也许会用到。"
+				""
+				"&6击杀帝王云鲸可以制作一把自带背刺附魔的娜迦毒牙匕首，详见天顶巨兽章节帝王云鲸任务。"
+			]
+			id: "587B3F532CA3D19E"
+			rewards: [{
+				id: "566A45EC980C960C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C49798945D8A681"
+				item: {
+					Count: 1
+					id: "mowziesmobs:naga_fang_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["在锻造台中可制作，属于无属性打击类型攻击，可能击杀某些Boss需要。"]
+			id: "17E7EAC5E64EAECE"
+			rewards: [{
+				id: "4136E229C20ED615"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DE746AA8ECDD1D8"
+				item: {
+					Count: 1
+					id: "gauntlets:quick_netherite_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["也许会用到。"]
+			id: "4D116A07FCF5C4A9"
+			rewards: [{
+				id: "4CD162544B96344A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B2E2EEE7810C634"
+				item: {
+					Count: 1
+					id: "goety:dark_metal_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "19CE5D1E667A5F74"
+			rewards: [{
+				id: "04FFFA61784C005A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09ACB4355121201E"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F7BD35DAB662948"]
+			description: ["除了是神属性+勇者攻击类型外，无特殊之处。"]
+			id: "5AD967E08827C512"
+			rewards: [{
+				id: "695A8E17A0FE5E26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4888F1B1B73A0EFC"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "1152560507E681D7"
+			rewards: [{
+				id: "66D0F9C37383B37F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73FC0A5D2A3CC189"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["该武器可上「星裂相位」附魔。"]
+			id: "1F7BD35DAB662948"
+			rewards: [{
+				id: "7EF54922F4A8C151"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "198989118BC42E39"
+				item: {
+					Count: 1
+					id: "embers:tyrfing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "7BB9C815E78DC0F2"
+			rewards: [{
+				id: "7AC566B9CECC6BBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D530B5BAA536D32"
+				item: "malum:creative_scythe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "2CC6A898238148CA"
+			rewards: [
+				{
+					id: "1840CC7DA2E228B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "269240DDF19A4B0A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "yuusha:soul_gem_4"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CEE20A9233A214D"
+				item: {
+					Count: 1
+					id: "yuusha:forbidden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["步入龙后阶段。"]
+			id: "29373EB5DE45F287"
+			rewards: [{
+				id: "184056A2DE403D30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AC722C6E0C97A24"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["可用来在锻造台中制作远古盔甲套装。后续还能继续升级，详见宝具章节。"]
+			id: "193412518EEB94DD"
+			rewards: [{
+				id: "1E567C63E3C9963D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EC55CDC7C035444"
+				item: "yuusha:ember_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["193412518EEB94DD"]
+			description: ["可用来在锻造台中制作暗金属盔甲套装。后续还能继续升级，详见宝具章节。"]
+			id: "3E5B78429DCC04FF"
+			rewards: [{
+				id: "09EC08768B2683F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28F9C970F5D6BFA6"
+				item: "goety:cursed_metal_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E5B78429DCC04FF"]
+			description: ["可用来在锻造台中制作腾炎盔甲套装。详见宝具章节。"]
+			id: "614B93C82908FC4F"
+			rewards: [{
+				id: "631DF2557861AFDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "030488EF06EEC7EA"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["近战攻击为魔法类型攻击，但是不属于魔法伤害。"]
+			id: "2F2556AFA8560716"
+			rewards: [{
+				id: "4281521E214317C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FE4AEF8D140842C"
+				item: {
+					Count: 1
+					id: "refined_mod:flame_tongue_sword"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: ["女仆的好感度达到1级，即可获得奖励。"]
+			id: "35A7661B21E17203"
+			rewards: [{
+				id: "495B86F029F4AF9B"
+				item: "celestial_artifacts:cursed_talisman"
+				type: "item"
+			}]
+			subtitle: "非必须路线"
+			tasks: [{
+				advancement: "touhou_little_maid:favorability/favorability_increased"
+				criterion: ""
+				id: "064BAD21C4D0A366"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"钓到下界岩浆里的11种鱼类，可获得奖励。"
+				""
+				"&6该成就具体可按默认L键查看进度。"
+			]
+			id: "6275A01085C7535F"
+			rewards: [{
+				id: "435BBE32A9D395CB"
+				item: "celestial_artifacts:corrupt_badge"
+				type: "item"
+			}]
+			subtitle: "非必须路线"
+			tasks: [{
+				advancement: "netherdepthsupgrade:main/lava_fishing_master"
+				criterion: ""
+				id: "3D5692F59EDE38D5"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"饕餮之锅已受到绝望的侵袭。"
+				""
+				"&3该成就具体可按默认L键查看进度-农夫乐事栏。"
+				""
+				"&c只需要进食农夫乐事模组的菜肴即可，不用所有模组。"
+				""
+				"&6该成就需进食以下食物：盘装牧羊人派，蔬菜杂烩，混合沙拉，牛排配土豆，鸡肉汤，南瓜汤，蘑菇饭，米饭，面条汤，大骨汤，碗装填馅南瓜，牛肉炖，烘焙鳕鱼炖，盘装烤鸡，蔬菜汤，盘装蜜汁火腿，烤羊排，香烤鲑鱼，鱿鱼墨面，肉丸意面，蔬菜面，鱼肉炖，培根鸡蛋，羊排意面，炒饭"
+			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:eldritch_pan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E668522A0E11DC6"
+			rewards: [{
+				id: "5A3C7D078FEB8467"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "非必须路线"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "6FB142914028BC0D"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"可以将一定范围内的所有实体（包括生物等），吸引到玩家周围旋转。"
+				""
+				"&6也许对付某些生物比较有用，但也许没用。"
+			]
+			id: "0D29F0927DE7F6C9"
+			rewards: [{
+				id: "41B762A9F866C8BE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "非必须路线"
+			tasks: [{
+				id: "2E62BF9BB49C70DE"
+				item: "nameless_trinkets:what_magnet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D7B259CA8DDF429"]
+			description: ["符文矛和三叉戟都属于刺击攻击类型，可能用于对付某些生物。"]
+			id: "60D26730834D82C4"
+			rewards: [{
+				id: "09D466EEEA256D6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1932DB888D842E86"
+					item: {
+						Count: 1
+						id: "simplyswords:runic_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04997EAD9009E59B"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29373EB5DE45F287"]
+			description: ["也许会用到。"]
+			id: "110B6EA907E8F4B4"
+			rewards: [{
+				id: "6A2553CCA5C74660"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7959543F77A3F01E"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["&9『近战使用指南』"]
+	title: "&6※ 狂人"
+}

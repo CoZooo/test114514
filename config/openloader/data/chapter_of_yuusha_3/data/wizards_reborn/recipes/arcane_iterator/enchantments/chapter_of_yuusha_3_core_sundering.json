@@ -1,0 +1,47 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "enchantment": {
+    "enchantment": "chapter_of_yuusha_3_core:sundering"
+  },
+  "wissen": 10000,
+  "experience": 100,
+  "health": 100,
+  "ingredients": [
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    }
+  ]
+}

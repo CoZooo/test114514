@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:time_blade",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "slashblade:yamato",
+        "refine": 5
+      }
+    },
+    "A": {
+      "item": "minecraft:clock"
+    },
+    "B": {
+      "item": "shizuku:meow_stone"
+    },
+    "C": {
+      "item": "minecraft:redstone_block"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    },
+    "G": {
+      "item": "minecraft:nether_star"
+    },
+    "H": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "K": {
+      "item": "minecraft:end_crystal"
+    },
+    "F": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "pattern": [
+    "ABH",
+    "DEF",
+    "CGK"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
+
+

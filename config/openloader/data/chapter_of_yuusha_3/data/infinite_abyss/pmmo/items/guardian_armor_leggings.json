@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "infinite_abyss:sixth_layer": {
+            "salvageMax": 1,
+            "baseChance": 0.1,
+            "maxChance": 0.2,
+            "chancePerLevel": {
+                "smithing": 0.005
+            },
+            "levelReq": {
+                "smithing": 300
+            },
+            "xpPerItem": {
+                "smithing": 8500
+            }
+        }
+    }
+}

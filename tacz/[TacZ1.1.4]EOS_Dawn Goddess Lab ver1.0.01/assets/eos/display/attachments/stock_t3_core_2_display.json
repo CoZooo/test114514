@@ -1,0 +1,7 @@
+{
+  "slot": "eos:attachment/slot/stock_t3_core_2",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

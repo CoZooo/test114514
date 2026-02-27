@@ -1,0 +1,36 @@
+#耀魂喷泉模块开关
+enableSoulTrapezoid = true
+#下界之星增强面板模块开关
+enableNetherStarUpgrade = true
+#耀魂喷泉门槛
+#Range: 100 ~ 10000
+soulCost = 1000
+#下界之星增加刀面板(需要填充时比期望面板少1)
+#Range: 10 ~ 100
+maxAttackModifier = 40
+#拔刀触发幻影剑技
+enableDoSlash = true
+#SS后攻击变三段
+enabless = false
+#快刀无感模块
+disable_stun = true
+#经验值增伤
+xp_add = false
+#是否开启持刀无法交互除刀以外的所有的可交互选项功能
+disableOtherInteractions = false
+#幻影剑倍率模块精炼等级加成系数
+#Range: 0.0 ~ 1.7976931348623157E308
+refinedFactor = 0.1
+#幻影剑倍率模块基础攻击修正系数
+#Range: 0.0 ~ 1.7976931348623157E308
+attackModifierFactor = 0.25
+#刀光倍率模块基础攻击修正系数
+#Range: 0.0 ~ 1.7976931348623157E308
+attackModifierFactor_slash_effect = 1.0
+#伤害浮动化
+damage_random = false
+#瞬步扣血开关
+let_go = false
+#瞬步扣血开启后是否是sst模式，需开启瞬步扣血后才生效
+let_go_sst = false
+

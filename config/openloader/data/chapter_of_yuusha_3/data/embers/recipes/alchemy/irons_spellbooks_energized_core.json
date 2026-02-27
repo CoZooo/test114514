@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    }
+  ],
+  "output": {
+    "item": "irons_spellbooks:energized_core",
+	"count": 1
+  },
+  "tablet": {
+    "item": "call_of_yucutan:ancient_gold"
+  }
+}

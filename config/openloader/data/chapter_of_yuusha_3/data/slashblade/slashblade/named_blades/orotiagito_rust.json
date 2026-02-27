@@ -1,0 +1,22 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:orotiagito_rust",
+  "properties": {
+    "attack_base": 13.0,
+    "max_damage": 26,
+    "sword_type": [
+      "sealed"
+    ],
+    "slash_art": "slashblade:drive_horizontal"
+  },
+  "render": {
+    "model": "slashblade:model/named/agito.obj",
+	"summon_sword_color": 8865823,
+    "texture": "slashblade:model/named/agito_rust_true.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "add_cosmetic": false,
+  "icon": "yuusha:slot/magnet",
+  "operation": "SET",
+  "order": 11,
+  "render_toggle": true,
+  "replace": false,
+  "size": 1,
+  "use_native_gui": true
+}

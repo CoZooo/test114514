@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "forge:plates/lead"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "P",
+    "L"
+  ],
+  "result": {
+    "item": "embers:item_dial",
+	"count": 4
+  },
+  "show_notification": true
+}

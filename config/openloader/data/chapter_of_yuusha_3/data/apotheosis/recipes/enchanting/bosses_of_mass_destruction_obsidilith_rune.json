@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "minecraft:crying_obsidian"
+	},
+	"requirements": {
+		"eterna": 30,
+		"quanta": 20,
+		"arcana": 5
+	},
+	"result": {
+		"item": "bosses_of_mass_destruction:obsidilith_rune",
+		"count": 1
+	}
+}

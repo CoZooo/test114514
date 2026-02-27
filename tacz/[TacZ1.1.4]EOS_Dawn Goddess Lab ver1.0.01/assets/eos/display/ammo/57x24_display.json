@@ -1,0 +1,8 @@
+{
+  "slot": "eos:ammo/slot/57x24",
+  "shell": {
+    "model": "eos:shell/57x24_shell",
+    "texture": "eos:shell/shell"},
+  "tracer_color": "#ffd580"
+}
+    

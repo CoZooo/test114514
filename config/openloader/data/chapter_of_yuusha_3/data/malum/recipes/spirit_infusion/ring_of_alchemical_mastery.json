@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "eidolon:lesser_soul_gem"
+    },
+    {
+      "count": 4,
+      "item": "goety:snap_warts"
+    },
+    {
+      "count": 1,
+      "item": "wizards_reborn:wissen_tea_bucket"
+    },
+    {
+      "count": 1,
+      "item": "eidolon:unholy_symbol"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "output": {
+    "item": "malum:ring_of_alchemical_mastery"
+  },
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 16
+    },
+    {
+      "type": "arcane",
+      "count": 16
+    },
+    {
+      "type": "aqueous",
+      "count": 16
+    },
+    {
+      "type": "aerial",
+      "count": 16
+    }
+  ]
+}

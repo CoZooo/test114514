@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "wizards_reborn:alchemy_calx"
+    },
+    {
+      "count": 4,
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "minecraft:glass"
+  },
+  "output": {
+    "count": 4,
+    "item": "wizards_reborn:alchemy_glass"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    }
+  ]
+}

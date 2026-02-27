@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "aether:ambrosium_ore"
+  },
+  "to": {
+    "item": "wizards_reborn:arcane_gold_ore"
+  }
+}

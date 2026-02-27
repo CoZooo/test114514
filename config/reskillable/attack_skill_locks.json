@@ -1,0 +1,5 @@
+{
+  "attackSkillLocks": {
+	"minecraft:ender_dragon": ["attack:1"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:wound_rime_blade",
+        "Count": 1
+      }
+    }
+  },
+  "power": 5.0,
+  "ingredients": [
+    {
+      "item": "goety_revelation:revelation"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "avaritia:infinity_ingot"
+    },
+    {
+      "item": "goety_revelation:quietus_star"
+    },
+    {
+      "item": "yuusha:blood_star"
+    }
+  ]
+}

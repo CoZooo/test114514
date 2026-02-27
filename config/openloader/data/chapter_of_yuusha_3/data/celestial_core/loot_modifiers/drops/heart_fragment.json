@@ -1,0 +1,13 @@
+{
+  "type": "celestial_core:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "aquamirae:captain_cornelia"
+      }
+    }
+  ],
+  "item": "celestial_core:heart_fragment"
+}

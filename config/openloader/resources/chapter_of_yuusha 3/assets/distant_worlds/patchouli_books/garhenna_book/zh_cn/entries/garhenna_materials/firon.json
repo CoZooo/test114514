@@ -1,0 +1,57 @@
+{
+	"name": "菲隆",
+	"icon": "distant_worlds:firon_ingot",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:firon_nugget",
+			"text": "菲隆是在整个迦赫纳维度发现的一种有价值的矿石，数量很少。通过挖掘矿石，你将获得粗菲隆，稍后必须将其冶炼成菲隆粒。菲隆锭可以用9个粒制作。像所有由这种材料制成的设备一样，菲隆锭不易受到高温火焰或熔岩的影响。 "
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:firon_ingot_recipe",
+			"recipe2": "distant_worlds:firon_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_firon_block_recipe",
+			"recipe2": "distant_worlds:raw_firon_recipe"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"advancement": "distant_worlds:does_it_smile",
+			"item": "distant_worlds:glistering_garsale_fruit",
+			"text": "除其他外，你可以在迦塞尔果上覆盖一层菲隆，然后获得闪光 迦塞尔果。它具有非常强的治疗特性，能够让你长期处于饱和状态。闪光迦塞尔果也可以储存在大盒子里。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:glistering_garsale_fruit_cover_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:does_it_smile",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:glistering_garsale_fruit_box_recipe",
+			"recipe2": "distant_worlds:glistering_garsale_fruit_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/firon_tools",
+				"distant_worlds:garhenna_armor/firon_armor",
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "distant_worlds:ancient_garhenna_papers"
+  },
+  "craftType": "expert_nether",
+  "entity_to_sacrifice": {
+    "tag": "goety:fairy",
+    "display_name": "entity.touhou_little_maid.fairy"
+  },
+  "soulCost": 500,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_feather"
+    },
+    {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    {
+      "item": "eidolon:magic_ink"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:puzzle_item"
+  }
+}

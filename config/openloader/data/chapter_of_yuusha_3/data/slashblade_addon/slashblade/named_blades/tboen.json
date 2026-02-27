@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:hand_of_thief",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:tboen",
+  "properties": {
+    "attack_base": 36.0,
+    "max_damage": 72,
+    "slash_art": "ak:time_zero",
+    "sword_type": [
+      "none"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/tboen/model.obj",
+	"summon_sword_color": 132112255,
+    "texture": "slashblade_addon:model/tboen/texture.png"
+  }
+}

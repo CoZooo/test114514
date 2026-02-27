@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    }
+  ],
+  "name": "ak:spider",
+  "properties": {
+    "attack_base": 38.0,
+    "max_damage": 76,
+    "slash_art": "slashblade:void_slash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/spider/sange.obj",
+    "summon_sword_color": 4265029,
+    "texture": "ak:model/named/spider/blood.png"
+  }
+}

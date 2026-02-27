@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 1,
+      "item": "moonstone:blackeorb"
+    },
+    {
+      "count": 1,
+      "item": "moonstone:whiteorb"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:lost_blade_fake"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "forbidden_arcanus:eternal_stella"
+  },
+  "output": {
+    "count": 1,
+    "item": "chapter_of_yuusha_3_core:recoil_absorber"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 16
+    },
+    {
+      "type": "sacred",
+      "count": 16
+    },
+    {
+      "type": "aerial",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+	"name": "海琍斯特",
+	"icon": "distant_worlds:helyst_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 2,
+	"advancement": "distant_worlds:encased_soul",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:helyst_nugget",
+			"text": "海琍斯特——迷人的多面蓝色水晶。不要盯着他们看太久，否则你可能会与被监禁在那里的灵魂之一发生眼神交流。有价值的海琍斯特矿石最常见于死亡山谷生物群系的琍斯石中。通过挖掘矿石，你将获得原始海琍斯特，稍后必须将其冶炼成海琍斯特粒。一颗海琍斯特水晶可以由9个粒制成。 "
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:helyst_crystal_recipe",
+			"recipe2": "distant_worlds:helyst_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_helyst_block_recipe",
+			"recipe2": "distant_worlds:raw_helyst_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/helyst_tools",
+				"distant_worlds:garhenna_armor/helyst_armor"
+			]
+		}
+	]
+}

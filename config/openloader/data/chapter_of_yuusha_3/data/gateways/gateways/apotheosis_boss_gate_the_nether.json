@@ -1,0 +1,153 @@
+{
+	"size": "medium",
+	"color": "#8552a1",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/wither_skeleton_girl"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/piglin_brute"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/grimoireofgaia_succubus"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/grimoireofgaia_wither_cow"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/fortress_keeper"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/born_in_chaos_v1_firelight"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/zombified_piglin"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_nether/zoglin"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 1
+			}
+		}
+	]
+}

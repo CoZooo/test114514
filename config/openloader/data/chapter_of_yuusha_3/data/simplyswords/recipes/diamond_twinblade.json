@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "aether:skyroot_stick"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "  X",
+    " # ",
+    "X  "
+  ],
+  "result": {
+    "item": "simplyswords:diamond_twinblade"
+  }
+}

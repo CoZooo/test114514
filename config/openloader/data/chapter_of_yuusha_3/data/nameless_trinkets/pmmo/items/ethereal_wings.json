@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "flying": 50 },
+    "USE": { "flying": 50 }
+	},
+  "negative_effect": 
+    { 
+	"apotheosis_modern_ragnarok:freeze": 4, 
+	"aetherworks:pulldown": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

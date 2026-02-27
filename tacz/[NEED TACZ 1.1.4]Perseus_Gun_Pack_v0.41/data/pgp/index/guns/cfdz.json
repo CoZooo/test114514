@@ -1,0 +1,8 @@
+{
+  "name": "pgp.gun.cfdz.name",
+  "display": "pgp:cfdz_display",
+  "data": "pgp:cfdz_data",
+  "tooltip": "pgp.gun.cfdz.desc",
+  "type": "pistol",
+  "sort": 2
+}

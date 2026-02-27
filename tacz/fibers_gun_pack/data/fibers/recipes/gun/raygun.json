@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "distant_worlds:firon_ingot"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:magma_ingot"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "aetherworks:aspectus_aetherium"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "fibers:raygun"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

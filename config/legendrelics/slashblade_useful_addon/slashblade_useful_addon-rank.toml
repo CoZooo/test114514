@@ -1,0 +1,9 @@
+#评分增加额外伤害模块是否开启
+enable_rank_add_damage = false
+#评分增加额外伤害的倍率（每一级评分增加的倍率）
+#Range: 0.0 ~ 1.7976931348623157E308
+rank_add_damage_count = 0.3
+#3s时攻击额外造成真实伤害的数值（为0即可关闭）
+#Range: 0.0 ~ 1.7976931348623157E308
+sss_void_attack = 0.3
+

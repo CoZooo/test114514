@@ -1,0 +1,334 @@
+'mowziesmobs:sculptor' : '',
+'mowziesmobs:frostmaw' : '',
+'mowziesmobs:umvuthi' : 'goety:spasms,lvl:1,duration:5',
+'mowziesmobs:ferrous_wroughtnaut' : '',
+
+'mutantmonsters:mutant_creeper' : 'goety:acid_venom,lvl:5,duration:10|attributeslib:grievous,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'mutantmonsters:mutant_enderman' : 'goety:acid_venom,lvl:5,duration:10|attributeslib:grievous,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'mutantmonsters:mutant_skeleton' : 'attributeslib:grievous,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'mutantmonsters:mutant_zombie' : 'attributeslib:grievous,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+
+'cataclysm:scylla' : 'goety:storms_wrath,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+
+'mokels_boss_mantyd:boss_mantyd' : 'goety:spasms,lvl:4,duration:5|attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:10,duration:10|goety:sapped,lvl:5,duration:30',
+'mokels_witch_boss:witchboss' : 'goety:spasms,lvl:5,duration:5|attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:the_plauge_bringer' : 'attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:pbdowned' : 'attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:the_plauge_bringerp_2' : 'attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+'goety:minister' : 'attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+'meetyourfight:swampjaw' : 'attributeslib:grievous,lvl:2,duration:10|attributeslib:bleeding,lvl:20,duration:10|goety:sapped,lvl:5,duration:30',
+
+'minecraft:elder_guardian' : 'aether:inebriation,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'call_of_drowner:drowner' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|attributeslib:grievous,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'call_of_drowner:deepwater_piranha' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|attributeslib:grievous,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'cataclysm:the_leviathan' : 'minecraft:mining_fatigue,lvl:8,duration:10|aether_redux:adrenal_fatigue,lvl:2,duration:10|cataclysm:bone_fracture,lvl:2,duration:10|cataclysm:abyssal_burn,lvl:5,duration:10|attributeslib:grievous,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'meetyourfight:bellringer' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+
+'bosses_of_mass_destruction:lich' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'aquamirae:captain_cornelia' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'goety:crone' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'cthulhufishing:ice_crab' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|goety:sapped,lvl:5,duration:30',
+'minecraft:wither' : 'minecraft:wither,lvl:5,duration:30|attributeslib:grievous,lvl:3,duration:30|minecraft:hunger,lvl:20,duration:30|chapter_of_yuusha_3_core:voidification,lvl:4,duration:30|goety:sapped,lvl:10,duration:30',
+
+'bosses_of_mass_destruction:void_blossom' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:terrible_ten' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:ttphase_2' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:puny_juggernaut' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_boot' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_fool' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_heavyman' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_leaper' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_longarm' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknightfist' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:blocknight_paladin' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'cthulhufishing:fossil_fish' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'hs_bosses:sand_warrior' : 'attributeslib:bleeding,lvl:40,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'cataclysm:ancient_remnant' : 'attributeslib:bleeding,lvl:50,duration:5|goety:plunge,lvl:2,duration:30|attributeslib:grievous,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+
+'aether:slider' : 'attributeslib:bleeding,lvl:50,duration:5|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|cataclysm:bone_fracture,lvl:1,duration:10|goety:sapped,lvl:10,duration:30',
+'aether:valkyrie_queen' : 'aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:1,duration:10|cataclysm:bone_fracture,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'ancient_ones:witch_king' : 'aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:1,duration:10|cataclysm:bone_fracture,lvl:1,duration:10|goety:sapped,lvl:5,duration:30',
+'ancient_aether:mutated_aechor_plant' : 'attributeslib:bleeding,lvl:100,duration:5|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|cataclysm:bone_fracture,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'ancient_ones:amethyst_colossus' : 'attributeslib:bleeding,lvl:100,duration:5|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|cataclysm:bone_fracture,lvl:2,duration:10|goety:sapped,lvl:5,duration:30',
+'theinkarena:blot' : 'castle_in_the_sky:sacred_castle_effect,lvl:1,duration:30|chapter_of_yuusha_3_core:voidification,lvl:6,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|cataclysm:bone_fracture,lvl:5,duration:30|goety:plunge,lvl:2,duration:30|theinkarena:inked,lvl:1,duration:30|goety:doom,lvl:40,duration:30',
+'lost_aether_content:aerwhale_king' : 'chapter_of_yuusha_3_core:voidification,lvl:4,duration:1|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:sapped,lvl:50,duration:30',
+
+'minecraft:warden' : 'attributeslib:grievous,lvl:2,duration:10|goety:flammable,lvl:20,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|goety:sapped,lvl:5,duration:30',
+'callfromthedepth_:corruptedstalker' : 'attributeslib:grievous,lvl:2,duration:10|goety:flammable,lvl:100,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|goety:sapped,lvl:5,duration:30',
+'callfromthedepth_:agonysoul' : 'attributeslib:grievous,lvl:2,duration:10|goety:flammable,lvl:100,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|goety:sapped,lvl:5,duration:30',
+'whisperwoods:hirschgeist' : 'goety:flammable,lvl:200,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|goety:sapped,lvl:5,duration:30',
+'eeeabsmobs:nameless_guardian' : 'goety:flammable,lvl:200,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|goety:sapped,lvl:5,duration:30',
+
+'darkdoppelganger:dark_doppelganger' : 'attributeslib:bleeding,lvl:100,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:krampus' : 'attributeslib:bleeding,lvl:100,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:krampus_henchman' : 'attributeslib:bleeding,lvl:100,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:10,duration:30',
+
+'irons_spellbooks:dead_king' : 'goety:plunge,lvl:2,duration:10|goety:tangled,lvl:2,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:5,duration:30|goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'born_in_chaos_v1:lord_pumpkinhead' : 'goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:lord_pumpkinhead_head' : 'goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:lord_pumpkinhead_withouta_horse' : 'goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:lord_the_headless' : 'goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'born_in_chaos_v1:lords_felsteed' : 'goety:flammable,lvl:200,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'meetyourfight:dame_fortuna' : 'attributeslib:bleeding,lvl:100,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+
+'minecraft:ender_dragon' : 'attributeslib:grievous,lvl:2,duration:10|chapter_of_yuusha_3_core:voidification,lvl:8,duration:10|goety:sapped,lvl:10,duration:30',
+
+'luminous_halloween:horseless_headsman' : 'goety:stunned,lvl:1,duration:2|goety:ender_flux,lvl:1,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'stalwart_dungeons:nether_keeper' : 'goety:stunned,lvl:1,duration:2|goety:ender_flux,lvl:1,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'goety:hostile_redstone_golem' : 'goety:stunned,lvl:1,duration:1|goety:ender_flux,lvl:1,duration:2|goety:flammable,lvl:200,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'call_of_yucutan:ah_puch' : 'goety:stunned,lvl:1,duration:1|goety:ender_flux,lvl:1,duration:2|goety:flammable,lvl:200,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'call_of_yucutan:kukulkan' : 'goety:stunned,lvl:1,duration:1|goety:ender_flux,lvl:1,duration:2|goety:flammable,lvl:200,duration:30|born_in_chaos_v1:infernal_flame,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+
+'bosses_of_mass_destruction:obsidilith' : 'goety:stunned,lvl:1,duration:1|chapter_of_yuusha_3_core:voidification,lvl:7,duration:5|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:5,duration:30',
+'cataclysm:ender_guardian' : 'goety:stunned,lvl:1,duration:1|chapter_of_yuusha_3_core:voidification,lvl:8,duration:5|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'eeeabsmobs:corpse_warlock' : 'goety:stunned,lvl:1,duration:1|chapter_of_yuusha_3_core:voidification,lvl:8,duration:5|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:5,duration:30',
+'graveyard:lich' : 'goety:stunned,lvl:1,duration:1|goety:ender_flux,lvl:1,duration:2|chapter_of_yuusha_3_core:voidification,lvl:7,duration:5|celestial_core:soul_shatter,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+
+
+'cataclysm:the_harbinger' : 'attributeslib:bleeding,lvl:200,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'corundumguardian:corundum_guardian' : 'goety:stunned,lvl:1,duration:1|attributeslib:bleeding,lvl:200,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:10,duration:30',
+'ancient_ones:tm_29' : 'attributeslib:bleeding,lvl:200,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:20,duration:30',
+'binah:binah_v_2' : 'attributeslib:bleeding,lvl:200,duration:30|attributeslib:grievous,lvl:2,duration:30|goety:sapped,lvl:20,duration:30',
+
+'bosses_of_mass_destruction:gauntlet' : 'goety:flammable,lvl:250,duration:30|born_in_chaos_v1:infernal_flame,lvl:10,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:doom,lvl:40,duration:30',
+'stalwart_dungeons:awful_ghast' : 'goety:flammable,lvl:250,duration:30|born_in_chaos_v1:infernal_flame,lvl:10,duration:30|goety:doom,lvl:40,duration:30',
+
+'cataclysm:netherite_monstrosity' : 'goety:plunge,lvl:1,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'cataclysm:ignis' : 'goety:plunge,lvl:1,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+
+'arkane_domains:dark_shaman' : 'attributeslib:bleeding,lvl:200,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30',
+'goety:hostile_redstone_monstrosity' : 'attributeslib:bleeding,lvl:200,duration:30|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30',
+'goety:vizier' : 'attributeslib:bleeding,lvl:200,duration:5|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30',
+'faded_conquest_2:aero_guardian' : 'attributeslib:bleeding,lvl:200,duration:5|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30|goety:doom,lvl:40,duration:30',
+'faded_conquest_2:doomharbor_lich' : 'attributeslib:bleeding,lvl:200,duration:5|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30|goety:doom,lvl:40,duration:30',
+'faded_conquest_2:lich_phase_2' : 'attributeslib:bleeding,lvl:200,duration:5|goety:plunge,lvl:2,duration:10|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:20,duration:30|goety:doom,lvl:40,duration:30',
+
+'arcalis_bosses:jack' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'arcalis_bosses:the_deathbringer' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'cthulhufishing:obsessed_eye_boss' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'meetyourfight:rosalyne' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'meetyourfight:rose_spirit' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30',
+'faded_conquest_2:faded_king' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30|goety:doom,lvl:40,duration:30',
+'faded_conquest_2:faded_kingp_2' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30|goety:doom,lvl:40,duration:30',
+
+'arcalis_bosses:captain_deadbone' : 'chapter_of_yuusha_3_core:voidification,lvl:9,duration:15|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'infinite_abyss:charya' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:15|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'infinite_abyss:crystal_construct' : 'chapter_of_yuusha_3_core:voidification,lvl:9,duration:15|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+
+'cataclysm:maledictus' : 'goety:plunge,lvl:2,duration:30|chapter_of_yuusha_3_core:voidification,lvl:13,duration:30|attributeslib:grievous,lvl:3,duration:30|goety:sapped,lvl:5,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3',
+'infinite_abyss:frozen_wither' : 'aquamirae:armor_decrease,lvl:5,duration:30|attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3',
+
+'goety:wither_necromancer' : 'goety:plunge,lvl:2,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:50,duration:30|goety:doom,lvl:40,duration:30',
+'depthcrawler:jabberwock' : 'goety:plunge,lvl:2,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:50,duration:30',
+'depthcrawler:deepboss' : 'goety:plunge,lvl:2,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:50,duration:30',
+'depthcrawler:ancientdeep' : 'goety:plunge,lvl:2,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:50,duration:30',
+
+'faded_conquest_2:vessel_of_calamity' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|goety:doom,lvl:40,duration:30',
+'faded_conquest_2:vessel_sword' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|goety:doom,lvl:40,duration:30',
+'faded_conquest_2:vessel_shield' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30|goety:doom,lvl:40,duration:30',
+'goety:apostle' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'angelcraft_bosses:boos' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'angelcraft_bosses:boos_artemis' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'angelcraft_bosses:broken_angel' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'entity_303:entity_303' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:grievous,lvl:4,duration:30|goety:sapped,lvl:5,duration:30',
+'entity_303:spirits' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:grievous,lvl:4,duration:30',
+
+'stalwart_dungeons:shelterer' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'stalwart_dungeons:shelterer_without_armor' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'faded_conquest_2:radiance_guardian' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+
+'sons_of_sins:betrayed_guzzler' : 'chapter_of_yuusha_3_core:voidification,lvl:15,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+
+'sons_of_sins:curse' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:30|attributeslib:sundering,lvl:5,duration:30',
+'sons_of_sins:wistiver' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'sons_of_sins:walking_bed' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'sons_of_sins:prowler' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'sons_of_sins:kelvin' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'sons_of_sins:blud' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+'sons_of_sins:butcher' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:sundering,lvl:5,duration:30|minecraft:health_boost,lvl:-250,duration:30',
+
+'cataclysm:nameless_sorcerer' : 'chapter_of_yuusha_3_core:voidification,lvl:16,duration:30|attributeslib:sundering,lvl:5,duration:30',
+'awakened_bosses:herobrine' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'awakened_bosses:herobrine_minion' : 'attributeslib:sundering,lvl:30,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'awakened_bosses:mahva' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'awakened_bosses:prowler' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'awakened_bosses:reeker' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'aether:sun_spirit' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'aether:fire_minion' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+'eeeabsmobs:immortal' : 'attributeslib:sundering,lvl:10,duration:30|chapter_of_yuusha_3_core:voidification,lvl:20,duration:30',
+
+
+'minecraft:stray' : 'minecraft:blindness,lvl:1,duration:5',
+'minecraft:zombie' : 'minecraft:hunger,lvl:2,duration:5',
+'minecraft:pillager' : 'minecraft:poison,lvl:5,duration:5',
+'minecraft:skeleton' : 'cataclysm:bone_fracture,lvl:2,duration:5',
+'minecraft:wither_skeleton' : 'minecraft:wither,lvl:5,duration:5',
+
+'minecraft:vex' : 'aquamirae:armor_decrease,lvl:5,duration:5|minecraft:poison,lvl:2,duration:5|minecraft:wither,lvl:2,duration:5|chapter_of_yuusha_3_core:voidification,lvl:2,duration:5',
+
+'majruszsdifficulty:cursed_armor' : 'minecraft:poison,lvl:5,duration:5|chapter_of_yuusha_3_core:voidification,lvl:1,duration:5',
+
+'callfromthedepth_:screamer' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:seeker' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:rotwalker' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:mushroom' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:riper' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:deepspider' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:sculkcreeper' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:roteater' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'callfromthedepth_:citadelguardian' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'goety:wight' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+
+'eeeabsmobs:guling_sentinel' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+'eeeabsmobs:guling_sentinel_heavy' : 'goety:flammable,lvl:100,duration:10|born_in_chaos_v1:infernal_flame,lvl:5,duration:10',
+
+'call_of_drowner:tide_raiser' : 'chapter_of_yuusha_3_core:voidification,lvl:3,duration:10|attributeslib:grievous,lvl:1,duration:10',
+
+'sleep_killer:sleep_killer' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'eyesinthedark:eyes_in_the_dark' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'theplaguedoctor:plague_doctor' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'hardtodestroyreptile:the_hard_to_destroy_reptile' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'starvingskeleton:starving_skeleton' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+
+'cataclysm:koboleton' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'cataclysm:kobolediator' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+'cataclysm:wadjet' : 'attributeslib:bleeding,lvl:50,duration:10|attributeslib:grievous,lvl:2,duration:10',
+
+'theinkarena:splotch' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:titan_splotch' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:soul_specter' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:soul_tendril' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:morphink' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:ink_worm' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:ink_brute' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:natural_ink_brute' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:ink_titan' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:natural_ink_titan' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|attributeslib:grievous,lvl:2,duration:10|goety:plunge,lvl:2,duration:10',
+'theinkarena:blot_tendril' : 'castle_in_the_sky:sacred_castle_effect,lvl:1,duration:30|chapter_of_yuusha_3_core:voidification,lvl:7,duration:30|aquamirae:armor_decrease,lvl:5,duration:30|attributeslib:grievous,lvl:2,duration:30|cataclysm:bone_fracture,lvl:5,duration:30|goety:plunge,lvl:2,duration:30|theinkarena:inked,lvl:1,duration:30',
+
+'hmag:monolith' : 'chapter_of_yuusha_3_core:voidification,lvl:4,duration:1|attributeslib:grievous,lvl:2,duration:10',
+
+'goety:skull_lord' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|cataclysm:bone_fracture,lvl:1,duration:10',
+'goety:bone_lord' : 'chapter_of_yuusha_3_core:voidification,lvl:7,duration:10|aquamirae:armor_decrease,lvl:5,duration:10|attributeslib:grievous,lvl:2,duration:10|cataclysm:bone_fracture,lvl:1,duration:10',
+
+'cataclysm:endermaptera' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:5|attributeslib:grievous,lvl:2,duration:30',
+'cataclysm:ender_golem' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:5|attributeslib:grievous,lvl:2,duration:30',
+
+'cataclysm:the_prowler' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'cataclysm:the_watcher' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+
+'binah:white_cube' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'binah:yallow_cube' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'binah:dronevul' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'binah:drone_missile' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'binah:black_cube' : 'attributeslib:bleeding,lvl:250,duration:30|attributeslib:grievous,lvl:2,duration:30',
+
+'infinite_abyss:deeprock_golem' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30', 
+'infinite_abyss:fire_vortex' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30', 
+'cataclysm:ignited_revenant' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'cataclysm:ignited_berserker' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'stalwart_dungeons:reinforced_blaze' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30',
+
+'goety:redstone_golem' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30', 
+'goety:grave_golem' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30', 
+'goety:haunt' : 'chapter_of_yuusha_3_core:voidification,lvl:10,duration:30|attributeslib:grievous,lvl:2,duration:30', 
+
+'infinite_abyss:mushroom_spider' : 'goety:doom,lvl:100,duration:30|chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'infinite_abyss:disgruntled_glow_bulb' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'infinite_abyss:puffball' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:grievous,lvl:2,duration:30',
+'infinite_abyss:huge_puffball' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:grievous,lvl:2,duration:30',
+
+'cthulhufishing:cthulhu_adept' : 'chapter_of_yuusha_3_core:voidification,lvl:8,duration:30|attributeslib:grievous,lvl:2,duration:30',
+
+'infinite_abyss:guardian_knight' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30',
+'infinite_abyss:eyeball_frog' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30',
+'infinite_abyss:giant_eyeball_frog' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30',
+'infinite_abyss:chomper' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30|attributeslib:grievous,lvl:4,duration:30',
+
+'infinite_abyss:ice_creeper' : '',
+'infinite_abyss:wind_spirit' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'infinite_abyss:ice_cube' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'infinite_abyss:lightning_ghost' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'infinite_abyss:vortex' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'cataclysm:elite_draugr' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'cataclysm:draugr' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'cataclysm:royal_draugr' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+'cataclysm:aptrgangr' : 'chapter_of_yuusha_3_core:voidification,lvl:12,duration:30|apotheosis_modern_ragnarok:freeze,lvl:3,duration:30',
+
+'infinite_abyss:shadow_eyes' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'infinite_abyss:tempest_of_flame' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:deep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:electricdeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:reddeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:nightmaredeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:deepling' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:cavedeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:pinkdeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+'depthcrawler:oceanicdeep' : 'chapter_of_yuusha_3_core:voidification,lvl:11,duration:30',
+
+'majruszsdifficulty:cursed_armor' : 'chapter_of_yuusha_3_core:voidification,lvl:1,duration:30',
+
+
+
+'moonstone:small_zombie' : 'celestial_enchantments:destructed,lvl:1,duration:5',
+'irons_spellbooks:summoned_zombie' : 'minecraft:slowness,lvl:1,duration:5',
+'irons_spellbooks:summoned_skeleton' : 'minecraft:slowness,lvl:1,duration:5',
+'refined_mod:summoned_wolf' : 'minecraft:slowness,lvl:2,duration:5',
+'irons_spellbooks:summoned_polar_bear' : 'minecraft:slowness,lvl:2,duration:5',
+'irons_spellbooks:summoned_vex' : 'minecraft:slowness,lvl:3,duration:5',
+
+'ias_spellbooks:summoned_ragno' : 'minecraft:slowness,lvl:4,duration:5',
+
+'goety:cave_spider_servant' : 'minecraft:instant_damage,lvl:6,duration:3',
+'goety:web_spider_servant' : 'minecraft:instant_health,lvl:6,duration:3',
+
+'goety:phantom_servant' : 'goety:sapped,lvl:1,duration:10',
+'goety_cataclysm:clawdian' : 'goety:sapped,lvl:1,duration:10',
+'goety_cataclysm:hippocamtus' : 'aquamirae:armor_decrease,lvl:1,duration:10',
+
+'goety:ally_vex' : 'goety:sapped,lvl:2,duration:10',
+'goety:doppelganger' : 'aquamirae:armor_decrease,lvl:2,duration:10',
+'goety:guardian_servant' : 'goety:sapped,lvl:2,duration:10',
+
+'goety_cataclysm:coral_golem' : 'goety:plunge,lvl:1,duration:10',
+
+'goety_cataclysm:wadjet' : 'aquamirae:armor_decrease,lvl:3,duration:10',
+'goety_cataclysm:kobolediator' : 'goety:sapped,lvl:3,duration:10',
+
+'goety:bear_servant' : 'aquamirae:armor_decrease,lvl:3,duration:10',
+'goety:polar_bear_servant' : 'aquamirae:armor_decrease,lvl:3,duration:10',
+'goety:hoglin_servant' : 'aquamirae:armor_decrease,lvl:3,duration:10',
+'goety:poison_quill_vine' : 'goety:sapped,lvl:5,duration:10',
+'goety:poison_anemone' : 'goety:sapped,lvl:5,duration:10',
+
+'goety:watchling_servant' : 'goety:ender_ground,lvl:1,duration:10',
+'goety:snareling_servant' : 'enigmaticaddons:ichor_corrosion,lvl:2,duration:10',
+'goety:blastling_servant' : 'goety:sapped,lvl:10,duration:10',
+
+'goety:necromancer_servant' : 'goety:sapped,lvl:10,duration:10',
+'goety:cairn_necromancer_servant' : 'goety:sapped,lvl:10,duration:10',
+'goety:drowned_necromancer_servant' : 'goety:sapped,lvl:10,duration:10',
+'goety:wither_necromancer_servant' : 'goety:sapped,lvl:10,duration:10',
+
+'goety_cataclysm:watcher_servant' : 'attributeslib:sundering,lvl:1,duration:30',
+'goety_cataclysm:the_prowler' : 'attributeslib:sundering,lvl:1,duration:30',
+
+'goety_iron:dead_king_servant' : 'goety:sapped,lvl:10,duration:10',
+
+'goety:squall_golem' : 'attributeslib:sundering,lvl:2,duration:30',
+
+'goety_cataclysm:ignited_revenant' : 'goety:sapped,lvl:10,duration:10', 
+'goety_cataclysm:ignited_berserker' : 'goety:sapped,lvl:10,duration:10', 
+
+'revelationfix:heretic_servant' : 'attributeslib:sundering,lvl:3,duration:30',
+'revelationfix:maverick_servant' : 'attributeslib:sundering,lvl:3,duration:30',
+
+'goety:redstone_monstrosity' : 'goety:sapped,lvl:10,duration:10|celestial_enchantments:destructed,lvl:1,duration:10',
+'goety_cataclysm:netherite_monstrosity' : 'goety:sapped,lvl:10,duration:10|celestial_enchantments:destructed,lvl:1,duration:10',
+
+'goety_cataclysm:draugr_servant' : 'goety:sapped,lvl:10,duration:10|goety:tangled,lvl:1,duration:30|goety:plunge,lvl:2,duration:30', 
+'goety_cataclysm:royal_draugr_servant' : 'attributeslib:sundering,lvl:3,duration:30',
+'goety_cataclysm:elite_draugr_servant' : 'attributeslib:sundering,lvl:3,duration:30',
+
+'revelationfix:apostle_servant' : 'attributeslib:sundering,lvl:20,duration:30|goety:sapped,lvl:100,duration:10',
+

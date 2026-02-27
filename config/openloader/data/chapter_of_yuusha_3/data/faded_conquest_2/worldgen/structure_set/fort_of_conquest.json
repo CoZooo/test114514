@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "faded_conquest_2:fort_of_conquest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 502307870
+  }
+}

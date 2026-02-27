@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:necro_flame_bow",
+    "count": 1
+  },
+  "wissen": 7500,
+  "ingredients": [
+    {
+      "item": "morebows:netherite_bow"
+    },
+    {
+      "item": "yuusha:calamity_ingot"
+    },
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    {
+      "item": "yuusha:moon_core"
+    },
+    {
+      "item": "born_in_chaos_v1:death_totem"
+    },
+    {
+      "item": "yuusha:calamity_ingot"
+    },
+    {
+      "item": "born_in_chaos_v1:death_totem"
+    },
+    {
+      "item": "yuusha:moon_core"
+    },
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  ]
+}

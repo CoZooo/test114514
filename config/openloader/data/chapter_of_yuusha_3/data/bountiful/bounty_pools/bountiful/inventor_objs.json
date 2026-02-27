@@ -1,0 +1,86 @@
+{
+	"content": {
+		"inventor_rews_sticky_piston": {
+			"type": "item",
+			"content": "minecraft:piston",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 500
+		},
+		"inventor_objs_redstone": {
+			"type": "item",
+			"content": "minecraft:redstone",
+			"amount": {
+				"min": 2,
+				"max": 48
+			},
+			"unitWorth": 100
+		},
+		"inventor_objs_lever": {
+			"type": "item",
+			"content": "minecraft:lever",
+			"amount": {
+				"min": 2,
+				"max": 24
+			},
+			"unitWorth": 150,
+			"weightMult": 0.5
+		},
+		"inventor_objs_redstone_torch": {
+			"type": "item",
+			"content": "minecraft:redstone_torch",
+			"amount": {
+				"min": 2,
+				"max": 48
+			},
+			"unitWorth": 125
+		},
+		"inventor_objs_redstone_block": {
+			"type": "item",
+			"content": "minecraft:redstone_block",
+			"amount": {
+				"min": 2,
+				"max": 6
+			},
+			"unitWorth": 900
+		},
+		"inventor_objs_hopper": {
+			"type": "item",
+			"content": "minecraft:hopper",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000
+		},
+		"inventor_objs_repeater": {
+			"type": "item",
+			"content": "minecraft:repeater",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 600
+		},
+		"inventor_objs_comparator": {
+			"type": "item",
+			"content": "minecraft:comparator",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 700
+		},
+		"inventor_objs_natural_quartz": {
+			"type": "item",
+			"content": "malum:natural_quartz",
+			"amount": {
+				"min": 2,
+				"max": 32
+			},
+			"unitWorth": 100
+		}
+	}
+}

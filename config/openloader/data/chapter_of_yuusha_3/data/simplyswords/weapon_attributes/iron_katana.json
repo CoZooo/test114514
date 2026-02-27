@@ -1,0 +1,8 @@
+{
+  "parent": "bettercombat:katana",
+  "attributes": {
+    "attack_range": 4,
+    "two_handed": true,
+    "category": "katana"
+  }
+}

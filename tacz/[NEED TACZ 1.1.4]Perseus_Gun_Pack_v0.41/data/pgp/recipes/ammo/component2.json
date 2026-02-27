@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:aam_lv2"
+        }
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "pgp:component_lv2",
+    "count": 4
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

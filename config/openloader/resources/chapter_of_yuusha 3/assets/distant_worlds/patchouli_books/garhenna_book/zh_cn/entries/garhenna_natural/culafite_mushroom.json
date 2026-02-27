@@ -1,0 +1,33 @@
+{
+	"name": "曲菈绯蘑菇",
+	"icon": "distant_worlds:culafite_mushroom",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 6,
+	"advancement": "distant_worlds:experienced_mushroom_picker",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"link_recipe": "true",
+			"item": "distant_worlds:culafite_mushroom",
+			"text": "曲菈绯蘑菇在熔融山脉生物群系中发现。这些植物具有负面特性，可以在曲菈绯蘑菇干中稍微减弱，或者在曲菈绯药剂中增强，这会降低永久免疫水平。曲菈绯蘑菇也可以储存在小箱子里。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:culafite_mushroom_stew_recipe",
+			"recipe2": "distant_worlds:culafite_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:culafite_mushrooms_box_recipe",
+			"recipe2": "distant_worlds:culafite_mushroom_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/huge_culafite_mushrooms"
+			]
+		}
+	]
+}

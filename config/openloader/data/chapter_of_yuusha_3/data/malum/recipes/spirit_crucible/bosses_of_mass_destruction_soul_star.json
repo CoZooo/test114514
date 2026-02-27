@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 300,
+  "durabilityCost": 0,
+  "input": {
+    "item": "majruszsdifficulty:soul_jar"
+  },
+  "output": {
+    "item": "bosses_of_mass_destruction:soul_star",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 1
+    },
+    {
+      "type": "sacred",
+      "count": 1
+    }
+  ]
+}

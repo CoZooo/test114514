@@ -1,0 +1,40 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": "celestial_configs/celestial_artifacts-common.toml/materials.endEtchingDropChance",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "celestial_artifacts:enabled",
+          "item": "celestial_artifacts:end_etching"
+        },
+        {
+          "condition": "celestial_artifacts:has_curio",
+          "item": "celestial_artifacts:catastrophe_scroll"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "celestial_artifacts:has_curio",
+            "item": "celestial_artifacts:end_etching"
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:ender_dragon"
+      }
+    },
+    {
+      "category": "HARMFUL",
+      "condition": "celestial_core:player_effect",
+      "count": "celestial_configs/celestial_artifacts-common.toml/materials.endEtchingEffectRequirement"
+    }
+  ],
+  "fail": "celestial_artifacts:nebula_cube",
+  "item": "celestial_artifacts:end_etching"
+}

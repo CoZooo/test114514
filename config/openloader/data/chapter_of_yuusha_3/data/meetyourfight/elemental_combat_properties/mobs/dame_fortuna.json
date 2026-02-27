@@ -1,0 +1,9 @@
+{
+	"attack_style":"yuusha",
+	"attack_element":"god",
+	"defense_style":{
+		"magic":-25,
+		"projectile":50
+	},
+	"biome_dependency":false
+}

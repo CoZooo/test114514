@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "eidolon",
+  "pattern": [
+    " x ",
+    "s s",
+    "xpx"
+  ],
+  "key": {
+    "x": {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    "p": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "s": {
+      "item": "eidolon:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "eidolon:censer"
+  }
+}

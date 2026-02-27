@@ -1,0 +1,52 @@
+
+[Render]
+	#Disable CIL(CustomInLevel) render.
+	noModRender = false
+	#Set uom aberration post effct multiplier.
+	aberrationMultiplier = 1.0
+	#Render TimeStop shock wave effect.
+	timestopBall = true
+
+	[Render.CosmicShader]
+		#Enable cosmic renderer
+		cosmicRenderer = false
+		#cosmic shader scale
+		cosmicScale = 1.0
+		#cosmic texture covering the item
+		wrappedTextureLocation = "fantasy_ending:textures/shader/star2.png"
+		#cosmic render speed multiplier
+		#Range: 0.0 ~ 100.0
+		cosmicSpeedMultiplier = 1.0
+
+	[Render.Screen]
+		#Modify x orgin of RunicShield Overlay
+		#Range: 0 ~ 8192
+		runicShieldPosX = 0
+		#Modify y orgin of RunicShield Overlay
+		#Range: 0 ~ 8192
+		runicShieldPosY = 0
+
+	[Render.Entity]
+		#Use cute UOM model
+		uomChanMode = false
+		#Render the white ring for UOM
+		uomChanRingRender = true
+
+		[Render.Entity.Player]
+			#Use FantasyArmorSets "No right delay" mode
+			feArmor_noRightDelay = false
+
+	[Render.Shader]
+		#Use special sky renderer
+		fadedVoidSky = false
+
+[Music]
+	#Enable uom's music.
+	enableUomMusic = true
+	#Set uom's music volume.
+	#Range: 0.0 ~ 5.0
+	uomMusicVolume = 1.0
+	#Select the bgm for UOM
+	#Range: 0 ~ 1
+	uomMusicId = 0
+

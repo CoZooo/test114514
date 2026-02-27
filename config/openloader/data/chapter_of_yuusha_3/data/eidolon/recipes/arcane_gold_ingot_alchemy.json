@@ -1,0 +1,22 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "forbidden_arcanus:arcane_crystal_dust" },
+        { "item": "forbidden_arcanus:arcane_crystal_dust" },
+        { "item": "malum:infernal_spirit" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "forbidden_arcanus:deorum_ingot" },
+        { "item": "forbidden_arcanus:deorum_ingot" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:arcane_gold_ingot",
+    "count": 2
+  }
+}

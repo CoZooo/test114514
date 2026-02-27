@@ -1,0 +1,10 @@
+{
+  "add_cosmetic": false,
+  "icon": "aether:slot/shield",
+  "operation": "SET",
+  "order": 67,
+  "render_toggle": true,
+  "replace": false,
+  "size": 1,
+  "use_native_gui": true
+}

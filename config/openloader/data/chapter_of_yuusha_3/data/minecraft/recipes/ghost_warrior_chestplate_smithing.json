@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "eeeabsmobs:ghost_steel_ingot"
+  },
+  "base": {
+    "item": "aether:valkyrie_chestplate"
+  },
+  "result": {
+    "item": "eeeabsmobs:ghost_warrior_chestplate"
+  },
+  "template": {
+    "item": "eeeabsmobs:ghost_warrior_upgrade_smithing_template"
+  }
+}

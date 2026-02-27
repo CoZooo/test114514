@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "rustic_engineer:solarite_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:hot_fire_bottle"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:hotcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

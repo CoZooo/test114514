@@ -1,0 +1,38 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#FFFF84",
+	"base_wave": {
+        "entities": [{
+            "entity": "minecraft:blaze",
+            "count": 16
+        }],
+        "rewards": [{
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:blaze",
+            "rolls": 1
+        }],
+        "max_wave_time": 600,
+        "setup_time": 60
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 1,
+                "max": 100
+            },
+            "modifiers": [{
+                "attribute": "generic.max_health",
+                "operation": "multiply_base",
+                "value": 1.0
+            }]
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "name_plate"
+    },
+    "spawn_algorithm": "gateways:inward_spiral"
+}

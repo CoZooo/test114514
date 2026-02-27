@@ -1,0 +1,40 @@
+{
+  // 白名单，只有在白名单中的配方才会被显示，如果白名单为空，则所有配方都会被显示
+  // 可以使用正则表达式，正则表达式请以^开头，$结尾
+  // 这里的 ^.*$ 表示所有配方
+  // 常用例子：匹配命名空间xxx下的所有配方：^xxx:.*$
+  "whitelist": [
+    "^pgp:gun/n3516$",
+    "^pgp:gun/n3516b$",
+    "^pgp:gun/z761$",
+    "^pgp:gun/b101$",
+    "^pgp:gun/nak954$",
+    "^pgp:gun/atzkav$",
+    "^pgp:gun/cfdz$",
+
+    "^pgp:ammo/sasr_a$",
+    "^pgp:ammo/atom$",
+    "^pgp:ammo/ubp$",
+
+    "^pgp:ammo/aam1$",
+    "^pgp:ammo/aam2$",
+    "^pgp:ammo/component1$",
+    "^pgp:ammo/component2$",
+
+    "^pgp:attachment/1xscope$",
+    "^pgp:attachment/1xscopeb$",
+    "^pgp:attachment/6x12scope$",
+    "^pgp:attachment/6x12scopeb$",
+    "^pgp:attachment/coldcore$",
+    "^pgp:attachment/hotcore$",
+    "^pgp:attachment/norcore$",
+    "^pgp:attachment/screen$",
+    "^pgp:attachment/shield$",
+    "^pgp:attachment/408mars$",
+    "^pgp:attachment/6012neptune$"
+    
+  ],
+  // 黑名单，在白名单中的配方中，如果在黑名单中，则不会被显示
+  "blacklist": [
+  ]
+}

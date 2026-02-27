@@ -1,0 +1,51 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 50000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:lava_power_cell"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:lava_power_cell"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:lava_power_cell"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:lava_power_cell"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:flare_bomb_focus"
+  }
+}

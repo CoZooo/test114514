@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:launch_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "elementalcombat:essence_block_thunder"
+    },
+    {
+      "tag": "forge:storage_blocks/jade"
+    },
+    {
+      "item": "callfromthedepth_:smoothmarbleblock"
+    },
+    {
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "irons_spellbooks:energized_core"
+    }
+  ],
+  "result": {
+    "item": "goety:bolting_focus"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "refinedstorage:quartz_enriched_iron"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:mundabitur_dust"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:hk416d",
+    "attachments": {
+      "stock": "tacz:oem_stock_tactical"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

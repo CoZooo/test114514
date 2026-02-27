@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:tornado_blade",
+  "properties": {
+    "attack_base": 23.0,
+    "max_damage": 560,
+    "slash_art": "shizuku:tornado_slash",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 65280,
+    "texture": "shizuku:model/shizuku/lv.png"
+  }
+}
+
+

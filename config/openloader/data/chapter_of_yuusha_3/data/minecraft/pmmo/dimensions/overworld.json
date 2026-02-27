@@ -1,0 +1,15 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "mining": 1.25,
+		    "excavation": 1.25,
+		    "building": 1.25,
+            "woodcutting": 1.25,
+		    "farming": 1.25
+        }
+    },
+    "positive_effect":{
+        "attributeslib:sundering": 0
+    },
+    "vein_blacklist":["minecraft:bedrock"]
+}

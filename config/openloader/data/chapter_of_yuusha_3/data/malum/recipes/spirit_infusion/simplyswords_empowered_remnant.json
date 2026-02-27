@@ -1,0 +1,27 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "count": 1,
+      "item": "embers:ember_crystal"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "avaritia:diamond_lattice"
+  },
+  "output": {
+    "count": 4,
+    "item": "simplyswords:empowered_remnant"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 4
+    }
+  ]
+}

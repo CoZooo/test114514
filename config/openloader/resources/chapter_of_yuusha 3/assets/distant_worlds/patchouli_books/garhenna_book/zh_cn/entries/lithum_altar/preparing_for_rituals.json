@@ -1,0 +1,41 @@
+{
+	"name": "仪式准备",
+	"icon": "distant_worlds:dalite_staff",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 1,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:dalite_staff_recipe",
+			"text": "制作一根达琍特法杖来开始你的仪式。每次使用都会失去1点耐久。"
+		},
+		{
+			"type": "patchouli:multiblock",
+			"name": "Lithum Altar",
+			"text": "这里展示的是最简单的琍斯石祭坛，但它的一些要素可以在未来被替换。",
+			"multiblock": {
+				"pattern": [
+					[ "T   T", "     ", "     ", "     ", "T   T" ], 
+					[ "S   S", "     ", "     ", "     ", "S   S" ],
+					[ "FP PF", "P   P", "  C  ", "P   P", "FP PF" ], 
+					[ "GGRGG", "GLLLG", "RL0LR", "GLLLG", "GGRGG" ], 
+					[ "MMMMM", "MMMMM", "MMMMM", "MMMMM", "MMMMM" ]
+				],
+				"mapping": {
+					"M": "distant_worlds:meshed_lithum",
+					"R": "distant_worlds:lithum_frame",
+					"0": "distant_worlds:lithum_frame",
+					"G": "distant_worlds:glistering_lithum",
+					"L": "distant_worlds:lifeless_grass",
+					"P": "distant_worlds:lithum_pedestal",
+					"F": "distant_worlds:lithum_furnace",
+					"S": "distant_worlds:lithum_storage_initial",
+					"T": "distant_worlds:lithum_transmitter",
+					"C": "distant_worlds:lithum_core"
+				},
+				"symmetrical": true
+			}
+		}
+	]
+}

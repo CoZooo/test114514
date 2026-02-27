@@ -1,0 +1,21 @@
+{
+  "slot": "eos:attachment/slot/scope_schmidt_bender_10x56mm",
+  "model": "eos:attachment/scope_schmidt_bender_10x56mm_geo",
+  "texture": "eos:attachment/uv/scope_schmidt_bender_10x56mm",
+  "lod": {
+    "model": "eos:attachment/lod/scope_schmidt_bender_10x56mm_geo",
+    "texture": "eos:attachment/lod/scope_schmidt_bender_10x56mm"
+  },
+  "zoom": [
+    2.5,
+    5.0,
+    7.5,
+    10.0
+  ],
+  "scope": true,
+  "fov": 20.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}

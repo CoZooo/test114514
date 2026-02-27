@@ -1,0 +1,29 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    {
+      "item": "yuusha:madoka_law_shard"
+    },
+    {
+      "item": "avaritia:neutron_ingot"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+    }
+  ],
+  "output": {
+    "item": "avaritia:infinity_bow",
+	"count": 1
+  },
+  "tablet": {
+    "item": "aetherworks:crossbow_limbs"
+  }
+}

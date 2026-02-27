@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_end",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_nether",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_hot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_cold",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_magical",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_ocean",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_deep",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aetherworks:geode_basic",
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "random_sequence": "yuusha:archaeology/blaze_misc"
+}

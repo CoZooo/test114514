@@ -1,0 +1,32 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:wanderer",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 100
+      }
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "I": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "Q": {
+      "tag": "forge:gems/quartz"
+    }
+  },
+  "pattern": [
+    "  I",
+    "QI ",
+    "BC "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:light_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:kamuy_none",
+  "properties": {
+    "attack_base": 34.0,
+    "max_damage": 68,
+    "slash_art": "slashblade:piercing",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/kamuy/kamuy.obj",
+	"summon_sword_color": 11515099,
+    "texture": "slashblade_addon:model/kamuy/kamuy.png"
+  }
+}

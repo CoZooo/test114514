@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 1200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "crockpot:gnaws_coin"
+  },
+  "output": {
+    "item": "crockpot:gnaws_coin",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 16
+    },
+    {
+      "type": "aerial",
+      "count": 16
+    },
+    {
+      "type": "aqueous",
+      "count": 16
+    },
+    {
+      "type": "infernal",
+      "count": 16
+    }
+  ]
+}

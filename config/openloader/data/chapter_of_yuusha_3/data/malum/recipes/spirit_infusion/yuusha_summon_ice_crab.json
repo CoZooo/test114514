@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "celestial_core:treasure_fragment",
+    "count": 1
+  },
+  "output": {
+    "item": "confluence:frozen_turtle_shell",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_ice_crab",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "cataclysm:gauntlet_of_guard"
+    },
+    "addition": {
+        "item": "graveyard:white_bone_staff"
+    },
+    "result": {
+        "item": "cataclysm:gauntlet_of_maelstrom"
+    }
+}

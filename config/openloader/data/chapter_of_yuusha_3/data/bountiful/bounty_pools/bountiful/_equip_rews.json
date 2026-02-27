@@ -1,0 +1,65 @@
+{
+	"content": {
+
+		"equip_rew_shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "artifacts:umbrella",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2000,
+			"nbt": "{Damage:0}"
+		},
+		
+		"equip_rew_shield_of_inebriation": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "ancient_aether:shield_of_inebriation",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"nbt": "{Damage:0}"
+		},
+		
+		"equip_rew_shield_of_remediation": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "ancient_aether:shield_of_remediation",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"nbt": "{Damage:0}"
+		},
+		
+		"equip_rew_shield_of_repulsion": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "aether:shield_of_repulsion",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"nbt": "{Damage:0}"
+		},
+		
+		"equip_rew_snailshell_shield": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "aether_redux:snailshell_shield",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000,
+			"nbt": "{Damage:0}"
+		}
+
+	}
+}

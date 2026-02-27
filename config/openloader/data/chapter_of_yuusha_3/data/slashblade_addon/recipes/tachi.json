@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:tachi",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "slashblade:slashblade"
+    },
+    "P": {
+      "item": "slashblade:proudsoul"
+    },
+    "S": {
+      "item": "deep_aether:skyjade_sword"
+    }
+  },
+  "pattern": [
+    "  P",
+    " B ",
+    "S  "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

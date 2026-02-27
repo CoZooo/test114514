@@ -1,0 +1,155 @@
+{
+	"size": "medium",
+	"color": "#464547",
+	"spawn_range": 16,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "theinkarena:splotch",
+					"count": 12
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "theinkarena:ink_waste",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "theinkarena:splotch",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_worm",
+					"count": 4
+				},
+				{
+					"entity": "theinkarena:ink_brute",
+					"count": 4
+				},
+				{
+					"entity": "theinkarena:soul_specter",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "theinkarena:ink_waste",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3000,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "theinkarena:splotch",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_worm",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_brute",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:soul_specter",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:morphink",
+					"count": 4
+				},
+				{
+					"entity": "theinkarena:soul_tendril",
+					"count": 4
+				},
+				{
+					"entity": "theinkarena:ink_titan",
+					"count": 1
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "theinkarena:ink_waste",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "theinkarena:splotch",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_worm",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_brute",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:soul_specter",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:morphink",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:soul_tendril",
+					"count": 2
+				},
+				{
+					"entity": "theinkarena:ink_titan",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "theinkarena:ink_waste",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 4200,
+			"setup_time": 60
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "theinkarena:ink_waste",
+				"count": 1
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

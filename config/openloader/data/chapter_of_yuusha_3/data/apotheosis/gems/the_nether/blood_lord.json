@@ -1,0 +1,130 @@
+{
+	"weight": 5,
+	"quality": 0.1,
+	"dimensions": [ "minecraft:the_nether" ],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"rare": 0.3,
+						"epic": 0.4,
+						"mythic": 0.5,
+						"ancient": 1.0
+					}
+				},
+				{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.3,
+						"epic": -0.4,
+						"mythic": -0.5,
+						"ancient": -1.0
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"rare": 0.3,
+						"epic": 0.4,
+						"mythic": 0.5,
+						"ancient": 1.0
+					}
+				},
+				{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.3,
+						"epic": -0.4,
+						"mythic": -0.5,
+						"ancient": -1.0
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "attributeslib:healing_received",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.25,
+				"epic": 0.35,
+				"mythic": 0.55,
+				"ancient": 0.75
+			}
+		},
+		{
+			"type": "apotheosis:bloody_arrow",
+			"values": {
+				"rare": {
+					"health_cost": 1.00,
+					"damage_mult": 2.0,
+					"cooldown": 100
+				},
+				"epic": {
+					"health_cost": 1.00,
+					"damage_mult": 3.0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"health_cost": 1.00,
+					"damage_mult": 4.0,
+					"cooldown": 100
+				},
+				"ancient": {
+					"health_cost": 1.00,
+					"damage_mult": 5.0,
+					"cooldown": 100
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "attributeslib:healing_received",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.25,
+				"epic": 0.35,
+				"mythic": 0.55,
+				"ancient": 0.75
+			}
+		}
+	]
+}

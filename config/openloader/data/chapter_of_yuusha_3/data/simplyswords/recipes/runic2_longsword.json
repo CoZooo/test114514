@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:runic_longsword"
+  },
+  "addition": {
+    "item": "embers:ancient_motive_core"
+  },
+  "result": {
+    "item": "simplyswords:runic_longsword"
+  },
+  "template": {
+    "item": "hmag:evil_crystal_upgrade_smithing_template"
+  }
+}

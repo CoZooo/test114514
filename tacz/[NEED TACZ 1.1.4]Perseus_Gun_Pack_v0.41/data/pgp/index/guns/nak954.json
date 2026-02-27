@@ -1,0 +1,8 @@
+{
+  "name": "pgp.gun.nak954.name",
+  "display": "pgp:nak954_display",
+  "data": "pgp:nak954_data",
+  "tooltip": "pgp.gun.nak954.desc",
+  "type": "rifle",
+  "sort": 1
+}

@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "celestial_artifacts:holy_sword",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "celestial_artifacts:angel_pearl"
+    },
+    {
+      "item": "angelcraft_bosses:recompensa_boss"
+    },
+    {
+      "item": "forbidden_arcanus:artisan_relic"
+    },
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "forbidden_arcanus:artisan_relic"
+    },
+    {
+      "item": "goety_revelation:revelation"
+    },
+    {
+      "item": "forbidden_arcanus:artisan_relic"
+    },
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "forbidden_arcanus:artisan_relic"
+    }
+  ]
+}

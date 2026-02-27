@@ -1,0 +1,31 @@
+{
+	"name": "瓦琍斯",
+	"icon": "distant_worlds:vairis_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 3,
+	"advancement": "distant_worlds:living_metal",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:vairis_crystal",
+			"text": "瓦琍斯是一种具有奇怪特性的金属，由发光花粉和迦塞尔黏液在高温下结合在一起形成。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_vairis_recipe",
+			"recipe2": "distant_worlds:vairis_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_vairis_block_recipe",
+			"recipe2": "distant_worlds:raw_vairis_from_block_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/vairis_tools",
+				"distant_worlds:garhenna_armor/vairis_armor"
+			]
+		}
+	]
+}

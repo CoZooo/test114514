@@ -1,0 +1,10 @@
+{
+  "slot": "eos:attachment/slot/bayonet_katana",
+  "model": "eos:attachment/bayonet_katana_geo",
+  "texture": "eos:gun/uv/elp_72_t3",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

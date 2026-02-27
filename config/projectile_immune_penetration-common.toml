@@ -1,0 +1,8 @@
+
+["Damage Settings"]
+	#是否处理多部件生物,例如末影龙
+	handleMultipartEntities = false
+	#触发弹射物免疫穿透后的伤害乘数,会在最终实体生命值更新时应用
+	#Range: 0.0 ~ 100.0
+	damageModifier = 1.0
+

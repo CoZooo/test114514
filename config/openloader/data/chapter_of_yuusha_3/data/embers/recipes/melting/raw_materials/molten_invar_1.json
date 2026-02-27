@@ -1,0 +1,14 @@
+{
+  "type": "embers:melting",
+  "bonus": {
+    "amount": 0,
+    "fluid": "embers:molten_iron"
+  },
+  "input": {
+    "item": "locusazzurro_icaruswings:steel_ingot"
+  },
+  "output": {
+    "amount": 90,
+    "fluid": "embers:molten_invar"
+  }
+}

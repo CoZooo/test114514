@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:nier_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:sange",
+        "proud_soul": 40000,
+        "refine": 4
+      }
+    },
+    "P": {
+      "item": "goety:magic_emerald"
+    },
+    "R": {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    "S": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "W": {
+      "item": "eidolon:crimson_gem"
+    }
+  },
+  "pattern": [
+    "RS ",
+    "SBS",
+    " WP"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

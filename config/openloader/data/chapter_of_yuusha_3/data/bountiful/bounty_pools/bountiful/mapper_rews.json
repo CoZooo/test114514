@@ -1,0 +1,124 @@
+
+{
+	"content": {
+
+        "mapper_rew_wayward_compass": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "irons_spellbooks:wayward_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 8000
+        },
+
+        "mapper_rew_item_frame": {
+            "type": "item",
+            "content": "minecraft:item_frame",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300.0
+        },
+
+        "mapper_rew_waystone": {
+            "type": "item",
+            "content": "waystones:waystone",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+
+        "mapper_rew_haunted_painting": {
+            "type": "item",
+            "content": "goety:haunted_painting",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 500
+        },
+
+        "mapper_rew_blank_module": {
+            "type": "item",
+            "content": "scannable:blank_module",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2500
+        },
+
+        "mapper_rew_scanner": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "scannable:scanner",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000.0
+        },
+
+        "mapper_rew_naturescompass": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "naturescompass:naturescompass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15000.0
+        },
+
+        "mapper_rew_lore_inscriber": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "enigmaticlegacy:lore_inscriber",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000.0
+        },
+
+        "mapper_rew_repent_mirror": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "celestial_artifacts:repent_mirror",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15500
+        },
+
+        "mapper_rew_trifold_map": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "confluence:trifold_map",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5500
+        },
+
+        "mapper_rew_recovery_compass": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:recovery_compass",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        }
+
+	}
+
+}

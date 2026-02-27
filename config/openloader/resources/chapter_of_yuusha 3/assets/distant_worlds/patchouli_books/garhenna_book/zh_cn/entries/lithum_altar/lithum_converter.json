@@ -1,0 +1,21 @@
+{
+	"name": "琍斯石转换器",
+	"icon": "distant_worlds:lithum_converter",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 4,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_converter_recipe",
+			"text": "琍斯石转换器使用不同的能量在达琍特晶体中形成充能。这是一种替代方法，但不是获得达琍特能量的最稳定方法。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

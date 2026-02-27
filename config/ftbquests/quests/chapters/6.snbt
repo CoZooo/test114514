@@ -1,0 +1,5934 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6"
+	group: "4D78AB976801888E"
+	icon: "wizards_reborn:arcane_workbench"
+	id: "256FB2616DA2EA17"
+	images: [
+		{
+			alpha: 200
+			color: 8737441
+			height: 37.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 44.0d
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 39.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 46.0d
+			x: 11.0d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["705D07861C3ABC1B"]
+			description: [
+				"手持粗制镰刀击杀生物会获得不同的精魂，具体看后续任务。"
+				""
+				"&6先用粗制镰刀攻击一下将其标记，然后在短时间内杀死生物，也会掉落精魂。"
+			]
+			id: "2F1E9E09EF5C5478"
+			rewards: [{
+				id: "38001B9E26F907B2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1792201B4BAAF44B"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["705D07861C3ABC1B"]
+			description: [
+				"&6击杀「化魂」状态的特定生物可获得不同的精魂。利用特定武器攻击生物，可赋予目标「化魂」状态，该状态不会显示在生物的效果栏位上。"
+				""
+				"&e神圣精魂&r：村民、流浪商人、马、鸡、羊、猪、牛、狼、美西螈、蜜蜂、猫、狐狸、鹦鹉、豹猫、熊猫、北极熊、兔子、女仆妖精、太古魔像、天境的史维特等。"
+				""
+				"&e邪恶精魂&r：山羊、僵尸、疣猪、蜘蛛、洞穴蜘蛛、女巫、僵尸、僵尸村民、骷髅、凋灵骷髅、猪人、猪灵蛮兵、猪灵、河豚、溺尸、苦力怕、尸壳、卫道士、掠夺者、劫掠兽、流髑、蠹虫、骷髅马、僵尸马等。"
+				""
+				"&e大地精魂&r：马、鸡、羊、猪、牛、疣猪、僵尸疣猪、僵尸、僵尸村民、驴、狐狸、羊驼、哞菇、骡、熊猫、北极熊、行商羊驼、蠹虫、僵尸马等。"
+				""
+				"&e狱火精魂&r：疣猪、僵尸疣猪、凋灵骷髅、烈焰人、猪人、猪灵蛮兵、猪灵、苦力怕、恶魂、尸壳、岩浆怪、炽足兽等。"
+				""
+				"&e澄空精魂&r：马、蜘蛛、洞穴蜘蛛、蝙蝠、蜜蜂、驴、猫、恼鬼、狐狸、恶魂、羊驼、幻翼、鹦鹉、豹猫、骡、兔子、行商羊驼、流髑、骷髅马、僵尸马、死神等。"
+				""
+				"&e碧水精魂&r：鱿鱼、河豚、海龟、鲑鱼、鳕鱼、热带鱼、美西螈、溺尸、海豚、守卫者、远古守卫者、恶魂、发光鱿鱼、北极熊、史莱姆等。"
+				""
+				"&e奥术精魂&r：流浪商人、女巫、骷髅、凋灵骷髅、烈焰人、苦力怕、恼鬼、唤魔者、末影人、恶魂、发光鱿鱼、岩浆怪、哞菇、幻翼、劫掠兽、潜影贝、史莱姆、流髑、炽足兽、骷髅马等。"
+				""
+				"&e邪术精魂&r：唤魔者、末影螨、末影人、远古守卫者、劫掠兽、潜影贝、死神等。"
+				"{@pagebreak}"
+				"&c新增Graveyard模组的死神可以掉落邪术精魂，该生物可以通过反复打开Graveyard模组的棺材几率出现。"
+				""
+				"&6新增车万女仆模组的女仆妖精、天境的太古魔像、史维特可以掉落神圣精魂。女仆妖精在平原、森林等地方均有自然生成。"
+				""
+				"&e新增凋灵、末影龙可掉落所有种类的精魂。"
+			]
+			id: "58ED2D288D70ED98"
+			rewards: [{
+				id: "4F1C395F5DE18F10"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意可以鼠标滚轮往下查看更多任务内容"
+			tasks: [
+				{
+					id: "2163BEF253F6C28E"
+					item: "malum:sacred_spirit"
+					type: "item"
+				}
+				{
+					id: "2EF91E9C6B7B2984"
+					item: "malum:wicked_spirit"
+					type: "item"
+				}
+				{
+					id: "01820D18694AC278"
+					item: "malum:arcane_spirit"
+					type: "item"
+				}
+				{
+					id: "2058DCA1443793EF"
+					item: "malum:eldritch_spirit"
+					type: "item"
+				}
+				{
+					id: "00283F6FEB8FDED8"
+					item: "malum:aerial_spirit"
+					type: "item"
+				}
+				{
+					id: "0DC6700C388802C2"
+					item: "malum:aqueous_spirit"
+					type: "item"
+				}
+				{
+					id: "2BC1701C7C0C85E1"
+					item: "malum:earthen_spirit"
+					type: "item"
+				}
+				{
+					id: "1A10EDB3D883C9B9"
+					item: "malum:infernal_spirit"
+					type: "item"
+				}
+			]
+			title: "精魂"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72AB9CA6BB864882"]
+			description: ["野外可找到符文木树。多见于森林边上平原等。"]
+			id: "5F3FF4D94DB202E3"
+			rewards: [{
+				id: "5F5BF7FC5C9B833B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "705B95DEFAD27C1F"
+				item: "malum:runewood_log"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5F3FF4D94DB202E3"
+				"72AB9CA6BB864882"
+				"58ED2D288D70ED98"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"制作[精魂祭坛]和多个[符文木物品台]，靠近摆放。"
+				""
+				"&3以制作[魂染钢锭]为例，将[铁锭]右击放置在[精魂祭坛]，[精致灵魂石]右击放置在[符文木物品台]，然后将所有[精魂]右击[精魂祭坛]，即可开始进行合成。"
+				""
+				"&c不要尝试放入不正确的合成材料，会崩档。此外有几率祭坛上有不正确的合成材料不显示，或者一合成就崩游戏的话，就拆了精魂祭坛重新放。不要在祭坛工作时拆祭坛。"
+				""
+				"&6精魂祭坛可一次放入多倍的材料（必须严格倍数），然后等待合成即可，也可配合物品收集器半自动化。"
+				""
+				"&e请最后再放入精魂开始合成，否则可能会因为物品台上没有物品而崩溃。"
+				""
+				"&2JEI的显示配方颜色与数字较相近，部分物品合成是要多个物品，仔细看合成表。用该合成时，会继承合成表中间物品的NBT属性。"
+				""
+				"{image:yuusha:textures/jinghun_jitan.png width:100 height:90 align:center}"
+			]
+			icon: "malum:spirit_altar"
+			id: "257028CB350CC18F"
+			rewards: [{
+				id: "5175E92EF85B8648"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "只需要完成任一前置任务即可开启"
+			tasks: [
+				{
+					id: "6E3293F46DDA809E"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F7C6BB96463FC06"
+					item: "malum:runewood_item_pedestal"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: [
+				"咒灰可用精魂祭坛制作获得。有多种饰品可以优化精魂获取。"
+				""
+				"&6云鲸可消耗灵质云和咒灰，在召唤祭坛中召唤。云鲸鞍可在星河贸易站交易获得。"
+			]
+			id: "5CDF34BDE8E47ED6"
+			rewards: [{
+				id: "1723A71006154591"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C772C47FFC3B6D0"
+				item: "malum:hex_ash"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CDF34BDE8E47ED6"]
+			description: [
+				"利用[精魂祭坛]可合成[图腾基座]。在[图腾基座]上放置多个[符文原木]，即可形成可进行[精魂仪式]的多方块结构。有多种有用的仪式，如大地仪式、神圣仪式等。"
+				""
+				"&6按JEI中[精魂仪式]显示，右击符文原木放入适当的精魂，才可进行各种仪式。放置符文原木时要按住Shift再右击。"
+				""
+				"{image:yuusha:textures/tuteng_1.png width:70 height:90 align:center}"
+			]
+			id: "2B92064DE21D058A"
+			rewards: [{
+				id: "14DE523CD541875E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4D0A493E7C4E870D"
+					item: "malum:runewood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "21C7A4BEC9CF3859"
+					item: "malum:runewood_log"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: [
+				"可制作。"
+				""
+				"&6魂染钢锭可制作精魂掠夺附魔书。"
+				""
+				"&c可制作胸针饰品来获得符文栏位。"
+			]
+			id: "159B2F0948505C22"
+			rewards: [{
+				id: "3190F9FC7982B8AE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B1526B389B114D2"
+				item: "malum:soul_stained_steel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: [
+				"可制作。"
+				""
+				"&c可制作胸针饰品来获得符文栏位。"
+			]
+			id: "512263E6454719C3"
+			rewards: [{
+				id: "5FAE6DCB4D1E2FD7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "750B2B29F34FDB95"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["459480AD991413F2"]
+			description: [
+				"灵灾模组的说明书：用于制作奥秘全典，奥秘全典可解锁邪术学研究，以查看更多合成表。详见后续任务。"
+				""
+				"&6玩家初始魔能强度：为1点，代表施展大部分铁之咒语模组法术和聚晶都是100%伤害。"
+				""
+				"&e魔能强度：每提升n%，大部分魔法伤害也能增加n%。"
+				""
+				"&c魔能强度：仅会影响上述魔法伤害，而不会影响铁之咒语模组的法力值、持续时间。"
+				""
+				"&2特殊说明：重复佩戴同种符文、胸针无法累加效果。"
+			]
+			id: "272C0ADE9E56CD2C"
+			rewards: [{
+				id: "727605D59871753A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "这不是奥秘全典"
+			tasks: [{
+				id: "28233FD18CDC87D3"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["512263E6454719C3"]
+			description: [
+				"破坏埃德木植株侧面的枝条获得，只生成在深色橡树林。"
+				""
+				"&6还可利用神秘匕首制作埃德木棍。"
+				""
+				"&e可用自然指南针搜索“黑森林”找到深色橡树林。"
+			]
+			id: "563097087C76A652"
+			rewards: [{
+				id: "0AB90ABB0F240F01"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EC81F1648341F49"
+				item: "forbidden_arcanus:edelwood_stick"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F3FF4D94DB202E3"]
+			description: [
+				"只要放置后隔一段时间会有失业的村民出现。"
+				""
+				"&6旁边放置绿宝石块、金块或钻石块会消耗并加快进程，不放置也有几率出现村民。"
+			]
+			icon: "helpwanted:villagerpost"
+			id: "1562887F81A8DE78"
+			rewards: [{
+				id: "62273FE688B2C18D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D6109392AF9D28A"
+				item: "helpwanted:villagerpost"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["512263E6454719C3"]
+			description: [
+				"基本设定：该召唤会在一定范围内随机召唤。大多数范围会在x和z为±16以内，y为+12以内。部分物品无法直接放入召唤祭坛，可通过漏斗放入召唤物。"
+				""
+				"&c特性：部分任务描述的召唤材料可能与实际不符。"
+				""
+				"&e使用：不少生物可通过召唤祭坛召唤。需对着召唤祭坛或其它召唤材料，按R键或U键查看用途，才可显示召唤祭坛的召唤方式。"
+				""
+				"&6额外：物品收集器可拾取特定物品，可以给召唤祭坛输入博丽的御币，从而开展召唤。也可以在召唤祭坛上放置漏斗，御币会自动进入回召唤祭坛，从而自动召唤。"
+			]
+			id: "2CE3210CCE1013D1"
+			rewards: [{
+				id: "0EB12BE30D7FC6D9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7851622EA22F7C79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "summoningrituals:altar"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06DC41B6DC312794"]
+			description: [
+				"可制作。"
+				""
+				"&e现在安装[常见矿石]模块可扫描出[符文石]、[神秘水晶矿]。"
+			]
+			id: "79282EEE9CFAE826"
+			rewards: [{
+				id: "2641AB120638AED9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "396C1308AE86CFCB"
+				item: "forbidden_arcanus:dark_rune"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"79BE6A869BB4652A"
+				"79282EEE9CFAE826"
+			]
+			description: ["可制作。"]
+			id: "5506073FD4BCF79C"
+			rewards: [{
+				id: "492D20DB897AEF38"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "711FED78924A5E47"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:mystical_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["200221CB564FF598"]
+			description: ["可制作[金兰花种子]进行种植。"]
+			id: "03C4D50A44C6315E"
+			rewards: [{
+				id: "1660B992896159C2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42C3E7DBF138496C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "forbidden_arcanus:deorum_ingot"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["706EE71B32DDA858"]
+			description: [
+				"一次制作出6个，合成界面有点看不清。"
+				""
+				"&c放入奥术工作台中的材料有顺序要求！"
+			]
+			id: "69575D32C59FC6DC"
+			rewards: [{
+				id: "26FC126287F2169A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7BE574ED347FF160"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["459480AD991413F2"]
+			description: ["药师研钵可以制作不止2级的药水，所有制作步骤均可无限叠加效果。其中力量药水效果可大幅度提升玩家基础伤害，从而影响中后期的输出加成。"]
+			id: "0D30E897D12F06EF"
+			rewards: [{
+				id: "3401A271BCA84C04"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6886EB1C60DFB609"
+				item: "reliquary:apothecary_mortar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D30E897D12F06EF"]
+			description: [
+				"1.在[药师研钵]中放入[末影之眼]+[绿宝石]，然后按住右键获得药水精华。"
+				""
+				"2.接着放入[刚获得的药水精华]+[末影之眼]+[绿宝石]。"
+				""
+				"3.按上述步骤2多次叠加后获得迅捷V(5:25)的药水精华。"
+				""
+				"&e可利用末影宝藏袋获得末影珍珠。"
+			]
+			id: "3149DF8D1A7146FC"
+			rewards: [{
+				id: "02127753ABA12647"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "迅捷 V (5:25)"
+			tasks: [{
+				id: "0FB02374B34BF54F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "reliquary:potion_essence"
+					tag: {
+						effects: [{
+							duration: 6514
+							name: "minecraft:speed"
+							potency: 4
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D30E897D12F06EF"]
+			description: [
+				"1.在[药师研钵]中放入[绿宝石]+[糖]，然后按住右键获得药水精华。"
+				""
+				"2.接着放入[刚获得的药水精华]+[绿宝石]+[糖]。"
+				""
+				"3.经上述步骤2多次叠加后获得急迫V(4:47)迅捷V(4:47)的药水精华。"
+				""
+				"&6糖的获取详见上层世界章节。"
+			]
+			id: "6BD0F7ECDCCCFBBF"
+			rewards: [{
+				id: "4077B0731D5D1EB2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "急迫 V (4:47) 迅捷 V (4:47)"
+			tasks: [{
+				id: "59B8589D39F3D772"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "reliquary:potion_essence"
+					tag: {
+						effects: [
+							{
+								duration: 5745
+								name: "minecraft:haste"
+								potency: 4
+							}
+							{
+								duration: 5745
+								name: "minecraft:speed"
+								potency: 4
+							}
+						]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D30E897D12F06EF"]
+			description: [
+				"1.在[药师研钵]中放入[肥沃精华]+[鸡蛋]（可用南瓜派替代鸡蛋），然后按住右键获得药水精华。"
+				""
+				"2.接着再放入[刚获得的药水精华]+[肥沃精华]+[鸡蛋]（可用南瓜派替代鸡蛋）。"
+				""
+				"3.按上述步骤2多次叠加后获得生命恢复 V (1:35)的药水精华。"
+				""
+				"&e所需[腺体]可寻找下界灵魂沙谷里熔岩池上的灵魂囚笼的恶魂刷怪笼大量获取。还可利用史莱姆传送门珍珠和制作苦力怕刷怪蛋。"
+			]
+			id: "70E87642825735E4"
+			rewards: [{
+				id: "7EA3F9AD46F51A5C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "生命恢复 V (1:35)"
+			tasks: [{
+				id: "11D0816BB5908F2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "reliquary:potion_essence"
+					tag: {
+						effects: [{
+							duration: 1914
+							name: "minecraft:regeneration"
+							potency: 4
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"03C4D50A44C6315E"
+				"3982579D52A2A8E7"
+			]
+			description: [
+				"可制作[金兰花种子]进行种植神秘金锭。需魔法耕地，用神秘骨粉右击耕地即可。"
+				""
+				"&e将某些金属块和金兰花种子进行无序合成可复制相应的金属粒，金属块不消耗，详见JEI。可复制的金属包括以太、魂染钢、神圣金等。对着金兰花种子按U键可以查看。"
+				""
+				"&6用带有收获专家附魔的锄头可快速收获金兰花。自然祝福附魔可以让锄头可以催熟作物。"
+				""
+				"&2现在收获金兰花出金兰花种子的几率大幅提高，且只与时运相关。用女仆收获也可获得金兰花种子。"
+				""
+				"&c需注意，女仆拿锄头收割作物可能会直接吞掉金兰花种子，但是空手不会。如果用女仆种植金兰花，在魔法耕地附近有普通耕地的话，会导致憨批女仆卡住不会动。"
+			]
+			id: "4B9A0A39B1F17623"
+			rewards: [{
+				id: "6BA1CF63BA99017C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "192D07C1907EB167"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B9A0A39B1F17623"]
+			description: ["实行[附魔金苹果]自由。"]
+			id: "4EAF4F0D87E5DC8B"
+			rewards: [{
+				id: "1413FA9F37577385"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E1C2367B45EF602"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D30E897D12F06EF"]
+			description: [
+				"可用来制作浓缩药水。"
+				""
+				"&e需在其下方放置熔岩等热源。"
+				""
+				"&6然后放入水，再放入药水精华及下界疣等材料。"
+				""
+				"&c之后即可用空的浓缩药水瓶去装起来饮用。"
+			]
+			id: "6394255C65812B73"
+			rewards: [{
+				id: "5861E38AD28C6F98"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61E513A2650CC70B"
+				item: "reliquary:apothecary_cauldron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: ["灵魂石矿石在主世界会有生成。"]
+			id: "72AB9CA6BB864882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D6CB19F35CD46B4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BA04C5D5BAD58B3"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: [
+				"可以用来制作一些物品，如火药等。或者可以修复物品。"
+				""
+				"&6烈焰粉也可利用精魂坩埚合成。"
+				""
+				"&c利用精魂坩埚可制作各种源质，从而利用源质快速合成获得各种属性附加附魔书。"
+			]
+			id: "59E72DB4B9AED6A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A77DAEE1C27C26F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "032F7E10CF477DD5"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69575D32C59FC6DC"]
+			description: [
+				"赫菲斯托斯锻炉是没办法直接合成的，需要先搭建仪式的多结构方块。准备材料：48个磨制暗黑石[P]、9个神秘雕纹磨制暗黑石[B]、4个雕纹神秘磨制暗黑石[C]、任意方块[A]、锻造台和洁净粉末。锻炉现在无法破坏。"
+				""
+				"&6如下在第一层水平平面上摆放结构底座："
+				"&eAAAPPPAAA"
+				"&eAPPPBPPPA"
+				"&eAPBPPPBPA"
+				"&ePPPPCPPPP"
+				"&ePBPCBCPBP"
+				"&ePPPPCPPPP"
+				"&eAPBPPPBPA"
+				"&eAPPPBPPPA"
+				"&eAAAPPPAAA"
+				""
+				"&c然后在第二层水平平面最中间处放置锻造台，拿着洁净粉末Shift+右键锻造台就会变成赫菲斯托斯锻炉。在变完之后，才能在神秘雕纹磨制暗黑石上放置暗黑石基座，用来摆放奥秘锻造需要的基础材料。"
+				""
+				"{image:yuusha:textures/renwu_duanlu.png width:160 height:130 align:center}"
+				"{@pagebreak}"
+				"需要进行神秘锻造的物品可在JEI中查看需求。需锻工锤开启合成仪式。在开光影等情况下，可能看不到该锻炉合成时的粒子效果。"
+				""
+				"&5灵魂：手持灵魂提取器对着灵魂沙长按右键可提取灵魂，被提取灵魂的灵魂沙会变成失魂沙。"
+				""
+				"&c血液：可通过神秘匕首和试管获取，背包有试管时玩家用神秘匕首击杀生物，试管里就会填充血液。或任意生物在赫菲斯托斯锻炉周围被击杀，也能为之补充血液。"
+				""
+				"&2经验：用原版的附魔瓶或者模组里石化经验球，放在赫菲斯托斯锻炉对应栏都可以补充经验。"
+				""
+				"&e辉光：可直接放入辉光瓶等材料并消耗后进行快速补充，或者在神秘雕纹磨制暗黑石上放置神秘水晶方尖碑永久缓慢补充。"
+				""
+				"&3不要在升级或者合成时尝试打开界面，可能会崩游戏。不要先摆放基座再用洁净粉末嬗变，会识别不出来。"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "48BAE0FA99A56472"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7057002A2AD43FD5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意有两页任务介绍"
+			tasks: [
+				{
+					count: 48L
+					id: "04022B3C26C5A8C0"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "14F04696A668F292"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D741CBDF502B71D"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "49B7BD573B741A96"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			title: "&c赫菲斯托斯锻炉"
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48BAE0FA99A56472"]
+			description: [
+				"锻工锤是完成奥秘锻造的关键物品，可用木、石、铁、金、钻石、神秘金合成对应材料的锻工锤。每个锻工锤都有使用次数限制。"
+				""
+				"&c不要在升级或者合成时尝试打开界面，会崩游戏。"
+				""
+				"&e在多人游戏或者服务器时，JEI会不显示赫菲斯托斯锻造所需要的基本元素物品，需单人游戏查看。"
+			]
+			id: "0FD86B27D1ABA8BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "035B08FC03F22C5E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D1B282F153E318E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "forbidden_arcanus:diamond_blacksmith_gavel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29DAE3DB6E3D403B"]
+			description: [
+				"将材料放置在赫菲斯托斯锻炉结构上的暗黑石基座之后，右键赫菲斯托斯锻炉打开UI。"
+				""
+				"补充好锻造所需要的耀金、灵魂、血液和经验，在中心放上合成表中间金色框的材料，退出UI界面，用工匠锤右键点击赫菲斯托斯锻炉。"
+				""
+				"如果锻造各种条件正确，就会出现一个魔法阵和粒子效果，代表锻造仪式成功开始。"
+				""
+				"&e奥术陨石等稀有矿可以通过[扫描器]扫描，需安装[稀有矿石]扫描模块。"
+				""
+				"&6可以在锻造台上与物品合成，使之无限耐久。"
+				""
+				"&c永恒之石无法打给有附魔的或者其它NBT较多的物品。可先用求知之书取下附魔再打永恒之石。"
+			]
+			id: "1E2A4366A9040D4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06B900D3FECE6C33"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EEFC08196BD4E54"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["159B2F0948505C22"]
+			id: "433F82DDAB533D16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1805D36C1EEBD8BF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C404F54767E2A7A"
+				item: "forbidden_arcanus:obsidian_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"159B2F0948505C22"
+				"7CD73BA9067A0B79"
+			]
+			dependency_requirement: "one_completed"
+			id: "06DC41B6DC312794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11A9E704B9DC4338"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "只需要完成任一前置任务即可开启"
+			tasks: [{
+				id: "1B808C3D6F7E0E17"
+				item: "forbidden_arcanus:corrupti_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67BFA90C27F2C06D"]
+			description: [
+				"挖掘神秘水晶矿石可获得，需用炽炉才能处理成粉末。神秘水晶矿石可以用扫描器的常见矿石模块扫描。"
+				""
+				"&6神秘水晶矿石可以闪电转化，将放置在地上的下界石英矿石方块，用闪电击中，可将周围3格内的转化为神秘水晶矿石。闪电合成可考虑女仆模组的[生成闪电]或[瓶装雷电]。"
+			]
+			id: "27D758760C59B53C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "270D652FF1C433D7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54C519DD051B2249"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["06DC41B6DC312794"]
+			description: [
+				"与腐化粉末扔到地上创建一个黑洞，用于移除道具、吸收经验球生成石化经验球。"
+				""
+				"&e石化经验球也可在地下相应矿石挖掘获得。"
+			]
+			id: "79BE6A869BB4652A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F00D1A6B8608844"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69369E4DB685A28C"
+				item: "forbidden_arcanus:dark_matter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FD86B27D1ABA8BD"]
+			description: ["奥术陨石等稀有矿可以通过[扫描器]扫描，需安装[稀有矿石]扫描模块。"]
+			id: "29DAE3DB6E3D403B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003442B833EBB311"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7ABBB83DEBED6B55"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: ["可以提高精魂祭坛的合成速度，每个提升25%，最多4个。"]
+			id: "0C96EC06003B27FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5965DC72549977F4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51C3706B70416701"
+				item: "malum:runewood_obelisk"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3549F14C70592254"]
+			description: [
+				"先用斧头右击富脂灵魂原木剥皮，然后再用玻璃瓶右击可获得。"
+				""
+				"&6将富脂符文原木放在释缚仪式旁并激活，可转化成富脂灵魂原木。"
+			]
+			id: "4AD7FC0143595027"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "647AC20C70382E2B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BC09239767FA666"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:cursed_sap"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4AD7FC0143595027"]
+			id: "154D60418250FAD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "597369CFC0F6D1AD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D7BA4C39677C416"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:cursed_sapball"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B92064DE21D058A"]
+			description: [
+				"参照前述，用5个奥术精魂可开展释缚仪式（又名无向仪式）。该仪式会使周围草地变为腐枯土，同时图腾会变为灵魂木组成。"
+				""
+				"&6当完成上述后，在周围腐枯土上放置符文树苗，然后右击灵魂木图腾基座，可将符文树苗转变为灵魂增生苗，待其长大或催熟。"
+				""
+				"&e详见《奥术全典》。"
+				""
+				"{image:yuusha:textures/tuteng_2.png width:130 height:90 align:center}"
+			]
+			id: "3549F14C70592254"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "216DED54AE84AF02"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "754686DC82028B2E"
+				item: "malum:soulwood_growth"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48BAE0FA99A56472"]
+			description: ["神秘水晶方尖碑：需要一个神秘磨制暗黑石放在最底下，上面放置两个神秘水晶方块，然后手上拿着洁净粉末右键最下面的神秘磨制暗黑石就完成了。"]
+			id: "2D0C855892692FCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AF58011E9BC73A6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10AB96249791CEDE"
+				item: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5506073FD4BCF79C"]
+			id: "38434F3681BD0648"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60A93B4CAB4FCA2B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D26D04E6F2637CF"
+				item: "forbidden_arcanus:test_tube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["272C0ADE9E56CD2C"]
+			description: [
+				"增加精魂获取。"
+				""
+				"&6所需材料详见咒法章节。"
+			]
+			id: "18FF13A20A790A19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "497BA984D84C7A16"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5153569BDB17BC87"
+				item: "malum:ring_of_esoteric_spoils"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["272C0ADE9E56CD2C"]
+			description: [
+				"敌人较难发现自身。"
+				""
+				"&6所需材料详见咒法章节。"
+			]
+			id: "3098E728586E9F51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FDB5EEFEFA87267"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "157DEAB00C46AD9D"
+				item: "malum:necklace_of_blissful_harmony"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"可通过与5级武器匠村民（职业方块为砂轮）交易获得。"
+				""
+				"&e流浪商人也有小几率售卖。"
+				""
+				"&c放置大量的村民招揽牌可在前期较快获得村民。"
+			]
+			id: "3D879449429CFBCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6993D446DB48EC65"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5667886E1FDA75F9"
+				item: "locusazzurro_icaruswings:greek_fire_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D879449429CFBCD"]
+			id: "705D07861C3ABC1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593478367228125F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BDE19B048395425"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:silver_ingot"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06DC41B6DC312794"]
+			id: "69F8329D2961B5D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19C76C740E76EF91"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73079B08E8619585"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:pewter_blend"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["69F8329D2961B5D7"]
+			id: "3E79543219768D50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3242E51D3519D9C9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BB97B4937F7D04C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:pewter_ingot"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D0F1DEC85467C5B"]
+			description: [
+				"基础设定：使用时需要在下方点火，加入水，待水烧开后投入相应材料。若步骤中出现搅拌，则需要右击幻之坩埚，会播放相应的动画。"
+				""
+				"&e额外：你知道吗？利用帝王圣杯可给坩埚装水。"
+				""
+				"&c注意：幻之坩埚的每一步只有五秒的时间。需注意JEI里显示的每行即为一个步骤，搅拌动作与材料同一行的，可以先搅拌也可先投入材料，但必须在五秒内完成。"
+				""
+				"&6寻觅：在主世界用探险家指南针搜索“Lab”可找到特定幻梦的建筑，里面有幻之坩埚。"
+			]
+			id: "7717936FDDB5B18A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B78F62C5DC0E42"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "140EF210D6FA75EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:crucible"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["512263E6454719C3"]
+			id: "0F0CC65FC7C4DE64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40F5759FBF4C70F1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E7082500A7FF3A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcanum"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["200221CB564FF598"]
+			description: [
+				"用[秘术粉]右击[神能晶矿]方块，即可获得[奥术金矿石]。"
+				""
+				"&e神能晶矿在古遗天境维度，详见古遗天境章节。"
+				""
+				"&c奥术金粒可利用金兰花种子复制。详见金兰花种子任务。"
+			]
+			id: "7F22B35D8B3C3EE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D3602051C0E1C77"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DE0BD78FCC5FFCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_gold_ingot"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0F0CC65FC7C4DE64"]
+			description: [
+				"秘术粉可转化很多放置在地上的方块。"
+				""
+				"&6合成表有点看不清，其实是一次做4个。"
+			]
+			id: "200221CB564FF598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "400680CDF2E3A7A0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59505FE1396F6CF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcanum_dust"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C730754ABA1FDC"]
+			description: [
+				"用来切换各种秘蕴装置的连接状态。"
+				""
+				"&c按特定按键（默认V键）或者按住Shift+右击可以切换多种模式。"
+				""
+				"&6示例说明：先把秘蕴法杖切换到发送连接模式，然后右击秘蕴祭坛，接着右击秘蕴转换器，即可将秘蕴祭坛产生的秘蕴传送到秘蕴转换器。然后把秘蕴法杖切换到接收连接模式，右击秘蕴晶化器，接着右击秘蕴转换器，才能把秘蕴转换器内的秘蕴传送到秘蕴晶化器。"
+				""
+				"&e在用奥术工作台等消耗秘蕴的装置时，必须把秘蕴法杖切换到功能模式，然后右击才能进行合成。"
+			]
+			id: "6B9A734C40E0DC1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24C18F8C507A27D9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72B421F4476D11B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:wissen_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B9A734C40E0DC1C"]
+			description: [
+				"用于创建秘蕴网络的装置。能够接收和发送秘蕴。当给出红石信号时，它将停止工作。"
+				""
+				"&c需注意，发送秘蕴虽然可以穿透大部分方块，但是不能穿过在路径上的其它秘蕴转换器（会被其劫走秘蕴）。"
+			]
+			id: "4C0AA2D60FEE190C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0C532F91BC5998"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "408E88ED3B613B04"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:wissen_translator"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C0AA2D60FEE190C"]
+			description: [
+				"能够接收晶化秘蕴的装置。用于制作水晶和其他魔法物品。"
+				""
+				"&6需先放入JEI合成表中间的物品，然后无顺序要求放入周围的物品，最后用功能模式的秘蕴法杖右击即可开始合成。"
+				""
+				"&c需消耗秘蕴祭坛产生的秘蕴才能合成。"
+			]
+			id: "297A7774CEF548DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C67E53080938805"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "239177F388F318E3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:wissen_crystallizer"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7F22B35D8B3C3EE1"]
+			description: [
+				"现在秘蕴祭坛只能够从阴阳尘埃、阴阳粒、忆念残片（需解锁邪术学研究）中吸收原始秘蕴能量。"
+				""
+				"&6阴阳尘埃相关信息在此章节。"
+			]
+			id: "19C730754ABA1FDC"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7594E59642AD3CA5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C05EB527CD0EC8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:wissen_altar"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["200221CB564FF598"]
+			description: ["用秘术粉右击放置在地上的黄金树苗获得。"]
+			id: "4394F14C73979F0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38522B9C78364302"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B3894223F7DF41C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_wood_sapling"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4394F14C73979F0E"]
+			id: "05CA46FD891C8697"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53C31E623900EAD2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A13B38292E820FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_wood_log"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C0AA2D60FEE190C"]
+			description: [
+				"高级的工作台，带有额外的槽位。它将使用“秘蕴”进行物品制作。"
+				""
+				"&c在用奥术工作台等消耗秘蕴的装置时，必须把秘蕴法杖切换到功能模式，然后右击才能进行合成。"
+				""
+				"&6该模组的光特效可能与光影会有冲突，导致不显示合成特效。"
+			]
+			id: "706EE71B32DDA858"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B724B7C275983E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1861B9BD0C8FCB06"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_workbench"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["149B49DC72679FFB"]
+			description: ["从储存中提取流体并通过管道移动。通过红石激活。右键后，它会切换到反转模式。"]
+			id: "7319797AEF6C0ED5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57089C792589F88A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42D40D6E188113BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:fluid_extractor"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["65E97A9950315A1C"]
+			description: ["从储存中提取蒸汽并通过管道移动。通过红石激活。右键后，它会切换到反转模式。"]
+			id: "4E9DCAB1DE475716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FF4DCE940C58EFE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "325FD6C0C64BA4CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:steam_extractor"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["706EE71B32DDA858"]
+			description: ["只能利用起之洞穴的深层岩制作。详见极尽深渊章节。"]
+			id: "2436BB9E73C72C2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "044AFC8526F2B199"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "此巫术重生线路非必须发展，可根据需要情况自行选择 "
+			tasks: [{
+				id: "2BAF314CCD917405"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:wisestone"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"149B49DC72679FFB"
+				"65E97A9950315A1C"
+			]
+			description: [
+				"一种将水转化为蒸汽的装置。能够长时间保持热量。可以用作普通熔炉来熔化物品。"
+				""
+				"&6炼金熔炉方块的背面是流体输入接口，用以输入水；上面是蒸汽输出接口，用以输出蒸汽。只能用管道输入输出。燃料只能从侧面进入。"
+			]
+			id: "2B276F57EC0C6A7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69F6BA8CAC2425A2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D017768679D872C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:alchemy_furnace"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2B276F57EC0C6A7E"]
+			description: [
+				"合成所需要的物品和液体需输入到炼金机内。锅炉安装在炼金机的上方，可以装有蒸汽、秘蕴和产生的液体。"
+				""
+				"&6蒸汽可用蒸汽提取器从炼金熔炉的上方提取输出，通过蒸汽管道将蒸汽输入到炼金锅炉背面。"
+				""
+				"&e产生的液体可从炼金锅炉前面用流体提取器提取输出，通过流体管道输出到其它容器或下方的炼金机。"
+				""
+				"&3需输入秘蕴，并用秘蕴法杖的功能模式激活才能合成。"
+				""
+				"&c只接受机械泵、帝王圣杯灌水的流体容器或者熔炼炉烧制雪球出来的水，需要用流体管道输入。"
+				""
+				"&2合成时所有材料（包括液体）必须在炼金机内，且炼金机内不能有多余的液体种类。可用流体提取器从相应的面将流体取出。"
+				""
+				"&9会精致存储的直接用精致存储来存取流体就行。各种流体最好一次做够5000mB，基本够用到毕业。"
+				""
+				"{image:yuusha:textures/renwu_lianjinji.png width:170 height:110 align:center}"
+				""
+				"&b可以做两台炼金机+锅炉，一台用来产炼金油，另一台用炼金油做物品，主线的物品制作只需要用炼金油。"
+				"{@pagebreak}"
+				"以制作炼金石灰为例，讲解炼金机："
+				""
+				"1. 摆放炼金熔炉，并放入可燃物和水进行烧蒸汽，上方接蒸汽提取器，还要接蒸汽管道，并用蒸汽管道连接炼金锅炉（炼金锅炉需放置在炼金机上方）。"
+				"2. 往炼金机内放入制作炼金油的材料，将秘蕴祭坛产生的秘蕴导入上方的炼金锅炉，然后用功能模式的秘蕴法杖右击炼金机，可开始制作炼金油。"
+				"3. 炼金油会在炼金锅炉内产生，需用液体提取器和液体管道，将锅炉内的炼金油导入炼金机内。"
+				"4. 往炼金机内放入制作炼金石灰的材料，激活即可。"
+				""
+				"&6JEI显示所需的流体种类和物品种类，不能多也不能少，否则都无法合成。且只有在炼金机内的才算合成材料。"
+				""
+				"&c必须同时输入蒸汽和秘蕴才能开始工作。"
+			]
+			id: "0AEE9801E7E58C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "391DB4383D7549F6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意有两页任务介绍"
+			tasks: [
+				{
+					id: "47079528D399305C"
+					item: "wizards_reborn:alchemy_machine"
+					type: "item"
+				}
+				{
+					id: "42D61D5882FACD2F"
+					item: "wizards_reborn:alchemy_boiler"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["706EE71B32DDA858"]
+			description: [
+				"以制作炼金石灰为例，讲解炼金机："
+				""
+				"1. 摆放炼金熔炉，并放入可燃物和水进行烧蒸汽，上方接蒸汽提取器，还要接蒸汽管道，并用蒸汽管道连接炼金锅炉（炼金锅炉需放置在炼金机上方）。"
+				"2. 往炼金机内放入制作炼金油的材料，将秘蕴祭坛产生的秘蕴导入上方的炼金锅炉，然后用功能模式的秘蕴法杖右击炼金机，可开始制作炼金油。"
+				"3. 炼金油会在炼金锅炉内产生，需用液体提取器和液体管道，将锅炉内的炼金油导入炼金机内。"
+				"4. 往炼金机内放入制作炼金石灰的材料，激活即可。"
+				""
+				"&6JEI显示所需的流体种类和物品种类，不能多也不能少，否则都无法合成。且只有在炼金机内的才算合成材料。"
+			]
+			id: "1DD295EC54A201FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F10EBE32C3C510E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C1DA153AA7E2BAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:alchemy_calx"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["05CA46FD891C8697"]
+			description: ["用于捣碎各种植物的奥术木研钵。双手持物品进行互动。"]
+			id: "3A65F5D636322D98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4793F333D652D784"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CED47DA27ED5AC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_wood_mortar"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7AA5F21664EEB20A"]
+			id: "4CE83C594FD7BCC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD9607ADAECEBDA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "153D1B371A3D7E77"
+				item: "wizards_reborn:arcacite"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1DD295EC54A201FA"]
+			id: "7AA5F21664EEB20A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E8FD9FFC92DC7C4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FC6776B829BC5A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:scorched_calx"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["23388329BF79C338"]
+			description: [
+				"将奥术迭代器放置在奥术基座上方第二格处（即与下方基座仅相隔一格空气），然后在周围摆放数个奥术基座。在顺利摆放结构和材料后，对着奥术迭代器会显示可制作的物品。"
+				""
+				"&6该模组的光特效可能与光影会有冲突，导致不显示合成特效。"
+				""
+				"{image:yuusha:textures/renwu_aoshudiedai.png width:105 height:80 align:center}"
+				""
+				"&3JEI所显示的奥术附魔书合成表，中间只能放入奥术物品来进行合成，而不是直接制作附魔书。只能应用于奥术物品的特殊附魔。它们会消耗饰品中的秘蕴进行运转。"
+				""
+				"&2部分合成需消耗玩家血量和经验，JEI会有提示。"
+				""
+				"&e用该合成时，不会继承合成表中间物品的NBT属性。"
+				""
+				"&c会识别一定范围内的所有奥术基座，奥术基座上不能有多余的物品，否则无法合成。"
+			]
+			id: "3464CABD3463B645"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "018192E4A52A7CEC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4DCB6ACE8A5BF35C"
+					item: "wizards_reborn:arcane_iterator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "42FBCB2076136ADB"
+					item: "wizards_reborn:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1DD295EC54A201FA"]
+			id: "23388329BF79C338"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C70160CF78A7928"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B9BA763ECACC7C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:enchanted_calx"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4CE83C594FD7BCC6"]
+			description: ["主要用来制作各种切面水晶。"]
+			id: "1F804788671EBA36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75EA7225ECC52F98"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36610C70E7A3F490"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:jeweler_table"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3464CABD3463B645"]
+			description: ["可以记录你解锁奥术秘典的进度。"]
+			id: "34891C8FF31B25CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47AC9DDA4BCE55BF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04B9CACEC2A3FB74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:knowledge_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3464CABD3463B645"]
+			id: "552CA1589FD5846C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48264C2108D9A0FD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34E7D0078C144D7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcanum_lens"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["552CA1589FD5846C"]
+			description: [
+				"会不断消耗秘蕴浓缩光线。只有在给予红石信号时，才会停止工作。"
+				""
+				"&6用秘蕴法杖的接收连接模式，先右击光线传输透镜，然后再右击光线发射器，即可将产生的光线从光线发射器传递到光线传输透镜。"
+			]
+			id: "7254581D77D5F58A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6460D1D115838CA5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F4417477D5D0C6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:light_emitter"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7254581D77D5F58A"]
+			description: [
+				"由奥术和炼金玻璃制成的透镜，用于重定向光线。给予红石信号时，停止工作。"
+				""
+				"&6用秘蕴法杖的接收连接模式，先右击符文基座上的水晶，然后再右击光线传输透镜，即可将产生的光线从光线传输透镜传递到符文基座上的水晶。"
+			]
+			id: "4C8FFA769D20E3C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CB3F3DFCAD7B676"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "401A3E83B700F024"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:light_transfer_lens"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4C8FFA769D20E3C1"]
+			description: [
+				"利用符文基座可进行各种仪式。某些仪式周围需要奥术基座放置物品，比如水晶注入仪式。"
+				""
+				"&6右击符文基座可打开界面，可放入不同类型的符文秘渊石板，从而进行不同的仪式。比如需水晶注入的符文秘渊石板才能进行合成。"
+				""
+				"&c符文基座上方需有相应的水晶方块，才会正常工作。不能是生长中的水晶，需用挖掘下来的水晶再放在符文基座上。"
+				""
+				"&e该模组的光特效可能与光影会有冲突，导致不显示合成特效。"
+				""
+				"{image:yuusha:textures/renwu_fuwenjizuo.png width:185 height:115 align:center}"
+			]
+			id: "16BDCBDE273F1FE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738502965455A5A0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "025DF65CB8D899E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:runic_pedestal"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["16BDCBDE273F1FE9"]
+			description: [
+				"将光线直接引导到正在生长的水晶中，极大加速其生长。"
+				""
+				"&6用秘蕴法杖的接收连接模式，先右击放置在地上的生长中的水晶，然后再右击符文基座上的水晶，即可将产生的光线从符文基座传递到生长中的水晶。"
+				""
+				"&c貌似只能将其催生到50%的生长状态。"
+			]
+			id: "406A90BCC393AEEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "561E58BA28176A9F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&3水晶生长加速"
+			tasks: [{
+				id: "4C02350869CF1653"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:runic_wisestone_plate"
+					tag: {
+						crystalRitual: "wizards_reborn:crystal_growth_acceleration"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 21.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["16BDCBDE273F1FE9"]
+			description: [
+				"摆放好符文基座后，需放入相应的符文秘渊石板，然后在符文基座周围摆放奥术基座，往奥术基座摆上JEI中水晶注入所需要物品，最后用功能模式的秘蕴法杖右击符文基座上的水晶，即可开始水晶注入仪式。"
+				""
+				"&6需光线发射器通过光线传输透镜，给符文基座上水晶充能，才能开启水晶注入仪式。"
+				""
+				"&c在用完后，可用拉杆给光线发射器提供红石信号以停止消耗秘蕴。"
+				""
+				"&e需将水晶注入的符文秘渊石板放入符文基座内。"
+			]
+			id: "031FBBD76F833208"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C10042D9BA7572F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&5水晶灌注"
+			tasks: [{
+				id: "4B53F068BC1488C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:runic_wisestone_plate"
+					tag: {
+						crystalRitual: "wizards_reborn:crystal_infusion"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 23.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["031FBBD76F833208"]
+			id: "7AAB7205E0491F43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "701539056837AA54"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19E3637DB305990B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:innocent_wood_sapling"
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			description: ["诡厄巫法模组的说明书，内容有汉化。"]
+			id: "349682B0652AC6BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02DB9AE10014B65E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36D8D4AE983E652C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["65E97A9950315A1C"]
+			description: [
+				"它们在自身之间传递流体。使用秘蕴法杖，你可以配置连接。使用重新加载模式可以清除堵塞。"
+				""
+				"{image:yuusha:textures/renwu_jiandan.png width:110 height:80 align:center}"
+				""
+				"&6如上图，一个较为简便的随意存取炼金机内流体的组合。只要流体不超过5000mB，就能开启流体提取器，从而决定流体的走向。每个面都能这么组合，只要换流体容器即可换流体。"
+			]
+			id: "149B49DC72679FFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79490C4F60B4275E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77817BACF6F5E2FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:fluid_pipe"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2436BB9E73C72C2E"]
+			description: ["它们在自身之间传递蒸汽。使用秘蕴法杖，你可以配置连接。使用重新加载模式可以清除堵塞。"]
+			id: "65E97A9950315A1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2408C112D2FAF1FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CDEAA096353F174"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:steam_pipe"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3D0F1DEC85467C5B"]
+			description: [
+				"手持或者装备后击杀生物可获得灵魂能量。"
+				""
+				"&6根之图腾在用作合成时会消耗耐久，耐久不足会直接消失。"
+				""
+				"&c灾厄猎杀已被禁止自然生成。"
+			]
+			id: "4AD7C2EDFCCCB144"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A3D410A60CED66"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A8C4982F8CEAE7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 800
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77475A8D18BDCAE4"]
+			description: ["当其充满能量时，可以充当不死图腾来抵消一次死亡。"]
+			id: "007EF3D7B07B5B26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F6DEB03C028DA3A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B5F87AAD22112CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 80000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D0F1DEC85467C5B"
+				"191C402BF0D4B860"
+			]
+			description: [
+				"需放在刷怪笼上方。成功时材质会改变。"
+				""
+				"&c部分建筑内的刷怪笼不是原版刷怪笼，不能使用。"
+				""
+				"&e击杀生物获得的灵魂能量为默认的4倍：监守者、末影龙。灾厄村民、村民、玩家：100点。猪灵、末影人：40点。其余生物：20点。"
+				""
+				"&3在诡厄巫法模组的特定墓园建筑可以直接找到诅咒注入器。可利用探险家指南针搜索“Graveyard”（来源Goety模组）找到。该墓园有多种变种，只有最大型的墓园才会刷新有诅咒注入器。"
+			]
+			id: "3B445D21C02682A1"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0274C640B2258521"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "只需要完成任一前置任务即可开启"
+			tasks: [{
+				id: "2911FCBC58BAF8F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:cursed_infuser"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AD7C2EDFCCCB144"]
+			id: "2366D9429BDF0E2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77BABD24349BDB35"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "150424FAE7BAAF6A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:marble"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			description: [
+				"利用浓缩绿宝石等材料，可制作“不祥垠际-诡厄袭击传送门”。"
+				""
+				"&6“不祥垠际-诡厄袭击传送门”内有巫师等诡厄巫法模组的特殊袭击生物。"
+				""
+				"&c现在诡厄巫法的特殊袭击生物不会再参和进原版的袭击事件内。"
+				""
+				"&e可制作噬魂5级附魔书。需注意噬魂虽然能附魔在灵灾模组的镰刀上，但没有实际效果。"
+			]
+			id: "77475A8D18BDCAE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62EA869B7A068D3F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31C51FE80C27E59D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:magic_emerald"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E9A9160C4C132FA"]
+			description: [
+				"需腐化神秘水晶制作。"
+				""
+				"&6在JEI中搜索“伤害已”可显示大部分提升伤害的聚晶等武器。"
+				""
+				"&c所有聚晶所释放的法术，都能无视护甲造成伤害。"
+				""
+				"&e部分法术聚晶可附魔以更为强大。范围附魔可扩大玩家施法的距离范围，及部分法术的作用范围。持久附魔可延长部分法术的持续时间。"
+			]
+			id: "00B7850378EB4E8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C719BB392ECC30"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "402C71799B0EA64A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:empty_focus"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			id: "34786D3D1C79FD30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E9D01E0A25B294C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E32BA8540873519"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:cursed_ingot"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D0F1DEC85467C5B"]
+			description: ["幻梦模组的说明书。"]
+			id: "7D521F337D51C8FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12A5E4F22F9082E1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1151D7F13BF4C89F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:codex"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3D4E9BF6105C0F4A"
+				"10A3D80F495DC11B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"需提供&6灵魂能量&r才能使用。在其下方放置诅咒之笼，并在诅咒之笼内放入根之图腾、灵魂图腾、连接宝石等能提供灵魂能量的道具。黑暗祭坛会亮绿灯并有黑暗粒子，即提示激活。"
+				""
+				"黑暗祭坛被激活后，其半径8格方块内为有效区域（检测祭坛基座和魔法仪式的需求方块和实体）。当有效区域内&6满足《黑暗秘典》所述的仪式要求&r时，即可进行魔法仪式。"
+				""
+				"用黑暗祭坛进行魔法仪式、合成物品，需在有效区域内满足以下条件：祭坛基座上的物品满足合成配方需求；环境（如需求方块和实体）满足魔法仪式的需求；下方的诅咒之笼有足够的灵魂能量。"
+				""
+				"&c合成表中黑暗祭坛上的物品必须最后放入。潜行空手右键可以看生效范围。"
+				""
+				"{image:yuusha:textures/renwu_heianjitan.png width:170 height:135 align:center}"
+				""
+				"&e一个在高空的黑暗祭坛，可以进行多种仪式。"
+			]
+			id: "23F770C0E18033B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18681BBF4AAFB64B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0060E6D7135C3734"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:dark_altar"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DF3B6832FF968C4"]
+			id: "3D4E9BF6105C0F4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14DE83D48BBE3812"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "747C2AF75F71816E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:pedestal"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47A8B5275F6283FA"]
+			description: [
+				"亡灵火炉只有放置在深暗之域生物群系内，亡灵火炉才能工作（会发光）。"
+				""
+				"需手持物品右击或扔到亡灵火炉放入材料。可从其周围16格范围内的多个灵魂蜡烛上吸取灵魂能量。如果灵魂能量不足以合成，则所有材料都会消失。"
+				""
+				"&6注意：如果亡灵火炉是启动的，并且周围没有激活的灵魂蜡烛，那么它会将你放入的物品吞噬！（实为无灵魂而直接进行摧毁步骤）"
+				""
+				"&c注意：不要一次丢进多份材料，只会出来一个物品。"
+				""
+				"&e必须在深暗之域生物群系内才会启动。"
+			]
+			id: "488314072B343A22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "166C91ABD72130C3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14D7CFA394B7AF97"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:necro_brazier"
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34786D3D1C79FD30"]
+			description: [
+				"可以将根之图腾或灵魂图腾放入诅咒之笼使其获得灵魂能量。可以将已绑定了灵魂方舟的连接宝石放入诅咒之笼，令其可以使用灵魂方舟中储存的灵魂能量。对准诅咒之笼按住shift可以查看诅咒之笼内的灵魂能量。"
+				""
+				"诅咒之笼的主要作用是为其他消耗灵魂能量的设备供能。也可用于合成幽匿转换器，或用于魔法仪式。使用已经对刷怪笼使用过的捕捉笼右键点击诅咒之笼，可以将诅咒之笼转变为对应的刷怪笼。"
+			]
+			id: "10A3D80F495DC11B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EE27F4A29CB5A87"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42AF06746C70CC9D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:cursed_cage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			id: "5DF3B6832FF968C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19C74167C4D898BE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EADE35696E353C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:shade_stone"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E181D0CB5DDD414"]
+			description: [
+				"利用幻之火盆举行相应的仪式，可获得幻灵碎晶。相关内容详见《秘仪教典》。"
+				""
+				"{image:yuusha:textures/huopen.png width:90 height:65 align:center}"
+				""
+				"&e上图为利用幻之火盆举行仪式的摆法。图中还缺暗蚀焦点作为某些特定仪式的基座。"
+				""
+				"&c用幻之火盆的时间仪式跳过的时间，不会被计入幻梦模组的吟唱冷却中。"
+			]
+			id: "26E3B7B1607BE876"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51E63DDD45D4A2CD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "02E8DF12DA5DFA8F"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D66E7882034746B"
+					item: { Count: 2, id: "eidolon:stone_hand" }
+					type: "item"
+				}
+				{
+					id: "56B64B80DE26F947"
+					item: "eidolon:necrotic_focus"
+					type: "item"
+				}
+				{
+					id: "564DB9E387DE377C"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62979D8835FDD68A"]
+			id: "3D0F1DEC85467C5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38186293A06D42A7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E6224470582059B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:worktable"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["463491C9DE0E36A5"]
+			description: [
+				"可在上面放置不同的物品而升级祭坛。"
+				""
+				"{image:yuusha:textures/renwu_shizhijitan.png width:120 height:90 align:center}"
+			]
+			id: "152F84774CE1687C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40F0A10D022268C8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64E0AB4DD1B3A541"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:wooden_altar"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["152F84774CE1687C"]
+			id: "04B188BB10BF57A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1491C42443B5D835"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CA679D2B0902829"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:stone_altar"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7717936FDDB5B18A"]
+			id: "77AB8A40F826E6FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778B9029A6E47E9B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09A8A5C0BD87087D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:arcane_gold_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26E3B7B1607BE876"]
+			id: "4123B9A750A3C3FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16DA98BA7072C2C3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A774E5DC714DBF8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:soul_shard"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4123B9A750A3C3FB"]
+			id: "2CC6FDC189DE7651"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BEC1413A1B047E5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CBA4274F3244F5C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:lesser_soul_gem"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7717936FDDB5B18A"]
+			id: "50F01B04512C0F8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FB50CB9095F4C05"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "725706AD4D247DCA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:shadow_gem"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["152F84774CE1687C"]
+			description: [
+				"1.将秘仪教典丢给女巫后会返还并解锁邪恶符文。将秘仪教典丢给以酿造台作为职业的村民会返还并解锁神圣符文。"
+				""
+				"2.按秘仪教典内容将祭坛摆好（需稻草塑像、祭坛光源、头颅、草药、高脚杯）后，成功吟唱一次“暗黑祷词”后，还需要再成功吟唱一次“暗黑祷词”，才能解锁血液符文。在一个游戏天的时间（用该模组的时间仪式跳过时间不算在吟唱冷却）内限定生效一次同种吟唱。"
+				""
+				"3.在祭坛上放置高脚杯，并在周围击杀动物使之满杯。接着吟唱一次动物牲祭，然后再吟唱一次“暗黑祷词”，才会解锁魂魄符文。时间限制同上。"
+				""
+				"4.对着不超过一个数量的白镴嵌材吟唱“暗黑之触”，就会变成亵渎象征符。此吟唱无限制时间。"
+			]
+			id: "4E340D51198F3829"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DB9AEB2C61C0808"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F40E424CDBA28CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:unholy_symbol"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["152F84774CE1687C"]
+			description: [
+				"对金嵌材咏唱光明之触获得。用在魔力工作台合成物品时不消耗。"
+				""
+				"光明之触的使用需要玩家在光明神祇的声名≥10，以下是解锁流程："
+				"1. 将秘仪教典丢给牧师职业（工作方块为酿造台）的村民解锁神圣符文；"
+				"2. 对稻草塑像或长者雕像使用神圣符文咏唱光明祷词，每次增加1+0.25*威能的声名；"
+				"3. 声名>3时，解锁香炉祭献和火焰符文，并至少进行一次香炉祭献，否则声名将被锁定在3。进行香炉祭献以解锁光明之触和魂魄符文，每次增加 2 + 0.5 * 威能 声名；"
+				"4. 声名≥10时，对金嵌材（物品实体）咏唱光明之触。"
+				""
+				"&e光明之触除了转化物品外，还可以为物品添加50层光明祝福并消耗20魔能，每次攻击时消耗1层光明祝福并对亡灵生物造成1.5倍伤害。"
+			]
+			id: "68016F81C4166634"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2021943BCF7D78AA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25FE0B8E611CA869"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:holy_symbol"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7717936FDDB5B18A"]
+			id: "4DEE70F07E5E77CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A154F48F1AD6B5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F05569E0D058841"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:ender_calx"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4E340D51198F3829"]
+			id: "0BC290C049D7A0BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D1AD107046574C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "380AA2F7B592BD81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:wicked_weave"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["59E72DB4B9AED6A0"]
+			description: [
+				"制作时能量晶核不会消耗，精魂会消耗。"
+				""
+				"&c阴阳颗粒在后续合成里还需要较多，建议保持合成。"
+				""
+				"&6能量晶核需击杀天顶巨兽章节“愚者”阶段的任意Boss，然后将其掉落物丢进细雪中转化获得。"
+			]
+			id: "7CD73BA9067A0B79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A3821C2D56328F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2338464C40FD006E"
+				item: "avaritia:neutron_nugget"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["297A7774CEF548DB"]
+			id: "73D6D6D98BD8DB19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A80D8BB0F10AFC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B4EADF7F5EF611C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_linen_seeds"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["73D6D6D98BD8DB19"]
+			id: "48960928F4837CDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2079EAB6E3C3B8D0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59666B3BF4F01081"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_linen"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["552CA1589FD5846C"]
+			description: [
+				"需手持并右击使用秘术晶核，秘术晶核会给身上的奥术法杖充能，之后才能使用奥术法杖。奥术法杖需按H键打开界面并装入相应类型水晶，才能施放相应类型法术。"
+				""
+				"&c奥术法杖所有类型法术都能受到PMMO魔法技能的加伤，但只有地、诅咒或虚空类型的法术才计算为魔法类型伤害，并增加PMMO魔法技能经验。"
+				""
+				"&e默认按H键可切换奥术法杖的法术。部分法术比如死灵射线需要切面级别的水晶才能施法，但一般来说虚空射线或诅咒射线已经够用。"
+				""
+				"&3奥术能量强化只会加强奥术法杖的法术伤害。诅咒系列的法术无法对亡灵生物造成伤害。"
+			]
+			id: "20326E9D58DC4265"
+			rewards: [{
+				command: "/wizards_reborn spell give @s all"
+				elevate_perms: true
+				icon: "wizards_reborn:wissen_keychain"
+				id: "43D12C3C5E067637"
+				title: "解锁所有的巫术模组的法术"
+				type: "command"
+			}]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "4A4C57D0569238DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:arcane_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["191C402BF0D4B860"]
+			id: "34C54B656B60B673"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5736B27C7103A3AC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23B0C2AE303D582C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:cursed_star"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			description: [
+				"可以合成获得。"
+				""
+				"&6后续击杀在幽匿暗域维度的幽匿蜘蛛也可获得。"
+			]
+			id: "633D0FCDA6ECD2E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A57E996067364B0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F811D617BDEAF79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:ectoplasm_string"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69575D32C59FC6DC"]
+			description: [
+				"炽炉为多方块结构，整体为3×3×3的正立方体，摆放好后用洁净粉末右击熔炉核心，即可成型。设磨制暗黑石砖为B，磨制暗黑石为S，熔炉核心为C，空气为A，以下为从下方起第一层一直摆到第三层水平平面："
+				""
+				"第一层水平平面："
+				"SBS"
+				"BBB"
+				"SBS"
+				""
+				"第二层水平平面："
+				"BBB"
+				"BAB"
+				"BCB"
+				""
+				"第三层水平平面："
+				"SBS"
+				"BBB"
+				"SBS"
+				""
+				"&6使用与熔炉一样的燃料，比如煤炭等。"
+				""
+				"{image:yuusha:textures/renwu_chilu.png width:100 height:100 align:center}"
+			]
+			id: "67BFA90C27F2C06D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D99B551CAF65208"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1ED999DDD041E7A5"
+					item: "forbidden_arcanus:clibano_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "47892E72B72FF2A6"
+					item: { Count: 8, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3C7E5DC699BD55EB"
+					item: "forbidden_arcanus:polished_darkstone_bricks"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A65F5D636322D98"]
+			description: ["神秘水晶粉末颗粒可种植水椰获得。水椰的获取详见上层世界章节。"]
+			id: "37F317C9027052B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BFBE4674A792B29"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "227C618E2FEA5533"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "forbidden_arcanus:arcane_crystal_dust"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			id: "4CC61476B4D2342B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74349A33B98AC3C0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01D3037ABF473F62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "born_in_chaos_v1:dark_rod"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70E87642825735E4"]
+			description: [
+				"提高了附魔等级上限。"
+				""
+				"&c如果穿戴无咒之戒或附魔师的珍珠，会导致附魔预览与实际不符合。"
+				""
+				"&6[迦赫纳纸张]可与图书管理员交易获得，也可详见[遥远世界]章节。"
+			]
+			id: "4E049E3462793287"
+			rewards: [{
+				id: "50F3B491CE6C7CC1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EF3367B36DDF99F"
+				item: {
+					Count: 1
+					id: "apotheosis:hellshelf"
+					tag: {
+						Enchantments: [{
+							id: "apotheosis:hell_infusion"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3149DF8D1A7146FC"]
+			description: [
+				"用埃德木水桶右击活的河豚可获得埃德木河豚桶。"
+				""
+				"&c如果穿戴无咒之戒或附魔师的珍珠，会导致附魔预览与实际不符合。"
+				""
+				"&2活的河豚可利用召唤祭坛复活。所需材料为河豚、红心。激活工具为博丽的御币。"
+				""
+				"&6[迦赫纳纸张]可与图书管理员交易获得，也可详见[遥远世界]章节。"
+			]
+			id: "68CE270AD89054C3"
+			rewards: [{
+				id: "75EA4821DCB89580"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B2121A557839B3A"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6BD0F7ECDCCCFBBF"]
+			description: [
+				"需注意，给药水护符附魔无法破坏时，对位阶等都有特定区间要求。"
+				""
+				"&c如果穿戴无咒之戒或附魔师的珍珠，会导致附魔预览与实际不符合。"
+				""
+				"&6[迦赫纳纸张]可与图书管理员交易获得，也可详见[遥远世界]章节。"
+			]
+			id: "5CE31F4291F4FF07"
+			rewards: [{
+				id: "3551C6FA8619868B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "498DFCF02EB0B9B5"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2DEA3FAFBBC8BBB5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"附魔储备台可以在被放置后使用。"
+				""
+				"玩家可以将附魔书存入其中转化为对应附魔经验，附魔经验用于通过附魔储备台将一本高等级附魔书拆分为多本低等级附魔书，或者将多本低等级附魔书合并为一本高等级附魔书。"
+				""
+				"玩家可以利用它合并多个附魔书并避免原本附魔机制的修改次数过多，这意味着一个顶级装备可以仅有1次修改次数而不是4次或5次，大大节省玩家的附魔经验消耗。"
+			]
+			id: "7D42727051BA3E00"
+			rewards: [{
+				id: "6047D9DC70ABB075"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C239F55DEC3055F"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7D42727051BA3E00"]
+			description: [
+				"操作请参考附魔储备台（魔咒图书馆），用途也一样。"
+				""
+				"但其能拥有的附魔等级上限更高。"
+			]
+			id: "42911DE88E9E86B5"
+			rewards: [{
+				id: "12A378EBA69F9E42"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "398BA869CF04DAB2"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"37F317C9027052B6"
+				"627D30D04257B9CF"
+			]
+			description: [
+				"神秘骨粉：对着普通耕地使用该物品会使其成为魔法耕地，可以提高作物产量。对着作物使用可以使其直接成熟。"
+				""
+				"&c需注意，如果用女仆种植金兰花，在魔法耕地附近有普通耕地的话，会导致憨批女仆卡住不会动。"
+			]
+			id: "3982579D52A2A8E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "197DBC1DFB25EB02"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4471947C0699AAE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "forbidden_arcanus:arcane_bone_meal"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["512263E6454719C3"]
+			id: "716FC574E1F0B0F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54554497186CE5B2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6356625BA693CFAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:runic_workbench"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3549F14C70592254"]
+			description: [
+				"将诅咒树脂球丢进哭泣之井可获得。"
+				""
+				"&6可利用探险家指南针搜索“Weeping Well”找到哭泣之井。"
+			]
+			id: "191C402BF0D4B860"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DAC12FCEFE17F75"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03368DBF996EE9C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:sarcon_ingot"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3549F14C70592254"]
+			id: "62979D8835FDD68A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64BAE9866012A457"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12245BCB97190500"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:soulwood_planks"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D2A2A69DA4448C5"]
+			description: ["只能瓦解放置在地上的方块。"]
+			id: "218C3AF040F3CAF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C8E26D38304C54"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32D20AD5D4E9F650"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:pulverize_focus"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			id: "0E9A9160C4C132FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24EFF7FDAC0418EF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "294D7CC02428509F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "forbidden_arcanus:corrupted_arcane_crystal"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4495A8E78741A9B3"]
+			id: "463491C9DE0E36A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "475D357137F5D668"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12076861F44316B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:polished_planks"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B445D21C02682A1"]
+			description: [
+				"可通过诅咒注入器制作。"
+				""
+				"&6最好先去解锁亵渎象征符，后面合成需要用到。"
+			]
+			id: "4495A8E78741A9B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ED5B3F3E4067CB5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "075602D9A23B3E32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:haunted_sapling"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E79543219768D50"]
+			description: [
+				"可以将法术卷轴敲在武器上，使玩家在手持该武器时可以释放该法术。"
+				""
+				"玩家也可以将部分模组添加的法袍（如瘟疫术士大衣、血腥教徒法袍等）通过类似的方式注入法术。玩家穿着注入了法术的法袍时，可以释放注入的法术。不过，流浪法师法袍和惊悚南瓜法袍无法进行此操作。"
+				""
+				"黯淡皇冠是唯一一个可以通过此方法注入法术的头部装备。"
+				""
+				"使用忏悔石将武器上的法术消除（不会返还法术），在铁砧上也可以进行这个消除。"
+				""
+				"使用升级法球进行装备强化，装备强化最多可强化3次，新增加的四把法杖也可以通过这种方法强化3次。"
+			]
+			id: "1B022C5E2C8CD42F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75027CDEA1B54567"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "6C41F85370954B07"
+					item: "yuusha:holy_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2872F852376F5928"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:arcane_anvil"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5F3FF4D94DB202E3"]
+			description: [
+				"法术抄写台：一种占用2个方块空间的功能性方块，可用于编辑玩家的法术书内含的法术。"
+				""
+				"&2获取：可通过牧师悬赏、制作、该模组的建筑内获得。"
+				""
+				"&6额外说明：可制作各种杖来辅助施法，可用JEI搜索“@iron ”自行查看。"
+				""
+				"&e饰品栏位说明：除了玩家开局自带的1个魔戒栏位、1个圣戒栏位外，通过卷轴撰写台、奥术铁砧、匠师之杖任务，可额外获得魔戒和圣戒栏位兑换券，从而在礼装章节兑换相应的饰品栏位。"
+				""
+				"&c请勿在打开法术抄写台时死亡，法术书会直接消失。"
+			]
+			id: "54F3100638E3A4F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B040953E34DB2CF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B30CD91D9432324"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:inscription_table"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F3FF4D94DB202E3"]
+			description: [
+				"基本设定：放入不同品质的墨水、纸、特定材料，可制作法术卷轴（只能使用一次）。最好配合法术抄写台，把法术卷轴抄写入法术书内，从而无限使用。需法杖施法才能享受魔法技能等级加成。更多信息详见匠师之杖任务。"
+				""
+				"&c战利品修改：该模组的战利品表已经过大幅度修改。在各种宝箱内基本只能找到平凡墨水、古代知识碎片、各种药剂。"
+				""
+				"&e亡灵术士：在主世界黑暗的地方生成。在阿比斯之渊的地下墓穴也会自然生成亡灵术士。该模组大部分生物（如亡灵术士等），对非魔法类型伤害都有一定抗性。"
+				""
+				"&2地下墓穴：现在只会在阿比斯之渊（详见极尽深渊章节）内生成。用探险家指南针搜索“Catacombs”（来源：Iron's Spells'n Spellbooks）可找到。"
+				""
+				"&6元素属性（用不同派系的法术，可以破适应）：铁之咒语模组的伤害都属于魔法类型伤害（但会受到护甲减伤）。不同法术派系有不同的元素属性，比如远古巫术、神圣→光属性，雷霆→雷属性，自然→草属性，炽焰→火属性，唤魔→无属性，猩红、末影→暗属性，冰霜→冰属性。"
+				""
+				"&3魔法防护：铁之咒语模组的生物，其法术攻击可以被魔法类型抗性（元素战斗模组）减少伤害。魔法类型抗性附魔、沉重环链饰品等机制可以有效降低法术的伤害。"
+			]
+			id: "0B3CDFB9368053EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "458ECF02E9DFA7FB"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "30C4CD6FA0A37051"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "0F5DCC8D8F36ACE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:scroll_forge"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59E72DB4B9AED6A0"]
+			description: ["制作结点不会一次性消耗完促符，而是消耗耐久。"]
+			id: "4359967ECDDA5E30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AA73DD0758A703A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63CC6D671E9705F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:silver_node"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3A65F5D636322D98"]
+			id: "627D30D04257B9CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "324EDDA2A666E81B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58F4A81C4B6029AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:petals"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0B3CDFB9368053EC"]
+			description: [
+				"可以在特定建筑内找到。"
+				""
+				"&6可击杀亡灵术士获得。亡灵术士会在主世界黑暗的地方生成。地下墓穴详见前述卷轴撰写台任务。"
+			]
+			id: "343E10CF5497D496"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689E1E01BF1BAE11"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BE3C79A01F93C80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:common_ink"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["343E10CF5497D496"]
+			description: ["击杀任意突变体后可制作。需4个奥术精魂进行合成。"]
+			id: "1083BE0F63EA7676"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B582AEA4133EC45"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "068DB67E2B12A884"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:uncommon_ink"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1083BE0F63EA7676"]
+			description: [
+				"击杀特定咒术生物（除远古骑士）后获得各种符文和最大法力值升级法球，将符文转化为空白符文。"
+				""
+				"&c炽焰术士高塔现在只会在恶地相关群系出现。"
+				""
+				"&6可利用探险家指南针搜索找到该模组的建筑："
+				"&e炽焰术士高塔：Pyromancer Tower"
+				"&e冰霜术士高塔：Mountain Tower"
+				"&e高位唤魔者城堡：Evoker Fort"
+				"&e下界远古战场（远古骑士）：Ancient Battleground"
+				"&e药剂师：自然符文+咒灰在召唤祭坛召唤。"
+				"&e邪教徒：猩红符文+咒灰在召唤祭坛召唤。"
+				""
+				"&2需注意上述咒术生物，除了对铁之咒语模组的魔法有一定抗性外，还对除魔法外的其他攻击类型有一定抗性。"
+				""
+				"&3可能需奥术法杖或者铁之咒语的高级法术才好击杀。需注意，奥术法杖内不同的法术可能对铁之咒语模组的术士有不同的伤害，只建议用奥术法杖的地或虚空类型的法术。如果用奥术法杖的地类型法术，还要同时施放铁之咒语的法术才够伤害。"
+			]
+			id: "58A4B2B8786B4AD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "720835F279C5054E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6523E3AD90C4D209"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2CDE4C553FD5B718"]
+			description: [
+				"击杀死者之王（详见天顶巨兽章节）可获得灵能墓石，即可制作史诗墨水。需4个奥术精魂进行合成。"
+				""
+				"&e在起之洞穴用探险家指南针搜索“Catacombs”（来源：Iron's Spells'n Spellbooks）可找到死者之王，详见天顶巨兽章节。"
+			]
+			id: "0A1382AA013D8CD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E430B3A8AA55CAF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "086902EE77C80518"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:epic_ink"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A1382AA013D8CD0"]
+			description: ["击杀焰魔、灾厄宰相（详见天顶巨兽章节）获得腾炎锭、灵魂红宝石，可制作传说墨水。需4个奥术精魂进行合成。"]
+			id: "7881B26938D6566E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A79854F5206B01D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7328FB075A967D0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B3CDFB9368053EC"]
+			description: [
+				"基本设定：在工作台中合成法术书时会清空所有的强化和卷轴。"
+				""
+				"&6额外说明：有着不同的合成升级路线。"
+				""
+				"&c法术槽位升级部件：可提升法术书的容量，最多12个。"
+			]
+			id: "2F2FD81915EBA16C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4510194805041686"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1069C06DAB1100F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00B7850378EB4E8F"]
+			description: [
+				"聚晶都需要魔杖才能施法。"
+				""
+				"&c远程/魔法类武器基本都有-100%攻击伤害的标记，上述标记只会降低近战攻击，而不会影响远程、魔法伤害。基本只有拥有上述标记的远程、魔法类武器才会受到箭术/魔法/枪械的技能伤害加成。"
+				""
+				"&6不同的魔杖好像存在特性，无法对相应的法术类型加强。（待测试确定）"
+				""
+				"&e魔杖都需要消耗灵魂能量进行施法。灵魂能量可通过根之图腾、灵魂图腾、灵魂方舟等灵魂容器储存。"
+			]
+			id: "2D2A2A69DA4448C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5500818D5C3C26C2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "4CB3A4BF9040AF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:dark_wand"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["23F770C0E18033B5"]
+			description: [
+				"将灵魂蜡烛放在诅咒之笼上面，可为某些装置提供灵魂能量。诅咒之笼内需有能提供灵魂能量的道具（如灵魂图腾和连接宝石），灵魂蜡烛会有点燃和活跃的粒子效果。"
+				""
+				"某些装置（如亡灵火炉和女巫坩埚）需通过灵魂蜡烛提供灵魂能量。如果周围有更多的蜡烛，周围的16格区域内可用的灵魂蜡烛越多，上述装置的工作速度越快。"
+			]
+			id: "47A8B5275F6283FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C53FBD2B9B07C69"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A04B8728B5E142D"
+				item: "goety:soul_candlestick"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F0CC65FC7C4DE64"]
+			description: [
+				"手持无名饰品模组的任意饰品，右击紫水晶块，即可获得。"
+				""
+				"&6基本只有能穿戴在无名饰品栏的饰品才可以分解。"
+				""
+				"&c击杀5星及以上Boss必定获得饰品宝藏袋，可以开出大部分无名饰品。"
+			]
+			id: "252BE5525D5BCD72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3094F18CB1BEFCF9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D57B0F6FA683C4F"
+				item: "nameless_trinkets:unknown_fragment"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6634C82CFAA29CFF"]
+			description: [
+				"手持发光粉尘右击极尽深渊升级台即可获得。"
+				""
+				"&e极尽深渊升级台所需材料详见极尽深渊章节。"
+				""
+				"&c击杀5星及以上Boss必定获得饰品宝藏袋，可以开出大部分无名饰品。"
+			]
+			id: "0B470CDA19979814"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4548B84464945560"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E7B6D4864989046"
+				item: "nameless_trinkets:ultimate_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4CF1593668D9B99D"]
+			description: [
+				"手持可疑粉尘右击天空之城奖杯即可获得。"
+				""
+				"&e[天空之城奖杯]详见遥远世界章节。"
+				""
+				"&c击杀5星及以上Boss必定获得饰品宝藏袋，可以开出大部分无名饰品。"
+			]
+			id: "6634C82CFAA29CFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55586F37FB741F48"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C104DF5E8AC4D6F"
+				item: "nameless_trinkets:glowing_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F22B35D8B3C3EE1"]
+			description: [
+				"任意药水护符丢进希腊火即可获得可疑粉尘。"
+				""
+				"&e各种药水护符只能在天顶巨兽章节获得。"
+				""
+				"&c击杀5星及以上Boss必定获得饰品宝藏袋，可以开出大部分无名饰品。"
+			]
+			id: "4CF1593668D9B99D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EADBB3C45779B24"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E7F6DF077777966"
+				item: "nameless_trinkets:dubious_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4DEE70F07E5E77CA"]
+			id: "5A4E056BC9736BA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03BFC776FD9FBD9A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "428E97FCE4979F93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:magicians_wax"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A4E056BC9736BA3"]
+			description: [
+				"先合成笔记工具，再对某种研究对象使用开始研究。把研究笔记放进研究台里，并按照所给步骤提供材料。最后用奥秘火漆封页即算完成。"
+				""
+				"&6《秘仪教典》内有详细解释。"
+				""
+				"&c提供的研究材料请勿多放，多了的数量不会返还。"
+			]
+			id: "7CF953E632BE4E0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52F5E7B6768C8F8E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6607212A696D4328"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:research_table"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7CF953E632BE4E0B"]
+			description: [
+				"先合成笔记工具，再对某种研究对象使用开始研究。把研究笔记放进研究台里，并按照所给步骤提供材料。最后用奥秘火漆封页即算完成。"
+				""
+				"&6目前只能研究流浪者获得寒冬之召的研究笔记，或者研究烈焰人获得火焰之印的研究笔记。"
+			]
+			id: "382F22D1EDD89EC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F729A75D8EFADF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "035D27E280B7EC73"
+				item: "eidolon:notetaking_tools"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"382F22D1EDD89EC9"
+				"7F8787F4256536E7"
+			]
+			description: ["先合成笔记工具，再对某种研究对象使用开始研究。把研究笔记放进研究台里，并按照所给步骤提供材料。最后用奥秘火漆封页即算完成。"]
+			id: "75A6AA89E1156666"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27FED2696907C041"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CA7DC4F99E2907F"
+				item: {
+					Count: 1
+					id: "eidolon:completed_research"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7CF953E632BE4E0B"]
+			id: "7F8787F4256536E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF1880F942CB332"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4452CD18D60E5DB4"
+				item: "eidolon:arcane_seal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4CC61476B4D2342B"]
+			description: [
+				"寻觅：在墓冢内手持重生锚右击陶瓷坛可刷新骷髅领主，同时其中的战利品也会刷新。在主世界用探险家指南针搜索“墓穴”（来源Goety模组）可找到墓冢。墓冢具有专属结构绑定生物，如流躅死灵法师，缠魂甲胄，边境幽灵等，同时也是骷髅领主的唯一生成点。"
+				""
+				"&c特点：骷髅领主必须先打败其躯体才可攻击头颅。骷髅领主为特殊8星Boss。墓冢内的大部分特殊生物，受到魔法类型伤害时会有易伤。"
+				""
+				"&6元素战斗类型：对魔法类型伤害会有50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀可获得诅咒契约，还可开启陶瓷坛（可能有堕落之刃）。额外有几率获得偷盗者的狂暴之眼。"
+			]
+			id: "687381B81A9BE5EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "492DF561E930A869"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "785A424D16E8DF02"
+				item: "forbidden_arcanus:maledictus_pact"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["463491C9DE0E36A5"]
+			id: "7E181D0CB5DDD414"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E474BB534B1219"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38BF539A81B26D0F"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["488314072B343A22"]
+			id: "075F09AB382CF980"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B917A0C46EF3EF6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A2CB88FD270BBDA"
+				item: "yuusha:curse_dragon_scale"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["563097087C76A652"]
+			description: ["制作出来的黏液镐会自带精准采集。"]
+			id: "14F9721F1AA45654"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8EE4E33AAACFAF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "643B689656515556"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["272C0ADE9E56CD2C"]
+			description: [
+				"需要把你人和奥术全典都分别丢进哭泣之井内，就能解锁邪术学，开启邪术学的研究和合成。JEI会显示更多邪术学的合成表。"
+				""
+				"&6探险家指南针搜索“Weeping Well”可找到哭泣之井。"
+				""
+				"&c如果更新了配置文件，需要重新把自己丢进哭泣之井。"
+				""
+				"&e哭泣之井会吞噬所有生物，包括女仆，谨慎注意。"
+			]
+			id: "5010C285E798814A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A5AEA5F5B028AD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&5解锁邪术学研究"
+			tasks: [{
+				id: "380DE898757F6CDF"
+				item: "malum:encyclopedia_esoterica"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0B3CDFB9368053EC"]
+			description: [
+				"基本设定：铁之咒语模组的法术可以在手持任意武器时释放，并享受手中武器的技能等级加成。需注意只有主手持有铁之咒语模组的法杖额外有法术强度属性加成。"
+				""
+				"额外说明：比如手持铁之咒语模组的法杖，会享受魔法技能等级的加成；手持枪械，会享受枪械技能等级的加成；手持弓箭，会享受弓箭技能等级的加成。上述技能等级加成均可提高法术伤害最高至原来的500%。"
+				""
+				"&6魔法技能等级提升：会额外增加铁之咒语模组法术的基础伤害和降低冷却时间。"
+				""
+				"&c进阶：铁之咒语模组的法杖、盔甲、饰品词缀魔息，可提供一定的法术强度。部分Boss可能需要你穿戴法师盔甲和手持法杖才有足够的法术输出。"
+				""
+				"&e法术强度、魔能强度、魔灵之力：法术强度只可提升铁之咒语模组的法术伤害、持续时间、范围、数量；而魔能强度和魔灵之力，可提升玩家的所有的魔法伤害（包含大部分法术）。"
+			]
+			id: "2BFD0F62C79C59DF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "634065B9D81288B4"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "649D2C62030D5881"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "54B6F1AFE7E1CF31"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20326E9D58DC4265"]
+			description: [
+				"奥术法杖需镶嵌水晶才能施法。"
+				""
+				"&6在做出来各种水晶种子后，需种在地上，并用秘术粉将其激活为生长状态，然后待其长大后采集。"
+				""
+				"&c最好提前种，要生长的时间较长。"
+			]
+			id: "271DA0C9C07850E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22ACD0F4A3C688A6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0BBF2B3CE66F6D9E"
+					item: "wizards_reborn:earth_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "4B1C2DCFB85E7117"
+					item: "wizards_reborn:void_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "524D2D918351C05C"
+					item: "wizards_reborn:water_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "67DFD2BD563C623C"
+					item: "wizards_reborn:air_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "1600133027F56564"
+					item: "wizards_reborn:fire_crystal_seed"
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1083BE0F63EA7676"]
+			description: [
+				"在前中期可制作冷却缩减、抗魔、魔力升级法球。"
+				""
+				"&6多个冷却缩减法球能有效缩短法术的冷却时间，从而快速施法提高输出。"
+			]
+			id: "44FFB65C11550E89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "439129E2BF0726EA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02232E71A9B23835"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0B465A702F32CC2C"]
+			id: "12DD696243700ACD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F62FD17EA560991"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BA650F5209B48A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_spell_mastery"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["007EF3D7B07B5B26"]
+			description: [
+				"放置灵魂方舟将使其绑定放置者作为其所有者。当玩家放下灵魂方舟时，会激活其中的内部灵魂条，并无法再通过灵魂图腾使用灵魂能量。"
+				""
+				"&6如果玩家要使用灵魂方舟中储存的能量用以魔法仪式等，玩家必须制作连接宝石将其绑定到玩家的灵魂方舟。然后可以作为灵魂图腾的替代品，放置在诅咒之笼中为黑暗祭坛等设备供能。"
+				""
+				"&c如果世界上不存在被玩家绑定的灵魂方舟，玩家的灵魂能量不会消失，但玩家将受到灵魂饥饿效果，灵魂能量还会逐渐逸散消失。除非灵魂能量归零，或者玩家再次将自己绑定到灵魂方舟上，否则效果无法移除。"
+				""
+				"&e如果玩家的灵魂能量等于或大于80000点，玩家能够在致命一击中幸存下来，免于死亡。"
+			]
+			id: "5E7351AFACE8D4C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37896F2D35327C27"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F3C9D01EF0C14F2"
+				item: "goety:arca"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["349682B0652AC6BE"]
+			description: [
+				"在烈风神祠最顶端的战利品箱中可发现。"
+				""
+				"&6可在探险家指南针搜索“Wind Shrine”找到烈风神祠。"
+			]
+			id: "5B5CDD9634D7EB7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C02EFAC46FA7E96"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F12D29B56401F3C"
+				item: "goety:mistral_scroll"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E7351AFACE8D4C7"]
+			id: "43715B1DDCBEC9BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CD635B35C5E2E3B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57C13D523ADFBEE2"
+				item: "goety:soul_transfer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B276F57EC0C6A7E"]
+			description: ["可给大部分容器（如流体存储器、流体容器等）装填水。该水没有任何奇怪的NBT，可以供大部分装置使用。"]
+			id: "66DD0803E9404DE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "401CBC27290BC196"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7087FC6A6575F037"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5010C285E798814A"]
+			id: "2DEA3FAFBBC8BBB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71C429D4B0031143"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C2EEFD8B846C159"
+				item: "malum:complete_design"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5010C285E798814A"]
+			id: "0B465A702F32CC2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E66AF1E30413C11"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42CA2E2ACB574A70"
+				item: "malum:null_slate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5DF3B6832FF968C4"]
+			description: [
+				"可以将经验直接转化为灵魂能量。转化得到的灵魂能量的量与经验的量相同。"
+				""
+				"&6幽匿吞噬器可以附魔噬魂和半径魔咒。照倍数增长，半径I范围将是两倍，而半径I范围将是三倍。噬魂增加经验转化而来的灵魂能量的数量。"
+			]
+			id: "7C2208CDAA3DA627"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "483F43DA5008797A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "42D61CB5CBF424D5"
+				item: "goety:sculk_devourer"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D2A2A69DA4448C5"]
+			description: [
+				"辅助类聚晶，瞬时对8格半径内所有非友方目标施加4秒虚弱1级和侵蚀5级。"
+				""
+				"持有任意附魔时，该法术的灵魂能量消耗 *2（拥有更多种类 / 更高等级附魔不会进一步叠加消耗）。"
+				"·强效（每级）：两种效果等级均 +1；"
+				"·持久（每级）：两种效果持续时间均 +1 秒；"
+				"·半径（每级）：两种效果作用半径 +1 格。"
+			]
+			id: "732381F18ADFFA24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8106770A86CEF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3572AF77045D21FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:weakening_focus"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["34786D3D1C79FD30"]
+			description: [
+				"药酿的核心方块，可以装填水以及酿造女巫佳酿。下方需要放置一个营火、灵魂营火或岩浆块作为热源，可以从周围的灵魂蜡烛吸收灵魂能量。玩家需要将药酿的材料扔进上方开口。玩家首先必须要将女巫坩埚装满水，且坩埚下方有热源，之后将下界疣扔入开口才能开始药酿。随后需要按容量剂、催化剂、增强剂的顺序投入材料。"
+				""
+				"&6以酿造喷溅型坠落药水为例：装入纯净水后，投入下界疣作为开始，投入绯红菌作为容量剂，投入铁砧作为催化剂，再投入红石粉、火药作为增强剂，最后用坩埚巨勺右击，吸收完灵魂能量后，可以用玻璃瓶装出。"
+				""
+				"&c需注意，《女巫酿造学》内所显示的容量剂和增强剂，都必须按从上往下的顺序投放而增加效果，不能一步投放最下面的材料。"
+				""
+				"&e更多详细内容可详见《女巫酿造学》或者MCMOD百科。"
+				""
+				"&2此外，还有一些有用的材料可作为催化剂。比如用野蛮之牙可酿造侵蚀药水，用腾炎锭可酿造炽热烙印药水。末影珍珠可酿造末影禁锢药水。"
+			]
+			id: "00279117A4ED58E7"
+			rewards: [{
+				id: "495899291E1832C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D8A255DD7566CE7"
+				item: "goety:witch_cauldron"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03C4D50A44C6315E"]
+			description: ["可以让64格半径内不会自然生成怪物。"]
+			id: "168BB7B3966513BF"
+			rewards: [{
+				id: "0BDD89FE5F610F89"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B79F0E791995F98"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CE83C594FD7BCC6"]
+			description: ["可把经验转化为秘蕴。"]
+			id: "210F0F67A76FFC07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75C49401E7D6CC6D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5864ECB8EB9BB2DE"
+				item: "wizards_reborn:totem_of_experience_absorption"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["12DD696243700ACD"]
+			id: "1038AC9CF308800B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B0C8AFA117D005C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2784A1E10F84F8A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_culling"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["031FBBD76F833208"]
+			id: "2419731306C5727D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445DF1B311E9CA01"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59C165516C01BBD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "wizards_reborn:petals_of_innocence"
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["23F770C0E18033B5"]
+			description: [
+				"贤者之杖可以瞬间破坏绝大多数方块（甚至包括巨型黑曜石），并使用灵魂能量进行自我修复。"
+				""
+				"&6贤者之杖现在近战攻击改为魔法类型攻击。"
+			]
+			id: "300C8DD693E01975"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FDDBCCE827B70AA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B9CA422D61F8612"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:philosophers_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["706EE71B32DDA858"]
+			id: "23E1EAE25DEB479E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B8417E5E029B396"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74E188494CBA9509"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:calcite"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2D2A2A69DA4448C5"]
+			id: "71628CB7DF2F794D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "357A69EC61DED0AD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FDD5503612B183E"
+				item: "goety:entangling_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["272C0ADE9E56CD2C"]
+			description: ["佩戴才能获得符文栏位。"]
+			id: "11716D365D1A54EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3601305DF7639C24"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F6F65D42B5135CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:runic_brooch"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["72AB9CA6BB864882"]
+			description: [
+				"太阳石矿石在主世界Y轴0以下才有生成。"
+				""
+				"&6可用扫描器的稀有矿石模块扫描到。"
+				""
+				"&c太阳锭可制作纳米机器人等前期有用的物品。"
+			]
+			id: "4EBB7BACD96FCA0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09FFE9EFE9D65A6B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A12A1F4884EF05B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "rustic_engineer:raw_solarite_ore"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D879449429CFBCD"]
+			id: "459480AD991413F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0355EFFBD6FC5121"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "052DC4121055A1C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:lead_ingot"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59E72DB4B9AED6A0"]
+			description: ["利用精魂坩埚可制作各种源质，从而利用源质快速合成获得各种属性附加附魔书。"]
+			id: "4A31646C6EA48B07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FD6162A01A92587"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "04BBFAC08275F636"
+					item: "elementalcombat:essence_fire"
+					type: "item"
+				}
+				{
+					id: "410636AFFB01B9BF"
+					item: "elementalcombat:essence_ice"
+					type: "item"
+				}
+				{
+					id: "450C44298783A63B"
+					item: "elementalcombat:essence_water"
+					type: "item"
+				}
+				{
+					id: "584C6384B8D744AE"
+					item: "elementalcombat:essence_thunder"
+					type: "item"
+				}
+				{
+					id: "46DFDE55BCE94A23"
+					item: "elementalcombat:essence_darkness"
+					type: "item"
+				}
+				{
+					id: "7DBA68676954FCA1"
+					item: "elementalcombat:essence_light"
+					type: "item"
+				}
+				{
+					id: "5C3DB845F0BB29DA"
+					item: "elementalcombat:essence_earth"
+					type: "item"
+				}
+				{
+					id: "67B314CEC4BFF0BB"
+					item: "elementalcombat:essence_wind"
+					type: "item"
+				}
+				{
+					id: "6DFEC5399BD8938A"
+					item: "elementalcombat:essence_flora"
+					type: "item"
+				}
+			]
+			title: "属性源质"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11716D365D1A54EF"]
+			description: ["按需佩戴，可能会导致部分有用的负面效果时间过短。"]
+			id: "6D14733A79F96664"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD6BDAD100E436C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A86C3FD3403CBD8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_aliment_cleansing"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F3FF4D94DB202E3"]
+			description: [
+				"基本设定：手持图腾法杖时显示图腾仪式的影响范围。右击未启动的图腾柱可以切换其符记的活跃状态。"
+				""
+				"&6额外说明：手持图腾法杖施放铁之咒语模组的法术，也能让玩家享受魔法等级的加伤。更多相关信息详见此章节的匠师之杖任务。"
+				""
+				"&e法师盔甲：可以选择流浪法师套→惊悚南瓜套，随后可选择下界合金战斗法师套，最后是灵魂猎手套。宝具章节有更多介绍。"
+				""
+				"&3牧师悬赏：还会刷新卷轴撰写台、法术抄写台、初学者日志。"
+				""
+				"&c法术强度、魔能强度、魔灵之力：法术强度只可提升铁之咒语模组的法术伤害、持续时间、范围、数量；而魔能强度和魔灵之力，可提升玩家的所有的魔法伤害（包含大部分法术）。"
+			]
+			id: "07021D84195067AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D10182BADB2A83A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "魔法伤害（享受魔法技能等级加成）"
+			tasks: [{
+				id: "6C82E7A461067422"
+				item: "malum:totemic_staff"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["159B2F0948505C22"]
+			description: ["可以大幅度优化镰刀的回旋攻击。"]
+			id: "299C7C9AFDDAE54A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3874EC29E7FF6732"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B52143A64B5096B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:necklace_of_the_narrow_edge"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["299C7C9AFDDAE54A"]
+			description: ["可以大幅度优化镰刀的回旋攻击。"]
+			id: "085864FC6C353762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F29DAEC0D08E692"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0876543383DD6068"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:necklace_of_the_hidden_blade"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1083BE0F63EA7676"]
+			description: ["击杀利维坦后可制作。需4个奥术精魂进行合成。"]
+			id: "2CDE4C553FD5B718"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54BD9CA1CEE9F301"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DE078A74A70EA44"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["68016F81C4166634"]
+			id: "13A1E9CA364D3781"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F3F7FA5B6A66AE1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70260F6EA6BA642F"
+				item: "eidolon:unholy_effigy"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["11716D365D1A54EF"]
+			description: ["常规延长药水效果：效期倍增符文、复苏之叶。如果是铁之咒语模组的法术，法术强度也会影响时长。"]
+			id: "68DFBF70B6E1AB92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23658A422A61296B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00EEEDF4B8FA8E21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_twinned_duration"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D2A2A69DA4448C5"]
+			id: "26FE69E5C1B10C25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1046AF668C257EF7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F525873563FBE2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:burrowing_focus"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["67BFA90C27F2C06D"]
+			description: ["&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 1
+					color: 15817250
+					display: {
+						color: 1714483
+					}
+					isReward: 1
+					label: "奥秘炽炉"
+					oneUse: 1
+					size: 3
+					state: 5
+					structureName: "config/capsule/rewards/chilu.nbt"
+				}
+			}
+			id: "402EB09E1E70632D"
+			rewards: [{
+				id: "6F3660AC543C909B"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 1
+						color: 15817250
+						display: {
+							color: 1714483
+						}
+						isReward: 1
+						label: "奥秘炽炉"
+						oneUse: 1
+						size: 3
+						state: 5
+						structureName: "config/capsule/rewards/chilu.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2C0AE144A52B11A8"
+					item: "forbidden_arcanus:clibano_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3DD293E872122176"
+					item: { Count: 8, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 17L
+					id: "2F3418CE47B4D584"
+					item: "forbidden_arcanus:polished_darkstone_bricks"
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«奥秘炽炉»胶囊"
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48BAE0FA99A56472"]
+			description: [
+				"&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 1
+					color: 8072841
+					display: {
+						color: 16559895
+					}
+					isReward: 1
+					label: "赫菲斯托斯锻炉"
+					oneUse: 1
+					size: 9
+					state: 5
+					structureName: "config/capsule/rewards/hefeisituosiduanlu.nbt"
+				}
+			}
+			id: "7654C85FD026C2D7"
+			rewards: [{
+				id: "368C9838BA143B17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 1
+						color: 8072841
+						display: {
+							color: 16559895
+						}
+						isReward: 1
+						label: "赫菲斯托斯锻炉"
+						oneUse: 1
+						size: 9
+						state: 5
+						structureName: "config/capsule/rewards/hefeisituosiduanlu.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "355436916BDEB111"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 9L
+					id: "6366B6B62DA56B19"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1ADB6388F0FCDDE8"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7435D01EEE8665FF"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«赫菲斯托斯»胶囊"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["23F770C0E18033B5"]
+			description: [
+				"该一次性胶囊，会摆下可完成大部分仪式的黑暗祭坛。"
+				""
+				"&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"
+				""
+				"&c该胶囊内的诅咒之笼，必须放入玩家自身的灵魂图腾或者连接宝石。"
+				""
+				"&6此外该胶囊摆放在高度为128以上的下雪群系，可以基本满足所有在主世界所举行的仪式中需要的条件。"
+			]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Proton"
+					canRotate: 0
+					color: 13421772
+					display: {
+						color: 12408663
+					}
+					isReward: 1
+					label: "全仪式黑暗祭坛"
+					oneUse: 1
+					size: 11
+					state: 5
+					structureName: "config/capsule/rewards/allaltar.nbt"
+				}
+			}
+			id: "28A5E9150CB6B899"
+			rewards: [{
+				id: "17DF8E57BC2F3E03"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Proton"
+						canRotate: 0
+						color: 13421772
+						display: {
+							color: 12408663
+						}
+						isReward: 1
+						label: "全仪式黑暗祭坛"
+						oneUse: 1
+						size: 11
+						state: 5
+						structureName: "config/capsule/rewards/allaltar.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "399A376C236E8408"
+				item: "goety_revelation:quietus_star"
+				type: "item"
+			}]
+			title: "兑换 一次性«全仪式黑暗祭坛»胶囊"
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4E9BF6105C0F4A"]
+			description: [
+				"具有无限的无特殊NBT的纯净水。手持桶、玻璃瓶右键缠魂水槽后，你可以毫无消耗地从中取水。"
+				""
+				"&6缠魂水槽会以极快的速度为周围5格内的炼药锅、女巫坩埚等同类容器添加并补充水量至上限。"
+				""
+				"&c缠魂水槽也会极快速地为自身周围5格内的被点燃的生物灭火。"
+			]
+			id: "2CA410AA7B1E4C7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F6AB23747A08580"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44DFD976E3D17897"
+				item: "goety:haunted_jug"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F0CC65FC7C4DE64"]
+			description: [
+				"详细介绍了该模组的物品。"
+				""
+				"&c详细介绍了该模组的物品，要注意部分页码打开会导致崩游戏。"
+			]
+			id: "579975D47EB894D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "600FE11400C5F3E2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23B7442CF7D4529F"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcanemicon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["297A7774CEF548DB"]
+			id: "525C5F14C72FF4E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E5B91C3869B704"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "495BEED2909BA835"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "fluffy_fur:silly_treat"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23F770C0E18033B5"]
+			description: ["女巫长袍和术士长袍均提供高额的魔法减伤，这在龙后很有用处。"]
+			id: "7FF752407EC36741"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AFAE3E496018466"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "723C25C8D4A93A32"
+				item: "goety:witch_robe"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59E72DB4B9AED6A0"]
+			description: [
+				"可消耗燃料加速精魂坩埚的精魂聚焦过程，还可以装载1个增强件。"
+				""
+				"&6精魂催化器2格高，同时只能加速附近的一个精魂坩埚，且每个精魂坩埚最多被8座精魂催化器加速。有效范围为以最底部方块为基准，4格以内。"
+				""
+				"&e仅在启动时（有燃烧时间）提供加速和增强件效果，每座启动的精魂催化器+50%聚焦速度 和+5%失稳风险。"
+			]
+			id: "632348E965AA53C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32BE0F0E996C65F7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58966D0C4DCD52BF"
+				item: "malum:spirit_catalyzer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["&9『发展』"]
+	title: "&6※ 咒法"
+}

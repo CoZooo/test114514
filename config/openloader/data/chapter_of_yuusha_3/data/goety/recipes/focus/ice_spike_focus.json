@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "asa",
+    "ses",
+    "asa"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goety:empty_focus"
+    },
+    "s":
+    {
+      "item": "minecraft:blue_ice"
+    },
+    "a":
+    {
+      "item": "goety:ice_cube"
+    }
+  },
+  "result":
+  {
+    "item": "goety:ice_spike_focus",
+    "count": 1
+  }
+}

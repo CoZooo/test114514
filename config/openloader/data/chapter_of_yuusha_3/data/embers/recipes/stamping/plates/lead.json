@@ -1,0 +1,14 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_lead"
+  },
+  "output": {
+    "tag": "forge:plates/lead",
+	"count": 4
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

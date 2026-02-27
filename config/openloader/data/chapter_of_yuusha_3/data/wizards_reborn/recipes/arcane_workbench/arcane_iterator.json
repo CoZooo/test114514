@@ -1,0 +1,27 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "#G#",
+    "GAG",
+    "#G#",
+    "CCCC"
+  ],
+  "key": {
+    "#": {
+      "item": "wizards_reborn:arcane_wood_planks"
+    },
+    "A": {
+      "item": "wizards_reborn:precision_crystal_block"
+    },
+    "G": {
+      "tag": "wizards_reborn:arcane_gold_ingot"
+    },
+    "C": {
+      "item": "wizards_reborn:enchanted_calx"
+    }
+  },
+  "output": {
+    "item": "wizards_reborn:arcane_iterator"
+  },
+  "wissen": 3000
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "elementalcombat:essence_block_fire"
+    },
+    {
+      "item": "goety:indented_gold"
+    },
+    {
+      "item": "callfromthedepth_:smoothmarbleblock"
+    },
+    {
+      "item": "ancient_aether:laboratory_dungeon_key"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "embers:ancient_motive_core"
+    }
+  ],
+  "result": {
+    "item": "goety:eruption_focus"
+  }
+}

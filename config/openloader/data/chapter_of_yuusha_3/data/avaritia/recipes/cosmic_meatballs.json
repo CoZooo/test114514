@@ -1,0 +1,57 @@
+{
+  "type": "avaritia:shapeless_extreme_craft",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:mutton_chops"
+    },
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "crabbersdelight:tropical_fish_slice"
+    },
+    {
+      "item": "crabbersdelight:pufferfish_slice"
+    },
+    {
+      "item": "crabbersdelight:raw_clam_meat"
+    },
+    {
+      "item": "crabbersdelight:crab_legs"
+    },
+    {
+      "item": "nethersdelight:ground_strider"
+    },
+    {
+      "item": "youkaishomecoming:flesh_slice"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "tag": "crockpot:parrot_eggs"
+    },
+    {
+      "item": "farmersrespite:blazing_chili"
+    },
+    {
+      "item": "avaritia:neutron_nugget"
+    }
+  ],
+  "result": {
+    "item": "avaritia:cosmic_meatballs"
+  }
+}

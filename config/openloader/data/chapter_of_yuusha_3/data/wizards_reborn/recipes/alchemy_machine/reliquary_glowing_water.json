@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "reliquary:glowing_water",
+    "count": 4
+  },
+  "steam": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "minecraft:water",
+      "amount" : 100
+    }
+  ]
+}

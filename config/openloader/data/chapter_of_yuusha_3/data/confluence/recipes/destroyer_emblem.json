@@ -1,0 +1,17 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:avenger_emblem"
+        },
+        {
+            "item": "simplyswords:contained_remnant"
+        },
+        {
+            "item": "confluence:eye_of_the_golem"
+        }
+    ],
+    "result": {
+        "item": "confluence:destroyer_emblem"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "X": {
+      "item": "simplyswords:dormant_relic"
+    },
+    "O": {
+      "item": "simplyswords:runic_tablet"
+    },
+    "S": {
+      "item": "immortalers_delight:enchanted_golden_himekaido"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "OXO",
+    "#S#"
+  ],
+  "result": {
+    "item": "simplyswords:righteous_relic"
+  }
+}

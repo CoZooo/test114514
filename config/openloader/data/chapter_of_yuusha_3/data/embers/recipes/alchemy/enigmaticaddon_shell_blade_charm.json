@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "yuusha:chaos_star"
+    },
+    {
+      "item": "stalwart_dungeons:ancient_fire"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:monstrous_horn"
+    }
+  ],
+  "output": {
+    "item": "enigmaticaddons:hell_blade_charm"
+  },
+  "tablet": {
+    "item": "celestial_artifacts:demon_curse"
+  }
+}

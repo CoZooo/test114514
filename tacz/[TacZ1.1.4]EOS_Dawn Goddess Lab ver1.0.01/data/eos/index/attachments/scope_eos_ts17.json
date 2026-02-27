@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.scope_eos_ts17.name",
+  "display": "eos:scope_eos_ts17_display",
+  "data": "eos:scope_eos_ts17_data",
+  "type": "scope",
+  "sort": 256
+}

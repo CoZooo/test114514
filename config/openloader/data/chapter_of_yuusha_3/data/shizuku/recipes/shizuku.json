@@ -1,0 +1,46 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:shizuku",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 40000,
+        "name": "slashblade:sange",
+        "refine": 4
+      }
+    },
+    "A": {
+      "item": "yuusha:ink_heart"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "Z": {
+      "item": "shizuku:meow_stone"
+    },
+    "C": {
+      "item": "minecraft:cod_bucket"
+    },
+    "D": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "G": {
+      "item": "minecraft:salmon_bucket"
+    },
+    "H": {
+      "item": "minecraft:pufferfish_bucket"
+    }
+  },
+  "pattern": [
+    "CZD",
+    "BEB",
+    "GAH"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

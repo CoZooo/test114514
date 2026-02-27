@@ -1,0 +1,9 @@
+
+[deepremove]
+	#贾巴沃克龙受击闪电间隔TICK. Default: 10
+	#Range: 1 ~ 1200
+	cooldownTicks = 20
+	#贾巴沃克龙发射火球间隔TICK. Default: 10
+	#Range: 1 ~ 1200
+	fireballsCooldownTicks = 60
+

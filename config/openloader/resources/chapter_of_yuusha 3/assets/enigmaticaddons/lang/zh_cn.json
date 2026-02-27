@@ -1,0 +1,28 @@
+{
+  "tooltip.enigmaticaddons.nightScroll3": "§6+%1$s §d近战伤害",
+
+  "tooltip.enigmaticaddons.blessRing1": "§d虽然拒绝了圆环之理的指引，",
+  "tooltip.enigmaticaddons.blessRing2": "§d但是轮回遗留下部分祝福依旧起效：",
+  "tooltip.enigmaticaddons.blessRingLore1": "§5这枚戒指闪烁着别样的",
+  "tooltip.enigmaticaddons.blessRingLore2": "§5光泽，记录着比希望更",
+  "tooltip.enigmaticaddons.blessRingLore3": "§5热烈的，比绝望更深刻",
+  "tooltip.enigmaticaddons.blessRingLore4": "§5的，轮回，记忆与力量",
+  
+	"tooltip.enigmaticaddons.avariceRing5": "§5造成的伤害会依据身上的§6宝石粉§5数量提升",
+
+	"advancement.enigmaticaddons:blessRing.desc": "碎裂无咒之戒，无法获得圆环之理的救赎",
+	"item.enigmaticaddons.bless_ring": "无赎之戒",
+	"tooltip.enigmaticaddons.blessStone2": "§5你所佩戴的§6无咒之戒§5将",
+	"tooltip.enigmaticaddons.blessStone3": "§5会转变为§6无赎之戒",
+	"enchantment.enigmaticaddons.redemption_curse.desc": "增加收到的伤害（佩戴无赎之戒时变为减少）",
+
+	"effect.enigmaticaddons.ichor_corrosion.desc": "每级减少20%的护甲值、20%的盔甲韧性、20%的击退抗性并增加10%受到的伤害。",
+	"effect.enigmaticaddons.ichor_corrosion.description": "每级减少20%的护甲值、20%的盔甲韧性、20%的击退抗性并增加10%受到的伤害。",
+	"effect.enigmaticaddons.frozen_heart.desc": "攻击附带霜冻效果，攻击冻结目标时伤害提升，自身免疫冰冻。",
+	"effect.enigmaticaddons.frozen_heart.description": "攻击附带霜冻效果，攻击冻结目标时伤害提升，自身免疫冰冻。",
+	"effect.enigmaticaddons.pure_resistance.desc": "每级减免20%的受到伤害，每级增加20%概率完全抵挡一次伤害。",
+	"effect.enigmaticaddons.pure_resistance.description": "每级减免20%的受到伤害，每级增加20%概率完全抵挡一次伤害。",
+
+
+	"tooltip.enigmaticaddons.wip": "§4玩家使用可能会导致游戏崩溃"
+}

@@ -1,0 +1,5 @@
+{
+  "block.ancientreforging.ancient_reforging_table": "Ancient Reforging Table",
+  "block.ancientreforging.ancient_reforging_table.desc": "Uses Gem Dust and Rarity Materials to reroll affixes",
+  "block.ancientreforging.ancient_reforging_table.desc2": "Max Rarity: %s"
+}

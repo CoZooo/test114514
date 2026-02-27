@@ -1,0 +1,13 @@
+{
+  "type": "celestial_core:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "call_of_drowner:drowner"
+      }
+    }
+  ],
+  "item": "celestial_core:death_essence"
+}

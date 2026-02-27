@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "celestial_core:treasure_fragment",
+    "count": 1
+  },
+  "output": {
+    "item": "celestial_artifacts:heart_of_revenge",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_mutated_aechor_plant",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 8
+    }
+  ]
+}

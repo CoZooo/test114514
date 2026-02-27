@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_tamed",
+  "activation_item": {
+    "item": "yuusha:dice_10"
+  },
+  "craftType": "expert_nether",
+  "entity_to_convert": {
+    "tag": "goety:blazes",
+    "display_name": "entity.goety.blaze_servant"
+  },
+  "entity_to_convert_into": "goety_cataclysm:ignited_berserker",
+  "soulCost": 5000,
+  "duration": 10,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "cataclysm:dying_ember"
+    },
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

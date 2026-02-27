@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:glass"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "item": "embers:intelligent_apparatus"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "call_of_drowner:seagold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_rivet"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

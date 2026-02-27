@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "magic",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:desert_crush_focus"
+  }
+}

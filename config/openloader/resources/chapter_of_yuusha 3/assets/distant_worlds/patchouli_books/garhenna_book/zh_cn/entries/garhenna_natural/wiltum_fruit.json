@@ -1,0 +1,33 @@
+{
+	"name": "威琍特果",
+	"icon": "distant_worlds:wiltum_fruit",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 5,
+	"advancement": "distant_worlds:at_the_very_top",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_fruit",
+			"link_recipe": "true",
+			"text": "威琍特树叶有很小几率掉落威琍特果实，由于其强大的愈合特性，可以减少迦赫纳损耗。从中你可以制作出一种能够中和某些类型毒素的威琍特鸡尾酒。你也可以制作一种可以降低损耗水平并在很长一段时间内为迦赫纳损耗提供临时保护的威琍特药剂。威琍特水果也可以储存在大箱子里。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:wiltum_cocktail_recipe",
+			"recipe2": "distant_worlds:wiltum_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:wiltum_fruit_box_recipe",
+			"recipe2": "distant_worlds:wiltum_fruit_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_trees"
+			]
+		}
+	]
+}

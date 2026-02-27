@@ -1,0 +1,39 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 38
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "wizards_reborn:precision_crystal"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "embers:focal_lens"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "applied_armorer:moritz_sniper_semi_k30"
+  }
+}

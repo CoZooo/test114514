@@ -1,0 +1,6 @@
+{
+	"name": "附魔",
+	"description": "该类别包含由迦赫纳维度添加的所有附魔的摘要。",
+	"icon": "distant_worlds:textures/screens/enchantments_icon.png",
+	"sortnum": 7
+}

@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/coldcore",
+  "model": "pgp:attachment/coldcore_geo",
+  "texture": "pgp:attachment/uv/coldcore",
+  "lod": {
+    "model": "pgp:attachment/lod/coldcore_lod",
+    "texture": "pgp:attachment/lod/coldcore_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

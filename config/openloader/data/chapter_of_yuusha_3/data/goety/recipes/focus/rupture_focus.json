@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "end",
+  "soulCost": 45000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "result": {
+    "item": "goety:rupture_focus"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"USE": {"fishing": 100},
+		"INTERACT": { "fishing": 100 }
+	}
+}

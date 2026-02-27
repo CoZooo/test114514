@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:aam_lv1"
+        }
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:component_lv1"
+        }
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:data_lv2"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:screen"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "aquamirae:abyssal_amethyst"
+  },
+  "base": {
+    "item": "shieldexp:diamond_shield"
+  },
+  "result": {
+    "item": "lost_aether_content:zanite_shield"
+  },
+  "template": {
+    "item": "call_of_drowner:coral_smithing_template"
+  }
+}

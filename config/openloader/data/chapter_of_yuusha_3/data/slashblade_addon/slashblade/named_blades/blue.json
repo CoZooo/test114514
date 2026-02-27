@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "enigmaticaddons:frost_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:blue",
+  "properties": {
+    "attack_base": 31.0,
+    "max_damage": 62,
+    "sword_type": [
+      "none"
+    ],
+    "slash_art": "ak:king"
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/wa/wa.obj",
+	"summon_sword_color": 2459046,
+    "texture": "slashblade_addon:model/wa/blue.png"
+  }
+}

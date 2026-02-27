@@ -1,0 +1,50 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "yuusha:de_soul_shard"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "goety_revelation:ascension_halo"
+  },
+  "output": {
+    "item": "goety_revelation:halo_of_the_end"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 64
+    },
+    {
+      "type": "wicked",
+      "count": 64
+    },
+    {
+      "type": "arcane",
+      "count": 64
+    },
+    {
+      "type": "sacred",
+      "count": 64
+    },
+    {
+      "type": "aerial",
+      "count": 64
+    },
+    {
+      "type": "aqueous",
+      "count": 64
+    },
+    {
+      "type": "earthen",
+      "count": 64
+    },
+    {
+      "type": "infernal",
+      "count": 64
+    }
+  ]
+}

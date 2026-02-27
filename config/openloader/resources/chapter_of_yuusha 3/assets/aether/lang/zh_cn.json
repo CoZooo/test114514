@@ -1,0 +1,43 @@
+{
+	"effect.aether.inebriation.desc": "伤害玩家并随机移动。",
+	"effect.aether.inebriation.description": "伤害玩家并随机移动。",
+	"effect.aether.remedy.desc": "治愈玩家并免疫醺毒。",
+	"effect.aether.remedy.description": "治愈玩家并免疫醺毒。",
+
+	"aether.pro_tips.line.aether.gravitite_ore_enchanting": "将重力矿石放入神能炉炼制以得到神炼重力晶块。",
+	"block.aether.enchanted_gravitite": "神炼重力晶块",
+	"lore.block.aether.altar": "用于物品附神和修复盔甲。这台设备由神能晶片提供动力。附神过程可能需要一些时间，但如果你在它下面放置一枚神炼重力晶块，这个过程会大大加快。",
+  
+	"item.aether.phoenix_bow": "§a凤舞长弓『封弓』",
+
+  "advancement.aether.gold_dungeon": "熄灭魔焰！",
+  "advancement.aether.gold_dungeon.desc": "斩杀受到克苏鲁混沌意志侵染的残暴天境统治者！恭喜成功通关勇者之章Ⅲ整合包！",
+
+	"aether.pro_tips.line.aether.holystone_tool_ability": "你知道吗？魔法保护和魔法类型抗性附魔能有效抵御各种法术伤害和瞬间伤害效果。",
+	"aether.pro_tips.line.aether.gravitite_ore_enchanting": "你知道吗？女仆如果被重伤3级以上杀死，复活后会无法回血。此时只要再次被有重伤效果的Boss攻击并不死即可解除。",
+	"aether.pro_tips.line.aether.golden_apples": "你知道吗？下界坐标×8=主世界坐标，在下界天花板上跑图可更快去到已知坐标。",
+	"aether.pro_tips.line.aether.cold_parachute_crafting": "你知道吗？伤害过低会无法破除适应属性。",
+	"aether.pro_tips.line.aether.blue_aerclouds": "你知道吗？在开启死亡不掉落后，一般情况下消失诅咒不会生效。除非像轻蔑之约这种死亡保留物品的饰品。",
+	"aether.pro_tips.line.aether.altar_repairing": "神能炉祭坛可以修复损坏的物品并增强现有物品，以神能晶片为燃料助力祭坛是个不错的选择。",
+	"aether.pro_tips.line.aether.champs": "你知道吗？在咒法章节可以制作召唤祭坛，方便召唤Boss等生物。",
+	"aether.pro_tips.line.aether.creepers": "你知道吗？龙前部分Boss具有特定属性易伤，但是并不代表其它武器不能打。",
+	"aether.pro_tips.line.aether.dart_shooter_crafting": "你知道吗？只有提交任务物品，才能看到“奇迹并不是免费的”任务里的攻略文字。该说明会提示其中一种可行的打法，也许并不是最优解。",
+	"aether.pro_tips.line.aether.darts_no_gravity": "你知道吗？前期的饰品的星月词缀加伤很重要，比如险恶加近战伤害，鹰眼加箭术伤害，魔息加法术强度。",
+	"aether.pro_tips.line.aether.difficulty": "你知道吗？玩家被攻击时能增加玩家怒气从而触发兴怒模组的加伤。",
+	"aether.pro_tips.line.aether.mining": "你知道吗？礼装章节的近战类、远程类、全伤类饰品基本涵盖了通关需要的加伤饰品，且已按发展顺序排列。",
+	"aether.pro_tips.line.aether.raw_meat": "你知道吗？飞艇、蜻蜓式扑翼机（匠作章节）、魔理沙的扫帚等物品，都是很好的前期飞行工具。",
+	"aether.pro_tips.line.aether.risk_taking": "你知道吗？不仅玩家有兴怒加伤，怪物也有兴怒加伤。某些多段伤害的武器会导致怪物伤害奇高。",
+	"aether.pro_tips.line.aether.security": "你知道吗？通气管（树海化章节的奇异饰品任务）、鱼鳃（礼装章节）、水下呼吸药水等物品，都是很好的前期水下逛街的工具。",
+	"aether.pro_tips.line.aether.slimes": "你知道吗？怪物也有无敌帧，在0.5秒内只能受到一次伤害，比如大部分法术。只有部分武器可以无视，比如枪械。",
+	"aether.pro_tips.line.aether.ambrosium_shard_fuel": "你知道吗？法杖上的神化暴击率和暴击伤害词条能提升法术伤害，但是法杖上的星裂效果词条是无效的。",
+	"aether.pro_tips.line.aether.close_door": "你知道吗？不要穿戴任何带有反伤效果的饰品、附魔或装备，包括荆棘、复仇诅咒附魔等，可能会导致卡顿等不明特性。",
+	"aether.pro_tips.line.aether.drops": "你知道吗？如果玩家的“受到治疗”数值因特性而变为0，可以通过佩戴整蛊坐垫然后脱下，从而刷新玩家所受到的重伤效果。",
+	"aether.pro_tips.line.aether.dungeon_rewards": "你知道吗？利用捕捉附魔可以获得生物的刷怪蛋。",
+	"aether.pro_tips.line.aether.dungeon_tiers": "你知道吗？元素战斗图标在树海化章节有详细解释。",
+	"aether.pro_tips.line.aether.enchant_blue_disk": "你知道吗？利用阅历附魔可以清理掉大部分生物的掉落物。",
+	"aether.pro_tips.line.aether.enchanted_gravitite_crafting": "你知道吗？星灵之力效果每级可增加20%的抗性，而星裂效果每级会降低20%的抗性，两者可以抵消。",
+	"aether.pro_tips.line.aether.golden_parachute_durability": "你知道吗？活力迸发效果每级可增加20%的受到治疗，而重伤效果每级会降低40%的受到治疗，两者可以抵消。",
+	"entity.aether.fire_minion": "克苏鲁侵袭的烈阳仆从",
+	"entity.aether.sun_spirit": "克苏鲁侵袭的烈阳巨灵-爆裂形态",
+	"item.aether.sun_spirit_spawn_egg": "克苏鲁侵袭的烈阳巨灵-爆裂形态刷怪蛋"
+}

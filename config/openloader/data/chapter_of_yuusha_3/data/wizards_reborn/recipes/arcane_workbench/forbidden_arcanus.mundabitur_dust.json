@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "___",
+    "____"
+  ],
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "B": {
+      "item": "malum:hex_ash"
+    },
+    "C": {
+      "item": "born_in_chaos_v1:fire_dust"
+    },
+    "D": {
+      "item": "crockpot:blackstone_dust"
+    },
+    "E": {
+      "item": "malum:blazing_quartz"
+    },
+    "F": {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    }
+  },
+  "output": {
+    "item": "forbidden_arcanus:mundabitur_dust",
+    "count": 6
+  },
+  "wissen": 200
+}

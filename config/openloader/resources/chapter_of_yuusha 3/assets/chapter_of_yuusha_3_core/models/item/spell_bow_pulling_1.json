@@ -1,0 +1,6 @@
+{
+    "parent": "chapter_of_yuusha_3_core:item/spell_bow",
+    "textures": {
+        "layer0": "chapter_of_yuusha_3_core:item/spell_bow_pulling_1"
+    }
+}

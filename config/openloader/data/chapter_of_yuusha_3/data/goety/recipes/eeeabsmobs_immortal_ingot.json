@@ -1,0 +1,15 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 500,
+  "ingredients": [
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    }
+  ],
+  "result": {
+    "item": "eeeabsmobs:immortal_ingot"
+  }
+}

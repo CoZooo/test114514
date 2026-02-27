@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "awakened_bosses:herobrine_a_helmet"
+  },
+  "addition": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "result": {
+    "item": "avaritia:infinity_helmet"
+  },
+  "template": {
+    "item": "yuusha:unstable_ender_part"
+  }
+}

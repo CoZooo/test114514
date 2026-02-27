@@ -1,0 +1,12 @@
+{
+  "type": "goety:pulverize",
+  "ingredient": [
+    {
+      "item": "malum:soulstone_ore"
+    }
+  ],
+  "item_result": {
+    "item": "malum:crushed_soulstone",
+    "count": 3
+  }
+}

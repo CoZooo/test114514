@@ -1,0 +1,117 @@
+{
+  "gem": "apotheosis:core/ballast",
+  "bonuses": [
+    {
+      "__comment": "自动武器",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.all_auto",
+        "types": [
+          "apotheosis_modern_ragnarok:full_auto",
+          "apotheosis_modern_ragnarok:semi_auto"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+				"common": 0.15,
+				"uncommon": 0.20,
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+            "common": -0.04,
+            "uncommon": -0.06,
+            "rare": -0.1,
+            "epic": -0.14,
+            "mythic": -0.18,
+            "ancient": -0.2
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "霰弹枪",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.shotgun",
+        "types": [
+          "apotheosis_modern_ragnarok:shotgun"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+				"common": 0.15,
+				"uncommon": 0.20,
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+            "common": -0.05,
+            "uncommon": -0.075,
+            "rare": -0.125,
+            "epic": -0.175,
+            "mythic": -0.225,
+            "ancient": -0.25
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "拉大栓",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.bolt_action",
+        "types": [
+          "apotheosis_modern_ragnarok:bolt_action"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+				"common": 0.15,
+				"uncommon": 0.20,
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+            "common": -0.05,
+            "uncommon": -0.075,
+            "rare": -0.125,
+            "epic": -0.175,
+            "mythic": -0.225,
+            "ancient": -0.25
+          }
+        }
+      ]
+    }
+  ]
+}

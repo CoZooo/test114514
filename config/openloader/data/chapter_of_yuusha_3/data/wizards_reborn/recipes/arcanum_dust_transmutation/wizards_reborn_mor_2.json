@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "infinite_abyss:large_glowing_mushroom_pink"
+  },
+  "to": {
+    "item": "wizards_reborn:mor"
+  }
+}

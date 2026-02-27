@@ -1,0 +1,45 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "distant_worlds:firon_block"
+    },
+    "I": {
+      "item": "ancient_aether:valkyrum_block"
+    },
+    "N": {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    "X": {
+      "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+    },
+    "A": {
+      "item": "locusazzurro_icaruswings:nether_infused_mead"
+    },
+    "B": {
+      "item": "locusazzurro_icaruswings:void_infused_mead"
+    },
+    "D": {
+      "item": "reliquary:midas_touchstone"
+    },
+    "E": {
+      "item": "yuusha:dragon_soul"
+    }
+  },
+  "pattern": [
+    "       II",
+    "      IAI",
+    "     IBI ",
+    " C  IAI  ",
+    " CCIBI   ",
+    " DCAI    ",
+    " XECC    ",
+    " NXDCC   ",
+    "X        "
+  ],
+  "result": {
+    "item": "ancient_aether:valkyrum_sword"
+  },
+  "show_notification": true
+}

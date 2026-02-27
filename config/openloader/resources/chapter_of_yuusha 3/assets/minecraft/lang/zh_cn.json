@@ -1,0 +1,28 @@
+{
+	"entity.minecraft.parrot": "「神赐」鹦鹉",
+
+	"block.minecraft.powder_snow": "细雪",
+
+	"stat.minecraft.play_time": "§2游戏时长（现实时间）",
+	"stat.minecraft.deaths": "§c轮回次数",
+	"stat.minecraft.time_since_death": "§e自上次轮回",
+	"stat.minecraft.mob_kills": "§3生物击杀数",
+	
+	"trim_material.minecraft.netherite": "天华质",
+
+	"block.minecraft.stonecutter": "切石机「灵子重组」",
+	"container.stonecutter": "切石机「灵子重组」",
+
+	"enchantment.minecraft.fire_aspect": "火属性附加",
+	
+	"enchantment.minecraft.infinity.desc": "发射普通箭矢不会消耗箭，需要物品栏内至少有一支箭，可以对妖弓和封弓起效，并能直接不消耗射出特殊箭。",
+
+	"effect.minecraft.fire_resistance": "火属性抗性",
+	"item.minecraft.lingering_potion.effect.fire_resistance": "滞留型火属性抗性药水",
+	"item.minecraft.potion.effect.fire_resistance": "火属性抗性药水",
+	"item.minecraft.splash_potion.effect.fire_resistance": "喷溅型火属性抗性药水",
+	"item.minecraft.tipped_arrow.effect.fire_resistance": "火属性抗性之箭",
+
+	"effect.minecraft.resistance": "星灵之力",
+	"attribute.name.generic.attack_damage": "近战伤害"
+}

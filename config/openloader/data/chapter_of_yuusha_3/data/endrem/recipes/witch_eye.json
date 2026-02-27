@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "GEG",
+    " C "
+  ],
+  "key": {
+    "E": {
+      "item": "endrem:rogue_eye"
+    },
+    "G": {
+      "item": "endrem:witch_pupil"
+    },
+    "C": {
+      "item": "theinkarena:soul_core"
+    },
+    "M": {
+      "item": "yuusha:ice_shard"
+    }
+  },
+  "result": {
+    "item": "endrem:witch_eye"
+  }
+}

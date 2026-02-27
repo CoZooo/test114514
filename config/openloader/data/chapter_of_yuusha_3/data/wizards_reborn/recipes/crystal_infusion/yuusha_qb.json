@@ -1,0 +1,46 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "yuusha:qb",
+    "count": 12
+  },
+  "light": 1000,
+  "ingredients": [
+    {
+      "tag": "wizards_reborn:all_crystals"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "eidolon:wicked_weave"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "tag": "wizards_reborn:all_crystals"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "eidolon:wicked_weave"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    }
+  ]
+}

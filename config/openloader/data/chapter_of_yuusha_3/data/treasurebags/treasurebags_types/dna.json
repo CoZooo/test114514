@@ -1,0 +1,15 @@
+{
+  "group": "default",
+  "displayName": {
+    "translate": "bag.treasurebags.dna"
+  },
+  "lootTable": "treasurebags:bags/dna",
+  "rarity": "epic",
+  "bagColor": "#840228",
+  "bagOverlayColor": "#281F1D",
+  "bagStringColor": "#122E29",
+  "dropsFromGroups": [
+    "player",
+    "hostile"
+  ]
+}

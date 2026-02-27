@@ -1,0 +1,39 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 34
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "call_of_drowner:seagold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "embers:focal_lens"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "applied_armorer:niklas_lever_vigenere"
+  }
+}

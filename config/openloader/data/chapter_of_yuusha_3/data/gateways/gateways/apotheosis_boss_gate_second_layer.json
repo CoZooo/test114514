@@ -1,0 +1,153 @@
+{
+	"size": "medium",
+	"color": "#8552a1",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/cowboy"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/necromancer"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/cowboy"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/new_samurai"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/royal_guard_spearman"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/new_samurai"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/shogun"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:second_layer/spearman"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 1
+			}
+		}
+	]
+}

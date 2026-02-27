@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:or",
+        "values": [
+          "#aether:is_aether"
+        ]
+      }
+    ]
+  },
+  "spawners": {
+    "type": "embers:ancient_golem",
+    "maxCount": 4,
+    "minCount": 2,
+    "weight": 10
+  }
+}

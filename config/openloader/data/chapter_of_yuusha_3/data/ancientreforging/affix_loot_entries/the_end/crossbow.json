@@ -1,0 +1,12 @@
+{
+	"weight": 5,
+	"quality": 10.0,
+	"stack": {
+		"item": "minecraft:crossbow"
+	},
+	"min_rarity": "epic",
+	"max_rarity": "epic",
+	"dimensions": [
+		"minecraft:the_end"
+	]
+}

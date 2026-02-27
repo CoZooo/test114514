@@ -1,0 +1,485 @@
+{
+	"size": "medium",
+	"color": "rainbow",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "cataclysm:the_harbinger",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "entity_303:entity_303"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "luminous_halloween:horseless_headsman"
+                },
+				{
+                    "entity": "stalwart_dungeons:nether_keeper"
+                },
+                {
+                    "entity": "goety:hostile_redstone_golem"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "bosses_of_mass_destruction:obsidilith"
+                },
+                {
+                    "entity": "cataclysm:ender_guardian"
+                },
+                {
+                    "entity": "graveyard:lich"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "corundumguardian:corundum_guardian"
+                },
+                {
+                    "entity": "binah:binah_v_2"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "bosses_of_mass_destruction:gauntlet"
+                },
+                {
+                    "entity": "stalwart_dungeons:awful_ghast"
+                },
+                {
+                    "entity": "cataclysm:netherite_monstrosity"
+                },
+                {
+                    "entity": "cataclysm:ignis"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "goety:hostile_redstone_monstrosity"
+                },
+                {
+                    "entity": "goety:vizier"
+                },
+                {
+                    "entity": "faded_conquest_2:aero_guardian"
+                },
+                {
+                    "entity": "faded_conquest_2:doomharbor_lich"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.85
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "arcalis_bosses:jack"
+                },
+                {
+                    "entity": "arcalis_bosses:the_deathbringer"
+                },
+                {
+                    "entity": "cthulhufishing:obsessed_eye_boss"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "arcalis_bosses:captain_deadbone"
+                },
+                {
+                    "entity": "infinite_abyss:crystal_construct"
+                },
+                {
+                    "entity": "infinite_abyss:charya"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "cataclysm:maledictus"
+                },
+                {
+                    "entity": "infinite_abyss:frozen_wither"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "goety:wither_necromancer"
+                },
+                {
+                    "entity": "depthcrawler:deepboss"
+                },
+                {
+                    "entity": "depthcrawler:ancientdeep"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+                    "entity": "faded_conquest_2:vessel_of_calamity"
+                },
+                {
+                    "entity": "angelcraft_bosses:boos"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "goety:apostle"
+                }
+			],
+			"modifiers": [
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "enigmaticlegacy:astral_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 6000,
+			"setup_time": 100
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_glowstone_part",
+				"count": 3
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:sixteen_clock",
+				"count": 2
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "forbidden_arcanus:artisan_relic",
+				"count": 32
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "apotheosis:ancient_material",
+				"count": 64
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:qb",
+				"count": 8
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

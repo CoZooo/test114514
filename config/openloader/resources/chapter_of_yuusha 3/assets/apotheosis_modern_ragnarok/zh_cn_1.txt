@@ -1,0 +1,174 @@
+{
+  "entity.apotheosis_modern_ragnarok.magic_laser": "魔法激光",
+  "entity.apotheosis_modern_ragnarok.magic_fireball": "魔法火球",
+  "subtitles.apotheosis_modern_ragnarok.affix.magical_shot.shotgun": "霰弹能量武器射击",
+  "subtitles.apotheosis_modern_ragnarok.affix.magical_shot.semi_auto": "能量武器射击",
+  "subtitles.apotheosis_modern_ragnarok.affix.magical_shot.full_auto": "能量武器射击",
+  "subtitles.apotheosis_modern_ragnarok.affix.magical_shot.bolt_action": "大威力能量武器射击",
+  "subtitles.apotheosis_modern_ragnarok.affix.magical.fireball": "爆裂魔法",
+  "subtitles.apotheosis_modern_ragnarok.affix.head_explosion": "头部炸裂",
+  "subtitles.apotheosis_modern_ragnarok.critical_hit": "暴击命中",
+  "subtitles.apotheosis_modern_ragnarok.execution": "单位被处决",
+  "subtitles.apotheosis_modern_ragnarok.perfect_block": "完美招架",
+  "subtitles.apotheosis_modern_ragnarok.perfect_block_neutralized_target": "击破架势",
+  "item.apotheosis_modern_ragnarok.izanagi_object": "伊奘诺物质",
+  "attribute.name.apotheosis_modern_ragnarok.posture": "架势量表",
+  "attribute.name.apotheosis_modern_ragnarok.posture.desc": "架势条填充比例。程序内部属性，请勿添加modifiers！",
+  "death.attack.apotheosis_modern_ragnarok.execution": "%1$s 被 %2$s 处决了",
+  "death.attack.apotheosis_modern_ragnarok.execution.item": "%2$s 使用 %3$s 处决了 %1$s",
+  "enchantment.apotheosis_modern_ragnarok.stability": "稳重",
+  "enchantment.apotheosis_modern_ragnarok.stability.desc": "降低射击时的后坐力",
+  "enchantment.apotheosis_modern_ragnarok.emergency_protector": "应急护具",
+  "enchantment.apotheosis_modern_ragnarok.emergency_protector.desc": "放在副手时提升护甲值",
+  "enchantment.apotheosis_modern_ragnarok.riptide_warhead": "激流勇进",
+  "enchantment.apotheosis_modern_ragnarok.riptide_warhead.desc": "降低子弹的水下阻力",
+  "enchantment.apotheosis_modern_ragnarok.survival_instinct": "求生本能",
+  "enchantment.apotheosis_modern_ragnarok.survival_instinct.desc": "击杀生物后有概率掉落弹药",
+  "enchantment.apotheosis_modern_ragnarok.last_stand": "临死一搏",
+  "enchantment.apotheosis_modern_ragnarok.last_stand.desc": "弹匣内弹药耗尽时增加近战伤害",
+  "enchantment.apotheosis_modern_ragnarok.perfect_block": "完美招架",
+  "enchantment.apotheosis_modern_ragnarok.perfect_block.desc": "发动近战攻击后短时间内格挡近战攻击并震晕攻击者",
+  "enchantment.apotheosis_modern_ragnarok.projection_magic": "投影魔术",
+  "enchantment.apotheosis_modern_ragnarok.projection_magic.desc": "随时间向弹匣内自动再生弹药",
+  "effect.apotheosis_modern_ragnarok.tyranny": "暴君形态",
+
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.attack_self": "击中目标时，%s概率获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.attack_target": "击中目标时，%s概率造成%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.hurt_self": "受到攻击时，%s概率获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.hurt_attacker": "受到攻击时，%s概率造成%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.break_self": "破坏方块时，%s概率获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.arrow_self": "弹射物击中目标时，%s概率获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.arrow_target": "弹射物击中目标时，%s概率造成%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.block_self": "格挡时，%s概率获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.block_attacker": "格挡时，%s概率造成%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.ads_self": "瞄准目标时，获得%s",
+  "affix.apotheosis_modern_ragnarok.rated_potion_affix.target.ads_target": "瞄准时，对你指向的目标施加%s",
+
+  "affix.apotheosis_modern_ragnarok.spectral.gun.desc": "发射的子弹有%s概率点亮敌人",
+
+  "affix.apotheosis:cleaving.apotheosis_modern_ragnarok.alt": "爆弹",
+  "affix.apotheosis:cleaving.apotheosis_modern_ragnarok.alt.suffix": "穿爆燃弹",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/attribute/lightweight": "减重款",
+  "affix.apotheosis_modern_ragnarok:all_gun/attribute/lightweight.suffix": "减重款",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/mob_effect/eldritch": "不可名状",
+  "affix.apotheosis_modern_ragnarok:all_gun/mob_effect/eldritch.suffix": "不可名状之物",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/mob_effect/studious": "好学",
+  "affix.apotheosis_modern_ragnarok:all_gun/mob_effect/studious.suffix": "三好学生",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/special/frugality": "节俭主义",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/frugality.suffix": "超省子弹！",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/frugality.desc": "射击时有%s几率不消耗子弹",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/special/magical_shot": "冒蓝火",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/magical_shot.suffix": "魔法武器",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/magical_shot.desc": "这把枪发射的子弹将会造成魔法伤害",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/special/armor_squash": "爆衣狂人",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/armor_squash.suffix": "碎甲弹",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/armor_squash.desc": "命中时有%s几率打碎目标的任意一件护甲",
+  "subtitles.apotheosis_modern_ragnarok.affix.armor_crack": "护甲破碎",
+
+  "affix.apotheosis_modern_ragnarok:all_gun/special/head_explode": "头痛欲裂",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/head_explode.suffix": "头颅爆破",
+  "affix.apotheosis_modern_ragnarok:all_gun/special/head_explode.desc": "爆头命中时对目标周围的敌人造成%s的溅射伤害",
+
+
+
+  "// 暴击率": "",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/crit_chance": "直击要害",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/crit_chance.suffix": "心胸大开",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/crit_chance": "直击要害",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/crit_chance.suffix": "心胸大开",
+
+  "// 暴击伤害": "",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/crit_damage": "致命",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/crit_damage.suffix": "致命武力",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/crit_damage": "致命",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/crit_damage.suffix": "致命武力",
+
+  "// 火焰伤害（灼热的）": "",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/fire_damage": "灼热",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/fire_damage.suffix": "铝热效应",
+  "affix.apotheosis_modern_ragnarok:rapid_fire/attribute/fire_damage": "灼热",
+  "affix.apotheosis_modern_ragnarok:rapid_fire/attribute/fire_damage.suffix": "铝热效应",
+  "affix.apotheosis_modern_ragnarok:shotgun/attribute/fire_damage": "灼热",
+  "affix.apotheosis_modern_ragnarok:shotgun/attribute/fire_damage.suffix": "铝热效应",
+  "effect.apotheosis_modern_ragnarok.fire_dot": "灼烧",
+
+  "// 冷冻伤害（冰封的）": "",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/cold_damage": "冰冷",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/cold_damage.suffix": "完美冻结",
+  "affix.apotheosis_modern_ragnarok:rapid_fire/attribute/cold_damage": "冰冷",
+  "affix.apotheosis_modern_ragnarok:rapid_fire/attribute/cold_damage.suffix": "完美冻结",
+  "affix.apotheosis_modern_ragnarok:shotgun/attribute/cold_damage": "冰冷",
+  "affix.apotheosis_modern_ragnarok:shotgun/attribute/cold_damage.suffix": "完美冻结",
+  "effect.apotheosis_modern_ragnarok.freeze": "冰冻",
+
+  "// 吸血/过量治疗": "",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/life_steal_x": "吸血",
+  "affix.apotheosis_modern_ragnarok:bolt_action/attribute/life_steal_x.suffix": "吸血鬼",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/life_steal": "吸血",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/attribute/life_steal.suffix": "吸血鬼",
+
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/grievous": "反人道",
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/grievous.suffix": "联合国对它感到愤怒",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/grievous": "违反海牙公约",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/grievous.suffix": "联合国对它感到不满",
+
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/bleeding": "抗凝血",
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/bleeding.suffix": "抗凝血弹头",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/bleeding": "抗凝血",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/bleeding.suffix": "抗凝血弹头",
+
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/sundering": "腐蚀性",
+  "affix.apotheosis_modern_ragnarok:bolt_action/mob_effect/sundering.suffix": "衣物溶解者",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/sundering": "腐蚀性",
+  "affix.apotheosis_modern_ragnarok:non_bolt_action/mob_effect/sundering.suffix": "衣物溶解者",
+
+
+
+
+
+
+  "// 宝石名称": "",
+  "item.apotheosis.gem.apotheosis_modern_ragnarok:core/amr/magnum": "马格南宝石",
+
+
+
+
+
+
+  "text.apotheosis.category.apotheosis_modern_ragnarok:semi_auto": "半自动武器",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:semi_auto.plural": "半自动武器",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:full_auto": "全自动武器",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:full_auto.plural": "全自动武器",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:shotgun": "霰弹枪",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:shotgun.plural": "霰弹枪",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:bolt_action": "栓动式武器",
+  "text.apotheosis.category.apotheosis_modern_ragnarok:bolt_action.plural": "栓动式武器",
+  "gem_class.apotheosis_modern_ragnarok.all_gun": "枪械",
+  "gem_class.apotheosis_modern_ragnarok.all_auto": "自动武器",
+  "gem_class.apotheosis_modern_ragnarok.all_auto_including_shotgun": "自动武器（包含霰弹枪）",
+  "gem_class.apotheosis_modern_ragnarok.bolt_action": "栓动式武器",
+  "gem_class.apotheosis_modern_ragnarok.full_auto": "全自动武器",
+  "gem_class.apotheosis_modern_ragnarok.shotgun": "霰弹枪",
+  "bonus.apotheosis:multi_attr.desc.amr:but2": "%s但%s",
+  "bonus.apotheosis_modern_ragnarok.tyrannical.desc": "持续射击时逐渐提升射速但逐渐降低移动速度，最高叠加%d层",
+
+
+
+
+
+  "affix.apotheosis_modern_ragnarok:magnum": "加装药",
+  "affix.apotheosis_modern_ragnarok:magnum.suffix": "马格南",
+
+  "affix.apotheosis_modern_ragnarok:clip_expansion": "武德充沛",
+  "affix.apotheosis_modern_ragnarok:clip_expansion.suffix": "配备大弹鼓",
+
+  "affix.apotheosis_modern_ragnarok:ads_charge": "冷静",
+  "affix.apotheosis_modern_ragnarok:ads_charge.suffix": "冷静射手",
+  "affix.apotheosis_modern_ragnarok:ads_charge.desc": "持续瞄准会使伤害增加最多%s（尚未完成）"
+}

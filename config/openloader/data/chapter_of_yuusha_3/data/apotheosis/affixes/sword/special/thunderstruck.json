@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:thunderstruck",
+	"values": {
+		"rare": {
+			"min": 200,
+			"steps": 4,
+			"step": 100
+		},
+		"epic": {
+			"min": 300,
+			"steps": 4,
+			"step": 100
+		},
+		"mythic": {
+			"min": 400,
+			"steps": 4,
+			"step": 100
+		},
+		"ancient": {
+			"min": 1000,
+			"steps": 10,
+			"step": 100
+		}
+	}
+}

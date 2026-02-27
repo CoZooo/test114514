@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "yuusha:dice_1"
+  ],
+  "values": {
+    "INEDIBLE": 1
+  }
+}

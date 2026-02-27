@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "315",
+    "040",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "distant_worlds:dalite_block"
+    },
+    "1": {
+      "item": "distant_worlds:polished_lithum_slab"
+    },
+    "3": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "4": {
+      "item": "celestial_core:pure_nether_star"
+    },
+    "5": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "6": {
+      "tag": "forge:lithum_items"
+    },
+    "7": {
+      "tag": "forge:lithum_items"
+    },
+    "8": {
+      "tag": "forge:lithum_items"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:lithum_core",
+    "count": 1
+  }
+}

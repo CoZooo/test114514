@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:sixteen_clock"
+  },
+  "craftType": "frost",
+  "soulCost": 39999,
+  "duration": 9,
+  "ingredients": [
+    {
+      "item": "goety:iceology_focus"
+    },
+    {
+      "item": "goety:chilling_focus"
+    },
+    {
+      "item": "goety:frost_nova_focus"
+    },
+    {
+      "item": "goety:ice_spike_focus"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:void_crystal"
+    },
+    {
+      "item": "stalwart_dungeons:void_crystal"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:ice_focus"
+  }
+}

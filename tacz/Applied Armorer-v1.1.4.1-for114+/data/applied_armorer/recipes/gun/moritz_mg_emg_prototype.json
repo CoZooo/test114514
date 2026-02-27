@@ -1,0 +1,40 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:pumpkinhandgun"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "refinedstorage:creative_controller"
+      },
+      "count": 1
+    },
+    
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "applied_armorer:moritz_mg_emg_prototype"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": {"ban": 666},
+    "INTERACT": {"ban": 666}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:protogenoi_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "proud_soul": 50000,
+        "refine": 5
+      }
+    },
+    "P": {
+      "item": "prinegorerouse:protogenoi"
+    },
+    "S": {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    "W": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    }
+  },
+  "pattern": [
+    "SPS",
+    "WBW",
+    "SPS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

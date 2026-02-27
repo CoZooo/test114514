@@ -1,0 +1,17 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:magic_quiver"
+        },
+        {
+            "item": "forbidden_arcanus:dark_matter"
+        },
+        {
+            "item": "cataclysm:abyssal_egg"
+        }
+    ],
+    "result": {
+        "item": "confluence:stalkers_quiver"
+    }
+}

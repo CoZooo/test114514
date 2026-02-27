@@ -1,0 +1,29 @@
+
+[general]
+	#The range from an active beacon where no champions will spawn (0 to disable)
+	#Range: 0 ~ 1000
+	beaconProtectionRange = 0
+	#Set to true to enable champions from mob spawners
+	championSpawners = true
+	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
+	#Range: > 0
+	deathMessageTier = 0
+	#A list of dimension names that are blacklisted/whitelisted for champions
+	dimensionList = []
+	#Set whether the dimension list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	dimensionPermission = "BLACKLIST"
+	#A list of entities that are blacklisted/whitelisted for champions
+	entitiesList = []
+	#Set whether the entities list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	entitiesPermission = "BLACKLIST"
+	#Set to true to show HUD display for champions, including health, affixes, and tier
+	showHud = true
+	#Set entity id (for example, ['minecraft:end_dragon', 'minecraft:creeper']) to hidden HUD display for champions, including health, affixes, and tier
+	bossBarBlackList = ["cataclysm:the_leviathan", "cataclysm:ancient_remnant", "cataclysm:ender_guardian", "cataclysm:the_harbinger", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "cataclysm:maledictus", "mowziesmobs:umvuthi", "mowziesmobs:frostmaw", "mowziesmobs:ferrous_wroughtnaut", "minecraft:ender_dragon", "minecraft:wither", "aether:slider", "ancient_aether:mutated_aechor_plant", "aether:valkyrie_queen", "lost_aether_content:aerwhale_king", "aether:sun_spirit", "goety:crone", "goety:minister", "goety:bone_lord", "goety:skull_lord", "goety:wither_necromancer", "goety:wight", "aquamirae:captain_cornelia", "faded_conquest_2:poisonspikea", "faded_conquest_2:poison_spike_b", "binah:rororo", "binah:sandstorm", "goety:hostile_redstone_monstrosity", "goety:hostile_redstone_golem", "faded_conquest_2:whirlwind", "cthulhufishing:grimoire_tentacle", "faded_conquest_2:vessel_spawn", "goety:damned", "goety:obsidian_monolith", "goety:apostle", "darkdoppelganger:dark_doppelganger", "meetyourfight:swampjaw", "meetyourfight:bellringer", "infinite_abyss:frozen_wither", "cataclysm:scylla", "ancient_ones:amethyst_spike", "goety:vizier", "revelationfix:maverick_servant", "revelationfix:heretic_servant", "irons_spellbooks:summoned_zombie", "irons_spellbooks:summoned_skeleton", "irons_spellbooks:summoned_vex"]
+	#Set to true to have champions generate a colored particle effect indicating their rank
+	showParticles = false
+	#Set to true to show champion tier and affixes in The One Probe overlay
+	enableTOPIntegration = true
+

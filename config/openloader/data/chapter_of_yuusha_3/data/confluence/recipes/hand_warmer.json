@@ -1,0 +1,20 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "minecraft:red_wool"
+        },
+        {
+            "item": "minecraft:white_wool"
+        },
+        {
+            "item": "locusazzurro_icaruswings:golden_wool_block"
+        },
+        {
+            "item": "netherdepthsupgrade:soul_sucker_leather"
+        }
+    ],
+    "result": {
+        "item": "confluence:hand_warmer"
+    }
+}

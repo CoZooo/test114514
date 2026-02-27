@@ -1,0 +1,9 @@
+{
+  "slot": "eos:attachment/slot/muzzle_chasing_light",
+  "model": "eos:attachment/muzzle_chasing_light_geo",
+  "texture": "eos:gun/uv/chasing_light",
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

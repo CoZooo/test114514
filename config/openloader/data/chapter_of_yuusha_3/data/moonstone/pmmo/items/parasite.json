@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "love": 600 },
+    "USE": { "love": 600 }
+	},
+  "negative_effect": 
+    { 
+	"celestial_core:soul_shatter": 4, 
+	"enigmaticaddons:ichor_corrosion": 4, 
+	"cataclysm:abyssal_fear": 1
+	}
+}

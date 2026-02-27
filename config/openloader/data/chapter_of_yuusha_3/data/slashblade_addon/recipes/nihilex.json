@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:nihilex",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade_addon:nihil",
+        "proud_soul": 10000,
+        "refine": 1
+      }
+    },
+    "D": {
+      "item": "buzzier_bees:crystallized_honey_block"
+    },
+    "I": {
+      "item": "irons_spellbooks:blood_vial"
+    },
+    "N": {
+      "item": "aquamirae:ship_graveyard_echo"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "IBI",
+    "SDS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

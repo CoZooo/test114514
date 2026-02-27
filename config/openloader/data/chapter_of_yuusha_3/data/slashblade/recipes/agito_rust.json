@@ -1,0 +1,30 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:agito_rust",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 1000,
+        "name": "slashblade:sabigatana"
+      }
+    },
+    "A": {
+      "item": "slashblade:proudsoul"
+    },
+    "B": {
+      "item": "slashblade:proudsoul_tiny"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BEB",
+    "ABA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

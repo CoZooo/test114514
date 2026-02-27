@@ -1,0 +1,100 @@
+{
+	"weight": 5,
+	"quality": 0.1,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [{
+			"type": "apotheosis:all_stats",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"uncommon": 0.05,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
+			},
+            "attributes": [
+                "minecraft:generic.max_health",
+                "minecraft:generic.attack_damage",
+                "minecraft:generic.luck",
+                "attributeslib:crit_chance",
+                "attributeslib:crit_damage"
+            ]
+		},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/copper",
+			"inputs": {
+				"tag": "forge:raw_materials/copper"
+			},
+			"output": {
+				"item": "minecraft:raw_gold"
+			},
+			"values": {
+				"uncommon": 0.2,
+				"rare": 0.4,
+				"epic": 0.6,
+				"mythic": 0.8,
+				"ancient": 1.0
+			},
+			"desc": "gem.apotheosis:overworld/royalty.bonus.pickaxe"
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and_but",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.armor",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.2,
+						"epic": 0.3,
+						"mythic": 0.4,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.2,
+						"epic": 0.3,
+						"mythic": 0.4,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.1,
+						"rare": -0.2,
+						"epic": -0.3,
+						"mythic": -0.4,
+						"ancient": -0.5
+					}
+				}
+			]
+		}
+	]
+}

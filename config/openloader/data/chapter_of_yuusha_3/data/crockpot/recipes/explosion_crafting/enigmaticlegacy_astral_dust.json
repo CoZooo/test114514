@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "enigmaticlegacy:astral_dust"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "enigmaticlegacy:astral_dust"
+}

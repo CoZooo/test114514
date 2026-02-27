@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:soul_emerald"
+  },
+  "craftType": "necroturgy",
+  "research": "buried",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    },
+    {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    }
+  ],
+  "result": {
+    "item": "goety:heart_of_the_night"
+  }
+}

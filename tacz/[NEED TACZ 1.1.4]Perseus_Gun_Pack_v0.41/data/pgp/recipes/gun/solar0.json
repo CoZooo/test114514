@@ -1,0 +1,44 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:mrse"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:star_fuel"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pgp:solar0",
+    "ammo_count": 0
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

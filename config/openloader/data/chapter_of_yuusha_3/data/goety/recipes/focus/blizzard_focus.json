@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:arrow_rain_focus"
+  },
+  "craftType": "frost",
+  "soulCost": 9999,
+  "duration": 9,
+  "ingredients": [
+    {
+      "item": "goety:ice_spike_focus"
+    },
+    {
+      "item": "stalwart_dungeons:ancient_fire"
+    },
+    {
+      "item": "irons_spellbooks:permafrost_shard"
+    },
+    {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    }
+  ],
+  "result": {
+    "item": "goety:blizzard_focus"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "cataclysm:cursed_eye"
+  },
+  "craftType": "forge",
+  "soulCost": 40000,
+  "duration": 20,
+  "research": "forbidden",
+  "ingredients": [
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "yuusha:sirenhead_pearl"
+    },
+    {
+      "item": "enigmaticlegacy:storage_crystal"
+    },
+    {
+      "item": "yuusha:sirenhead_pearl"
+    },
+    {
+      "item": "goety:warlock_sash"
+    },
+    {
+      "item": "enigmaticaddons:pure_heart"
+    },
+    {
+      "item": "sons_of_sins:blood_bucket"
+    },
+    {
+      "item": "sons_of_sins:blood_bucket"
+    }
+  ],
+  "result": {
+    "item": "moonstone:beacon"
+  }
+}

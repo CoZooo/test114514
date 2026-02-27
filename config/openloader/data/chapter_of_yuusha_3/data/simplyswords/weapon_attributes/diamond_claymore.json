@@ -1,0 +1,9 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 4.5,
+    "two_handed": true,
+    "category": "claymore",
+    "pose": "simplyswords:pose_greatsword"
+  }
+}

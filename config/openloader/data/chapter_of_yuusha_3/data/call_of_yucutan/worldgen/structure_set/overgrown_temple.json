@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "call_of_yucutan:overgrown_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 27,
+    "separation": 19,
+    "salt": 1060915621
+  }
+}

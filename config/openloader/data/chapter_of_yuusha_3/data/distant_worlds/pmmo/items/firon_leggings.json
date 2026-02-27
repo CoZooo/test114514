@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": {"maid": 666}
+  },
+  "negative_effect": 
+    {  
+	"cataclysm:stun": 4, 
+	"goety:stunned": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

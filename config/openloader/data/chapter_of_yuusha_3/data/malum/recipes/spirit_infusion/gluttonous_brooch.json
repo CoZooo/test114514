@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "eidolon:death_essence"
+    },
+    {
+      "count": 4,
+      "item": "eidolon:crimson_essence"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:elaborate_brooch"
+  },
+  "output": {
+    "item": "malum:gluttonous_brooch"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 32
+    },
+    {
+      "type": "wicked",
+      "count": 32
+    }
+  ]
+}

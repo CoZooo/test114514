@@ -1,0 +1,32 @@
+{
+    "salvage":{
+        "forbidden_arcanus:spawner_scrap": {
+            "salvageMax": 1,
+            "baseChance": 0.75,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.005
+            },
+            "levelReq": {
+                "smithing": 50
+            },
+            "xpPerItem": {
+                "smithing": 800
+            }
+        },
+        "relics:relic_experience_bottle": {
+            "salvageMax": 16,
+            "baseChance": 0.5,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.005
+            },
+            "levelReq": {
+                "smithing": 50
+            },
+            "xpPerItem": {
+                "smithing": 500
+            }
+        }
+    }
+}

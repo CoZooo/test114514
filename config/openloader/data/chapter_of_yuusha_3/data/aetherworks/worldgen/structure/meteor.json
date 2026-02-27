@@ -1,0 +1,11 @@
+{
+  "type": "aetherworks:meteor",
+  "biomes": "#aether:is_aether",
+  "spawn_overrides": {
+    "ambient": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  },
+  "step": "surface_structures"
+}

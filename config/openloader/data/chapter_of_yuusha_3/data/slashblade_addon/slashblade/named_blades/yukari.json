@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:darkness_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:yukari",
+  "properties": {
+    "attack_base": 34.0,
+    "max_damage": 68,
+    "slash_art": "slashblade:wave_edge",
+    "sword_type": [
+      "none"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/yukari/model.obj",
+	"summon_sword_color": 8214662,
+    "texture": "slashblade_addon:model/yukari/texture.png"
+  }
+}

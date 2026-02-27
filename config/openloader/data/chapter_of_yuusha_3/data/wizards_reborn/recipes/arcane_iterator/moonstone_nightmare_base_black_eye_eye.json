@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "moonstone:nightmare_base_black_eye_eye",
+    "count": 1
+  },
+  "wissen": 2000,
+  "ingredients": [
+    {
+      "item": "yuusha:bless_star"
+    },
+    {
+      "item": "yuusha:blood_bone_heart"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "malum:living_flesh"
+    },
+    {
+      "item": "yuusha:blood_bone_heart"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "malum:living_flesh"
+    }
+  ]
+}

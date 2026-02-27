@@ -1,0 +1,733 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "469FC2D5B99CD7A1"
+	group: "381A0F9F8CC8976C"
+	icon: "callfromthedepth_:fullsoul"
+	id: "469FC2D5B99CD7A1"
+	images: [
+		{
+			alpha: 180
+			color: 52151
+			height: 15.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 22.0d
+			x: -2.25d
+			y: 1.75d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 16.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 23.5d
+			x: -2.25d
+			y: 1.75d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"49F0CF4422DDE382"
+				"61A1ADAE57FC204E"
+				"56A44B1F4D1F30F6"
+			]
+			description: [
+				"基础设定：找到远古城市中由强化深板岩围成的门框，然后用深渊之钥右击门框，即可激活幽匿传送门（类似于激活原版下界传送门）。"
+				""
+				"&2注意事项：必须清除[强化深板岩]围成的门框内侧的幽匿脉络，否则无法激活。"
+				""
+				"&e进入需求：需屠夫技能200级才可进入幽匿暗域维度。具体获取途径在树海化章节的屠夫技能任务有详述。"
+				""
+				"&c可能特性：通过传送门进入维度后可能会因界面卡住而客户端崩溃，重启游戏即可，在进入后用指路石传送不会出现上述情况。"
+			]
+			id: "7205EBF87FBAAA46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "672C9BAA297ADEDA"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "78C5201B19C07A25"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "526378F9B68F1F3A"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56A44B1F4D1F30F6"]
+			description: [
+				"获取：可以从远古城市的箱子内获取。"
+				""
+				"远古城市：生成在深暗之域生物群系Y=-52处。主体由深板岩等构成，结构被城墙包围。远古城市中心是一座大型建筑物，外观为监守者的雕像，其中隐藏的房间里有红石电路。还包含一些其他建筑物，几乎所有建筑物没有屋顶，外观上显现出带有一定程度的破损。建筑物中会生成战利品箱。"
+			]
+			id: "61A1ADAE57FC204E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "636CEA1A4503CB86"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4039356CB6A16C4C"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56A44B1F4D1F30F6"]
+			description: [
+				"幽匿催发体：自然生成于深暗之域，或监守者死亡后掉落。"
+				""
+				"方块转化：当在以幽匿催发体为中心的8*8的区域有生物死亡（无论是否被玩家杀死），幽匿催发体顶部会出现动态声波图案和灵魂粒子，并将其掉落的经验将附近可转换的方块转换为幽匿块、幽匿感测体或幽匿尖啸体（由此生成的幽匿尖啸体无法召唤监守者），若无法转换的方块会在上面生成幽匿脉络（不消耗经验）。幽匿催发体不能吸收由其他方式产生的经验（如破坏幽匿块）。"
+				""
+				"采掘：可以用任何工具采集，但用锄是最快的。使用精准采集开采会掉落本身，否则只会掉落经验。"
+			]
+			id: "49F0CF4422DDE382"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EA3E46D2D0EAB4F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25C9D69B4D2172F5"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"幽匿之心：击杀监守者可获得。监守者属性详见天顶巨兽章节。"
+				""
+				"幽匿尖啸体：是一种激活后会给予玩家黑暗状态效果并能生成监守者的方块，其自然生成于深暗之域。幽匿尖啸体可以被幽匿催发体生成，但不属于自然生成，无法生成监守者。"
+				""
+				"激活警告：伴随世界生成而生成的幽匿尖啸体每次被激活时，会使周围40格内玩家的警告等级提高一级，并给予周围生存模式或冒险模式的玩家13秒（260游戏刻）的黑暗状态效果，当警告等级为三级时继续激活则会生成监守者。"
+			]
+			id: "56A44B1F4D1F30F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659F0582220CEF74"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DA794A610BA85BE"
+				item: "callfromthedepth_:sculkhearth"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7205EBF87FBAAA46"]
+			description: [
+				"幽匿暗域维度：类似下界的地貌生成，具有基岩天花板。该维度无法放置水，且只存在酸液海。"
+				""
+				"&c特殊效果：在该维度内玩家会受到持续的压抑、肾上腺素激增效果（无法清除）。压抑效果会让玩家每次回血时都有几率无法生效。"
+				""
+				"&6生物特点：幽匿暗域的大部分生物攻击时会给予玩家助燃性+狱火效果（佩戴烈焰人核心、绯红宝石手环等饰品可以降低火焰伤害）。大部分生物都具有抑制属性，但不会有反射属性，且元素战斗类型和监守者相似。"
+				""
+				"&e进入需求：需屠夫技能200级才可进入幽匿暗域维度。具体获取途径在树海化章节的屠夫技能任务有详述。"
+			]
+			icon: "callfromthedepth_:deepgrass"
+			id: "62537F6A73FF1EE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE3954784293136"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "callfromthedepth_:depth"
+				id: "455097D62AED1106"
+				title: "幽匿之门"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["060BE5D0730F6B07"]
+			description: ["击杀永恒苦痛之灵可获得。右击使用可以移除部分幽匿模组的负面效果（没啥用）。"]
+			id: "40CC567007A836EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3044C31394BB7F7E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "320D5FC0071473D2"
+				item: "callfromthedepth_:soulbell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: [
+				"找到幽匿暗域维度内的远古竞技场，手持哭泣幽魂右击哭泣之石，即可召唤幽匿诅咒骑士。如何寻觅该建筑详见天顶巨兽章节。"
+				""
+				"&c哭泣幽魂不会消耗，不要多次右击，否则会召唤多个。"
+				""
+				"&6请勿挖掘哭泣之石，挖掘后无法再次放下。"
+			]
+			id: "1E3F1E65DC9211BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11B7D25CD33D39C7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7013FAF3CF6278D0"
+				item: "callfromthedepth_:weepingsoul"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E3F1E65DC9211BA"]
+			description: ["击杀幽匿诅咒骑士可获得。右击使用可以移除部分幽匿模组的负面效果（没啥用）。"]
+			id: "13082FE0BBE028F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14A1E1600067B7FA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D5A1DB51EC58368"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:soullight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: [
+				"按幽匿追猎台任务找到幽匿村庄，与村民交易可获得苦痛幽魂。用苦痛幽魂可召唤永恒苦痛之灵，具体如何召唤详见天顶巨兽章节。"
+				""
+				"&c苦痛幽魂不会消耗，不要多次右击，否则会召唤多个。"
+				""
+				"&6请勿挖掘献祭之石，挖掘后无法再次放下。"
+			]
+			id: "060BE5D0730F6B07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F0379528DA4F11"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "437CDDFAC9B43040"
+				item: "callfromthedepth_:soulinagony"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30AAFA9ADE7D75A8"]
+			description: ["击杀释缚的鹿之精魂可获得其颅骨。"]
+			id: "5B0A9575E99E1B4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F692AFD5E7F9C9A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "300C71D15ABB788F"
+				item: {
+					Count: 1
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: [
+				"可以利用扫描器的稀有矿石模块扫描找到。"
+				""
+				"&6击杀幽匿诅咒骑士也可以获得。"
+			]
+			id: "3840D4B12D8EF130"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7718E38BD9B525E0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F2B18A01DB3F0E0"
+				item: "callfromthedepth_:immemorial_debris"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: [
+				"在幽匿暗域维度内远古城堡等多种建筑的宝箱内可以找到。"
+				""
+				"&6利用探险家指南针搜索“AncientGreatCitadel”或者“AncientCitadel”可以找到远古城堡建筑。"
+			]
+			id: "530CD8006776AE53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36FF6F5BAFD8D1EC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "557631773F3ECBE9"
+				item: "callfromthedepth_:immemorialupgradesmithingtemplate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: ["幽匿石英矿自然生成在幽匿暗域维度。"]
+			id: "43179895152AB306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64E181561C231488"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3654AAA6343190D8"
+				item: "callfromthedepth_:marble_gem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["274EC788A5630D66"]
+			description: [
+				"在该维度可以找到幽匿村庄，其内有幽匿村民。"
+				""
+				"&6可用探险家指南针搜索“DeepVillage”找到幽匿村庄。"
+			]
+			id: "01D7B5A98645864E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A408FD520193340"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1593DB033256E42A"
+				item: "callfromthedepth_:stalkertable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49C0ED260F1DA634"]
+			description: ["可与幽匿村民交易获得。此外，在该维度也有自然生成的酸液液体。"]
+			id: "5614A87AFAC3BA4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "026ACB4E07EB97A2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76B9EFDD07DBD095"
+				item: "callfromthedepth_:poisonwater_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40CC567007A836EE"
+				"13082FE0BBE028F7"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"可合成获得，幽魂铃铛和幽魂灯笼在此合成中不消耗。"
+				""
+				"&e找到幽匿暗域维度内的远古祭祀堡垒（即召唤永恒苦痛之灵的地方），手持缚魂之链右击献祭之石，即可召唤释缚的鹿之精魂。详见天顶巨兽章节。"
+			]
+			id: "30AAFA9ADE7D75A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C26970A84889559"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "只需要完成任一前置任务即可开启"
+			tasks: [{
+				id: "26CB55826E68F007"
+				item: "cataclysm:chain_of_soul_binding"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3840D4B12D8EF130"]
+			id: "6D9CD26E234F01BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "224FE552B32468AC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "372B9E46485553AA"
+				item: "callfromthedepth_:immemorialscrap"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: [
+				"击杀幽匿暗域维度内的幽匿收割者、幽匿城堡守卫者分别有10%、50%几率获得。"
+				""
+				"&6利用探险家指南针搜索“AncientGreatCitadel”或者“AncientCitadel”可以找到幽匿城堡建筑。"
+				""
+				"&c可制作珍钻手环，能降低受到的魔法伤害。"
+			]
+			id: "5F9887F8F43E7F58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E6898EA9C604911"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6608020D1EA4F73B"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: ["击杀幽匿暗域内的大部分怪物，都有几率掉落紫心。"]
+			id: "49C0ED260F1DA634"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1898882B909BF880"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07FF5384639E343E"
+				item: "yuusha:purple_heart"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69808BF54C839DF4"]
+			description: [
+				"右击可使用前往异界沙漠，再次右击即可退出该维度。"
+				""
+				"&e所需红沙会自然生成在主世界恶地生物群系的地表。"
+			]
+			id: "7E630ADA836252A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "323BD5045455A88B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78060C38D3F7CDA7"
+				item: "binah:desert_jade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B0A9575E99E1B4A"]
+			description: ["击杀先驱者可获得，先驱者为9星，详见天顶巨兽章节，龙前估计打不过。"]
+			id: "2794996243BB079B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65404104F61DF5B2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32C3EA1F5E35EDD2"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2794996243BB079B"]
+			description: ["击杀先驱者可获得，先驱者为9星，详见天顶巨兽章节，龙前估计打不过。"]
+			id: "69808BF54C839DF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "456FCFD9AC24557E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CEC5E5757F1DEA3"
+				item: "locusazzurro_icaruswings:ultramarine_gem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C4F6D24215E4B40"]
+			description: [
+				"炽星宝石：击杀异界电锯战姬可获得。"
+				""
+				"&6召唤异界机械巨蛇：提交一个炽星宝石，完成并领取此任务奖励后，多次用异界沙漠传送石进入异界沙漠，在『异界沙漠的中央处』会有几率出现异界机械巨蛇。"
+				""
+				"&c说明：在完成此任务后，一般利用异界沙漠传送石反复进入两三次就能出现异界机械巨蛇。"
+				""
+				"&e特性：不要在该维度内完成此任务，会无法召唤。"
+			]
+			id: "77F06F9C82FA5368"
+			rewards: [{
+				command: "/gamerule binahSpawnSetting 0"
+				elevate_perms: true
+				icon: "binah:missile_ammo"
+				id: "47E73E5792038430"
+				title: "&c在异界沙漠重置异界机械巨蛇Boss"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B4FA6895CB306BB"
+				item: "locusazzurro_icaruswings:sapphire_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C4F6D24215E4B40"]
+			description: ["击杀异界机械巨蛇可获得。"]
+			id: "5D64739E17836344"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D53CD425467C7EE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FCA40D8912C3E1E"
+				item: "binah:binah_desert_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69808BF54C839DF4"]
+			id: "014E4E5DD035C1B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2054794CDB54DB96"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56FAB5719D03490A"
+				item: "stalwart_dungeons:chorundum"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D64739E17836344"]
+			id: "368C262BEBF4D7E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "356C530BB05DDC14"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2907B9630D1A8C65"
+				item: "yuusha:hot_fire_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69808BF54C839DF4"]
+			description: ["用来制作异界沙漠传送石。"]
+			id: "601EADCE58C8BA0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BBBD591031E4EE4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F243340D2D46AEF"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62537F6A73FF1EE1"]
+			description: ["在幽匿暗域维度，孤魂尸鬼现在会直接刷新在你附近16格至32格范围内，但最多刷新一个。刷新速度极快。且没有灵魂能量要求。"]
+			id: "274EC788A5630D66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481EB771A1C03ACB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B0E04636253DAD8"
+				item: "goety:shadow_essence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["368C262BEBF4D7E8"]
+			description: [
+				"神化Boss召唤器：神化boss现在只能通过召唤器生成。击杀神化boss可获得有神化词缀的装备和神话宝石，能极大提升战斗力。"
+				""
+				"&c注意：周围一定范围内不能有方块阻碍，可在天花板上或者平地处召唤。"
+				""
+				"&e级别说明：在不同维度召唤的神化Boss级别不同，从低到高依次为主世界、下界、末地或者无间之炼狱、来无回之都。会影响掉落的装备和宝石的级别。无间之炼狱基本只掉落法术相关的神化宝石。"
+				""
+				"&6神化宝石说明：击杀神化Boss大概率会掉落一个神化装备和一个神化宝石（需玩家伤害击杀）。部分武器存在特性，攻击不计入玩家伤害。"
+				""
+				"&2相关信息：匠作章节的重铸台任务有更多相关介绍。"
+			]
+			hide_dependency_lines: false
+			id: "2541213FA5FD3C88"
+			rewards: [
+				{
+					id: "65963333AE694A46"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "3377CB3B66401C89"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "615D5B9779907427"
+				item: {
+					Count: 1
+					id: "apotheosis:boss_summoner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E630ADA836252A4"]
+			description: ["异界宝石：需击杀异界沙漠内的各种[异界清除机械]和[异界作战机械]有几率获得。"]
+			id: "6CEDAE9EA4A2F00C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FBB53DCA69E1C6A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "506A281607784DCD"
+				item: "locusazzurro_icaruswings:blue_topaz_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CEDAE9EA4A2F00C"]
+			id: "1C4F6D24215E4B40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB243003B0222FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62276E444EAAC5E0"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	subtitle: ["&9『深渊呼唤』"]
+	title: "&6※ 幽匿暗域"
+}

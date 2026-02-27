@@ -1,0 +1,18 @@
+{
+  "registry_name": "graveyard:reaper",
+  "primary_type": "arcane",
+  "spirits": [
+    {
+      "spirit": "eldritch",
+      "count": 1
+    },
+    {
+      "spirit": "arcane",
+      "count": 1
+    },
+    {
+      "spirit": "aerial",
+      "count": 1
+    }
+  ]
+}

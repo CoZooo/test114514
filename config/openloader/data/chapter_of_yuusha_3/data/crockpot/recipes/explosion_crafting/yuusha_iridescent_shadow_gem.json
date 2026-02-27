@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:iridescent_shadow_gem"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:iridescent_shadow_gem"
+}

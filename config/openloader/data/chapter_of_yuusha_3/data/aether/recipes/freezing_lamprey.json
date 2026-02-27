@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "freezable_misc",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "youkaishomecoming:roasted_lamprey"
+  },
+  "result": "youkaishomecoming:raw_lamprey"
+}

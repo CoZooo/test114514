@@ -1,0 +1,18 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:muramasa",
+  "properties": {
+    "attack_base": 21.0,
+    "max_damage": 42,
+    "slash_art": "slashblade:drive_horizontal"
+  },
+  "render": {
+    "model": "slashblade:model/named/muramasa/muramasa.obj",
+    "texture": "slashblade:model/named/muramasa/muramasa.png"
+  }
+}

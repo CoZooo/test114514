@@ -1,0 +1,36 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    },
+    {
+      "id": "apotheosis:knowledge",
+      "lvl": 5
+    }
+  ],
+  "name": "prinegorerouse:tartarus_blade",
+  "properties": {
+    "attack_base": 53.0,
+    "max_damage": 106,
+    "slash_art": "prinegorerouse:burning_fire_sa",
+    "special_effects": [
+      "prinegorerouse:oracle",
+      "prinegorerouse:porgatory",
+      "prinegorerouse:reverse_power"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/tartarus/tartarus.obj",
+    "summon_sword_color": 2384444,
+    "texture": "prinegorerouse:model/named/custom/tartarus/tartarus.png"
+  }
+}

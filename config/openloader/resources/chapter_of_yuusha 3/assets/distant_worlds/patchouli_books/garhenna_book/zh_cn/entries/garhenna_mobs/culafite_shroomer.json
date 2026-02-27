@@ -1,0 +1,34 @@
+{
+	"name": "曲菈绯蘑菇怪",
+	"icon": "distant_worlds:culafite_mushroom",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 3,
+	"advancement": "distant_worlds:experienced_mushroom_picker",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Culafite Shroomer",
+			"item": "distant_worlds:culafite_shroomer_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 0$(#660066)$(br)Attack: Peaceful$()$(br)曲菈绯蘑菇怪是一个对玩家来说很平静的小型陆地怪物。这些生物是诺翰壬兽的主要食物。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Culafite Shroomer Cap",
+			"item": "distant_worlds:culafite_shroomer_cap",
+			"text": "你可以从他们那里得到一个名为曲菈绯蘑菇帽的配饰。戴在头上时，当饥饿值不足一半时给玩家喂食。使用时会失去耐久。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom",
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

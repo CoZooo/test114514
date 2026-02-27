@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "base": {
+    "item": "shieldexp:wooden_shield"
+  },
+  "result": {
+    "item": "shieldexp:iron_shield"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

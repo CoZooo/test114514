@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:tboen",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "slashblade:slashblade"
+    },
+    "S": {
+      "item": "slashblade:proudsoul"
+    },
+    "A": {
+      "item": "deep_aether:aerglow_blossom"
+    }
+  },
+  "pattern": [
+    "ASA",
+    "SBS",
+    "ASA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

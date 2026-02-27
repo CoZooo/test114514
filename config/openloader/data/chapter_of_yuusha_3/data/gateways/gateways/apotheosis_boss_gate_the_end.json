@@ -1,0 +1,153 @@
+{
+	"size": "medium",
+	"color": "#8552a1",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/dodomeki"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/evoker"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/giant_mummy"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/grimoireofgaia_witch"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/imp"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/jiangshi"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/shulker"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:the_end/endermite"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 30
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 1
+			}
+		}
+	]
+}

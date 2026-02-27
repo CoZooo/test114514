@@ -1,0 +1,32 @@
+{
+	"attribute.celestial_core.regen_rate": "圣灵之力",
+
+	"celestial_core.tooltip.void_essence": "无法在末地城宝箱中开出",
+	"item.minecraft.lingering_potion.effect.crit_rate": "滞留型近战暴率增幅药水",
+	"item.minecraft.lingering_potion.effect.long_crit_rate": "滞留型近战暴率增幅药水",
+	"item.minecraft.lingering_potion.effect.crit_damage": "滞留型近战暴伤增幅药水",
+	"item.minecraft.lingering_potion.effect.long_crit_damage": "滞留型近战暴伤增幅药水",
+	"item.minecraft.splash_potion.effect.crit_rate": "喷溅型近战暴率增幅药水",
+	"item.minecraft.splash_potion.effect.long_crit_rate": "喷溅型近战暴率增幅药水",
+	"item.minecraft.splash_potion.effect.crit_damage": "喷溅型近战暴伤增幅药水",
+	"item.minecraft.splash_potion.effect.long_crit_damage": "喷溅型近战暴伤增幅药水",
+	"item.minecraft.potion.effect.crit_rate": "近战暴率增幅药水",
+	"item.minecraft.potion.effect.long_crit_rate": "近战暴率增幅药水",
+	"item.minecraft.potion.effect.crit_damage": "近战暴伤增幅药水",
+	"item.minecraft.potion.effect.long_crit_damage": "近战暴伤增幅药水",
+	"item.minecraft.tipped_arrow.effect.crit_rate": "近战暴率增幅箭",
+	"item.minecraft.tipped_arrow.effect.long_crit_rate": "近战暴率增幅箭",
+	"item.minecraft.tipped_arrow.effect.crit_damage": "近战暴伤增幅箭",
+	"item.minecraft.tipped_arrow.effect.long_crit_damage": "近战暴伤增幅箭",
+	"effect.celestial_core.crit_rate": "近战暴率提升",
+	"effect.celestial_core.crit_rate.description": "提升近战暴率率",
+	"effect.celestial_core.crit_damage": "近战暴伤提升",
+	"effect.celestial_core.crit_damage.description": "提升近战暴率伤害",
+	"effect.celestial_core.reinforced_blade.description": "提升近战伤害和近战暴率率",
+	
+  "celestial_core.tooltip.simple_drop": "杀死%2$s时%1$s概率掉落",
+  "celestial_core.tooltip.death_essence": "击杀溺亡者获得",
+  "celestial_core.tooltip.virtual_gold_nugget": "击杀死亡到临者获得",
+  "celestial_core.tooltip.heart_fragment": "击杀科妮莉亚船长幽灵获得",
+  "celestial_core.tooltip.soaring_wings": "击杀娜迦获得"
+}

@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "item": "embers:dawnstone_ingot"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "callfromthedepth_:soullight"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:p90"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

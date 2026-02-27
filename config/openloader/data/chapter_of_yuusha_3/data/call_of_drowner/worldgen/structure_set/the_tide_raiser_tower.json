@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "call_of_drowner:the_tide_raiser_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 10,
+    "salt": 787430955
+  }
+}

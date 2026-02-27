@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:protogenoi",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:soul_dust"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "faded_conquest_2:storm_charge"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "faded_conquest_2:storm_charge"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "faded_conquest_2:storm_charge"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "faded_conquest_2:storm_charge"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:rpg_rocket",
+    "count": 3
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

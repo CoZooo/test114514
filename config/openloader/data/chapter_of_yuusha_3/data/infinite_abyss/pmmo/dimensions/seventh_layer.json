@@ -1,0 +1,21 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 0.75,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+		"goety:sapped": 19,
+		"apotheosis_modern_ragnarok:freeze": 3,
+		"distant_worlds:suppression": 3,
+		"attributeslib:sundering": 9,
+		"celestial_core:soul_shatter": 0
+    },
+    "travel_req":{},
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

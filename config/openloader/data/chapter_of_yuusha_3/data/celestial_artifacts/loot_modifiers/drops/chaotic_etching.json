@@ -1,0 +1,48 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": "celestial_configs/celestial_artifacts-common.toml/materials.chaoticEtchingDropChance",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "celestial_artifacts:enabled",
+          "item": "celestial_artifacts:chaotic_etching"
+        },
+        {
+          "condition": "celestial_artifacts:has_curio",
+          "item": "celestial_artifacts:catastrophe_scroll"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "celestial_artifacts:has_curio",
+            "item": "celestial_artifacts:chaotic_etching"
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:wither"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "y": {
+              "min": 127.0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "fail": "celestial_artifacts:nebula_cube",
+  "item": "celestial_artifacts:chaotic_etching"
+}

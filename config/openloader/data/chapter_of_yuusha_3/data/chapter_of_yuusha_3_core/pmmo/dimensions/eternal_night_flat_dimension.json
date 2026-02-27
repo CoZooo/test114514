@@ -1,0 +1,20 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 2.50,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "attributeslib:sundering": 0
+    },
+    "travel_req":{
+        "combat": 100,
+        "mining": 100
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "global_mob_modifiers": {}
+}

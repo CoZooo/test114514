@@ -1,0 +1,17 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:magic_quiver"
+        },
+        {
+            "item": "confluence:molten_skull_rose"
+        },
+        {
+            "item": "yuusha:ignitium_star"
+        }
+    ],
+    "result": {
+        "item": "confluence:molten_quiver"
+    }
+}

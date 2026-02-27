@@ -1,0 +1,136 @@
+{
+	"content": {
+
+		"all_obj_primary_currency": {
+			"type": "item",
+			"content": "grimoireofgaia:holstaurus_token",
+			"amount": {
+				"min": 1,
+				"max": 32
+			},
+			"unitWorth": 2000,
+			"weightMult": 0.65
+		},
+
+		"all_obj_copper_block": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:copper_block",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 4000,
+			"weightMult": 0.1
+		},
+
+		"all_obj_iron_block": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:iron_block",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 8000,
+			"weightMult": 0.1
+		},
+
+		"all_obj_anvil": {
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "minecraft:anvil",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 30000,
+			"weightMult": 0.1
+		},
+
+		"all_obj_dirt": {
+			"type": "item",
+			"content": "minecraft:dirt",
+			"amount": {
+				"min": 24,
+				"max": 64
+			},
+			"unitWorth": 25,
+			"weightMult": 0.2
+		},
+
+		"all_obj_cobblestone": {
+			"type": "item",
+			"content": "minecraft:cobblestone",
+			"amount": {
+				"min": 24,
+				"max": 64
+			},
+			"unitWorth": 35,
+			"weightMult": 0.2
+		},
+
+		"all_obj_stonebrick": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:stone_bricks",
+			"amount": {
+				"min": 12,
+				"max": 64
+			},
+			"unitWorth": 75,
+			"weightMult": 0.2
+		},
+
+		"all_obj_andesite": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:andesite",
+			"amount": {
+				"min": 12,
+				"max": 64
+			},
+			"unitWorth": 75,
+			"weightMult": 0.2
+		},
+
+		"all_obj_diorite": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:diorite",
+			"amount": {
+				"min": 12,
+				"max": 64
+			},
+			"unitWorth": 75,
+			"weightMult": 0.2
+		},
+
+		"all_obj_granite": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:granite",
+			"amount": {
+				"min": 12,
+				"max": 64
+			},
+			"unitWorth": 75,
+			"weightMult": 0.2
+		},
+
+		"all_obj_holystone": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "aether:holystone",
+			"amount": {
+				"min": 12,
+				"max": 64
+			},
+			"unitWorth": 100,
+			"weightMult": 0.2
+		}
+
+	}
+
+
+}

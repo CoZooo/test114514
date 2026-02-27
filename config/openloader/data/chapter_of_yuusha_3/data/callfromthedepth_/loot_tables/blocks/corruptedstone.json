@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "callfromthedepth_:blocks/corruptedstone",
+  "pools": [
+    {
+      "rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "callfromthedepth_:corruptedstone"
+        }
+      ]
+    }
+  ]
+}

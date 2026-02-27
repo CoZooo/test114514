@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 41
+    },
+    {
+      "item": {
+        "item": "embers:dawnstone_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:ai_awp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

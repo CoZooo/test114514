@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_a",
+    "nbt": {
+      "BlockId": "emxarms:sky_workbench"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "RIR",
+    "BBB"
+  ],
+  "key": {
+    "I": {
+      "item": "embers:caminite_plate"
+    },
+    "R": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "B": {
+      "item": "embers:caminite_large_tile"
+    },
+    "C": {
+      "item": "minecraft:polished_blackstone"
+    }
+  }
+}

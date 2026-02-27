@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:aam_lv1"
+        }
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:sight_emx_integer"
+        }
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_laterano"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,153 @@
+{
+	"size": "medium",
+	"color": "#8552a1",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/fallen_chaos_knight"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/lifestealer_true_form"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/anubis"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/minotaur"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/nightmare_stalker"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/nine_tails"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/skeleton_thrasher"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:sixth_layer/valkyrie"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 1
+			}
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RBR",
+    "AOA",
+    "RBR"
+  ],
+  "key": {
+    "O": {
+      "item": "irons_spellbooks:upgrade_orb"
+    },
+    "R": {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    "A": {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    "B": {
+      "item": "yuusha:hot_fire_bottle"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:blood_upgrade_orb",
+    "count": 1
+  }
+}

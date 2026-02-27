@@ -1,0 +1,76 @@
+{
+	"weight": 5,
+	"quality": 0.1,
+	"dimensions": ["minecraft:the_end"],
+	"unique": true,
+	"min_rarity": "epic",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "irons_spellbooks:eldritch_spell_power",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"epic": 0.50,
+				"mythic": 0.75,
+				"ancient": 1.0
+			}
+		},
+		{
+			"type": "apotheosis:mageslayer",
+			"values": {
+				"epic": 0.15,
+				"mythic": 0.25,
+				"ancient": 0.35
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"mob_effect": "minecraft:resistance",
+			"target": "BLOCK_SELF",
+			"values": {
+				"epic": {
+					"duration": 200,
+					"amplifier": 1,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 300,
+					"amplifier": 2,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 300,
+					"amplifier": 3,
+					"cooldown": 500
+				}
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"enchantment": "chapter_of_yuusha_3_core:sundering",
+			"values": {
+				"mythic": 1,
+				"ancient": 2
+			}
+		}
+	]
+}

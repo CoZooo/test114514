@@ -1,0 +1,46 @@
+{
+	"name": "海琍斯特工具",
+	"icon": "distant_worlds:helyst_sword",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 2,
+	"advancement": "distant_worlds:encased_soul",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_sword",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)琍斯石剑$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_pickaxe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)琍斯石镐$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_axe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)琍斯石斧$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_shovel",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)琍斯石锹$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:helyst_hoe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)120 000 DE$() 和以下物品：$(li)琍斯石锄$(o) [Main]$()$(li)海琍斯特晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1200 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/helyst",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

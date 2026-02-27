@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:nether_essence"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:aa12"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,19 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "flying": 1.50,
+		    "combat": 1.20,
+		    "archery": 1.50,
+		    "endurance": 1.20
+        }
+    },
+    "positive_effect":{
+        "attributeslib:sundering": 0,
+        "malum:silenced": 1
+    },
+	"travel_req":{
+        "combat": 1000
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "global_mob_modifiers": {}
+}

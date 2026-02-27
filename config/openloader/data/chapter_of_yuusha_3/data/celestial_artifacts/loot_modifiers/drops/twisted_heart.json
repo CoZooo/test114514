@@ -1,0 +1,21 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": 0.5,
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:enderman"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "touhou_little_maid:maid"
+      }
+    }
+  ],
+  "item": "celestial_artifacts:the_end_dust"
+}

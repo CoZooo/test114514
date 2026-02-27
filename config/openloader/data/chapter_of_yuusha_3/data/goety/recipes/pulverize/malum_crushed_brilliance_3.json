@@ -1,0 +1,12 @@
+{
+  "type": "goety:pulverize",
+  "ingredient": [
+    {
+      "item": "malum:brilliant_stone"
+    }
+  ],
+  "item_result": {
+    "item": "malum:crushed_brilliance",
+    "count": 3
+  }
+}

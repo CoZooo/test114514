@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "freezable_misc",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "youkaishomecoming:cooked_flesh"
+  },
+  "result": "youkaishomecoming:flesh"
+}

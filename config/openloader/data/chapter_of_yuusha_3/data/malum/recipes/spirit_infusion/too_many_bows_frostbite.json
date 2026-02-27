@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "youkaishomecoming:ice_cube"
+    },
+    {
+      "count": 1,
+      "item": "mowziesmobs:ice_crystal"
+    },
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:iron_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:frostbite"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

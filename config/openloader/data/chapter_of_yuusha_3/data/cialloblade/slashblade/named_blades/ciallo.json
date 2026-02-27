@@ -1,0 +1,44 @@
+{
+  "enchantments": [
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:thunder_aspect",
+      "lvl": 1
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "cialloblade:ciallo",
+  "properties": {
+    "attack_base": 57.0,
+    "max_damage": 114,
+    "slash_art": "slashblade_addon:water_drive",
+    "special_effects": [
+      "cialloblade:ciallo",
+	  "slashblade_addon:burst_drive"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "cialloblade:model/ciallo/blademaster.obj",
+    "summon_sword_color": 4980480,
+    "texture": "cialloblade:model/ciallo/ciallo.png"
+  }
+}

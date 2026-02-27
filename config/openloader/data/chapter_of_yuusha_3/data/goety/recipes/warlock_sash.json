@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "nen",
+    "wfw"
+  ],
+  "key":
+  {
+    "n":
+    {
+      "item": "minecraft:nether_wart"
+    },
+    "w":
+    {
+      "item": "goety:snap_warts"
+    },
+    "f":
+    {
+      "item": "minecraft:red_wool"
+    },
+    "e":
+    {
+      "item": "goety:spider_nest"
+    }
+  },
+  "result":
+  {
+    "item": "goety:warlock_sash",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"attack_element":"darkness",
+	"attack_style":"slash",
+	"defense_style":{
+		"yuusha":75,
+		"slash":75,
+		"magic":75,
+		"projectile":75,
+		"hit":75,
+		"stab":75,
+		"bash":75,
+		"explosion":75,
+		"bite":75,
+		"environment":75
+	},
+	"defense_element":{
+		"god":75,
+		"light":75,
+		"darkness":75,
+		"flora":75,
+		"normal":75,
+		"ice":75,
+		"thunder":75,
+		"water":75,
+		"fire":75,
+		"earth":75,
+		"wind":75
+	},
+	"biome_dependency":false
+}

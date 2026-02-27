@@ -1,0 +1,109 @@
+
+{
+	"content": {
+
+        "leatherer_rew_leather_boots": {
+            "type": "item",
+            "content": "minecraft:leather_boots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 600
+        },
+		
+        "leatherer_rew_leather_chest": {
+            "type": "item",
+            "content": "minecraft:leather_chestplate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+
+        "leatherer_rew_leather_legs": {
+            "type": "item",
+            "content": "minecraft:leather_leggings",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1050
+        },
+
+        "leatherer_rew_leather_helm": {
+            "type": "item",
+            "content": "minecraft:leather_helmet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 750
+        },
+
+        "leatherer_obj_leather": {
+            "type": "item",
+            "content": "minecraft:leather",
+            "amount": {
+                "min": 2,
+                "max": 10
+            },
+            "unitWorth": 150,
+            "weightMult": 1.6
+        },
+
+        "leatherer_rew_leather_horse_armor": {
+            "type": "item",
+            "content": "minecraft:leather_horse_armor",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+		
+        "leatherer_obj_flint": {
+            "type": "item",
+            "content": "minecraft:flint",
+            "amount": {
+                "min": 16,
+                "max": 32
+            },
+            "unitWorth": 35
+        },
+
+        "leatherer_obj_scute": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:scute",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 250
+        },
+
+        "leatherer_obj_cauldron": {
+            "type": "item",
+            "content": "minecraft:cauldron",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 3000
+        },
+		
+        "leatherer_obj_saddle": {
+            "type": "item",
+            "content": "minecraft:saddle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000
+        }
+
+	}
+
+}

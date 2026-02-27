@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "enigmaticaddons:is_enabled",
+      "item": "enigmaticaddons:earth_promise"
+    }
+  ],
+  "pattern": [
+    "mem",
+    "tXa",
+    "nbn"
+  ],
+  "key": {
+    "X": {
+      "item": "enigmaticlegacy:golden_ring"
+    },
+    "n": {
+      "item": "yuusha:curse_astral_dust"
+    },
+    "m": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "b": {
+      "item": "enigmaticlegacy:mining_charm"
+    },
+    "a": {
+      "item": "enigmaticaddons:pure_heart"
+    },
+    "t": {
+      "item": "enigmaticlegacy:twisted_heart"
+    },
+    "e": {
+      "item": "enigmaticlegacy:cosmic_heart"
+    }
+  },
+  "result": {
+    "item": "enigmaticaddons:earth_promise"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "name": "ak:pocket_knife",
+  "properties": {
+    "attack_base": 33.0,
+    "max_damage": 66,
+    "slash_art": "slashblade:circle_slash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "ak:model/named/pocket_knife/sange.obj",
+    "summon_sword_color": 16777215,
+    "texture": "ak:model/named/pocket_knife/blood.png"
+  }
+}

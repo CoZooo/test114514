@@ -1,0 +1,1048 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_2"
+	group: "381A0F9F8CC8976C"
+	icon: "aether:ambrosium_shard"
+	id: "572ADC827BB7A18D"
+	images: [
+		{
+			alpha: 180
+			color: 16770560
+			height: 22.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 21.0d
+			x: 5.75d
+			y: 1.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 23.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 22.5d
+			x: 5.75d
+			y: 1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"天境传送门：像原版下界传送门一样建造后激活。只能在主世界激活。"
+				""
+				"&6备注：最好提前带上一些能短距离传送或者飞行的道具，如魔理沙的扫帚、飞艇、渡鸦斗篷等。"
+				""
+				"&e额外设定：在古遗天境维度，如果掉进虚空，只会传送到主世界的高空处，而非受到虚空伤害。"
+				""
+				"&2进入需求：需技能飞翔5级才能进入。如何获取详看树海化章节相关技能介绍。"
+				""
+				"&c可能特性：通过传送门进入维度后可能会因界面卡住而客户端崩溃，重启游戏即可，在进入后用指路石传送不会出现上述情况。"
+			]
+			id: "75C763099B368F0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52816793F3321657"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "5AF3402D06910EA5"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "3864C8FE89976A1B"
+					item: { Count: 10, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "7D9DA1C5B2FF60D6"
+					item: {
+						Count: 1
+						id: "minecraft:water_bucket"
+						tag: {
+							Purity: 3
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6CFE87CF3B0C61"]
+			description: [
+				"利用[扫描器]的稀有矿石模块，可以扫描在古遗天境维度的女武神金属矿石（在较低的层数，大概50以下）。"
+				""
+				"&6需先击败武神女王，在其战利品宝箱内几率获得武神镐，才能挖掘女武神金属矿石。"
+			]
+			id: "744A647F3073227F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A78E9FD06F50640"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0770620885FA1365"
+				item: "ancient_aether:valkyrum"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FC7AC65CBAC3783"]
+			description: ["击杀忠诚之刃“基诺拉”可获得相关材料。"]
+			id: "1EB001AD3FB9AB5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B789AF626144747"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5216DF4B7E885DD5"
+				item: "mokels_witch_boss:totem_of_rot_and_decay"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75C763099B368F0D"]
+			description: [
+				"古遗天境维度：为浮空岛结构。可能需要短暂飞行或者传送的工具才好探索。"
+				""
+				"&e特殊效果：在天境维度，会有古代知识（大幅提高经验获取）、缓降、失重效果。天境大部分不下雪的生物群系都算炎热地区。该维度存在过冷水湖，只要流动，水会变为冰石。"
+				""
+				"&c生物相关：在该维度黑暗处或者夜晚时，有几率刷新前期较难打的太古魔像。西风啸云现在只会刷新在夜晚。"
+				""
+				"&6维度时间：古遗天境维度现在正常具有白昼黑夜，但是时长都是主世界的两倍。"
+				""
+				"&2进入需求：需技能飞翔5级才能进入。如何获取详看树海化章节相关技能介绍。"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "2B849CE01A29C6FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A6CDA6C84F740E9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "51AA08D76B63D8BF"
+				type: "dimension"
+			}]
+			title: "天境之门"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			id: "3E5189B69400BC12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B1203E4EBE68E7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E479011CFB450DF"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: [
+				"详见天顶巨兽章节忠诚之刃“基诺拉”任务。"
+				""
+				"&6该Boss倒地后，用[奇妙药剂]右击可治疗，等待剧情过后，[古老护身符]会掉落在地上。"
+			]
+			id: "2B9B88B4AF472833"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C5A7198A2C3757B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "181292064B02EBCE"
+				item: "mokels_boss_mantyd:mantyd_medicine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9B88B4AF472833"]
+			description: [
+				"详见天顶巨兽章节萨菲拉忠诚之刃“基诺拉”任务。"
+				""
+				"&6该Boss倒地后，用[奇妙药剂]右击可治疗，等待剧情过后，[古老护身符]会掉落在地上。"
+				""
+				"&c古老护身符可用不死图腾复制。"
+			]
+			id: "0FC7AC65CBAC3783"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "511309F6004C5C62"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "211C02DB04A10A90"
+				item: "mokels_boss_mantyd:plantation_rune"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			id: "3603BCB68383C30F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "163FFA8DB082852B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71DD491B777D8C34"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			id: "589D0D427F15F37E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B974184117C5DE7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3945E119FD4A7264"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["773C5DC820EF21AA"]
+			description: ["利用[扫描器]的稀有矿石模块，可以扫描在古遗天境维度的重力矿石（在较低的层数，大概50以下）。"]
+			id: "4F6CFE87CF3B0C61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12A80DFF3E11D708"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4385B168A8D2ECF6"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			id: "430926EDA4966B28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E9573729F6BC3BF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11002850F046E184"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["589D0D427F15F37E"]
+			id: "773C5DC820EF21AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "741B7701D0C14193"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39001DF15D4CC8B7"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EB001AD3FB9AB5D"]
+			description: [
+				"只要副手拿任意能右击的道具，主手就能无冷却时间使用此治疗药水。"
+				""
+				"&6新增限制在主手持握时无法攻击。"
+			]
+			id: "750C52DACEAFD3DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B1FAE560C93F08B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59D608EE2F411030"
+				item: "mokels_witch_boss:flask_of_healing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B9B88B4AF472833"]
+			description: ["此核心是与各种建筑手杖共同使用的。JEI搜索“@constructionwand”可查看建筑手杖。"]
+			id: "3565860F445E2CD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A0BC2D3B33EA323"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06B6CD1BF262089A"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EB001AD3FB9AB5D"]
+			description: ["此核心是与各种建筑手杖共同使用的。JEI搜索“@constructionwand”可查看建筑手杖。"]
+			id: "14406C9919F5DE18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "568B784742D5A702"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F38E2C4EA092BFF"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: [
+				"关于女仆模组祭坛如何搭建，需详看[记忆中的幻想乡]一书。该御币主要用作[召唤祭坛]召唤工具。"
+				""
+				"&c御币在用JEI搜索时不显示材质，这是特性。"
+				""
+				"&6只能从外侧用御币激活女仆祭坛多方块结构。"
+				""
+				"{image:yuusha:textures/renwu_nvpujitan.png width:120 height:125 align:center}"
+			]
+			id: "7E4E2E75BEA35140"
+			rewards: [{
+				id: "312FE2DC28089307"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72F57C09E0D7759A"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E4E2E75BEA35140"]
+			description: [
+				"扫帚是一个便携的交通工具，但是需要你和女仆共同来使用。"
+				""
+				"&e通过鼠标指向来控制扫帚拉升或者下降，WASD控制前后左右移动。"
+			]
+			id: "0067AAC339A24269"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F78C75C7E318BFE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06A744F3E936206F"
+				item: "touhou_little_maid:broom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: [
+				"挖掘[天华灌注陨磺砾岩]获得。为一类似于陨石的结构，只生成在古遗天境维度。"
+				""
+				"&c可用探险家指南针搜索“Meteor”找到。"
+			]
+			id: "44FE632505479513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7380D8E208492702"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FBDAF4A8FF5B73C"
+				item: "aetherworks:aether_shard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["679BF9A3F47D07A2"]
+			description: [
+				"毒液越多，转化的几率越高。"
+				""
+				"&6在天境自然生成的毒液池里，基本可以瞬间转化。"
+			]
+			id: "157B30E94296FA9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FAA6322D88C7E2E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F6819301C73E95A"
+				item: "deep_aether:purple_squash"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["773C5DC820EF21AA"]
+			id: "679BF9A3F47D07A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C89EBC7052774C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "709B56582C0D8131"
+				item: "deep_aether:squash_seeds"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: ["冰石是一种在古遗天境维度常见的矿石，可用作冰冻器的燃料。它可以用于冷冻附近的液体，如岩浆和水。"]
+			id: "2AD7F9B0FAAB3E4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38971F804DA9208C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B5C58AF2C5515D4"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EB001AD3FB9AB5D"]
+			id: "6E77FA97293777CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33B58283319238DF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F98AD0C769DDE54"
+				item: "yuusha:ice_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: [
+				"击杀滑行魔石可以获得多把青铜钥匙。青铜钥匙可再次召唤滑行魔石。还可用来开宝箱和合成物品。滑行魔石为8星，详见天顶巨兽章节。"
+				""
+				"&6爆破哨石具有和滑行魔石类似的抗性。"
+			]
+			id: "314A10427A0B351A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "523686331DCF2B53"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0387B4EE84EDA22D"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: [
+				"击杀武神女王可以获得多把钥匙。可用来开宝箱和制作物品。武神女王详见天顶巨兽章节。"
+				""
+				"&6女武神具有和武神女王类似的抗性。"
+			]
+			id: "219D275CF66FA485"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EBA9A3C4106DB2A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "269D5601153D5C37"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: ["击杀突变毒箭花可以获得多把钥匙。可再次召唤，还可用来开宝箱或合成。详见天顶巨兽章节。"]
+			id: "0B6E05A5EAC70830"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B0F5327323F131"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40721A304616C4CC"
+				item: "ancient_aether:laboratory_dungeon_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: ["击杀帝王云鲸可获得多把铂金钥匙。该Boss属性详见天顶巨兽章节。"]
+			id: "5550F799F1C88AA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C12A0AA1BEF9A71"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07BA6AC33A53D21E"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["444E5E8459A7BFF7"]
+			description: [
+				"击杀远古墨魂化身可以获得。详见天顶巨兽章节。"
+				""
+				"&c在墨魂神殿区域击杀远古墨魂化身会额外获得一个墨灵核心。"
+			]
+			id: "0F72A22572AFE7A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "061EE8E7500ACCD1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "407DE23BF6C8C087"
+				item: "theinkarena:soul_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: ["日轮祭坛可合成获得，仅可改变古遗天境的时间。"]
+			id: "31CBB82E059FB312"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D00DB812671A7F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "138FF6EFD9040D1A"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["444E5E8459A7BFF7"]
+			description: ["只有在墨魂神殿区域击杀远古墨魂化身才可以获得一把钥匙。"]
+			id: "7CDE6C6B128607F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68D7113DFF1FD981"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70BBDD362B46F66D"
+				item: "ancient_aether:ancient_dungeon_key"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: ["可以将天境相关模组的物品放入，以显示更多信息。"]
+			id: "0B89087CA17CDCBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DB12450FD503AE9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13692F217A267AE2"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71AE2A477D2C256D"]
+			description: [
+				"在[墨魂神殿]区域内击杀任意墨怪，才可以获得残存墨魂。需双方都在该区域内才行。"
+				""
+				"&6利用失落墨骨等材料，可以制作[远古墨魂-时之侵袭传送门珍珠]，从而召唤各种墨怪。"
+			]
+			id: "55C3607F67851A8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FADA012254EA2D8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F56874811C8C924"
+				item: "yuusha:ink_soul"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17325ABA44AA449A"]
+			description: [
+				"第一次需合成获得。"
+				""
+				"&6在任意区域击杀远古墨魂化身都会返还墨魂祭品。"
+			]
+			id: "444E5E8459A7BFF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "617FBDC4B909DE28"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "596E152CADE49ABF"
+				item: "yuusha:ink_sacrifice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55C3607F67851A8E"]
+			description: ["在任意区域击杀任意墨怪，即有几率获得。"]
+			id: "17325ABA44AA449A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1357E428A7CD8F5A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04F23DE1327CEF4C"
+				item: "theinkarena:trapped_soul"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["219D275CF66FA485"]
+			id: "008D8C7DEBAF59B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4188C31D12D5ABA2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "049BDCC0FBB3094B"
+				item: "deep_aether:stratus_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: [
+				"在[墨魂神殿]的宝箱内有几率找到。利用失落墨骨等材料，可以制作[远古墨魂-时之侵袭传送门珍珠]。"
+				""
+				"&6在古遗天境维度可利用探险家指南针搜索“Ink Arena Structure”找到墨魂神殿。"
+				""
+				"&c需注意所有墨怪的仇恨会强制锁定玩家。尤其是女仆世界线玩家需要注意。"
+			]
+			id: "71AE2A477D2C256D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EBB365F7783868D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D6D746FA089BE7A"
+				item: "theinkarena:ink_waste"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["773C5DC820EF21AA"]
+			description: [
+				"所需矿石都在古遗天境维度。"
+				""
+				"&6银青境云可用任意境云制作，然后再制作炫彩境云。"
+			]
+			id: "239A78FDEFB79F64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "424003BBA5824676"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68FA5E8E13BB33E7"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: ["所需木材在古遗天境维度较为常见。能量晶核需击杀Boss获得。"]
+			id: "59A8F08614DB2DA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B306A7CF8981ED6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "617782EDCAC70C19"
+				item: "confluence:workshop"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E77FA97293777CA"]
+			description: [
+				"星月附魔台：可以将装备放置进去消耗新的魔引与经验进行附魔。大部分星月附魔都只会加成近战伤害。"
+				""
+				"{image:yuusha:textures/renwu_fumotai.png width:160 height:100 align:center}"
+				""
+				"&c特性：可以用除神化书架外的原版书架、魔力导体、水晶矩阵块、经验晶方尖碑等提供附魔能力。弓类的星月附魔仅支持原版的弓，不支持模组的弓。"
+				""
+				"&e魔引说明：基础魔引只能解锁第一列的基础附魔，后续可以逐步制作高级魔引、传奇魔引，从而解锁第二列的高级附魔，最后解锁第三列的传奇附魔。"
+				""
+				"&6冲突附魔详解：对着附魔书按Shift键可查看详细信息。其中第三个[词条]为附魔的具体类别，比如利刃、密法、狂暴这些为不同类别，不同类别的附魔可以加到同一把武器上。前面的低级、高级、传奇只代表附魔的稀有程度，并不影响附魔之间的冲突性。"
+				""
+				"&3部分可能有用的附魔：不稳定刀刃（初级）、轻甲杀手（高级）、经验之谈（高级）、致命一击（高级）。"
+			]
+			id: "12CB730DA9C625E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D0BD00DC2C0BAA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AB8B7FA311DA074"
+				item: "celestial_enchantments:celestial_enchanting_table"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: [
+				"在榴根沼泽等生物群系都能发现。"
+				""
+				"&c用天根木桶右击毒箭花生物，也可获得毒液。"
+			]
+			id: "6D90874A3FCCB4BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33A972E168097ECC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7948B854683B4DCF"
+				item: "deep_aether:poison_bucket"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["219D275CF66FA485"]
+			id: "69F1D92EC0EDF6DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D13C79E80051727"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11BF2A14DC288136"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["444E5E8459A7BFF7"]
+			description: ["只有在墨魂神殿区域击杀远古墨魂化身才可以获得。需双方都在该区域内才行。"]
+			id: "66AE5047EDBBCE54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AC60A89643E58F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "599C5C3236F42687"
+				item: "yuusha:ink_heart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AD7F9B0FAAB3E4A"]
+			description: ["可利用冷冻器将熟肉变为生肉。"]
+			id: "6DC97FCDEC6F5688"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A06608953F27BA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "08188B3E8EFE6465"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BEC830164864848"]
+			description: ["深渊伤害现在变为与魔法伤害类似，不再属于真伤，仅能无视护甲造成伤害。"]
+			id: "2F6196E237E83C64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "003302C52E074DD8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EC98F97ABBE739E"
+				item: "celestial_enchantments:legendary_celestial_catalyst"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F6196E237E83C64"]
+			description: ["灵歌附魔台的附魔等级最高限制为10级。"]
+			id: "18631A1E0F2975AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B26CC700C2AB6C2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68998DF2FC9FE0DA"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CB730DA9C625E9"]
+			id: "2BEC830164864848"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70AA484C68CEBF95"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "690ED095EFDB1082"
+				item: "celestial_enchantments:advanced_celestial_catalyst"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B9B88B4AF472833"]
+			id: "619A95641E84EFD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C60232040BFD037"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FF7D87BC132B83F"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["773C5DC820EF21AA"]
+			id: "4E703EEDAD12CFBD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1990DD4C39CF796A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00EC285BE51E1ED7"
+				item: "aether:enchanted_gravitite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59A8F08614DB2DA6"]
+			id: "2D43B42DF0B61252"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A128625013C799"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E3A2A1CA92E5CCE"
+				item: {
+					Count: 1
+					id: "ancient_aether:shield_of_remediation"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: ["可制作烧制速度更快的白金砖系列熔炉。"]
+			id: "0BE5A9D875C7D10B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "643CCFCE9F0E7C3A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A73428EFF2FB0C5"
+				item: "ancient_aether:valkyrie_brick"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["&9『天境』"]
+	title: "&6※ 古遗天境"
+}

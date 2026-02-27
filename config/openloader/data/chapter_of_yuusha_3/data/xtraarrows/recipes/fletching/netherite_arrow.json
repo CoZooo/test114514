@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:netherite_ingot"
+		},
+		{
+			"item": "distant_worlds:garsale_planks"
+		},
+		{
+			"tag": "locusazzurro_icaruswings:colored_feathers"
+		}
+	],
+	"result": {
+		"item": "xtraarrows:netherite_arrow",
+		"count": 6
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"name": "模块",
+	"icon": "distant_worlds:module_empty",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 9,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "在效率或速度的方向上做出选择后，或者可能为方块添加新的有用属性，你可以根据自己的喜好定制仪式过程。正如你已经了解的，以下物品将可用于更改琍斯石祭坛各个方块的特性。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_empty",
+			"text": "空模块可以在迦赫纳维度的各种结构中找到。它用于为琍斯石祭坛制作任意模块。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_charmed_pedestal",
+			"title": "附魔基座",
+			"text": "在仪式期间，有几率不消耗放在基座上的物品。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)曲雷琍 $(o)[x5]$()$(li)烈焰粉$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_increased_storage",
+			"title": "提升能量存储",
+			"text": "增加储存能量的最大值，但它会慢慢蒸发到正常值。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)达琍特晶体 $(o)[x5]$()$(li)末影箱$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_calm_flame",
+			"title": "冷静火焰",
+			"text": "减缓产生达琍特能量的过程，有可能不消耗燃料。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)曲雷琍 $(o)[x5]$()$(li)高炉$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_raging_flame",
+			"title": "Raging Flame",
+			"text": "加速燃料消耗和达琍特能量的生产过程，但数量较少。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)达琍特晶体 $(o)[x5]$()$(li)高炉$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_calm_spark",
+			"title": "冷静火花",
+			"text": "减缓了产生达琍特能量的过程，有可能不会花费FE。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)曲雷琍 $(o)[x5]$()$(li)红石块$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_raging_spark",
+			"title": "狂暴火焰",
+			"text": "加快FE的消耗和达琍特能量的产生。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)达琍特晶体 $(o)[x5]$()$(li)红石块$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_flow_filter",
+			"title": "流动过滤",
+			"text": "减缓了能量传递到核心的速度，但也降低了由此产生的DRP。几率掉落粗曲雷琍。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)曲雷琍 $(o)[x5]$()$(li)末地水晶$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_flow_amplification",
+			"title": "流动放大",
+			"text": "增加向核心的能量传递速率，但也会增加由此产生的DRP。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)达琍特晶体 $(o)[x5]$()$(li)末地水晶$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_core_stabilization",
+			"title": "核心稳定化",
+			"text": "增加能量消耗和仪式成功几率。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)曲雷琍 $(o)[x5]$()$(li)铁砧$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:module_core_destabilization",
+			"title": "核心去稳定化",
+			"text": "降低能量消耗和仪式成功几率。$(br)可以在琍斯石祭坛上合成，使用$(#ea7f17)$(l)10 000 DE$() 和接下来的物品：$(li)空模块$(o) [Main]$()$(li)达琍特晶体 $(o)[x5]$()$(li)铁砧$(br)完成仪式后恢复：$(#992032)$(l)500 DRP$()",
+			"link_recipe": "true"
+		}
+	]
+}

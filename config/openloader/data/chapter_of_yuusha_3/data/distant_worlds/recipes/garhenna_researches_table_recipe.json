@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "343",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "distant_worlds:garsale_slab"
+    },
+    "1": {
+      "item": "distant_worlds:garsale_slab"
+    },
+    "2": {
+      "item": "distant_worlds:garsale_slab"
+    },
+    "4": {
+      "item": "yuusha:chaos_star"
+    },
+    "3": {
+      "item": "distant_worlds:garsale_bookshelf"
+    },
+    "6": {
+      "item": "distant_worlds:garsale_log"
+    },
+    "7": {
+      "item": "distant_worlds:garsale_log"
+    },
+    "8": {
+      "item": "distant_worlds:garsale_log"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:garhenna_researches_table",
+    "count": 1
+  }
+}

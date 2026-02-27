@@ -1,0 +1,102 @@
+
+[interact_key]
+	#These whitelist blocks can be interacted with when the interact key is pressed
+	InteractKeyWhitelistBlocks = []
+	#These whitelist entities can be interacted with when the interact key is pressed
+	InteractKeyWhitelistEntities = []
+	#These blacklist blocks can be interacted with when the interact key is pressed
+	InteractKeyBlacklistBlocks = []
+	#These blacklist entities can be interacted with when the interact key is pressed
+	InteractKeyBlacklistEntities = []
+
+[base_multiplier]
+	#All base damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageBaseMultiplier = 1.8
+	#All armor ignore damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ArmorIgnoreBaseMultiplier = 1.0
+	#All head shot damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	HeadShotBaseMultiplier = 1.0
+	#The movement speed will decrease per kg of weight. 0.015 means 1.5% speed decrease per kg. Set a negative value to disable this feature
+	#Range: -1.0 ~ 1.7976931348623157E308
+	WeightSpeedMultiplier = 0.1
+
+[misc]
+	#The entity's head hitbox during the headshot
+	#Format: touhou_little_maid:maid [-0.5, 1.0, -0.5, 0.5, 1.5, 0.5]
+	HeadShotAABB = [
+	"goety:redstone_monstrosity[-10, 3, -10, 10, 6, 10]",
+	"stalwart_dungeons:awful_ghast[-10, 3, -10, 10, 5, 10]",
+	"entity_303:entity_303[-10, 1.6, -10, 10, 2.2, 10]",
+	"angelcraft_bosses:boos[-10, 1.8, -10, 10, 2.5, 10]",
+	"goety:apostle[-10, 1.5, -10, 10, 2, 10]",
+	"faded_conquest_2:summon_calamity_vessel_1[-10, 1.5, -10, 10, 2, 10]",
+	"depthcrawler:ancientdeep[-10, 15, -10, 10, 22, 10]",
+	"depthcrawler:deepboss[-10, 15, -10, 10, 19, 10]",
+	"depthcrawler:jabberwock[-10, 3.5, -10, 10, 6, 10]",
+	"goety:wither_necromancer[-10, 2.2, -10, 10, 3, 10]",
+	"infinite_abyss:frozen_wither[-10, 2.2, -10, 10, 3.5, 10]",
+	"cataclysm:maledictus[-10, 2.2, -10, 10, 2.8, 10]",
+	"infinite_abyss:crystal_construct[-10, 0.8, -10, 10, 1.2, 10]",
+	"infinite_abyss:charya[-10, 3, -10, 10, 4, 10]",
+	"arcalis_bosses:captain_deadbone[-10, 2, -10, 10, 2.8, 10]",
+	"faded_conquest_2:fadedking_p_2[-10, 1, -10, 10, 2.5, 10]",
+	"faded_conquest_2:faded_king[-10, 1, -10, 10, 2.5, 10]",
+	"cthulhufishing:obsessed_eye_boss[-10, 3, -10, 10, 4, 10]",
+	"arcalis_bosses:the_deathbringer[-10, 3, -10, 10, 4, 10]",
+	"arcalis_bosses:jack[-10, 1.5, -10, 10, 2, 10]",
+	"faded_conquest_2:lich_2[-10, 1.5, -10, 10, 2, 10]",
+	"faded_conquest_2:lich_1[-10, 1.5, -10, 10, 2, 10]",
+	"faded_conquest_2:aero_guardian[-10, 0.5, -10, 10, 1.5, 10]",
+	"goety:redstone_monstrosity[-10, 3, -10, 10, 6, 10]",
+	"cataclysm:netherite_monstrosity[-10, 3, -10, 10, 6, 10]",
+	"bosses_of_mass_destruction:gauntlet[-10, 1, -10, 10, 2.5, 10]",
+	"binah:binah_v_2[-10, 13, -10, 10, 19, 10]",
+	"corundumguardian:corundum_guardian[-10, 2.5, -10, 10, 6, 10]",
+	"cataclysm:the_harbinger[-10, 2.8, -10, 10, 4, 10]",
+	"graveyard:lich[-10, 3, -10, 10, 4, 10]",
+	"cataclysm:ender_guardian[-10, 3, -10, 10, 4, 10]",
+	"goety:hostile_redstone_golem[-10, 2.5, -10, 10, 3.5, 10]",
+	"stalwart_dungeons:nether_keeper[-10, 1.8, -10, 10, 2.5, 10]",
+	"luminous_halloween:horseless_headsman[-10, 2, -10, 10, 3, 10]",
+	"cthulhufishing:ice_crab[-10, 3, -10, 10, 5, 10]",
+	"bosses_of_mass_destruction:void_blossom[-10, 5, -10, 10, 7, 10]",
+	"irons_spellbooks:dead_king_corpse[-10, 3, -10, 10, 3.5, 10]",
+	"born_in_chaos_v1:lord_pumpkinhead[-10, 2, -10, 10, 2.5, 10]",
+	"whisperwoods:hirschgeist[-10, 2.5, -10, 10, 3.5, 10]",
+	"callfromthedepth_:agonysoul[-10, 2, -10, 10, 3, 10]",
+	"callfromthedepth_:corruptedstalker[-10, 2.4, -10, 10, 3.2, 10]",
+	"minecraft:warden[-10, 2, -10, 10, 3, 10]",
+	"theinkarena:blot[-10, 11.5, -10, 10, 15, 10]",
+	"cataclysm:ancient_remnant[-10, 2.5, -10, 10, 4, 10]",
+	"hs_bosses:sand_warrior[-10, 2.6, -10, 10, 3.5, 10]",
+	"cthulhufishing:fossil_fish[-10, 2.3, -10, 10, 3.7, 10]",
+	"faded_conquest_2:terrible_ten[-10, 2.7, -10, 10, 4, 10]",
+	"minecraft:wither[-10, 2.5, -10, 10, 3.5, 10]",
+	"aquamirae:captain_cornelia[-10, 1.8, -10, 10, 2.5, 10]",
+	"bosses_of_mass_destruction:lich[-10, 2.3, -10, 10, 3.5, 10]",
+	"cataclysm:the_leviathan[-10, 1, -10, 10, 2, 10]",
+	"call_of_drowner:drowner[-10, 1.5, -10, 10, 2, 10]",
+	"minecraft:elder_guardian[-10, 1.0, -10, 10, 1.7, 10]",
+	"goety:minister[-10, 1.7, -10, 10, 2, 10]",
+	"faded_conquest_2:plague_bringer_p_1[-10, 1.7, -10, 10, 2, 10]",
+	"mokels_boss_mantyd:witchboss[-10, 1.6, -10, 10, 2, 10]",
+	"mokels_boss_mantyd:boss_mantyd[-10, 2, -10, 10, 2.5, 10]",
+	"mutantmonsters:mutant_enderman[-10, 3.7, -10, 10, 4.5, 10]",
+	"mutantmonsters:mutant_creeper[-10, 2.2, -10, 10, 3, 10]",
+	"mutantmonsters:mutant_skeleton[-10, 2.7, -10, 10, 3.5, 10]",
+	"mutantmonsters:mutant_zombie[-10, 2.5, -10, 10, 3.5, 10]",
+	"mowziesmobs:umvuthi[-10, 2.5, -10, 10, 3.5, 10]",
+	"mowziesmobs:frostmaw[-10, 3, -10, 10, 4, 10]",
+	"dummmmmmy:target_dummy[-10, 1.5, -10, 10, 2, 10]"
+	]
+	#The maximum stack size of ammo that the ammo box can hold
+	#Range: > 1
+	AmmoBoxStackSize = 10
+	#Deprecated. Use vanilla server resource pack
+	ClientGunPackDownloadUrls = []
+	#Whether or not players are allowed to use the crawl feature
+	EnableCrawl = true
+

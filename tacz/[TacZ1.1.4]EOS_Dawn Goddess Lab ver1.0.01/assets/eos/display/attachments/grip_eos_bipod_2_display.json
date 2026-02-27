@@ -1,0 +1,9 @@
+{
+  "slot": "eos:attachment/slot/grip_eos_bipod_2",
+  "model": "eos:attachment/grip_eos_bipod_2_geo",
+  "texture": "eos:attachment/uv/grip_eos_bipod_2",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_b",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

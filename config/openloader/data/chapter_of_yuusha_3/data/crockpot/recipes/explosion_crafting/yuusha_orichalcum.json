@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:orichalcum"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:orichalcum"
+}

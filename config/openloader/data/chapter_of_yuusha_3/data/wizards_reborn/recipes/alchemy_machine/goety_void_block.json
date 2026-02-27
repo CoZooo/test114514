@@ -1,0 +1,19 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "goety:void_block",
+    "count": 1
+  },
+  "steam": 100,
+  "ingredients": [
+    {
+      "item": "hmag:ender_plasm_block"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "goety:void",
+      "amount" : 100
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "weight": 1,
+  "ads": {
+		"addend": 0.15
+	},
+	"aim_inaccuracy": {
+		"multiplier": 0.1
+	},
+  "movement_speed": {
+    // 默认修正
+    "base": 0,
+    // 瞄准时
+    "aim": 0,
+    // 换弹时
+    "reload": 0
+  }
+}

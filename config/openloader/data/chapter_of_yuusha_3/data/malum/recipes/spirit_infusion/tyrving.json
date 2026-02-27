@@ -1,0 +1,42 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 2,
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "count": 2,
+      "item": "malum:hex_ash"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:sirenhead_pearl"
+    },
+    {
+      "count": 1,
+      "item": "enigmaticlegacy:storage_crystal"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "yuusha:emper_core"
+  },
+  "output": {
+    "item": "malum:tyrving"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

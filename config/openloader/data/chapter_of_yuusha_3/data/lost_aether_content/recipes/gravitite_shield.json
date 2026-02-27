@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "aether_redux:gravitite_block"
+  },
+  "base": {
+    "item": "lost_aether_content:zanite_shield"
+  },
+  "result": {
+    "item": "lost_aether_content:gravitite_shield"
+  },
+  "template": {
+    "item": "cataclysm:cursium_upgrade_smithing_template"
+  }
+}

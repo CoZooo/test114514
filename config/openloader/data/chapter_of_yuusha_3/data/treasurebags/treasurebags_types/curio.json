@@ -1,0 +1,16 @@
+{
+  "group": "default",
+  "displayName": {
+    "translate": "bag.treasurebags.curio"
+  },
+  "lootTable": "treasurebags:bags/curio",
+  "rarity": "epic",
+  "bagColor": "#9933CC",
+  "bagOverlayColor": "#FF3399",
+  "bagStringColor": "#FF9900",
+  "dropsFromGroups": [
+    "player",
+    "hostile",
+    "peaceful"
+  ]
+}

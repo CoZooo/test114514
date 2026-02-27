@@ -1,0 +1,27 @@
+{
+    "pools": [
+      {
+        "name": "grief_seed",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "yuusha:grief_seed",
+            "conditions": [
+              {
+                "condition": "champions:champion_properties",
+                "entity": "this",
+                "tier": {
+                  "min": 2,
+                  "max": 12
+                }
+              },
+              {
+                "condition": "killed_by_player"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

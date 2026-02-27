@@ -1,0 +1,45 @@
+{
+	"item.yuusha.bless_core.elementarium.hephaestus_forge": "允许制作无赎世界线物品",
+
+	"item.minecraft.bow": "弓『封弓』",
+	"item.goety.hunters_bow": "猎人之弓『封弓』",
+	"item.enigmaticaddons.dragon_bow": "§d龙息弓『印弓』",
+
+	"item.yuusha.focus_7": "殽核「无名」",
+	"item.yuusha.focus_9": "殽核「灵体」",
+	
+	"item.yuusha.dice_9": "末影方骰",
+	
+	"item.yuusha.shard_2": "灵石碎晶",
+
+	"effect.yuusha.inadaptable.desc": "穿戴的部分装备或饰品未达技能等级需求。",
+	"effect.yuusha.inadaptable.description": "穿戴的部分装备或饰品未达技能等级需求。",
+	"effect.yuusha.soul_gem_exhausted.desc": "你的灵魂宝石净化度已空，可进食悲叹之种补充。",
+	"effect.yuusha.soul_gem_exhausted.description": "你的灵魂宝石净化度已空，可进食悲叹之种补充。",
+	"effect.forbidden_arcanus.darkened.desc": "会同时给予失明效果，可以被相应饰品免疫。",
+	"effect.forbidden_arcanus.darkened.description": "会同时给予失明效果，可以被相应饰品免疫。",
+	"effect.relics.confusion.desc": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.relics.confusion.description": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.cataclysm.curse_of_desert.desc": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.cataclysm.curse_of_desert.description": "会造成键位反向效果，干扰玩家的行动。",
+
+	"potion.potency.11": "XI",
+	"potion.potency.12": "XII",
+	"potion.potency.13": "XIII",
+	"potion.potency.14": "XIV",
+	"potion.potency.15": "XV",
+	"potion.potency.16": "XVI",
+	"potion.potency.17": "XVII",
+	"potion.potency.18": "XVIII",
+	"potion.potency.19": "XIV",
+	"potion.potency.20": "XX",
+	"potion.potency.98": "IC",
+	"potion.potency.99": "C",
+	"potion.potency.100": "CI",
+	"potion.potency.224": "∞",
+	"potion.potency.225": "∞",
+	"potion.potency.226": "∞",
+	"potion.potency.-30": "∞",
+	"potion.potency.-31": "∞",
+	"potion.potency.-32": "∞"
+}

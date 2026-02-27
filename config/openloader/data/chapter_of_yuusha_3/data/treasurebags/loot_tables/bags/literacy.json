@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bookshelf"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "locusazzurro_icaruswings:fallen_relic_core"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "locusazzurro_icaruswings:fallen_relic_interface"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "locusazzurro_icaruswings:fallen_relic_offensive"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "locusazzurro_icaruswings:fallen_relic_defensive"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "locusazzurro_icaruswings:fallen_relic_propulsion"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/literacy"
+}

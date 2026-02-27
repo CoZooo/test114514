@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aether:zanite_chestplate"
+  },
+  "addition": {
+    "item": "celestial_artifacts:guardian_eye"
+  },
+  "result": {
+    "item": "aether:neptune_chestplate"
+  },
+  "template": {
+    "item": "call_of_drowner:coral_smithing_template"
+  }
+}

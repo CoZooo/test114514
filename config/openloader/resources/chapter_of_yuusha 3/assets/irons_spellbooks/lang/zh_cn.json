@@ -1,0 +1,32 @@
+{
+	"item.irons_spellbooks.dragonskin_spell_book": "龙皮魔导书",
+	"item.irons_spellbooks.dragonskin": "龙皮",
+
+	"spell.irons_spellbooks.oakskin": "树皮",
+
+	"spell.irons_spellbooks.cleanse": "净化",
+	"spell.irons_spellbooks.cleanse.guide": "向神圣的魔法祈祷，以净化自己和附近盟友的负面效果影响。",
+
+	"spell.irons_spellbooks.blight.guide": "只能通过合成制作，无法在卷轴撰写台制作。对你所瞄准的生物施放枯萎之力，令其受到的治疗和输出的伤害均减少",
+	"item.irons_spellbooks.gold_crown": "奥术永恒皇冠",
+	"effect.irons_spellbooks.rend": "蚀焚甲熔",
+	"block.irons_spellbooks.blood_cauldron": "盛有血的炼药锅",
+	"item.irons_spellbooks.lesser_spell_slot_upgrade": "小型法术槽位升级部件",
+	"item.irons_spellbooks.spell_slot_upgrade_desc": "提升法术书的容量，最多 %s 个",
+	"item.irons_spellbooks.weapon_parts": "武器部件",
+	"spell.irons_spellbooks.ball_lightning": "球状闪电",
+	"spell.irons_spellbooks.ball_lightning.guide": "发射一个球状闪电，会穿过实体并在方块反弹。",
+	"death.attack.irons_spellbooks.ball_lightning": "%1$s 被 %2$s 毁灭致死",
+	"death.attack.irons_spellbooks.ball_lightning.item": "%1$s 被 %2$s 毁灭致死以 %3$s",
+	"item.irons_spellbooks.lightning_rod": "雷电魔杖",
+	"item.irons_spellbooks.lightning_rod.guide": "在雷暴天气时用能量雷电核心右击避雷针可获得",
+	"item.irons_spellbooks.energized_core": "雷电核心",
+	"item.irons_spellbooks.energized_core.failure": "平常天气没有足够的能量来激活",
+	"ui.irons_spellbooks.sacrifice_target_failure": "你必须指定一个召唤物",
+	"spell.irons_spellbooks.sacrifice": "血爆",
+	"spell.irons_spellbooks.sacrifice.guide": "指定一个你的魔法召唤物，使之死亡并爆炸，对周围造成伤害，召唤物的剩余血量会影响爆炸范围",
+	"death.attack.irons_spellbooks.sacrifice": "%1$s 爆炸了因 %2$s 的血爆",
+	"death.attack.irons_spellbooks.sacrifice.item": "%1$s 爆炸了因 %2$s 的血爆以 %3$s",
+	"ui.irons_spellbooks.base_damage": "%d 基础伤害",
+	"item.irons_spellbooks.hogskin": "疣猪兽粗皮"
+}

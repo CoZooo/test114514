@@ -1,0 +1,8 @@
+{
+    "name": "emxcust.rd704_murusama",
+    "display": "emxcust:rd704_murusama_display",
+    "data": "emxcust:rd704_murusama_data",
+    "tooltip": "emxcust.tooltip.rd704",
+    "type": "rifle",
+    "sort": 500
+}

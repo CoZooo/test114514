@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:blood_vial"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.25,
+      "item": "moonstone:owner_blood_speed_eye"
+    },
+    {
+      "chance": 0.25,
+      "item": "moonstone:owner_blood_vex"
+    },
+    {
+      "chance": 0.25,
+      "item": "moonstone:owner_blood_attack_eye"
+    },
+    {
+      "chance": 0.25,
+      "item": "moonstone:owner_blood_eye"
+    }
+  ],
+  "tool": {
+    "item": "yuusha:remembered_scroll"
+  }
+}

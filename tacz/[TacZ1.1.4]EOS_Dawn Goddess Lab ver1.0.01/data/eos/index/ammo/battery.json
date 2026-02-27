@@ -1,0 +1,6 @@
+{
+  "name": "eos.ammo.battery.name",
+  "tooltip": "eos.ammo.battery.desc",
+  "display": "eos:battery_display",
+  "stack_size": 64
+}

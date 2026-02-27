@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "deep",
+  "soulCost": 8000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    {
+      "item": "irons_spellbooks:lightning_rune"
+    },
+    {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    {
+      "item": "irons_spellbooks:lightning_rune"
+    }
+  ],
+  "result": {
+    "item": "goety:trident_storm_focus"
+  }
+}

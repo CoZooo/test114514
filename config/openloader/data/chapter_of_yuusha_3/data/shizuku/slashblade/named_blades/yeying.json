@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:yeying",
+  "properties": {
+    "attack_base": 60,
+    "max_damage": 600,
+    "slash_art": "shizuku:yingsa",
+    "special_effects": [
+      "shizuku:jingxin"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/yeying.obj",
+    "summon_sword_color": 16711935,
+    "texture": "shizuku:model/shizuku/longyue.png"
+  }
+}

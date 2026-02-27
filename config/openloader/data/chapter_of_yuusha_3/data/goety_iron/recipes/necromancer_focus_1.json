@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "count": 4,
+      "item": "irons_spellbooks:common_ink"
+    },
+    {
+      "count": 1,
+      "item": "irons_spellbooks:tarnished_helmet"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "goety:osseous_focus"
+  },
+  "output": {
+    "count": 1,
+    "item": "goety_iron:necromancer_focus"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 16
+    },
+    {
+      "type": "wicked",
+      "count": 16
+    },
+    {
+      "type": "arcane",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "majruszsenchantments:leech",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:rodai_golden",
+  "properties": {
+    "attack_base": 18.0,
+    "max_damage": 36,
+    "slash_art": "ak:liulifan_city"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 16761358,
+    "texture": "slashblade:model/rodai_golden.png"
+  }
+}

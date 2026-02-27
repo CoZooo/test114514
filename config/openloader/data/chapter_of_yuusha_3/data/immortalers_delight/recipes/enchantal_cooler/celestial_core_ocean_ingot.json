@@ -1,0 +1,21 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "output": {
+    "item": "celestial_core:ocean_ingot",
+    "count": 4
+  }
+}

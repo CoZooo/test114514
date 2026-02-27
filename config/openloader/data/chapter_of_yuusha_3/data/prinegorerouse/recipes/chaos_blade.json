@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:chaos_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "refine": 5
+      }
+    },
+    "C": {
+      "item": "malum:cursed_sap_block"
+    },
+    "M": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "R": {
+      "item": "malum:runic_sap_block"
+    },
+    "S": {
+      "item": "prinegorerouse:chaos"
+    }
+  },
+  "pattern": [
+    " SM",
+    "RBC",
+    "MS "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "deep",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:chill_fabric"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "goety:chill_fabric"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "minecraft:trident"
+    }
+  ],
+  "result": {
+    "item": "goety:abyss_staff"
+  }
+}

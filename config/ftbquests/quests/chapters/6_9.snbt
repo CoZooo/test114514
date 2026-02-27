@@ -1,0 +1,1240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_9"
+	group: "13D24688CE1CFEDA"
+	icon: "moonstone:nightmare_base"
+	id: "47ACA32F8892251E"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 12.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 31.5d
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3390F4DD2E24284D"]
+			description: [
+				"获得魔女世界线的装备。在单人游戏时，打开任务时是时间停止的。所以需要不打开任务，等待片刻才能识别该物品并完成任务。"
+				""
+				"&e需注意，此任务奖励里有且只有古代殉葬品会自带永恒绑定诅咒附魔。"
+				""
+				"&c后续可自行选择，是通过增益加伤的效果，还是通过殉葬效果去击杀Boss。如果走加伤路线，请自行选择其它职业路线发展。如果走殉葬路线，请按此章节发展。"
+				""
+				"&6梦魇盔甲现在无法合成获得，只能通过此任务获得。"
+				""
+				"&2羸弱诅咒附魔也可在乘法乘区降低玩家生命值。生命提升附魔可提升基础生命值。"
+				""
+				"&3如果觉得不显示饱食度很难看，可以进食禁忌之果。"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46845279D93B66AA"
+			rewards: [
+				{
+					id: "12D4381C00175A1D"
+					item: {
+						Count: 1
+						id: "celestial_artifacts:sacrificial_object"
+						tag: {
+							Enchantments: [{
+								id: "enigmaticlegacy:eternal_binding"
+								lvl: 1
+							}]
+							itemModifier: "celestial_forge:lucky"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "62313FE1595F0CCC"
+					item: {
+						Count: 1
+						id: "artifacts:crystal_heart"
+						tag: {
+							itemModifier: "celestial_forge:healthy"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6993A10AD7783C0D"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+							itemModifier: "celestial_forge:hasty"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "06C8209775830287"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+							itemModifier: "celestial_forge:hasty"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0DA8EEFA63FDF0D7"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+							itemModifier: "celestial_forge:hasty"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7D4CC946D5D7E916"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+							itemModifier: "celestial_forge:hasty"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "03EAE16314125EFF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "moonstone:mummification"
+						tag: {
+							itemModifier: "celestial_forge:lucky"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5C6AE90D4ACBEEA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "enigmaticlegacy:forbidden_fruit"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "09923CC7F5F49FCF"
+				item: "yuusha:grief_crystal"
+				type: "item"
+			}]
+			title: "获得魔女世界线装备"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46845279D93B66AA"]
+			description: ["利用古代殉葬品，以及通过食物提供血量，可以击杀一些小怪获得悲叹之种。"]
+			id: "5976BFAFD4057E66"
+			rewards: [{
+				id: "04BDB2B35C6B0816"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19AF1437A311FBCE"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5976BFAFD4057E66"]
+			description: [
+				"在获得足够多的刷怪笼碎片后，用来刷取强运词条，可以获得极高的血量值。"
+				""
+				"&6也能通过☆丘比☆娃娃来改变饰品的星月词缀。"
+			]
+			id: "25D0FDD3776C060A"
+			rewards: [{
+				id: "39547E60F8221328"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C9B8E97159EEDB9"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"只有开局选择『葬仪之魔女』世界线，才可检测到完成此任务。"
+				""
+				"&6葬仪魔女可以用古代殉葬品来击杀生物，度过前期后基本就是无脑玩。"
+				""
+				"&c古代殉葬品可以攻击其他玩家。"
+			]
+			id: "186978A5F54C7023"
+			rewards: [{
+				id: "56192A31E49A0466"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「葬仪魔女」|「救济魔女」"
+			tasks: [{
+				id: "72BB969955E7DB85"
+				item: "yuusha:focus_3_evil"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46845279D93B66AA"]
+			description: [
+				"&c在玩家血量过高时（大概40万点生命值），血量越高，玩家的游戏帧数会下降得越明显。"
+				""
+				"&e无法对部分怪物、非敌对生物发动殉葬效果。但是对大部分Boss都能成功发动殉葬效果。"
+				""
+				"&3魔女化时会使得玩家的血量在独立乘区×-n，所以可以把乘法乘区的数值变为负值，即可获得可怕的血量加成。前期主要是通过强运词条，后续可通过部分饰品来达成。"
+				""
+				"&2按E键打开物品栏后，可看到玩家的数值，其中生命值的加法乘区，在前期可通过进食食物获得加成。"
+				""
+				"&6新增古代殉葬品可击杀玩家、墓灵巨像、红石傀儡、虚空之花、鬼火等生物。"
+				""
+				"&5需注意，古代殉葬品现在会被纯化抗性抵挡。"
+			]
+			id: "6DE8E9FBB438C353"
+			rewards: [{
+				id: "2B686B455F113A87"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "533656CC39F74A9A"
+				item: "celestial_artifacts:sacrificial_object"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5976BFAFD4057E66"]
+			description: ["利用悲叹晶核可将悲叹之种转化为死灵图腾。"]
+			id: "595BF62863975ADF"
+			rewards: [{
+				id: "2B4E0F74139CE3F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F4016E62BAE6FDA"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["186978A5F54C7023"]
+			description: [
+				"需提交特定物品才能完成此任务。"
+				""
+				"&6此可重复提交任务仅用于防止团队误领取，和重置灵魂宝石净化度。"
+				""
+				"&c提交任务后，玩家会立刻进入魔女化状态，获得特定的增益和减益，具体详见树海化章节的食物营养任务。"
+				""
+				"&e后续可自行选择，是通过增益加伤的效果，还是通过殉葬效果去击杀Boss。"
+				""
+				"&2特殊的巫妖化：无限夜视，永远吃不饱，属于亡灵生物，不再使用灵魂能量治疗自身，无法获得生命恢复、中毒、失明、饥饿、反胃、饱和效果，亡灵生物仍会攻击玩家，巫妖暴露在阳光下会燃烧（需头盔保护），即使无灵魂方舟也无法摆脱巫妖化，对村民默认负面声誉，营养永远不会减少。"
+			]
+			hide_dependency_lines: false
+			icon: "yuusha:grief_crystal"
+			id: "3390F4DD2E24284D"
+			rewards: [
+				{
+					id: "04C37FBB57FC78E9"
+					item: "yuusha:grief_crystal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/lichdom grant @s"
+					elevate_perms: true
+					icon: "goety:undeath_potion"
+					id: "33CB3027487B6746"
+					team_reward: true
+					title: "&5不可逆的巫妖化（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s fruits 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "216AB5DF3ADC287E"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s grains 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "5C32CD919F7119E4"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s proteins 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "5E3C67110872A0E4"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s sugars 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "4D47608A5E662B63"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s vegetables 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "32F28D03460B6CCF"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/diet set @s soulgem 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "7237FF660623ED04"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "15449DA075E9F872"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "053EBC5FA9F93A99"
+				item: "yuusha:focus_3_evil"
+				type: "item"
+			}]
+			title: "魔女化"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["46845279D93B66AA"]
+			description: ["在前期也许会有点用处。"]
+			id: "7A08B5EC3E4F6069"
+			rewards: [{
+				id: "10412CF53FD35C52"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "509DD87F3F9628C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:mhead"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5976BFAFD4057E66"]
+			description: ["可制作祭血仪式法术卷轴，用祭血仪式可清除魔力耗尽状态，从而刷新死灵图腾的冷却时间。"]
+			id: "371ED34304AFD4D0"
+			rewards: [{
+				id: "5FBB0AF1948C76A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04DA50344AC027C9"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["增加基础血量。"]
+			id: "43883F19C939F39B"
+			rewards: [{
+				id: "00A946839E1A55F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F56C66E9602FDC3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:sakura_hairpin"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["增加基础血量。"]
+			id: "3BC7DBCE2E5F7175"
+			rewards: [{
+				id: "757544887148FDD1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B8BAC2D18FF5086"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:bearing_stamen"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["增加基础血量。"]
+			id: "449DAEE93FFAE3A3"
+			rewards: [{
+				id: "5B48727B76D6A6B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C6A4411B16C9346"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "bhc:heart_amulet"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["乘法乘区降低血量。"]
+			id: "331AF2AFB277042D"
+			rewards: [{
+				id: "5E9A3B4AD5E0671F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47E7F0267EDC4304"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmareeye"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["568E60337000FC72"]
+			description: ["独立乘区加血。"]
+			id: "5CBE1D012489792F"
+			rewards: [{
+				id: "7805482485DD5BE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "699983D298E3D3FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_bolstering"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["独立乘区加血。"]
+			id: "568E60337000FC72"
+			rewards: [{
+				id: "0CB3B823631D6DEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D9288B24D233C19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:life_etching"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DE8E9FBB438C353"]
+			id: "132E0BB217757F6E"
+			rewards: [{
+				id: "70C6E818B4079DE3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FC72D8CBC24E65F"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["可给盔甲重铸有增加基础生命值的神化词缀。"]
+			id: "0C449B523ED7E46C"
+			rewards: [{
+				id: "4BBDEA69EC2C16CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56F897AA984251A7"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["增加基础血量。"]
+			id: "7F7F1B77898039CA"
+			rewards: [{
+				id: "16BD3096F613C6D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "754F891EE16608EF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/brawlers"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["568E60337000FC72"]
+			description: ["独立乘区加血。"]
+			id: "4B22BEDD8563246F"
+			rewards: [{
+				id: "0AE3908910324B62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DD6A998CADD044A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "nameless_trinkets:gods_crown"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["331AF2AFB277042D"]
+			description: [
+				"乘法乘区降低血量。"
+				""
+				"&6获取详见匠作章节重铸台任务。"
+			]
+			id: "70E531D64A5A36DD"
+			rewards: [{
+				id: "79154AB8C7672AAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41D71C3097301706"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:rare"
+						}
+						gem: "apotheosis:the_nether/inferno"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			id: "7502FB9EE39D1130"
+			rewards: [{
+				id: "136283664FE7F191"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E207CCBF7B51B9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "darkdoppelganger:doppelganger_ring"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			id: "4EB4803F7FCE4E2C"
+			rewards: [{
+				id: "16468F0CB27AB1C6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05CC964FC00089AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:ring_of_growing_flesh"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: ["可以降低目标血量。"]
+			id: "16378C7EAC16DC9A"
+			rewards: [{
+				id: "2A8C27EECC368FF5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2567E838A43239C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:soul_box"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: [
+				"可以降低目标血量。"
+				""
+				"&6可以搭配狂野爪、古代戒指、古代吊坠等饰品。"
+				""
+				"&e还可以JEI搜索“攻击速度 栏位”查看相关饰品。"
+			]
+			id: "50D05A5483F933DC"
+			rewards: [{
+				id: "5534A81CEA847D5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "566137CA4F01FDF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["595BF62863975ADF"]
+			description: ["魔法石英花的免疫效果如果能凹出来魔力耗尽，则可以无限制使用死灵图腾。"]
+			id: "583389AD230008F2"
+			rewards: [{
+				id: "0BFE3687540D7B03"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "196DC9681A2F0F0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticaddons:artificial_flower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5976BFAFD4057E66"]
+			description: ["欺骗的效果与死灵图腾处于同一触发时点。"]
+			id: "3301C1C2D216DF9A"
+			rewards: [{
+				id: "117937E56966619E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "013B0031B2826A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_redemption_deception"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["331AF2AFB277042D"]
+			id: "00016163C3FCD795"
+			rewards: [{
+				id: "0E86C9787A02AA71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7ADE5070B157D6CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			id: "2451496941F66097"
+			rewards: [{
+				id: "08CD595F62931EB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40DC7D52B25F62DA"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2451496941F66097"]
+			id: "45DAB2B8FD4C9DE3"
+			rewards: [{
+				id: "419FED432CE3EC68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24093A675B298167"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_fool_soul"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DE8E9FBB438C353"]
+			description: ["右击可自杀，建议配合一些禁疗饰品，如扭曲剑鞘、大恶魔之咒等。"]
+			id: "63F2A9080B0002A8"
+			rewards: [{
+				id: "19DEB803A7622588"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "138E504F12739E03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									element: "normal"
+									style: "hit"
+								}
+								"minecraft:enchantment": {
+									element: "normal"
+									style: "hit"
+								}
+							}
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "cthulhufishing:knife_for_ritual_bleeding"
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"§bSacrificial knife\"}"
+						}
+					}
+				}
+				title: "出血仪式匕首"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["331AF2AFB277042D"]
+			description: [
+				"乘法乘区降低血量。"
+				""
+				"&6可能并不好用，而且加成并不多。"
+			]
+			id: "4FEDE1CE1E75A599"
+			rewards: [{
+				id: "3A669EC179265CA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47F9ECC571C5FF57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:bloodvirus"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D0FDD3776C060A"]
+			description: [
+				"可以用来免疫部分生物降低基础生命。"
+				""
+				"&e可能还需要用到「大概是个磁铁」饰品。"
+			]
+			id: "70E71604F5A8B56B"
+			rewards: [{
+				id: "7A05A879AE0631E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52086923194F1965"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticlegacy:void_pearl"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["568E60337000FC72"]
+			description: ["需注意，战斗技能树里的增加生命值为乘法乘区，不要点。生存技能树里的是增加基础值，可以点。"]
+			id: "0AC30A496FD72B6E"
+			rewards: [{
+				id: "7CDC697F17DDC085"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07E9AAEC5955979A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:knowledge_fragment"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3390F4DD2E24284D"]
+			description: ["此任务为可重复，仅用作清空玩家所有营养值（包括灵魂宝石净化度）。"]
+			hide_dependency_lines: false
+			id: "4B8862775C5CF951"
+			rewards: [
+				{
+					id: "2984D6FBB825A31F"
+					item: "yuusha:grief_crystal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s fruits 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "3A94C05CA9DB4754"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s grains 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "31A61FDB3A618DD1"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s proteins 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "5291403C6CFF68DB"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s sugars 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "368E2294A5C03090"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/diet set @s vegetables 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "343A244D4D7CA046"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/diet set @s soulgem 0"
+					elevate_perms: true
+					icon: "yuusha:bad_soul_gem"
+					id: "3CD17DAFE350F606"
+					team_reward: true
+					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "202ACCF39DDF2451"
+				item: "yuusha:grief_crystal"
+				type: "item"
+			}]
+			title: "将灵魂宝石净化度设为零"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2451496941F66097"]
+			description: [
+				"佩戴后可进入无限死亡循环，请确保你有足够的保命道具和清楚此饰品的用途。"
+				""
+				"&6可能需配合无厄之册的真理诅咒等效果。"
+			]
+			id: "681E6836B7C7D915"
+			rewards: [{
+				id: "12E2CE07F28547A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53FF5BDB8464A5C2"
+				item: "nameless_trinkets:tick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+	subtitle: ["&9『葬仪魔女结界』"]
+	title: "&6※ 魇梦"
+}

@@ -1,0 +1,71 @@
+{
+	"variant": "combatant",
+	"weight": 10,
+	"quality": 0,
+	"unique": true,
+	"dimensions": [
+		"infinite_abyss:sixth_layer",
+		"minecraft:overworld",
+		"minecraft:the_nether",
+		"minecraft:the_end"
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"trident",
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "attributeslib:arrow_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.15,
+				"uncommon": 0.20,
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+			}
+		},
+		{
+			"type": "apotheosis:damage_reduction",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"damage_type": "physical",
+			"values": {
+				"common": 0.025,
+				"uncommon": 0.05,
+				"rare": 0.075,
+				"epic": 0.10,
+				"mythic": 0.125,
+				"ancient": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:durability",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"values": {
+				"common": 0.1,
+				"uncommon": 0.2,
+				"rare": 0.3,
+				"epic": 0.4,
+				"mythic": 0.5,
+				"ancient": 1.0
+			}
+		}
+	]
+}

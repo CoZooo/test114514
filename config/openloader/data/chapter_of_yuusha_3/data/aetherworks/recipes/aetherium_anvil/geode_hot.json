@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_hot"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 15.0,
+      "count": 2,
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:raw_lead"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:red_sand"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:granite"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "moonstone:twistedstone"
+    },
+    {
+      "chance": 5.0,
+      "count": 1,
+      "item": "yuusha:gold_skull"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

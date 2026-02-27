@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:spell_enhancement_core",
+        "Count": 1
+      }
+    }
+  },
+  "power": 4.5,
+  "ingredients": [
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "goety:mystic_core"
+    }
+  ]
+}

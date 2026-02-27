@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:kamuy_water",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:packed_ice"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade_addon:kamuy_lightning",
+        "proud_soul": 30000,
+        "refine": 3
+      }
+    },
+    "D": {
+      "item": "confluence:frozen_turtle_shell"
+    },
+    "N": {
+      "item": "confluence:demon_heart"
+    },
+    "Q": {
+      "item": "minecraft:snow_block"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "ABQ",
+    "SNS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

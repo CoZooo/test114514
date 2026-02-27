@@ -1,0 +1,44 @@
+{
+	"name": "琍斯石存储",
+	"icon": "distant_worlds:lithum_storage_advanced",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 5,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "熔炉晶体不足以完全储存所形成的大量达琍特能量。要做到这一点，有必要制作累积的琍斯石存储。$(br)此外，在便携式达琍特存储器中，可以随身携带稍小的能源供应。它们可以被放置在达琍特存储器中以补充或返回其内部能量供应。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "琍斯石存储",
+			"recipe": "distant_worlds:lithum_storage_initial_recipe",
+			"recipe2": "distant_worlds:lithum_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "琍斯石存储",
+			"recipe": "distant_worlds:lithum_storage_advanced_recipe",
+			"text": "Each of these can be used as storage in a Lithum Altar."
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "达琍特存储",
+			"recipe": "distant_worlds:dalite_storage_initial_recipe",
+			"recipe2": "distant_worlds:dalite_storage_extended_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "达琍特存储",
+			"recipe": "distant_worlds:dalite_storage_advanced_recipe",
+			"text": "使用它们在存储器之间传递能量，或者在断开存储器之前从存储器中取出最后一部分能量。此外，当作为项链佩戴时，也可以用作能量源。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

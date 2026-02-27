@@ -1,0 +1,24 @@
+{
+  "spell.refined_mod.frost_strike": "Frost Strike",
+  "spell.refined_mod.frost_strike.guide": "Imbue your weapon with Ice and Frost in a sweeping strike. The damage scales off of your held weapon's melee damage.",
+  "spell.refined_mod.thunder_strike": "Thunder Strike",
+  "spell.refined_mod.thunder_strike.guide": "Call down a bolt of Lightning with your armament. The damage scales off of your held weapon's melee damage and enchantments.",
+  "spell.refined_mod.moon_slash": "Moon Slash",
+  "spell.refined_mod.moon_slash.guide": "Summon a Sweeping wave of moonlight that emits from the players armament",
+  "spell.refined_mod.summon_wolves": "Summon Wolves",
+  "spell.refined_mod.summon_wolves.guide": "Cast to summon a pack of loyal wolves who will follow and protect you",
+
+  "death.attack.refined_mod.summon_wolves": "%1$s was mauled by %2$s's wolves",
+  "effect.refined_mod.wolf_timer": "Summoned Wolves",
+  "effect.refined_mod.wolf_timer.description": "Displays the duration remaining on your summons, and their count",
+  "entity.refined_mod.summoned_wolf": "Summoned Wolf",
+
+  "item.refined_mod.summer_rain_sword": "Summerrain",
+  "item.refined_mod.flame_tongue_sword": "FlameTongue",
+
+  "item.refined_mod.jades_jewel_music_disc": "Music Disc",
+  "item.refined_mod.jades_jewel_music_disc.desc": "Zero - Jade's Jewel",
+
+  "ui.irons_spellbooks.damage": "%d Damage",
+  "ui.irons_spellbooks.recast_count": "%d Casts"
+}

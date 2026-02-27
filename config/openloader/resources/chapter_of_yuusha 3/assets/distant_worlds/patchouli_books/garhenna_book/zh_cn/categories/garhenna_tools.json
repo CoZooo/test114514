@@ -1,0 +1,6 @@
+{
+	"name": "工具",
+	"description": "该类别包含由迦赫纳维度添加的所有工具的摘要。",
+	"icon": "distant_worlds:textures/screens/garhenna_tools_icon.png",
+	"sortnum": 2
+}

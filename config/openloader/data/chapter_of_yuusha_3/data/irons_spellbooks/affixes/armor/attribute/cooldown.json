@@ -1,0 +1,16 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "irons_spellbooks:cooldown_reduction",
+	"operation": "MULTIPLY_BASE",
+	"values": {
+		"uncommon": 0.05,
+		"rare": 0.10,
+		"epic": 0.15,
+		"mythic": 0.20,
+		"ancient": 0.25
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots",
+		"sword", "trident"
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 2.50,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "distant_worlds:suppression": 3,
+        "aether_redux:adrenaline_rush": 2
+    },
+    "travel_req":{
+        "slayer": 200
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

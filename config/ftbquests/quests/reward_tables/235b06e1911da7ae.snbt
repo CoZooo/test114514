@@ -1,0 +1,14 @@
+{
+	icon: "bhc:soul_heart_canister"
+	id: "235B06E1911DA7AE"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 4, item: "bhc:red_heart_canister" }
+		{ count: 4, item: "bhc:yellow_heart_canister" }
+		{ count: 4, item: "bhc:green_heart_canister" }
+		{ count: 4, item: "bhc:blue_heart_canister" }
+		{ count: 4, item: "bhc:soul_heart_canister" }
+	]
+	title: "随机心之容器"
+}

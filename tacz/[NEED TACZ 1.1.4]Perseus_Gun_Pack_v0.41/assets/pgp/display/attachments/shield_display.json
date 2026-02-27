@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/shield",
+  "model": "pgp:attachment/shield_geo",
+  "texture": "pgp:attachment/uv/shield",
+  "lod": {
+    "model": "pgp:attachment/lod/shield_lod",
+    "texture": "pgp:attachment/lod/shield_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

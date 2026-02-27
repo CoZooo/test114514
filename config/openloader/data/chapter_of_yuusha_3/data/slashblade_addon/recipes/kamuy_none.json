@@ -1,0 +1,35 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:kamuy_none",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200
+      }
+    },
+    "D": {
+      "item": "minecraft:book"
+    },
+    "I": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "N": {
+      "tag": "forge:gems/quartz"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_sphere"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "IBI",
+    "SDS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

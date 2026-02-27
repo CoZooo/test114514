@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "whisperwoods:wisp_spawn_egg": {
+            "salvageMax": 1,
+            "baseChance": 0.0,
+            "maxChance": 0.5,
+            "chancePerLevel": {
+                "smithing": 0.005
+            },
+            "levelReq": {
+                "smithing": 200
+            },
+            "xpPerItem": {
+                "smithing": 5000
+            }
+        }
+    }
+}

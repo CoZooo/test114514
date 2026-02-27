@@ -1,0 +1,16 @@
+{
+	icon: "wizards_reborn:arcane_wood_light_casing"
+	id: "5033C4ED21C5D2A7"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "yuusha:focus_1_yuusha", team_reward: true, title: "&e『玩家是勇者』世界线：正常发展，熟悉流程（一周目首选）" }
+		{ item: "yuusha:focus_2_maid", title: "&c『女仆是勇者』世界线：玩家羸弱，女仆飞升（多周目再选）" }
+		{ item: "yuusha:focus_4_ass", title: "&3『玩家是刺客』世界线：埋伏狩猎，一击必杀（多周目再选）" }
+		{ item: "yuusha:focus_3_evil", title: "&2『玩家是魔女』世界线：双生魔女，葬日殉月（多周目再选）" }
+		{ item: "yuusha:focus_5_none", title: "&5『玩家是神魔』世界线：时空囚笼，法则逆转（多周目再选）" }
+		{ item: "yuusha:focus_6_sword", title: "&4『玩家是剑仙』世界线：九剑开天，万剑归宗（多周目再选）" }
+		{ item: "yuusha:focus_9", title: "&7『玩家是邪灵』世界线：堕天唤灵，篡神夺骸（多周目再选）" }
+	]
+	title: "选择游戏路线"
+}

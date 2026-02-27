@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "simplyswords:netherite_chakram"
+  },
+  "addition": {
+    "item": "embers:ancient_motive_core"
+  },
+  "result": {
+    "item": "simplyswords:runic_chakram"
+  },
+  "template": {
+    "item": "simplyswords:runic_tablet"
+  }
+}

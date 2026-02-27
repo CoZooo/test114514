@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:carved_edelwood_log"
+    }
+  ],
+  "output": {
+    "item": "forbidden_arcanus:dark_matter",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 60000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "goety_revelation:quietus_star"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:wither_quietus_focus"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "hmag:anti_air",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 5
+    }
+  ],
+  "name": "prinegorerouse:chaos_blade",
+  "properties": {
+    "attack_base": 51.0,
+    "max_damage": 102,
+    "slash_art": "ak:shiva_dance",
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/chaos/chaos_blade.obj",
+    "summon_sword_color": 255236139,
+    "texture": "prinegorerouse:model/named/custom/chaos/chaos_blade.png"
+  }
+}

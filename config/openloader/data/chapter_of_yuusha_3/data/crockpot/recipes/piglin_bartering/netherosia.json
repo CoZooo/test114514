@@ -1,0 +1,72 @@
+{
+  "type": "crockpot:piglin_bartering",
+  "ingredient": {
+    "item": "crockpot:netherosia"
+  },
+  "results": [
+    {
+      "item": "crockpot:hoglin_nose",
+      "count": {
+        "min": 1,
+        "max": 3
+      },
+      "weight": 25
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "count": {
+        "min": 2,
+        "max": 3
+      },
+      "weight": 10
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "weight": 10
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": {
+        "min": 1,
+        "max": 5
+      },
+      "weight": 20
+    },
+    {
+      "item": "minecraft:crimson_fungus",
+      "count": {
+        "min": 2,
+        "max": 4
+      },
+      "weight": 5
+    },
+    {
+      "item": "minecraft:warped_fungus",
+      "count": {
+        "min": 2,
+        "max": 4
+      },
+      "weight": 5
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "count": {
+        "min": 1,
+        "max": 2
+      },
+      "weight": 5
+    },
+    {
+      "item": "enigmaticlegacy:darkest_scroll",
+      "count": {
+        "min": 1,
+        "max": 1
+      },
+      "weight": 15
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "weight": 5
+    }
+  ]
+}

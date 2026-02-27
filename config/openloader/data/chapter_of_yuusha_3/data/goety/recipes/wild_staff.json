@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "animation",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:magic_fabric"
+    },
+    {
+      "item": "goety:corpse_blossom"
+    },
+    {
+      "item": "goety:magic_fabric"
+    },
+    {
+      "item": "goety:corpse_blossom"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "aquamirae:wisteria_niveis"
+    }
+  ],
+  "result": {
+    "item": "goety:wild_staff"
+  }
+}

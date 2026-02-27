@@ -1,0 +1,21 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 0.75,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "aquamirae:armor_decrease": 4,
+		"celestial_core:soul_shatter": 4,
+		"cataclysm:bone_fracture": 7,
+		"distant_worlds:suppression": 3,
+		"attributeslib:sundering": 1
+    },
+    "travel_req":{},
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

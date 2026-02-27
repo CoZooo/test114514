@@ -1,0 +1,17 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "forbidden_arcanus:eternal_stella"
+  },
+  "output": {
+    "item": "elementalcombat:essence_ice",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "eldritch"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "_D_",
+    "DAD",
+    "_D_",
+    "BCBC"
+  ],
+  "key": {
+    "B": {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    "A": {
+      "item": "nameless_trinkets:unknown_fragment"
+    },
+    "C": {
+      "item": "born_in_chaos_v1:magical_holiday_candy"
+    },
+    "D": {
+      "item": "aetherworks:aether_shard"
+    }
+  },
+  "output": {
+    "item": "nameless_trinkets:mysterious_trinket",
+    "count": 4
+  },
+  "wissen": 1000
+}

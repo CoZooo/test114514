@@ -1,0 +1,48 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 3,
+  "emberPerHit": 25,
+  "input": {
+    "item": "goety:dark_hat"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:grand_turban"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:frost_crown"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:wild_crown"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:abyss_crown"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:void_crown"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:nether_crown"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:necro_crown"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

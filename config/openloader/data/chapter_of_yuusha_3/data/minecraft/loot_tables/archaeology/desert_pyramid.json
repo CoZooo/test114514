@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:archer_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:miner_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prize_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb_block",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_block",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cthulhufishing:ancient_coin",
+          "weight": 8
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_pyramid"
+}

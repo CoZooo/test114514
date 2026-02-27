@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deep_aether:skyjade_block"
+  },
+  "base": {
+    "item": "shieldexp:iron_shield"
+  },
+  "result": {
+    "item": "deep_aether:skyjade_shield"
+  },
+  "template": {
+    "item": "born_in_chaos_v1:dark_upgrade"
+  }
+}

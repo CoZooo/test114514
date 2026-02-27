@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [],
+  "input": {
+    "count": 16,
+    "item": "deep_aether:aseterite"
+  },
+  "output": {
+    "count": 16,
+    "item": "malum:tainted_rock"
+  },
+  "spirits": [
+    {
+      "type": "sacred"
+    },
+    {
+      "type": "arcane"
+    }
+  ]
+}

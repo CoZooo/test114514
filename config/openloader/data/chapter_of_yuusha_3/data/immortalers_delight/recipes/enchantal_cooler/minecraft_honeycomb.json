@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "output": {
+    "item": "minecraft:honeycomb",
+    "count": 4
+  }
+}

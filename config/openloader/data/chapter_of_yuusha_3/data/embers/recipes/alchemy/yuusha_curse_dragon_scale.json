@@ -1,0 +1,26 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "output": {
+    "item": "yuusha:curse_dragon_scale",
+	"count": 1
+  },
+  "tablet": {
+    "item": "forbidden_arcanus:dragon_scale"
+  }
+}

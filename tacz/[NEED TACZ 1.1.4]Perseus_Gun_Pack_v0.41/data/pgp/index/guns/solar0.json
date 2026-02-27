@@ -1,0 +1,8 @@
+{
+  "name": "pgp.gun.solar0.name",
+  "display": "pgp:solar0_display",
+  "data": "pgp:solar0_data",
+  "tooltip": "pgp.gun.solar0.desc",
+  "type": "mg",
+  "sort": 1
+}

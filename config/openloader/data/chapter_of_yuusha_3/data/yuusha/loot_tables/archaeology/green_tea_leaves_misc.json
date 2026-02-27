@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "confluence:treasure_magnet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:step_stool",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:ancient_chisel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:treasure_magnet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:toolbelt",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:toolbox",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:extendo_grip",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:portable_cement_mixer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:brick_layer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:depth_meter",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:tally_counter",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:life_form_analyzer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:radar",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:dps_meter",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:metal_detector",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:stopwatch",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:sextant",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:weather_radio",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:fishermans_pocket_guide",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:pda",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "yuusha:archaeology/green_tea_leaves_misc"
+}

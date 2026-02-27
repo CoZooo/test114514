@@ -1,0 +1,10 @@
+{
+  "config": {
+    "miningUnderwaterSpeed": 2.0,
+    "chokingDamage": 100.0,
+    "blindnessWhenChoking": true,
+    "airReductionSpeed": 5,
+    "swimSpeedMultiplier": 200.0,
+    "isEnable": true
+  }
+}

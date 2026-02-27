@@ -1,0 +1,14 @@
+{
+  "weight": 0.2,
+  "ads": {
+    "percent": -0.2
+  },
+  "inaccuracy": {
+    "percent": -0.05
+  },
+  "recoil": {
+    "pitch": {
+      "multiplier": 0.85
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "cataclysm:emp"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:sirenhead_pearl"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:endest_pearl"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:z750core"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

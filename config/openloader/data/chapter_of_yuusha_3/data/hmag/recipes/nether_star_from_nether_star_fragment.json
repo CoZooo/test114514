@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "cagedmobs"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/nether_star"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_star"
+  }
+}

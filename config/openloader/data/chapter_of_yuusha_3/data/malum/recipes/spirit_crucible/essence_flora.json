@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "forbidden_arcanus:eternal_stella"
+  },
+  "output": {
+    "item": "elementalcombat:essence_flora",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "earthen"
+    },
+    {
+      "type": "aqueous"
+    }
+  ]
+}

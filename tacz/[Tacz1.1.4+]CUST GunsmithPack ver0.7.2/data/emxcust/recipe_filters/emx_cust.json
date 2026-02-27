@@ -1,0 +1,26 @@
+{
+  // 白名单，只有在白名单中的配方才会被显示，如果白名单为空，默认为全集
+  // 可以使用正则表达式，正则表达式请以^开头，$结尾
+  // 常用例子：匹配命名空间xxx下的所有配方：^xxx:.*$
+  "whitelist": [
+	"emxarms:gun/emx_expel32se_ba",
+	"emxarms:gun/emx_pulse_al",
+	"emxarms:gun/emx_pulse_dl1",
+	"emxarms:gun/emx_pulse_dl2",
+	"emxarms:gun/emx_pulse_sc",
+	"emxarms:gun/emx_rivet_gw",
+	"trisdyna:gun/tris_sf7e_wa",
+	"trisdyna:gun/rc_ar",
+	"trisdyna:gun/fl3e_sd",
+	"emxcust:gun/p90_tris92",
+	"tacz:gun/cz75",
+	"tacz:gun/glock_17",
+	"tacz:gun/hk_mp5a5",
+	"tacz:gun/uzi",
+	"tacz:gun/m1911"
+  ],
+  // 黑名单，在白名单中的配方中，如果在黑名单中，则不会被显示
+  "blacklist": [
+    "tacz:test"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "born_in_chaos_v1:corpse_maggot"
+  },
+  "craftType": "forge",
+  "soulCost": 2000,
+  "duration": 5,
+  "research": "terminus",
+  "ingredients": [
+    {
+      "item": "netherdepthsupgrade:crimson_kelp"
+    },
+    {
+      "item": "bygonenether:warped_ender_pearl"
+    },
+    {
+      "item": "netherdepthsupgrade:crimson_kelp"
+    },
+    {
+      "item": "wizards_reborn:ground_warped_fungus"
+    }
+  ],
+  "result": {
+    "item": "yuusha:chaos_fly"
+  }
+}

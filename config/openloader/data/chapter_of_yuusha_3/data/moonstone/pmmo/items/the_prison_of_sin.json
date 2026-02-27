@@ -1,0 +1,17 @@
+{
+  "requirements": {
+    "WEAR": { "love": 400 },
+    "USE": { "love": 400 }
+	},
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	},
+  "xp_values":{
+	"ANVIL_REPAIR": {
+		"smithing": 5000
+	}
+  }
+}

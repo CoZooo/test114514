@@ -1,0 +1,62 @@
+
+["The Apocalypse"]
+	#A list of items(curios!) won't be banned when The Nether Apollyon in the phase "The Apocalypse".
+	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "enigmaticlegacy:cursed_ring", "eidolon:glass_hand", "celestial_artifacts:catastrophe_scroll", "celestial_artifacts:chaotic_etching", "celestial_artifacts:origin_etching", "celestial_artifacts:life_etching", "celestial_artifacts:truth_etching", "celestial_artifacts:desire_etching", "celestial_artifacts:nihility_etching", "celestial_artifacts:end_etching", "enigmaticaddons:thunder_scroll", "moonstone:twelve_sword", "irons_spellbooks:netherite_spell_book", "goety_revelation:the_needle", "moonstone:nightmare_base_black_eye_heart", "enigmaticlegacy:the_cube", "bhc:heart_amulet", "relics:hunter_belt", "enigmaticlegacy:cursed_scroll", "goety_revelation:blessing_scroll", "moonstone:the_prison_of_sin", "enigmaticaddons:bless_ring", "moonstone:nine_sword_books", "moonstone:universe"]
+	#A list of entity types(non LivingEntity) won't be removed when The Nether Apollyon in the phase "The Apocalypse".
+	whitelistEntities = ["revelationfix:fake_item_entity", "minecraft:item", "minecraft:experience_orb", "enigmaticlegacy:permanent_item_entity", "touhou_little_maid:tombstone", "tacz:bullet", "irons_spellbooks:sculk_tentacle", "irons_spellbooks:eldritch_blast", "moonstone:as_sword_entity", "moonstone:sword", "moonstone:as_sword", "avaritia:heaven_arrow", "avaritia:heaven_sub_arrow", "slashblade:abstract_summoned_sword", "slashblade:storm_swords", "slashblade:spiral_swords", "slashblade:blistering_swords", "slashblade:heavy_rain_swords", "slashblade:judgement_cut", "slashblade:blade_item_entity", "slashblade:blade_stand_entity", "slashblade:slash_effect", "slashblade:drive"]
+	#If configured as true, when a creature is killed by Apollon's barrier, Apollon will return to the state of "The Apocalypse".
+	barrierKillingMobsHealingMode = true
+	#The time required for the barrier to fully open, default 3 (seconds)
+	#Range: 3 ~ 10
+	apollyonBarrierPreparation = 8
+
+["Halo of Ascension"]
+	#All undead creatures dare not fight back against Halo Players.
+	#If it is set to false, only undead creatures with less than  GoetyMod Config:lichPowerfulFoesHealth(default 50 hearts)  of health dare not fight back against Halo Players.
+	haloUndeadSuppression = true
+	#How many times of soul energy reduction can Halo provide,Default: 4
+	#Range: 1.0 ~ 64.0
+	haloSoulReduction = 4.0
+	#How many times faster can Halo players cast spells,Default: 4
+	#Range: 1.0 ~ 64.0
+	haloSpellCastingSpeed = 4.0
+	#How many times faster can Halo players accelerate the cooldowns of focus,Default: 2
+	#Range: 1.0 ~ 64.0
+	haloSpellCooldownReduction = 2.0
+	#The maximum amount of damage a halo player can attain per hit, Default: 20.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	haloDamageCap = 1000.0
+
+[Apollyon]
+	#Define the cooldown of apollyon shooting skill(in ticks).default : 1600
+	#Range: 0 ~ 32767
+	shootingCooldown = 1600
+	#Defined the permanent damage reduction value of the Apollyon.default : 25(percent)
+	#Range: 0.0 ~ 100.0
+	permanentDamageReduction = 25.0
+	#If configured as true, will enable dynamic damage reduction ability for Apollyon.
+	dynamicDamageReduction = true
+	#Defined the custom invulnerable time of apollyon (in ticks).default : 30
+	#Range: 10 ~ 32767
+	invulnerableTime = 10
+	#Defined the damage multiplier of the Apollyon in second phase.default : 2.0
+	#Range: 0.0 ~ 100.0
+	netherSecondPhaseDamageMultiplier = 2.0
+	#Defined the damage multiplier of the Apollyon in second phase.default : 4.0
+	#Range: 0.0 ~ 100.0
+	netherPhaseGenesisDamageMultiplier = 4.0
+	#Defined the armor piercing attribute base value of apollyon.default : 30(percent)
+	#Range: 0 ~ 100
+	armorPiercingAttribute = 30
+	#Defined the enchantment piercing attribute base value of apollyon.default : 30(percent)
+	#Range: 0 ~ 100
+	enchantmentPiercingAttribute = 30
+
+[Servants]
+	#If true, your servant will redirect the target of hostile creatures towards you to themselves.
+	redirectTargetToServantOption = false
+
+[Others]
+	#A list of mob effect that would never be cleared by curio abilities/bosses...
+	whitelistMobEffects = ["minecraft:night_vision", "cataclysm:ghost_sickness", "aquamirae:crystallization"]
+

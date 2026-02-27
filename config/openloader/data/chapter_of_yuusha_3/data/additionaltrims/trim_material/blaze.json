@@ -1,0 +1,9 @@
+{
+  "asset_name": "blaze",
+  "description": {
+    "color": "#971607",
+    "translate": "trim_material.additionaltrims.blaze"
+  },
+  "ingredient": "bosses_of_mass_destruction:blazing_eye",
+  "item_model_index": 0.4
+}

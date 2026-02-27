@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:nyx_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "refine": 4
+      }
+    },
+    "C": {
+      "item": "youkaishomecoming:moon_lantern"
+    },
+    "M": {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    "R": {
+      "item": "yuusha:curse_astral_dust"
+    },
+    "S": {
+      "item": "locusazzurro_icaruswings:demeter_charge"
+    }
+  },
+  "pattern": [
+    "CRS",
+    "MBM",
+    "SRC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

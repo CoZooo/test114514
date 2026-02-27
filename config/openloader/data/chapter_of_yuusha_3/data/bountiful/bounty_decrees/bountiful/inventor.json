@@ -1,0 +1,12 @@
+{
+	"objectives": [
+		"inventor_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"inventor_rews",
+		"_all_rews",
+		"darkstone_upgrade_smithing_template_rews",
+		"angelheart_vial"
+	]
+}

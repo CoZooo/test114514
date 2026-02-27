@@ -1,0 +1,31 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "irons_spellbooks:energized_core",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "call_of_yucutan:ancient_gold"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    },
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "avaritia:diamond_lattice"
+    }
+  ]
+}

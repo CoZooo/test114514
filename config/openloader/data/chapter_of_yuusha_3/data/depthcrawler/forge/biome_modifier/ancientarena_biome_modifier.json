@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "infinite_abyss:seventh_layer_cavern",
+  "features": "depthcrawler:ancientarena",
+  "step": "surface_structures"
+}

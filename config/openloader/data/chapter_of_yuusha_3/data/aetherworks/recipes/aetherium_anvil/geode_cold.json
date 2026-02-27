@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_cold"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "distant_worlds:raw_helyst"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "embers:raw_silver"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "minecraft:raw_iron_block"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "ancient_aether:valkyrie_clay_ball"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "moonstone:ectoplasmstone"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

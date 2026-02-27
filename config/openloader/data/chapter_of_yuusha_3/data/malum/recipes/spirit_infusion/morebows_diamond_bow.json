@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "item": "minecraft:diamond_block",
+      "count": 1
+    },
+    {
+      "item": "cataclysm:cursium_upgrade_smithing_template",
+      "count": 1
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "morebows:diamond_bow"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 2
+    },
+    {
+      "type": "earthen",
+      "count": 2
+    }
+  ]
+}

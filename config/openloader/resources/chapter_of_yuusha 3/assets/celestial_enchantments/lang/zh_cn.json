@@ -1,0 +1,8 @@
+{
+	"enchantment.celestial_enchantments.curse_of_withering.desc": "-%s最大生命，所有装备只会生效一次",
+
+	"enchantment.celestial_enchantments.sharp_arrow.desc": "[仅兼容原版弓类和普通箭类]提高%s箭矢伤害，与力量等附魔冲突，但是与神射手附魔不冲突",
+
+	"enchantment.celestial_enchantments.light_armor_killer.desc": "攻击所显示最终护甲值低于%2$s的目标时+%1$s伤害",
+	"enchantment.celestial_enchantments.void_chain.desc": "攻击后对目标及周围单位造成原伤害%s的深渊伤害"
+}

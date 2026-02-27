@@ -1,0 +1,43 @@
+{
+	"variant": "breach",
+	"weight": 50,
+	"quality": 0,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+	"unique": true,
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "irons_spellbooks:spell_power",
+			"operation": "MULTIPLY_BASE",
+            "values":
+            {
+                "epic": 0.25,
+                "mythic": 0.35,
+                "ancient": 0.50
+            }
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"enchantment": "goety_revelation:reality_piercer",
+			"values": {
+				"mythic": 1,
+				"ancient": 2
+			}
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "item": "farmersdelight:milk_bottle"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "hmag:randomberry"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mk951r_ba"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

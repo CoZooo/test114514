@@ -1,0 +1,18 @@
+{
+  "requirements": {
+    "USE": { "fantasy": 100 },
+	"INTERACT": { "fantasy": 100 }
+  },
+    "xp_values": {
+        "CONSUME": {
+            "endurance": 30,
+            "cooking": 10
+        },
+        "SMELT": {
+            "cooking": 25
+        },
+        "FISH": {
+            "fishing": 200
+        }
+    }
+}

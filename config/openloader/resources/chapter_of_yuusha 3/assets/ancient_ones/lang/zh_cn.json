@@ -1,0 +1,12 @@
+{
+  "entity.ancient_ones.witch_king": "女巫之王",
+  "entity.ancient_ones.tm_29": "异界电锯战姬",
+  "entity.ancient_ones.amethyst_colossus": "紫晶巨石像",
+  
+  "item.ancient_ones.tm_29_spawn_egg": "异界电锯战姬刷怪蛋",
+  "item.ancient_ones.witch_king_spawn_egg": "女巫之王刷怪蛋",
+  "item.ancient_ones.amethyst_colossus_spawn_egg": "紫晶巨石像刷怪蛋",
+  
+  "effect.ancient_ones.no_damage": "无伤害",
+  "effect.ancient_ones.stopped": "停止"
+}

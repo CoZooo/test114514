@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:762x54",
+    "count": 60
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

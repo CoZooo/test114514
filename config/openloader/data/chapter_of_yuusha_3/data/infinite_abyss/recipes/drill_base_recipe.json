@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinite_abyss:drill_part"
+    },
+    "1": {
+      "item": "infinite_abyss:drill_part"
+    },
+    "2": {
+      "item": "infinite_abyss:drill_part"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    },
+    "4": {
+      "item": "infinite_abyss:mechanical_heart"
+    },
+    "5": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "6": {
+      "item": "infinite_abyss:vicerite_crystal"
+    },
+    "7": {
+      "item": "minecraft:iron_bars"
+    },
+    "8": {
+      "item": "infinite_abyss:drill_part"
+    }
+  },
+  "result": {
+    "item": "infinite_abyss:drill_base",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:power_glove"
+        },
+        {
+            "item": "confluence:warrior_emblem"
+        },
+        {
+            "item": "malum:fused_consciousness"
+        }
+    ],
+    "result": {
+        "item": "confluence:mechanical_glove"
+    }
+}

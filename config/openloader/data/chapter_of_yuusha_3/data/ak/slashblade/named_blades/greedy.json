@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 0
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "elementalcombat:wind_aspect",
+      "lvl": 5
+    }
+  ],
+  "name": "ak:greedy",
+  "properties": {
+    "attack_base": 100.0,
+    "max_damage": 200,
+    "slash_art": "ak:bloodsucking_sickle",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/sin/greedy/sange.obj",
+    "summon_sword_color": 15538497,
+    "texture": "ak:model/named/sin/greedy/blood.png"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:hunters_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 40000,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:mystic_core"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "goety_revelation:broken_halo"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    },
+    {
+      "item": "awakened_bosses:herobrine_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:bow_of_revelation"
+  }
+}

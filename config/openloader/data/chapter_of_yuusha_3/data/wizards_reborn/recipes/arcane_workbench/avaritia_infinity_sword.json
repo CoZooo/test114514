@@ -1,0 +1,36 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "GWG",
+    "CBC",
+    "GWG",
+    "SAFA"
+  ],
+  "key": {
+    "A": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "W": {
+      "item": "yuusha:falling_ender_pear"
+    },
+    "F": {
+      "item": "yuusha:awakened_ichorium_sword"
+    },
+    "S": {
+      "item": "yuusha:yuusha_medal"
+    },
+    "B": {
+      "item": "yuusha:emper_core"
+    },
+    "G": {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    "C": {
+      "item": "goety_revelation:doom_medal"
+    }
+  },
+  "output": {
+    "item": "avaritia:infinity_sword"
+  },
+  "wissen": 10000
+}

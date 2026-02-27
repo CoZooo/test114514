@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:cloud",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "B": {
+      "item": "deep_aether:chromatic_aercloud"
+    },
+    "C": {
+      "item": "celestial_core:pure_nether_star"
+    },
+    "D": {
+      "item": "deep_aether:stratus_ingot"
+    },
+    "E": {
+      "item": "ancient_aether:valkyrum_sword"
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade_addon:terra_blade",
+        "proud_soul": 40000,
+        "refine": 4
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEB",
+    "FDA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

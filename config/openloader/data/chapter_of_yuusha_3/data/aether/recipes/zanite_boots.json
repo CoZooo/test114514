@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "addition": {
+    "item": "aether:zanite_block"
+  },
+  "result": {
+    "item": "aether:zanite_boots"
+  },
+  "template": {
+    "item": "cataclysm:essence_of_the_storm"
+  }
+}

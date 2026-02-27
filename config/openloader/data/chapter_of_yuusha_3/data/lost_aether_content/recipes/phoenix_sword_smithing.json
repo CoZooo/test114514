@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "reliquary:phoenix_down"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "result": {
+    "item": "lost_aether_content:phoenix_sword"
+  },
+  "template": {
+    "item": "locusazzurro_icaruswings:gold_upgrade_smithing_template"
+  }
+}

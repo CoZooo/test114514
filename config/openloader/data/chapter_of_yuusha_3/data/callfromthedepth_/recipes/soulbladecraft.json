@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+  },
+  "base": {
+    "item": "callfromthedepth_:immemorialsword"
+  },
+  "addition": {
+    "item": "callfromthedepth_:soulingot"
+  },
+  "result": {
+    "item": "callfromthedepth_:soul_blade"
+  }
+}

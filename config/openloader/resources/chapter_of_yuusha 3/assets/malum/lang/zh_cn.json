@@ -1,0 +1,18 @@
+{
+	"item.malum.ring_of_desperate_voracity": "渴求贪食戒指",
+
+	"effect.malum.gluttony.desc": "每级增加10%法术强度和20%魔能强度。",
+	"effect.malum.gluttony.description": "每级增加10%法术强度和20%魔能强度。",
+
+    "effect.malum.silenced.desc": "每级降低10%的法术强度和魔能强度。",
+    "effect.malum.silenced.description": "每级降低10%的法术强度和魔能强度。",
+
+	"item.malum.belt_of_the_starved": "饥馁者戒指",
+	"malum.gui.book.entry.belt_of_the_starved": "饥馁者戒指",
+	"malum.gui.book.entry.page.headline.belt_of_the_starved": "饥馁者戒指",
+
+	"item.malum.creative_scythe": "§e神迹§d·§5堕天镰刀",
+
+	"item.malum.tyrving": "§d神·§e辉光§c提尔锋",
+	"attribute.name.malum.magic_proficiency": "魔能强度"
+}

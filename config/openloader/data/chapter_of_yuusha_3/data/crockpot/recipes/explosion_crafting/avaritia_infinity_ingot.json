@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "avaritia:infinity_ingot"
+}

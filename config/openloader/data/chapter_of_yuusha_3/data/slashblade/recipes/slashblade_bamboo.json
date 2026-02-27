@@ -1,0 +1,22 @@
+{
+  "type": "slashblade:shaped_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "slashblade:slashblade_wood"
+    },
+    "L": {
+      "tag": "forge:bamboo"
+    }
+  },
+  "pattern": [
+    " L ",
+    "LBL",
+    " L "
+  ],
+  "result": {
+    "item": "slashblade:slashblade_bamboo",
+    "nbt": 	{ "Unbreakable": 1 }
+  },
+  "show_notification": true
+}

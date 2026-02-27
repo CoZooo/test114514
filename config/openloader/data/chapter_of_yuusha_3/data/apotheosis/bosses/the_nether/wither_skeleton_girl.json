@@ -1,0 +1,68 @@
+{
+	"entity": "hmag:wither_skeleton_girl",
+	"weight": 100,
+	"size": {
+		"width": 10,
+		"height": 8
+	},
+	"valid_gear_sets": [
+		"#the_nether",
+		"#the_nether_bow"
+	],
+	"dimensions": [
+		"minecraft:the_nether"
+	],
+	"min_rarity": "rare",
+	"max_rarity": "rare",
+	"stats": {
+		"rare": {
+			"enchant_chance": 1.0,
+			"enchantment_levels": [100, 100, 100, 100],
+			"effects": [
+				{
+					"effect": "enigmaticaddons:pure_resistance",
+					"amplifier": 0
+				},
+				{
+					"effect": "minecraft:resistance",
+					"amplifier": 3
+				},
+				{
+					"effect": "irons_spellbooks:oakskin",
+					"amplifier": 15
+				},
+				{
+					"effect": "goety:iron_hide",
+					"amplifier": 39
+				}
+			],
+			"attribute_modifiers": [
+				{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 225
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": 1.0
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": 1000
+				},
+				{
+					"attribute": "attributeslib:arrow_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": 1000
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 1.0
+				}
+			]
+		}
+	}
+}

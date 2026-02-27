@@ -1,0 +1,112 @@
+
+{
+	"content": {
+        "inventor_rews_1k_storage_part": {
+            "type": "item",
+            "content": "refinedstorage:1k_storage_part",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+        "inventor_rews_storage_housing": {
+            "type": "item",
+            "content": "refinedstorage:storage_housing",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2250
+        },
+        "inventor_rews_observer": {
+            "type": "item",
+            "content": "minecraft:observer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2750
+        },
+        "inventor_rews_disk_drive": {
+            "type": "item",
+            "content": "refinedstorage:disk_drive",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "inventor_rews_4k_storage_part": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "refinedstorage:4k_storage_part",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 6500
+        },
+        "inventor_rews_grid": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "refinedstorage:grid",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 11800
+        },
+        "inventor_rews_crafting_grid": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "refinedstorage:crafting_grid",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 15800
+        },
+        "inventor_rews_creative_controller": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "refinedstorage:creative_controller",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 13200
+        },
+        "inventor_rews_16k_storage_part": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "refinedstorage:16k_storage_part",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 18250
+        },
+        "inventor_objs_64k_storage_part": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "refinedstorage:64k_storage_part",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30250
+        },
+        "inventor_objs_creative_storage_disk": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "refinedstorage:creative_storage_disk",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 128000,
+            "weightMult": 0.1
+        }
+	}
+}

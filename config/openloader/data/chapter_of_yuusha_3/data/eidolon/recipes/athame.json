@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "  p",
+    " s ",
+    "e  "
+  ],
+  "reagents": "n d ",
+  "key": {
+    "p": {
+      "tag": "forge:ingots/pewter"
+    },
+    "s": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "e": {
+      "tag": "forge:ender_pearls"
+    },
+    "n": {
+      "item": "eidolon:arcane_gold_nugget"
+    },
+    "d": {
+      "item": "eidolon:silver_nugget"
+    }
+  },
+  "result": {
+    "item": "eidolon:athame"
+  }
+}

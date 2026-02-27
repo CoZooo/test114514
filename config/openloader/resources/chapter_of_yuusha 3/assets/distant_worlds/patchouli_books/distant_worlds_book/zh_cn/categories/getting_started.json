@@ -1,0 +1,6 @@
+{
+	"name": "入门",
+	"description": "这个类别包含了模组添加的所有维度的摘要。在这里你会找到移动到新世界的说明和其他生存技巧。",
+	"icon": "distant_worlds:textures/screens/getting_started_icon.png",
+	"sortnum": 2
+}

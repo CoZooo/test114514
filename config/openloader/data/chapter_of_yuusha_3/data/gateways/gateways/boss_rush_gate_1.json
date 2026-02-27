@@ -1,0 +1,634 @@
+{
+	"size": "small",
+	"color": "rainbow",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:wither",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.5
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+                {
+                    "entity": "callfromthedepth_:corruptedstalker"
+                },
+                {
+                    "entity": "callfromthedepth_:agonysoul"
+                },
+                {
+                    "entity": "whisperwoods:hirschgeist"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 1.0
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "cataclysm:ancient_remnant"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 5.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 0
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.25
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+                    "entity": "mokels_boss_mantyd:boss_mantyd"
+                },
+                {
+                    "entity": "mokels_witch_boss:witchboss"
+                },
+                {
+                    "entity": "goety:minister"
+                },
+                {
+                    "entity": "faded_conquest_2:the_plauge_bringer"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "irons_spellbooks:oakskin",
+						"amplifier": 15
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.5
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+                    "entity": "bosses_of_mass_destruction:lich"
+                },
+                {
+                    "entity": "aquamirae:captain_cornelia"
+                },
+                {
+                    "entity": "cthulhufishing:ice_crab"
+                },
+                {
+                    "entity": "meetyourfight:bellringer"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 1
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.5
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 3600,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+                    "entity": "mowziesmobs:umvuthi"
+                },
+                {
+                    "entity": "mowziesmobs:frostmaw"
+                },
+				{
+                    "entity": "mowziesmobs:ferrous_wroughtnaut"
+                },
+				{
+                    "entity": "meetyourfight:swampjaw"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "irons_spellbooks:oakskin",
+						"amplifier": 15
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "mutantmonsters:mutant_zombie"
+                },
+                {
+                    "entity": "mutantmonsters:mutant_skeleton"
+                },
+                {
+                    "entity": "mutantmonsters:mutant_enderman"
+                },
+                {
+                    "entity": "mutantmonsters:mutant_creeper"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "irons_spellbooks:oakskin",
+						"amplifier": 15
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+                    "entity": "minecraft:elder_guardian"
+                },
+                {
+                    "entity": "call_of_drowner:drowner"
+                },
+                {
+                    "entity": "call_of_drowner:deepwater_piranha"
+                },
+                {
+                    "entity": "cataclysm:the_leviathan"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "irons_spellbooks:oakskin",
+						"amplifier": 15
+					}
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 1
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "bosses_of_mass_destruction:void_blossom"
+                },
+                {
+                    "entity": "hs_bosses:sand_warrior"
+                },
+                {
+                    "entity": "cthulhufishing:fossil_fish"
+                },
+                {
+                    "entity": "faded_conquest_2:puny_juggernaut"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 10.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 10.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 1
+					}
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.75
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "theinkarena:blot"
+                },
+                {
+                    "entity": "theinkarena:blot"
+                },
+                {
+                    "entity": "theinkarena:blot"
+                },
+                {
+                    "entity": "theinkarena:blot"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 5.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 5.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.25
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "enigmaticaddons:pure_resistance",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "born_in_chaos_v1:lord_pumpkinhead"
+                }
+			],
+			"modifiers": [
+                {
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 1.0
+				},
+				{
+                    "attribute": "attributeslib:arrow_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.0
+                },
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"attribute": "obscure_api:dodge",
+					"operation": "ADDITION",
+					"value": 0.25
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+                {
+                    "entity": "irons_spellbooks:dead_king"
+                }
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "attributeslib:sundering",
+						"amplifier": 0
+					}
+				}
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "distant_worlds:glistering_garsale_fruit",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 2400,
+			"setup_time": 200
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 2
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "enigmaticlegacy:earth_heart",
+				"count": 2
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "apotheosis:sigil_of_rebirth",
+				"count": 32
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "apotheosis:rare_material",
+				"count": 32
+			}
+		},
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:qb",
+				"count": 8
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

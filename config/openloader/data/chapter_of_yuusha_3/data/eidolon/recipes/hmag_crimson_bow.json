@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " AC",
+    "A C",
+    " AC"
+  ],
+  "reagents": "BDBD",
+  "key": {
+    "A": {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    "B": {
+      "item": "hmag:crimson_cuticula"
+    },
+    "C": {
+      "item": "minecraft:weeping_vines"
+    },
+    "D": {
+      "item": "hmag:evil_crystal"
+    }
+  },
+  "result": {
+    "item": "hmag:crimson_bow"
+  }
+}

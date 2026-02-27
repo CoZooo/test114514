@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "call_of_drowner:ocean_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 15,
+    "salt": 1512744094
+  }
+}

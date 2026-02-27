@@ -1,0 +1,82 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:chronosn_blade",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:rage",
+        "refine": 5
+      }
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:greedy",
+        "refine": 5
+      }
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:lust",
+        "refine": 5
+      }
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:lazy",
+        "refine": 5
+      }
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:arrogant",
+        "refine": 5
+      }
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:jealous",
+        "refine": 5
+      }
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:tai_ti",
+        "refine": 5
+      }
+    },
+    "H": {
+      "item": "prinegorerouse:chronos"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "HDH",
+    "EFG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

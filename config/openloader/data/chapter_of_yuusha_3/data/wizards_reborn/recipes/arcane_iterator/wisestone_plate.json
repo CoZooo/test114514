@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "wizards_reborn:wisestone_plate",
+    "count": 1
+  },
+  "wissen": 1500,
+  "ingredients": [
+    {
+      "item": "simplyswords:empowered_remnant"
+    },
+    {
+      "item": "wizards_reborn:polished_wisestone"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "wizards_reborn:polished_wisestone"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "wizards_reborn:polished_wisestone"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "wizards_reborn:polished_wisestone"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+#If true, displays the defense values of the plugin in two rows (split in element and style).
+defenseDoubleRow = true
+

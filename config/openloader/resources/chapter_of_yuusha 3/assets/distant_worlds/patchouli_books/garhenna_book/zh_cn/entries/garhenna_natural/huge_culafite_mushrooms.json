@@ -1,0 +1,19 @@
+{
+	"name": "巨大曲菈绯蘑菇",
+	"icon": "distant_worlds:culafite_shroomlight",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 7,
+	"advancement": "distant_worlds:molten_hills_explore",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "广阔的熔融山脉生物群系已成为曲菈绯蘑菇生长的好地方，它们在那里长得很大，并填满了所有的空地。$(br)它们的干可以被收割并制成装饰方块，你可以从顶部的每一部分都得到几个曲菈绯蘑菇。$(br)曲菈绯菌灯是世界黑暗角落的绝佳光源，适合装饰。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/culafite_mushroom"
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "forbidden_arcanus:maledictus_pact"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_rod"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_rod"
+    }
+  ],
+  "output": {
+    "item": "callfromthedepth_:depth",
+	"count": 1
+  },
+  "tablet": {
+    "item": "ancient_aether:ancient_dungeon_key"
+  }
+}

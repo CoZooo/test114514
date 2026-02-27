@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputFluid": {
+    "fluid": "aetherworks:aether_gas_painful",
+    "amount": 1000
+  },
+  "steam": 1000,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "aetherworks:aether_gas",
+      "amount" : 1000
+    }
+  ]
+}

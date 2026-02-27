@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "prinegorerouse:erebus_blade",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "slashblade_addon:aquablaze",
+        "refine": 5
+      }
+    },
+    "P": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "R": {
+      "item": "callfromthedepth_:marble_block"
+    },
+    "S": {
+      "item": "prinegorerouse:erebus"
+    },
+    "W": {
+      "item": "slashblade:proudsoul_crystal"
+    }
+  },
+  "pattern": [
+    "WS ",
+    "PBR",
+    " SW"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "majruszsdifficulty:enderium_ingot"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "aetherworks:aspectus_aetherium"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "cataclysm:witherite_block"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "fibers:msmc"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

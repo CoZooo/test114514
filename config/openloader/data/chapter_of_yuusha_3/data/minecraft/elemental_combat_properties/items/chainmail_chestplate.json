@@ -1,0 +1,9 @@
+{
+	"defense_style":{
+		"yuusha":10,
+		"magic":5
+	},
+	"defense_element":{
+		"god":10
+	}
+}

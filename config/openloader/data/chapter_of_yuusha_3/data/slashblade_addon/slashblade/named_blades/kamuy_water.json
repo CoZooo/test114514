@@ -1,0 +1,29 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:water_aspect"
+    }
+  ],
+  "name": "slashblade_addon:kamuy_water",
+  "properties": {
+    "attack_base": 45.0,
+    "max_damage": 90,
+    "slash_art": "slashblade_addon:water_drive",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/kamuy/kamuy.obj",
+	"summon_sword_color": 39638,
+    "texture": "slashblade_addon:model/kamuy/water.png"
+  }
+}

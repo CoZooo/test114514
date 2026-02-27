@@ -1,0 +1,7 @@
+{
+	"enchantment.domesticationinnovation.chain_lightning.desc": "在宠物攻击敌对生物时会召唤一个闪电对怪物造成伤害，每升一级会增加敌对生物被闪电击中的次数（谨慎使用，可能会导致卡顿）",
+	"enchantment.domesticationinnovation.vampire": "类吸血鬼",
+	"enchantment.domesticationinnovation.vampire.desc": "为宠物治疗它所造成的伤害，每升一级增加伤害与治疗的百分比",
+	"enchantment.domesticationinnovation.blazing_protection": "烈焰守护",
+	"enchantment.domesticationinnovation.blazing_protection.desc": "宠物被多个（每级增加2个）烈焰棒包围，可以吸收来袭的伤害并点燃攻击者"
+}

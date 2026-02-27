@@ -1,0 +1,24 @@
+{
+  "negative_effect": { 
+	"goety:flimsy": 0, 
+	"goety:gold_touched": 0, 
+	"goety:arrowmantic": 0, 
+	"goety:sapped": 0,
+	"attributeslib:grievous": 0,
+	"minecraft:slowness": 0, 
+	"minecraft:weakness": 0, 
+	"minecraft:unluck": 0, 
+	"minecraft:mining_fatigue": 0, 
+	"cataclysm:curse_of_desert": 0,
+	"cataclysm:ghost_sickness": 0,
+	"cataclysm:blazing_brand": 0,
+	"aquamirae:armor_decrease": 0,
+	"born_in_chaos_v1:magic_depletion": 0,
+	"born_in_chaos_v1:block_break": 0,
+	"goety:ender_ground": 0,
+	"relics:confusion": 0
+  },
+  "requirements": {
+    "WEAR": { "love": 1000 }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "rough_blade:the_waning_moon",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "goety_revelation:doom_medal"
+    },
+    "B": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "C": {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    "E": {
+      "item": "yuusha:awakened_ichorium_sword"
+    },
+    "F": {
+      "item": "yuusha:emper_core"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "chapter_of_yuusha_3_core:magic_energy",
+            "lvl": 10
+          }
+        ],
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "bewitched"
+        ],
+        "proud_soul": 100000,
+        "refine": 10
+      }
+    }
+  },
+  "pattern": [
+    "ABF",
+    "CDB",
+    "ECA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

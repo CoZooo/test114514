@@ -1,0 +1,21 @@
+{
+	"name": "闪光琍斯石",
+	"icon": "distant_worlds:glistering_lithum",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 2,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:glistering_lithum_recipe",
+			"text": "闪光琍斯石被用来强化琍斯石祭坛的基座"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

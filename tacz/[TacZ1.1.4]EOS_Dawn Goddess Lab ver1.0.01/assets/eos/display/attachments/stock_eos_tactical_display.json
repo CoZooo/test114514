@@ -1,0 +1,10 @@
+{
+  "slot": "eos:attachment/slot/stock_eos_tactical",
+  "model": "eos:attachment/stock_eos_tactical_geo",
+  "texture": "eos:attachment/uv/stock_eos_tactical",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_a",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

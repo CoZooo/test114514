@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "item": "metalbarrels:obsidian_to_netherite"
+  },
+  "template": {
+    "tag": "forge:gems/diamond"
+  }
+}

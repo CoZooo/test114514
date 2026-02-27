@@ -1,0 +1,19 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "yuusha:ancient_aether_shard",
+    "count": 8
+  },
+  "steam": 5000,
+  "ingredients": [
+    {
+      "item": "yuusha:strange_crystal"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "aetherworks:aether_gas_painful",
+      "amount" : 5000
+    }
+  ]
+}

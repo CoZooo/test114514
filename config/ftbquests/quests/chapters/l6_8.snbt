@@ -1,0 +1,1837 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_8"
+	group: "381A0F9F8CC8976C"
+	icon: "distant_worlds:fralite_heart"
+	id: "50AED751C7A1A5AF"
+	images: [
+		{
+			alpha: 180
+			color: 16604708
+			height: 24.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 28.0d
+			x: 3.25d
+			y: -5.25d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 25.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 29.5d
+			x: 3.25d
+			y: -5.25d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"此书指导你如何前往迦赫纳维度。也能直接按后续任务前往该维度。"
+				""
+				"&c里面的怪相对龙前而言很强，不建议去打，但是可以暗度陈仓些宝箱材料物品。"
+			]
+			id: "144A8AB836AE9526"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FB239431E83CBB9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65389C916384FAF4"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "distant_worlds:distant_worlds_book"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["144A8AB836AE9526"]
+			id: "3CAAAAC710269878"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06CFB324CB70E6D5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FEAC6916A23788E"
+				item: "distant_worlds:garhenna_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["144A8AB836AE9526"]
+			description: [
+				"在下界维度高度5以下使用即可进入迦赫纳维度。"
+				""
+				"&c该维度无法通常放置、破坏方块，但可通过特殊方式破坏方块，相关内容见后续任务。建议自行准备传送石、返回之戒等返回主世界，或者死亡返回。"
+				""
+				"&6需一定炼金技能等级才可进入该维度。炼金技能可通过完成[好好吃]里面的任务获取经验。迦赫纳维度内的战利品箱奖励已大幅提高。"
+				""
+				"&e现在迦赫纳维度新增自然生成的传送石碑。"
+			]
+			id: "34CA9CD349162165"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FD1DC45D10603A5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "615EDBE61020165D"
+				item: "distant_worlds:charged_wither_totem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["376A8AEE071F7D93"]
+			description: [
+				"钥匙在天空之城的箱子有一套。"
+				""
+				"&c只要在该维度内且拥有神圣城堡Buff，击杀怪物也可获得钥匙。"
+			]
+			id: "7DFF9516E4001F07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06ABEE82E7ADC979"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "287011EF0B645B0A"
+				item: "castle_in_the_sky:yellow_key"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2D17E8C627BD8EDE"]
+			description: [
+				"穿过天空城堡内的地牢，并找到一个拥有大片缠怨藤的房间，其中有飞行石晶体，站在飞行石晶体上即可解锁“征服城堡”的进度，随后即可领取奖励。利用探险家指南针搜索“castle in the sky”可以找到天空之城。"
+				""
+				"&c现在天空之城的生成距离较近且不能被毁灭了。"
+				""
+				"&6天空之城在很高的地方，你还需要一些飞行措施，可用阿涅摩伊之杖（详见宝具章节）等物品飞行到天空之城。还可用潜地矛等在天空之城内穿墙直接去找到飞行石。"
+				""
+				"&2在天空之城有着唤魔者刷怪笼等多种有用的物品。"
+				""
+				"&e现在天空城堡内会自然生成红石傀儡和墓灵巨像（对玩家敌对），在前中期很难击杀，不建议去打。"
+			]
+			id: "376A8AEE071F7D93"
+			rewards: [
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "5A0860CC3CA3A8B2"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CEB928681AA24CA"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				advancement: "castle_in_the_sky:conquer_castle"
+				criterion: ""
+				id: "597F01A7892B24E9"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2D17E8C627BD8EDE"]
+			description: [
+				"首次进入该维度时会给，还可自行制作。"
+				""
+				"&c塞摩壬兽尖刺附魔无法获取。"
+				""
+				"&6利用“幽冥锤”法术，可以采掘部分迦赫纳维度的石头类型方块，包括矿物。随后可制作采矿箭，来采掘树木等其它方块。"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "distant_worlds:garhenna_book"
+				}
+			}
+			id: "6407028F9907D1AC"
+			rewards: [{
+				id: "173B3DD7934AA992"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "distant_worlds:garhenna_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BB45003F6911D32"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "迦赫纳之书"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: [
+				"在迦赫纳维度的所有生物群系都有可能生成，在废弃的图书馆建筑内可以找到，该建筑为较大型，且战利品箱不在刷怪笼之下。"
+				""
+				"&6也可通过与图书管理员的3级交易获得。"
+			]
+			id: "46AE440D1DF1645D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E9735FB205029EC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F10B26779ADF401"
+				item: "distant_worlds:ancient_garhenna_papers"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46AE440D1DF1645D"]
+			description: ["可制作。"]
+			id: "4AC458B646FB1B68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33469A54CC7306A6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31C9F0A405574BB4"
+				item: "distant_worlds:garsale_bookshelf"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4AC458B646FB1B68"]
+			description: [
+				"类似于原版附魔台及书架放置，迦赫纳研究台对应附魔台，迦塞尔书架（至少要有18个）对应书架。"
+				""
+				"&e如上放置好后可以右击打开迦赫纳研究台GUI，接着放入[特定迦赫纳物品]及多个[古老的迦赫纳纸张]，此时会开始研究，会有几率出[完成的迦赫纳研究]。"
+				""
+				"&c以下为可以研究的[特定迦赫纳物品]：曲菈绯蘑菇、发光花粉、黏液迦塞尔树皮、幽比塞晶体、菲隆锭、诺翰壬兽尖刺、曲雷琍、海琍斯特、威琍特果、迦塞尔果、塞摩壬兽鳞片、塞摩壬兽之眼、达琍特、阿苏木达浆果、瓦琍斯、法尔琍石之心等。上述可研究物品在成就内“迦赫纳维度”栏也有记录。"
+				""
+				"{image:yuusha:textures/renwu_yanjiu.png width:150 height:105 align:center}"
+			]
+			id: "214D51903523F9B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A2F5748BA49D170"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C6EE6E0595F9991"
+				item: "distant_worlds:garhenna_researches_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["214D51903523F9B2"]
+			description: ["获得任意[完成的迦赫纳研究]。"]
+			id: "12E44E7B6D8C68FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C9BB1D3B3B218FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3044289F66F98E97"
+				item: {
+					Count: 1
+					id: "distant_worlds:completed_garhenna_researches"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: [
+				"该维度永久具有神圣堡垒、压抑、炽热烙印、霉运效果，无法放置、破坏方块。需自行准备传送石、返回之戒等返回主世界，或者死亡返回。"
+				""
+				"&2利用铁魔法的[幽冥锤]可以无视神圣城堡的效果破坏石头类型方块。利用采矿箭可以无视神圣城堡的效果破坏其它非石头类型方块。"
+				""
+				"&e可以使用永恒之石强化的阿涅摩伊之杖飞行。在迦赫纳维度使用指路石无法传送到除主世界以外的维度。"
+				""
+				"&c迦赫纳维度的侵蚀效果：如果停留时间过长会给予负面效果甚至死亡，可利用达琍特指示器显示侵蚀程度。"
+				""
+				"&6如果只是单纯要去天空之城，只要飞就行。如果要打怪，可能需要在龙后阶段才能打得动。"
+			]
+			id: "2D17E8C627BD8EDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF6DDA384D534F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "distant_worlds:garhenna"
+				id: "703EFB82D7231C1F"
+				type: "dimension"
+			}]
+			title: "迦赫纳维度"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: ["在粘液沼泽击杀洛特勒怪可获得发光花粉和粘液迦塞尔树皮。此外，在粘液沼泽的建筑战利品箱里也有几率找到。"]
+			id: "79DD273ECB142D3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74175212491A7301"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CA71CFF9281A58F"
+				item: "distant_worlds:garsale_slime"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79DD273ECB142D3C"]
+			description: [
+				"副手持玻璃瓶，主手持刺骨献祭匕首，击杀远古恶魔可给玻璃瓶填血，需要击杀8个才能获得满的血瓶。"
+				""
+				"&6迦塞尔粘液详见遥远世界章节。"
+			]
+			id: "34CC51FC9181BAB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42BC952286C970FF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38BAF23BC3AA3F97"
+				item: {
+					Count: 1
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E4FA507843C8AD8"]
+			description: [
+				"击杀腐化英雄获得。"
+				""
+				"&6所有类型的古尔之杖都能制作此杖。"
+			]
+			id: "3D1FE48EE4E21C76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B05E992925DA52D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "613ED328A5690FED"
+				item: "graveyard:white_bone_staff"
+				title: "古尔之杖"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["227E36221293F457"]
+			description: [
+				"上部[不详的骨杖残片]在旧哨塔可以找到，可以用探险家指南针搜索“Ruins”找到。该地形是一座高耸的、由石砖组成的塔状结构，塔底是包含矿道状的陷阱结构，在塔顶可以找到。"
+				""
+				"中部[不详的骨杖残片]在血祀坑可以找到，可以用探险家指南针搜索“Ruins”找到。该地形为高出地面的土坑，最中间有灵魂沙、绯红菌岩等。"
+				""
+				"下部[不详的骨杖残片]在破败营地可以找到，可以用探险家指南针搜索“Ruins”找到。该地形为中间一个篝火，周围几个破烂小屋。需仔细搜索，较为隐蔽。"
+				""
+				"无名的缢死鬼在死亡之树可以找到，可以用探险家指南针搜索“Dead Tree”找到。与无名的缢死鬼用 [堕落精华]交易，也可获得[不详的骨杖残片]获得。"
+				""
+				"&eRuins结构有三个变种，分别有三种不同的骨杖残片，所以给骨杖残片之间新增可以相互转化。"
+				""
+				"&c以上建筑在主世界生成。"
+			]
+			id: "04E75485D21AA4B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24A273E585BD9D76"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1CA9D44EBD8C639A"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "781C1BDE51B860B6"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "588A46BE4ADF3C21"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CA9DBC8390DA772"]
+			description: [
+				"手持任意鬼光右击命运之手，就会获得冷火之瓶。"
+				""
+				"&6击杀各种鬼火后几率获得鬼光。"
+			]
+			id: "3EA640552EA42486"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E3B8EBBBD34C2E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A7B7F8FFE15B1AF"
+				item: "yuusha:cold_fire_bottle"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["376A8AEE071F7D93"]
+			description: [
+				"钥匙在天空之城的箱子有一套。"
+				""
+				"&c只要在该维度内且拥有神圣城堡Buff，击杀怪物也可获得钥匙。"
+			]
+			id: "69D4750CFE7FED44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F1E23C8C0A3C93E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06D0A4EB2FD43F46"
+				item: "castle_in_the_sky:red_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["376A8AEE071F7D93"]
+			description: [
+				"钥匙在天空之城的箱子有一套。"
+				""
+				"&c只要在该维度内且拥有神圣城堡Buff，击杀怪物也可获得钥匙。"
+			]
+			id: "7F88765C78D4020B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CCE2C7D7EE6352E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46AEE323738E4179"
+				item: "castle_in_the_sky:blue_key"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: [
+				"获取：利用“幽冥锤”法术，可以采掘迦赫纳维度的大部分石头类型方块，包括矿物类。"
+				""
+				"&2额外：迦赫纳维度的特有矿石，都可以被扫描器的稀有矿石模块识别。获得后可利用粗矿物块和金兰花种子复制，还可利用金属块和金兰花种子复制。"
+				""
+				"&c曲雷琍矿：在燃烧平原的生物群系中可以发现。"
+				""
+				"&e达琍特矿：可以在熔融山脉的生物群系中找到。"
+				""
+				"&3海琍斯特矿：最常见于死亡山谷生物群系的琍斯石中，为地面上一座略高起来的枯萎泥土丘，里面有琍斯石和海琍斯特矿。"
+				""
+				"&6菲隆矿：在整个迦赫纳维度都可以发现，在较深层。"
+				""
+				"&5也可通过击杀天空之城的红石傀儡和墓灵魔像获得粗矿。"
+			]
+			id: "779FA77D70217A7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257A19FD2B621533"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "41A1ECB8117C70CE"
+					item: "distant_worlds:firon_ingot"
+					type: "item"
+				}
+				{
+					id: "70610FA025155B04"
+					item: "distant_worlds:dalite_crystal"
+					type: "item"
+				}
+				{
+					id: "7CD325B74E101A45"
+					item: "distant_worlds:helyst_crystal"
+					type: "item"
+				}
+				{
+					id: "7118E163D549C3AF"
+					item: "distant_worlds:curelite"
+					type: "item"
+				}
+				{
+					id: "3BCB333C1D39C0D4"
+					item: "distant_worlds:raw_firon"
+					type: "item"
+				}
+				{
+					id: "2303C5FC20F8C4BC"
+					item: "distant_worlds:raw_dalite"
+					type: "item"
+				}
+				{
+					id: "795249359B11858B"
+					item: "distant_worlds:raw_helyst"
+					type: "item"
+				}
+				{
+					id: "38FFB0A0E4FB382C"
+					item: "distant_worlds:raw_curelite"
+					type: "item"
+				}
+			]
+			title: "迦赫纳维度矿石"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32CD8D59966132BF"]
+			description: ["在粘液沼泽击杀洛特勒怪可获得发光花粉和粘液迦塞尔树皮，上述材料在粘液沼泽的建筑战利品箱里也有几率有。"]
+			id: "3E07032152506A3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FEF8FC0B8C3E83B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2552163BD92AF0E0"
+				item: "distant_worlds:glowing_pollen"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["689BC1CF13D1682D"]
+			description: ["在燃火平原的战利品箱内可以找到。击杀杜鲁斯傀儡有小几率获得。"]
+			id: "500BDA47F902968B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E8A86A037D1CB9F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "674A242710E9EE79"
+				item: "distant_worlds:fralite_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C77E453D1333A14"]
+			description: ["诺翰壬兽尖刺可在熔融山脉生物群系的战利品箱子里找到。"]
+			id: "0C42D8D014970E34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72329EA46BCC7776"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38EB8A7C17DF6DCF"
+				item: "distant_worlds:noarhorn_spike"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["689BC1CF13D1682D"]
+			description: [
+				"阿苏木达是一种酸浆果，生长在燃烧平原生物群系的小灌木丛中。这种浆果几乎没有愈合和营养特性，但可以用来制作美味的食物，如阿苏木达派。阿苏木达药剂可以用来减少损耗和暂时保护在迦赫纳维度。"
+				""
+				"&e你可以在死草方块上种植阿苏木达浆果，并用骨粉加速它们的生长。此外，阿苏木达浆果可以被妥善储存在小箱子里。"
+			]
+			id: "3C3F674405AA883D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "161AD863D69C013F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F0F2C1008511E55"
+				item: "distant_worlds:asmulda_berries"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C77E453D1333A14"]
+			description: ["曲菈绯蘑菇在熔融山脉生物群系中发现。这些植物具有负面特性，可以在曲菈绯蘑菇干中稍微减弱，或者在曲菈绯药剂中增强，这会降低永久免疫水平。曲菈绯蘑菇也可以储存在小箱子里。"]
+			id: "709ECC199F0CFCAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E1B20CD121A57D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "321C142078DB8FB7"
+				item: "distant_worlds:culafite_mushroom"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6ECEB0E7B939AA0F"]
+			description: ["芙兹安娜是在死亡山谷生物群系中发现的高大植物。收获时，你除了可以获得这种植物外，还可以从中提取可食用的芙兹安娜果冻。为了方便，你可以在花盆中种植一根芙兹安娜，并在使用骨粉后一段时间内获得芙兹安娜果冻。毒马铃薯在使用时会阻止果冻的释放。"]
+			id: "697989ABE0564A84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3911AC64E02D9B69"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "274CD1515B9DCE20"
+				item: "distant_worlds:fuzianna"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32CD8D59966132BF"]
+			description: ["从迦塞尔树叶子上，你有很小几率获得迦塞尔果实，由于其治疗特性，它可以降低迦赫纳的损耗率。它可以被制成营养丰富的迦塞尔蛋糕或迦塞尔药剂，可以进一步减少消耗并提供临时保护。为了方便起见，迦塞尔果可以储存在大箱子里。"]
+			id: "765228C3AD58B1BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "075A7B86FC5E22EC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72BB9B3890EEC55C"
+				item: "distant_worlds:garsale_fruit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["32CD8D59966132BF"]
+			description: [
+				"迦塞尔树经常出现在粘液沼泽生物群系中，你可以用树苗种植，包括4棵相邻树苗。这些树是由迦塞尔木制成的，可以剥皮或回收成各种其他装饰性和功能性方块。碎裂的迦塞尔木偶尔会在树上出现，随着时间的推移，它会被一层泄漏的黏液覆盖，变成粘液迦塞尔木。粘液迦塞尔木上的黏液可以被整齐地少量收集多次，或者只在剥离时和粘液迦塞尔树皮一起收集一次。"
+				""
+				"&e迦塞尔黏液也可以在高温下从粘液迦塞尔树皮中提取。"
+				""
+				"&6迦塞尔树的顶部经常生长迦塞尔灯笼，可以用作装饰，也可以在很小几率下产生发光花粉。"
+				""
+				"&c各种树苗其实能用骨粉催熟，不过在催熟时会额外给予树苗。"
+			]
+			id: "551A333AC2B4C9B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AE8D2312A3DE2E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A0785C593B5A450"
+				item: "distant_worlds:garsale_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6ECEB0E7B939AA0F"]
+			description: ["威琍特树叶有很小几率掉落威琍特果实，由于其强大的愈合特性，可以减少迦赫纳损耗。从中你可以制作出一种能够中和某些类型毒素的威琍特鸡尾酒。你也可以制作一种可以降低损耗水平并在很长一段时间内为迦赫纳损耗提供临时保护的威琍特药剂。威琍特水果也可以储存在大箱子里。"]
+			id: "28661F3C2840BC8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0837587F79159372"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15D1A0D4CB7A9A34"
+				item: "distant_worlds:wiltum_fruit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6ECEB0E7B939AA0F"]
+			description: [
+				"威琍特树在死亡山谷生物群系中大量生长，你可以用树苗种植，包括4棵相邻树苗。这些树是由威琍特木制成的，可以将其剥皮或回收成各种其他装饰性和功能性方块。"
+				""
+				"&6威琍特核心位于树叶后面的树顶，可以加工成木材或用作装饰照明。"
+			]
+			id: "0B21AE3EA1A5C92F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7123562E1ED0CC86"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51771A6FCDD2943D"
+				item: "distant_worlds:wiltum_core"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: ["燃火平原内的两种特殊建筑，可以用探险家指南针搜索“Burning Plains”找到。"]
+			id: "689BC1CF13D1682D"
+			rewards: [{
+				id: "5BF378075C8E032E"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "燃火平原"
+			tasks: [{
+				id: "461A55A941F665F8"
+				item: "distant_worlds:cobbled_revelite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: ["熔融山脉内的两种特殊建筑，可以用探险家指南针搜索“Molten Hills”找到。"]
+			id: "3C77E453D1333A14"
+			rewards: [{
+				id: "6E14919812C17C63"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "熔融山脉"
+			tasks: [{
+				id: "515AF0C2FC8226FA"
+				item: "distant_worlds:cobbled_fralite"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: ["死亡山谷内的两种特殊建筑，可以用探险家指南针搜索“Dead Valley”找到。"]
+			id: "6ECEB0E7B939AA0F"
+			rewards: [{
+				id: "24EB911AD6702557"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "死亡山谷"
+			tasks: [{
+				id: "2D21CC7FEF8C8C42"
+				item: "distant_worlds:cobbled_lithum"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: ["粘液沼泽内的两种特殊建筑，可以用探险家指南针搜索“Sticky Marshes”找到。"]
+			id: "32CD8D59966132BF"
+			rewards: [{
+				id: "08C7AD084FD5D577"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "粘液沼泽"
+			tasks: [{
+				id: "52216C7AA1CBC9BA"
+				item: "distant_worlds:layered_mud"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6407028F9907D1AC"]
+			description: [
+				"血腥钻石可合成，还可合成复制。手持血腥钻石右击腐化英雄祭坛，即可召唤腐化英雄。"
+				""
+				"&c腐化英雄监狱：自然生成在迦赫纳群系里的天空中，是一座巨型浮岛结构。岛上包含召唤腐化英雄的祭坛结构和一个巨大的骨头结构。"
+				""
+				"&6可以用探险家指南针搜索“Lich Prison”找到。"
+				""
+				"&e该Boss的抗性详见天顶巨兽章节。"
+			]
+			id: "3E4FA507843C8AD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73D04A3E6CE77050"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4098FFE4767C386E"
+				item: "yuusha:blood_diamond"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: [
+				"达琍特指示器可显示受迦赫纳维度的侵袭程度，如果停留时间过长会给予负面效果甚至死亡。"
+				""
+				"&6任务奖励有几率获得。也可合成获得。"
+				""
+				"&e找到并使用治疗草药来制作特殊的药剂。它将帮助你在负面影响出现之前持续更长的时间。继续使用药剂来提高适应水平，并在未来提高永久免疫水平。但是要小心，一些草药和药剂有相反的效果！"
+				""
+				"&c虽然已经修复了迦赫纳满损耗崩溃的问题，但是据说叠满了迦赫纳损耗还是会崩游戏。"
+			]
+			id: "5CA010695A339BD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B8EB13649C6E415"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50A0AA348493730F"
+				item: "distant_worlds:dalite_indicator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4FD6DD922803B260"]
+			description: [
+				"利用[迦赫纳研究台]研究[达琍特晶体]，就会解锁[迦赫纳之书]里面的[岩板祭坛]章节，在[模块]条目内有合成表。按照[迦赫纳之书]的[岩板祭坛]章节的[准备仪式]里面所显示的多方块结构进行搭建。"
+				""
+				"所需材料为：25个带孔的琍斯石、5个琍斯石框架、8个死草方块（需用秘术粉将层状泥转化获得）、12个闪光琍斯石、4个琍斯石熔炉、8个琍斯石基座、4个琍斯石初级存储、4个琍斯石传送器、1个琍斯石核心。"
+				""
+				"&6在合成时不要右击中间的核心查看，会把物品取出终止合成。琍斯石核心挖掘无掉落物。琍斯石传送器如果放错了位置，需挖掘其底座才能回收。"
+				""
+				"&c合成需要能量，在琍斯石熔炉烧制曲雷琍即可，合成时4个琍斯石存储的能量是合计的。"
+				""
+				"&3在材料放置完成后，用达琍特法杖右击琍斯石核心即可开始合成。"
+				""
+				"&e该仪式合成会有较小的失败几率。"
+				""
+				"{image:yuusha:textures/renwu_lisijitan.png width:180 height:145 align:center}"
+			]
+			id: "1815728008A7A3E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BF03765F41FEB1E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "599DC2F93316F9DE"
+					item: "distant_worlds:lithum_core"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4381D52D49DA3A64"
+					item: { Count: 25, id: "distant_worlds:meshed_lithum" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2398B2E1BBFCB310"
+					item: { Count: 5, id: "distant_worlds:lithum_frame" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "23E622D9DD673325"
+					item: "distant_worlds:glistering_lithum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DEBBB3E76CA10EC"
+					item: "distant_worlds:lithum_furnace"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "678A8CF82F25EAF7"
+					item: { Count: 8, id: "distant_worlds:lithum_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16321CC9B759281A"
+					item: { Count: 4, id: "distant_worlds:lithum_storage_initial" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5DDE82BF81CD1C07"
+					item: { Count: 4, id: "distant_worlds:lithum_transmitter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40D57B37A5E6D4C1"
+					item: { Count: 8, id: "distant_worlds:layered_mud" }
+					type: "item"
+				}
+			]
+			title: "琍斯石祭坛"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["214D51903523F9B2"]
+			description: [
+				"利用迦赫纳研究台研究[达琍特晶体]，就会解锁迦赫纳之书里面的岩板祭坛章节。"
+				""
+				"&e达琍特法杖主要用于在材料放置完成后，右击琍斯石核心开始合成。"
+			]
+			id: "4FD6DD922803B260"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D69D22D7D78F77B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E6C8E1EBD74A952"
+				item: {
+					Count: 1
+					id: "distant_worlds:dalite_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: ["阿苏木达是一种酸浆果，生长在燃烧平原生物群系的小灌木丛中。这种浆果几乎没有愈合和营养特性，但可以用来制作美味的食物，如阿苏木达派。阿苏木达药剂可以用来减少损耗和暂时保护在迦赫纳维度。"]
+			id: "3422313E970A2CEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "337BBE13CF1C2192"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02D285576BFF1708"
+				item: "distant_worlds:asmulda_elixir"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: ["从迦塞尔树叶子上，你有很小几率获得迦塞尔果实，由于其治疗特性，它可以降低迦赫纳的损耗率。它可以被制成营养丰富的迦塞尔蛋糕或迦塞尔药剂，可以进一步减少消耗并提供临时保护。"]
+			id: "4DF3A17ECC00E34E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "747859746DCB5DAF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E44F596FDD60DF5"
+				item: "distant_worlds:garsale_elixir"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: ["威琍特树叶有很小几率掉落威琍特果实，由于其强大的愈合特性，可以减少迦赫纳损耗。从中你可以制作出一种能够中和某些类型毒素的威琍特鸡尾酒。你也可以制作一种可以降低损耗水平并在很长一段时间内为迦赫纳损耗提供临时保护的威琍特药剂。"]
+			id: "17659783B148533A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43C8B6FFA1F3838C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EE4B0F74BA4EA31"
+				item: "distant_worlds:wiltum_elixir"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1815728008A7A3E0"]
+			description: [
+				"在研究菲隆粒后，在迦赫纳之书的工具章节内，会显示菲隆剑的制作所需材料和能量。"
+				""
+				"&c研究菲隆粒需要放置额外6个迦塞尔书架。"
+			]
+			id: "0C1EF57568AE1179"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74F6DFC37BA74E2D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "098F1FBB91B17548"
+				item: {
+					Count: 1
+					id: "distant_worlds:firon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34CC51FC9181BAB1"]
+			id: "227E36221293F457"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7938A15701663689"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A16ED1038E5B234"
+				item: {
+					Count: 1
+					id: "graveyard:vial_of_blood"
+					tag: {
+						Blood: 0.8000001f
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3D1FE48EE4E21C76"]
+			description: [
+				"物品所描述的仪式配方存在特性，无法使用。"
+				""
+				"&6用狱火精魂右击放置在地上的命运之手可召唤鬼火。击杀各种鬼火后几率获得鬼光。"
+				""
+				"&c威琍特核心详见此章节。"
+			]
+			id: "4CA9DBC8390DA772"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4329E7807FF218D4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "052FF4992411FD3B"
+				item: "whisperwoods:hand_of_fate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3C77E453D1333A14"]
+			description: ["广阔的熔融山脉生物群系已成为曲菈绯蘑菇生长的好地方，它们在那里长得很大，并填满了所有的空地。它们的干可以被收割并制成装饰方块，你可以从顶部的每一部分都得到几个曲菈绯蘑菇。曲菈绯菌灯是世界黑暗角落的绝佳光源，适合装饰。"]
+			id: "0AAB8DBB0081A6DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37C73D043EE3FABD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C06FDB18C8AE6F0"
+				item: "distant_worlds:culafite_shroomlight"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["689BC1CF13D1682D"]
+			description: ["在燃火平原的战利品箱内可以找到。击杀部分遥远世界的生物有小几率获得。"]
+			id: "12EF1AF1710EFE53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6436C0A0DC29EF4A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "494C77AEBBE2D348"
+				item: "distant_worlds:molten_fralite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D17E8C627BD8EDE"]
+			description: [
+				"击杀迦赫纳维度的恶魔领主、远古恶魔、恶魔、小鬼守卫、小鬼、恶鬼都有几率获得。上述生物只会在迦赫纳维度生成，无法在其它维度生成。"
+				""
+				"&6体型越大的越难杀，但同时魂心水晶的掉率越高。"
+				""
+				"&c上述生物固定为具有抑制属性，但不会有适应属性。"
+				""
+				"&e可制作狂怒1级附魔书。"
+			]
+			id: "37607000CEE933E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F19D48FE992F2F0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C52A61CF651378A"
+				item: "bhc:soul_heart_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37607000CEE933E4"]
+			id: "0EFE2489A9D26040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04F2039834E8CDA3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "652E6827CCDBBE96"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37607000CEE933E4"]
+			id: "7D33F8CD051355BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CB3CBEF8D800352"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "715D41D157452F91"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12E44E7B6D8C68FF"]
+			description: ["除了在要塞图书馆和古城的宝箱外，在迦赫纳维度的任意宝箱也有几率能找到。"]
+			id: "1DDFBAA03DB1DFC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38E849E5BB593C2B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "671AE5E60AD58B07"
+				item: "goety:warred_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12E44E7B6D8C68FF"]
+			description: [
+				"通过锻造仪式合成获得。右键单击可阅读卷轴，解锁制作强化红石块的配方。你必须先阅读战争卷轴才能阅读终结卷轴。"
+				""
+				"&6任意完成的迦赫纳研究均可用来制作终结卷轴。"
+			]
+			id: "60DEA94E3A11A10F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477B88F17C33D24F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48653CE0900A347F"
+				item: "goety:terminus_scroll"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"214D51903523F9B2"
+				"7B40D6E29B477603"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"需阅读终结卷轴才能召唤异化红石巨兽。"
+				""
+				"&e新增击杀红石傀儡（不包括异化红石傀儡）和墓灵魔像有小几率掉落模块核心稳定化。也可通过此章节的琍斯石祭坛制作。"
+			]
+			id: "31E07CA9DDF0F058"
+			min_required_dependencies: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50F33DF39B446145"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00A97A8D9296CAB8"
+				item: "distant_worlds:module_core_stabilization"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12E44E7B6D8C68FF"]
+			description: [
+				"红石傀儡和墓灵魔像主要生成在天空之城内。"
+				""
+				"&e红石傀儡和墓灵魔像对有属性的魔法类型伤害抗性较低，对其它类型伤害抗性较高。"
+				""
+				"&6新增击杀红石傀儡（不包括异化红石傀儡）和墓灵魔像有小几率掉落模块核心稳定化。"
+			]
+			id: "7B40D6E29B477603"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71382A331E4A7DCC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6877DCAAAF59FC4D"
+				item: "goety:grave_golem_skull"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"69D4750CFE7FED44"
+				"7F88765C78D4020B"
+				"7DFF9516E4001F07"
+			]
+			description: ["天空之城奖杯可用于合成物品及主线任务。放下后可以徒手挖掘，虽然很慢。"]
+			icon: "castle_in_the_sky:laputa_miniature"
+			id: "4DA5C78EEAB9AA31"
+			rewards: [{
+				id: "4597A53F0338221E"
+				item: "castle_in_the_sky:laputa_miniature"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "40A00A8071EA36AE"
+				item: "enigmaticlegacy:unholy_grail"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "天空之城奖杯"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31E07CA9DDF0F058"]
+			description: [
+				"需击杀异化红石巨兽获得。"
+				""
+				"&e手持破碎的希望之心，右击强化红石块，即可召唤红石巨兽。"
+			]
+			id: "2019D1E91373BF2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "007E532A17A9B283"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24FA8DD2D4E41B7F"
+				item: "goety:redstone_monstrosity_head"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2019D1E91373BF2B"]
+			id: "33DCDAF64F6586CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A3C91A37491DAA7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6705CE73EB993A8F"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2019D1E91373BF2B"]
+			id: "12452B1740EFA894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "041D6E0170FCE2B6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20A15C9761B9BDBD"
+				item: "goety:dark_scroll"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1815728008A7A3E0"]
+			description: [
+				"利用[迦赫纳研究台]研究[达琍特晶体]，就会解锁[迦赫纳之书]里面的[岩板祭坛]章节，在[模块]条目内有合成表。"
+				""
+				"&6空模块可以在迦赫纳维度的建筑结构的箱子内找到。"
+				""
+				"&c将第一个材料放入中央的祭坛，其余材料分别放入基座。有些材料需要一定数量，要每个物品分别放置在基座。"
+			]
+			id: "67F724AC121F237B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DFFE154A33629BA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6404919B224E4B2F"
+				item: "distant_worlds:module_empty"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F724AC121F237B"]
+			id: "333E7F9A8B0D7037"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24EDBAD49F2403D6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60A96CF2E332EBAA"
+				item: "distant_worlds:module_raging_flame"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D17E8C627BD8EDE"]
+			description: ["利用“幽冥锤”法术，可以采掘部分迦赫纳维度的石头类型方块，包括矿物。随后可制作采矿箭，来采掘树木等其它方块。"]
+			id: "1751236A36419A35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15D893532867BF95"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5217A06DAA2C6CA0"
+					item: "apotheosis:iron_mining_arrow"
+					type: "item"
+				}
+				{
+					id: "6DFF738CE2AA822E"
+					item: "apotheosis:diamond_mining_arrow"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["34CA9CD349162165"]
+			description: ["曲菈绯蘑菇在熔融山脉生物群系中发现。这些植物具有负面特性，可以在曲菈绯蘑菇干中稍微减弱，或者在曲菈绯药剂中增强，这会降低永久免疫水平。曲菈绯蘑菇也可以储存在小箱子里。"]
+			id: "67BA559F7F57918C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11285A71431B516A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30D2D65C870EFFBF"
+				item: "distant_worlds:culafite_elixir"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["67F724AC121F237B"]
+			id: "0112838F0B0C353A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25B970CBB26141CB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CCCFAE160F16E50"
+				item: "distant_worlds:module_raging_spark"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37607000CEE933E4"]
+			id: "448D4791A39ED5DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04A585A7745E9F77"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67DA0269F7B62A0C"
+				item: "luminous_halloween:halloween_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E4FA507843C8AD8"]
+			description: ["在击杀腐化英雄后，有可能腐化英雄祭坛不会恢复平静状态。提交此任务物品，可将玩家脚底下的腐化英雄祭坛恢复为平静状态，才可继续召唤腐化英雄。"]
+			icon: "graveyard:altar"
+			id: "28F0CFE5B7A5D1ED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/fill ~ ~-1 ~ ~ ~ ~ minecraft:bedrock replace graveyard:altar"
+					elevate_perms: true
+					icon: "graveyard:altar"
+					id: "3A64E0E75F886A40"
+					title: "重置腐化英雄祭坛（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/fill ~ ~-1 ~ ~ ~ ~ graveyard:altar replace minecraft:bedrock"
+					elevate_perms: true
+					icon: "graveyard:altar"
+					id: "6166D92C00F490C3"
+					title: "重置腐化英雄祭坛（自动领取）"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "17C8B5FA3982B1AD"
+				item: "moonstone:blood"
+				type: "item"
+			}]
+			title: "重置腐化英雄祭坛"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31E07CA9DDF0F058"]
+			id: "34F6EED5018A6943"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34278E801FFC2AE9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43DB0CDD30421A90"
+				item: {
+					Count: 1
+					id: "faded_conquest_2:eye_of_the_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31E07CA9DDF0F058"]
+			id: "3E9FD15A07ADE73B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A2FC6B549346B3C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "27772947BBB9B47D"
+				item: "faded_conquest_2:key_of_death"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31E07CA9DDF0F058"
+				"33DCDAF64F6586CA"
+			]
+			dependency_requirement: "one_completed"
+			id: "479F79F314EF56DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19AA185A2608F57C"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "5CB34A13B20D04B0"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "601803602143C8B0"
+				item: "yuusha:ignitium_star"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37607000CEE933E4"]
+			description: [
+				"击杀迦赫纳维度的恶魔领主、远古恶魔、恶魔、小鬼守卫、小鬼、恶鬼都有几率获得。上述生物只会在迦赫纳维度生成，无法在其它维度生成。"
+				""
+				"&c也可用魂心水晶制作获得。"
+			]
+			id: "033DB447527090EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05BD7D94033F079F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B40135D39A30C8A"
+				item: {
+					Count: 1
+					id: "treasurebags:treasure_bag"
+					tag: {
+						silentlib.LootContainer: {
+							BagType: "treasurebags:dna"
+							LootTable: "treasurebags:bags/dna"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5CA010695A339BD9"]
+			description: [
+				"开启该护符后，可以完全阻止迦赫纳损耗。但还是建议佩戴达琍特指示器以查看自己的损耗值。"
+				""
+				"&c制作出来的不是无限耐久，需要你进行灌注附魔，或者永恒陨星等方式使之变为无限耐久。"
+			]
+			id: "1A74BC6281B8DA31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25B8CEE99819D063"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D34180BBD19C323"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "distant_worlds:garhenna_immunity_potion"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1815728008A7A3E0"]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					author: "Ame"
+					canRotate: 0
+					color: 16761358
+					display: {
+						color: 15817250
+					}
+					isReward: 1
+					label: "琍斯石祭坛"
+					oneUse: 1
+					size: 5
+					state: 5
+					structureName: "config/capsule/rewards/yanbanjitan.nbt"
+				}
+			}
+			id: "40E38A0952019D6D"
+			rewards: [{
+				id: "6CD996DC5A4E5240"
+				item: {
+					Count: 1
+					id: "capsule:capsule"
+					tag: {
+						author: "Ame"
+						canRotate: 0
+						color: 16761358
+						display: {
+							color: 15817250
+						}
+						isReward: 1
+						label: "琍斯石祭坛"
+						oneUse: 1
+						size: 5
+						state: 5
+						structureName: "config/capsule/rewards/yanbanjitan.nbt"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "64DB3F8DD5504239"
+					item: "distant_worlds:lithum_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 25L
+					id: "0E1FE10883FF5D1F"
+					item: { Count: 25, id: "distant_worlds:meshed_lithum" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "76CE82CAE7B83865"
+					item: { Count: 5, id: "distant_worlds:lithum_frame" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "708262BBBE77C175"
+					item: "distant_worlds:glistering_lithum"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6D1E2A924B390640"
+					item: "distant_worlds:lithum_furnace"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "140F333084EBDE17"
+					item: { Count: 8, id: "distant_worlds:lithum_pedestal" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "36715B8AB4B0F568"
+					item: { Count: 4, id: "distant_worlds:lithum_storage_initial" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0DC1343B3E75C82D"
+					item: { Count: 4, id: "distant_worlds:lithum_transmitter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "29179D9372784B9E"
+					item: { Count: 8, id: "distant_worlds:layered_mud" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1130C0D76DE5BA9E"
+					item: { Count: 8, id: "wizards_reborn:arcanum_dust" }
+					type: "item"
+				}
+			]
+			title: "兑换 一次性«琍斯石祭坛»胶囊"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E44E7B6D8C68FF"]
+			description: [
+				"红石傀儡和墓灵魔像主要生成在天空之城内。"
+				""
+				"&e红石傀儡和墓灵魔像对有属性的魔法类型伤害抗性较低，对其它类型伤害抗性较高。"
+				""
+				"&6新增击杀红石傀儡（不包括异化红石傀儡）和墓灵魔像有小几率掉落模块核心稳定化。"
+			]
+			id: "0A2DC5AA05F4F356"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FE8544F8DE9A325"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "49B625E9B465B634"
+				item: "goety:redstone_golem_skull"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["&9『迦赫纳』"]
+	title: "&6※ 遥远世界"
+}

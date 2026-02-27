@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/dawnstone"
+    },
+    "C": {
+      "item": "embers:caminite_bricks"
+    },
+    "P": {
+      "item": "minecraft:netherite_block"
+    },
+    "W": {
+      "item": "embers:wildfire_core"
+    },
+    "D": {
+      "item": "cataclysm:witherite_block"
+    }
+  },
+  "pattern": [
+    "BWB",
+    "BDB",
+    "PCP"
+  ],
+  "result": {
+    "item": "aetherworks:aether_forge"
+  },
+  "show_notification": true
+}

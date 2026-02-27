@@ -1,0 +1,33 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 3,
+  "emberPerHit": 25,
+  "input": {
+    "item": "yuusha:dice_11"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety_cataclysm:cursed_grave_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety_cataclysm:cursed_cairn_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety_cataclysm:cursed_tomb_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "cataclysm:aptrgangr_head"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

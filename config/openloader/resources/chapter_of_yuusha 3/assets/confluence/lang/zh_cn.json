@@ -1,0 +1,23 @@
+{
+	"curios.tooltip.aggro_attach": "受到圆环之理的祝福，该饰品会增加幸运值",
+	"item.confluence.putrid_scent.tooltip": "受到圆环之理的祝福，该饰品会增加幸运值",
+	"item.confluence.arcane_flower.tooltip3": "受到圆环之理的祝福，该饰品会增加幸运值",
+	
+	"item.confluence.power_glove": "强劲手套",
+	"item.confluence.band_of_regeneration.info": "它有几率从女巫、各种史维特身上掉落。",
+	"item.confluence.climbing_claws.info": "它有几率从蜘蛛身上掉落。",
+	"item.confluence.shoe_spikes.info": "它有几率从蜘蛛身上掉落。",
+
+	"item.confluence.warrior_emblem.info": "它有几率从萨菲拉的忠诚之刃基诺拉身上掉落。",
+	"item.confluence.sorcerer_emblem.info": "它有几率从被束缚的女巫萨菲拉身上掉落。",
+	"item.confluence.ranger_emblem.info": "它有几率从骷髅突变体身上掉落。",
+	"item.confluence.black_belt.info": "它有几率从武神女王身上掉落。",
+	"item.confluence.magma_stone.info": "它有几率从从岩浆怪身上掉落。",
+	"item.confluence.sun_stone.info": "它必定被堡垒守护者掉落。此外击杀凋灵死士、凋灵蛮兵、凋灵骷髅骑士也有几率获得。",
+	"item.confluence.moon_stone.info": "它有几率从幻骨蝠身上掉落",
+	"item.confluence.accessories_icon": "「曙光女神」核心初型",
+	"item.confluence.cross_necklace": "暗之十字项链",
+	"item.confluence.cross_necklace.info": "它有几率从死者之王身上掉落。",
+	"item.confluence.magic_quiver.info": "这件物品有几率从骷髅突变体身上掉落。",
+	"item.confluence.magic_quiver.tooltip2": "20%几率不消耗箭"
+}

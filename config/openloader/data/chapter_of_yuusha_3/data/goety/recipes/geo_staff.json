@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "tag": "forge:storage_blocks/amethyst"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "tag": "forge:storage_blocks/amethyst"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "mowziesmobs:earthrend_gauntlet"
+    }
+  ],
+  "result": {
+    "item": "goety:geo_staff"
+  }
+}

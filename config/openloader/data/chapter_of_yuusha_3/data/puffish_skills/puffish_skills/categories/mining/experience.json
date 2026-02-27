@@ -1,0 +1,1019 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "max(level * 5 + 200, 100000^(level - 80))"
+		}
+	},
+	"level_limit": 80,
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"silk_touch": {
+						"operations": [
+							{
+								"type": "tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+								}
+							}
+						]
+					},
+					"stone_like": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#base_stone_overworld"
+								}
+							}
+						]
+					},
+					"deepslate": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate"
+								}
+							}
+						]
+					},
+					"coal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "coal_ore"
+								}
+							}
+						]
+					},
+					"copper_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "copper_ore"
+								}
+							}
+						]
+					},
+					"iron_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "iron_ore"
+								}
+							}
+						]
+					},
+					"gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "gold_ore"
+								}
+							}
+						]
+					},
+					"redstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "redstone_ore"
+								}
+							}
+						]
+					},
+					"lapis_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "lapis_ore"
+								}
+							}
+						]
+					},
+					"diamond_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "diamond_ore"
+								}
+							}
+						]
+					},
+					"emerald_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "emerald_ore"
+								}
+							}
+						]
+					},
+					"deepslate_coal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_coal_ore"
+								}
+							}
+						]
+					},
+					"deepslate_copper_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_copper_ore"
+								}
+							}
+						]
+					},
+					"deepslate_iron_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_iron_ore"
+								}
+							}
+						]
+					},
+					"deepslate_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_gold_ore"
+								}
+							}
+						]
+					},
+					"deepslate_redstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_redstone_ore"
+								}
+							}
+						]
+					},
+					"deepslate_lapis_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_lapis_ore"
+								}
+							}
+						]
+					},
+					"deepslate_diamond_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_diamond_ore"
+								}
+							}
+						]
+					},
+					"deepslate_emerald_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_emerald_ore"
+								}
+							}
+						]
+					},
+					"nether_quartz_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_quartz_ore"
+								}
+							}
+						]
+					},
+					"nether_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "nether_gold_ore"
+								}
+							}
+						]
+					},
+					"arcane_crystal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "forbidden_arcanus:arcane_crystal_ore"
+								}
+							}
+						]
+					},
+					"xpetrified_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "forbidden_arcanus:xpetrified_ore"
+								}
+							}
+						]
+					},
+					"deepslate_arcane_crystal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "forbidden_arcanus:deepslate_arcane_crystal_ore"
+								}
+							}
+						]
+					},
+					"enderium_shard_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "majruszsdifficulty:enderium_shard_ore"
+								}
+							}
+						]
+					},
+					"blazing_quartz_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:blazing_quartz_ore"
+								}
+							}
+						]
+					},
+					"natural_quartz_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:natural_quartz_ore"
+								}
+							}
+						]
+					},
+					"deepslate_quartz_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:deepslate_quartz_ore"
+								}
+							}
+						]
+					},
+					"brilliant_stone": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:brilliant_stone"
+								}
+							}
+						]
+					},
+					"brilliant_deepslate": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:brilliant_deepslate"
+								}
+							}
+						]
+					},
+					"soulstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:soulstone_ore"
+								}
+							}
+						]
+					},
+					"deepslate_soulstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:deepslate_soulstone_ore"
+								}
+							}
+						]
+					},
+					"cthonic_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "malum:cthonic_gold_ore"
+								}
+							}
+						]
+					},
+					"stella_arcanum": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "forbidden_arcanus:stella_arcanum"
+								}
+							}
+						]
+					},
+					"dalite_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "distant_worlds:dalite_ore"
+								}
+							}
+						]
+					},
+					"curelite_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "distant_worlds:curelite_ore"
+								}
+							}
+						]
+					},
+					"firon_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "distant_worlds:firon_ore"
+								}
+							}
+						]
+					},
+					"helyst_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "distant_worlds:helyst_ore"
+								}
+							}
+						]
+					},
+					"opal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:opal_ore"
+								}
+							}
+						]
+					},
+					"cursed_opal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:cursed_opal_ore"
+								}
+							}
+						]
+					},
+					"violet_diamond_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:violet_diamond_ore"
+								}
+							}
+						]
+					},
+					"deepsilver_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:deepsilver_ore"
+								}
+							}
+						]
+					},
+					"charium_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:charium_ore"
+								}
+							}
+						]
+					},
+					"astarium_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:astarium_ore"
+								}
+							}
+						]
+					},
+					"vicerite_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "infinite_abyss:vicerite_ore"
+								}
+							}
+						]
+					},
+					"aether_quartz_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "ancient_aether:aether_quartz_ore"
+								}
+							}
+						]
+					},
+					"valkyrum_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "ancient_aether:valkyrum_ore"
+								}
+							}
+						]
+					},
+					"dark_metal_deposit": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "born_in_chaos_v1:dark_metal_deposit"
+								}
+							}
+						]
+					},
+					"block_ore_eye": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "cthulhufishing:block_ore_eye"
+								}
+							}
+						]
+					},
+					"skyjade_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deep_aether:skyjade_ore"
+								}
+							}
+						]
+					},
+					"granite_iron_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "dungeons_plus:granite_iron_ore"
+								}
+							}
+						]
+					},
+					"granite_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "dungeons_plus:granite_gold_ore"
+								}
+							}
+						]
+					},
+					"tungsten_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "stalwart_dungeons:tungsten_ore"
+								}
+							}
+						]
+					},
+					"ambrosium_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "aether:ambrosium_ore"
+								}
+							}
+						]
+					},
+					"zanite_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "aether:zanite_ore"
+								}
+							}
+						]
+					},
+					"gravitite_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "aether:gravitite_ore"
+								}
+							}
+						]
+					},
+					"eidolon_lead_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "eidolon:lead_ore"
+								}
+							}
+						]
+					},
+					"arcane_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:arcane_gold_ore"
+								}
+							}
+						]
+					},
+					"eidolon_silver_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "eidolon:silver_ore"
+								}
+							}
+						]
+					},
+					"wizards_reborn_arcanum_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:arcanum_ore"
+								}
+							}
+						]
+					},
+					"embers_lead_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "embers:lead_ore"
+								}
+							}
+						]
+					},
+					"goety_jade_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "goety:jade_ore"
+								}
+							}
+						]
+					},
+					"embers_silver_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "embers:silver_ore"
+								}
+							}
+						]
+					},
+					"nether_salt_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:nether_salt_ore"
+								}
+							}
+						]
+					},
+					"solarite_ore_stone": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "rustic_engineer:solarite_ore_stone"
+								}
+							}
+						]
+					},
+					"nether_arcane_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:nether_arcane_gold_ore"
+								}
+							}
+						]
+					},
+					"veridium_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "aether_redux:veridium_ore"
+								}
+							}
+						]
+					},
+					"solarite_ore_deep_slate": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "rustic_engineer:solarite_ore_deep_slate"
+								}
+							}
+						]
+					},
+					"eidolon_deep_lead_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "eidolon:deep_lead_ore"
+								}
+							}
+						]
+					},
+					"deepslate_arcane_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:deepslate_arcane_gold_ore"
+								}
+							}
+						]
+					},
+					"eidolon_deep_silver_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "eidolon:deep_silver_ore"
+								}
+							}
+						]
+					},
+					"embers_deepslate_lead_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "embers:deepslate_lead_ore"
+								}
+							}
+						]
+					},
+					"deepslate_arcanum_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "wizards_reborn:deepslate_arcanum_ore"
+								}
+							}
+						]
+					},
+					"embers_deepslate_silver_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "embers:deepslate_silver_ore"
+								}
+							}
+						]
+					},
+					"callfromthedepth_marble_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "callfromthedepth_:marble_ore"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "!silk_touch & stone_like",
+						"expression": "2"
+					},
+					{
+						"condition": "!silk_touch & deepslate",
+						"expression": "4"
+					},
+					{
+						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore| nether_quartz_ore | nether_gold_ore | arcane_crystal_ore | blazing_quartz_ore | natural_quartz_ore | brilliant_stone | soulstone_ore | aether_quartz_ore | dark_metal_deposit | skyjade_ore | granite_iron_ore | granite_gold_ore | ambrosium_ore | zanite_ore | gravitite_ore | eidolon_lead_ore | arcane_gold_ore | eidolon_silver_ore | wizards_reborn_arcanum_ore | embers_lead_ore | goety_jade_ore | embers_silver_ore | nether_salt_ore | solarite_ore_stone | nether_arcane_gold_ore | veridium_ore)",
+						"expression": "20"
+					},
+					{
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_arcane_crystal_ore | enderium_shard_ore | deepslate_quartz_ore | deepslate_soulstone_ore | brilliant_deepslate | valkyrum_ore | block_ore_eye | tungsten_ore | solarite_ore_deep_slate | eidolon_deep_lead_ore | deepslate_arcane_gold_ore | eidolon_deep_silver_ore | embers_deepslate_lead_ore | deepslate_arcanum_ore | embers_deepslate_silver_ore | callfromthedepth_marble_ore)",
+						"expression": "40"
+					},
+					{
+						"condition": "!silk_touch & (dalite_ore | helyst_ore | firon_ore | curelite_ore | opal_ore | cursed_opal_ore | violet_diamond_ore | deepsilver_ore | charium_ore | astarium_ore | vicerite_ore | cthonic_gold_ore)",
+						"expression": "60"
+					},
+					{
+						"condition": "!silk_touch & (xpetrified_ore | stella_arcanum)",
+						"expression": "200"
+					}
+				]
+			}
+		}
+	]
+}

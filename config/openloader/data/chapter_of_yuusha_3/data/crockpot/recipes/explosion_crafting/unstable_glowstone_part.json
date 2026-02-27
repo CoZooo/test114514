@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:unstable_glowstone_part"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:unstable_glowstone_part"
+}

@@ -1,0 +1,30 @@
+{
+	"name": "塞尔摩壬盔甲",
+	"icon": "distant_worlds:salmoran_armor_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 6,
+	"advancement": "distant_worlds:born_to_crawl",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "使用塞尔摩壬鳞片，你可以制作塞尔摩壬盔甲，它没有很高的强度和耐用性，但它的每个部分都能保护你免受塞尔摩壬的毒刺。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:salmoran_helmet_recipe",
+			"recipe2": "distant_worlds:salmoran_chestplate_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:salmoran_leggings_recipe",
+			"recipe2": "distant_worlds:salmoran_boots_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/salmorans",
+				"distant_worlds:garhenna_natural/wokamire"
+			]
+		}
+	]
+}

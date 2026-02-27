@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:forbidden_fragment"
+  },
+  "craftType": "forge",
+  "soulCost": 100,
+  "duration": 30,
+  "research": "warred",
+  "ingredients": [
+    {
+      "item": "yuusha:dice_4"
+    },
+    {
+      "item": "yuusha:dice_5"
+    },
+    {
+      "item": "yuusha:dice_1"
+    },
+    {
+      "item": "yuusha:dice_2"
+    },
+    {
+      "item": "yuusha:dice_6"
+    },
+    {
+      "item": "yuusha:dice_8"
+    }
+  ],
+  "result": {
+    "item": "goety:terminus_scroll"
+  }
+}

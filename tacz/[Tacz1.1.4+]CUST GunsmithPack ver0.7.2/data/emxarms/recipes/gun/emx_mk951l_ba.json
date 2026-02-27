@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 29
+    },
+    {
+      "item": {
+        "item": "aquamirae:ship_graveyard_echo"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:astral_dust"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "callfromthedepth_:soullight"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mk951l_ba",
+    "attachments": {
+      "scope": "emxarms:sight_emx_aw_ba"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:stick",
+      "count": 8
+    },
+    {
+      "chance": 0.01,
+      "item": "simplyswords:bramblethorn"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

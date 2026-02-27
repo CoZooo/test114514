@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BEB",
+    "CAC",
+    "BEB"
+  ],
+  "reagents": "DDDD",
+  "key": {
+    "C": {
+      "item": "moonstone:ectoplasmprism"
+    },
+    "A": {
+      "item": "moonstone:badgeofthedead"
+    },
+    "E": {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    "B": {
+      "item": "moonstone:blood_jelly"
+    },
+    "D": {
+      "item": "callfromthedepth_:soulingot"
+    }
+  },
+  "result": {
+    "item": "moonstone:undead_blood_charm"
+  }
+}

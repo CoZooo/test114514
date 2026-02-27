@@ -1,0 +1,63 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 3,
+  "emberPerHit": 25,
+  "input": {
+    "item": "goety:dark_wand"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:necro_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:wind_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:storm_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:frost_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:wild_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:nether_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:ominous_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:abyss_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:geo_staff"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:void_staff"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

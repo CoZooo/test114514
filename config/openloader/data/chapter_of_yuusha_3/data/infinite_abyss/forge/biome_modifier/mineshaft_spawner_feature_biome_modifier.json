@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "infinite_abyss:first_layer_cavern",
+    "infinite_abyss:fith_layer_cave",
+    "infinite_abyss:second_layer_cavern",
+    "infinite_abyss:fourth_layer_cavern"
+  ],
+  "features": "infinite_abyss:mineshaft_spawner_feature",
+  "step": "surface_structures"
+}

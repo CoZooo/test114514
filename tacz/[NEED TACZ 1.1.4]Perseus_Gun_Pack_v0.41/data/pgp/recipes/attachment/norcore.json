@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "infinite_abyss:flawless_charium"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:time_rift_charge"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:pale_pearl"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:norcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

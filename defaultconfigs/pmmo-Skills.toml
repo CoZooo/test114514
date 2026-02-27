@@ -1,0 +1,281 @@
+
+#========================================================================
+#
+# All skills in pmmo are defined when they are used anywhere in PMMO.
+# You do not need to define a skill here to use it. However, defining
+# a skills attributes here will give you amore rounded skill list and
+# a cleaner looking mod. Note that all the defaults here can be replaced
+# if you wish. Also note that when using custom icon sizes they must be
+# a square image(eg. 16x16, 24x24, 32x32) and they default to 18x18.
+#
+#========================================================================
+[Skills]
+
+	[Skills.Entry]
+
+		[Skills.Entry.maid]
+			maxLevel = 1000
+			icon = "touhou_little_maid:textures/item/spawn_box.png"
+			iconSize = 8
+			color = 16737945
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.fantasy]
+			maxLevel = 1000
+			icon = "youkaishomecoming:textures/item/crops/udumbara_flower.png"
+			iconSize = 16
+			color = 9492460
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.love]
+			maxLevel = 1000
+			icon = "elementalcombat:textures/icons/yuusha.png"
+			iconSize = 8
+			color = 16737945
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.ban_ench]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/structure_void.png"
+			iconSize = 16
+			color = 16711680
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.ban]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/structure_void.png"
+			iconSize = 16
+			color = 16711680
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.magic]
+			maxLevel = 1000
+			icon = "minecraft:textures/particle/enchanted_hit.png"
+			iconSize = 8
+			color = 8737441
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.slayer]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/netherite_sword.png"
+			iconSize = 16
+			color = 13748151
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.fishing]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/fishing_rod.png"
+			iconSize = 16
+			color = 52479
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.fightgroup]
+			maxLevel = 1000
+			icon = "pmmo:textures/skills/missing_icon.png"
+			iconSize = 18
+			color = 16777215
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+			[Skills.Entry.fightgroup.groupFor]
+				endurance = 0.3
+				archery = 0.2
+				combat = 0.5
+
+		[Skills.Entry.combat]
+			maxLevel = 1000
+			icon = "minecraft:textures/mob_effect/strength.png"
+			iconSize = 18
+			color = 14095173
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.alchemy]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/potion.png"
+			iconSize = 16
+			color = 15112448
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.mining]
+			maxLevel = 1000
+			icon = "minecraft:textures/mob_effect/haste.png"
+			iconSize = 18
+			color = 10593190
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.engineering]
+			maxLevel = 100
+			icon = "minecraft:textures/item/redstone.png"
+			iconSize = 16
+			color = 16777215
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.endurance]
+			maxLevel = 1000
+			icon = "minecraft:textures/mob_effect/absorption.png"
+			iconSize = 18
+			color = 11149590
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.building]
+			maxLevel = 1000
+			icon = "pmmo:textures/skills/building.png"
+			iconSize = 32
+			color = 65535
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.smithing]
+			maxLevel = 1000
+			icon = "pmmo:textures/skills/smithing.png"
+			iconSize = 32
+			color = 15679798
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.swimming]
+			maxLevel = 1000
+			icon = "minecraft:textures/mob_effect/dolphins_grace.png"
+			iconSize = 18
+			color = 3368703
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.woodcutting]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/iron_axe.png"
+			iconSize = 16
+			color = 6668948
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.gunslinging]
+			maxLevel = 1000
+			icon = "reliquary:textures/item/handgun.png"
+			iconSize = 18
+			color = 13877667
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.crafting]
+			maxLevel = 1000
+			icon = "pmmo:textures/skills/crafting.png"
+			iconSize = 32
+			color = 6901921
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.excavation]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/iron_shovel.png"
+			iconSize = 16
+			color = 11966824
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.farming]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/wheat.png"
+			iconSize = 16
+			color = 12506946
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.flying]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/elytra.png"
+			iconSize = 16
+			color = 13421823
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.cooking]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/cooked_mutton.png"
+			iconSize = 16
+			color = 16559895
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.agility]
+			maxLevel = 1000
+			icon = "minecraft:textures/mob_effect/speed.png"
+			iconSize = 18
+			color = 6736998
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.sailing]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/oak_boat.png"
+			iconSize = 16
+			color = 10073087
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.hunter]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/diamond_sword.png"
+			iconSize = 16
+			color = 13596693
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.archery]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/bow.png"
+			iconSize = 16
+			color = 16770560
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
+		[Skills.Entry.taming]
+			maxLevel = 1000
+			icon = "minecraft:textures/item/lead.png"
+			iconSize = 16
+			color = 16777215
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+

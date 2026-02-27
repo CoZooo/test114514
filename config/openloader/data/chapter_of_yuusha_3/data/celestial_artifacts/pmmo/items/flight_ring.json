@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "flying": 100 },
+    "USE": { "flying": 100 }
+	},
+  "negative_effect": 
+    {  
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

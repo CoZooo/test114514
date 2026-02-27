@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:spring_ring",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.25,
+  "ingredients": [
+    {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "eidolon:enchanted_ash"
+    },
+    {
+      "item": "moonstone:pain_ring"
+    }
+  ]
+}

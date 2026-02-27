@@ -1,0 +1,130 @@
+[
+	{
+		"mob": "entity_303:spirits",
+		"removeall": true
+	},
+	{
+		"mob": ["mutantmonsters:endersoul_clone", "goety:irk"],
+		"removeall": true
+	},
+	{
+		"mob": "mutantmonsters:mutant_enderman",
+		"remove": "celestial_artifacts:life_etching"
+	},
+	{
+		"mob": "aquamirae:captain_cornelia",
+		"remove": "minecraft:filled_map"
+	},
+	{
+		"mob": "aquamirae:captain_cornelia",
+		"remove": ["aquamirae:divider", "aquamirae:terrible_sword", "aquamirae:fin_cutter"]
+	},
+	{
+		"mob": "arkane_domains:dark_shaman",
+		"remove": ["arkane_domains:head_harvester", "arkane_domains:pestilence_bomb_0", "arkane_domains:mask_shield", "arkane_domains:voodo_doll", "arkane_domains:fragmented_totem", "arkane_domains:drum"]
+	},
+	{
+		"mob": "minecraft:enderman",
+		"remove": "locusazzurro_icaruswings:void_essence"
+	},
+	{
+		"mob": "depthcrawler:deepling",
+		"remove": "depthcrawler:aquadeepstone"
+	},
+	{
+		"mob": ["theinkarena:morphink", "theinkarena:splotch", "theinkarena:soul_tendril", "theinkarena:ink_brute", "theinkarena:soul_specter", "theinkarena:ink_worm", "theinkarena:blot_tendril", "theinkarena:ink_titan", "theinkarena:titan_splotch"],
+		"structure": "theinkarena:ink_arena_structure",
+		"item": "yuusha:ink_soul",
+		"itemcount": "1"
+	},
+	{
+		"mob": "theinkarena:blot",
+		"structure": "theinkarena:ink_arena_structure",
+		"item": ["ancient_aether:ancient_dungeon_key", "theinkarena:soul_core"],
+		"itemcount": "1"
+	},
+	{
+		"mob": "theinkarena:blot",
+		"structure": "theinkarena:ink_arena_structure",
+		"item": ["yuusha:ink_heart"],
+		"itemcount": "2"
+	},
+	{
+		"mob": "callfromthedepth_:deepspider",
+		"remove": "minecraft:string"
+	},
+	{
+		"mob": "callfromthedepth_:deepspider",
+		"item": "yuusha:ectoplasm_string",
+		"itemcount": "2"
+	},
+	{
+		"mob": "angelcraft_bosses:boos",
+		"dimension": "aether:the_aether",
+		"item": "angelcraft_bosses:recompensa_boss",
+		"itemcount": "3"
+	},
+	{
+		"mob": "entity_303:entity_303",
+		"dimension": "infinite_abyss:seventh_layer",
+		"item": "yuusha:dragon_heart",
+		"itemcount": "2"
+	},
+	{
+		"mob": "faded_conquest_2:vessel_sword",
+		"dimension": "callfromthedepth_:depth",
+		"item": "yuusha:double_soul",
+		"itemcount": "2"
+	},
+	{
+		"mob": "depthcrawler:jabberwock",
+		"dimension": "infinite_abyss:seventh_layer",
+		"item": "yuusha:white_star",
+		"itemcount": "1"
+	},
+	{
+		"mob": "depthcrawler:deepboss",
+		"dimension": "infinite_abyss:seventh_layer",
+		"item": "yuusha:iridescent_shadow_gem",
+		"itemcount": "1"
+	},
+	{
+		"mob": "depthcrawler:ancientdeep",
+		"dimension": "infinite_abyss:seventh_layer",
+		"item": "depthcrawler:ancientinjector",
+		"itemcount": "1"
+	},
+	{
+		"mob": "aether:sun_spirit",
+		"dimension": "minecraft:overworld",
+		"item": "avaritia:infinity_ingot",
+		"itemcount": "1"
+	},
+	{
+		"mob": ["depthcrawler:jabberwock", "depthcrawler:deepboss", "depthcrawler:ancientdeep"],
+		"player": true,
+		"helditem": "slashblade:slashblade",
+		"item": "ak:dragon_cross"
+	},
+	{
+		"mob": ["minecraft:zombie"],
+		"structure": "betterdungeons:zombie_dungeon",
+		"item": "locusazzurro_icaruswings:steel_ingot",
+		"itemcount": "1",
+		"random": 0.01
+	},
+	{
+		"mob": ["minecraft:spider"],
+		"structure": "betterdungeons:spider_dungeon",
+		"item": "locusazzurro_icaruswings:steel_ingot",
+		"itemcount": "1",
+		"random": 0.01
+	},
+	{
+		"mob": ["minecraft:skeleton"],
+		"structure": "betterdungeons:skeleton_dungeon",
+		"item": "locusazzurro_icaruswings:steel_ingot",
+		"itemcount": "1",
+		"random": 0.01
+	}
+]

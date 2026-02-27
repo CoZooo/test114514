@@ -1,0 +1,26 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "apotheosis:uncommon_material"
+    },
+    {
+      "item": "apotheosis:rare_material"
+    },
+    {
+      "item": "yuusha:ancient_aether_shard"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:mythic_material"
+    }
+  ],
+  "output": {
+    "item": "apotheosis:ancient_material",
+    "count": 16
+  },
+  "temperature": 2500,
+  "temperature_rate": 15.0
+}

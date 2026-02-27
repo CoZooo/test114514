@@ -1,0 +1,39 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 25
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "embers:archaic_circuit"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "applied_armorer:moritz_shotgun_sg914"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputFluid": {
+    "fluid": "aetherworks:aether_gas",
+    "amount": 1000
+  },
+  "steam": 100,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "aetherworks:aether_gas_impure",
+      "amount" : 500
+    },
+    {
+      "name": "aetherworks:alchemic_precursor",
+      "amount" : 500
+    }
+  ]
+}

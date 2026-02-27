@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 26
+    },
+    {
+      "item": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "goety_revelation:spider_fang"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_expel32_lb"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

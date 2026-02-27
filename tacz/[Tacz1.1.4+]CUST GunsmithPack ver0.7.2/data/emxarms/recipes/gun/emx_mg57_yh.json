@@ -1,0 +1,44 @@
+{
+ "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "item": "minecraft:pink_petals"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "bhc:blue_heart"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "embers:focal_lens"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mg57_yh",
+    "attachments": {
+      "scope": "emxarms:sight_emx_return_yh",
+      "extended_mag": "emxarms:emx_heavyweight_mag_3",
+      "grip": "emxarms:grip_emx_synchronized0_yh"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

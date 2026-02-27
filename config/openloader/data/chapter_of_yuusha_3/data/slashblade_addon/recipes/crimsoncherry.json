@@ -1,0 +1,30 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:crimsoncherry",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "immortalers_delight:kwat_wheat_block"
+    },
+    "E": {
+      "item": "celestial_core:sakura_steel"
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "refine": 2
+      }
+    }
+  },
+  "pattern": [
+    "DED",
+    "EBE",
+    "DED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

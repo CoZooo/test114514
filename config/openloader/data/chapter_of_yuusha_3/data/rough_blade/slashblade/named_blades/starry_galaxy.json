@@ -1,0 +1,42 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    }
+  ],
+  "name": "rough_blade:starry_galaxy",
+  "properties": {
+    "attack_base": 52.0,
+    "max_damage": 520,
+    "slash_art": "rough_blade:star_track_attack",
+
+    "special_effects": [
+      "rough_blade:starry_sky",
+      "rough_blade:the_star_power",
+      "rough_blade:the_weak_power",
+      "rough_blade:refine_up"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "rough_blade:models/the_flare_star.obj",
+    "summon_sword_color": 1644912,
+    "texture": "rough_blade:textures/model/the_flare_star.png"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "celestial_core:sakura_pickaxe"
+    }
+  ],
+  "result": [
+    {
+      "item": "avaritia:infinity_pickaxe",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "item": "goety_revelation:dimensional_will"
+  }
+}

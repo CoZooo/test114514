@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.stock_eos_tactical.name",
+  "display": "eos:stock_eos_tactical_display",
+  "data": "eos:stock_eos_tactical_data",
+  "type": "stock",
+  "sort": 256
+}

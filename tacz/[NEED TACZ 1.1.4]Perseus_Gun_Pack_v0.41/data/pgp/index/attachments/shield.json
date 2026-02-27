@@ -1,0 +1,6 @@
+{
+  "name": "pgp.attachment.shield.name",
+  "display": "pgp:shield_display",
+  "data": "pgp:shield_data",
+  "type": "grip"
+}

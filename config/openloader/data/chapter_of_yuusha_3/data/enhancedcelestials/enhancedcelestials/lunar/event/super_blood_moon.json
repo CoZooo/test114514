@@ -1,0 +1,111 @@
+{
+  "client_settings": {
+    "color_settings": {
+      "moon_texture_color": "ff0000",
+      "sky_light_color": "ff0000"
+    },
+    "moon_size": 120.0,
+    "moon_texture_location": "minecraft:textures/environment/moon_phases.png",
+    "sound_track": {
+      "sound_id": "enhancedcelestials:blood_moon"
+    }
+  },
+  "dimension_chances": {
+    "minecraft:overworld": {
+      "chance": 0,
+      "min_number_of_nights_between": 30,
+      "valid_moon_phases": [
+        0
+      ]
+    }
+  },
+  "drops": {
+    "drop_enhancer": {}
+  },
+  "mob_settings": {
+    "blocks_sleeping": {
+      "type": "corgilib:any"
+    },
+    "lunar_spawn_settings": {
+      "force_surface_spawning": true,
+      "mob_spawn_settings": {
+        "spawn_costs": {},
+        "spawners": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [
+			{
+			   "type": "hmag:crimson_slaughterer",
+          		   "weight": 10,
+          		   "minCount": 1,
+				   "maxCount": 2
+			},
+			{
+			   "type": "starvingskeleton:starving_skeleton",
+          		   "weight": 15,
+          		   "minCount": 1,
+	 		       "maxCount": 1
+			},
+			{
+			   "type": "sleep_killer:sleep_killer",
+          		   "weight": 50,
+          		   "minCount": 1,
+	 		       "maxCount": 2
+			},
+			{
+			   "type": "eyesinthedark:eyes_in_the_dark",
+          		   "weight": 50,
+          		   "minCount": 1,
+	 		       "maxCount": 2
+			},
+			{
+			   "type": "hardtodestroyreptile:the_hard_to_destroy_reptile",
+          		   "weight": 80,
+          		   "minCount": 1,
+	 		       "maxCount": 2
+			},
+			{
+			   "type": "theplaguedoctor:plague_doctor",
+          		   "weight": 50,
+          		   "minCount": 1,
+	 		       "maxCount": 2
+			}
+		  ],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        }
+      },
+      "slimes_spawn_everywhere": false,
+      "use_biome_spawn_settings": false
+    },
+    "mob_effects": [],
+    "spawn_category_multiplier": {}
+  },
+  "text_components": {
+    "end_notification": {
+      "type": "CHAT",
+      "component": {
+        "key": "enhancedcelestials.notification.blood_moon.set"
+      }
+    },
+    "name": {
+      "key": "enhancedcelestials.name.super_blood_moon",
+      "style": {
+        "color": "ff5555"
+      }
+    },
+    "start_notification": {
+      "type": "CHAT",
+      "component": {
+        "key": "enhancedcelestials.notification.super_blood_moon.rise",
+        "style": {
+          "bold": true,
+          "color": "ff5555"
+        }
+      }
+    }
+  }
+}

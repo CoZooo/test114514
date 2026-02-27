@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:rock_crystal",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.25,
+  "ingredients": [
+    {
+      "item": "call_of_yucutan:hematite"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:obsidian_ingot"
+    },
+    {
+      "item": "call_of_yucutan:hematite"
+    },
+    {
+      "item": "simplyswords:empowered_remnant"
+    }
+  ]
+}

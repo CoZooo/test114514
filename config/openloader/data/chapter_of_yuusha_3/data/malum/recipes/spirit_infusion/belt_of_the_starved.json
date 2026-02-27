@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 4,
+      "item": "wizards_reborn:sarcon_ingot"
+    },
+    {
+      "count": 2,
+      "item": "meetyourfight:phantoplasm"
+    },
+    {
+      "count": 1,
+      "item": "crockpot:gnaws_coin"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_ring"
+  },
+  "output": {
+    "item": "malum:belt_of_the_starved"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 32
+    },
+    {
+      "type": "sacred",
+      "count": 32
+    }
+  ]
+}

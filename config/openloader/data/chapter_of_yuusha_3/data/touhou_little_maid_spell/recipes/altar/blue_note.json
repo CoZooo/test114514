@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:blue_note",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.25,
+  "ingredients": [
+    {
+      "item": "eidolon:enchanted_ash"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "distant_worlds:ancient_garhenna_papers"
+    },
+    {
+      "item": "distant_worlds:ancient_garhenna_papers"
+    },
+    {
+      "item": "irons_spellbooks:common_ink"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_feather"
+    }
+  ]
+}

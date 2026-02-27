@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:time_rift_charge"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "hmag:fortune_crystal_plus"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "reliquary:mercy_cross"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:clover_cross"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

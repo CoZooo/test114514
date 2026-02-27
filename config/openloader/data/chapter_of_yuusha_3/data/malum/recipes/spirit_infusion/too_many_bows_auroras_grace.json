@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "rustic_engineer:solarite_ingot"
+    },
+    {
+      "count": 1,
+      "item": "mowziesmobs:grant_suns_blessing"
+    },
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:golden_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:auroras_grace"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    }
+  ]
+}

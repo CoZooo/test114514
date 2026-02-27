@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 34
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:time_rift_charge"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "embers:winding_gears"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "eos:alloy"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:chasing_light"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

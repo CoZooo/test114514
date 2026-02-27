@@ -1,0 +1,16 @@
+{
+  "description": {
+    "hephaestus_forge": {
+      "translate": "item.forbidden_arcanus.enhancer.artisan_relic.hephaestus_forge"
+    }
+  },
+  "effects": [
+    {
+      "type": "forbidden_arcanus:multiply_required_essence",
+      "conditions": [],
+      "essence_type": "experience",
+      "multiplier": 0.75
+    }
+  ],
+  "item": "forbidden_arcanus:artisan_relic"
+}

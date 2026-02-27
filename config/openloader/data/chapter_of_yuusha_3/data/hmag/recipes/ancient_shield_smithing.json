@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cataclysm:witherite_block"
+  },
+  "base": {
+    "item": "hmag:fortress_shield"
+  },
+  "result": {
+    "item": "hmag:ancient_shield"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

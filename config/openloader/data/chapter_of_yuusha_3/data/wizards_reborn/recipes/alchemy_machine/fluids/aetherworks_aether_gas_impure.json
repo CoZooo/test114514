@@ -1,0 +1,28 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputFluid": {
+    "fluid": "aetherworks:aether_gas_impure",
+    "amount": 500
+  },
+  "steam": 500,
+  "ingredients": [
+    {
+      "item": "aetherworks:block_shards_raw"
+    },
+    {
+      "item": "aetherworks:block_shards_raw"
+    },
+    {
+      "item": "aetherworks:block_shards_raw"
+    },
+    {
+      "item": "aetherworks:block_shards_raw"
+    },
+    {
+      "item": "aetherworks:block_shards_raw"
+    },
+    {
+      "item": "aetherworks:block_shards_raw"
+    }
+  ]
+}

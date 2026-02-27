@@ -1,0 +1,19 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "luminous_halloween:horseless_headsman",
+            "count": 1,
+            "offset": { "x": 0, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "luminous_halloween:moon_shard" }, "count": 1 },
+        { "ingredient": { "item": "bhc:soul_heart_crystal" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

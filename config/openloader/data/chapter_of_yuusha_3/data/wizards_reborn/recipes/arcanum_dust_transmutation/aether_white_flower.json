@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "minecraft:white_tulip"
+  },
+  "to": {
+    "item": "aether:white_flower"
+  }
+}

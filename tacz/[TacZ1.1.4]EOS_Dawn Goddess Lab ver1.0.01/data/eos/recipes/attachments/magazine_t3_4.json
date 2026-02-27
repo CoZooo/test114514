@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:aam_lv3"
+        }
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:magazine_t3_4"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

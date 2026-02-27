@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "wizards_reborn:arcacite_polishing_mixture"
+  },
+  "wissen": 1000,
+  "steam": 350,
+  "ingredients": [
+    {
+      "item": "wizards_reborn:arcacite"
+    },
+    {
+      "item": "wizards_reborn:arcacite"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "wizards_reborn:alchemy_calx"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "wizards_reborn:alchemy_oil",
+      "amount" : 2000
+    }
+  ]
+}

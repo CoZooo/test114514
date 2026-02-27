@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "aether:zanite_block"
+  },
+  "result": {
+    "item": "aether:zanite_leggings"
+  },
+  "template": {
+    "item": "cataclysm:essence_of_the_storm"
+  }
+}

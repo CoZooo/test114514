@@ -1,0 +1,8 @@
+{
+  "type": "goety:cursed_infuser_recipes",
+  "ingredient": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": "born_in_chaos_v1:dark_rod",
+  "cookingTime": 60
+}

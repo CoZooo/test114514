@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "wizards_reborn:arcane_gold_sword"
+  },
+  "addition": {
+    "item": "malum:cthonic_gold"
+  },
+  "result": {
+    "item": "forbidden_arcanus:reinforced_deorum_sword"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "love": 100 },
+    "USE": { "love": 100 }
+  },
+  "negative_effect": 
+    {  
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

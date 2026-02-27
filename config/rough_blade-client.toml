@@ -1,0 +1,16 @@
+
+[UI]
+
+	[UI.PowerBar]
+		#By default (Contextual), the mana bar only appears when you are holding a magic item or are not at max mana.
+		#Allowed Values: Never, Always, Contextual
+		PowerBarDisplay = "Contextual"
+		#Used to adjust mana bar's position (11 is one full hunger bar up).
+		PowerBarXOffset = 0
+		PowerBarYOffset = 0
+		PowerBarTextVisible = true
+		#Allowed Values: Hunger, XP, Center, TopLeft, TopRight, BottomLeft, BottomRight
+		PowerBarAnchor = "Hunger"
+		manaTextXOffset = 78
+		manaTextYOffset = -4
+

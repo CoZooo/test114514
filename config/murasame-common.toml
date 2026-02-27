@@ -1,0 +1,20 @@
+
+[general]
+	#拔刀需求亡灵击杀数|0~99999
+	#Range: 0 ~ 99999
+	killNeeded = 500
+	#拔刀所需经验等级|0~500
+	#Range: 0 ~ 500
+	levelNeeded = 50
+	#拔刀所需正面效果数|0~24
+	#Range: 0 ~ 24
+	effectsNeeded = 5
+	#拔刀时是否清除对应等级经验
+	gainCleanLevel = true
+	#进化所需击杀数|0~99999
+	#Range: 0 ~ 99999
+	evKillNeeded = 1000
+	#进化所需耀魂数|0~99999
+	#Range: 0 ~ 99999
+	evPSNeeded = 50000
+

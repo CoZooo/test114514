@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:flow_core",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.3,
+  "ingredients": [
+    {
+      "item": "yuusha:destructed_dimension_will"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:magma_ingot"
+    },
+    {
+      "item": "yuusha:destructed_dimension_will"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    }
+  ]
+}

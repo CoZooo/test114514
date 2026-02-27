@@ -1,0 +1,23 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "enchantment": {
+    "enchantment": "minecraft:binding_curse"
+  },
+  "wissen": 1000,
+  "experience": 10,
+  "health": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "obscure_api:astral_dust"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ]
+}

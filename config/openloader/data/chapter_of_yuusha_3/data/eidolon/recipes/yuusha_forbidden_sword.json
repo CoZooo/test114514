@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " D ",
+    "DAD",
+    " D "
+  ],
+  "reagents": "BECE",
+  "key": {
+    "A": {
+      "item": "yuusha:emper_core"
+    },
+    "B": {
+      "item": "yuusha:yuusha_medal"
+    },
+    "C": {
+      "item": "enigmaticlegacy:forbidden_fruit"
+    },
+    "D": {
+      "item": "bhc:soul_heart_canister"
+    },
+    "E": {
+      "item": "yuusha:dragon_heart"
+    }
+  },
+  "result": {
+    "item": "yuusha:forbidden_sword"
+  }
+}

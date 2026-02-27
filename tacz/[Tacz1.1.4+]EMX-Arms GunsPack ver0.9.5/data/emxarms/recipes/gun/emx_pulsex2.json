@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "embers:archaic_circuit"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "call_of_drowner:seagold_ingot"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "moonstone:battery"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_pulsex2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

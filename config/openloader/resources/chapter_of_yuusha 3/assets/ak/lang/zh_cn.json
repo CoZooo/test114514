@@ -1,0 +1,11 @@
+{
+  "item.ak.dragon_cross": "枯竭龙骨",
+
+  "message.ak.talent.b": "告「凡品灵根」修仙者，遵循主神的命令，接引至此番世界！",
+  "message.ak.talent.a": "告「地品灵根」修仙者，遵循主神的命令，接引至此番世界！",
+  "message.ak.talent.s": "告「天品灵根」修仙者，遵循主神的命令，接引至此番世界！",
+  "message.ak.talent.up_A": "你的灵根已晋升至A!",
+  "message.ak.talent.up_S": "你的灵根已晋升至S!",
+  "message.ak.talent.up_S+": "你的灵根已晋升至S+!",
+  "gui.ak.blood": "灵根: %s"
+}

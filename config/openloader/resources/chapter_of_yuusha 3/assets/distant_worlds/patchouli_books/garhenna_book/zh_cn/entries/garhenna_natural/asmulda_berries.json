@@ -1,0 +1,31 @@
+{
+	"name": "阿苏木达浆果",
+	"icon": "distant_worlds:asmulda_berries",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 1,
+	"advancement": "distant_worlds:bright_clusters",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:asmulda_berries",
+			"link_recipe": "true",
+			"text": "阿苏木达是一种酸浆果，生长在燃烧平原生物群系的小灌木丛中。这种浆果几乎没有愈合和营养特性，但可以用来制作美味的食物，如阿苏木达派。阿苏木达药剂可以用来减少损耗和暂时保护在迦赫纳维度。$(br)你可以在死草方块上种植阿苏木达浆果，并用骨粉加速它们的生长。此外，阿苏木达浆果可以被妥善储存在小箱子里。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:asmulda_pie_recipe",
+			"recipe2": "distant_worlds:asmulda_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:asmulda_berries_box_recipe",
+			"recipe2": "distant_worlds:asmulda_berries_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

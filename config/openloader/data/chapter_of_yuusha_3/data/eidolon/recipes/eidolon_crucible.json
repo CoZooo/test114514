@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "A A",
+    "A A",
+    "AAA"
+  ],
+  "reagents": "BBBB",
+  "key": {
+    "A": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "B": {
+      "item": "sons_of_sins:crystallized_ether"
+    }
+  },
+  "result": {
+    "item": "eidolon:crucible"
+  }
+}

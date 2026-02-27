@@ -1,0 +1,17 @@
+{
+	"content": {
+	
+		"ember_heart": {
+            "type": "item",
+            "content": "reliquary:angelheart_vial",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000,
+            "weightMult": 0.2
+        }
+
+	}
+
+}

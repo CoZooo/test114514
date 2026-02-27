@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "avaritia:crystal_matrix_ingot"
+  },
+  "base": {
+    "item": "nameless_trinkets:cracked_crown"
+  },
+  "result": {
+    "item": "nameless_trinkets:gods_crown"
+  },
+  "template": {
+    "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MHM",
+    "IXF",
+    "RBR"
+  ],
+  "key": {
+    "X": {
+      "item": "enigmaticlegacy:darkest_scroll"
+    },
+	"M": {
+      "item": "celestial_artifacts:truth_etching"
+    },
+	"B": {
+      "item": "wizards_reborn:shiny_clover"
+    },
+	"H": {
+      "item": "enigmaticlegacy:earth_heart"
+    },
+	"F": {
+      "tag": "locusazzurro_icaruswings:colored_feathers"
+    },
+	"I": {
+      "item": "irons_spellbooks:uncommon_ink"
+    },
+	"R": {
+      "item": "eidolon:arcane_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "goety_revelation:blessing_scroll"
+  }
+}

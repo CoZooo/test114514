@@ -1,0 +1,71 @@
+{
+  "modifier.celestial_forge.healthy": "§e生息",
+  "modifier.celestial_forge.lucky": "§e强运",
+  "modifier.celestial_forge.magic_breath": "§e魔息",
+  "modifier.celestial_forge.mystery": "§e奥秘",
+  "modifier.celestial_forge.arcane": "§e神秘",
+  "modifier.celestial_forge.spring": "§e源泉",
+  "modifier.celestial_forge.magic_sad": "§e魔殇",
+  
+  "modifier.celestial_forge.legendary": "§e传奇",
+  "modifier.celestial_forge.vicious": "§e恶毒",
+  "modifier.celestial_forge.sharp": "§e锋利",
+  "modifier.celestial_forge.light": "§e轻盈",
+
+  "modifier.celestial_forge.heavy": "§e沉重",
+  "modifier.celestial_forge.sluggish": "§e迟钝",
+  "modifier.celestial_forge.broken": "§e碎裂",
+  "modifier.celestial_forge.horrible": "§e可怕",
+
+
+  "modifier.celestial_forge.divine": "§e神圣",
+  "modifier.celestial_forge.agile": "§e灵活",
+  "modifier.celestial_forge.normal": "§e正常",
+  "modifier.celestial_forge.damaged": "§e破损",
+  "modifier.celestial_forge.wicked": "§e邪恶",
+  "modifier.celestial_forge.wall": "§e绝对",
+
+
+  "modifier.celestial_forge.illusory": "§e虚幻",
+  "modifier.celestial_forge.deadly": "§e致命",
+  "modifier.celestial_forge.strong": "§e强大",
+  "modifier.celestial_forge.swift": "§e敏捷",
+
+  "modifier.celestial_forge.slow": "§e缓慢",
+  "modifier.celestial_forge.weak": "§e无力",
+
+
+  "modifier.celestial_forge.half_hearted": "§e生机",
+  "modifier.celestial_forge.hearty": "§e充沛",
+
+  "modifier.celestial_forge.hard": "§e坚硬",
+  "modifier.celestial_forge.armored": "§e装甲",
+
+  "modifier.celestial_forge.jagged": "§e锯齿",
+  "modifier.celestial_forge.spiked": "§e尖刺",
+
+  "modifier.celestial_forge.brisk": "§e轻快",
+  "modifier.celestial_forge.hasty": "§e急速",
+
+  "modifier.celestial_forge.wild": "§e狂野",
+  "modifier.celestial_forge.intrepid": "§e勇猛",
+
+  "modifier.celestial_forge.precise": "§e精准",
+  "modifier.celestial_forge.eagle": "§e鹰眼",
+
+
+  "modifier.celestial_forge.guarding": "§e守护",
+  "modifier.celestial_forge.warding": "§e护佑",
+
+  "modifier.celestial_forge.angry": "§e愤怒",
+  "modifier.celestial_forge.menacing": "§e险恶",
+
+  "modifier.celestial_forge.fleeting": "§e快速",
+  "modifier.celestial_forge.quick": "§e迅捷",
+  
+  "modifier.celestial_forge.rash": "§e鲁莽",
+  "modifier.celestial_forge.violent": "§e暴力",
+  
+  
+  "attribute.name.player.ranged_damage": "§e非枪械的远程伤害"
+}

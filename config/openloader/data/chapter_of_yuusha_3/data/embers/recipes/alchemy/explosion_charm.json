@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:archaic_brick"
+    },
+    {
+      "item": "embers:archaic_brick"
+    },
+    {
+      "tag": "forge:leather"
+    },
+    {
+      "item": "embers:archaic_brick"
+    }
+  ],
+  "output": {
+    "item": "embers:explosion_charm"
+  },
+  "tablet": {
+    "item": "embers:ember_crystal_cluster"
+  }
+}

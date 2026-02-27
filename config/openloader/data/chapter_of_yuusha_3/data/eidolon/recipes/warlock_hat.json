@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " w ",
+    "bwb",
+    "w w"
+  ],
+  "reagents": "caca",
+  "key": {
+    "w": {
+      "item": "eidolon:wicked_weave"
+    },
+    "a": {
+      "item": "wizards_reborn:petals_of_innocence"
+    },
+    "b": {
+      "item": "arcalis_bosses:cursed_cloth_shard"
+    },
+    "c": {
+      "item": "enigmaticlegacy:soul_dust"
+    }
+  },
+  "result": {
+    "item": "eidolon:warlock_hat"
+  }
+}

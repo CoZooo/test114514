@@ -1,0 +1,14 @@
+{
+  "type": "bhc:amulet_shapeless",
+  "ingredients": [
+    {
+      "item": "yuusha:purple_heart"
+    },
+    {
+      "item": "bhc:heart_amulet"
+    }
+  ],
+  "result": {
+    "item": "bhc:soul_heart_amulet"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "model": "eos:gun/eos_ar68_t2_geo",
+  "texture": "eos:gun/uv/eos_ar68_t2",
+  "lod": {
+    "model": "eos:gun/lod/eos_ar68_t2",
+    "texture": "eos:gun/lod/eos_ar68_t2"
+  },
+  "hud": "eos:gun/hud/eos_ar68_t2",
+  "slot": "eos:gun/slot/eos_ar68_t2",
+  "animation": "eos:eos_ar68_t2",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1.125
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "eos:eos_ar/eos_ar_shoot3",
+    "shoot_3p": "eos:eos_ar/eos_ar_shoot3",
+    "silence": "tacz:scar_h/scar_h_silence",
+    "silence_3p": "tacz:scar_h/scar_h_silence_3p",
+    "dry_fire": "tacz:dry_fire",
+    "fire_select": "tacz:fire_select",
+    "head_hit": "tacz:head_hit",
+    "flesh_hit": "tacz:flesh_hit",
+    "kill": "tacz:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  // 枪械模型上的文本显示
+  "text_show": {
+	    "ammo_count_text_show_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.2,
+      // 对齐方式：right，center，left
+      "align": "right",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#ffe980",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [0, 19, 4],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [0, 19, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

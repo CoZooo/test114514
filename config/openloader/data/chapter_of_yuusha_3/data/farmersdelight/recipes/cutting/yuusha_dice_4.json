@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "yuusha:dice_4"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.4,
+      "item": "goety:rotting_focus"
+    },
+    {
+      "chance": 0.4,
+      "item": "goety:osseous_focus"
+    },
+    {
+      "chance": 0.15,
+      "item": "goety:reaping_focus"
+    },
+    {
+      "chance": 0.05,
+      "item": "goety_iron:necromancer_focus"
+    }
+  ],
+  "tool": {
+    "item": "yuusha:remembered_scroll"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:frosty_cherry",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "proud_soul": 2000
+      }
+    },
+    "D": {
+      "item": "minecraft:blue_dye"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "P": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "pattern": [
+    " ID",
+    "SP ",
+    "BQ "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

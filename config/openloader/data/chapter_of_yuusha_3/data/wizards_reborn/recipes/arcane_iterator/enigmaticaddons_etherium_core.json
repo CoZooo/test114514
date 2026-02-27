@@ -1,0 +1,49 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "enigmaticaddons:etherium_core",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "yuusha:madoka_law_shard"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_helmet"
+    },
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_chestplate"
+    },
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_leggings"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_boots"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "cialloblade:ciallo",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 40000,
+        "name": "slashblade_addon:kirisaya",
+        "refine": 4
+      }
+    },
+    "C": {
+      "item": "celestial_core:midnight_fragment"
+    },
+    "D": {
+      "item": "celestial_core:light_fragment"
+    },
+    "H": {
+      "item": "goety_revelation:quietus_star"
+    },
+    "K": {
+      "item": "eidolon:merammer_root"
+    },
+    "L": {
+      "item": "celestial_core:heart_fragment"
+    }
+  },
+  "pattern": [
+    "CHD",
+    "LEL",
+    "DKC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

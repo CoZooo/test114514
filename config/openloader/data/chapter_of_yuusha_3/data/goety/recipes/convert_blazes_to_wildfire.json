@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_tamed",
+  "activation_item": {
+    "item": "locusazzurro_icaruswings:greek_fire_bucket"
+  },
+  "craftType": "adept_nether",
+  "entity_to_convert": {
+    "tag": "goety:blazes",
+    "display_name": "entity.goety.blaze_servant"
+  },
+  "entity_to_convert_into": "goety:wildfire",
+  "soulCost": 200,
+  "duration": 10,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "item": "faded_conquest_2:keyof_pestilence"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "goety:magic_emerald"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

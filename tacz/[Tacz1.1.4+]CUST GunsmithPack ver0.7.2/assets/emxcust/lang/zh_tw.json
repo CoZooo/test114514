@@ -1,0 +1,14 @@
+{
+  "pack.tacz.emx_cust.name": "§6民间枪匠涂装工坊",
+  "pack.tacz.emx_cust.desc": "没有个性就没有生活",
+  
+  "emxcust.ammo.emx_cus_tool.name": "§6“超级枪匠-2.0” 改装工具包",
+  "emxcust.ammo.emx_cus_tool.tooltip": "§e【合成材料/非弹药】\n§7民间手艺人的枪械改装套件包，又名Toolbox 2.0\n有了它，就好比枪械就有的品如之家，无论任何枪械\n是想上炫酷的放射性发光涂装，还是单发逆袭全自动\n枪匠都能帮你搞定，不过...在法律上可能有些小麻烦",
+  
+  "trisdyna.gun.tris_sf7e_wa.name": "§6Ares SF7E “白战神”",
+  "trisdyna.gun.tris_sf7e_wa.desc": "§6【民间私改】§eSF7E-白战神\n§7以光之速，破空而至。\n§8§o“战神-离子光”星际战斗机原配色",
+  
+  "emxcust.block.emxcust_table":"§6“探险者改枪王”工作台",
+  "emxcust.emx_cust.desc": "§7北协民间手艺人的舞台。他们声称这是在“搞\n艺术”，包括但不限于公开直播非法改枪、开\n发者泡核废料、纸箱装龙球等街头狠活。"
+  
+}

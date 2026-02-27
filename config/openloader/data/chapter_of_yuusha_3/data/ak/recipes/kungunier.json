@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:kungunier",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "ak:dragon_cross"
+    },
+    "B": {
+      "item": "slashblade:proudsoul"
+    },
+    "C": {
+      "item": "ak:worldtree"
+    }
+  },
+  "pattern": [
+    " BC",
+    "BAB",
+    "CB "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

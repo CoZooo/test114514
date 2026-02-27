@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "forbidden_arcanus:draco_arcanus_helmet"
+  },
+  "addition": {
+    "item": "enigmaticaddons:pure_heart"
+  },
+  "result": {
+    "item": "forbidden_arcanus:tyr_helmet"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

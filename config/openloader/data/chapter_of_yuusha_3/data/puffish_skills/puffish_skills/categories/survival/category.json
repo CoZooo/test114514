@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "生存",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "cataclysm:void_forge"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/adventure.png"
+}

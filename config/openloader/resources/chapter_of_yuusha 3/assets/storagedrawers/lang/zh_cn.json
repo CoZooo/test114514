@@ -1,0 +1,67 @@
+{
+    "block.storagedrawers.type.full_drawers_1": "%s 抽屉 1x1",
+    "block.storagedrawers.type.full_drawers_2": "%s 抽屉 1x2",
+    "block.storagedrawers.type.full_drawers_4": "%s 抽屉 2x2",
+    "block.storagedrawers.type.half_drawers_1": "%s 小型抽屉 1x1",
+    "block.storagedrawers.type.half_drawers_2": "%s 小型抽屉 1x2",
+    "block.storagedrawers.type.half_drawers_4": "%s 小型抽屉 2x2",
+    "block.storagedrawers.type.trim": "%s 桥接方块",
+
+    "block.storagedrawers.mat.oak": "橡木",
+    "block.storagedrawers.mat.spruce": "云杉木",
+    "block.storagedrawers.mat.birch": "白桦木",
+    "block.storagedrawers.mat.jungle": "丛林木",
+    "block.storagedrawers.mat.acacia": "金合欢木",
+    "block.storagedrawers.mat.dark_oak": "深色橡木",
+    "block.storagedrawers.mat.mangrove": "红树木",
+    "block.storagedrawers.mat.cherry": "樱花木",
+    "block.storagedrawers.mat.bamboo": "竹质",
+    "block.storagedrawers.mat.crimson": "绯红木",
+    "block.storagedrawers.mat.warped": "诡异木",
+
+    "block.storagedrawers.compacting_drawers_3": "压缩抽屉",
+    "block.storagedrawers.controller": "抽屉控制器",
+    "block.storagedrawers.controller_slave": "抽屉控制器传动方块",
+    "block.storagedrawers.keybutton_drawer": "抽屉钥匙按钮",
+    "block.storagedrawers.keybutton_quantify": "数量钥匙按钮",
+    "block.storagedrawers.keybutton_concealment": "隐蔽钥匙按钮",
+    "block.storagedrawers.keybutton_personal": "私人钥匙按钮",
+
+    "config.jade.plugin_storagedrawers.main": "存储抽屉",
+    "config.jade.plugin_storagedrawers.display.content": "栏位内容",
+    "config.jade.plugin_storagedrawers.display.stacklimit": "堆叠上限",
+    "config.jade.plugin_storagedrawers.display.status": "升级状态",
+
+    "container.storagedrawers.upgrades": "升级",
+
+    "item.storagedrawers.balance_fill_upgrade": "均衡填充升级",
+    "item.storagedrawers.balance_fill_upgrade.desc": "平均分配物品到每个栏位",
+
+    "item.storagedrawers.keyring": "钥匙圈",
+    "item.storagedrawers.keyring.desc": "存储钥匙 \n 在物品栏内增减钥匙 \n 潜行右击来循环钥匙",
+    "item.storagedrawers.drawer_puller": "抽屉取出器",
+    "item.storagedrawers.drawer_puller.desc": "取出一个抽屉\n 独立抽屉会保存内容物",
+    "item.storagedrawers.detached_drawer": "独立抽屉",
+    "item.storagedrawers.detached_drawer.desc": "放入抽屉内丢失空间",
+
+    
+	
+
+    
+
+    "message.storagedrawers.cannot_add_upgrade": "该升级不能安装在此抽屉",
+    "message.storagedrawers.max_upgrades": "这个抽屉不能接受更多的升级",
+    "message.storagedrawers.missing_slots_upgrade": "抽屉被移除时升级不会改变",
+
+    "tooltip.storagedrawers.drawers.capacity": "每个抽屉持有 %d 组",
+    "tooltip.storagedrawers.drawers.sealed": "密封内容",
+    "tooltip.storagedrawers.drawers.too_heavy": "太重了！",
+    "tooltip.storagedrawers.waila.empty": "<空的>",
+    "tooltip.storagedrawers.waila.drawer": "#%s: %s",
+    "tooltip.storagedrawers.waila.nolimit": "堆叠上限: ∞",
+    "tooltip.storagedrawers.waila.limit": "堆叠上限: %s (x%s)",
+    "tooltip.storagedrawers.waila.locked": "上锁",
+    "tooltip.storagedrawers.waila.void": "虚空",
+    "tooltip.storagedrawers.waila.protected": "保护",
+    "tooltip.storagedrawers.waila.balanced": "平衡"
+}

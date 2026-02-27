@@ -1,0 +1,103 @@
+{
+  "ammo": "applied_armorer:fluix_battery",
+  "ammo_amount": 15,
+  "extended_mag_ammo_amount": [
+    18,
+    22,
+    25
+  ],
+  "bolt": "closed_bolt",
+  "rpm": 500,
+  "bullet": {
+    "life": 1,
+    "bullet_amount": 4,
+    "damage": 620,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.5,
+      "head_shot_multiplier": 1.5,
+      "damage_adjust": [
+        {"distance": 10, "damage": 620},
+        {"distance": 20, "damage": 492},
+        {"distance": 30, "damage": 369},
+        {"distance": "infinite", "damage": 246}
+      ]
+    },
+    "speed": 320,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "ignite_entity_time": 6,
+    "pierce": 1
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.35,
+      "tactical": 0.75
+    },
+    "cooldown": {
+      "empty": 1.96,
+      "tactical": 0.45
+    }
+  },
+  "draw_time": 0.79,
+  "put_away_time": 0.58,
+  "aim_time": 0.25,
+  "sprint_time": 0.2,
+  "weight": 23.3,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.1,
+    "reload": -0.1
+  },
+  "crawl_recoil_multiplier": 0.9,
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [4.35, 4.35]},
+      {"time": 0.2, "value": [4.35, 4.35]},
+      {"time": 0.35, "value": [-1.1, -1.1]},
+      {"time": 0.5, "value": [0.02, 0.02]},
+      {"time": 0.8, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.8, 0.8]},
+      {"time": 0.25, "value": [-0.2, 0.2]},
+      {"time": 0.4, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 11,
+    "move": 16,
+    "sneak": 8,
+    "lie": 6,
+    "aim": 4
+  },
+  "melee": {
+    "distance": 1,
+    "cooldown": 1.0,
+    "default": {
+      "animation_type": "melee_stock",
+      "distance": 1.25,
+      "range_angle": 30,
+      "damage": 4,
+      "knockback": 1,
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {
+    "scope": "applied_armorer:si_xs_07"
+  },
+  "allow_attachment_types": [
+    "extended_mag",
+    "scope",
+    "stock",
+    "muzzle",
+    "grip"
+  ]
+}

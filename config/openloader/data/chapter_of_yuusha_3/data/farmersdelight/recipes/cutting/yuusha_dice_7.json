@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "yuusha:dice_7"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.35,
+      "item": "goety:mauling_focus"
+    },
+    {
+      "chance": 0.35,
+      "item": "goety:overgrowth_focus"
+    },
+    {
+      "chance": 0.15,
+      "item": "goety:whispering_focus"
+    },
+    {
+      "chance": 0.15,
+      "item": "goety:slimy_focus"
+    }
+  ],
+  "tool": {
+    "item": "yuusha:remembered_scroll"
+  }
+}

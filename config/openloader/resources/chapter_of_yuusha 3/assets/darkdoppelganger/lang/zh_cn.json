@@ -1,0 +1,19 @@
+{
+  "item.darkdoppelganger.summon_scroll": "混沌魔珠",
+  
+  "item.darkdoppelganger.elder_necklace": "巫古项链",
+  "item.darkdoppelganger.summons_necklace": "唤士项链",
+  "item.darkdoppelganger.doppelganger_ring": "混沌魔戒",
+
+  "item.darkdoppelganger.summon_scroll.tooltip": "右击使用该卷轴以召唤混沌魔影！",
+
+
+
+
+
+
+  "spell.irons_spellbooks.doppel_portal": "混沌传送门",
+  "spell.darkdoppelganger.doppel_portal": "混沌传送门",
+
+  "spell.darkdoppelganger.doppel_portal.guide": "右击召唤混沌传送门，进入面前的传送门后，可以传送至一定范围外"
+}

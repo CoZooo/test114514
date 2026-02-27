@@ -1,0 +1,8 @@
+{
+    "bonus":{
+        "BIOME":{
+            "swimming": 1.50,
+		    "fishing": 1.50
+        }
+    }
+}

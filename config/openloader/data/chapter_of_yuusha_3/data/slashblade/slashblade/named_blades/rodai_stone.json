@@ -1,0 +1,23 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:rodai_stone",
+  "properties": {
+    "attack_base": 16.0,
+    "max_damage": 32,
+    "slash_art": "slashblade:piercing"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 11515099,
+    "texture": "slashblade:model/rodai_stone.png"
+  }
+}

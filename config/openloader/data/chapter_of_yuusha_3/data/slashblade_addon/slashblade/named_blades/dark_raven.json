@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:quenched_blade",
+      "lvl": 1
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:dark_raven",
+  "properties": {
+    "attack_base": 16.0,
+    "max_damage": 32,
+    "slash_art": "ak:king_fire",
+    "sword_type": [
+      "none"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/darkraven/dark_raven.obj",
+	"summon_sword_color": 11149590,
+    "texture": "slashblade_addon:model/darkraven/dark_raven.png"
+  }
+}

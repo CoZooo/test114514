@@ -1,0 +1,13 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputFluid": {
+    "fluid": "aetherworks:alchemic_precursor",
+    "amount": 360
+  },
+  "steam": 250,
+  "ingredients": [
+    {
+      "item": "embers:ancient_motive_core"
+    }
+  ]
+}

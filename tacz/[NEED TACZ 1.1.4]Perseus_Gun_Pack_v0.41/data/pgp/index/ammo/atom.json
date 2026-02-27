@@ -1,0 +1,5 @@
+{
+  "name": "pgp.ammo.atom.name",
+  "display": "pgp:atom_display",
+  "stack_size": 64
+}

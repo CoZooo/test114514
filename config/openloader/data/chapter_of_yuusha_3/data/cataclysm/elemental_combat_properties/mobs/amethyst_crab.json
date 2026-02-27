@@ -1,0 +1,7 @@
+{
+	"defense_style":{
+		"stab":-100,
+		"slash":80
+	},
+	"biome_dependency":false
+}

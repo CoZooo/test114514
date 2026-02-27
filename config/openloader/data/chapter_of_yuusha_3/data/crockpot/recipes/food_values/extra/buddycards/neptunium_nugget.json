@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "aquaculture:neptunium_nugget"
+  ],
+  "values": {
+    "INEDIBLE": 1
+  }
+}

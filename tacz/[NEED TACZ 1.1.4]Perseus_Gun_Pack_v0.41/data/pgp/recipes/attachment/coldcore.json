@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "mowziesmobs:ice_crystal"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_shard"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:coldcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

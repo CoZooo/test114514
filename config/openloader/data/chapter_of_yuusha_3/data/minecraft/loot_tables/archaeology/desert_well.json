@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arms_up_pottery_sherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cthulhufishing:ancient_coin",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_well"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:summon_radiance_guardian"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:summon_radiance_guardian"
+}

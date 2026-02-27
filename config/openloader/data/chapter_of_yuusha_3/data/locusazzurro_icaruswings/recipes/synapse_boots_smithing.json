@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "callfromthedepth_:depth_armor_boots"
+  },
+  "addition": {
+    "item": "depthcrawler:soullessgem"
+  },
+  "result": {
+    "item": "locusazzurro_icaruswings:synapse_boots"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

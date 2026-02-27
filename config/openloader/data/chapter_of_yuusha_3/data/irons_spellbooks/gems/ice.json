@@ -1,0 +1,31 @@
+{
+    "variant": "ice",
+    "weight": 50,
+    "quality": 0,
+	"unique": true,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "anything",
+                "types": [
+					"sword",
+					"trident",
+					"heavy_weapon"
+				]
+            },
+            "attribute": "irons_spellbooks:ice_spell_power",
+            "operation": "MULTIPLY_BASE",
+            "values":
+            {
+                "epic": 0.3,
+                "mythic": 0.35,
+                "ancient": 0.5
+            }
+        }
+    ]
+}

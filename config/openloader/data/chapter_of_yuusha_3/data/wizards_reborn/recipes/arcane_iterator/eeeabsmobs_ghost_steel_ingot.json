@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "eeeabsmobs:ghost_steel_ingot",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "callfromthedepth_:fullsoul"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "callfromthedepth_:fullsoul"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "irons_spellbooks:gold_crown",
+    "count": 1
+  },
+  "light": 3000,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:tarnished_helmet"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "apotheosis:ancient_material"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "irons_spellbooks:mana_upgrade_orb"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "apotheosis:ancient_material"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    }
+  ]
+}

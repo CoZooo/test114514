@@ -1,0 +1,355 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "majruszsenchantments:magic_protection"
+				lvl: 20s
+			}]
+		}
+	}
+	id: "2EB7056695D85AB6"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"minecraft:enchantment": {
+								element: { }
+								style: {
+									projectile: 20
+								}
+							}
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"minecraft:enchantment": {
+								element: { }
+								style: {
+									explosion: 20
+								}
+							}
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "normal"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"minecraft:enchantment": {
+								element: {
+									fire: 20
+									ice: -10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "majruszsenchantments:magic_protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticaddons:frost_protection"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:slayer"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:wrath"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:torrent"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "enigmaticlegacy:sharpshooter"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:capturing"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:bane_of_illagers"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 20s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "hmag:health_boost"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "farmersdelight:backstabbing"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "reliquary:severing"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "malum:haunted"
+						lvl: 10s
+					}]
+				}
+			}
+		}
+	]
+	title: "满级附魔书养蛊"
+}

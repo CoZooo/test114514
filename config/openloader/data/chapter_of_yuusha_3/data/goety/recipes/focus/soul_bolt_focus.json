@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "asa",
+    "ses",
+    "aBa"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    "B":
+    {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "e":
+    {
+      "item": "goety:soul_light_focus"
+    },
+    "s":
+    {
+      "item": "goety:ectoplasm"
+    }
+  },
+  "result": {
+    "item": "goety:soul_bolt_focus"
+  }
+}

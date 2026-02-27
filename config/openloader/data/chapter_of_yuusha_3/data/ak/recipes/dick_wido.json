@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:dick_wido",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "ak:yataghans",
+        "refine": 4
+      }
+    },
+    "B": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "D": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "E": {
+      "item": "minecraft:obsidian"
+    },
+    "F": {
+      "item": "yuusha:tomb_stone"
+    }
+  },
+  "pattern": [
+    "DBF",
+    "BAE",
+    "FED"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

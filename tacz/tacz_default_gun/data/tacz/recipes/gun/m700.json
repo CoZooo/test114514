@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 34
+    },
+    {
+      "item": {
+        "item": "embers:silver_ingot"
+      },
+      "count": 7
+    },
+    {
+      "item": {
+        "item": "embers:dawnstone_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m700"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

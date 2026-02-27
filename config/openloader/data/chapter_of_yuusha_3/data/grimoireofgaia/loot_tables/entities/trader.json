@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air"
+        }
+      ],
+      "rolls": 0.0
+    }
+  ],
+  "random_sequence": "grimoireofgaia:entities/slime_girl"
+}

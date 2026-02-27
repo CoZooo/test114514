@@ -1,0 +1,36 @@
+{
+	"entity.goety.redstone_monstrosity":"「星焱」红石巨兽仆从",
+	"item.goety.redstone_monstrosity_spawn_egg": "「星焱」红石巨兽仆从刷怪蛋",
+	
+	"entity.goety.squall_golem":"「雷焱」呼啸傀儡仆从",
+	"item.goety.squall_golem_spawn_egg": "「雷焱」呼啸傀儡仆从刷怪蛋",
+
+	"entity.goety.wildfire":"野火仆从",
+	"item.goety.wildfire_servant_spawn_egg": "野火仆从刷怪蛋",
+
+	"commands.lich.turnlich.failed": "该玩家已经是巫妖!",
+
+	"effect.goety.freezing": "严寒",
+	
+  "item.goety.feet_of_frog": "牛蛙腿",
+  "item.goety.cooked_feet_of_frog": "熟牛蛙腿",
+
+	"item.goety.focus_pack": "聚晶袋",
+	"item.goety.bolting_focus": "雷动聚晶",
+
+	"info.goety.items.dark_scroll.desc": "必须在特定建筑中才可使用.",
+	"info.goety.items.dark_scroll.failure": "你现在不在所需的特定建筑里!",
+
+	"item.goety.blazing_horn": "咒怨炽烈号角",
+	"item.goety.withered_manuscript": "咒怨凋零手稿",
+	"item.goety.wither_necromancer_spawn_egg": "咒怨凋零死灵巫妖刷怪蛋",
+	"entity.goety.wither_necromancer": "咒怨凋零死灵巫妖",
+	"block.goety.redstone_monstrosity_head": "异化红石巨兽头颅",
+	"block.goety.wall_redstone_monstrosity_head": "异化红石巨兽头颅",
+	"item.goety.hostile_redstone_monstrosity_spawn_egg": "异化红石巨兽刷怪蛋",
+	"entity.goety.hostile_redstone_monstrosity": "异化红石巨兽",
+	"entity.goety.hostile_redstone_golem": "异化红石傀儡",
+	"item.goety.dark_scythe": "光染黑暗镰刀",
+	"item.goety.dark_metal_scythe": "光染死神镰刀",
+	"item.goety.death_scythe": "光染死神之镰（已废除）"
+}

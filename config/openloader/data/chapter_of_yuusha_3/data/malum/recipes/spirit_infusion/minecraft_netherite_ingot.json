@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "eidolon:arcane_gold_ingot",
+    "count": 1
+  },
+  "output": {
+    "item": "minecraft:netherite_ingot",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 1
+    }
+  ]
+}

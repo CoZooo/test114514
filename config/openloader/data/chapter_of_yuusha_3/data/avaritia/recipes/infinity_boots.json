@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "awakened_bosses:herobrine_a_boots"
+  },
+  "addition": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "result": {
+    "item": "avaritia:infinity_boots"
+  },
+  "template": {
+    "item": "yuusha:unstable_ender_part"
+  }
+}

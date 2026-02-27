@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "ocle:fzj_table"
+    }
+  },
+  "pattern": [
+      "AEA",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "touhou_little_maid:computer"
+      },
+      "E": {
+        "item": "aetherworks:aether_gas_painful_bucket"
+      }
+    }
+}

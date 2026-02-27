@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 3000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "endrem:undead_soul"
+    },
+    {
+      "item": "endrem:undead_soul"
+    },
+    {
+      "item": "celestial_core:death_essence"
+    },
+    {
+      "item": "celestial_core:death_essence"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:death_laser_focus"
+  }
+}

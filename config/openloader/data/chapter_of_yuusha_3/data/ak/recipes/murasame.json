@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:murasame",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "proud_soul": 50000,
+        "refine": 5
+      }
+    },
+    "B": {
+      "item": "yuusha:twist_ingot"
+    },
+    "C": {
+      "item": "faded_conquest_2:storm_charge"
+    },
+    "A": {
+      "item": "meetyourfight:violet_bloom"
+    },
+    "E": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "F": {
+      "item": "yuusha:ignitium_star"
+    }
+  },
+  "pattern": [
+    "FBC",
+    "BDE",
+    "CEA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

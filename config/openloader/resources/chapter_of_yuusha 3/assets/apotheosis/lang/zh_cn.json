@@ -1,0 +1,17 @@
+{
+	"enchantment.apotheosis.knowledge.desc": "将敌人的部分掉落物销毁并转化为经验。",
+	"item.apotheosis.potion_charm_broke": "任意药水护符",
+	
+	"enchantment.apotheosis.icy_thorns.desc": "[已被禁用]使攻击者受到缓慢效果。",
+
+	"enchantment.apotheosis.capturing.desc": "使生物死亡时有概率掉落自身刷怪蛋，部分生物需特定环境才能生成。",
+
+	"enchantment.apotheosis.endless_quiver.desc": "射击时不会消耗所有种类的箭，需一定箭术等级才能使用，无法对妖弓和印弓起效。",
+
+	"item.minecraft.potion.effect.sundering": "星裂药水",
+    "item.minecraft.splash_potion.effect.sundering": "喷溅型星裂药水",
+    "item.minecraft.lingering_potion.effect.sundering": "滞留型星裂药水",
+    "item.minecraft.tipped_arrow.effect.sundering": "星裂之箭",
+	
+	"bonus.apotheosis:all_stats.desc": "+%s%%至神化暴击、生命值、幸运值、近战攻击属性"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "goety:lightning_focus",
+    "count": 1
+  },
+  "wissen": 500,
+  "ingredients": [
+    {
+      "item": "goety:charge_focus"
+    },
+    {
+      "item": "goety:ominous_orb"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    }
+  ]
+}

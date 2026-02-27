@@ -1,0 +1,27 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "WWW",
+    "WBW",
+    "WWW",
+    "FSSS"
+  ],
+  "key": {
+    "W": {
+      "item": "call_of_drowner:seagold_nugget"
+    },
+    "F": {
+      "item": "goety:lightning_focus"
+    },
+    "S": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "B": {
+      "item": "goety_cataclysm:water_spear_focus"
+    }
+  },
+  "output": {
+    "item": "goety_cataclysm:lightning_spear_focus"
+  },
+  "wissen": 1000
+}

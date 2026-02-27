@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 55
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      },
+      "count": 13
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "aetherworks:aspectus_aetherium"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:soul_dust"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m95"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

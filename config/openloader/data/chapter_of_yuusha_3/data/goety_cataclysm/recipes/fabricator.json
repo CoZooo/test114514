@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_13"
+  },
+  "craftType": "forge",
+  "soulCost": 3000,
+  "duration": 10,
+  "research": "warred",
+  "ingredients": [
+    {
+      "item": "goety:cursed_cage"
+    },
+    {
+      "item": "goety_cataclysm:mechanized_iron_block"
+    },
+    {
+      "item": "cataclysm:gauntlet_of_maelstrom"
+    },
+    {
+      "item": "goety_cataclysm:mechanized_iron_block"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:fabricator"
+  }
+}

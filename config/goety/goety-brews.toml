@@ -1,0 +1,214 @@
+
+["Brew Bottling"]
+	#How many times the player must bottle a brew to increase Bottling level, Default: 20
+	#Range: > 1
+	bottlingLevelReq = 1
+	#Maximum Bottling Level the player can obtain, set to 0 to disable Bottling Levels, Default: 5
+	#Range: > 0
+	maxBottlingLevel = 10
+
+["Vanilla Soul Cost"]
+	#Absorption Soul Cost, Default: 50
+	#Range: > 1
+	absorptionCost = 500
+	#Blindness Soul Cost, Default: 10
+	#Range: > 1
+	blindnessCost = 100
+	#Darkness Soul Cost, Default: 10
+	#Range: > 1
+	darknessCost = 100
+	#Fire Resistance Soul Cost, Default: 25
+	#Range: > 1
+	fireResistanceCost = 250
+	#Glowing Soul Cost, Default: 10
+	#Range: > 1
+	glowingCost = 100
+	#Haste Soul Cost, Default: 25
+	#Range: > 1
+	hasteCost = 250
+	#Hunger Soul Cost, Default: 10
+	#Range: > 1
+	hungerCost = 100
+	#Harming Soul Cost, Default: 25
+	#Range: > 1
+	harmingCost = 250
+	#Healing Soul Cost, Default: 25
+	#Range: > 1
+	healingCost = 250
+	#Health Boost Soul Cost, Default: 100
+	#Range: > 1
+	healthBoostCost = 1000
+	#Invisibility Soul Cost, Default: 25
+	#Range: > 1
+	invisibilityCost = 250
+	#Jump Boost Soul Cost, Default: 25
+	#Range: > 1
+	jumpBoostCost = 250
+	#Levitation Soul Cost, Default: 25
+	#Range: > 1
+	levitationCost = 250
+	#Luck Soul Cost, Default: 25
+	#Range: > 1
+	luckCost = 250
+	#Mining Fatigue Soul Cost, Default: 10
+	#Range: > 1
+	miningFatigueCost = 100
+	#Nausea Soul Cost, Default: 10
+	#Range: > 1
+	nauseaCost = 100
+	#Night Vision Soul Cost, Default: 25
+	#Range: > 1
+	nightVisionCost = 250
+	#Poison Soul Cost, Default: 10
+	#Range: > 1
+	poisonCost = 100
+	#Regeneration Soul Cost, Default: 25
+	#Range: > 1
+	regenerationCost = 250
+	#Resistance Soul Cost, Default: 100
+	#Range: > 1
+	resistanceCost = 1000
+	#Saturation Soul Cost, Default: 25
+	#Range: > 1
+	saturationCost = 250
+	#Slow Falling Soul Cost, Default: 25
+	#Range: > 1
+	slowFallingCost = 250
+	#Slowness Soul Cost, Default: 10
+	#Range: > 1
+	slownessCost = 100
+	#Speed Soul Cost, Default: 25
+	#Range: > 1
+	speedCost = 250
+	#Strength Soul Cost, Default: 25
+	#Range: > 1
+	strengthCost = 250
+	#Unluck Soul Cost, Default: 25
+	#Range: > 1
+	unluckCost = 250
+	#Water Breathing Soul Cost, Default: 25
+	#Range: > 1
+	waterBreathingCost = 250
+	#Weakness Soul Cost, Default: 25
+	#Range: > 1
+	weaknessCost = 250
+	#Wither Soul Cost, Default: 25
+	#Range: > 1
+	witherCost = 250
+
+["Modded Soul Cost"]
+	#Climbing Soul Cost, Default: 25
+	#Range: > 1
+	climbingCost = 250
+	#Corpse Eater Soul Cost, Default: 100
+	#Range: > 1
+	corpseEaterCost = 1000
+	#Pressure Soul Cost, Default: 10
+	#Range: > 1
+	pressureCost = 100
+	#Ender Ground Soul Cost, Default: 10
+	#Range: > 1
+	enderGroundCost = 100
+	#Ender Flux Soul Cost, Default: 25
+	#Range: > 1
+	enderFluxCost = 250
+	#Flame Hands Soul Cost, Default: 25
+	#Range: > 1
+	flameHandsCost = 250
+	#Venomous Hands Soul Cost, Default: 25
+	#Range: > 1
+	venomousHandsCost = 250
+	#Freezing Soul Cost, Default: 25
+	#Range: > 1
+	freezingCost = 250
+	#Gold Touched Soul Cost, Default: 10
+	#Range: > 1
+	goldTouchedCost = 100
+	#Nyctophobia Soul Cost, Default: 50
+	#Range: > 1
+	nyctophobiaCost = 500
+	#Snow Skin Soul Cost, Default: 50
+	#Range: > 1
+	snowSkinCost = 500
+	#Sapped Soul Cost, Default: 25
+	#Range: > 1
+	sappedCost = 250
+	#Storm's Wrath Soul Cost, Default: 50
+	#Range: > 1
+	stormsWrathCost = 500
+	#Sun Allergy Soul Cost, Default: 50
+	#Range: > 1
+	sunAllergyCost = 500
+	#Evil Eye Soul Cost, Default: 50
+	#Range: > 1
+	evilEyeCost = 500
+	#Tripping Soul Cost, Default: 25
+	#Range: > 1
+	trippingCost = 250
+	#Repulsive Soul Cost, Default: 25
+	#Range: > 1
+	repulsiveCost = 250
+	#Photosynthesis Soul Cost, Default: 25
+	#Range: > 1
+	photosynthesisCost = 250
+	#Swift Swim Soul Cost, Default: 25
+	#Range: > 1
+	swiftSwimCost = 250
+	#Arrowmantic Soul Cost, Default: 50
+	#Range: > 1
+	arrowmanticCost = 500
+	#Bottling Soul Cost, Default: 50
+	#Range: > 1
+	bottlingCost = 500
+	#Flammable Soul Cost, Default: 50
+	#Range: > 1
+	flammableCost = 500
+	#Flimsy Soul Cost, Default: 50
+	#Range: > 1
+	flimsyCost = 500
+	#Fortunate Soul Cost, Default: 50
+	#Range: > 1
+	fortunateCost = 1000
+	#Insight Soul Cost, Default: 50
+	#Range: > 1
+	insightCost = 500
+	#Explosive Soul Cost, Default: 50
+	#Range: > 1
+	explosiveCost = 500
+	#Fiery Aura Soul Cost, Default: 50
+	#Range: > 1
+	fieryAuraCost = 500
+	#Frosty Aura Soul Cost, Default: 100
+	#Range: > 1
+	frostyAuraCost = 1000
+	#Wild Rage Soul Cost, Default: 50
+	#Range: > 1
+	wildRageCost = 500
+	#Fire Trail Soul Cost, Default: 50
+	#Range: > 1
+	fireTrailCost = 500
+	#Plunge Soul Cost, Default: 50
+	#Range: > 1
+	plungeCost = 500
+	#Cursed Soul Cost, Default: 50
+	#Range: > 1
+	cursedCost = 5000000
+	#Save Effects Soul Cost, Default: 50
+	#Range: > 1
+	saveEffectsCost = 500
+	#Void Touched Soul Cost, Default: 25
+	#Range: > 1
+	voidTouchedCost = 25000
+
+[Curable]
+	#Whether Pressure is curable via Milk or Wartful Egg, Default: false
+	pressureCurable = false
+	#Whether Nyctophobia is curable via Milk or Wartful Egg, Default: false
+	nyctophobiaCurable = false
+	#Whether Sun Allergy is curable via Milk or Wartful Egg, Default: false
+	sunAllergyCurable = false
+	#Whether Snow Skin is curable via Milk or Wartful Egg, Default: false
+	snowSkinCurable = false
+	#Whether Evil Eye is curable via Milk or Wartful Egg, Default: false
+	evilEyeCurable = false
+

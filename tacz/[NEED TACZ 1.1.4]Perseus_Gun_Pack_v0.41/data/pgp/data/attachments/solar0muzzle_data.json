@@ -1,0 +1,9 @@
+{
+	"weight": 2,
+	"pierce": {
+		"multiplier": 2
+	}, 
+	"rpm": {
+		"addend": 100
+	}
+}

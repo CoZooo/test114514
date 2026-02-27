@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 5,
+  "emberPerHit": 75,
+  "input": {
+    "item": "ancient_aether:valkyrum_block"
+  },
+  "numberOfHits": 35,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "ancient_aether:valkyrum_sword"
+    }
+  ],
+  "temperatureMax": 2950,
+  "temperatureMin": 2650
+}

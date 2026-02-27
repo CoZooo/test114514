@@ -1,0 +1,101 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"weight": 5,
+	"quality": 0.1,
+	"dimensions": [
+		"the_nether"
+	],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "attributeslib:life_steal",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.015,
+				"epic": 0.020,
+				"mythic": 0.025,
+				"ancient": 0.050
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "attributeslib:life_steal",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.015,
+				"epic": 0.020,
+				"mythic": 0.025,
+				"ancient": 0.050
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel",
+					"pickaxe"
+				]
+			},
+			"enchantment": "efficiency",
+			"values": {
+				"rare": 1,
+				"epic": 2,
+				"mythic": 3,
+				"ancient": 4
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"leggings"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": -0.2,
+				"epic": -0.3,
+				"mythic": -0.4,
+				"ancient": -0.5
+			}
+		}
+	]
+}

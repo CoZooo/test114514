@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "aetherworks:ingot_aether"
+    }
+  ],
+  "result": [
+    {
+      "item": "aetherworks:tool_rod_crude",
+      "count": 1
+    },
+    {
+      "chance": 0.5,
+      "item": "aetherworks:aether_shard"
+    }
+  ],
+  "tool": {
+    "item": "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
+  }
+}

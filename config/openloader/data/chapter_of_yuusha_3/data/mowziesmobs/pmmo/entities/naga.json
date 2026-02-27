@@ -1,0 +1,8 @@
+{
+    "xp_values":{
+        "DEATH":{
+			"hunter":250,
+            "flying":250
+        }
+    }
+}

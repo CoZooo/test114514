@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_scythe"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 10,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:lifestealer_bone"
+    },
+    {
+      "item": "born_in_chaos_v1:lifestealer_bone"
+    },
+    {
+      "item": "nethersdelight:rich_soul_soil"
+    },
+    {
+      "item": "callfromthedepth_:soulbell"
+    },
+    {
+      "item": "forbidden_arcanus:maledictus_pact"
+    },
+    {
+      "item": "sons_of_sins:flesh_block"
+    },
+    {
+      "item": "malum:grim_talc"
+    },
+    {
+      "item": "goety:savage_tooth"
+    }
+  ],
+  "result": {
+    "item": "goety:dark_metal_scythe"
+  }
+}

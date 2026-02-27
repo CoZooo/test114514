@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "yuusha:ignitium_star"
+  },
+  "base": {
+    "item": "deep_aether:stratus_shield"
+  },
+  "result": {
+    "item": "enigmaticlegacy:infernal_shield"
+  },
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"defense_element":{
+		"darkness":95,
+		"fire":95,
+		"ice":95,
+		"light":95,
+		"water":95,
+		"normal":95,
+		"thunder":95,
+		"flora":95,
+		"earth":95,
+		"wind":95
+	},
+	"biome_dependency":false
+}

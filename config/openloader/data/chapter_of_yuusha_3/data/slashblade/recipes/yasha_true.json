@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:yasha_true",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 1000,
+        "name": "slashblade:yasha"
+      }
+    },
+    "C": {
+      "item": "cataclysm:lacrima"
+    },
+    "D": {
+      "item": "reliquary:void_tear"
+    },
+    "E": {
+      "item": "reliquary:infernal_tear"
+    }
+  },
+  "pattern": [
+    "CDC",
+    "EBE",
+    "CDC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

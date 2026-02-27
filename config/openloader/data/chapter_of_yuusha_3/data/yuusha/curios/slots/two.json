@@ -1,0 +1,10 @@
+{
+  "add_cosmetic": false,
+  "icon": "yuusha:slot/two",
+  "operation": "SET",
+  "order": 93,
+  "render_toggle": true,
+  "replace": false,
+  "size": 2,
+  "use_native_gui": true
+}

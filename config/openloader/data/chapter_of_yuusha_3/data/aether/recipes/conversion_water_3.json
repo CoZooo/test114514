@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "#aether:is_aether",
+  "ingredient": {
+    "block": "minecraft:water"
+  },
+  "result": {
+    "block": "aether:icestone"
+  }
+}

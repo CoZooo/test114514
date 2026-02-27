@@ -1,0 +1,10 @@
+{
+    "bonus":{
+        "BIOME":{
+            "farming": 1.05
+        }
+    },
+    "positive_effect":{
+        "minecraft:speed":0
+    }
+}

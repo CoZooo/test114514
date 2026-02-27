@@ -1,0 +1,260 @@
+{
+  "weight": 10,
+  "quality": 0,
+	"unique": true,
+	"dimensions": [
+		"infinite_abyss:fourth_layer",
+		"minecraft:overworld",
+		"minecraft:the_nether",
+		"minecraft:the_end"
+	],
+  "bonuses": [
+    {
+      "__comment": "轻剑",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "light_weapon",
+        "types": [
+          "sword",
+          "trident"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 10,
+            "uncommon": 20,
+            "rare": 30,
+            "epic": 40,
+            "mythic": 50,
+            "ancient": 100
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "ADDITION",
+          "values": {
+            "common": -0.10,
+            "uncommon": -0.10,
+            "rare": -0.10,
+            "epic": -0.10,
+            "mythic": -0.10,
+            "ancient": -0.10
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "斧头",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "heavy_weapon",
+        "types": [
+          "heavy_weapon"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 10,
+            "uncommon": 20,
+            "rare": 30,
+            "epic": 40,
+            "mythic": 50,
+            "ancient": 100
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "ADDITION",
+          "values": {
+            "common": -0.10,
+            "uncommon": -0.10,
+            "rare": -0.10,
+            "epic": -0.10,
+            "mythic": -0.10,
+            "ancient": -0.10
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "盔甲",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.and",
+      "gem_class": {
+        "key": "armor",
+        "types": [
+          "helmet",
+          "chestplate",
+          "leggings",
+          "boots"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "ADDITION",
+          "values": {
+            "common": 10,
+            "uncommon": 12,
+            "rare": 14,
+            "epic": 16,
+            "mythic": 18,
+            "ancient": 20
+          }
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "ADDITION",
+          "values": {
+            "common": 5,
+            "uncommon": 6,
+            "rare": 7,
+            "epic": 8,
+            "mythic": 9,
+            "ancient": 10
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "挖掘工具",
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "shovel",
+          "pickaxe"
+        ]
+      },
+      "enchantment": "unbreaking",
+      "values": {
+        "common": 1,
+        "uncommon": 2,
+        "rare": 3,
+        "epic": 4,
+        "mythic": 5,
+        "ancient": 10
+      }
+    },
+    {
+      "__comment": "自动武器",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.amr:but2",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.all_auto",
+        "types": [
+          "apotheosis_modern_ragnarok:full_auto",
+          "apotheosis_modern_ragnarok:semi_auto"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 300,
+            "uncommon": 400,
+            "rare": 500,
+            "epic": 600,
+            "mythic": 700,
+            "ancient": 1000
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+            "common": 0.1,
+            "uncommon": 0.15,
+            "rare": 0.25,
+            "epic": 0.35,
+            "mythic": 0.45,
+            "ancient": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "霰弹枪",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.amr:but2",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.shotgun",
+        "types": [
+          "apotheosis_modern_ragnarok:shotgun"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 600,
+            "uncommon": 800,
+            "rare": 1000,
+            "epic": 1200,
+            "mythic": 1400,
+            "ancient": 2000
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "MULTIPLY_BASE",
+          "values": {
+            "common": 0.1,
+            "uncommon": 0.15,
+            "rare": 0.25,
+            "epic": 0.35,
+            "mythic": 0.45,
+            "ancient": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "__comment": "拉大栓",
+      "type": "apotheosis:multi_attribute",
+      "desc": "bonus.apotheosis:multi_attr.desc.amr:but2",
+      "gem_class": {
+        "key": "apotheosis_modern_ragnarok.bolt_action",
+        "types": [
+          "apotheosis_modern_ragnarok:bolt_action"
+        ]
+      },
+      "modifiers": [
+        {
+          "attribute": "gunsmithlib:bullet_damage",
+          "operation": "ADDITION",
+          "values": {
+            "common": 1500,
+            "uncommon": 2000,
+            "rare": 2500,
+            "epic": 3000,
+            "mythic": 3500,
+            "ancient": 5000
+          }
+        },
+        {
+          "attribute": "gunsmithlib:vert_recoil",
+          "operation": "ADDITION",
+          "values": {
+            "common": 0.1,
+            "uncommon": 0.15,
+            "rare": 0.25,
+            "epic": 0.35,
+            "mythic": 0.45,
+            "ancient": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}

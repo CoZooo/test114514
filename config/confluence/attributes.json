@@ -1,0 +1,6 @@
+{
+    "magic_damage": "irons_spellbooks:spell_power",
+    "ranged_damage": "l2damagetracker:bow_strength",
+    "armor_pass": "minecraft:generic.attack_damage",
+    "aggro": "minecraft:generic.luck"
+}

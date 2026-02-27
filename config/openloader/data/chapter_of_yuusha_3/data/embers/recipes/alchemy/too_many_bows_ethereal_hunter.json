@@ -1,0 +1,29 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "callfromthedepth_:marble_block"
+    },
+    {
+      "item": "callfromthedepth_:soullight"
+    },
+    {
+      "item": "callfromthedepth_:immemorialingot"
+    },
+    {
+      "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+    }
+  ],
+  "output": {
+    "item": "too_many_bows:ethereal_hunter",
+	"count": 1
+  },
+  "tablet": {
+    "item": "morebows:netherite_bow"
+  }
+}

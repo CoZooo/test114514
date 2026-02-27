@@ -1,0 +1,313 @@
+
+{
+	"content": {
+
+        "magic_rew_sacred_spirit": {
+            "type": "item",
+            "content": "malum:sacred_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_wicked_spirit": {
+            "type": "item",
+            "content": "malum:wicked_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_arcane_spirit": {
+            "type": "item",
+            "content": "malum:arcane_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_eldritch_spirit": {
+            "type": "item",
+            "content": "malum:eldritch_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_aerial_spirit": {
+            "type": "item",
+            "content": "malum:aerial_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_sacred_spirit": {
+            "type": "item",
+            "content": "malum:sacred_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_aqueous_spirit": {
+            "type": "item",
+            "content": "malum:aqueous_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_earthen_spirit": {
+            "type": "item",
+            "content": "malum:earthen_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_infernal_spirit": {
+            "type": "item",
+            "content": "malum:infernal_spirit",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 250
+        },
+
+        "magic_rew_common_ink": {
+            "type": "item",
+            "content": "irons_spellbooks:common_ink",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 350
+        },
+
+        "magic_rew_arcane_crystal_dust": {
+            "type": "item",
+            "content": "forbidden_arcanus:arcane_crystal_dust",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 500
+        },
+
+        "magic_rew_arcanum_dust": {
+            "type": "item",
+            "content": "wizards_reborn:arcanum_dust",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 2000
+        },
+
+        "magic_rew_corrupti_dust": {
+            "type": "item",
+            "content": "forbidden_arcanus:corrupti_dust",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 2000
+        },
+
+        "magic_rew_polished_planks": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "eidolon:polished_planks",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 2500
+        },
+
+        "magic_rew_spirit_crucible": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "malum:spirit_crucible",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 65000
+        },
+
+        "magic_rew_runewood_obelisk": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "malum:runewood_obelisk",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 10000
+        },
+
+        "magic_rew_spirit_catalyzer": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "malum:spirit_catalyzer",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 10000
+        },
+
+        "magic_rew_altar": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "summoningrituals:altar",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10000
+        },
+
+        "magic_rew_crucible": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "eidolon:crucible",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 80000
+        },
+
+        "magic_rew_royal_gel": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "confluence:royal_gel",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 25000
+        },
+
+        "magic_rew_cursed_infuser": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "goety:cursed_infuser",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 80000
+        },
+
+        "magic_rew_clibano_core": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "forbidden_arcanus:clibano_core",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 240000
+        },
+
+        "magic_rew_complete_design": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "malum:complete_design",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 25000
+        },
+
+		"magic_rew_qb": {
+			"type": "item",
+			"content": "yuusha:qb",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 12000
+		},
+
+		"magic_rew_void_block": {
+			"type": "item",
+			"content": "goety:void_block",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 40000
+		},
+
+		"magic_rew_unholy_symbol": {
+			"type": "item",
+			"content": "eidolon:unholy_symbol",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 320000
+		},
+
+		"magic_rew_holy_symbol": {
+			"type": "item",
+			"content": "eidolon:holy_symbol",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 320000
+		},
+
+        "magic_rew_end_walk_focus": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "goety:end_walk_focus",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 640000
+        },
+
+		"magic_rew_quietus_star": {
+			"type": "item",
+			"content": "goety_revelation:quietus_star",
+			"rarity": "LEGENDARY",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 240000
+		}
+
+	}
+
+}

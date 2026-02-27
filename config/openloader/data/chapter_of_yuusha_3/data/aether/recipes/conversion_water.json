@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "infinite_abyss:sixth_layer_cavern",
+  "ingredient": {
+    "block": "minecraft:water"
+  },
+  "result": {
+    "block": "minecraft:packed_ice"
+  }
+}

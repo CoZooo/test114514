@@ -1,0 +1,10 @@
+{
+  "slot": "eos:attachment/slot/bayonet_rebellion_of_kronus",
+  "model": "eos:attachment/bayonet_rebellion_of_kronus_geo",
+  "texture": "eos:attachment/uv/bayonet_rebellion_of_kronus",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 3,
+  "emberPerHit": 25,
+  "input": {
+    "item": "yuusha:dice_9"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:watching_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:blasting_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:snaring_focus"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "goety_cataclysm:void_mold_block"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

@@ -1,0 +1,1182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_7"
+	group: "381A0F9F8CC8976C"
+	icon: "enigmaticlegacy:astral_dust"
+	id: "3F95E0E82C82371A"
+	images: [
+		{
+			alpha: 180
+			color: 8939729
+			height: 15.25d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 16.75d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 19.5d
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"每条龙都有龙蛋。"
+				""
+				"&c击杀末影龙额外获得大量飞翔经验。"
+				""
+				"&e请勿在末影龙下降到龙池上方停滞飞行时使用黑洞法术等法术，会导致末影龙消失。"
+			]
+			hide_dependency_lines: true
+			id: "3D065F08EB338A16"
+			rewards: [{
+				id: "6231B89E1F86E9D4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6349BB0EB817FB14"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["在带上[无咒之戒]后击杀[潜影贝]有较低几率获得。"]
+			hide_dependency_lines: true
+			id: "1C86A62A169FBD12"
+			rewards: [{
+				id: "1AA21A065D1900DF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58E95D0AF8FC4DEB"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			description: ["击杀唤魔者不再掉落，需利用附魔台附魔获得。"]
+			id: "25601CCB29A7DDCF"
+			rewards: [{
+				id: "0F20837872957EA8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "100DEAD7FDAEE901"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"利用以太矿石、下界合金碎片、末影晶锭制作的金属。"
+				""
+				"&6可以制作维度锚进行重生点定位。"
+			]
+			hide_dependency_lines: true
+			id: "0075D222F0D0595A"
+			rewards: [{
+				id: "041AD0C5AD1315DA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "738F7CBBCE9DA4F0"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: ["需制作获得。"]
+			id: "75E2E69BBF40D571"
+			rewards: [{
+				id: "3EAC3AF5D3ED411E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A3B0C26105A708C"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"击杀远古守卫者会掉落。"
+				""
+				"&6远古守卫者掉落的部分材料可以在星河贸易站内交易获得守卫者之眼。不能有特殊NBT，否则星河贸易站不识别，比如守卫者眼球不能拿手上或者使用过。"
+			]
+			id: "0B8F846BBC6C44C2"
+			rewards: [{
+				id: "7992794C39B8F676"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "6星"
+			tasks: [{
+				id: "7DFC0DFA2CC75A50"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			description: [
+				"在沙漠神庙的宝箱中可找到。也可开启魔典盖亚模组的各种宝箱获得。"
+				""
+				"&e沙漠神庙的第一层需要解密，可以看MCMOD百科的“YUNG的沙漠神殿优化”模组，打开教程页即可。或者你可以采用其他粗暴的方式。"
+				""
+				"&6可利用探险家指南针搜索“Desert Temple”找到沙漠神庙。"
+			]
+			id: "2EA00535244C2A0F"
+			rewards: [{
+				id: "334E5E17E3DF7BD1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48B15C60CFA61D94"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在丛林神殿的宝箱中可找到。也可开启魔典盖亚模组的各种宝箱获得。"
+				""
+				"&6可利用探险家指南针搜索“Jungle Temple”找到丛林神庙。"
+			]
+			id: "340B62787622E4AA"
+			rewards: [{
+				id: "187E9CBBB9144831"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "436A3BE211A50C3F"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在下界要塞的宝箱中可找到。"
+				""
+				"&6可利用探险家指南针搜索“Fortress”找到下界要塞。"
+			]
+			id: "2AA9A8C883F99E4A"
+			rewards: [{
+				id: "0EB16895944B6347"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "727DF4D24F161B34"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在雪屋的宝箱、雪之神庙的稀有宝箱中必定可以找到。"
+				""
+				"&e雪屋：在冰原或者冷针叶林生成的一种建筑。在50%的雪屋里，地毯下能找到一个活板门，里面有一个很长的梯子通向地下室。地下室内有酿造台、牧师村民等。"
+				""
+				"&c寒冰之眼新增以下获取方式：猫赠送；获得村庄英雄后牧师职业的村民会赠送；雪之神庙（详见树海化章节额外地牢任务）。"
+				""
+				"&3关于猫赠送礼物：玩家睡觉时，驯服的猫会走向主人并在旁边趴在肚子上咕噜咕噜地睡觉，且当玩家从床上醒来时有70%的几率送给玩家礼物，此行为只有玩家在夜晚睡觉时会发生(在白天因雷暴天气入睡，则没有礼物)。"
+				""
+				"&6可利用探险家指南针搜索“雪屋”找到雪屋。"
+			]
+			id: "4675675CF776AB6A"
+			rewards: [{
+				id: "66CB79B84920CC20"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BCCC02DB134D8FB"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在掠夺者前哨站、灾厄建筑、林地府邸的宝箱中必定可找到。"
+				""
+				"&6可利用探险家指南针搜索“掠夺者前哨站”找到掠夺者前哨站。"
+				""
+				"&e上述灾厄建筑还包括可用探险家指南针搜索“Illager Fort”和“Illusioner Tower”。"
+			]
+			id: "52CDDE7C46E7809D"
+			rewards: [{
+				id: "5BB56ECE622696B7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01752F21F39D954D"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在埋藏的箱子或女巫小屋的箱子中可找到。"
+				""
+				"&6女巫小屋可用探险家指南针搜索“Witch Hut”找到。"
+			]
+			id: "402910212845E848"
+			rewards: [{
+				id: "54C8B732CB653093"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DF4C41F74BF95E2"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在废弃矿洞的宝箱中可找到。"
+				""
+				"&e新增在要塞（有末地门的建筑）中可找到。"
+				""
+				"&6可利用探险家指南针搜索“Mineshaft”找到废弃矿洞。废弃矿洞有很多变种，自行选择一个较近的变种。可用探险家指南针搜索“Stronghold”找到在主世界前往末地的要塞。"
+			]
+			id: "0BB36CA7064D0EB5"
+			rewards: [{
+				id: "554D6E50459D82EA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "307026F35CBC3CB5"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			description: [
+				"在下界维度的堡垒遗迹的宝箱中可找到。"
+				""
+				"&e新增在主世界的海底神殿的宝箱中也可找到。"
+				""
+				"&6可利用探险家指南针搜索“堡垒遗迹”找到堡垒遗迹，搜索“Ocean Monument”找到海底神庙。"
+			]
+			id: "77F1ACFDE1492361"
+			rewards: [{
+				id: "341D0FD66AE98B24"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "369663165C99D66F"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			description: ["使用巫师之瞳等合成。"]
+			id: "45E90665CBA3E38B"
+			rewards: [{
+				id: "5F6189DF8062D545"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72935092FA76618F"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5C8E81EA459FDDDA"
+				"25601CCB29A7DDCF"
+				"77F1ACFDE1492361"
+				"45E90665CBA3E38B"
+				"402910212845E848"
+				"75E2E69BBF40D571"
+				"0B8F846BBC6C44C2"
+				"52CDDE7C46E7809D"
+				"0BB36CA7064D0EB5"
+				"08F7197979B9FCDB"
+				"2AA9A8C883F99E4A"
+				"4675675CF776AB6A"
+				"2EA00535244C2A0F"
+				"632003828B91474B"
+				"4728B9F1E77D0B7D"
+				"340B62787622E4AA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"基本设定：添加了多种不同的[末影之眼]，只能用特殊的末影之眼去开启末地之门。末地之门上还有可能已存在数个末影之眼，所以最多只要其中的十二种即可。该模组的特殊末影之眼的获得概率已提高。"
+				""
+				"&6额外设定：末地需要战斗1000级才能进入，此外末地维度会恒定给予静默2级效果。如果祈愿等级低于300级，还会有神圣城堡（无法破坏方块）、压抑（几率无法回血）效果。在该维度放置的水会变为浮冰。"
+				""
+				"&2特殊说明：末地门有小几率被其他结构吃掉，如果是自行放置的末地传送门框架，需注意框架是有方向的，要站在中央往四边围一圈放置。"
+				""
+				"&e额外说明一：可用探险家指南针搜索“Stronghold”找到在主世界前往末地的要塞。"
+				""
+				"&c额外说明二：不建议跳过龙前的Boss，直接打末地的怪，可能会出现伤害严重不足。"
+				""
+				"&3可能特性：不建议跳入击杀末影龙后出现的传送门，可能会有未知特性。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "endrem:ancient_portal_frame"
+			id: "3491239F1B3DD848"
+			rewards: [
+				{
+					id: "26EE378B774E2412"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "4F72C6126C04285D"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1684B0B5005F1CC4"
+				type: "dimension"
+			}]
+			title: "&5末地之门"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["末影裁决者现在必定带有适应、抑制，且具有较快的回血速度。"]
+			hide_dependency_lines: true
+			id: "77FB682AA2CC9768"
+			rewards: [{
+				id: "7375CB0BCCC25267"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C2E7F2DF088E396"
+				item: "hmag:ender_plasm"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["可在星河贸易站兑换。"]
+			hide_dependency_lines: true
+			id: "6DCEB4FE99D53AA5"
+			rewards: [{
+				id: "635BD7C71A0254A2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "130AFE1AAE40D978"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"末地的新矿石：末地碎片。末地碎片可用于制作末地锭以升级下界合金盔甲、工具和武器。末地碎片矿石可在末地开采，玩家也能在末地的结构中直接找到末地碎片。每件经末地碎片升级的盔甲、工具和武器都有着独特的能力。你可以使用末影龙宝藏袋中获得的末地碎片定位仪来更方便地找到它们。"
+				""
+				"&e末地矿石无法通过扫描器的矿石模块发现，只能在发现一个后，用扫描器的方块模块定位。第一个可以用末地碎片定位仪，距离越近，上面显示的信号越高。"
+			]
+			hide_dependency_lines: true
+			id: "66EA264BC8F6F063"
+			rewards: [{
+				id: "5C1D81C946777584"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59C1E727B704E7CB"
+				item: "majruszsdifficulty:enderium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			hide_dependency_lines: true
+			id: "791FB04B4BFBCE69"
+			rewards: [{
+				id: "42BC7D50D7817D40"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A4817C70D63FF1A"
+				item: "celestial_core:shulker_scrap"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"战斗、魔力技能树解锁：手持神秘龙蛋右击天空之城奖杯、长者雕像，即可分别解锁战斗、魔力技能树（确保离奖杯最近的是你）。成功时会消耗物品，但不会有声音等反馈。默认按K键打开技能树界面。"
+				""
+				"&e战斗、魔力技能点获取：在天顶巨兽章节，完成龙后的击杀Boss任务可以获得天命碎片，然后用天命碎片右击天空之城奖杯、长者雕像可获得。"
+				""
+				"&c洗点：手持异界机械巨蛇战利品，右击天空之城奖杯、长者雕像，可分别将战斗、魔力技能栏洗点，点数会全额返还。"
+			]
+			hide_dependency_lines: true
+			id: "421CED33967FDD0D"
+			rewards: [
+				{
+					id: "3070BA1334A4772C"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					amount: 100
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "minecraft:pink_candle"
+					}
+					id: "572E4E83B09E5FF0"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "21059315A867B31E"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["开启末影龙宝藏袋也有几率获得。"]
+			hide_dependency_lines: true
+			id: "32EF0F5AB086921B"
+			rewards: [{
+				id: "1795D97C672CB84E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30E3611742C13BF6"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["击杀潜影贝可获得。"]
+			hide_dependency_lines: true
+			id: "408544F0AF39664A"
+			rewards: [{
+				id: "6C9A783809E2E802"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1B426F514534460F"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"[烟花火箭]可以合成的，只不过JEI没显示。任意[火药]加[纸]就可以合成。"
+				""
+				"&6[鞘翅]可在末地找到或合成。不过主世界飞太快，可能会导致区块加载不及时出现BUG。"
+			]
+			hide_dependency_lines: true
+			id: "1712DAF8711DABBE"
+			rewards: [{
+				id: "6AB34BAC048065C3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04EDC302C04358D1"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			hide_dependency_lines: true
+			id: "1569CF6D94B66042"
+			rewards: [{
+				id: "69992A2E94301D75"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "531D2AB04C18FD8F"
+				item: "locusazzurro_icaruswings:purpur_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"只能由潜影贝掉落，或者通过虚风罐提取。"
+				""
+				"在末地滑翔时若携带玻璃罐，则有几率会转化为虚风罐，几率与飞行速度和高度相关。末地最优飞行高度为0。"
+			]
+			hide_dependency_lines: true
+			id: "0454B6FF822AF9F9"
+			rewards: [{
+				id: "2BBE7F10C72C792E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BAC64717536C69B"
+				item: "locusazzurro_icaruswings:void_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"从大师级牧师村民手中有几率可以购买到。"
+				""
+				"&6新增在部分术士的建筑宝箱内有几率可获得。术士相关内容详见咒法章节空白符文任务。"
+			]
+			id: "5C8E81EA459FDDDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0895F9C2E885C76E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7AE8B66781DCF1B7"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"合成所需的不死灵魂需要击杀骷髅马获得。"
+				""
+				"&6在雷暴天气中，骷髅马会由骷髅陷阱马在一道闪电中生成。"
+			]
+			id: "4728B9F1E77D0B7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CBA37D9D63455AD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66390BB9B756635B"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			description: ["利用各种海洋物品合成。"]
+			id: "632003828B91474B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26FA0C276537189F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "345228FB7BAE5A3C"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"通过在末地维度中击杀黑曜石巨柱获得。在击杀黑曜石巨柱后，会在Boss平台中心生成一个黑曜石柱，在黑曜石柱顶端会生成一个潜影盒，潜影盒内会包含一些战利品以及一个黑曜石之心。"
+				""
+				"&6可在末地用探险家指南针搜索“Obsidilith Arena” 找到该建筑。抗性详见天顶巨兽章节。"
+			]
+			hide_dependency_lines: true
+			id: "7F2C47E6F8C5B47F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278A0D7B7B65A280"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51AFF240AEF1CFF6"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"佩戴无咒之戒击败末影龙后掉落，会悬浮在末影龙死亡动画结束的位置。所获得的数量有限制。"
+				""
+				"&c你需要佩戴无咒之戒度过总游戏时间的99%才能使用该物品。（否则无法捡起和使用）"
+			]
+			hide_dependency_lines: true
+			id: "207483CECEFF3BA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A0B180A883AA19C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06556275E91DBD75"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"获取：在天顶巨兽章节击杀龙后Boss完成任务可获得。"
+				""
+				"&c特性说明：请确保你已解锁战斗或魔力技能树再使用，否则会有特性。如何解锁详见此章节[神秘龙蛋]任务。"
+				""
+				"&e战斗、魔力技能点获取：在天顶巨兽章节，完成龙后的击杀Boss任务可以获得天命碎片，然后用天命碎片右击天空之城奖杯、长者雕像可获得。"
+				""
+				"&6洗点：手持异界机械巨蛇战利品，右击天空之城奖杯、长者雕像，可分别将战斗、魔力技能栏洗点，点数会全额返还。"
+			]
+			hide_dependency_lines: true
+			id: "3266FE9F3CEB90B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7544A914B5805208"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "001F38BB199AA89D"
+				item: "yuusha:knowledge_fragment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["可制作鞘翅、恐怖之剑等。"]
+			hide_dependency_lines: true
+			id: "7721CF5F89E59390"
+			rewards: [{
+				id: "2B1228C8A7A051DA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A488A71B74CADC1"
+				item: "locusazzurro_icaruswings:synapse_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"击杀末影甲虫可获得。"
+				""
+				"&c需注意，末影甲虫、末影傀儡具有和末影守卫相似的元素战斗抗性。"
+			]
+			hide_dependency_lines: true
+			id: "50E63EAC47E22932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26E0AE51BDCF5245"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48ACC81560E79E23"
+				item: "cataclysm:void_jaw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"击杀末影傀儡可获得。"
+				""
+				"&c需注意，末影甲虫、末影傀儡具有和末影守卫相似的元素战斗抗性。"
+				""
+				"&e末影傀儡可用召唤祭坛召唤（需先找到第一个击杀），材料为虚空核心、咒灰，用博丽的御币Shift+右击即可。"
+			]
+			hide_dependency_lines: true
+			id: "1A2B879EBA328E81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D9557B4989A6BE9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5715B66CDE7E87B4"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["有多种获得方式，可制作灵质盾牌。"]
+			hide_dependency_lines: true
+			id: "0566DE04635A46A7"
+			rewards: [{
+				id: "6073443015B4FB61"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D08D531552F955F"
+				item: "hmag:ancient_stone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"以太矿石可制作以太锭。用于合成以太系列装备。"
+				""
+				"&6有且只有击杀末地守卫获得。"
+			]
+			hide_dependency_lines: true
+			id: "46FA9F2019ABE330"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64923B1E59538EE7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24D843675A391FBE"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&c利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&6利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&e利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&2利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&3利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+				""
+				"&5利用震撼聚晶+冰霜射线法术可击杀大部分末地的生物。"
+			]
+			hide_dependency_lines: true
+			id: "58DCD3230E8B937D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "787160E94B13D3D3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "019143391AC1AC7F"
+				item: "yuusha:dragon_soul"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"可以随机抽取一个无名饰品，其中部分饰品只有通过此才能获得。"
+				""
+				"&6只有可以穿戴在无名饰品栏的才能从此获得。每次都有几率在获得饰品的同时，另外给你无名饰品栏位，最多再给两个（即共三个无名饰品栏位）。"
+			]
+			hide_dependency_lines: true
+			id: "29E76A1FC60ECED6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F245DA5E01BA3F5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D22EA148FAFD5FA"
+				item: "nameless_trinkets:mysterious_trinket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: [
+				"在锻造台中合成。穿戴以太一套盔甲时，在生命低于1%时，会获得100%减伤护盾。"
+				""
+				"&6可以配合整蛊坐垫、血战沙场之证等饰品使用。"
+			]
+			hide_dependency_lines: true
+			id: "53AA3143A846AD21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40D524EA69571EF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "238A3EC0825AE376"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "079D821F30D3C312"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B24FBF3BE501861"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15826D556639A913"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			hide_dependency_lines: true
+			id: "762C34AFC1594B61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0667FB7AAE7B4914"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "74C3A825C084629B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "goety:chorus_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "38CAF39143C00264"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "goety:end_soil"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3491239F1B3DD848"]
+			description: ["可制作终结之镜。"]
+			hide_dependency_lines: true
+			id: "0482FB3C029760BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61737025DCEBDD0A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "115A38F9D0E8ABAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:void_bucket"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"在死者之王建筑的宝箱中可找到。"
+				""
+				"&6相关内容详见天顶巨兽章节死者之王任务。"
+			]
+			id: "08F7197979B9FCDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69DBA816CF5E1BCF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4733CB7C06CA0BB0"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+	]
+	subtitle: ["&9『末地』"]
+	title: "&6※ 末路之地"
+}

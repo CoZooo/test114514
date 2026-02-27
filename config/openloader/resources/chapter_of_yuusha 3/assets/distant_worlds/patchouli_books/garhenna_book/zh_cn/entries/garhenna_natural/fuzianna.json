@@ -1,0 +1,19 @@
+{
+	"name": "芙兹安娜",
+	"icon": "distant_worlds:fuzianna",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 8,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:fuzianna",
+			"link_recipe": "true",
+			"text": "芙兹安娜是在死亡山谷生物群系中发现的高大植物。收获时，你除了可以获得这种植物外，还可以从中提取可食用的芙兹安娜果冻。为了方便，你可以在花盆中种植一根芙兹安娜，并在使用骨粉后一段时间内获得芙兹安娜果冻。毒马铃薯在使用时会阻止果冻的释放。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:fuzianna_jelly_recipe"
+		}
+	]
+}

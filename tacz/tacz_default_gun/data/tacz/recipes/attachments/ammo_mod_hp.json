@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "irons_spellbooks:fire_rune"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:blood_rune"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:soul_dust"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:legendary_ink"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_hp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

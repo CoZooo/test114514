@@ -1,0 +1,13 @@
+{
+  "type": "celestial_core:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "mowziesmobs:naga"
+      }
+    }
+  ],
+  "item": "celestial_core:soaring_wings"
+}

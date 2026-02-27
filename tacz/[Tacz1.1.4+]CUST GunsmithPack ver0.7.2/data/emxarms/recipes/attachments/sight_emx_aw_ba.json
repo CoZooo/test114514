@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:component_lv2"
+        }
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:pink_dye"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_aw_ba"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

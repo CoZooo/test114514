@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "netherdepthsupgrade:soulsucker"
+    }
+  ],
+  "output": {
+    "item": "netherdepthsupgrade:soul_sucker_leather",
+    "count": 3
+  }
+}

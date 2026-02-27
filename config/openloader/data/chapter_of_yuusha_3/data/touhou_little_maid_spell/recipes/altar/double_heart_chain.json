@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:double_heart_chain",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.2,
+  "ingredients": [
+    {
+      "item": "yuusha:ectoplasm_string"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "yuusha:dragon_soul"
+    },
+    {
+      "item": "yuusha:dragon_soul"
+    },
+    {
+      "item": "yuusha:ectoplasm_string"
+    },
+    {
+      "item": "enigmaticlegacy:soul_crystal"
+    }
+  ]
+}

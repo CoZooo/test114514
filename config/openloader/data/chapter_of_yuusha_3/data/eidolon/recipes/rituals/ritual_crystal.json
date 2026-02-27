@@ -1,0 +1,25 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+    {
+      "item": "malum:arcane_spirit"
+    }
+  ],
+  "healthRequirement": 200.0,
+  "output": {
+    "item": "eidolon:soul_shard"
+  },
+  "pedestalItems": [
+    {
+      "item": "sons_of_sins:ether_ashes"
+    },
+    {
+      "item": "hmag:soul_powder"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "forbidden_arcanus:soul"
+    }
+  ]
+}

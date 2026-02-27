@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 13.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_big_boom"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_god"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_inheritance"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_digestion"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_eyes"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_break_down_water"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_ground"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_in_water"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_in_air"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_oxygen"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_sense"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_chromosome"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:atp_height"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_necrosis"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_bone_add"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_preferential"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_synthesis"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "moonstone:cell_off_on"
+        }
+      ]
+	}
+  ],
+  "random_sequence": "treasurebags:bags/curio"
+}

@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 4,
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    {
+      "count": 1,
+      "item": "malum:malignant_lead"
+    },
+    {
+      "count": 1,
+      "item": "eidolon:withered_heart"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_necklace"
+  },
+  "output": {
+    "item": "malum:necklace_of_the_watcher"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 32
+    },
+    {
+      "type": "aqueous",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 16
+    }
+  ]
+}

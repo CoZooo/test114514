@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_13"
+  },
+  "craftType": "sky",
+  "soulCost": 1000,
+  "duration": 10,
+  "research": "mistral",
+  "ingredients": [
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    {
+      "item": "yuusha:chaos_charm"
+    },
+    {
+      "item": "goety:wind_core"
+    },
+    {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    {
+      "tag": "forge:storage_blocks/jade"
+    },
+    {
+      "tag": "forge:storage_blocks/jade"
+    },
+    {
+      "item": "apotheosis:mythic_material"
+    },
+    {
+      "item": "apotheosis:mythic_material"
+    }
+  ],
+  "result": {
+    "item": "goety:resonance_crystal"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mokels_boss_mantyd:kinoras_garden",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 1922957756
+  }
+}

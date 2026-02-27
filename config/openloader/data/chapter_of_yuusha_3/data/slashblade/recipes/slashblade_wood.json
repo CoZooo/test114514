@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "yuusha:lost_blade_fake"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    " L ",
+    "B  ",
+    "   "
+  ],
+  "result": {
+    "item": "slashblade:slashblade_wood",
+    "nbt": 	{ "Unbreakable": 1 }
+  },
+  "show_notification": true
+}

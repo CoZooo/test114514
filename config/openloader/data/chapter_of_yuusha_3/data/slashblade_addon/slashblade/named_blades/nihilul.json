@@ -1,0 +1,43 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+    }
+  ],
+  "name": "slashblade_addon:nihilul",
+  "properties": {
+    "attack_base": 44.0,
+    "max_damage": 88,
+    "slash_art": "prinegorerouse:burning_fire_sa",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/nihil/nihil.obj",
+	"summon_sword_color": 8651304,
+    "texture": "slashblade_addon:model/nihil/nihilul.png"
+  }
+}

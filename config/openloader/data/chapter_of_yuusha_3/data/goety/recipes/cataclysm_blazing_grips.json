@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "artifacts:fire_gauntlet"
+  },
+  "craftType": "forge",
+  "soulCost": 8000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "eeeabsmobs:ancient_drive_crystal"
+    },
+    {
+      "item": "eeeabsmobs:ancient_drive_crystal"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    }
+  ],
+  "result": {
+    "item": "cataclysm:blazing_grips"
+  }
+}

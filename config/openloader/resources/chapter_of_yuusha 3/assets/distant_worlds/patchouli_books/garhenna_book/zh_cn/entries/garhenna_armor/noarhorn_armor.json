@@ -1,0 +1,29 @@
+{
+	"name": "诺翰壬兽盔甲",
+	"icon": "distant_worlds:noarhorn_armor_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 5,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "用这些尖刺和其他材料，你可以制作诺翰壬兽盔甲。如果有机会，根据所穿盔甲的数量，它会对攻击者造成伤害，类似于荆棘附魔。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_helmet_recipe",
+			"recipe2": "distant_worlds:noarhorn_chestplate_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_leggings_recipe",
+			"recipe2": "distant_worlds:noarhorn_boots_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_mobs/noarhorns"
+			]
+		}
+	]
+}

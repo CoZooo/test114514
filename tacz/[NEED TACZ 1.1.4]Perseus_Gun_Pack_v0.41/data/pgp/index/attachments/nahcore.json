@@ -1,0 +1,6 @@
+{
+  "name": "pgp.attachment.nahcore.name",
+  "display": "pgp:nahcore_display",
+  "data": "pgp:nahcore_data",
+  "type": "extended_mag"
+}

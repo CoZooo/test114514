@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "depthcrawler:ancientinjector"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "depthcrawler:ancientinjector"
+}

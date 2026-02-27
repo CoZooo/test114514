@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:soul_book",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.6,
+  "ingredients": [
+    {
+      "item": "grimoireofgaia:book_of_memory"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "artifacts:chorus_totem"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    }
+  ]
+}

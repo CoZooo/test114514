@@ -1,0 +1,39 @@
+
+{
+	"content": {
+
+        "shepherd_obj_loom": {
+            "type": "item",
+            "content": "minecraft:loom",
+            "amount": {
+                "min": 4,
+                "max": 8
+            },
+            "unitWorth": 500
+        },
+
+        "shepherd_obj_wool_random": {
+            "type": "item",
+            "content": "#minecraft:wool",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 350,
+            "weightMult": 6.0
+        },
+
+        "shepherd_obj_wool_wildcard": {
+            "type": "item_tag",
+            "content": "minecraft:wool",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 350,
+            "weightMult": 4.0
+        }
+
+	}
+
+}

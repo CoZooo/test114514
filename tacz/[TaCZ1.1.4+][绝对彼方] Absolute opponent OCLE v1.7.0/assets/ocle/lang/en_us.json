@@ -1,0 +1,77 @@
+{
+  "pack.ocle.ocle_default_gun.name": "§4OCLE",
+  "pack.ocle.ocle_default_gun.desc": "§4······",
+
+  "ocle.gun.cyhx.name": "§6Dimensional Stars NO.1100MAX【Lncomplete】",
+  "ocle.gun.cyhx.desc": "---",
+
+  "ocle.gun.locjm.name": "§6Dimensional Annihilation NO.1400MAX",
+  "ocle.gun.locjm.desc": "The energy orbit projectile is an extremely crazy main gun, please choose your target carefully.",
+
+  "ocle.gun.ochx.name": "§4Fixed star NO.1100",
+  "ocle.gun.ochx.desc": "When the energy orbit focusing mechanism is aimed, please close your eyes and wait for fate to come.",
+
+  "ocle.gun.ocjf.name": "§4Hurricane NO.1200",
+  "ocle.gun.ocjf.desc": "Energy splitting machines emit dense energy particles and are commonly used to intercept large quantities of missiles.",
+
+  "ocle.gun.ocrm.name": "§4Dusk NO.1300",
+  "ocle.gun.ocrm.desc": "Energy focused mechanical large aperture, one shot per second. That's right, this is a sniper.",
+
+  "ocle.gun.ocjm.name": "§4Annihilate NO.1400",
+  "ocle.gun.ocjm.desc": "The energy orbit ejection mechanism is designed with the concept of precise destruction.",
+
+  "ocle.gun.ocml.name": "§4Dead end NO.1500",
+  "ocle.gun.ocml.desc": "The energy splitting mechanism is powerful and precise, but it has not yet reached its limit.",
+  
+  "ocle.gun.oczj.name": "§4End NO.1600",
+  "ocle.gun.oczj.desc": "Energy orbit focusing machinery can penetrate almost all armor.",
+    
+  "ocle.gun.ockj.name": "§4Resist NO.1700",
+  "ocle.gun.ockj.desc": "Energy throwing machines are very violent, perhaps leveling cities is their goal.",
+      
+  "ocle.gun.ocmj.name": "§4Extinction NO.1800",
+  "ocle.gun.ocmj.desc": "The energy ejection mechanism is just another way of redemption.",
+
+  "ocle.gun.oclm.name": "§4The curtain falls NO.1900",
+  "ocle.gun.oclm.desc": "The most common six tube robotic arm weapon in energy splitting machinery can handle almost all scenarios.",
+
+  "ocle.gun.ocwj.name": "§4Don't get close NO.2000",
+  "ocle.gun.ocwj.desc": "The literal meaning of energy diffusion machinery is, please do not approach! Otherwise, the consequences will be borne by oneself.",
+
+  "ocle.gun.hx2.name": "§aFixed star NO.1010【Lncomplete】",
+  "ocle.gun.hx2.desc": "---",
+
+  "ocle.gun.jf2.name": "§aHurricane NO.1020【Lncomplete】",
+  "ocle.gun.jf2.desc": "---",
+
+  "ocle.gun.cngdp.name": "§aMagnetic energy focused railgun【Lncomplete】",
+  "ocle.gun.cngdp.desc": "§a---",
+
+  "ocle.ammo.cybj_ammo.name": "§6Dimensional markers",
+  "ocle.ammo.cybj_ammo.desc": "You can use this to find and enter the entrance of another dimension, but it is not for human use.",
+  "ocle.ammo.oc_ammo.name": "§4Extremely focused solid-state energy",
+  "ocle.ammo.oc_ammo.desc": "A limiting device suppresses the focused solid-state energy to the extreme, and seeing it will have an invisible force urging you to touch it.",
+  "ocle.ammo.ec_ammo.name": "§aFocusing on Solid State Energy",
+  "ocle.ammo.ec_ammo.desc": "A limiting device suppresses the focused solid-state energy, and upon seeing it, there is an invisible force that restricts you from looking away.",
+
+  "ocle.ammo.x.name": "§6U2-Light Data Board [A letter from the author]",
+  "ocle.ammo.x.desc": "Author Ziyin Seventeen sends his greetings to you. If you have any bugs or suggestions, you can send me a private message on BiliBili.\nThe value of this gun bag refuses to be balanced. Please do not ask the author to balance the value! Please modify it yourself if necessary\nThe author is Chinese. There may be translation errors, please forgive me.\nThank you for patiently reading this. Finally, the author wishes you a happy life and a great time.",
+  "ocle.ammo.x2.name": "§6U2-Light Data Board [Precautions]",
+  "ocle.ammo.x2.desc": "Please do not use some of the weapons in this gun pack to attack entities that cannot be killed, such as dummies, as this may cause serious lag!\nThe gun pack is developed using Minecraft 1.20.1 Forge version, and compatibility with other Minecraft versions is unknown\nMost of the weapons in this gun pack have powerful explosive effects, please do not use them at the base! It's possible to level your base with one blow! The author is not responsible for the accidental explosion\nDo not use this gun pack weapon for PVP! Do you want a weapon that can make the guardian owe you 18 lives to hit you? If you think it's possible, it's not impossible",
+  "ocle.ammo.x3.name": "§4U2-Light Data Board [Permission Description]",
+  "ocle.ammo.x3.desc": "Please note that all beta versions are prohibited from any form of dissemination!\nIt is prohibited to use any content of this gun pack for commercial purposes. If you pay to obtain the official version of the gun pack resources or obtain the beta version of the gun pack resources outside of the author's love power generation, please report to the author!\nUnauthorized use of this gun bag model and art assets is prohibited!\nThe above 3 terms violate this gun pack and will be permanently changed to internal testing for acquisition! If you cannot comply, please remove this gun bag!\nPlease do not use this gun pack weapon for PVP on servers that are open to the public\nAllow the official version of this gun pack to be added to the integration package, but not for commercial use. No authorization is required, but the author must be indicated\nAny commercial disputes arising from the insistence on commercial use are not related to the author of this gun pack!",
+
+  "ocle.block.fzj_table": "§6U2-Dimension Clone Machine",
+  "ocle.block.fzj_table.desc": "§6[Production Platform] [Terminal]\n§7It requires a large amount of energy to break down and reconstruct the basic particles of matter. Copy any item that is identical to the data and has no defects.",
+
+  "ocle.ammo.cylf.name": "§6Dimensional Cube",
+  "ocle.ammo.cylf.desc": "§6[Material]\n§7The product formed by the collapse of a large amount of metal is still in an unstable state, and do not attempt to understand its extreme danger.",
+  "ocle.ammo.cyjjhx.name": "§6Dimension focuses on the core",
+  "ocle.ammo.cyjjhx.desc": "§6[Material]\n§7There are many unknown floating structures, but the aggregated energy is enough to easily destroy a city.",
+  "ocle.ammo.nlfsmk.name": "§4Energy focused core",
+  "ocle.ammo.nlfsmk.desc": "§4[Material]\n§7The core components of weapons require special machines to manufacture, so be careful not to unleash the powerful solid-state energy inside the core.",
+  "ocle.ammo.yvdtsj.name": "§4Exotic conductor crystal square",
+  "ocle.ammo.yvdtsj.desc": "§4[Material]\n§7It will not break or leak stored energy and has an infinite transmission rate, and the amount of energy it can store is incalculable.",
+  "ocle.ammo.jxyvjs.name": "§4Extreme exotic metals",
+  "ocle.ammo.jxyvjs.desc": "§4[Material]\n§7Almost weightless but with unimaginable hardness. Watching it feels like it's gradually being dragged into an abyss."
+}

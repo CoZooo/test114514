@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "arcalis_bosses:cursed_cloth_shard"
+  },
+  "base": {
+    "item": "hmag:ancient_shield"
+  },
+  "result": {
+    "item": "shieldexp:paragon_shield"
+  },
+  "template": {
+    "item": "wizards_reborn:petals_of_innocence"
+  }
+}

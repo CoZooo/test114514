@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAPON": { "love": 800 },
+	"INTERACT": { "love": 800 }
+  },
+  "negative_effect": 
+    { 
+	"apotheosis_modern_ragnarok:freeze": 4, 
+	"aetherworks:pulldown": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

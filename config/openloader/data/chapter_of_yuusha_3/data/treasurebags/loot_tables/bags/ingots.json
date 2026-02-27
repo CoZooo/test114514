@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_armorer"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_butcher"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_cartographer"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_desert_house"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_fisher"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_fletcher"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_mason"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_plains_house"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_savanna_house"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_shepherd"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_snowy_house"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_taiga_house"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_tannery"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_temple"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_toolsmith"
+        },
+		{
+          "type": "minecraft:loot_table",
+		  "weight": 1,
+          "name": "minecraft:chests/village/village_weaponsmith"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/ingots"
+}

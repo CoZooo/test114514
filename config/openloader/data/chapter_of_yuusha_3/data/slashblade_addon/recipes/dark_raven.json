@@ -1,0 +1,29 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:dark_raven",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade"
+    },
+    "F": {
+      "item": "eidolon:raven_feather"
+    },
+    "Q": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "S": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    " FQ",
+    "SQ ",
+    "B  "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

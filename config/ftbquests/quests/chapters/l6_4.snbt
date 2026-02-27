@@ -1,0 +1,751 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_4"
+	group: "4D78AB976801888E"
+	icon: "metalbarrels:crystal_barrel"
+	id: "5946950EF26A2954"
+	images: [
+		{
+			alpha: 128
+			color: 5407967
+			height: 10.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			alpha: 180
+			height: 22.0d
+			image: "yuusha:textures/mahou_1.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.4d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 23.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 16.9d
+			x: 2.5d
+			y: 8.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["可升级为各种各样的[金属桶]。"]
+			id: "74BA6DDA803DED34"
+			rewards: [{
+				id: "78592A3AD438C843"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0ADDB843E572B0D1"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65526C0EDBBC8DBF"]
+			description: ["可制作。"]
+			id: "309A09D92ECFAC19"
+			rewards: [{
+				id: "635D76429CA83158"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26D5CD95A1450E24"
+				item: "metalbarrels:netherite_barrel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CFFB9742A66B82A"]
+			description: ["可制作。"]
+			id: "19BB6413A992413E"
+			rewards: [{
+				id: "3D1F2CA5A3758C5A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0293037F3C77FCDE"
+				item: "metalbarrels:diamond_barrel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19BB6413A992413E"]
+			description: ["可制作。"]
+			id: "65526C0EDBBC8DBF"
+			rewards: [{
+				id: "4A1199D07AED9A4B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "791C144C840FA849"
+				item: "metalbarrels:obsidian_barrel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F3330ABB91E4F1D"]
+			description: ["可制作。"]
+			id: "1CFFB9742A66B82A"
+			rewards: [{
+				id: "12CB3E57A9EFCF6D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "010DE6BB33199268"
+				item: "metalbarrels:gold_barrel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74BA6DDA803DED34"]
+			description: ["可制作。"]
+			id: "7F3330ABB91E4F1D"
+			rewards: [{
+				id: "204B06DFF0B66997"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79CDF57F3AA4A5E8"
+				item: "metalbarrels:iron_barrel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19BB6413A992413E"]
+			description: ["可制作。"]
+			id: "6C505B5A532196C4"
+			rewards: [{
+				id: "708B0A043A4EB4E0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13ED96897620BCB0"
+				item: "metalbarrels:crystal_barrel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175274E19561A846"]
+			description: [
+				"可拾取范围内的物品，有黑白名单。"
+				""
+				"&6需在其下方放置存储容器。"
+			]
+			id: "6DF5F6EBB3FE7428"
+			rewards: [{
+				id: "29435A60E576849A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "101B79104CCF90E2"
+				item: "itemcollectors:advanced_collector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74BA6DDA803DED34"]
+			description: [
+				"更为高级的背包，有多种升级，如可直接拾取物品进背包等。"
+				""
+				"&e背包升级时里面物品仍保留。"
+				""
+				"&6你知道吗？手持装有卸货升级的背包，对着任意存储容器，按住Shift+右击可将背包物品直接存储到里面。配合磁铁升级收集各种掉落物，从此解放玩家物品栏。"
+				""
+				"&c身上有过多背包时会减速。"
+				""
+				"&2新增卸货升级的背包潜行右击可以直接往访问器里存入物品。"
+				""
+				"&3物品无法堆叠时，可通过背包左侧自带的整理按键整理，可将其堆叠。"
+			]
+			hide_dependency_lines: true
+			id: "3011948EA6907E98"
+			rewards: [{
+				id: "2E420E2F12942F3C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&9Sophisticated Backpacks"
+			tasks: [{
+				id: "01D67875CBF4DC9A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3011948EA6907E98"]
+			description: [
+				"给背包加升级模块不会清除背包的物品。"
+				""
+				"&6疣猪兽精皮只要主手持有任意农夫乐事的小刀，然后用任意方式击杀疣猪兽即可获得。"
+				""
+				"&e[经验泵升级]合成表里的永恒智慧卷轴和英雄之章不会消耗。"
+			]
+			id: "5317519AC0BF670B"
+			rewards: [{
+				id: "59B4706B89E8067E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40D0ABD0097499D5"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3011948EA6907E98"]
+			description: [
+				"可拾取范围内的物品。"
+				""
+				"&6需在其下方放置存储容器。"
+			]
+			hide_dependency_lines: true
+			id: "175274E19561A846"
+			rewards: [{
+				id: "244F8A71D086472D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01F03BA56E51C789"
+				item: "itemcollectors:basic_collector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: ["可制作。还可升级为磁铁升级。"]
+			id: "2FF650A46343598D"
+			rewards: [{
+				id: "05C50809134CCF48"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51829D629DE26D28"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: [
+				"可制作。"
+				""
+				"&c玩家无法右击进食的食物，可通过该升级从背包进食。"
+			]
+			id: "765E0D9DA84D81C9"
+			rewards: [{
+				id: "6C79CC317B8C2FED"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D6FD0EFE482618F"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: ["可制作。可以给玩家补充死灵图腾、不死图腾等。"]
+			id: "7B7B426EA10422FD"
+			rewards: [{
+				id: "48021834B77E6F2D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2774804398678D41"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: [
+				"可制作。"
+				""
+				"&c一次性放入两个堆叠的储罐升级会导致游戏崩溃。"
+			]
+			id: "4B440A31FEA97B61"
+			rewards: [{
+				id: "0A8E6A20CFD7F778"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B4907519895CB8E"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74BA6DDA803DED34"]
+			description: ["可直接制作。也可利用各种[桶升级]去升级。"]
+			id: "5A2D300A9606FE29"
+			rewards: [{
+				id: "1A9283F1B94C0E27"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18D91C979C4A7FC9"
+				item: "metalbarrels:copper_barrel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: [
+				"可制作。"
+				""
+				"&6你知道吗？手持装有卸货升级的背包，对着任意存储容器，按住Shift+右击可将背包物品直接存储到里面。配合磁铁升级收集各种掉落物，从此解放玩家物品栏。"
+			]
+			id: "25F37542D7E83CBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "776F8BFF6703F9DC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34ADF6775FBF3BCB"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["268F470FD7EE59E0"]
+			description: [
+				"无限增幅卡：放入[次元访问点]，即可无限距离、同一维度打开存储网络。"
+				""
+				"无限维度增幅卡：放入[次元访问点]，即可无限距离、无视维度打开存储网络。"
+				""
+				"&6上述都需要存储网络所在区块强制加载。"
+				""
+				"&c可用FTB地图加载区块。"
+			]
+			id: "39F49C9821ED3C95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3788A43810CEBF0C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "26AFBD70BCC42BD6"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "6F78CAD50F3546F2"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12419FE3EAF4EB55"]
+			description: [
+				"即精致存储的合成终端。"
+				""
+				"&c你知道吗？在JEI或终端中搜索“@模组英文名称”，可显示该模组所有物品。"
+				""
+				"&6你知道吗？在JEI或终端中搜索“#腰带”，可显示所有具有“腰带”文字说明的物品。"
+				""
+				"&e部分冲突的合成，只能用原版类型的工作台进行切换合成。"
+				""
+				"&2新增卸货升级的背包潜行右击可以直接往访问器里存入物品。"
+				""
+				"&3你知道吗？打开合成访问器界面，按JEI合成表上的+号可将材料转移到合成访问器处快捷合成，再按住Shift+滚轮下滑，可将材料取出到玩家物品栏内。"
+			]
+			id: "2CE4AA72C6388805"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16FEAB6C92A1247D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AFF54B3770A437E"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12419FE3EAF4EB55"]
+			description: ["往里放置[次元存储芯盒]来为网络提供存储空间。"]
+			id: "1639BFA4390FC082"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E5351083B395BDD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09067EF7A5E7E114"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3011948EA6907E98"]
+			description: [
+				"作为次元存储网络的中枢结构，具有无限的能源。一个存储网络有且只有一个[次元存储稳定器]。"
+				""
+				"{image:yuusha:textures/renwu_rs.png width:150 height:105 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "12419FE3EAF4EB55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60A3F855CDC2FC0C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "634CDA69D882B26D"
+				item: "refinedstorage:creative_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12419FE3EAF4EB55"]
+			description: [
+				"将[次元访问点]放置与精致存储的存储网络相连，可构建无线网络。之后将[次元合成访问器]右击绑定方块形式的[合成访问器]，即可远距离访问存储网络。"
+				""
+				"&c需加载区块，可用FTB地图加载区块。"
+			]
+			id: "268F470FD7EE59E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79F9F7ED0B4CEE5C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "459B8F9DCDB266A6"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1639BFA4390FC082"]
+			description: [
+				"放置在[次元存储促动器]中。1个64k次元存储芯盒最多存储64000个物品。"
+				""
+				"&e钻石桶、黑曜石桶和下界合金桶可在切石机中分别制作1k、4k、16k的次元存储芯。"
+				""
+				"&c新增「无限次元存储芯盒」小几率在发明悬赏内出现，该悬赏为史诗级，悬赏板的等级越高，出现几率越高。"
+			]
+			id: "42FFB5C68179A6CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EB2A051513900F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E569A9CAC5F78BD"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12419FE3EAF4EB55"]
+			description: [
+				"连接到容器时，可将各种存储容器内的东西输入到精致存储内。"
+				""
+				"&6你知道吗？手持装有卸货升级的背包，对着任意存储容器，按住Shift+右击可将背包物品直接存储到里面。配合磁铁升级收集各种掉落物，从此解放玩家物品栏。"
+				""
+				"&e还可以选择直接把背包放在地上，然后用输入连接器，直接把背包内的物品输入到精致存储内。"
+			]
+			id: "1ABB32801A42A22B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79CBA45648D4F0F4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C726E999902E060"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["268F470FD7EE59E0"]
+			description: ["即精致存储的高级无线终端。需配合[次元访问点]使用。"]
+			id: "2F4DCEF69780205D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BE70203759DA251"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E6AD43B888F19FC"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5317519AC0BF670B"]
+			description: [
+				"湮灭基石只可通过开「地牢宝藏袋」几率获得。"
+				""
+				"&6带有虚空升级的背包可以放在地上，从而充当垃圾桶。"
+			]
+			id: "2CEFF4837718B1B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18296399D3B5761F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FB906DD50221AC4"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE4AA72C6388805"]
+			description: [
+				"网卡：对准一个[网络接收器]按Shift右击标记位置，再放置在一个[网络变送器]内，即可把[网络接收器]和[网络变送器]连接。"
+				""
+				"权限卡：是通过右键单击与玩家绑定的项目；权限卡必须插入[权限管理器]中，也可以从那里进行配置。"
+			]
+			id: "1745BB0D5ADC591F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27953265405930D6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "此须弥线路非必须发展，可根据需要情况自行选择 "
+			tasks: [
+				{
+					id: "717C738308945434"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+				{
+					id: "48A1802515CC95F6"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1745BB0D5ADC591F"]
+			description: ["[权限管理器]是一个可以存储权限卡的方块。从它的GUI，你可以配置与权限卡绑定的每个玩家有什么权限。一旦[权限卡]插入顶部插槽，该玩家的权限将仅限于配置的权限。"]
+			id: "67F5CB5DCE314F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD0ECCC5AB22D01"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2161A5B80A55F2AE"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1745BB0D5ADC591F"]
+			description: ["通过往里放置绑定了[网络接收器]位置的[网卡]发出信号给[网络接收器]。与网络接收器连接时所在区块需要被加载。放置空间升级后可以跨维度发送信号。"]
+			id: "572501A946906E3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F616F121F98E88"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59C461FB90E90C4A"
+				item: "refinedstorage:network_transmitter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["572501A946906E3A"]
+			description: ["接受来自[网络变送器]的信号。"]
+			id: "761533BDF2AB5939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74781CD7BB6CE36B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BE1809037067FDA"
+				item: "refinedstorage:network_receiver"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["42FFB5C68179A6CB"]
+			description: ["可以进行某些自动化操作。"]
+			id: "29B87764B4319168"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "239A925FA25C0186"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "61C68A1D19941333"
+					item: "refinedstorage:pattern"
+					type: "item"
+				}
+				{
+					id: "5B55D48C60CB48B1"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					id: "2B4D04459F870EC0"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+				{
+					id: "2C82DE54AB0EA1B8"
+					item: "refinedstorage:crafting_monitor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39F49C9821ED3C95"]
+			description: ["还可以进一步升级为对应的磁铁升级。"]
+			id: "3EE27571E26EA6AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0493E69801308BA7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "544AD9DE3A008BD9"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:rs_pickup_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "173D67861DA925DE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "sophisticatedbackpacks:rs_magnet_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.0d
+		}
+	]
+	subtitle: ["&9『存储』"]
+	title: "&6※ 须弥"
+}

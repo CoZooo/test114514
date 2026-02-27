@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "endrem:magical_eye"
+    },
+    {
+      "item": "distant_worlds:charged_wither_totem"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    }
+  ],
+  "result": {
+    "item": "endrem:wither_eye"
+  }
+}
+
+

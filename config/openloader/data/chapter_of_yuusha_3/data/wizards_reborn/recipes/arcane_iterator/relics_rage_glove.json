@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "relics:rage_glove",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "relics:wool_mitten"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "distant_worlds:module_raging_spark"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    },
+    {
+      "item": "irons_spellbooks:energized_core"
+    },
+    {
+      "item": "yuusha:orichalcum"
+    }
+  ]
+}

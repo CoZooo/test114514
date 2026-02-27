@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "avaritia:skull_fire_sword"
+  },
+  "craftType": "forge",
+  "soulCost": 400,
+  "duration": 20,
+  "research": "warred",
+  "ingredients": [
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+    },
+    {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+    },
+    {
+      "item": "faded_conquest_2:abyssal_device"
+    },
+    {
+      "item": "yuusha:ignitium_star"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    }
+  ],
+  "result": {
+    "item": "aquamirae:divider"
+  }
+}

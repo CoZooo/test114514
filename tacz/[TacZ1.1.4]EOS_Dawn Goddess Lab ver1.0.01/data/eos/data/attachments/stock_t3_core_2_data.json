@@ -1,0 +1,6 @@
+{
+  "weight": 10,
+  "inaccuracy": {
+    "multiplier": 0.1
+  }
+}

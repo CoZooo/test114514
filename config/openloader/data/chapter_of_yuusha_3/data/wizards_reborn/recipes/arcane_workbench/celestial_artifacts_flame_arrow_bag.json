@@ -1,0 +1,28 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB",
+    "DDDD"
+  ],
+  "key": {
+    "B": {
+      "item": "cataclysm:witherite_block"
+    },
+    "A": {
+      "item": "celestial_artifacts:spirit_arrow_bag"
+    },
+    "C": {
+      "item": "malum:block_of_blazing_quartz"
+    },
+    "D": {
+      "item": "luminous_halloween:halloween_ingot"
+    }
+  },
+  "output": {
+    "item": "celestial_artifacts:flame_arrow_bag",
+    "count": 1
+  },
+  "wissen": 1000
+}

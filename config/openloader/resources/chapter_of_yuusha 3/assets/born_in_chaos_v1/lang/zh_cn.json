@@ -1,0 +1,24 @@
+{
+	"item.born_in_chaos_v1.krampus_spawn_egg": "暗影坎普斯刷怪蛋",
+	"entity.born_in_chaos_v1.krampus": "暗影坎普斯",
+
+	"entity.born_in_chaos_v1.pumpkinhead": "南瓜伯爵头部",
+	"effect.born_in_chaos_v1.block_break": "格挡破碎",
+	
+	"item.born_in_chaos_v1.spiritual_dust": "魔魂尘",
+	"item.born_in_chaos_v1.transmuting_elixir": "§b转化灵药",
+	"advancements.infernal_hatman.descr": "获得一顶狱火暗域领主的帽子",
+	"advancements.pumpkin_lord.descr": "杀死一只狱火暗域领主",
+	"entity.born_in_chaos_v1.lord_pumpkinhead_head": "§a狱火暗域领主灵颅",
+	"entity.born_in_chaos_v1.lord_pumpkinhead_withouta_horse": "§a狱火暗域领主（下马形态）",
+	"entity.born_in_chaos_v1.lord_pumpkinhead": "§a狱火暗域领主（骑马形态）",
+	"entity.born_in_chaos_v1.lord_the_headless": "§a狱火暗域领主灵体",
+	"item.born_in_chaos_v1.lord_pumpkinhead_head_spawn_egg": "§a狱火暗域领主灵颅刷怪蛋",
+	"item.born_in_chaos_v1.lord_pumpkinhead_icon": "狱火暗域领主-图标",
+	"item.born_in_chaos_v1.lord_pumpkinhead_spawn_egg": "§a骑马的狱火暗域领主刷怪蛋",
+	"item.born_in_chaos_v1.lord_pumpkinhead_withouta_horse_spawn_egg": "§a狱火暗域领主刷怪蛋",
+	"item.born_in_chaos_v1.lord_pumpkinheads_empty_lamp": "空的狱火暗域领主灯笼",
+	"item.born_in_chaos_v1.lord_pumpkinheads_hat_helmet": "§6狱火暗域领主帽",
+	"item.born_in_chaos_v1.lord_pumpkinheads_lamp": "§a狱火暗域领主灯笼",
+	"item.born_in_chaos_v1.lord_the_headless_spawn_egg": "§a狱火暗域领主灵体刷怪蛋"
+}

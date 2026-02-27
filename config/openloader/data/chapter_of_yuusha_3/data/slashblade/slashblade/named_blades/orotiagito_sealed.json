@@ -1,0 +1,19 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:orotiagito_sealed",
+  "properties": {
+    "attack_base": 33.0,
+    "max_damage": 66,
+    "slash_art": "slashblade:wave_edge"
+  },
+  "render": {
+    "model": "slashblade:model/named/agito.obj",
+	"summon_sword_color": 5517380,
+    "texture": "slashblade:model/named/agito_true.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"name": "瓦琍斯工具",
+	"icon": "distant_worlds:vairis_sword",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 3,
+	"advancement": "distant_worlds:living_metal",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_sword",
+			"text": "一把灵活的双刃瓦里斯剑可以让你快速对敌人造成伤害，并可以对他们施加粘性枷锁效果。$(br)可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)瓦琍斯晶体$(o) [Main]$()$(li)瓦琍斯晶体 $(o)[x3]$()$(li)木棍 $(o)[x2]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/vairis",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

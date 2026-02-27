@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    }
+  ],
+  "result": {
+    "item": "goety:nether_staff"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "goety:crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1876543456,
+    "spacing": 60,
+    "separation": 20,
+    "exclusion_zone": {
+      "other_set": "minecraft:mineshafts",
+      "chunk_count": 5
+    },
+    "spread_type": "triangular",
+    "type": "minecraft:random_spread"
+  }
+}

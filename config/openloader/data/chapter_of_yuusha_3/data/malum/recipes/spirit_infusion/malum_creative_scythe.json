@@ -1,0 +1,62 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "yuusha:falling_ender_pear"
+    },
+    {
+      "count": 4,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 4,
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "count": 4,
+      "item": "enigmaticlegacy:evil_ingot"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:edge_of_deliverance"
+  },
+  "output": {
+    "item": "malum:creative_scythe"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 64
+    },
+    {
+      "type": "wicked",
+      "count": 64
+    },
+    {
+      "type": "sacred",
+      "count": 64
+    },
+    {
+      "type": "arcane",
+      "count": 64
+    },
+    {
+      "type": "aerial",
+      "count": 64
+    },
+    {
+      "type": "aqueous",
+      "count": 64
+    },
+    {
+      "type": "earthen",
+      "count": 64
+    },
+    {
+      "type": "infernal",
+      "count": 64
+    }
+  ]
+}

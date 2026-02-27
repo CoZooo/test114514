@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": { "fantasy": 100 },
+	"INTERACT": { "fantasy": 100 }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 128
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 28
+    },
+    {
+      "item": {
+        "item": "stalwart_dungeons:void_crystal"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:orichalcum"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "ocle:yvdtsj"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ocle:ockj"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

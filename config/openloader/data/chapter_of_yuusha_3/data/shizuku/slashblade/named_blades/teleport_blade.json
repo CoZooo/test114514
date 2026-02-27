@@ -1,0 +1,41 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 15
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:teleport_blade",
+  "properties": {
+    "attack_base": 22.0,
+    "max_damage": 550,
+    "slash_art": "shizuku:teleport_slash",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 16711935,
+    "texture": "shizuku:model/shizuku/blue.png"
+  }
+}
+
+

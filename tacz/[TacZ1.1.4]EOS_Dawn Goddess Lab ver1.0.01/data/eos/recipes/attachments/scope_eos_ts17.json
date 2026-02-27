@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:glass"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_eos_ts17"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

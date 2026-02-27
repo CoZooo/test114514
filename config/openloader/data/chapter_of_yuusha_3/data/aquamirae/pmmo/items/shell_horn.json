@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": { "love": 200 },
+	"INTERACT": { "love": 200 }
+  }
+}

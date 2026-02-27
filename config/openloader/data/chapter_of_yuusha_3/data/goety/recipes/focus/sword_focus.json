@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "magic",
+  "soulCost": 150,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "moonstone:wind_and_rain"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "item": "goety:sword_focus"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "moonstone:ectoplasmstar",
+    "count": 1
+  },
+  "wissen": 2500,
+  "ingredients": [
+    {
+      "item": "celestial_core:pure_nether_star"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    }
+  ]
+}

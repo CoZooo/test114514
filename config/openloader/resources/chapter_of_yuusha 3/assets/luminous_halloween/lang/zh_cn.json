@@ -1,0 +1,32 @@
+{
+  "item.luminous_halloween.pumpkin_helmet_helmet": "§d哀木§d头盔",
+  "item.luminous_halloween.halloween_ingot": "哀木锭",
+
+  "entity.luminous_halloween.horseless_headsman": "南瓜月魂怨领主",
+
+
+
+
+  "block.luminous_halloween.moonstone_bricks": "§d南瓜月石§d砖",
+  "gamerule.doFullMoonWarning": "Full Moon Warning",
+  "block.luminous_halloween.moonstone_brick_wall": "§d南瓜月§d石砖§d墙",
+
+  "item.luminous_halloween.pumpkin_minion_spawn_egg": "南瓜月魂怨领主仆从刷怪蛋",
+  "item.luminous_halloween.spooky_apple": "南瓜月苹果",
+  "item.luminous_halloween.spooky_potion": "南瓜月药水",
+  "block.luminous_halloween.moonstone": "§d南瓜月石",
+  "item_group.luminous_halloween.luminous_halloween": "Luminous Halloween",
+
+  "block.luminous_halloween.moonstone_brick_stairs": "§d南瓜月石§d砖§d楼梯",
+  "item.luminous_halloween.moon_shard": "南瓜月碎片",
+  "entity.luminous_halloween.pumpkin_minion": "南瓜月魂怨领主仆从",
+
+
+  "gamerule.doFullMoonWarning.description": "decides if the player is told in the chat when a full moon rises",
+  "block.luminous_halloween.moonstone_brick_slab": "§d南瓜月石§d砖§d台阶",
+  "item.luminous_halloween.pumpkin_sword": "§d哀木§d剑",
+
+  "enchantment.luminous_halloween.lunar_edge": "月之边缘",
+  "enchantment.luminous_halloween.lunar_edge.desc": "拥有该附魔时，击杀生物可能会掉落南瓜月碎片",
+  "item.luminous_halloween.horseless_headsman_spawn_egg": "南瓜月魂怨领主刷怪蛋"
+}

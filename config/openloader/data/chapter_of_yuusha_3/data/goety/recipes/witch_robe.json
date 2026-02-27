@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:warlock_sash"
+  },
+  "craftType": "storm",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "hmag:ancient_stone_block"
+    },
+    {
+      "item": "hmag:ancient_stone_block"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    },
+    {
+      "item": "eidolon:wooden_brewing_stand"
+    }
+  ],
+  "result": {
+    "item": "goety:witch_robe"
+  }
+}

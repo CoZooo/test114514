@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  }],
+  "group": "something",
+  "pattern": [
+    "ANA",
+    "GEG",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "item": "yuusha:ancient_aether_shard"
+    },
+	"G": {
+      "item": "apotheosis:ancient_material"
+    },
+	"E": {
+      "item": "apotheosis:reforging_table"
+    },
+	"B": {
+      "item": "cataclysm:chiseled_end_stone_bricks"
+    },
+	"A": {
+      "item": "cataclysm:ignitium_ingot"
+    }
+  },
+  "result": {
+    "item": "ancientreforging:ancient_reforging_table",
+    "count": 1
+  }
+}

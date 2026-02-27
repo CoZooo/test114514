@@ -1,0 +1,39 @@
+{
+   "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 38
+    },
+    {
+      "item": {
+        "item": "embers:dawnstone_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "embers:archaic_circuit"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "moonstone:blood_jelly"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_draftsman_ev"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,32 @@
+{
+	"name": "布格琍怪",
+	"icon": "distant_worlds:ubricite_crystal",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 2,
+	"advancement": "distant_worlds:strong_shell",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "Booglian",
+			"item": "distant_worlds:booglian_spawn_egg",
+			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 6$(#660066)$(br)Attack: 4$()$(br)布格琍怪是一种地面怪物，有很好的保护作用，由幽比利塞晶体组成的外壳。如果你试图攻击他，他会躲在他那无法穿透的外壳里。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:ubricite_ingot_recipe",
+			"text": "从中你可以得到幽比利塞晶体，用于制作幽比利塞锭。"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/ubricite_tools",
+				"distant_worlds:garhenna_armor/ubricite_armor"
+			]
+		}
+	]
+}

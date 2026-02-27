@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "distant_worlds:burning_plains_monument_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 6,
+    "salt": 441875862
+  }
+}

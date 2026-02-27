@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "malum:gilded_belt",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.0,
+  "ingredients": [
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "yuusha:magic_dust"
+    },
+    {
+      "item": "malum:processed_soulstone"
+    },
+    {
+      "item": "netherdepthsupgrade:soul_sucker_leather"
+    },
+    {
+      "item": "netherdepthsupgrade:soul_sucker_leather"
+    },
+    {
+      "item": "netherdepthsupgrade:soul_sucker_leather"
+    }
+  ]
+}

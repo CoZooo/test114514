@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "cthulhufishing:ancient_coin": {
+            "salvageMax": 2,
+            "baseChance": 0.0,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.01
+            },
+            "levelReq": {
+                "smithing": 0
+            },
+            "xpPerItem": {
+                "smithing": 5000
+            }
+        }
+    }
+}

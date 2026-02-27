@@ -1,0 +1,14 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "forbidden_arcanus:soul" },
+    "outputs": [
+		{ "item": "forbidden_arcanus:corrupt_soul" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "hmag:ancient_stone_block" }, "count": 1 },
+        { "ingredient": { "item": "cataclysm:ancient_metal_block" }, "count": 1 },
+        { "ingredient": { "item": "wizards_reborn:distant_calx_block" }, "count": 1 },
+        { "ingredient": { "item": "depthcrawler:blockof_ancient_mechanism" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "embers:silver_ingot"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "embers:archaic_circuit"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_scgraves"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

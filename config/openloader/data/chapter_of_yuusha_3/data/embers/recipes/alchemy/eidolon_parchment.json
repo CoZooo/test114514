@@ -1,0 +1,32 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "embers:ash"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "output": {
+    "item": "eidolon:parchment",
+	"count": 4
+  },
+  "tablet": {
+    "item": "minecraft:leather"
+  }
+}

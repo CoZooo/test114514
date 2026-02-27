@@ -1,0 +1,31 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "aetherworks:gem_aether"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    },
+    {
+      "item": "aetherworks:gem_aether"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:aether_pearl"
+  },
+  "tablet": {
+    "item": "aetherworks:aether_amalgam"
+  }
+}

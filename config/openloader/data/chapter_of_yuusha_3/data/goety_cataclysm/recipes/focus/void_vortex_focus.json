@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "magic",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "cthulhufishing:drip_void"
+    },
+    {
+      "item": "cthulhufishing:drip_void"
+    },
+    {
+      "item": "cthulhufishing:drip_void"
+    },
+    {
+      "item": "cthulhufishing:drip_void"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:void_vortex_focus"
+  }
+}

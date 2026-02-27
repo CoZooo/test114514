@@ -1,0 +1,14 @@
+{
+  "type": "embers:melting",
+  "bonus": {
+    "amount": 0,
+    "fluid": "aetherworks:alchemic_precursor"
+  },
+  "input": {
+    "item": "embers:ancient_motive_core"
+  },
+  "output": {
+    "amount": 360,
+    "fluid": "aetherworks:alchemic_precursor"
+  }
+}

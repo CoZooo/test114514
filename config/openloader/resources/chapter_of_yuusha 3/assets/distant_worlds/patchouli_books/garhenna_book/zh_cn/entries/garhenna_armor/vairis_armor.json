@@ -1,0 +1,44 @@
+{
+	"name": "瓦琍斯盔甲",
+	"icon": "distant_worlds:vairis_helmet",
+	"category": "distant_worlds:garhenna_armor",
+	"sortnum": 3,
+	"advancement": "distant_worlds:living_metal",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "瓦琍斯晶体刚开始摸起来可能很软，但这种金属制成的盔甲非常擅长保持命中，同时减少托伦攻击和粘液枷锁效果的负面影响。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_helmet",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)钻石头盔$(o) [Main]$()$(li)瓦琍斯晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_chestplate",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)钻石胸甲$(o) [Main]$()$(li)瓦琍斯晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_leggings",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)钻石护腿$(o) [Main]$()$(li)瓦琍斯晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:vairis_boots",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)80 000 DE$() 和以下物品：$(li)钻石靴子$(o) [Main]$()$(li)瓦琍斯晶体 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)1000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/vairis",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "lossrate": 0.25,
+  "onlyblock": true,
+  "result": "minecraft:iron_ingot"
+}

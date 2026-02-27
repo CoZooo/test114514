@@ -1,0 +1,18 @@
+{
+  "type": "call_of_yucutan:ritual_transmutation",
+  "ingredients": [
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "call_of_yucutan:ah_puch_idol"
+    },
+    {
+      "item": "call_of_yucutan:jei_ah_puch"
+    }
+  ],
+  "output": {
+    "item": "call_of_yucutan:fragment_of_death",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"entity.goety_cataclysm.netherite_monstrosity": "「星焱」下界合金巨兽仆从",
+	"item.goety_cataclysm.netherite_monstrosity_spawn_egg": "「星焱」下界合金巨兽仆从刷怪蛋",
+
+	"entity.goety_cataclysm.ancient_remnant": "远古遗魂仆从",
+	"advancements.goety_cataclysm.convert_ancient_remnant.description": "把现世遗魂转化为远古遗魂仆从",
+	"entity.goety_cataclysm.wadjet": "瓦吉特仆从",
+
+  "entity.goety_cataclysm.aptrgangr": "冥行武弁仆从",
+  "entity.goety_cataclysm.coralssus": "珊瑚巨像仆从",
+  "entity.goety_cataclysm.coral_golem": "珊瑚傀儡仆从",
+
+  "entity.goety_cataclysm.ender_golem": "末影傀儡仆从",
+  "entity.goety_cataclysm.ignited_berserker": "炽燃狂魂仆从",
+  "entity.goety_cataclysm.ignited_revenant": "炽燃遗魂仆从",
+  "entity.goety_cataclysm.koboleton_servant": "骸龙仆从",
+  "entity.goety_cataclysm.kobolediator": "骸龙斗士仆从"
+}

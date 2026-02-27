@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "rsinfinitybooster:infinity_card"
+    }
+  ],
+  "result": [
+    {
+      "item": "rsinfinitybooster:dimension_card",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "item": "goety_revelation:dimensional_will"
+  }
+}

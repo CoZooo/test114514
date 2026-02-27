@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "yuusha:sirenhead_pearl"
+  },
+  "output": {
+    "item": "moonstone:cell_off_on",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 1
+    },
+    {
+      "type": "arcane",
+      "count": 1
+    },
+    {
+      "type": "wicked",
+      "count": 1
+    },
+    {
+      "type": "eldritch",
+      "count": 1
+    }
+  ]
+}

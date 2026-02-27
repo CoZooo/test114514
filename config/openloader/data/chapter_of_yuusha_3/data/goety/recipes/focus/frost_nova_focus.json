@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "frost",
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "irons_spellbooks:permafrost_shard"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "item": "reliquary:void_tear"
+    }
+  ],
+  "result": {
+    "item": "goety:frost_nova_focus"
+  }
+}

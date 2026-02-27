@@ -1,0 +1,71 @@
+{
+	"name": "诺翰壬兽",
+	"icon": "distant_worlds:noarhorn_spike",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 4,
+	"advancement": "distant_worlds:better_without_hugs",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "诺翰壬兽",
+			"item": "distant_worlds:noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 20$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 4$()$(br)诺翰壬兽是来自熔融山脉生物群系的地面怪物。这些怪物对玩家是中立的，当你打他们时会逃跑。从这些怪物那里，你可以得到可以烹饪的生肉。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "装甲诺翰壬兽",
+			"item": "distant_worlds:armored_noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 6$()$(br)有尖刺的诺翰壬兽会对玩家产生敌意。这些怪物的一个特点是背部生长有令人难以置信的强大尖刺。它们允许这些生物对攻击它们的敌人造成部分伤害。从这些怪物那里，你可以得到可以烹饪的生肉和它们的尖刺碎片。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "幼年诺翰壬兽",
+			"item": "distant_worlds:baby_noarhorn_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: Peaceful$()$(br)一个刚出生的诺翰壬兽变成真正的捕食者需要一段时间。目前，他们还无法自卫，将避免与你或其他生物发生冲突。随着它的成长，如果父母至少有一个是装甲的，它可以从父母那里获得装甲。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"advancement": "distant_worlds:experienced_mushroom_picker",
+			"title": "交互",
+			"text": "使用曲菈绯蘑菇，可以驯服诺翰壬兽，并提高被驯服的诺翰壬兽的生命值。使用曲菈绯蘑菇煲，你可以繁殖诺翰壬兽，也只能驯服装甲诺翰壬兽。驯服的诺翰壬兽可以使用诺翰壬兽尖刺武装。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:experienced_mushroom_picker",
+			"recipe": "distant_worlds:culafite_mushroom_on_a_stick_recipe",
+			"title": "曲菈绯蘑菇钓竿",
+			"text": "你可以骑着一只驯服的无刺诺翰壬兽，用曲菈绯蘑菇钓竿控制它。摇动诱饵以使得 诺翰壬兽$(t:RMB)$(o)攻击附近生物$() or $(t:Ctrl + RMB)$(o)暂时加速$()。这种工具也可以在熔融山脉生物群系的结构中找到。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_spikes_block_recipe",
+			"text": "诺翰壬兽尖刺也可以用来制作一个对附近所有实体造成伤害的方块。如果方块附近有熔岩，就会点燃受害者。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:noarhorn_gloves_recipe",
+			"text": "诺翰壬兽手套是可选的战斗配饰。当佩戴时，它们会增加一些护甲，略微降低你的攻击速度，并增加你的伤害。此外，与诺翰壬兽斧一样，它会略微增加迦塞尔果和威琍特果的掉落率。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:red_garsale_couch_recipe",
+			"text": "你可以制作一张舒适的坐垫，驯服的诺翰壬兽会在那里等你。$(br)它也可以被玩家使用，或者只是你家的一个很好的装饰，因为它可以像床一样染色"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:garsale_crate_recipe",
+			"text": "制作一个迦塞尔板条箱，带着驯服的幼年诺翰壬兽长途旅行，甚至前往其他世界。当你从板条箱中释放一只幼年诺翰壬兽时，你就成了它的拥有者。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_tools/noarhorn_tools",
+				"distant_worlds:garhenna_armor/noarhorn_armor",
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

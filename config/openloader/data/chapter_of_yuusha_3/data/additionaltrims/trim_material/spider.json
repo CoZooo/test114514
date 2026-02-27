@@ -1,0 +1,9 @@
+{
+  "asset_name": "spider",
+  "description": {
+    "color": "#11A036",
+    "translate": "trim_material.additionaltrims.spider"
+  },
+  "ingredient": "minecraft:spider_eye",
+  "item_model_index": 0.7
+}

@@ -1,0 +1,35 @@
+{
+  "type": "celestial_core:add_item",
+  "chance": "celestial_configs/celestial_artifacts-common.toml/materials.nihilityEtchingDropChance",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "celestial_artifacts:enabled",
+          "item": "celestial_artifacts:nihility_etching"
+        },
+        {
+          "condition": "celestial_artifacts:has_curio",
+          "item": "celestial_artifacts:catastrophe_scroll"
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "celestial_artifacts:has_curio",
+            "item": "celestial_artifacts:nihility_etching"
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "callfromthedepth_:agonysoul"
+      }
+    }
+  ],
+  "fail": "celestial_artifacts:nebula_cube",
+  "item": "celestial_artifacts:nihility_etching"
+}

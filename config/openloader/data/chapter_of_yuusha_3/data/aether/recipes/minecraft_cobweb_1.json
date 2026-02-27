@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "#minecraft:is_nether",
+  "ingredient": {
+    "block": "minecraft:cobweb"
+  },
+  "result": {
+    "block": "goety:spider_mother_den"
+  }
+}

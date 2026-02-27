@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "ENTITY_INTERACT": { "flying": 10 },
+    "RIDE": { "flying": 10 }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "cataclysm:ancient_metal_block"
+    },
+    "base": {
+        "item": "sons_of_sins:remnant_leggings"
+    },
+    "result": {
+        "item": "cataclysm:cursium_leggings"
+    },
+    "template": {
+        "item": "cataclysm:cursium_upgrade_smithing_template"
+    }
+}

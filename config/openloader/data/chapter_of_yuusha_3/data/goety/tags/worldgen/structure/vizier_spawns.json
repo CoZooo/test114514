@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "betterfortresses:fortress",
+	"netherdepthsupgrade:nether_fortress_piece",
+	"minecraft:ancient_city"
+  ]
+}

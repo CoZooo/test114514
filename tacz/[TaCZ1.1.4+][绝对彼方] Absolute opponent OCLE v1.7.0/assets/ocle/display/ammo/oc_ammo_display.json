@@ -1,0 +1,43 @@
+{
+  // 调用的模型，在包目录下的 models 文件夹中寻找
+  "model": "ocle:ammo/oc_ammo_geo",
+  // 渲染模型使用的材质
+  "texture": "ocle:ammo/uv/oc_ammo",
+  // GUI 格子中显示
+  "slot": "ocle:ammo/slot/oc_ammo",
+  // 子弹实体
+  "entity": {
+    // 模型
+    "model": "ocle:shell/oc_ammo_shell",
+    // 材质
+    "texture": "ocle:shell/oc_ammo_shell"
+  },
+  // 曳光弹颜色，没有则为 #FFFFFF
+  // 严格遵循 RGB 颜色代码
+  "tracer_color": "#FFFFFF",
+  // 调整各个视角下模型的变换参数，可为空
+  "transform": {
+    // 暂时只有缩放需要在这里指定，旋转和位移使用模型内定位组。
+    // 可以为空，若为空，则不缩放模型。
+    "scale": {
+      // 第三人称手部
+      "thirdperson": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      // 地面实体
+      "ground": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      // 展示框
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

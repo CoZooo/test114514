@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "awakened_bosses:herobrine_nugget": {
+            "salvageMax": 16,
+            "baseChance": 0.0,
+            "maxChance": 1.0,
+            "chancePerLevel": {
+                "smithing": 0.01
+            },
+            "levelReq": {
+                "smithing": 900
+            },
+            "xpPerItem": {
+                "smithing": 5000
+            }
+        }
+    }
+}

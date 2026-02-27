@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:dark_nether_star"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mg90"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

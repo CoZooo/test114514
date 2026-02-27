@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade_addon:murakumo",
+  "properties": {
+    "attack_base": 47.0,
+    "max_damage": 94,
+    "slash_art": "ak:windy_eyes",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/murakumo/model.obj",
+	"summon_sword_color": 2265021,
+    "texture": "slashblade_addon:model/murakumo/texture.png"
+  }
+}

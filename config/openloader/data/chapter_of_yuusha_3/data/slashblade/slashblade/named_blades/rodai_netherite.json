@@ -1,0 +1,23 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 15
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:rodai_netherite",
+  "properties": {
+    "attack_base": 29,
+    "max_damage": 58,
+    "slash_art": "ak:immortal"
+  },
+  "render": {
+    "carry_type": "default",
+	"summon_sword_color": 4927293,
+    "texture": "slashblade:model/rodai_netherite.png"
+  }
+}

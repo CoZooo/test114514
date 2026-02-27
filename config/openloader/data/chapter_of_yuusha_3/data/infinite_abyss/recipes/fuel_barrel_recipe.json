@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "distant_worlds:garsale_planks"
+    },
+    "B": {
+      "item": "metalbarrels:obsidian_barrel"
+    }
+  },
+  "result": {
+    "item": "infinite_abyss:fuel_barrel",
+    "count": 1
+  }
+}

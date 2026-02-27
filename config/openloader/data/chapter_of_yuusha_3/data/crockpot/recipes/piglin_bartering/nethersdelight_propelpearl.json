@@ -1,0 +1,77 @@
+{
+  "type": "crockpot:piglin_bartering",
+  "ingredient": {
+    "item": "nethersdelight:propelpearl"
+  },
+  "results": [
+    {
+      "count": {
+        "max": 16,
+        "min": 8
+      },
+      "item": "netherdepthsupgrade:warped_kelp",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 16,
+        "min": 8
+      },
+      "item": "netherdepthsupgrade:crimson_kelp",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 16,
+        "min": 8
+      },
+      "item": "netherdepthsupgrade:warped_seagrass",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 16,
+        "min": 8
+      },
+      "item": "netherdepthsupgrade:crimson_seagrass",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "netherdepthsupgrade:wet_lava_sponge",
+      "weight": 5
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "netherdepthsupgrade:eyeball",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 2,
+        "min": 1
+      },
+      "item": "netherdepthsupgrade:fortress_grouper_plate",
+      "weight": 10
+    },
+    {
+      "count": {
+        "max": 3,
+        "min": 1
+      },
+      "item": "netherdepthsupgrade:soul_sucker_leather",
+      "weight": 30
+    },
+    {
+      "count": 1,
+      "item": "enigmaticlegacy:golden_ring",
+      "weight": 5
+    }
+  ]
+}

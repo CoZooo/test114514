@@ -1,0 +1,29 @@
+{
+  "values": [
+    "confluence:toolbelt",
+    "confluence:toolbox",
+    "confluence:extendo_grip",
+    "confluence:portable_cement_mixer",
+    "confluence:brick_layer",
+    "confluence:architect_gizmo_pack",
+    "confluence:step_stool",
+    "confluence:ancient_chisel",
+    "confluence:treasure_magnet",
+    "cataclysm:sticky_gloves",
+    "artifacts:obsidian_skull",
+    "artifacts:helium_flamingo",
+    "artifacts:plastic_drinking_hat",
+    "artifacts:novelty_drinking_hat",
+    "artifacts:snorkel",
+    "artifacts:night_vision_goggles",
+    "artifacts:villager_hat",
+    "artifacts:superstitious_hat",
+    "artifacts:cowboy_hat",
+    "artifacts:lucky_scarf",
+    "artifacts:scarf_of_invisibility",
+    "artifacts:panic_necklace",
+    "artifacts:flame_pendant",
+    "artifacts:charm_of_sinking",
+    "artifacts:whoopee_cushion"
+  ]
+}

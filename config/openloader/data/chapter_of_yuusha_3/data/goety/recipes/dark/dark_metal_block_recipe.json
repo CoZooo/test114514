@@ -1,0 +1,18 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 2000,
+  "ingredients": [
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "goety:cursed_metal_block"
+    },
+    {
+      "item": "avaritia:neutron_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:dark_metal_block"
+  }
+}

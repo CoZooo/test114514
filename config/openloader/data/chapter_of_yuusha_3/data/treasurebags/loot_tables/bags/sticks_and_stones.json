@@ -1,0 +1,143 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 82,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:50ae\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 111,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:308\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 82,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:12g\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 285,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:556x45\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 428,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:9mm\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 300,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:45acp\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:50bmg\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 160,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:357mag\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:rpg_rocket\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:40mm\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 39,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:338\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 214,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AmmoId: \"tacz:762x39\"}"
+            }
+          ],
+          "name": "tacz:ammo"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/sticks_and_stones"
+}

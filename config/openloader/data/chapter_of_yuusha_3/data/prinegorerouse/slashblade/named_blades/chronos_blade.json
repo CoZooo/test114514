@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "celestial_enchantments:hidden_blade",
+      "lvl": 3
+    }
+  ],
+  "name": "prinegorerouse:chronos_blade",
+  "properties": {
+    "attack_base": 51.0,
+    "max_damage": 102,
+    "slash_art": "ak:time_zero",
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/chronos/chronos.obj",
+    "summon_sword_color": 132112255,
+    "texture": "prinegorerouse:model/named/custom/chronos/chronos.png"
+  }
+}

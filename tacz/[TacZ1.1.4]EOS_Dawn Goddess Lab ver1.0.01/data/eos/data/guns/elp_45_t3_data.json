@@ -1,0 +1,115 @@
+{
+  "ammo": "eos:battery",
+  "ammo_amount": 10,
+  "extended_mag_ammo_amount": [
+    7,
+    12,
+    15
+  ],
+  "bolt": "open_bolt",
+  "rpm": 250,
+  "bullet": {
+    "life": 0.9,
+    "bullet_amount": 1,
+    "damage": 4058,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 1,
+      "head_shot_multiplier": 3.5,
+      "damage_adjust": [
+        {"distance": 80, "damage": 4058},
+        {"distance": 160, "damage": 4035},
+        {"distance": "infinite", "damage": 4059}
+      ]
+    },
+    "speed": 450,
+    "gravity": 0.098,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "pierce": 2,
+    "explosion": {
+      // 是否爆炸，默认为 false，如果希望默认爆炸则设置为 true
+       "explode": true,
+      // 延时爆炸，单位：秒
+      // "delay": 30,
+      // 爆炸半径，单位：米（格）
+      "radius": 1,
+      // 爆炸伤害
+      "damage": 40000,
+      // 爆炸导致的击退，默认为 false，需要服务器也开启爆炸击退才能使用
+      "knockback": false,
+      // 爆炸是否破坏方块，默认为 false，需要服务器也开启爆炸破坏方块才能使用
+       "destroy_block": false
+    }
+  },
+  "reload": {
+    "type": "fuel",
+    "feed": {
+      "empty": 3.5,
+      "tactical": 2
+    },
+    "cooldown": {
+      "empty": 4.13,
+      "tactical": 2.67
+    }
+  },
+  "draw_time": 0.6,
+  "put_away_time": 0.7083,
+  "aim_time": 0.25,
+  "sprint_time": 0.2,
+  "weight": 45.4,
+  "fire_mode": [
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [7.75, 7.75]},
+      {"time": 0.35, "value": [4.75, 4.75]},
+      {"time": 0.7, "value": [-0.825, -0.825]},
+      {"time": 0.9, "value": [0, 0]},
+      {"time": 1.0, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.55, 0.55]},
+      {"time": 0.5, "value": [-0.25, 0.25]},
+      {"time": 0.7, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 18,
+    "move": 23,
+    "sneak": 13,
+    "lie": 12,
+    "aim": 0.05
+  },
+  // 近战相关
+  "melee": {
+    // 枪械距离参数，用来延升近战攻击范围
+    // 会与刺刀等配件的距离做加和
+    "distance": 1,
+    // 使用时的冷却时间
+    "cooldown": 1.0,
+    // 默认近战数据，会被配件的数据替换掉
+    "default": {
+      // 动画类型：没有枪托的为 melee_push，有枪托的为 melee_stock
+      "animation_type": "melee_stock",
+      // 刺刀距离参数，枪械里还有个刺刀攻击距离参数，两者做加和
+      "distance": 0,
+      // 刺刀范围角度
+      "range_angle": 30,
+      // 伤害值
+      "damage": 2,
+      // 击退效果
+      "knockback": 0.75,
+      // 前摇时长，单位：秒
+      "prep": 0.1
+    }
+  },
+  "allow_attachment_types": [
+    "scope",
+    "grip",
+    "extended_mag",
+    "stock"
+  ]
+}

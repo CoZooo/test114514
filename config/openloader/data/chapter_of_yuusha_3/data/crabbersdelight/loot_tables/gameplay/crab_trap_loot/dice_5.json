@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "goety_cataclysm:kakourgos_focus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "goety_cataclysm:polemistis_focus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "goety_cataclysm:kyria_focus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "goety:phantasm_focus"
+        }
+      ]
+    }
+  ]
+}

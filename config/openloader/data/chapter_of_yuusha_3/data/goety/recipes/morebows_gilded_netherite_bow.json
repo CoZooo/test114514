@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "morebows:netherite_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 2500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "celestial_core:shulker_scrap"
+    },
+    {
+      "item": "locusazzurro_icaruswings:void_essence"
+    },
+    {
+      "item": "celestial_core:shulker_scrap"
+    },
+    {
+      "item": "locusazzurro_icaruswings:void_essence"
+    },
+    {
+      "item": "hmag:ender_plasm_block"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+    }
+  ],
+  "result": {
+    "item": "morebows:gilded_netherite_bow"
+  }
+}

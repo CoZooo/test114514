@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:sixteen_clock"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:sixteen_clock"
+}

@@ -1,0 +1,19 @@
+{
+  "bag.treasurebags.dna": "基因残片宝藏袋",
+  "bag.treasurebags.dungeon": "地牢宝藏袋",
+  "bag.treasurebags.ender": "末影宝藏袋",
+  "bag.treasurebags.food": "食物宝藏袋",
+  "bag.treasurebags.ingots": "村庄宝藏袋",
+  "bag.treasurebags.literacy": "文化宝藏袋",
+  "bag.treasurebags.nature": "自然宝藏袋",
+  "bag.treasurebags.player": "苹果宝藏袋",
+  "bag.treasurebags.spawn": "出生宝藏袋",
+  "bag.treasurebags.sticks_and_stones": "弹药宝藏袋",
+  "command.treasurebags.give.invalid": "无效宝藏袋类型: %s",
+  "command.treasurebags.give.success": "把 %1$sx %2$s 给予 %3$s",
+  "item.treasurebags.treasure_bag": "宝藏袋",
+  "item.treasurebags.treasure_bag.invalidType": "无效类型",
+  "item.treasurebags.treasure_bag.type": "类型:§r %s",
+  "item.treasurebags.treasure_bag.unknownType": "未知类型",
+  "bag.treasurebags.curio": "饰品宝藏袋"
+}

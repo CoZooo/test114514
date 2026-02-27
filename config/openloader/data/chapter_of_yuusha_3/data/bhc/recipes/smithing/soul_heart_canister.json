@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "bhc:blue_heart_canister"
+  },
+  "addition": {
+    "item": "reliquary:angelheart_vial"
+  },
+  "result": {
+    "item": "bhc:soul_heart_canister"
+  },
+  "template": {
+    "item": "yuusha:purple_heart"
+  }
+}

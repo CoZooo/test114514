@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:dragon_egg"
+  },
+  "craftType": "end",
+  "soulCost": 500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "yuusha:dice_7"
+    }
+  ],
+  "result": {
+    "item": "forbidden_arcanus:dragon_scale",
+	"count": 8
+  }
+}

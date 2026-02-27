@@ -1,0 +1,13 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 80,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "irons_spellbooks:frozen_bone"
+  },
+  "residue": {
+    "chance": 0.0,
+    "name": "arcane_crystal"
+  },
+  "result": "eidolon:enchanted_ash"
+}

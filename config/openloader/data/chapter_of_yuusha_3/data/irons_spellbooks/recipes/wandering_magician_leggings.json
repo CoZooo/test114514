@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "tag": "irons_spellbooks:school_focus"
+  },
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_leggings"
+  },
+  "template": {
+    "item": "hmag:evil_crystal_upgrade_smithing_template"
+  }
+}
+

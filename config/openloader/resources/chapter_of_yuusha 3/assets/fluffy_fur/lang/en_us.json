@@ -1,0 +1,99 @@
+{
+  "creative_tab.fluffy_fur": "Fluffy Fur",
+
+  "_comment_1": "Items and Blocks",
+  "block.fluffy_fur.potted_pink_petals": "Potted Pink Petals",
+
+  "item.fluffy_fur.music_disc_fluffy": "Fluffy Music Disc",
+
+  "item.fluffy_fur.test_shrimp": "Test Shrimp",
+  "item.fluffy_fur.thing": "Thing",
+  "item.fluffy_fur.silly_treat": "Silly Treat",
+
+  "block.fluffy_fur.maxbogomol_plush": "MaxBogomol Plush",
+  "block.fluffy_fur.onixthecat_plush": "OnixTheCat Plush",
+  "block.fluffy_fur.unlogicalsamsar_plush": "unlogicalSamsar Plush",
+  "block.fluffy_fur.foxairplane_plush": "FoxAirPlane Plush",
+  "block.fluffy_fur.onjerlay_plush": "Onjerlay Plush",
+  "block.fluffy_fur.sammysemicolon_plush": "SammySemicolon Plush",
+  "block.fluffy_fur.boykisser_plush": "Boykisser Plush",
+  "block.fluffy_fur.nanachi_plush": "Nanachi Plush",
+  "block.fluffy_fur.speckle_plush": "Speckle Plush",
+
+  "block.fluffy_fur.yonkablock": "YonKaBlock",
+
+  "_comment_2": "Items lore",
+  "lore.fluffy_fur.skin": "Skin:",
+  "lore.fluffy_fur.skin_applies": "Applies to:",
+
+  "_comment_3": "Items descriptions",
+  "item.fluffy_fur.music_disc_fluffy.desc": "Onjerlay - I learned how to do the biiiiiiiiiiiwiwiwiwiwiwiwiwiwi",
+
+  "_comment_4": "Menu",
+  "mod_description.fluffy_fur": "Fluffy Fur - a mod library by MaxBogomol. \n Adds various things for rendering and simplifying development. \n \n Meow :3",
+
+  "panorama.minecraft.vanilla": "Vanilla",
+  "panorama.fluffy_fur.fluffy_zone": "Fluffy Zone",
+
+  "_comment_5": "Gui",
+  "gui.fluffy_fur.menu.optifine.0": "ATTENTION! It seems you have Optifine installed",
+  "gui.fluffy_fur.menu.optifine.1": "Optifine breaks Fluffy Fur and other mods",
+  "gui.fluffy_fur.menu.optifine.2": "Delete Optifine :3",
+  "gui.fluffy_fur.menu.piracy": "PIRACY IS BAD!!!",
+
+  "gui.fluffy_fur.menu.panoramas": "Panoramas",
+  "gui.fluffy_fur.menu.mods": "Mods",
+  "gui.fluffy_fur.menu.mcreator_mods": "MCreator mods:",
+  "gui.fluffy_fur.menu.id": "ID:",
+  "gui.fluffy_fur.menu.version": "Version:",
+  "gui.fluffy_fur.menu.edition": "Edition:",
+  "gui.fluffy_fur.menu.author": "Author:",
+  "gui.fluffy_fur.menu.links": "Links:",
+  "gui.fluffy_fur.menu.mod": "Mod:",
+
+  "gui.fluffy_fur.skin_menu.skins": "Skins",
+  "gui.fluffy_fur.skin_menu.capes": "Capes",
+  "gui.fluffy_fur.skin_menu.skin_effects": "Skin Effects",
+
+  "gui.fluffy_fur.skin_menu.standard": "Standard",
+  "gui.fluffy_fur.skin_menu.empty": "Empty",
+  "gui.fluffy_fur.skin_menu.skin.boykisser": "Boykisser",
+  "gui.fluffy_fur.skin_menu.skin.nanachi": "Nanachi",
+  "gui.fluffy_fur.skin_menu.cape.fluffy": "Fluffy",
+  "gui.fluffy_fur.skin_menu.effect.pink_hearts": "Pink Hearts",
+
+  "_comment_6": "Commands",
+  "commands.fluffy_fur.item_skin.unknown": "No item skin exists with the ID '%s'",
+  "commands.fluffy_fur.skin.item.set.multiple": "Applied skin %s to %s players",
+  "commands.fluffy_fur.skin.item.set.single": "Applied skin %s to %s's item",
+  "commands.fluffy_fur.skin.item.set.failed": "Failed to apply skin %s",
+  "commands.fluffy_fur.skin.item.remove.multiple": "Removed item skin from %s players",
+  "commands.fluffy_fur.skin.item.remove.single": "Removed skin from %s's item",
+  "commands.fluffy_fur.skin.item.remove.failed": "Failed to remove item skin",
+
+  "_comment_7": "Key binds",
+  "key.category.fluffy_fur.general": "Fluffy Fur",
+  "key.fluffy_fur.skin_menu": "Skin Menu",
+
+  "_comment_8": "Config",
+  "config.client.fluffy_fur.graphics.screenshakeIntensity": "Screenshake Intensity",
+  "config.client.fluffy_fur.graphics.screenshakeIntensity.desc": "Intensity of screenshake.",
+  "config.client.fluffy_fur.graphics.particles.itemParticle": "Item Particle",
+  "config.client.fluffy_fur.graphics.particles.itemParticle.desc": "Enable dropping items particles.",
+  "config.client.fluffy_fur.graphics.particles.itemGuiParticle": "Item Gui Particle",
+  "config.client.fluffy_fur.graphics.particles.itemGuiParticle.desc": "Enable items particles in GUI.",
+  "config.client.fluffy_fur.graphics.particles.bloodParticle": "Blood Particle",
+  "config.client.fluffy_fur.graphics.particles.bloodParticle.desc": "Enable blood particles when receiving damage.",
+  "config.client.fluffy_fur.menu.panorama": "Panorama",
+  "config.client.fluffy_fur.menu.panorama.desc": "Fluffy Fur Panorama.",
+  "config.client.fluffy_fur.menu.menuButton": "Menu Button",
+  "config.client.fluffy_fur.menu.menuButton.desc": "Enable Fluffy Fur menu button.",
+  "config.client.fluffy_fur.menu.menuButtonRow": "Menu Button Row",
+  "config.client.fluffy_fur.menu.menuButtonRow.desc": "Fluffy Fur menu button row.",
+  "config.client.fluffy_fur.menu.menuButtonRowXOffset": "Menu Button Row X Offset",
+  "config.client.fluffy_fur.menu.menuButtonRowXOffset.desc": "Fluffy Fur menu button X offset with row.",
+  "config.client.fluffy_fur.menu.menuButtonXOffset": "Menu Button X Offset",
+  "config.client.fluffy_fur.menu.menuButtonXOffset.desc": "Fluffy Fur menu button X offset.",
+  "config.client.fluffy_fur.menu.menuButtonYOffset": "Menu Button Y Offset",
+  "config.client.fluffy_fur.menu.menuButtonYOffset.desc": "Fluffy Fur menu button Y offset."
+}

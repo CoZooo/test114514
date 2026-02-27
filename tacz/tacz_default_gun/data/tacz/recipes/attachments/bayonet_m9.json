@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "luminous_halloween:halloween_ingot"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "goety:haunted_log"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:bayonet_m9"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

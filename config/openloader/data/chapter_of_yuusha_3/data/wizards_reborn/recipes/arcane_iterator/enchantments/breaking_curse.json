@@ -1,0 +1,23 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "enchantment": {
+    "enchantment": "majruszsenchantments:breaking_curse"
+  },
+  "wissen": 1000,
+  "experience": 10,
+  "health": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    }
+  ]
+}

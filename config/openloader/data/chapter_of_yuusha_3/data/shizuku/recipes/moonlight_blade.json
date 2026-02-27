@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:moonlight_blade",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "slashblade_addon:tboen",
+        "refine": 5
+      }
+    },
+    "A": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "B": {
+      "item": "shizuku:meow_stone"
+    },
+    "C": {
+      "item": "minecraft:quartz_block"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "minecraft:echo_shard"
+    },
+    "F": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "ABH",
+    "DEF",
+    "CGK"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}
+
+

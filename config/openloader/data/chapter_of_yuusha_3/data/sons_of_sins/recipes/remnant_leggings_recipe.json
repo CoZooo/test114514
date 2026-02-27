@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "sons_of_sins:soul_steel_block"
+    },
+    "base": {
+        "item": "minecraft:netherite_leggings"
+    },
+    "result": {
+        "item": "sons_of_sins:remnant_leggings"
+    },
+    "template": {
+        "item": "born_in_chaos_v1:dark_upgrade"
+    }
+}

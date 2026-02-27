@@ -1,0 +1,26 @@
+{
+  "weight": 2.5,
+  "ads": {
+    "multiplier": 0.75
+  },
+  "rpm": {
+    "multiplier": 1.1
+  },
+  "ammo_speed": {
+    "multiplier": 1.05
+  },
+  "effective_range": {
+    "multiplier": 1.1
+  },
+  "recoil": {
+    "yaw": {
+      "multiplier": 0.9
+    },
+    "pitch": {
+      "multiplier": 0.9
+    }
+  },
+  "inaccuracy": {
+    "multiplier": 0.8
+  }
+}

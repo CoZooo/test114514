@@ -1,0 +1,202 @@
+{
+	"root_health+2": {
+		"title": "+1% 法术吟唱缩减",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dzjhwf4qggiw1w4k"
+		}
+	},
+	"root_resistance+1%": {
+		"title": "+1% 冷却缩减",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cooldown_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p0bll6urci4jeqds"
+		}
+	},
+	"root_melee_damage+3%": {
+		"title": "+4% 法力值",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6nw21g4674h0rhgt"
+		}
+	},
+	"root_ranged_damage+3%": {
+		"title": "+4% 法力恢复",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:protection_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jc4pl563gcwkza7w"
+		}
+	},
+	"health+2": {
+		"title": "+1% 法术吟唱缩减",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:ice_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cqrzzaqwp36jnpog"
+		}
+	},
+	"resistance+1%": {
+		"title": "+1% 冷却缩减",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:cooldown_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "msd9nzonl5qahvbz"
+		}
+	},
+	"melee_damage+3%": {
+		"title": "+4% 法力值",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:mana_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "00h9757sywug5r3t"
+		}
+	},
+	"ranged_damage+3%": {
+		"title": "+4% 法力恢复",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:protection_upgrade_orb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "smfit6t1fdiporue"
+		}
+	}
+}

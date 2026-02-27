@@ -1,0 +1,26 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:detoxification_capsule"
+        },
+        {
+            "item": "confluence:nutrient_solution"
+        },
+        {
+            "item": "confluence:searchlight"
+        },
+        {
+            "item": "confluence:the_plan"
+        },
+        {
+            "item": "confluence:explorers_equipment"
+        },
+        {
+            "item": "malum:fused_consciousness"
+        }
+    ],
+    "result": {
+        "item": "confluence:ankh_charm"
+    }
+}

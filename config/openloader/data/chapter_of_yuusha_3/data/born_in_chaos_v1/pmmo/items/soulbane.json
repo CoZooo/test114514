@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAPON": {"smithing": 1000},
+    "WEAR": {"smithing": 1000}
+  },
+  "negative_effect": 
+    { 
+	"goety:stunned": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

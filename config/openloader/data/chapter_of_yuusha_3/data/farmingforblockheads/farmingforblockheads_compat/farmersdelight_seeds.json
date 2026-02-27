@@ -1,0 +1,23 @@
+{
+  "modId": "farmersdelight",
+  "group": {
+    "name": "Farmers Delight Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald",
+      "count": 4
+    },
+    "defaultCategory": "yuusha_plant"
+  },
+  "customEntries": [
+    {
+      "output": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "output": "farmersdelight:rice"
+    },
+    {
+      "output": "farmersdelight:tomato_seeds"
+    }
+  ]
+}

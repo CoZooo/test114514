@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_6"
+  },
+  "craftType": "forge",
+  "soulCost": 500,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "deep_aether:aseterite_bricks"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "deep_aether:aseterite_bricks"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "deep_aether:aseterite_bricks"
+    },
+    {
+      "item": "minecraft:soul_campfire"
+    },
+    {
+      "item": "deep_aether:aseterite_bricks"
+    },
+    {
+      "item": "minecraft:soul_campfire"
+    }
+  ],
+  "result": {
+    "item": "goety:ominous_pyre"
+  }
+}

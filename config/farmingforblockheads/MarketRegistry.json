@@ -1,0 +1,1903 @@
+{
+ "customCategories": {
+    "yuusha_plant": {
+      "name": "\u690d\u7269\u7c7b",
+      "icon": {
+        "item": "aether_redux:fieldsproot_sapling" 
+      }
+    }, 
+    "yuusha_weapon": {
+      "name": "\u7279\u6b8a\u88c5\u5907",
+      "icon": {
+        "item": "locusazzurro_icaruswings:hiyori_wings"
+      }
+    }, 
+    "yuusha_other": {
+      "name": "\u6742\u9879",
+      "icon": {
+        "item": "malum:blazing_diode"
+      }
+    }
+  },
+"customEntries": 
+	[     
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:soy_sauce_bottle",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:suigei",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:kappa_village",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:kiku",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:daiginjo",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:hakutsuru",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:full_moons_eve",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:dassai",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:tengu_tango",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:sparrow_sake",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:wind_priestesses",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:mio",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:mead",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:scarlet_mist",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "locusazzurro_icaruswings:herbs_infused_mead",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "goety:windswept_sapling",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "forbidden_arcanus:aurum_sapling",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "immortalers_delight:raw_sniffer_steak",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "immortalers_delight:sniffer_fur",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "born_in_chaos_v1:smoked_flesh",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:rotten_heart",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "born_in_chaos_v1:smoked_flesh",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "eidolon:withered_heart",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "born_in_chaos_v1:smoked_flesh",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "reliquary:zombie_heart",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:crab",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:crab",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "artifacts:feral_claws",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "enigmaticlegacy:infinimeal",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "crabbersdelight:cooked_tropical_fish",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:scute",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:cooked_salmon",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:scute",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:roasted_lamprey",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:scute",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "youkaishomecoming:seared_tuna",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:scute",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:cooked_cod",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:scute",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "hmag:bat_wing",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "hmag:bat_stew",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:aerwhale_saddle",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aquaculture:neptunium_bow",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aquaculture:neptunes_bounty",
+				"count":64
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "born_in_chaos_v1:sea_terror_eye",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "born_in_chaos_v1:sea_terror_stomach",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "born_in_chaos_v1:bloody_gadfly_eye",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "born_in_chaos_v1:sea_terror_stomach",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:mykapod_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:shimmercow_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:sheepuff_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:phyg_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:moa_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:aerwhale_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:quail_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:aether_fish_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:aerbunny_spawn_egg",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:essence_of_the_storm",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "explorerscompass:explorerscompass",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "mowziesmobs:earthrend_gauntlet",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:glow_ink_sac",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "reliquary:glowing_bread",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "malum:concentrated_gluttony",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "goety:treasure_pouch",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "yuusha:clearer",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "embers:ash",
+				"count":8
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "ancient_aether:festive_gummy_swet",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "born_in_chaos_v1:holiday_candy",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "xtraarrows:diamond_arrow",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "lost_aether_content:platinum_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "ancient_aether:valkyrum_pickaxe",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "lost_aether_content:platinum_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:stratus_smithing_template",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "lost_aether_content:platinum_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "ancient_aether:valkyrum_pickaxe",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:silver_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:stratus_smithing_template",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:silver_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:ambrosium_shard",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "aether:silver_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether:zanite_gemstone",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "aether:bronze_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:skyjade",
+				"count":64
+			},
+			"payment": 
+			{
+				"item": "ancient_aether:laboratory_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:raw_gravitite",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "ancient_aether:ancient_dungeon_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:spooky_ring",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:chaos_ingot",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "lost_aether_content:invincibility_gem",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:chaos_ingot",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "lost_aether_content:sentry_shield",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:chaos_ingot",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "lost_aether_content:flaming_gemstone",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:chaos_ingot",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "celestial_artifacts:traveler_scroll",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "ancient_aether:sun_lantern",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:zanberry_bush_stem",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:berry_bush_stem",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:nipa",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "deep_aether:golden_swet_ball",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:nipa",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:swet_ball",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:nipa",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether_redux:golden_swet_ball",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:nipa",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether_redux:vanilla_swet_ball",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "wizards_reborn:shiny_clover_seed",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:torchflower_seeds",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:torchflower_seeds",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "wizards_reborn:shiny_clover_seed",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "ancient_aether:slammberry",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:swet_ball",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:mouse_ear_soup",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether_redux:oatmeal",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "aether_redux:lightroot_clump",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether_redux:cloudcap_mushling",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "celestial_artifacts:unlucky_potato",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crockpot:potato_souffle",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "wizards_reborn:pitcher_turnip",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aether:enchanted_berry",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "wizards_reborn:underground_grape",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "ancient_aether:grapes",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "wizards_reborn:shrimp",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:shrimp",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "deep_aether:raw_aerglow_fish",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:raw_squid_tentacles",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:rotten_heart",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "eidolon:zombie_heart",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "eidolon:red_candy",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crockpot:taffy",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "eidolon:grape_candy",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crockpot:taffy",
+				"count":1
+			},
+			"category": "yuusha_plant"
+		},
+		{
+			"output": 
+			{
+				"item": "mowziesmobs:bluff_rod",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:blaze_rod",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "embers:ancient_codex",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "minecraft:emerald",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "yuusha:ultra_summonstone",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:grief_seed",
+				"count":16
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:emerald",
+				"count":8
+			},
+			"payment": 
+			{
+				"item": "yuusha:grief_seed",
+				"count":64
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:totem_of_undying",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:grief_seed",
+				"count":32
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:spawner_scrap",
+				"count":8
+			},
+			"payment": 
+			{
+				"item": "yuusha:grief_seed",
+				"count":64
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:spawner_scrap",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "irons_spellbooks:blank_rune",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:vex_spawn_egg"
+			},
+			"payment": 
+			{
+				"item": "illageandspillage:totem_of_banishment",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "waystones:waystone"
+			},
+			"payment": 
+			{
+				"item": "majruszsdifficulty:evoker_fang_scroll",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "waystones:waystone"
+			},
+			"payment": 
+			{
+				"item": "majruszsdifficulty:sonic_boom_scroll",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "yuusha:ember_heart",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:spawn_trader"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:spawn_creeper_girl"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":2
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:spawn_ender_girl"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:spawn_slime_girl"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:soulfire"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "grimoireofgaia:mimic_spawn_egg"
+			},
+			"payment": 
+			{
+				"item": "grimoireofgaia:holstaurus_token",
+				"count":16
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:turtle_egg"
+			},
+			"payment": 
+			{
+				"item": "crockpot:parrot_egg_red_blue",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "moonstone:ectoplasmball"
+			},
+			"payment": 
+			{
+				"item": "cataclysm:lacrima",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:turtle_egg"
+			},
+			"payment": 
+			{
+				"item": "crockpot:parrot_egg_blue",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:turtle_egg"
+			},
+			"payment": 
+			{
+				"item": "crockpot:parrot_egg_green",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:turtle_egg"
+			},
+			"payment": 
+			{
+				"item": "crockpot:parrot_egg_yellow_blue",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:turtle_egg"
+			},
+			"payment": 
+			{
+				"item": "crockpot:parrot_egg_gray",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:squid_spawn_egg"
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:raw_squid_tentacles",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:glow_squid_spawn_egg"
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:raw_glow_squid_tentacles",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "irons_spellbooks:arcane_salvage"
+			},
+			"payment": 
+			{
+				"item": "faded_conquest_2:keyof_pestilence",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:guardian_spawn_egg"
+			},
+			"payment": 
+			{
+				"item": "minecraft:sea_lantern",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:ink_sac"
+			},
+			"payment": 
+			{
+				"item": "minecraft:prismarine_crystals",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "stalwart_dungeons:shruster",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "bosses_of_mass_destruction:ancient_anima",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "stalwart_dungeons:teleporter",
+				"count":2
+			},
+			"payment": 
+			{
+				"item": "bosses_of_mass_destruction:ancient_anima",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "stalwart_dungeons:teleporter_pearl",
+				"count":2
+			},
+			"payment": 
+			{
+				"item": "bosses_of_mass_destruction:ancient_anima",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "yuusha:ember_heart",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:necklace_of_the_desert",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "embers:focal_lens",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "enigmaticlegacy:twisted_mirror",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "moonstone:morb",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "crabbersdelight:pearl",
+				"count":4
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:ice_skates",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "mowziesmobs:ice_crystal",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:hunter_belt",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "mowziesmobs:grant_suns_blessing",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:ice_breaker",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "mowziesmobs:ice_crystal",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:wool_mitten",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "mowziesmobs:ice_crystal",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:shadow_glaive",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "goety:ice_cube",
+				"count":4
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:shadow_glaive",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:blood_bone_heart",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "relics:midnight_robe",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "distant_worlds:wither_totem",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:clock",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "aquamirae:ship_graveyard_echo",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aquamirae:pirate_pouch",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "aquamirae:treasure_pouch",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "farmersdelight:hot_cocoa",
+				"count":2
+			},
+			"payment": 
+			{
+				"item": "aquamirae:ship_graveyard_echo",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "minecraft:end_crystal",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "reliquary:nebulous_heart",
+				"count":16
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:spawner_scrap",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "aquamirae:ship_graveyard_echo",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aquamirae:rune_of_the_storm",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aquamirae:frozen_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "aquamirae:dagger_of_greed",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "aquamirae:frozen_key",
+				"count":1
+			},
+			"category": "yuusha_weapon"
+		},
+		{
+			"output": 
+			{
+				"item": "obscure_api:astral_dust",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "aquamirae:frozen_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "aquamirae:ship_graveyard_echo",
+				"count":16
+			},
+			"payment": 
+			{
+				"item": "aquamirae:frozen_key",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "yuusha:blood_diamond",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "eeeabsmobs:heart_of_pagan",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:sigil_of_withdrawal",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "infinite_abyss:deeprock_golem_spirit_stone",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:sigil_of_withdrawal",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "infinite_abyss:rough_red_crystal",
+				"count":8
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:hellshelf",
+				"count":3
+			},
+			"payment": 
+			{
+				"item": "yuusha:fake_knowledge_book",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:seashelf",
+				"count":3
+			},
+			"payment": 
+			{
+				"item": "yuusha:fake_knowledge_book",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:endshelf",
+				"count":2
+			},
+			"payment": 
+			{
+				"item": "yuusha:fake_knowledge_book",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:eternal_stella",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:monstrous_eye",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "yuusha:sand_soul",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:monstrous_eye",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "enigmaticlegacy:void_stone",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "cataclysm:enderite_ingot",
+				"count":4
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:dark_nether_star",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "cataclysm:cursed_eye",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "forbidden_arcanus:dark_nether_star",
+				"count":4
+			},
+			"payment": 
+			{
+				"item": "yuusha:ice_star",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:sigil_of_socketing",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:dragon_heart",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "apotheosis:sigil_of_socketing",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "stalwart_dungeons:void_crystal",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "entity_303:key_303",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "angelcraft_bosses:recompensa_boss",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "avaritia:endest_pearl",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "yuusha:falling_ender_pear",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "goety_revelation:doom_medal",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "goety_revelation:disc_arch_illager",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "goety_revelation:ascension_halo",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "goety_revelation:disc_arch_illager",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "goety_revelation:doom_medal",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "goety_revelation:disc_arch_illager_remix",
+				"count":1
+			},
+			"category": "yuusha_other"
+		},
+		{
+			"output": 
+			{
+				"item": "goety_revelation:ascension_halo",
+				"count":1
+			},
+			"payment": 
+			{
+				"item": "goety_revelation:disc_arch_illager_remix",
+				"count":1
+			},
+			"category": "yuusha_other"
+		}
+	]
+}

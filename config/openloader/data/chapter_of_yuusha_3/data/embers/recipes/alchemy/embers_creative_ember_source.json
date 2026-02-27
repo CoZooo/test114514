@@ -1,0 +1,38 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "malum:block_of_arcane_charcoal"
+    },
+    {
+      "item": "wizards_reborn:nether_salt_block"
+    },
+    {
+      "item": "malum:block_of_blazing_quartz"
+    },
+    {
+      "item": "aether:ambrosium_block"
+    }
+  ],
+  "output": {
+    "item": "embers:creative_ember_source",
+	"count": 1
+  },
+  "tablet": {
+    "item": "embers:ancient_motive_core"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "enchantments": [
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "apotheosis:scavenger",
+      "lvl": 3
+    },
+    {
+      "id": "elementalcombat:darkness_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:yasha_true",
+  "properties": {
+    "attack_base": 36.0,
+    "max_damage": 72,
+    "slash_art": "slashblade_addon:rapid_blistering_swords",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/yasha/yasha_true.obj",
+	"summon_sword_color": 2835600,
+    "texture": "slashblade:model/named/yasha/yasha.png"
+  }
+}

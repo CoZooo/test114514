@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 300,
+  "durabilityCost": 0,
+  "input": {
+    "item": "avaritia:diamond_lattice"
+  },
+  "output": {
+    "item": "avaritia:neutron_nugget",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 1
+    },
+    {
+      "type": "aqueous",
+      "count": 1
+    }
+  ]
+}

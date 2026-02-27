@@ -1,0 +1,45 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "elementalcombat:light_aspect",
+      "lvl": 1
+    },
+    {
+      "id": "minecraft:fire_protection"
+    }
+  ],
+  "name": "prinegorerouse:hercules_blade",
+  "properties": {
+    "attack_base": 64.0,
+    "max_damage": 128,
+    "slash_art": "slashblade_addon:fire_spiral",
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/hercules/hercules_blade.obj",
+    "summon_sword_color": -1169920,
+    "texture": "prinegorerouse:model/named/custom/hercules/hercules_blade.png"
+  }
+}

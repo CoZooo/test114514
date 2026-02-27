@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "cataclysm:blessed_amethyst_crab_meat"
+  ],
+  "values": {
+    "FISH": 0.5
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 45
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:time_rift_charge"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "cataclysm:mech_eye"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "eos:battery"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:elp_34_t3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

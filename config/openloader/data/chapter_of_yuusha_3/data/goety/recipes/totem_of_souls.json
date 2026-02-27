@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ege",
+    "gsg",
+    " g "
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goety:magic_emerald"
+    },
+    "g":
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    "s":
+    {
+      "item": "goety:totem_of_roots"
+    }
+  },
+  "result":
+  {
+    "item": "goety:totem_of_souls",
+    "count": 1
+  }
+}

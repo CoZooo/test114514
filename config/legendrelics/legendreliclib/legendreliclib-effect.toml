@@ -1,0 +1,7 @@
+#大撕裂的百分比系数
+#Number of counters displayed in the special counter HUD
+TheGreatRipCount = 10
+#大撕裂是否造成百分比伤害，如果为false，则大撕裂的百分比系数变为其造成的固定伤害数值
+#Enable the special counter HUD
+TheGreatRipsDamageType = false
+

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:forbidden_sword"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:forbidden_sword"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid:trumpet",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.2,
+  "ingredients": [
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "item": "call_of_yucutan:jade"
+    },
+    {
+      "item": "minecraft:note_block"
+    }
+  ]
+}

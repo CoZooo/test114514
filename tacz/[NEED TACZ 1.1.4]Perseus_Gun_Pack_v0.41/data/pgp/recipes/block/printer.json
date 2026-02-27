@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+      "item": "tacz:workbench_b",
+      "nbt":{
+        "BlockId": "pgp:printer"
+      }
+    },
+    "pattern": [
+      "AEA",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "theinkarena:soul_core"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "refinedstorage:construction_core"
+      },
+      "E": {
+        "item": "refinedstorage:destruction_core"
+      }
+    }
+  }

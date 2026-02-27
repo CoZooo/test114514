@@ -1,0 +1,89 @@
+
+[experience]
+	#Keep experience on death.
+	#Default: false
+	keep = false
+	#Drop experience on death.
+	#Make sure to disable this while using the keep option due to XP dupes.
+	#Default: true
+	drop = true
+
+[hunger]
+	#Keep hunger on death.
+	#Default: false
+	keep = true
+	#Lowest hunger value kept on death.
+	#Default: 6
+	lowest = 6
+
+	[hunger.saturation]
+		#Keep saturation on death
+		#Default: false
+		keep = true
+		#Lowest saturation value kept on death.
+		#Default: 6
+		lowest = 3
+		#Keep saturation only when hunger is full.
+		#Default: false
+		whenHungerFull = false
+
+	[hunger.no_appetite]
+		#Duration of time in seconds that the effect will be active for after respawning.
+		#While the effect is active, the player cannot eat anything that would replenish hunger.
+		#Default: 0
+		duration = 8
+
+[health]
+	#Amount of health to respawn with. Disabled if set to 0.
+	#Default: 0
+	respawnHealth = 0
+
+	[health.system]
+		#Enable all health system related modifications
+		#Default: false
+		enabled = false
+		#Highest amount of health.
+		#Please note that this value is limited to 1024 in vanilla, but a higher limit is given in case of mods that modify this limitation.
+		#Default: 20
+		maxHealth = 20
+		#Lowest amount of health.
+		#If set to 0, only maxHealth is used and any other option inside the category is ignored as they require this to be functional.
+		#Default: 0
+		minHealth = 0
+		#Amount of health lost on each death.
+		#Requires minHealth to be higher than 0.
+		#Default: 0
+		deathDecreasedHealth = 0
+		#Amount of health that a player starts with.
+		#Requires minHealth to be higher than 0.
+		#Default: 20
+		startingHealth = 20
+
+		[health.system.additional]
+			#Config options which when changed should be considered for max health reset in an already created world
+			#Default: [ "MAX_HEALTH", "MIN_HEALTH", "STARTING_HEALTH" ]
+			configChangeReset = ["MAX_HEALTH", "MIN_HEALTH", "STARTING_HEALTH"]
+			#Show a message when a threshold is reached and when health is gained or lost.
+			#Default: true
+			healthChangeMessage = true
+			#Enabled hardcore mode which makes the player a spectator when 0 maximal health is reached.
+			#Setting minHealth to 0 and removing all healthThresholds is required or unexpected behaviour might occur.
+			#Default: false
+			hardcoreMode = false
+			#Values which, when reached, move the lowest health of the player to the achieved value. Requires the use of deathDecreasedHealth.
+			#Example: If a player starts at 10 health and reaches a threshold of 16 using regenerative items or similar, the lowest max health will move to 16 health.
+			#Lowest threshold value can be non-removable, meaning that max health will not decrease until a player reaches health that is over the lowest threshold.
+			#To use it make the lowest value negative.
+			#Default: [ -8, 16 ]
+			healthThresholds = [-8, 16]
+			#Condition for consumption of regenerative items.
+			#These values only apply on items without any use animations as to not consume them unintentionally.
+			#Acceptable values: [ NOT_CROUCHING, CROUCHING, BOTH ]
+			#Default: NOT_CROUCHING
+			regenerativeItemsConsumptionMode = "NOT_CROUCHING"
+			#Items that increase/decrease current maximal health when used.
+			#Format: "modid:item = N" with N being the health amount.
+			#Appending a colon ':' after a negative N will make an item bypass healthThresholds, meaning that maximal health can go below a threshold until minHealth is reached
+			#Default: [ "minecraft:nether_star = 1", "minecraft:enchanted_golden_apple = 1", "minecraft:dragon_egg = 1" ]
+			regenerativeItems = ["minecraft:nether_star = 1", "minecraft:enchanted_golden_apple = 1", "minecraft:dragon_egg = 1"]
+

@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "yuusha:madoka_law_shard",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "yuusha:sin_shard_7"
+    },
+    {
+      "item": "yuusha:sin_shard_6"
+    },
+    {
+      "item": "yuusha:sin_shard_5"
+    },
+    {
+      "item": "yuusha:sin_shard_4"
+    },
+    {
+      "item": "yuusha:sin_shard_3"
+    },
+    {
+      "item": "yuusha:sin_shard_2"
+    },
+    {
+      "item": "yuusha:sin_shard_1"
+    }
+  ]
+}

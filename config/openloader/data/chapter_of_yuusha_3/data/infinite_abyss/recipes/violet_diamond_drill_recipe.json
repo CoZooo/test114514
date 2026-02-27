@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "fdf",
+    "aec"
+  ],
+  "key": {
+    "a": {
+      "item": "infinite_abyss:vicerite_crystal"
+    },
+    "b": {
+      "item": "infinite_abyss:cut_red_crystal"
+    },
+    "c": {
+      "item": "infinite_abyss:violet_diamond"
+    },
+    "d": {
+      "item": "infinite_abyss:drill_base"
+    },
+    "e": {
+      "item": "infinite_abyss:fuel_barrel"
+    },
+    "f": {
+      "item": "infinite_abyss:astarium_crystal"
+    }
+  },
+  "result": {
+    "item": "infinite_abyss:violet_diamond_drill",
+    "count": 1
+  }
+}

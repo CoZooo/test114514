@@ -1,0 +1,11 @@
+{
+  "type": "endrem:loot_injection",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_plus:chests/snowy_temple/rare"
+    }
+  ],
+  "loot_table_id": "endrem:minecraft/chests/igloo_chest",
+  "allow_recursive_glms": true
+}

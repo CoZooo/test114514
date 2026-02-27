@@ -1,0 +1,15 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "item": "cataclysm:khopesh"
+    }
+  ],
+  "output": {
+    "item": "minecraft:blade_pottery_sherd",
+    "count": 1
+  }
+}

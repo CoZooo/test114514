@@ -1,0 +1,43 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:misfortune_blade",
+      "lvl": 3
+    },
+    {
+      "id": "elementalcombat:thunder_aspect",
+      "lvl": 1
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:engulfing_lightning",
+  "properties": {
+    "attack_base": 46.0,
+    "max_damage": 92,
+    "slash_art": "shizuku:leisa",
+    "special_effects": [
+      "shizuku:leise"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/ticao.obj",
+    "summon_sword_color": 10040319,
+    "texture": "shizuku:model/shizuku/ticao.png"
+  }
+}

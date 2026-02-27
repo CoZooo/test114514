@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "locusazzurro_icaruswings:steel_ingot",
+    "count": 1
+  },
+  "output": {
+    "item": "cthulhufishing:revelation_steel",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "cthulhufishing:third_eye_r",
+      "count": 1
+    },
+    {
+      "item": "forbidden_arcanus:smelter_prism",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 8
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

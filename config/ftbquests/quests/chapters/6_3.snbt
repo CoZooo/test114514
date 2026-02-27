@@ -1,0 +1,4582 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_3"
+	group: "13D24688CE1CFEDA"
+	icon: "touhou_little_maid:kill_slime_300"
+	id: "2F12CE1B272B3809"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 13.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			color: 10551890
+			height: 13.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 31.0d
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 15.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 98.0d
+			x: 27.25d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			color: 10551890
+			height: 13.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 32.5d
+			x: 43.25d
+			y: -3.0d
+		}
+		{
+			alpha: 200
+			color: 10551890
+			height: 13.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 11.5d
+			x: 63.25d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7ADEDC61DC2AF580"]
+			description: [
+				"可以把所有加载范围内的女仆传送至身边。"
+				""
+				"&6精灵手镯可以加快道具使用速度。"
+			]
+			id: "1A8865C243C7F602"
+			rewards: [{
+				id: "3EC4891BF4A4583E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A09BA7E2A6043E1"
+				item: "touhou_little_maid:trumpet"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BAFF963F479854D"]
+			description: [
+				"提交物品后，玩家身上会直接穿上被诅咒的盔甲套装（会降低玩家的全伤害）。注意不要穿戴任何盔甲提交该任务！"
+				""
+				"&e利用污浊的灵魂宝石、无月晶核等材料，可制作女仆世界线专署物品。"
+				""
+				"&c不要与别人组队时完成该任务，会发生奇怪的特性。"
+				""
+				"&6可以选择让女仆使用近战类、弓箭类、法术类（铁之咒语和诡厄巫法）或枪械类进行通关。一般来说只需要两个女仆并选择其中一种打法，就可以通关，女仆越多打起来越简单。其中近战女仆玩法较为艰难。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:cursed_knight_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21B92E1A0A2685A4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.head with goety:cursed_knight_helmet{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_weakness\"}, {lvl: 1, id: \"celestial_enchantments:powerless_curse\"}, {lvl: 1, id: \"majruszsenchantments:breaking_curse\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_gravity\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_illiteracy\"}, {lvl: 1, id: \"celestial_enchantments:cures_of_corrosion\"}, {lvl: 1, id: \"apotheosis:life_mending\"}, {lvl: 1, id: \"majruszsenchantments:incompatibility_curse\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"head\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "goety:cursed_knight_helmet"
+						tag: {
+							Damage: 0
+							itemModifier: "celestial_forge:hasty"
+						}
+					}
+					id: "11D542345F766064"
+					team_reward: true
+					title: "提交任务会立刻穿上被诅咒的盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.chest with goety:cursed_paladin_chestplate{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_weakness\"}, {lvl: 1, id: \"celestial_enchantments:powerless_curse\"}, {lvl: 1, id: \"majruszsenchantments:breaking_curse\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_gravity\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_illiteracy\"}, {lvl: 1, id: \"celestial_enchantments:cures_of_corrosion\"}, {lvl: 1, id: \"apotheosis:life_mending\"}, {lvl: 1, id: \"majruszsenchantments:incompatibility_curse\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"chest\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "goety:cursed_paladin_chestplate"
+						tag: {
+							Damage: 0
+							itemModifier: "celestial_forge:armored"
+						}
+					}
+					id: "6AA8DF919857F019"
+					team_reward: true
+					title: "提交任务会立刻穿上被诅咒的盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.legs with goety:cursed_knight_leggings{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_weakness\"}, {lvl: 1, id: \"celestial_enchantments:powerless_curse\"}, {lvl: 1, id: \"majruszsenchantments:breaking_curse\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_gravity\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_illiteracy\"}, {lvl: 1, id: \"celestial_enchantments:cures_of_corrosion\"}, {lvl: 1, id: \"apotheosis:life_mending\"}, {lvl: 1, id: \"majruszsenchantments:incompatibility_curse\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"legs\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "goety:cursed_knight_leggings"
+						tag: {
+							Damage: 0
+							itemModifier: "celestial_forge:armored"
+						}
+					}
+					id: "12E180D1F1D5820A"
+					team_reward: true
+					title: "提交任务会立刻穿上被诅咒的盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.feet with goety:cursed_paladin_boots{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_weakness\"}, {lvl: 1, id: \"celestial_enchantments:powerless_curse\"}, {lvl: 1, id: \"majruszsenchantments:breaking_curse\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_gravity\"}, {lvl: 1, id: \"celestial_enchantments:curse_of_illiteracy\"}, {lvl: 1, id: \"celestial_enchantments:cures_of_corrosion\"}, {lvl: 1, id: \"apotheosis:life_mending\"}, {lvl: 1, id: \"majruszsenchantments:incompatibility_curse\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"feet\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "goety:cursed_paladin_boots"
+						tag: {
+							Damage: 0
+							itemModifier: "celestial_forge:jagged"
+						}
+					}
+					id: "77A68D95B697322F"
+					team_reward: true
+					title: "提交任务会立刻穿上被诅咒的盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "73F7D9ABE06676C1"
+					item: "yuusha:bad_soul_gem"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "76B46A995F20A712"
+					item: {
+						Count: 1
+						id: "relics:hunter_belt"
+						tag: {
+							abilities: {
+								slots: {
+									points: 0
+									stats: {
+										charm: 0.88868d
+									}
+								}
+								training: {
+									points: 0
+									stats: {
+										damage: 1.58411d
+									}
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6552472104991734"
+					item: "touhou_little_maid:shrine"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "288708E5CFF84D4A"
+					item: "celestial_artifacts:hidden_bracelet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "75D2D8EE30875336"
+					item: {
+						Count: 1
+						id: "domesticationinnovation:collar_tag"
+						tag: {
+							Enchantments: [
+								{
+									id: "domesticationinnovation:health_boost"
+									lvl: 5s
+								}
+								{
+									id: "domesticationinnovation:blazing_protection"
+									lvl: 2s
+								}
+								{
+									id: "domesticationinnovation:chain_lightning"
+									lvl: 1s
+								}
+								{
+									id: "domesticationinnovation:tethered_teleport"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "528F3CB9C13E0569"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "enabled"
+					id: "128241E26FC7E39E"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "390B1093E01BC5F2"
+					item: "yuusha:moon_core"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2FBC2F59AE57268D"
+				item: "yuusha:focus_2_maid"
+				type: "item"
+			}]
+			title: "灵魂宝石污浊化"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"此任务仅用作检测玩家物品。只有开局任务选择『女仆是勇者』世界线才能开启此任务线。"
+				""
+				"&e女仆路线可以选择近战、法术、枪械、弓箭进行游玩，一般来说只要两个女仆就能通关游戏。但是当然也能缔造女仆军团来进行通关游戏。"
+				""
+				"&6女仆世界线在进入游戏后，不要多次切换进入存档，否则在打开女仆UI时，极易因装备数值反复加载而崩游戏。最好打开一次游戏只进一次。如果要重进，建议大退游戏再进。"
+				""
+				"&3女仆线在前期的发展较为困难，需要一定的掏狗能力，总体一般难度。"
+				""
+				"&c特性：谨慎给女仆拔刀剑、灾变武器等奇怪的模组武器进行攻击，有可能会导致游戏崩溃。"
+				""
+				"&5女仆只会忠于自己的主人，可以攻击其他玩家。"
+			]
+			id: "7BAFF963F479854D"
+			rewards: [{
+				id: "180DAA1C80E5F3CB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「星月枪姬」"
+			tasks: [{
+				id: "129C290D51C1BF4C"
+				item: "yuusha:focus_2_maid"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BAFF963F479854D"]
+			description: [
+				"需携带污浊的灵魂宝石才能完成此任务。"
+				""
+				"&6提升女仆好感可增加血量和近战攻击距离。女仆可以开启007工作模式，还有不同的武器需不同的攻击模式。"
+				""
+				"&e用污浊的灵魂宝石和净化粉末，在工作台中与特定装备合成，可制作不可破坏的皮革套、钻石剑、木盾牌等。合成时会清除原装备的NBT。"
+				""
+				"&c在打开女仆的GUI时，可能会崩游戏，这是正常的特性，重新进入游戏即可。"
+			]
+			id: "48011BF55AA862F1"
+			rewards: [{
+				id: "5FAE36C7D59122ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "472B74351B849DAD"
+				item: {
+					Count: 1
+					id: "yuusha:bad_soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70AAF3B0D9456850"]
+			description: [
+				"皮革套可升级为锁链套。适合女仆前期穿的盔甲。"
+				""
+				"&e需注意，所有女仆专用装备，拿在手上或者穿戴，都会导致玩家陷入眩晕状态，无法交互和移动。"
+				""
+				"&6在下界要塞等建筑的宝箱内，可以找到锁链套，配合永恒之石也可无法破坏。"
+			]
+			id: "432F22033FDBE271"
+			rewards: [{
+				id: "1B2A7EFA5A76D8DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F0DCD2BA0238413"
+				item: {
+					Count: 1
+					id: "minecraft:chainmail_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"女仆世界线的核心饰品。"
+				""
+				"&c需注意，所有女仆专用装备，拿在手上或者穿戴，都会导致玩家陷入眩晕状态，无法交互和移动。"
+				""
+				"&6后续可在工作台中与不同的材料合成，获得更高加成的超限猎人腰带。不能同时带多个猎人腰带，只会按最低加成的算。"
+			]
+			icon: {
+				Count: 1
+				id: "relics:hunter_belt"
+				tag: {
+					abilities: {
+						slots: {
+							points: 0
+							stats: {
+								charm: 0.88868d
+							}
+						}
+						training: {
+							points: 0
+							stats: {
+								damage: 1.58411d
+							}
+						}
+					}
+				}
+			}
+			id: "7ADEDC61DC2AF580"
+			rewards: [{
+				id: "0E4A6E20CAC3270B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B1204FC5311F9DC"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 0.88868d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.58411d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"·「纯净织布」可以制作类吸血鬼附魔。"
+				"·「末影珍珠」可制作连携传送附魔。"
+				"·「雷电瓶」可制作连锁闪电附魔。"
+				"·「惊骇水晶」可制作火焰免疫附魔。"
+				"·「优秀枪械材料」可制作额外生命附魔。"
+				"·「牛黄」可制作毒素免疫附魔。"
+				"·「虚空护符」可制作偏转附魔。"
+				"·「赫尔墨斯靴」可制作瞬速行者附魔。"
+				"·「冰霜能量结晶」可制作冰霜利齿附魔。"
+				"·「强力磁铁」可制作磁性附魔。"
+				"·「拾取升级」可制作物品栏关联附魔。"
+				"·「生命刻蚀板」可制作生命虹吸附魔。"
+				"·「潜影壳」可制作泡泡附魔。"
+				"·「兽友指南」可制作群集附魔。"
+				"·「槿紫境云」可制作虚空之云附魔。"
+				"·「村民草帽」可制作魅力四射附魔。"
+				"·「腐化粉末」可制作影之手附魔。"
+				"·「唱片机」可制作唱片播放员附魔。"
+				"·「爆炸吊坠」可制作拆弹能宠附魔。"
+				"·「卓越墨水」可制作心灵之墙附魔。"
+				"·「火焰精华」可制作烈焰守护附魔。"
+				"·「神圣珍珠」可制作治疗之息附魔。"
+				"·「治疗药剂」可制作恢复生命附魔。"
+				""
+				"&c已知特性：两栖化、全面召回附魔会使女仆异常消失，不要使用。"
+				""
+				"&e已知特性：项圈标签虽然可堆叠，但在铁砧附魔时不能堆叠在一起附魔，否则会显示过于昂贵，只能一个个进行附魔。"
+				""
+				"&6已知特性：心灵之墙附魔在打末影龙时会卡位消失。"
+			]
+			id: "4D6AF12763FA1AA2"
+			rewards: [{
+				id: "692B39190C96D4FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "171648216253E1DD"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			description: [
+				"女仆专用，副手时抗击退。"
+				""
+				"&6可提供较多的生命值和少量的攻击。无后续合成。"
+			]
+			id: "41E73D1525D546CA"
+			rewards: [{
+				id: "1117A27CFA759CA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0029AF4537354613"
+				item: {
+					Count: 1
+					id: "deep_aether:skyjade_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48011BF55AA862F1"
+				"383E3CF739CE7C74"
+			]
+			description: [
+				"可以欺负霜冻巨兽。"
+				""
+				"&c能量晶核可制作魔法保护和魔法类型抗性5级附魔书。一般来说有这两种防御类附魔基本足够。"
+				""
+				"&e特性：女仆用弓击杀部分生物，可能会没有掉落物。"
+				""
+				"&6特性：女仆用枪械攻击太阳酋长，游戏可能会崩溃。"
+			]
+			hide_dependency_lines: true
+			id: "0A35AD2C24330F4F"
+			rewards: [{
+				id: "3D8E190D69E9A23E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73D38EE2EE656251"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"16FFD21575AD92EC"
+				"14F5AF9007D14311"
+			]
+			description: [
+				"可制作沙漠之鹰、榴弹炮等，也许需要用此击杀末影人突变体。"
+				""
+				"&c可制作额外生命5级附魔。"
+				""
+				"&e部分Boss能给予重伤3级以上效果，此时如果女仆死亡，在复活后女仆可能会无法回血，只需再次被有重伤效果的Boss攻击并不死即可解除。"
+			]
+			id: "6A209992392C7DBA"
+			rewards: [{
+				id: "59142D4190EB02E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F16079E0AF52D52"
+				item: "yuusha:uncommon_material"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			description: [
+				"生命祝福可以治疗其它生物。神圣守护可给予黄血。女仆不会放焰涌法术。"
+				""
+				"&e急迫法术可给目标生物应用急迫效果，增加移动速度、攻击速度、挖掘速度。"
+				""
+				"&c利用卓越墨水等材料，可制作超限的猎人腰带（宠物加伤625%）。超限后负载能力下降，但能更大幅度提升宠物的伤害。"
+				""
+				"&6佩戴多个猎人腰带并不会重复生效。"
+				""
+				"&3心灵之墙附魔可能在打末影龙时让其因卡位而消失。"
+			]
+			id: "36BD6E5C3B6ECC4C"
+			rewards: [
+				{
+					id: "3EF7B07C2A09241F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F6EEE197203936A"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CD01F67C99B0CF7"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["459E2781D4F943E0"]
+			description: [
+				"不死图腾可以给女仆使用。女仆使用时无冷却时间。"
+				""
+				"&c与玩家不同，只有放在女仆饰品栏内的不死图腾才会激活，而放在女仆物品栏内的不死图腾不会生效。"
+			]
+			id: "6DB72C75A4EFF010"
+			rewards: [{
+				id: "106C1D582A22DA06"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45D7182ED71935E4"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"用污浊的灵魂宝石和净化粉末，在工作台中与特定物品合成，可制作不可破坏的皮革套、钻石剑、木盾牌等。"
+				""
+				"&6前期可通过去下界要塞等结构，在宝箱中获取各种特殊的末影之眼，并将其转化为终焉之尘。"
+				""
+				"&e也可制作锻造者宝石获得无法破坏的装备。"
+			]
+			id: "5F9127033DE6004D"
+			rewards: [{
+				id: "37C72C8719AC633D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1EC35BEF54273D97"
+					item: "celestial_artifacts:purified_powder"
+					type: "item"
+				}
+				{
+					id: "0A4D534F62421E6C"
+					item: "enigmaticaddons:forger_gem"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14F5AF9007D14311"]
+			description: ["女仆专用，自带火属性。锻造台中可制作。"]
+			id: "468EAD9D8B5686E4"
+			rewards: [{
+				id: "3BD94B8A6E185ED6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6637E882ACE91CD6"
+				item: {
+					Count: 1
+					id: "lost_aether_content:phoenix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["119C75FFF4BC985F"]
+			description: [
+				"需击杀炽焰术士等咒术模组的生物才能制作，并不好杀，需要堆足够的女仆枪械。"
+				""
+				"&6神圣守护可给其它生物提供额外的黄血（看不到额外的黄血，但能看到神圣守护效果，施法可刷新黄血）。"
+				""
+				"&e利用高级墨水等材料，可制作比之前更强的超限猎人腰带（宠物加伤875%）。"
+				""
+				"&c请勿给女仆使用践踏等大范围技能，会导致游戏卡顿。请勿给女仆使用嗜血啃咬，可能会导致部分生物被击退。"
+			]
+			id: "6EEFC14E677FC77D"
+			rewards: [
+				{
+					id: "10B615C28E5F1D40"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12434B4C99B18481"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A68B51AEA1108B8"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"部分物品可右击献给「女神雕像」，从而给最近的玩家赐予特定奖励。"
+				""
+				"&e女神雕像只在「卫城」有生成，卫城相关内容详见死寂幻乡章节任务。"
+				""
+				"&6相关献祭信息详见「死寂幻乡」章节女神雕像任务。"
+			]
+			id: "59134193DC3863BF"
+			rewards: [{
+				id: "3A1886E674BD2359"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D1F93038370D250"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "cataclysm:goddess_statue"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"660654373269C8CA"
+				"0A35AD2C24330F4F"
+			]
+			description: [
+				"需注意部分具有瞬间伤害效果等魔法伤害的Boss，极为容易秒女仆。"
+				""
+				"&6保护、魔法类型抗性附魔随着附魔等级提升，能更为有效的抵抗各种魔法伤害。"
+				""
+				"&c在女仆世界线，天使核心和破坏核心可制作保护、魔法保护和魔法类型抗性10级附魔书。"
+				""
+				"&e女仆自身的物理抗性已足够优秀，请根据具体情况选择使用保护还是魔法保护附魔。其实建议还是魔法保护。"
+			]
+			id: "2DB63C0246FE67DD"
+			rewards: [{
+				id: "73474A1409420974"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "255A3E5529AFF323"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			id: "639B5F440A8AA2E8"
+			rewards: [{
+				id: "634AEC7220156DC6"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "5406F8B37C7E83BD"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"51A8ABB7D9C4550B"
+				"2DB63C0246FE67DD"
+			]
+			id: "088CE1B34D5F6F1D"
+			rewards: [{
+				id: "54DD05E4C4430B61"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5FA3D0F28B8E9792"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["088CE1B34D5F6F1D"]
+			description: [
+				"配合魔法类型抗性附魔也能降低瞬间伤害效果的伤害。"
+				""
+				"&6女仆可以上魔法保护10级+魔法类型抗性10级附魔，可以有效降低各种魔法伤害。"
+			]
+			id: "0D7ECB80B50DCC33"
+			rewards: [{
+				id: "2741EC2F5B8A5250"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5528F09A17DB3400"
+				item: {
+					Count: 1
+					id: "shieldexp:griefer_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB63C0246FE67DD"]
+			description: [
+				"最好用魂符收放女仆，把女仆控制在不同时攻击，否则会被无敌帧骗伤。"
+				""
+				"&6棠郎古镰自带无限耐久。具有更高的伤害，打上火属性附加附魔即可，火属性附加2级附魔书可制作。"
+			]
+			id: "15025FCC04114EA8"
+			rewards: [{
+				id: "53BC6FD901E9CA20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "540E901F050BAF14"
+				item: "mokels_boss_mantyd:mantyd_scythe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59134193DC3863BF"]
+			description: [
+				"可制作隐身术法术卷轴。"
+				""
+				"&6前期可通过给女仆主手粗制镰刀，然后使用铁魔法的法术攻击。"
+				""
+				"&c女仆在坐下时不会进行近战、法术攻击，但是会进行弓箭、枪械攻击。"
+			]
+			id: "70AAF3B0D9456850"
+			rewards: [
+				{
+					id: "7C60DA14BC4DE426"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C19A8AD4FB91CCA"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EEC636D5D4225B7"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"手持胶片右击神龛，然后再右击神龛，可消耗玩家大部分血量，并复活女仆。不会继承死亡前的药水效果。"
+				""
+				"&c宠物床无法复活。女仆只能通过神龛或者祭坛复活。"
+				""
+				"&6现在各种宝箱内不再能开出以下女仆饰品：绀珠之药、火焰保护饰品、弹射物饰品、药水保护饰品。但开出其它普通的女仆饰品的几率增加。"
+			]
+			icon: "touhou_little_maid:shrine"
+			id: "459E2781D4F943E0"
+			rewards: [{
+				id: "1E10F6776013A7D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F04EF836D84CA0F"
+				item: "touhou_little_maid:shrine"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D6AF12763FA1AA2"]
+			description: [
+				"手持奶桶时，可以Shift+右击清除女仆的药水效果。"
+				""
+				"&6手持药水时，可以Shift+右击喂给女仆。"
+			]
+			id: "579BDE59E1B5E5D6"
+			rewards: [{
+				id: "502248A0EB62D98F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52B75861AF2446DB"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["459E2781D4F943E0"]
+			description: [
+				"击杀妖怪归家模组的任意Boss均可获得。"
+				""
+				"&6可用于制作女仆专署饰品，部分如下："
+				"&6·1. 末影腰包、法术白名单、磐石魔晶。"
+				"&6·2. 喋血之心、 弹射物保护饰品、烬血之戒。"
+				"&6·3. 流转核心、魔术炉心。"
+				"&6·4. 魂之书、时痕之戒、锚定核心。"
+				"&6·5. 双心之链、火焰保护饰品、发簪、法术超限核心。"
+				"&6·6. 混沌之书、破愈咒锋、法术强化核心。"
+			]
+			id: "68A0E6C80B6B87B9"
+			rewards: [{
+				id: "3EFE5006B58790F4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "108807DC2D0E951C"
+				item: "yuusha:shard_1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["119C75FFF4BC985F"]
+			description: [
+				"可以远距离传送生物，甚至未加载的区块也行。"
+				""
+				"&c包括Boss也能传送。"
+			]
+			id: "6E4485974EE866D1"
+			rewards: [{
+				id: "1F1730A0F3F4EEA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "632D82DAD10D0363"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59134193DC3863BF"]
+			description: [
+				"在任意女仆达到1级好感后，可提交特定物品获得无限使用的好感度工具。"
+				""
+				"&6女仆好感度：可以提升其最大生命值、攻击力、生命回复速度。"
+				""
+				"&c增加女仆好感："
+				"&c女仆在女仆床上睡眠并自然苏醒（白天非雷暴时间将自然苏醒）、使用电子琴、书架、直播站等娱乐道具，进食部分食物等。"
+				""
+				"&e女仆如果受到雷击，它的最大生命值将一次性的永久提升20点。"
+			]
+			icon: "touhou_little_maid:favorability_tool_add"
+			id: "0B54AB817DEB953F"
+			rewards: [{
+				id: "0AE4717434812657"
+				item: "touhou_little_maid:favorability_tool_add"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "touhou_little_maid:favorability/favorability_increased"
+					criterion: ""
+					id: "3FEF32120D95E129"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "77AD96AA6B77D338"
+					item: "avaritia:diamond_lattice"
+					type: "item"
+				}
+			]
+			title: "好感度工具"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["088CE1B34D5F6F1D"]
+			description: [
+				"可制作全类型无尽弹药盒。"
+				""
+				"&6深渊之卵还能制作保护10级的附魔书。"
+				""
+				"&e深渊之卵还可制作野猎指南。"
+			]
+			id: "119C75FFF4BC985F"
+			rewards: [{
+				id: "51ECF7F8AB0B33D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C90D2CB013A53BC"
+				item: "wizards_reborn:precision_crystal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A99FA150156296B"]
+			description: ["具有连携传送附魔的女仆如果在指路石附近，可以连同玩家一起传送。"]
+			id: "7A5CB21B791B9E8F"
+			rewards: [{
+				id: "06313F177D814284"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A678C8331D697FD"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BC28235BEC9271D"]
+			description: [
+				"玩家在使用各种造成非玩家伤害的聚晶时，不会触发生物仇恨，并且玩家不会因此破隐。"
+				""
+				"&6部分Boss可能女仆不方便破适应，玩家可以用此帮忙。"
+			]
+			id: "639234F3D2BD3D55"
+			rewards: [{
+				id: "54CB836660A5F520"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "175784C643423834"
+				item: "goety:leeching_focus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC28235BEC9271D"]
+			description: [
+				"太阳鸟的战利品可分解为石化经验球。"
+				""
+				"钢铁守卫者的战利品可分解为陨星碎片。"
+			]
+			id: "768FEA7F23714893"
+			rewards: [{
+				id: "6C017AF7A351F0FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "249366F9CB23EEAF"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+				{
+					id: "03D45BE5A941AD62"
+					item: "forbidden_arcanus:stellarite_piece"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["088CE1B34D5F6F1D"]
+			description: [
+				"可升级为海皇套。适合女仆远程攻击穿的盔甲。该弹射物伤害仅加成弓箭、三叉戟等原版弹射物类型。"
+				""
+				"&6可将守卫者之眼转化为守卫者眼球。"
+			]
+			id: "74EC41F65CEF8C86"
+			rewards: [{
+				id: "0978D58B9C714B86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1835D7369B1C08D8"
+				item: {
+					Count: 1
+					id: "aether:neptune_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A283919B17CBD30"]
+			id: "3AFEE3E2FFCF73D4"
+			rewards: [{
+				id: "7831CE5A8F0B2E68"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "78FEBEC6015C4C15"
+				item: "confluence:demon_heart"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"119C75FFF4BC985F"
+				"3449CA7CC9FD4109"
+			]
+			description: [
+				"需小心远古骑士伤害极高，女仆必须有盾牌格挡。"
+				""
+				"&6幽魂质可制作额外生命10级、毁灭裂纹1级附魔书。"
+				""
+				"&c毁灭裂纹附魔可以让生物的无敌帧消失，这对女仆近战很有用处。"
+				""
+				"&e冰封蟹最好有缠绕聚晶才好控住让女仆打。"
+			]
+			id: "3A283919B17CBD30"
+			rewards: [{
+				id: "0801BF228C679FB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60C91F785DF8F208"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A283919B17CBD30"]
+			description: [
+				"为魔法类型的近战武器。可以打上各种属性附加附魔。"
+				""
+				"&e打上雷属性附加可较为轻易击杀科妮莉亚船长幽灵。"
+				""
+				"&c没必要打永恒陨星，基本耐久够用完此阶段。"
+			]
+			id: "014C3B686248390D"
+			rewards: [{
+				id: "5CB0D6F37EE1F3E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FD67E9F6DE917BF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:spellbreaker"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1ECE3FACB00265F4"]
+			description: ["可附魔引雷变为雷属性。女仆的三叉戟攻击模式，不会把三叉戟直接投出去，而是相当于自带忠诚可以无限发射，但是消耗耐久。"]
+			id: "1FBEC7980DEFE13C"
+			rewards: [{
+				id: "1A0E74961CBA2029"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "075AE8E336581AC8"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ECE3FACB00265F4"]
+			description: ["可根据Boss是否有适应属性，而选择射速低伤害高的枪械，或者纯粹选择输出高的枪械。"]
+			id: "04A1421B979DD46E"
+			rewards: [{
+				id: "33F6BDC950276D63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E7CFF269FB8DAAE"
+				item: "yuusha:rare_material"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"御币可以附魔，可给女仆切换到弹幕攻击模式使用。"
+				""
+				"&6每级阻碍附魔，都会给予被弹幕攻击到的生物阻碍附魔等级+1的缓慢效果，该附魔最高4级。"
+				""
+				"&e快速装填、极速附魔可以有效提升御币弹幕的输出。"
+			]
+			id: "1A07E06F132B024A"
+			rewards: [{
+				id: "40FDA36D29960850"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08429669E9E76A28"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:sanae_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"基本设定：玩家在穿戴隐匿手环且触发该饰品的隐匿效果时，大部分敌对生物都对玩家不会有仇恨。"
+				""
+				"&c特殊：部分中立生物，仍会受到无咒之戒和无厄之册的影响，而无视隐匿效果，主动攻击玩家。"
+				""
+				"&6配合：可以搭配隐身药水、隐身术等，让中立生物对玩家也没有仇恨。"
+			]
+			id: "0A99FA150156296B"
+			rewards: [{
+				id: "0B91DAE5BE34EA10"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EDC010C033E3CE6"
+				item: "celestial_artifacts:hidden_bracelet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62E29E1E521360F8"]
+			description: [
+				"可制作新的枪械。"
+				""
+				"&c在击杀冰封蟹后可制作全金属被甲弹。"
+			]
+			id: "71D5D29718EF50EB"
+			rewards: [{
+				id: "651DE11404E972F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33A0AE371D73721A"
+				item: "yuusha:epic_material"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A283919B17CBD30"]
+			description: ["持久附魔能延长控制时间。"]
+			id: "75D2AC4C2C42B6D3"
+			rewards: [{
+				id: "5D26F0A6B244F1F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3E3516D2F03331C0"
+					item: "goety:entangling_focus"
+					type: "item"
+				}
+				{
+					id: "4233937EB251B166"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wild_staff"
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["691801CC319ECD84"]
+			id: "4B066987CB6E5E8F"
+			rewards: [{
+				id: "4BEA1942DACE8713"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "54090F3A114748A8"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EEFC14E677FC77D"]
+			description: ["开启诡厄巫法模组的宝藏袋有小几率获得。"]
+			id: "51B6B7E746401E2D"
+			rewards: [{
+				id: "2B170C3485CBEEE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01D71ADF2D37F13C"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EEFC14E677FC77D"]
+			description: [
+				"灾厄皇家护卫盔甲适合女仆使用枪械穿的盔甲。"
+				""
+				"&6在袭击中击杀特定生物有几率获得。也可制作获得。"
+				""
+				"&c需注意，袭击内会有怪物可以直接把盾牌摧毁，尤其是女仆的盾牌要注意。"
+			]
+			id: "210085E51EEF76DF"
+			rewards: [{
+				id: "6375AA7F562E707A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "282487012B5FED13"
+				item: {
+					Count: 1
+					id: "illager_additions:royal_guard_spearman_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6EEFC14E677FC77D"
+				"218B5CD994C5A8EE"
+			]
+			description: [
+				"可优先去打超级血月。"
+				""
+				"&6虚空之花无法用实体ID复制器复制。其实体ID详见此章节实体ID复制器任务。"
+				""
+				"{ \"text\": \"点击跳转至实体ID复制器任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"42F9B95F72EE2BC4\" } ,\"color\":\"dark_purple\",\"italic\":\"true\",\"bold\":\"true\"}"
+			]
+			id: "691801CC319ECD84"
+			rewards: [{
+				id: "1C5D20161098A75F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4071DECBA3685946"
+				item: {
+					Count: 1
+					id: "cthulhufishing:reagent"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BD938A799D0B161"]
+			description: ["具有更高的近战伤害加成。"]
+			id: "45060E4D1AE3FED6"
+			rewards: [{
+				id: "59C094899034DFCC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06D3CB672107A43E"
+				item: {
+					Count: 1
+					id: "aether:phoenix_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B7581D91BAAF924"]
+			id: "73E33C9F9140EAF4"
+			rewards: [{
+				id: "53439FA8C8CBBBD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0421662EA230C1A5"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B7581D91BAAF924"]
+			id: "49D0AFF93EA27261"
+			rewards: [{
+				id: "11EA583A22516F12"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E48878AE16BE48"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"691801CC319ECD84"
+				"6D8D46A8D5F1DD25"
+			]
+			id: "0B7581D91BAAF924"
+			rewards: [{
+				id: "641C8E51BE8EE43A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CFAA65511A8DC6A"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["088CE1B34D5F6F1D"]
+			description: ["女仆自带紫水晶祝福效果，而玩家仍需进食才能获得。"]
+			id: "4411BFB777DCAD0C"
+			rewards: [{
+				id: "061CEE7815F47856"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "042747B37627386F"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD938A799D0B161"]
+			id: "3B93358A00E027F3"
+			rewards: [{
+				id: "2008DD28D9FA0707"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6CAAF805CFADA791"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BD938A799D0B161"]
+			description: ["可用来制作新的枪械。"]
+			id: "580B820A23E6CF25"
+			rewards: [{
+				id: "6E58334B06C240F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BEC5F66A4F7B885"
+				item: "yuusha:legendary_material"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0806BC3D040EDDE8"
+				"0B7581D91BAAF924"
+			]
+			description: [
+				"用部分单次高伤害的攻击，可以击杀监守者。"
+				""
+				"&6幽匿之心还可用污浊的灵魂宝石等材料制作获得。"
+			]
+			id: "2585E63B8985DD46"
+			rewards: [{
+				id: "0E0C39778973ABF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60EE229495D1AEE6"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2585E63B8985DD46"]
+			description: ["击杀永恒苦痛之灵可制作。"]
+			id: "750C9B9874A57A8E"
+			rewards: [{
+				id: "75010A89FAFCC8E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BA42EAF9E3D9007"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:soul_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2585E63B8985DD46"]
+			id: "1549DF43A3631C88"
+			rewards: [{
+				id: "13314B1A2BFA6BFC"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EAC046C7A4BBB3D"
+				item: {
+					Count: 1
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48011BF55AA862F1"]
+			description: [
+				"女仆专用的盾牌，副手时抗击退。具有多条升级路线。"
+				""
+				"&c袭击内的部分怪物可以直接把盾牌摧毁，尤其是女仆的盾牌要注意。"
+				""
+				"&6多个女仆使用枪械时有几率会游戏崩溃，这是特性。"
+			]
+			id: "7E2D5806416588D5"
+			rewards: [{
+				id: "64BE6B16ADF1080D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67C1B2FA584041D4"
+				item: {
+					Count: 1
+					id: "shieldexp:wooden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["691801CC319ECD84"]
+			description: ["具有近战伤害加成。"]
+			id: "3FCBB12D5EFDE4E5"
+			rewards: [{
+				id: "2D5F9650D041505C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C7D1B4BFA0286E7"
+				item: {
+					Count: 1
+					id: "hmag:fortress_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2585E63B8985DD46"]
+			description: ["&e利用暗影精粹等材料，可制作比之前更强的超限猎人腰带（宠物加伤1125%）。"]
+			id: "3D44867596532338"
+			rewards: [{
+				id: "150BF4BCD51D09FF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C1F471A55792513"
+				item: "goety:shadow_essence"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43609A81D4903CB6"]
+			id: "0CAC2689260B83BC"
+			rewards: [{
+				id: "2CC40E8757CDD73A"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "287F10C98904314F"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2585E63B8985DD46"
+				"394278F69FA905F5"
+			]
+			id: "067B5889C673C5DD"
+			rewards: [{
+				id: "127E6F846F0D391D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AB256A30E6AD9E8"
+				item: "born_in_chaos_v1:magical_holiday_candy"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["067B5889C673C5DD"]
+			description: [
+				"请勿在末影龙下降到龙池上方停滞飞行时使用黑洞法术等法术，会导致末影龙消失。"
+				""
+				"&3心灵之墙附魔可能在打末影龙时让其因卡位而消失。"
+				""
+				"&c在女仆世界线，龙之鳞片可直接制作保护、魔法保护20级附魔书。"
+			]
+			id: "467F398158AA852E"
+			rewards: [{
+				id: "3AF773C21EC85AC3"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F6DB42D4EE6F0C1"
+				item: "yuusha:dragon_soul"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F7FDE230FB1B1EE"]
+			description: ["具有更高的枪械伤害加成。"]
+			id: "3D8A183BEFC2A0D0"
+			rewards: [{
+				id: "41C6BD4AB69D826B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "462726937F57801B"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:depth_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B7581D91BAAF924"]
+			description: [
+				"女仆的背包内不要放入大量具有较多NBT的物品，会容易导致崩溃。"
+				""
+				"&6以下为常见具有较多NBT的物品：神化宝石和词缀强化的装备、魔改过数值的女仆专用装备、有大量物品的潜影盒等容器。"
+				""
+				"&e女仆自身的物理抗性已足够优秀，请根据具体情况选择使用保护还是魔法保护附魔。其实建议还是魔法保护。"
+			]
+			id: "0BD938A799D0B161"
+			rewards: [{
+				id: "1EC6437E010395B8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2EAA15866E85561E"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34B50EAF29D32259"]
+			description: [
+				"可能有一定用处。"
+				""
+				"&6女仆可以上护卫宝石，能获得不受重伤影响的黄血。"
+			]
+			id: "3C88A99FAD4D6E38"
+			rewards: [{
+				id: "33CEB2D53DF9DEA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67042E5B81F546C2"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			x: 39.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2975359DEAEC05AB"]
+			description: [
+				"用女仆难以打过下级门，但可以直接打龙后Boss。"
+				""
+				"&c龙后大部分Boss都具有与其相应最低元素抗性的神属性、勇者攻击类型抗性。"
+				""
+				"&e建议女仆线的千咒卷轴至少+400%伤害。"
+				""
+				"&6女仆对下界岩砖傀儡没有仇恨，需用实体ID复制器给女仆新增攻击列表。"
+				""
+				"&3哀木锭可制作额外生命20级附魔。"
+				""
+				"&2部分饰品可以上多个诅咒附魔，其中大部分手饰都具有耐久度，需要上永恒陨星。"
+			]
+			id: "555FD97CE5538E94"
+			rewards: [{
+				id: "12E904D0ED5E3949"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52FC1543704AEC91"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2975359DEAEC05AB"]
+			id: "149C6B97796E418A"
+			rewards: [{
+				id: "3F8A9092AF25EC0C"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "457C217DE4808B32"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["13737946196FFBA7"]
+			description: ["在锻造台中可制作获得。"]
+			id: "361C8F55A3A5B83D"
+			rewards: [{
+				id: "79473DEB02D62CDA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D318218DE51256A"
+				item: {
+					Count: 1
+					id: "hmag:ancient_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3656EB66E79C220E"]
+			description: [
+				"再生云域可让范围内所有生物都持续回血。"
+				""
+				"&6纠缠树根法术可短暂困住目标生物，尤其是飞行生物。"
+				""
+				"&c特性：不建议给女仆使用纠缠树根，可能会乱释放。"
+			]
+			id: "2975359DEAEC05AB"
+			rewards: [
+				{
+					id: "4D116E8F2BA0DEC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "765F48193800779F"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17DD878D017D1F61"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A246EF747F15B40"]
+			description: [
+				"击杀腐化英雄即可制作。"
+				""
+				"&6腐化英雄无除了活力外的其它回血手段。"
+				""
+				"&e大部分女仆武器都只要上神化暴击率和神化暴击伤害宝石即可。"
+			]
+			id: "4EFEC58E37004AD1"
+			rewards: [{
+				id: "263CCE43049E8FEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69D55BCE850C3C68"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2737E9EE295A4D42"
+				"2975359DEAEC05AB"
+			]
+			description: ["女仆虽然能使用倒转之启，但是并没有额外的加伤。"]
+			id: "5592322E86757441"
+			rewards: [{
+				id: "7C7F0DAD3697F5CD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5CABF175A4478A5D"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5592322E86757441"]
+			id: "35EF3D5F58859E9C"
+			rewards: [{
+				id: "42700D730BAC9EAA"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "359EE2BBACB47876"
+				item: "graveyard:white_bone_staff"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5592322E86757441"]
+			description: ["女仆有会心一击、神化暴击率和神化暴击伤害属性，但没有原版/星月的暴击率和暴击伤害。"]
+			id: "15DFB91E349F4F2C"
+			rewards: [{
+				id: "5FF564D68839E92F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EF73C4131AEE838"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["067B5889C673C5DD"]
+			description: ["重要制作材料。"]
+			hide_dependency_lines: true
+			id: "3656EB66E79C220E"
+			rewards: [{
+				id: "07493B215D607F9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38CD998884D435D3"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36BD6E5C3B6ECC4C"]
+			id: "50EDDDA83B4658F0"
+			rewards: [{
+				id: "32C57F0B8F6C03C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "178EF2FA24E807C9"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13737946196FFBA7"]
+			id: "4F6D665FB8CDA731"
+			rewards: [{
+				id: "254EAF9FA9D1B3B5"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B476C2112A3287A"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3AC84AAE98D3EC16"
+				"34B50EAF29D32259"
+			]
+			description: [
+				"可用于召唤神化Boss。"
+				""
+				"&6女仆击杀神化Boss无法获得宝石，但基本用到的宝石都可以通过合成获得。"
+				""
+				"&c由于女仆专署装备增加的近战伤害、弹射物伤害、射击伤害的百分比较高，与神化宝石提供的数值属于相加计算，因此基本只有神化暴击率和神化暴击伤害对女仆伤害的提升有明显效果。"
+				""
+				"&e女仆对下界铁掌没有主动仇恨，需要添加“bosses_of_mass_destruction:gauntlet”为敌对，或者玩家近战攻击一下。"
+			]
+			id: "43609A81D4903CB6"
+			rewards: [{
+				id: "43615A0659918BF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5ADA141BFEAD934D"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13737946196FFBA7"]
+			id: "0B674BC1C94CCDA7"
+			rewards: [{
+				id: "447726C890D330D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C8F21B51275C0E1"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13737946196FFBA7"]
+			id: "34B50EAF29D32259"
+			rewards: [{
+				id: "2C5EE87343D9DD2C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "38DBAB564A3211EC"
+					item: "yuusha:hot_fire_bottle"
+					type: "item"
+				}
+				{
+					id: "163F1424D2111F36"
+					item: "yuusha:cold_fire_bottle"
+					type: "item"
+				}
+			]
+			x: 39.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08AD91B44FB6E6F2"]
+			description: [
+				"属于魔法类型攻击，也许能用到。"
+				""
+				"&6女仆使用法术战斗模式，可以正确给自己使用超负荷法术，并能顺利进行近战攻击。"
+			]
+			id: "62276B194ACCA550"
+			rewards: [{
+				id: "637158BE1B198EB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D2B1F0209E4C259"
+				item: {
+					Count: 1
+					id: "depthcrawler:redtenebris"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 45.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D44867596532338"]
+			description: ["可酿造喷溅型坠落药水，详见咒法章节女巫坩埚任务。"]
+			id: "38AA9A8C0DDD7FF4"
+			rewards: [{
+				id: "08FB3A05A776FD05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22246B431CFAE854"
+				item: "goety:witch_cauldron"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3656EB66E79C220E"]
+			description: ["可制作生命虹吸附魔书。"]
+			id: "09D6611FC7B096DD"
+			rewards: [{
+				id: "73A327C4F693F03B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6543E4D8366242C2"
+				item: "celestial_artifacts:life_etching"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E96694DAA87F302"]
+			id: "2B647B7045FEC3BE"
+			rewards: [{
+				id: "5DC033BA5717249E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02464AC615C33BCD"
+				item: {
+					Count: 1
+					id: "shieldexp:paragon_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"43609A81D4903CB6"
+				"299BCA572729581B"
+			]
+			description: ["只要击杀爆烈下界合金巨兽或者焰魔任一个，即可优先往下发展。"]
+			id: "3F7FDE230FB1B1EE"
+			rewards: [{
+				id: "71B68EEB88173F99"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17B07653E86534B4"
+				item: "yuusha:destructed_hope"
+				type: "item"
+			}]
+			x: 44.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F7FDE230FB1B1EE"]
+			id: "39049D5DAE5763EC"
+			rewards: [{
+				id: "49987E58625036B4"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C05154D31F08263"
+				item: "faded_conquest_2:key_of_death"
+				type: "item"
+			}]
+			x: 44.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4E59C4B07D86318D"
+				"42209E9CB7030E82"
+			]
+			description: [
+				"可制作治愈之环、球状闪电等法术。"
+				""
+				"&6还可以将月之斩击、炽焰烙印、冰霜打击等传说法术升级至满级。"
+				""
+				"&e枯萎术也是玩家可用的辅助法术，可搭配亲和之戒。"
+			]
+			id: "78613385FCA9868B"
+			rewards: [
+				{
+					id: "7033A5C42F71D64A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "242A0FA5801EE498"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EF4821721BE4F37"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 47.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F57C17272FD162B"]
+			id: "7C65CC487F8B0C08"
+			rewards: [{
+				id: "55DB34ABB9989D7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "088E3CE8B75846D0"
+				item: {
+					Count: 1
+					id: "locusazzurro_icaruswings:synapse_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 53.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DB63C0246FE67DD"]
+			description: [
+				"配合魔法类型抗性附魔也能降低瞬间伤害效果的伤害。"
+				""
+				"&c如果女仆有保护5+魔法类型抗性10+锁链套，可以有95%的魔法类型抗性，才能勉强扛住瞬间伤害3级效果（需玩家治疗）。在当前阶段如果受到瞬间伤害4级及以上，女仆就可能会暴毙。"
+			]
+			id: "302A236DDDE511CE"
+			rewards: [{
+				id: "7B19657CC9F7709A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DE972E87276F67D"
+				item: {
+					Count: 1
+					id: "lost_aether_content:zanite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A246EF747F15B40"]
+			description: [
+				"在锻造台中可制作获得。"
+				""
+				"&6部分Boss会给予女仆震撼效果，会导致盾牌被下下来。可以通过缠绕聚晶等控制Boss，以防Boss攻击到女仆。被下下来后可以打开女仆物品栏给之穿上。"
+			]
+			id: "5C4FA409EFA9224E"
+			rewards: [{
+				id: "39982C13DA07C081"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36D55BA7E7637B02"
+				item: {
+					Count: 1
+					id: "cataclysm:black_steel_targe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A99FA150156296B"]
+			description: [
+				"女仆可能会对某些生物没有仇恨。用「实体ID复制器」右击生物会把实体ID复制，然后空手右击女仆打开界面，在任务设置按Ctrl+V键可粘贴实体ID，女仆就能攻击该实体。"
+				""
+				"&c部分生物可能仍需要玩家近战攻击后，才会有仇恨。"
+				""
+				"&6部分Boss要提前用实体ID复制器标记，包括但不限于以下Boss为敌对状态："
+				"&e「下界铁掌」"
+				"bosses_of_mass_destruction:gauntlet"
+				"&e「暗夜巫妖」"
+				"bosses_of_mass_destruction:lich"
+				"&e「黑曜石柱」"
+				"bosses_of_mass_destruction:obsidilith"
+				"&e「虚空之花」"
+				"bosses_of_mass_destruction:void_blossom"
+				"&e「下界岩砖傀儡」"
+				"stalwart_dungeons:nether_keeper"
+			]
+			id: "42F9B95F72EE2BC4"
+			rewards: [{
+				id: "0BFF22F3433CB668"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BB27931E9DD1C51"
+				item: "touhou_little_maid:entity_id_copy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33CC518E16045DD8"]
+			description: [
+				"可能某些远古巫术法术有用。"
+				""
+				"&6法师克星宝石镶嵌在胸甲时可增加远古巫术强度。"
+			]
+			id: "21BD1B35153D517E"
+			rewards: [{
+				id: "0ACBB9F827490845"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "25D59B279CE58E23"
+					item: "irons_spellbooks:eldritch_manuscript"
+					type: "item"
+				}
+				{
+					id: "4C4C5FD629AEFF15"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+			]
+			x: 51.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42209E9CB7030E82"]
+			id: "2FCC01CF3C4171A6"
+			rewards: [{
+				id: "1FE6C23FF9929352"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E72A171C1E24B75"
+				item: "faded_conquest_2:key_of_war"
+				type: "item"
+			}]
+			x: 47.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"633C6DA8C759C3F8"
+				"42209E9CB7030E82"
+			]
+			description: ["可制作更强大的超限猎人腰带（宠物加伤2375%）。"]
+			id: "78717573E2B60A08"
+			rewards: [{
+				id: "5D7837504C4A6243"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44EC730F16908D0B"
+				item: "yuusha:twist_ingot"
+				type: "item"
+			}]
+			x: 50.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78717573E2B60A08"]
+			id: "48CC769D673D16E4"
+			rewards: [{
+				id: "15073EA27CD112D6"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "7577BDB95518F753"
+				item: "yuusha:ice_star"
+				type: "item"
+			}]
+			x: 50.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["78717573E2B60A08"]
+			description: ["可制作直死魔眼反器材步枪、魔光弹，也许有用。"]
+			id: "309F9D61CE30DE0E"
+			rewards: [{
+				id: "4DF5A55775B446D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DBA26C910D78C1B"
+				item: "enigmaticlegacy:soul_dust"
+				type: "item"
+			}]
+			x: 50.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E96694DAA87F302"]
+			id: "52C27ADE0BDEC69D"
+			rewards: [{
+				id: "5443FA6A3E2C74D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FDD64943D70EB64"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"78717573E2B60A08"
+				"0D12B530D6BD51FB"
+			]
+			id: "1F57C17272FD162B"
+			rewards: [{
+				id: "70F07F6264EDB4E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D4E261616FD3403"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 53.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78717573E2B60A08"]
+			description: ["可以先到来无回之都获得星裂2级效果。"]
+			id: "33CC518E16045DD8"
+			rewards: [{
+				id: "5A162C1AAD570A5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "282AD9CB1EA4E673"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 51.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F57C17272FD162B"]
+			id: "7C575CBF57679BD1"
+			rewards: [{
+				id: "50F03C4CC2A80918"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "29FC236E8D6ABDE1"
+				item: "depthcrawler:stafflower"
+				type: "item"
+			}]
+			x: 53.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F57C17272FD162B"]
+			description: ["也许有用。"]
+			id: "696D2B0AF9526DCD"
+			rewards: [{
+				id: "2FC5C1B39942A2D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29308DC4E27155A0"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_he"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 53.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1F57C17272FD162B"
+				"2743D00B69EB23F2"
+			]
+			id: "3A6A75C511EBB4F0"
+			rewards: [{
+				id: "322C0330DA18C3F4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D8547E3F0108E3A"
+				item: "depthcrawler:soullessgem"
+				type: "item"
+			}]
+			x: 54.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F57C17272FD162B"]
+			description: ["利用远古珍宝材料等材料，可制作更强大的超限猎人腰带（宠物加伤4250%）。"]
+			id: "7FAF966943028E9B"
+			rewards: [{
+				id: "2EB4FA509BE0525B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28E987386F254E4E"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			x: 56.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7FAF966943028E9B"]
+			id: "04D20F2CDB3553DB"
+			rewards: [{
+				id: "4C9535C8E4158770"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "670597BE8B29B27D"
+				item: "yuusha:dragon_heart"
+				type: "item"
+			}]
+			x: 56.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3A6A75C511EBB4F0"]
+			id: "5503C82381C44F35"
+			rewards: [{
+				id: "6A2DDE85FB2C11FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6933E9A1192BCBAB"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: 54.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78717573E2B60A08"]
+			description: ["虽然基础数值不高，但是随目标护甲越高造成伤害越高。"]
+			id: "4A4C7C1FA2AB4060"
+			rewards: [{
+				id: "1FE529C75B6D1162"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0341A3E315E73B90"
+				item: {
+					Count: 1
+					id: "embers:tyrfing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A6A75C511EBB4F0"]
+			description: ["利用万钧之护等材料，可制作更强大的超限猎人腰带（宠物加伤9625%）。"]
+			hide_dependency_lines: true
+			id: "195E5FB546DFF1B5"
+			rewards: [{
+				id: "5B17D2BF8EE10AE9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "432C1E92E33DEB86"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: 59.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["195E5FB546DFF1B5"]
+			description: [
+				"配合血腥狩猎手册，在玩家当前血量低时，宠物会获得额外的加伤。"
+				""
+				"&6用魔眼内爆弹（没有爆炸），可不销毁掉落物。"
+				""
+				"&c虚空庇晶可对着女神雕像右击转化为巧匠经验。"
+			]
+			id: "165600F7EB214E16"
+			rewards: [{
+				id: "194C7950A95909A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E7174FA573F06F9"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 59.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F31039A6D1B1DBA"]
+			description: ["&c需注意，色欲也能脱女仆的装备。"]
+			id: "5FC13003178B3962"
+			rewards: [{
+				id: "3244B0A9F0D0F751"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FDFBF82A03D04E7"
+				item: "yuusha:blood_star"
+				type: "item"
+			}]
+			x: 61.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F31039A6D1B1DBA"]
+			description: ["可制作更强大的超限猎人腰带（宠物加伤15875%）。"]
+			id: "028A3B77F8BACFB6"
+			rewards: [{
+				id: "7E876685C88562B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "70BD3010A8772666"
+				item: "celestial_artifacts:war_dead_badge"
+				type: "item"
+			}]
+			x: 62.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F31039A6D1B1DBA"]
+			description: ["可以清除所有负面药水效果。"]
+			id: "4C16587375730330"
+			rewards: [{
+				id: "4838C33DFE39DD23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50827EE6B1ED3B86"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:magic_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 61.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["028A3B77F8BACFB6"]
+			description: [
+				"加上永恒之石，放在女仆的饰品栏，女仆可无限复活。"
+				""
+				"&6现在女仆也可直接使用无尽图腾。"
+			]
+			id: "2CD33EAD96470D21"
+			rewards: [{
+				id: "48714A3E316A5107"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34E0911B9FAEB975"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:ultramarine_orb_elixir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 62.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7BADC977E39D9437"
+				"4F31039A6D1B1DBA"
+			]
+			description: ["可以把色欲和贪婪化身分开单独打，击杀其它七宗罪化身也能制作血肉下界之星。"]
+			id: "4D1FB6A949F56A17"
+			rewards: [{
+				id: "3E5A80F9FEAE634F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "771107225B2AAA1D"
+				item: "sons_of_sins:bloody_bone"
+				type: "item"
+			}]
+			x: 64.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D1FB6A949F56A17"]
+			description: ["无尽挑战传送门的部分Boss要提前用实体ID复制器标记，女仆才会有仇恨去攻击。相关内容详见此章节实体ID复制器任务。"]
+			id: "4EFD21AF260B5FF0"
+			rewards: [{
+				id: "17635A4A4A99252A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64BD6C6A898EA9D5"
+				item: "yuusha:sirenhead_pearl"
+				type: "item"
+			}]
+			x: 65.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59134193DC3863BF"]
+			description: [
+				"余烬之心可制作横扫之刃等有用的附魔。女仆持有横扫之刃武器可以进行范围攻击。"
+				""
+				"&6你知道吗？女仆使用“法术战斗”模式来游走近战，具有更快的攻击速度，可能会比用“近战”模式进行近战更为有效。但“近战”模式可以站桩打怪。"
+				""
+				"&e女仆没有魔斯场强等属性。"
+			]
+			id: "24AFE1F64E2367CC"
+			rewards: [{
+				id: "749A17BB081E557A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C3A390D13924195"
+				item: "yuusha:ember_heart"
+				type: "item"
+			}]
+			title: "&e近战模式"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D1FB6A949F56A17"]
+			description: ["做出重生病毒后，不用激活，可直接制作更强大的超限猎人腰带（宠物加伤500000%）。"]
+			id: "3978B2AADD44CDCB"
+			rewards: [{
+				id: "1E700B7D2E4B8D8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "793491887A62CBA2"
+				item: {
+					Count: 1
+					id: "moonstone:plagues"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 64.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EFD21AF260B5FF0"]
+			id: "0FA936CB75082E47"
+			rewards: [
+				{
+					id: "67AFF8D9AF978104"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30F07A24F6B6F11B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "yuusha:soul_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1831FFA4F66D7CB4"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 67.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EFD21AF260B5FF0"]
+			description: ["此武器也许并没有什么必要。"]
+			id: "56B035D5E58FE511"
+			rewards: [{
+				id: "103F944B820145C3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "278E3A606A00DB10"
+				item: {
+					Count: 1
+					id: "malum:tyrving"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 65.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36BD6E5C3B6ECC4C"]
+			description: ["可以破适应。"]
+			id: "7CC4469DFD3EE10E"
+			rewards: [{
+				id: "1C27736009A5F8FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EAF5A4B2FAD762C"
+				item: "xtraarrows:flint_life_steal_arrow"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC28235BEC9271D"]
+			description: ["女仆世界线的精髓可以通过合成获得。"]
+			id: "650DFCE9BD14629D"
+			rewards: [{
+				id: "0DC09F201A480B9A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "11B3B0E563A87916"
+					item: "locusazzurro_icaruswings:zephir_essence"
+					type: "item"
+				}
+				{
+					id: "6EE1C13E5FEAC6B5"
+					item: "locusazzurro_icaruswings:nether_essence"
+					type: "item"
+				}
+				{
+					id: "60FAE21C970BFF1D"
+					item: "locusazzurro_icaruswings:void_essence"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36BD6E5C3B6ECC4C"]
+			description: [
+				"利用皮革腰带可根据不同材料，制作各种超限的猎人腰带。"
+				""
+				"&c佩戴多个猎人腰带并不会重复生效，只会生效最低。"
+				""
+				"&6以下为部分可升级的阶段材料预览："
+				"&6·卓越墨水"
+				"&6·高级墨水"
+				"&6·暗影精粹"
+			]
+			id: "3308E09F666D855F"
+			rewards: [{
+				id: "16402447D2B3339F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DEDEF45F5D7128F"
+				item: "wizards_reborn:leather_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3656EB66E79C220E"]
+			description: [
+				"可以酿造末影禁锢药水，从而给女仆或者Boss上末影禁锢，从而阻止其瞬移。相关内容详见咒法章节的女巫坩埚任务。"
+				""
+				"&c灾变Boss只会受到锚定效果，而不会受到末影禁锢效果。"
+				""
+				"&6腐化英雄只有活力属性能够回血，较为容易击杀，击杀后可制作终极枪械材料。"
+			]
+			id: "6A246EF747F15B40"
+			rewards: [{
+				id: "0B3B9D252D7989E0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73AAA279BC513B9E"
+				item: "majruszsdifficulty:enderium_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["459E2781D4F943E0"]
+			description: [
+				"白狐狸卷轴：用来寻找女仆墓碑。"
+				""
+				"红狐狸卷轴：用来在未加载区块上寻找女仆。"
+			]
+			id: "212D856DFAEDC69E"
+			rewards: [{
+				id: "51EB0003B0F6F4B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "53D9ADA92BED07AF"
+					item: "touhou_little_maid:white_fox_scroll"
+					type: "item"
+				}
+				{
+					id: "3314EDA454FCD2B5"
+					item: "touhou_little_maid:red_fox_scroll"
+					type: "item"
+				}
+			]
+			title: "狐狸卷轴"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ADEDC61DC2AF580"]
+			description: [
+				"可制作获得。可以转移女仆。"
+				""
+				"&6女仆可以无视灾变模组生物的动态减伤、护甲穿透免疫，但是不能无视精英怪的适应属性。"
+			]
+			id: "2A8CBA785398CC8A"
+			rewards: [{
+				id: "4835C8CE42762333"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "657C6629548BC67F"
+				item: "touhou_little_maid:smart_slab_empty"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D6AF12763FA1AA2"]
+			description: [
+				"&e女仆施放铁之咒语法术&r：女仆背包内有任意含有法术卷轴的法术书。手持法杖、穿着法师套装可增加对应法术的伤害。不消耗法力值，但是有冷却时间。"
+				""
+				"&e女仆施放诡厄巫法法术&r：女仆背包内有不含有聚晶的魔杖和含有聚晶的聚晶包。不消耗灵魂能量，但是有冷却时间。"
+				""
+				"&6需切换女仆到法术战斗或者远程法术模式才能施法。女仆只建议给攻击法术。女仆可以同时分别施放铁之咒语和诡厄巫法法术。"
+				""
+				"&c特性：请勿给女仆使用幽冥锤、召唤末影箱、深渊庇佑、各种瞬移、所有治疗法术，可能会导致游戏崩溃、女仆失踪等问题。"
+				""
+				"&3特性：女仆使用有附魔的聚晶时，效果和没附魔时一样。而且貌似不能识别诡厄巫法魔杖的聚晶效果强化。"
+				""
+				"&2注意：女仆使用不死图腾复活后，自带的暴食药水效果会清除，需重新用魂符放置才会有。"
+				""
+				"&e使用：女仆可同时施放铁之咒语和诡厄巫法的法术。"
+			]
+			id: "7459221FE26C9883"
+			rewards: [{
+				id: "0A8742D20B554A4E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "23F186E66FE04FA8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32C07CE466A167A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:dark_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "1436A23EE2325329"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 11
+								slot: 0
+							}
+						}
+						id: "goety:focus_bag"
+					}
+					type: "item"
+				}
+			]
+			title: "&e法术模式"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ADEDC61DC2AF580"]
+			description: [
+				"女仆击杀2星以上的怪物也能获得悲叹之种。"
+				""
+				"&c需注意，如果背包内有食物，女仆会把副手盾牌放入异次元并进食，在进食完成后才会把盾牌拿出来。"
+				""
+				"&6没有盾牌的女仆是相当脆弱的。"
+			]
+			id: "541A94B05281B2D3"
+			rewards: [{
+				id: "79098C6AFAB731F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A7CF02724C51987"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F7FDE230FB1B1EE"]
+			id: "7D23DA09C76E763E"
+			rewards: [{
+				id: "5F4E8E13F7DB3A7A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45ED254600696494"
+				item: {
+					Count: 1
+					id: "majruszsdifficulty:enderium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C518D4BED73E184"]
+			description: ["女仆世界线可直接制作获得。"]
+			id: "12AFBF5346A62404"
+			rewards: [{
+				id: "3016A8DF02C24BF5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78E6341EEA03A181"
+				item: "yuusha:chaos_fly"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			description: [
+				"需要玩家攻击过生物，才会给予宝藏袋。"
+				""
+				"&c多个女仆使用枪械时有几率会游戏崩溃，这是特性。"
+			]
+			id: "5BC28235BEC9271D"
+			rewards: [{
+				id: "3446A70FACDEF473"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "778DA34C1E2C29E4"
+				item: "majruszsdifficulty:soul_jar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["067B5889C673C5DD"]
+			description: [
+				"部分路线也许会用到，尤其是女仆法师线。"
+				""
+				"&6只有在玩家使用时，弱化聚晶的附魔才会起效。"
+			]
+			id: "73CB62589D1BF064"
+			rewards: [{
+				id: "53866D482DE60BC4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "215E65E8B8B2F7A4"
+				item: "goety:weakening_focus"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			description: [
+				"爆炸保护饰品：能免疫所有爆炸伤害（包括枪械的爆炸伤害），防止RPG等枪械误伤友军。"
+				""
+				"闪避布：在受到部分远程伤害时，可以消耗耐久并瞬移闪避。"
+				""
+				"溺水保护饰品：女仆现在可以在水中游泳了，但是可能需要一些水下呼吸的方法。"
+				""
+				"&6所有女仆饰品都可以上永恒陨星，从而无限使用。"
+			]
+			id: "0C93F7ED85B3EA48"
+			rewards: [{
+				id: "10461B212631AEAD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "760EA52A7C996DE2"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:explosion_protect_bauble"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "516A42833526BB41"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:nimble_fabric"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08ED424F3EF420D5"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:drown_protect_bauble"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			description: ["强能结晶可以制作各种简易刀剑模组的武器。"]
+			id: "0523D7B9423F1FB9"
+			rewards: [{
+				id: "0E23C3EEFD419858"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75B868D650C29285"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59134193DC3863BF"]
+			description: [
+				"女仆射击时的散布是以腰射精度为计算，给枪械加上该配件，能有效提高女仆的枪械准度。"
+				""
+				"&e除此之外，女仆枪械使用，基本与玩家枪械使用相同。"
+				""
+				"&6女仆默认为神属性、勇者攻击方式，所以使用枪械时也是该元素战斗类型。"
+			]
+			id: "080C8A7858457779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A118578E27D48F2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C61B851B9ECF0FD"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "eos:stock_t3_core_2"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&e枪械模式"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A99FA150156296B"]
+			description: ["手持鞍右击女仆，即可抱起来。"]
+			id: "7E491D9C1E4D8A7C"
+			rewards: [{
+				id: "2FE9200B80C0911D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6949B75E02F0779F"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DB63C0246FE67DD"]
+			description: ["在当前阶段可能并不好打。"]
+			id: "7FAE49F2C55D71E9"
+			rewards: [{
+				id: "23354C8F8F112326"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DFCDE8638AAF091"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["088CE1B34D5F6F1D"]
+			id: "03B46A9B8BB3EDCC"
+			rewards: [{
+				id: "0F666BCC3108B30F"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A00474A842056C"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D1FB6A949F56A17"]
+			id: "09666540A7171D41"
+			rewards: [{
+				id: "7CAA1F8232C3D593"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B59ADEA555940E2"
+				item: "goety_revelation:doom_medal"
+				type: "item"
+			}]
+			x: 64.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14F5AF9007D14311"]
+			id: "30AEC58267864FA0"
+			rewards: [{
+				id: "79C65E0182E81926"
+				item: "yuusha:eternal_luck_cake"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "370667307DDB2E3C"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D6AF12763FA1AA2"]
+			description: [
+				"女仆没有「破空之势」等琳琅满弓模组的属性，使用具有破空之势的弓箭没有增伤，但是会有其附加效果，比如吸血箭破适应。"
+				""
+				"&c女仆也没有「投射物伤害」加成属性，但是有「弹射物伤害」加成属性。女仆无法使用无尽箭袋附魔，但是女仆使用有无限附魔的任意弓（包括封弓、妖弓、印弓）都可以无限使用特殊箭类。"
+				""
+				"&e谨慎选择使用「封弓」、「妖弓」和「印弓」，后两类弓可能无特殊效果。"
+				""
+				"&6女仆使用上述弓类时，所需附魔和特性可参考疾矢章节的任务介绍。"
+			]
+			id: "49AD7CBCAF7DA5BA"
+			rewards: [{
+				id: "161DE35B50CD08C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5CD08045129E71E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e弓箭模式"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["691801CC319ECD84"]
+			description: [
+				"女仆佩戴后无视来自主人的伤害，玩家佩戴后无法对自己的女仆造成伤害。"
+				""
+				"&c部分伤害不受上述保护影响，例如：无尽剑、所有箭类、炼狱聚晶等。"
+				""
+				"&6此外，作为女仆饰品给女仆穿戴时，根据每级女仆好感提供10%全伤害加成与10%全伤害减免。"
+			]
+			id: "0F9CA151E8E18884"
+			rewards: [{
+				id: "45570B9DBB9CDA12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "097D82B2F5C2F627"
+				item: "chapter_of_yuusha_3_core:forever_love"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70AAF3B0D9456850"]
+			description: ["女仆专用饰品。女仆佩戴后能看到隐身生物。"]
+			id: "5ECA211EC2DA027C"
+			rewards: [{
+				id: "0349181F0BE1819A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5849019A1184D57D"
+				item: "chapter_of_yuusha_3_core:true_sight_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14F5AF9007D14311"]
+			id: "523D6EAEADA83C8E"
+			rewards: [{
+				id: "09B5F41F85B8C97D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55A0C9A6BC858ADC"
+				item: {
+					Count: 1
+					id: "aether:zanite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB63C0246FE67DD"]
+			id: "1C7683436885B5DE"
+			rewards: [{
+				id: "79F909BEF65BB2D8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DFBFB2E67539312"
+				item: {
+					Count: 1
+					id: "deep_aether:skyjade_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70AAF3B0D9456850"]
+			id: "78607053B79F24EC"
+			rewards: [{
+				id: "1B5ADA8F4F42BD23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4554F8E32457C82E"
+					item: "touhou_little_maid_spell:rock_crystal"
+					type: "item"
+				}
+				{
+					id: "437D58BA7F6D057A"
+					item: "touhou_little_maid_spell:bleeding_heart"
+					type: "item"
+				}
+				{
+					id: "512F92E19141DDD8"
+					item: "chapter_of_yuusha_3_core:maid_accidental_harm_amulet"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ECE3FACB00265F4"]
+			description: [
+				"可附魔引雷变为雷属性。此武器有不俗的近战伤害。"
+				""
+				"&6该武器也可在锻造台中制作获得。"
+				""
+				"&c该武器女仆只能用来近战攻击。"
+			]
+			id: "7D8B891B459E94A8"
+			rewards: [{
+				id: "20DA61D189413927"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C34A7772A6649FB"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["119C75FFF4BC985F"]
+			description: ["该武器为魔法类型伤害，可以方便击杀某些魔法类型易伤生物。"]
+			id: "3BBF3B4F9573BF2B"
+			rewards: [{
+				id: "6778998E46CF1EC4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0204DDC4E9C37F7F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:magehunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["119C75FFF4BC985F"]
+			description: [
+				"需注意，女仆佩戴后，会拥有法力值限制，无法施展需要高法力值的铁魔法法术。但仍是瞬间恢复满法力值。"
+				""
+				"&6女仆穿戴女仆法师盔甲后能有效提升女仆的法力值。"
+			]
+			id: "0F141F808F8754C6"
+			rewards: [{
+				id: "3DEA2AB5F1FC9C54"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C481779C236AD63"
+				item: "chapter_of_yuusha_3_core:maid_irons_spell"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A283919B17CBD30"]
+			description: [
+				"击杀暗夜巫妖可获得古代灵魂。"
+				""
+				"&c暗夜巫妖在无玩家仇恨时会快速回血，玩家不能隐身。"
+			]
+			id: "4024B9C880F4D939"
+			rewards: [{
+				id: "32CD615092E4DD39"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37823BBC625E8D9F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 720
+						GunFireMode: "AUTO"
+						GunId: "emxarms:emx_sf7b"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EEFC14E677FC77D"]
+			id: "479276C07D92D786"
+			rewards: [{
+				id: "27929D2F691A6C76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2387B124BE6A9863"
+				item: {
+					Count: 1
+					id: "aether:gravitite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["691801CC319ECD84"]
+			description: ["该武器为爆炸类型攻击（不是爆炸伤害）。"]
+			id: "08D9D4A959CE2471"
+			rewards: [{
+				id: "2CE843D420D56EA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69B9A799B7D78862"
+				item: {
+					Count: 1
+					id: "call_of_yucutan:macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62E29E1E521360F8"]
+			description: [
+				"穿透属性女仆可以顺利使用。"
+				""
+				"&6解锁：需开启邪术学研究才能看到此武器合成表，相关内容详见咒法章节奥秘全典任务。"
+				""
+				"{ \"text\": \"点击跳转至奥秘全典任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5010C285E798814A\" } ,\"color\":\"dark_purple\",\"italic\":\"true\",\"bold\":\"true\"}"
+			]
+			id: "2F77DB95C66638FE"
+			rewards: [{
+				id: "132F989746CE0887"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0A3C58CCB434C482"
+					item: {
+						Count: 1
+						id: "malum:mnemonic_hex_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A46E3B8FE6555E8"
+					item: "touhou_little_maid_spell:quick_chant_ring"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62E29E1E521360F8"]
+			description: [
+				"虽然没有伤害，但是可以给近战女仆突进用。"
+				""
+				"&6在某些情况下可能会有用。"
+			]
+			id: "28E58EDAD514517F"
+			rewards: [{
+				id: "59C063C30B83A077"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2966CBC94E5326DF"
+					item: "goety:launch_focus"
+					type: "item"
+				}
+				{
+					id: "259A8FF40FE95184"
+					item: "goety:flying_focus"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2585E63B8985DD46"]
+			id: "035235CF0CCEFA64"
+			rewards: [{
+				id: "0F79E87032445FF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FC7EF06839A685E"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:immemorialsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B7581D91BAAF924"]
+			description: ["女仆只能通过弓的属性来改变箭的属性。"]
+			id: "37A12CD1025B1D54"
+			rewards: [{
+				id: "67C17059610360D8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "62BBECD9A5D1B0EA"
+					item: {
+						Count: 1
+						id: "lost_aether_content:gravitite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA5305197597A69"
+					item: {
+						Count: 1
+						id: "too_many_bows:twin_shadows"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D44867596532338"]
+			id: "6912C4A35832905C"
+			rewards: [{
+				id: "5CCB258296E375EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E82DFB3A9D6D3C7"
+				item: {
+					Count: 1
+					id: "distant_worlds:helyst_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["067B5889C673C5DD"]
+			description: ["近战女仆可能需要用到。"]
+			id: "382ACBA9110494B8"
+			rewards: [{
+				id: "2FBDD648E448E2DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BFFD8EF2DF89A43"
+				item: "celestial_enchantments:celestial_enchanting_table"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D44867596532338"]
+			description: [
+				"女仆专用，所有盾牌都必须放在副手才有加成。"
+				""
+				"&6当女仆的施法冷却足够高时，有多余的法术卷轴或者聚晶，反而会导致输出下降。"
+			]
+			id: "0AC3251A06F8BF8C"
+			rewards: [{
+				id: "6AABD0C0B6A754D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04C1ACBED62172D0"
+				item: {
+					Count: 1
+					id: "cataclysm:azure_sea_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["067B5889C673C5DD"]
+			description: [
+				"可用来制作魔法刀刃附魔书。"
+				""
+				"&6魔法刀刃附魔可以让女仆近战攻击同时破适应。"
+				""
+				"&c需注意不能用来打有动态减伤的Boss，会导致只有附加的魔法伤害。"
+			]
+			id: "7FBFFB55C003EC83"
+			rewards: [{
+				id: "12EA19F2F4805542"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51D3B0009073333F"
+				item: "yuusha:chaos_ingot"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3656EB66E79C220E"]
+			description: ["在女仆世界线可以直接制作获得。"]
+			id: "3882EC0AAD0A55E1"
+			rewards: [{
+				id: "5258B7667774A78F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "28537D5431C49CDA"
+					item: "forbidden_arcanus:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "6AD8328019D0B764"
+					item: "irons_spellbooks:dragonskin"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2585E63B8985DD46"]
+			id: "59EADB58423E094B"
+			rewards: [{
+				id: "327ECD057DDBAFAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E2E4156BCA0D61E"
+				item: "callfromthedepth_:immemorialupgradesmithingtemplate"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5592322E86757441"]
+			id: "5C518D4BED73E184"
+			rewards: [{
+				id: "3FF69D014AF80381"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00213740503E12BF"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A246EF747F15B40"]
+			id: "13737946196FFBA7"
+			rewards: [{
+				id: "796797EC247A0351"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "422D8553CC13C43E"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5592322E86757441"]
+			description: [
+				"高级魔引：近战女仆也许需要用到。"
+				""
+				"&6需注意女仆没有星月附魔的暴击伤害属性。"
+				""
+				"&c异教徒的心脏：可制作枯萎术法术卷轴，尤其是女仆法师线。"
+			]
+			id: "51632EAA86975A69"
+			rewards: [{
+				id: "16D78675255772B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5218FF5B66DF56D3"
+					item: "celestial_enchantments:advanced_celestial_catalyst"
+					type: "item"
+				}
+				{
+					id: "48D1988186BFA321"
+					item: "eeeabsmobs:heart_of_pagan"
+					type: "item"
+				}
+			]
+			x: 35.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A35AD2C24330F4F"]
+			id: "14F5AF9007D14311"
+			rewards: [{
+				id: "415753DEB975A823"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5875A218CAC40F0D"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2DB63C0246FE67DD"]
+			id: "1ECE3FACB00265F4"
+			rewards: [{
+				id: "71EE406E4614BFEA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B6CD21FFA8D090E"
+				item: "yuusha:ice_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["691801CC319ECD84"]
+			id: "62E29E1E521360F8"
+			rewards: [{
+				id: "0BF677CE60E56DD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31F462C962AC2A32"
+				item: "yuusha:blood_bone_heart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2975359DEAEC05AB"]
+			description: [
+				"会心一击对女仆有效果。"
+				""
+				"&c请勿使用绯红菌丝弓，极其容易导致游戏崩溃。"
+				""
+				"&6嗜血领主宝石：只会失去基础的100%生命值（不计算加成的生命值）。"
+				""
+				"&e女仆的基础神化暴击率较低，弓类宝石可以选择神化暴击率+嗜血领主。"
+			]
+			id: "5F788F586B0DBFCA"
+			rewards: [{
+				id: "6C0FEB4492124776"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4FC1A3D0A4D0EC7C"
+					item: {
+						Count: 1
+						id: "too_many_bows:crimson_nexus"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FEB6302DDC6FB69"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:the_nether/blood_lord"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43609A81D4903CB6"]
+			description: [
+				"星裂相位附魔可制作获得。"
+				""
+				"&6现在忆念咒术法杖也可附魔星裂相位。"
+				""
+				"&c下界铁掌具有星灵之力5级，必须上星裂效果才能打动。"
+				""
+				"&e胸甲和盾牌都可以上增加「受伤治疗」的宝石，从而避免女仆因无法吸血而暴毙。"
+			]
+			id: "4465C4FB80F11BA4"
+			rewards: [{
+				id: "25909C0969E3A8FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6900D411F4FF5CF5"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34B50EAF29D32259"]
+			id: "64334589785066A2"
+			rewards: [{
+				id: "67B8A1F37403B507"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0318576CCE867EDF"
+				item: {
+					Count: 1
+					id: "too_many_bows:tidal_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C518D4BED73E184"]
+			description: ["也许有用。"]
+			id: "22809FABDC2A6863"
+			rewards: [{
+				id: "0F226E06BEB953CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F5D130D4E064AAB"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43609A81D4903CB6"]
+			description: [
+				"女仆世界线可直接制作获得。"
+				""
+				"&6可制作Z761军用粒子束发射器“子午线”。"
+			]
+			id: "3823F15E2C9136DE"
+			rewards: [{
+				id: "254621153161403D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D0D28F57761094E"
+				item: "yuusha:chaos_star"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43609A81D4903CB6"]
+			description: ["可以切换射击模式，需要内核弹匣。"]
+			id: "4CE95162499F04BD"
+			rewards: [{
+				id: "2E5725FE298F1829"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E14BDF637732139"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 16
+						GunFireMode: "SEMI"
+						GunId: "pgp:z761"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B7581D91BAAF924"]
+			id: "5E9ECDE8DC2F1221"
+			rewards: [{
+				id: "6A3CEB93C6FEB142"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1385D72C4373D40F"
+				item: {
+					Count: 1
+					id: "call_of_yucutan:jades_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4465C4FB80F11BA4"]
+			description: ["需注意灾变Boss具有动态减伤效果，女仆不能过快施法，否则反而可能打不过。"]
+			id: "50565DD3997E8CFD"
+			rewards: [{
+				id: "6850F8B96EF21335"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "458195F856CCCB5A"
+				item: {
+					Count: 1
+					id: "distant_worlds:firon_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 42.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F7FDE230FB1B1EE"]
+			id: "08AD91B44FB6E6F2"
+			rewards: [{
+				id: "0A95B04BE61AEEE6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34928EBA3D6E276D"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 45.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4465C4FB80F11BA4"]
+			id: "32EEC20C828E8652"
+			rewards: [{
+				id: "1F6D9D2A96EA1246"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33B67C529B8C155E"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F7FDE230FB1B1EE"]
+			description: ["可制作更强大的超限猎人腰带（宠物加伤1725%）。"]
+			id: "42209E9CB7030E82"
+			rewards: [{
+				id: "5786F036F0D6C655"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79755B7B5E116FE1"
+				item: "yuusha:burn_core"
+				type: "item"
+			}]
+			x: 47.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42209E9CB7030E82"]
+			description: ["&c千咒卷轴可能需要+600%伤害，才好击杀此列之后的Boss。"]
+			id: "0E96694DAA87F302"
+			rewards: [{
+				id: "5877398C63EA89FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "525597D60EB33B24"
+				item: "yuusha:ignitium_star"
+				type: "item"
+			}]
+			x: 48.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08AD91B44FB6E6F2"]
+			id: "2FF4D26969B5E5D3"
+			rewards: [{
+				id: "08B208294F7E4D95"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "018D461F7D4740D1"
+				item: "wizards_reborn:petals_of_innocence"
+				type: "item"
+			}]
+			x: 45.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42209E9CB7030E82"]
+			id: "6A2A782A190D3D27"
+			rewards: [{
+				id: "13C772D3818264E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AA308225EABFE53"
+				item: "touhou_little_maid_spell:spell_overlimit_core"
+				type: "item"
+			}]
+			x: 47.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33CC518E16045DD8"]
+			description: [
+				"可以让女仆免疫负面效果，也许有用。"
+				""
+				"&6需注意，会让玩家也会受到怪物的转移伤害，可能玩家比女仆还脆，谨慎使用。"
+			]
+			id: "5FEBF6779548260B"
+			rewards: [{
+				id: "7671BC2D08A715D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59D1E5EE1D914CF4"
+				item: "touhou_little_maid_spell:hairpin"
+				type: "item"
+			}]
+			x: 51.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FAF966943028E9B"]
+			id: "2DBA09F199CEACD9"
+			rewards: [{
+				id: "3754979AAAFC8D97"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A08FA8474C146E7"
+				item: "ancientreforging:ancient_reforging_table"
+				type: "item"
+			}]
+			x: 56.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A6A75C511EBB4F0"]
+			description: ["玩家可以穿戴有法术强度的饰品，从而提供给女仆法术强度。可自行JEI搜索“法术强度 栏位”查找。"]
+			id: "12DE84E942344484"
+			rewards: [{
+				id: "1597C7A37A2570FF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23EE1FB89E8A252A"
+				item: "touhou_little_maid_spell:spell_enhancement_core"
+				type: "item"
+			}]
+			x: 54.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FAF966943028E9B"]
+			id: "5D084D3B31A6EAE1"
+			rewards: [{
+				id: "2C7CFFBCB3AFD4D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19CF0D38AD71478F"
+				item: {
+					Count: 1
+					id: "too_many_bows:necro_flame_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 56.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["195E5FB546DFF1B5"]
+			id: "4F31039A6D1B1DBA"
+			rewards: [{
+				id: "152142B844D9D44F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21ED6B2E60FDC0C3"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			x: 61.0d
+			y: -4.5d
+		}
+	]
+	subtitle: ["&9『女仆使用指南』"]
+	title: "&6※ 神女"
+}

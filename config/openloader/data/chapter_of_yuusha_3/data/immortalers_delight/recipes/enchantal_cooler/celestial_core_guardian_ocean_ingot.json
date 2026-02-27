@@ -1,0 +1,21 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "celestial_core:ocean_ingot"
+    },
+    {
+      "item": "celestial_core:guardian_spike"
+    },
+    {
+      "item": "celestial_core:guardian_spike"
+    },
+    {
+      "item": "celestial_core:guardian_spike"
+    }
+  ],
+  "output": {
+    "item": "celestial_core:guardian_ocean_ingot",
+    "count": 4
+  }
+}

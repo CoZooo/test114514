@@ -1,0 +1,43 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:fox_black",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "mowziesmobs:grant_suns_blessing"
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade_addon:dark_raven",
+        "kill": 200,
+        "refine": 1  
+      }
+    },
+    "E": {
+      "tag": "forge:obsidian"
+    },
+    "F": {
+      "item": "eidolon:raven_feather"
+    },
+    "Q": {
+      "tag": "forge:storage_blocks/quartz"
+    },
+    "S": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "W": {
+      "item": "wizards_reborn:arcane_linen"
+    }
+  },
+  "pattern": [
+    " EF",
+    "BCS",
+    "WQ "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

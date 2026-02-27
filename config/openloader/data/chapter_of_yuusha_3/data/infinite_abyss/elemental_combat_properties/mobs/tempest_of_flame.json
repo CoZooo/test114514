@@ -1,0 +1,28 @@
+{
+	"defense_element":{
+		"god":80,
+		"normal":80,
+		"darkness":90,
+		"fire":90,
+		"ice":90,
+		"light":90,
+		"water":90,
+		"thunder":90,
+		"flora":90,
+		"earth":90,
+		"wind":90
+	},
+	"defense_style":{
+		"yuusha":85,
+		"hit":85,
+		"slash":90,
+		"stab":90,
+		"bash":90,
+		"projectile":90,
+		"explosion":90,
+		"magic":90,
+		"bite":90,
+		"environment":90
+	},
+	"biome_dependency":false
+}

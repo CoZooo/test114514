@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:el",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "slashblade:sabigatana",
+        "refine": 2
+      }
+    },
+    "A": {
+      "item": "aether:enchanted_berry"
+    },
+    "B": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "C": {
+      "item": "wizards_reborn:shiny_clover"
+    },
+    "D": {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    "F": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "AFA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

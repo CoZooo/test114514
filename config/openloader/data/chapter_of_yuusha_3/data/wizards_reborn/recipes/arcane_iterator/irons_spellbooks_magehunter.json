@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "irons_spellbooks:magehunter",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:spiritual_sword"
+    },
+    {
+      "item": "illagerinvasion:platinum_sheet"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "illagerinvasion:platinum_sheet"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "illagerinvasion:platinum_sheet"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "illagerinvasion:platinum_sheet"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ]
+}

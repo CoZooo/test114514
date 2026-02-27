@@ -1,0 +1,51 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:frost_staff"
+  },
+  "craftType": "frost",
+  "soulCost": 5000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:forgotten_ice"
+    },
+    {
+      "item": "irons_spellbooks:permafrost_shard"
+    },
+    {
+      "item": "confluence:frozen_shield"
+    },
+    {
+      "item": "yuusha:ice_shard"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "depthcrawler:soullessgem"
+    },
+    {
+      "item": "yuusha:dragon_heart"
+    },
+    {
+      "item": "angelcraft_bosses:recompensa_boss"
+    },
+    {
+      "item": "yuusha:dragon_heart"
+    },
+    {
+      "item": "angelcraft_bosses:recompensa_boss"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:frostbloom_staff"
+  }
+}

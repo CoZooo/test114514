@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "chapter_of_yuusha_3_core:forever_love",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.5,
+  "ingredients": [
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "hmag:cubic_nucleus"
+    },
+    {
+      "item": "celestial_artifacts:solar_magnet"
+    }
+  ]
+}

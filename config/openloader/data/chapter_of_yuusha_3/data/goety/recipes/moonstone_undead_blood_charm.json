@@ -1,0 +1,43 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "moonstone:badgeofthedead"
+  },
+  "craftType": "forge",
+  "entity_to_sacrifice": {
+    "tag": "goety:drowner",
+    "display_name": "entity.call_of_drowner.drowner"
+  },
+  "soulCost": 1200,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "illagerinvasion:hallowed_gem"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    }
+  ],
+  "result": {
+    "item": "moonstone:undead_blood_charm"
+  }
+}

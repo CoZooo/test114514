@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "malum:malignant_lead",
+    "count": 1
+  },
+  "output": {
+    "item": "moonstone:nightmareeye",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot",
+      "count": 4
+    },
+    {
+      "item": "simplyswords:empowered_remnant",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 8
+    },
+    {
+      "type": "umbral",
+      "count": 4
+    }
+  ]
+}

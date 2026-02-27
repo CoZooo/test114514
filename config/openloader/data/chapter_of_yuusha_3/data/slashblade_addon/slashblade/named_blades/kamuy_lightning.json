@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:thunder_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:kamuy_lightning",
+  "properties": {
+    "attack_base": 27.0,
+    "max_damage": 54,
+    "slash_art": "slashblade_addon:lighting_swords",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/kamuy/kamuy.obj",
+    "summon_sword_color": -333568,
+    "texture": "slashblade_addon:model/kamuy/lightning.png"
+  }
+}

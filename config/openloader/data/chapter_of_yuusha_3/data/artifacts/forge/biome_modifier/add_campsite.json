@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "artifacts:underground_campsite",
+  "step": "surface_structures"
+}

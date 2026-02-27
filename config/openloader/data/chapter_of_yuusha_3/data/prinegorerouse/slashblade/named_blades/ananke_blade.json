@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    },
+    {
+      "id": "elementalcombat:thunder_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "prinegorerouse:ananke_blade",
+  "properties": {
+    "attack_base": 66.0,
+    "max_damage": 132,
+    "slash_art": "prinegorerouse:zenith12th",
+    "special_effects": [
+      "prinegorerouse:fate",
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/ananke/ananke_blade.obj",
+    "summon_sword_color": 25518515,
+    "texture": "prinegorerouse:model/named/custom/ananke/ananke.png"
+  }
+}

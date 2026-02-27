@@ -1,0 +1,59 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "aquamirae:armor_decrease",
+	"target": "ATTACK_TARGET",
+	"stack_on_reapply": false,
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 1,
+			"cooldown": 0
+		},
+		"epic": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": {
+				"min": 1,
+				"steps": 4,
+				"step": 0.3
+			},
+			"cooldown": 0
+		},
+		"mythic": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": {
+				"min": 2,
+				"steps": 4,
+				"step": 0.3
+			},
+			"cooldown": 0
+		},
+		"ancient": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": {
+				"min": 3,
+				"steps": 8,
+				"step": 0.3
+			},
+			"cooldown": 0
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "call_of_drowner:coral_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "malum:soulwood_log"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:bayonet_6h3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

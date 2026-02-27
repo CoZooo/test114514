@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "name": "aetherworks:alchemic_precursor"
+  },
+  "input": {
+    "item": "irons_spellbooks:hogskin"
+  },
+  "output": {
+    "item": "nethersdelight:hoglin_hide"
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

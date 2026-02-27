@@ -1,0 +1,11 @@
+
+#FTB任务相关配置
+[ftbQuestsSettings]
+	#是否开启分块传输来同步任务,启用后可支持超过2MB的任务大小
+	enableChunk = true
+	#是否启用压缩来进一步降低网络压力
+	enableCompression = true
+	#允许客户端重新请求每块数据的最大重试次数
+	#Range: 0 ~ 255
+	maxRetryAttempts = 3
+

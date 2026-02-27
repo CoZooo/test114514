@@ -1,0 +1,29 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "stalwart_dungeons:void_crystal"
+    },
+    {
+      "item": "yuusha:unstable_glowstone_part"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "goety:unholy_blood"
+    }
+  ],
+  "output": {
+    "item": "yuusha:orichalcum",
+	"count": 4
+  },
+  "tablet": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  }
+}

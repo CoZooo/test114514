@@ -1,0 +1,23 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "enchantment": {
+    "enchantment": "celestial_enchantments:cures_of_corrosion"
+  },
+  "wissen": 1000,
+  "experience": 10,
+  "health": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    },
+    {
+      "item": "hmag:ender_plasm"
+    }
+  ]
+}

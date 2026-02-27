@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:time_blade",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 580,
+    "slash_art": "shizuku:time_slash",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 16776960,
+    "texture": "shizuku:model/shizuku/jin.png"
+  }
+}
+
+

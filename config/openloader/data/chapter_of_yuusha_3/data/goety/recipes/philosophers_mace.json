@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:philosophers_stone"
+  },
+  "craftType": "adept_nether",
+  "soulCost": 400,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "aether_redux:infused_veridium_shovel"
+    },
+    {
+      "item": "aether_redux:infused_veridium_pickaxe"
+    },
+    {
+      "item": "goety:graverobber_shovel"
+    },
+    {
+      "item": "goety:eerie_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "cataclysm:sandstorm_in_a_bottle"
+    },
+    {
+      "item": "simplyswords:empowered_remnant"
+    }
+  ],
+  "result": {
+    "item": "goety:philosophers_mace"
+  }
+}

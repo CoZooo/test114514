@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "apotheosis:ancient_material",
+    "count": 16
+  },
+  "light": 1000,
+  "ingredients": [
+    {
+      "item": "yuusha:ancient_aether_shard"
+    },
+    {
+      "item": "apotheosis:uncommon_material"
+    },
+    {
+      "item": "apotheosis:rare_material"
+    },
+    {
+      "item": "apotheosis:epic_material"
+    },
+    {
+      "item": "apotheosis:mythic_material"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "apotheosis:rare_material"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "apotheosis:rare_material"
+}

@@ -1,0 +1,22 @@
+{
+	"name": "达琍特能量修复",
+	"icon": "distant_worlds:dalite_crystal",
+	"category": "distant_worlds:garhenna_enchantments",
+	"sortnum": 1,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "达琍特能量修复",
+			"item": "minecraft:enchanted_book{StoredEnchantments:[{id:\"distant_worlds:dalite_energy_mending\",lvl:1s}]}",
+			"text": "使用存储装备中的达琍特能量修复手中和装备栏的物品。这种宝藏附魔只能在熔融山脉生物群系的结构中找到。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/dalite",
+                "distant_worlds:lithum_altar/lithum_storage"
+			]
+		}
+	]
+}

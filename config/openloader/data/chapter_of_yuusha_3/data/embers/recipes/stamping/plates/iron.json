@@ -1,0 +1,14 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_iron"
+  },
+  "output": {
+    "tag": "forge:plates/iron",
+	"count": 4
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

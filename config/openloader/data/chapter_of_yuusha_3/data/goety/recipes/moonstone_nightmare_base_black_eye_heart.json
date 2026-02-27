@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dragon_heart"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 80000,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "goety_revelation:doom_medal"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "sons_of_sins:ice_heart"
+    },
+    {
+      "item": "goety_revelation:wither_quietus_focus"
+    }
+  ],
+  "result": {
+    "item": "moonstone:nightmare_base_black_eye_heart"
+  }
+}

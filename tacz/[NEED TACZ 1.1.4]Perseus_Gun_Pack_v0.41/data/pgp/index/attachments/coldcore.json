@@ -1,0 +1,6 @@
+{
+  "name": "pgp.attachment.coldcore.name",
+  "display": "pgp:coldcore_display",
+  "data": "pgp:coldcore_data",
+  "type": "extended_mag"
+}

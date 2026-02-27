@@ -1,0 +1,14 @@
+{
+    "type": "slashblade:proudsoul",
+    "ingredients": [
+        {
+            "item": "slashblade:proudsoul_sphere"
+        },
+        {
+            "item": "minecraft:nether_star"
+        }
+    ],
+    "result": {
+        "item": "slashblade:proudsoul_crystal"
+    }
+}

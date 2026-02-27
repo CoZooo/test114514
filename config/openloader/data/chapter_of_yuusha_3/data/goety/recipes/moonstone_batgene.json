@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "moonstone:flygene"
+  },
+  "craftType": "expert_nether",
+  "research": "ravaging",
+  "soulCost": 2000,
+  "duration": 40,
+  "ingredients": [
+    {
+      "item": "embers:shifting_scales"
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_bat_bucket"
+    },
+    {
+      "item": "embers:shifting_scales"
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_bat_bucket"
+    },
+    {
+      "item": "yuusha:curse_dragon_scale"
+    },
+    {
+      "item": "yuusha:curse_astral_dust"
+    },
+    {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    {
+      "item": "enigmaticlegacy:darkest_scroll"
+    }
+  ],
+  "result": {
+    "item": "moonstone:batgene"
+  }
+}

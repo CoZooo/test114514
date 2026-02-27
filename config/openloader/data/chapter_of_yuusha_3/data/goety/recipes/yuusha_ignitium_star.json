@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "forbidden_arcanus:dark_nether_star"
+  },
+  "craftType": "forge",
+  "soulCost": 25000,
+  "duration": 10,
+  "research": "mistral",
+  "ingredients": [
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "goety:soul_ruby"
+    }
+  ],
+  "result": {
+    "item": "yuusha:ignitium_star"
+  }
+}

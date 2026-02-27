@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nether_stars"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "pgp:data_lv3",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

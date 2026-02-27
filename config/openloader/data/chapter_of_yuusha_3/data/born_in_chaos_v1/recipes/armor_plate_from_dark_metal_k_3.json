@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "born_in_chaos_v1:dark_upgrade"
+  },
+  "base": {
+    "item": "hmag:ancient_chestplate"
+  },
+  "addition": {
+    "item": "goety:cursed_metal_block"
+  },
+  "result": {
+    "item": "born_in_chaos_v1:dark_metal_armor_chestplate"
+  }
+}

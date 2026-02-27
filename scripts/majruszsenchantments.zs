@@ -1,0 +1,17 @@
+//魔法保护附魔书
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.magic_protection.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:avaritia:diamond_lattice>);
+craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection.10", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "majruszsenchantments:magic_protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:cataclysm:abyssal_egg>]);
+craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection.15", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "majruszsenchantments:magic_protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>]);
+craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection.20", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: "majruszsenchantments:magic_protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>]);
+
+
+//诅咒附魔
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.breaking_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:breaking_curse" as string}]}), <item:theinkarena:soul_core>);
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.corrosion_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:corrosion_curse" as string}]}), <item:aquamirae:abyssal_amethyst>);
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.incompatibility_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:incompatibility_curse" as string}]}), <item:theinkarena:soul_core>);
+
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.fatigue_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:fatigue_curse" as string}]}), <item:yuusha:cold_fire_bottle>);
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.slippery_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:slippery_curse" as string}]}), <item:yuusha:cold_fire_bottle>);
+
+//猎人
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.hunter", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "majruszsenchantments:hunter"}]}), <item:stalwart_dungeons:ancient_fire>.transformReplace(<item:minecraft:air>));

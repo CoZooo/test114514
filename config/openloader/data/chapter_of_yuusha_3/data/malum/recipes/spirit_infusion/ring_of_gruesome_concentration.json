@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "count": 2,
+      "item": "irons_spellbooks:uncommon_ink"
+    },
+    {
+      "count": 1,
+      "item": "enigmaticlegacy:earth_heart"
+    },
+    {
+      "count": 1,
+      "item": "crockpot:gnaws_coin"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_ring"
+  },
+  "output": {
+    "item": "malum:ring_of_gruesome_concentration"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 32
+    },
+    {
+      "type": "sacred",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 32
+    }
+  ]
+}

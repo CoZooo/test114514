@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "minecraft:ghast_spawn_egg": {
+            "salvageMax": 1,
+            "baseChance": 0.05,
+            "maxChance": 0.15,
+            "chancePerLevel": {
+                "smithing": 0.001
+            },
+            "levelReq": {
+                "smithing": 50
+            },
+            "xpPerItem": {
+                "smithing": 10000
+            }
+        }
+    }
+}

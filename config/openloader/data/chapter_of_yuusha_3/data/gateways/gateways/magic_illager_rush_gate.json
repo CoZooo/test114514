@@ -1,0 +1,177 @@
+{
+	"size": "medium",
+	"color": "#666699",
+	"spawn_range": 32,
+	"leash_range": 256,
+    "waves": [{
+            "entities": [
+                {
+                    "entity": "goety:conquillager",
+					"count": 2
+                },
+                {
+                    "entity": "goety:piker",
+					"count": 2
+                },	
+	            {
+                    "entity": "goety:preacher",
+					"count": 2
+                },
+				{
+                    "entity": "goety:sorcerer",
+					"count": 4
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:light_fragment",
+						"count": 1
+					}
+				},
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:midnight_fragment",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+		{
+            "entities": [
+                {
+                    "entity": "goety:envioker",
+					"count": 2
+                },
+	            {
+                    "entity": "goety:inquillager",
+					"count": 2
+                },		
+	            {
+                    "entity": "goety:trampler",
+					"count": 2
+                },					
+				{
+                    "entity": "goety:sorcerer",
+					"count": 6
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:light_fragment",
+						"count": 1
+					}
+				},
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:midnight_fragment",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+		{
+            "entities": [
+	            {
+                    "entity": "goety:crusher",
+					"count": 2
+                },
+	            {
+                    "entity": "goety:storm_caster",
+					"count": 2
+                },	
+				{
+                    "entity": "goety:sorcerer",
+					"count": 8
+                },	
+				{
+                    "entity": "goety:brood_mother",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:light_fragment",
+						"count": 1
+					}
+				},
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:midnight_fragment",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        },
+		{
+            "entities": [
+	            {
+                    "entity": "goety:ripper",
+					"count": 2
+                },
+	            {
+                    "entity": "goety:cryologer",
+					"count": 2
+                },
+				{
+                    "entity": "goety:sorcerer",
+					"count": 10
+                },	
+				{
+                    "entity": "goety:brood_mother",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:light_fragment",
+						"count": 1
+					}
+				},
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:midnight_fragment",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 6000,
+            "setup_time": 100
+        }
+    ],
+    "rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:light_fragment",
+						"count": 1
+					}
+				},
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "celestial_core:midnight_fragment",
+						"count": 1
+					}
+				}
+	],
+    "failures": [
+    ]
+}

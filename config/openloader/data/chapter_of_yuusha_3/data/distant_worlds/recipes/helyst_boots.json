@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+  },
+  "base": {
+    "item": "aether:neptune_boots"
+  },
+  "addition": {
+    "item": "distant_worlds:helyst_block"
+  },
+  "result": {
+    "item": "distant_worlds:helyst_boots"
+  }
+}

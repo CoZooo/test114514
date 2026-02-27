@@ -1,0 +1,21 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 2000,
+  "ingredients": [
+    {
+      "item": "moonstone:plague"
+    },
+    {
+      "item": "moonstone:fungus"
+    },
+    {
+      "item": "moonstone:parasite"
+    },
+    {
+      "item": "moonstone:virus"
+    }
+  ],
+  "result": {
+    "item": "moonstone:plagues"
+  }
+}

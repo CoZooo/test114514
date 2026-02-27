@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"USE": {"cooking": 25},
+		"PLACE": {"cooking": 25}
+	}
+}

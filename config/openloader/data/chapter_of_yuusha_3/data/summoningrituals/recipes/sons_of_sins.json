@@ -1,0 +1,54 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "sons_of_sins:wistiver",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:walking_bed",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:prowler",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:curse",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:kelvin",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:blud",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "sons_of_sins:butcher",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "sons_of_sins:bottle_of_blood" }, "count": 7 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

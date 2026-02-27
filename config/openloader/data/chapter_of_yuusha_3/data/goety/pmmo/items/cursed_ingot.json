@@ -1,0 +1,18 @@
+{
+    "salvage":{
+        "goety:haunted_armor_spawn_egg": {
+            "salvageMax": 1,
+            "baseChance": 0.0,
+            "maxChance": 0.2,
+            "chancePerLevel": {
+                "smithing": 0.001
+            },
+            "levelReq": {
+                "smithing": 100
+            },
+            "xpPerItem": {
+                "smithing": 10000
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "pools": [
+	{
+        "name": "eye_pool",
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "endrem:nether_eye",
+                "weight": 4,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            },
+            {
+                "type": "item",
+				"name": "crockpot:pot_upgrade_smithing_template",
+                "weight": 1,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            }
+        ]
+    },
+	{
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "name": "forbidden_arcanus:eternal_stella",
+                "weight": 1,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            },
+            {
+                "type": "item",
+                "name": "enigmaticlegacy:enchantment_transposer",
+                "weight": 1,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            },
+            {
+                "type": "item",
+                "name": "minecraft:netherite_upgrade_smithing_template",
+                "weight": 1,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            },
+            {
+                "type": "item",
+                "name": "locusazzurro_icaruswings:greek_fire_bucket",
+                "weight": 1,
+                "functions": [{ "function": "set_count", "count": 1 }]
+            }
+        ]
+    }
+	]
+}

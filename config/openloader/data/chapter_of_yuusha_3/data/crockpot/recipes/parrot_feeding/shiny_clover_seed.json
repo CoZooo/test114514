@@ -1,0 +1,13 @@
+{
+  "type": "crockpot:parrot_feeding",
+  "ingredient": {
+    "item": "wizards_reborn:shiny_clover"
+  },
+  "result": {
+    "count": {
+      "max": 4,
+      "min": 2
+    },
+    "item": "wizards_reborn:shiny_clover_seed"
+  }
+}

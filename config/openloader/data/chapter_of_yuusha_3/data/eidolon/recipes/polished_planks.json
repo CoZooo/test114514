@@ -1,0 +1,28 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, 
+        { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }, { "item": "goety:haunted_planks" }
+      ]
+    },
+    {
+      "stirs": 1,
+      "items": [
+        { "item": "eidolon:enchanted_ash" },
+        { "item": "bosses_of_mass_destruction:soul_star" }
+      ]
+    }
+  ],
+  "result": {
+    "item": "eidolon:polished_planks",
+    "count": 32
+  }
+}

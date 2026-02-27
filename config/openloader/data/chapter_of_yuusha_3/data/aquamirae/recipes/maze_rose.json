@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "maze_rose",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "395",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "1": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "2": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "3": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "5": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "6": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "7": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "8": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "9": {
+      "item": "goety:ominous_orb"
+    }
+  },
+  "result": {
+    "item": "aquamirae:maze_rose",
+    "count": 1
+  }
+}

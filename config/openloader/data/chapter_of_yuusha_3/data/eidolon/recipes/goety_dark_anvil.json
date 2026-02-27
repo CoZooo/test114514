@@ -1,0 +1,23 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "AAA",
+    " B ",
+    "BBB"
+  ],
+  "reagents": "EEEE",
+  "key": {
+    "A": {
+      "item": "goety:dark_metal_block"
+    },
+    "B": {
+      "item": "goety:dark_ingot"
+    },
+    "E": {
+      "item": "apotheosis:ancient_material"
+    }
+  },
+  "result": {
+    "item": "goety:dark_anvil"
+  }
+}

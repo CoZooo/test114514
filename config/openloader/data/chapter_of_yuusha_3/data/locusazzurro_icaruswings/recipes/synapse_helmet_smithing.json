@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "callfromthedepth_:depth_armor_helmet"
+  },
+  "addition": {
+    "item": "depthcrawler:soullessgem"
+  },
+  "result": {
+    "item": "locusazzurro_icaruswings:synapse_helmet"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

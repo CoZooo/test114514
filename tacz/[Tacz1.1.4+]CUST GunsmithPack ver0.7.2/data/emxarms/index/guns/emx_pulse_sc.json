@@ -1,0 +1,7 @@
+{
+  "name": "emxarms.gun.emx_pulse_sc.name",
+  "display": "emxarms:emx_pulse_sc_display",
+    "tooltip": "emxarms.gun.emx_pulse_sc.desc",
+  "data": "emxarms:emx_pulse_sc_data",
+  "type": "pistol"
+}

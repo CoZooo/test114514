@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+    }
+  ],
+  "name": "slashblade_addon:kamuy_fire",
+  "properties": {
+    "attack_base": 39.0,
+    "max_damage": 78,
+    "slash_art": "slashblade_addon:fire_spiral",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/kamuy/kamuy.obj",
+    "summon_sword_color": -1169920,
+    "texture": "slashblade_addon:model/kamuy/fire.png"
+  }
+}

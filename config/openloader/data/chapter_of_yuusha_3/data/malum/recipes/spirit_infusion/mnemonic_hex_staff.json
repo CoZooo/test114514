@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 16,
+      "item": "malum:mnemonic_fragment"
+    },
+    {
+      "count": 8,
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "count": 8,
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "count": 1,
+      "item": "bosses_of_mass_destruction:void_thorn"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "mokels_witch_boss:witch_staff"
+  },
+  "output": {
+    "item": "malum:mnemonic_hex_staff"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "aerial",
+      "count": 16
+    },
+    {
+      "type": "aqueous",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

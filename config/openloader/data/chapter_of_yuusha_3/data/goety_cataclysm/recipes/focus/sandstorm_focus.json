@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:cyclone_focus"
+  },
+  "craftType": "sky",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:sandstorm_in_a_bottle"
+    },
+    {
+      "item": "minecraft:red_sand"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:sandstorm_focus"
+  }
+}

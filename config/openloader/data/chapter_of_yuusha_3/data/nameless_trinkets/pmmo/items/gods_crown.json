@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "love": 200 },
+    "USE": { "love": 200 }
+	},
+  "negative_effect": 
+    { 
+	"apotheosis_modern_ragnarok:freeze": 4, 
+	"aetherworks:pulldown": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

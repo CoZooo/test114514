@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "sophisticatedbackpacks:pickup_upgrade"
+    }
+  ],
+  "result": [
+    {
+      "item": "sophisticatedbackpacks:rs_pickup_upgrade",
+      "count": 1
+    }
+  ],
+  "tool": {
+    "item": "goety_revelation:dimensional_will"
+  }
+}

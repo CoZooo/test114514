@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:animation_core"
+  },
+  "craftType": "animation",
+  "soulCost": 400,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:crystal_fruit"
+    },
+    {
+      "item": "wizards_reborn:natural_calx"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_bone_meal"
+    },
+    {
+      "item": "wizards_reborn:natural_calx"
+    },
+    {
+      "item": "goety:venomous_fang"
+    },
+    {
+      "item": "eidolon:fungus_sprouts"
+    },
+    {
+      "item": "goety:overgrown_roots"
+    },
+    {
+      "item": "celestial_core:earth_core"
+    }
+  ],
+  "result": {
+    "item": "goety:entangling_focus"
+  }
+}

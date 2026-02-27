@@ -1,0 +1,13 @@
+{
+	"weight": 2.3,
+	"extended_mag_level": 3,
+	"damage": {
+		"multiplier":2.75
+	},
+	"armor_ignore":{
+		"addend": 0.1
+	},
+	"head_shot":{
+		"addend": 0.50
+	}
+}

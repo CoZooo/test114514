@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_12"
+  },
+  "craftType": "forge",
+  "soulCost": 3500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "eeeabsmobs:heart_of_pagan"
+    },
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "cataclysm:witherite_ingot"
+    },
+    {
+      "item": "graveyard:white_bone_staff"
+    },
+    {
+      "item": "eidolon:unholy_symbol"
+    }
+  ],
+  "result": {
+    "item": "eidolon:summoning_staff"
+  }
+}

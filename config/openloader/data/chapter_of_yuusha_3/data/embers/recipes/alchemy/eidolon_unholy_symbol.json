@@ -1,0 +1,31 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    {
+      "item": "forbidden_arcanus:corrupti_dust"
+    }
+  ],
+  "output": {
+    "item": "eidolon:unholy_symbol"
+  },
+  "tablet": {
+    "item": "eidolon:pewter_inlay"
+  }
+}

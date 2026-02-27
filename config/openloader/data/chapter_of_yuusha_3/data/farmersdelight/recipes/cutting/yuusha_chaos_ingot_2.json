@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "lost_aether_content:sentry_shield"
+    }
+  ],
+  "result": [
+    {
+      "item": "yuusha:chaos_ingot",
+      "count": 4
+    }
+  ],
+  "tool": {
+    "item": "eeeabsmobs:guardian_axe"
+  }
+}

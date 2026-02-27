@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eeeabsmobs:immortal_ingot"
+    },
+    "$": {
+      "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+    },
+    "X": {
+      "item": "locusazzurro_icaruswings:sapphire_gem"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "#$#",
+    "X#X"
+  ],
+  "result": {
+    "item": "eeeabsmobs:ghost_warrior_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

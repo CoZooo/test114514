@@ -1,0 +1,36 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid:fire_protect_bauble",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      }
+    }
+  },
+  "power": 0.2,
+  "ingredients": [
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  ]
+}

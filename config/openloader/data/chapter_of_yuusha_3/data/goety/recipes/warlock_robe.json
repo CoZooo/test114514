@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:warlock_sash"
+  },
+  "craftType": "adept_nether",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "goety:occult_fabric"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "hmag:ancient_stone_block"
+    },
+    {
+      "item": "hmag:ancient_stone_block"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "result": {
+    "item": "goety:warlock_robe"
+  }
+}

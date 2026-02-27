@@ -1,0 +1,16 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 1,
+  "priority": 100,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "yuusha:dice_1"
+      },
+      "quantity": 1
+    }
+  ],
+  "result": "goety:vanguard_focus"
+}

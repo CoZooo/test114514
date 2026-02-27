@@ -1,0 +1,25 @@
+{
+  "gem": "apotheosis:core/combatant",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {
+      "key": "apotheosis_modern_ragnarok.all_gun",
+      "types": [
+        "apotheosis_modern_ragnarok:shotgun",
+        "apotheosis_modern_ragnarok:full_auto",
+        "apotheosis_modern_ragnarok:semi_auto",
+        "apotheosis_modern_ragnarok:bolt_action"
+      ]
+    },
+    "attribute": "gunsmithlib:bullet_damage",
+    "operation": "MULTIPLY_BASE",
+    "values": {
+				"common": 0.15,
+				"uncommon": 0.20,
+				"rare": 0.25,
+				"epic": 0.30,
+				"mythic": 0.35,
+				"ancient": 0.50
+    }
+  }]
+}

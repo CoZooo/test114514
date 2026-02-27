@@ -1,0 +1,42 @@
+{
+  "registry_name": "minecraft:ender_dragon",
+  "primary_type": "umbral",
+  "spirits": [
+    {
+      "spirit": "wicked",
+      "count": 32
+    },
+    {
+      "spirit": "arcane",
+      "count": 32
+    },
+    {
+      "spirit": "eldritch",
+      "count": 32
+    },
+    {
+      "spirit": "infernal",
+      "count": 32
+    },
+    {
+      "spirit": "sacred",
+      "count": 32
+    },
+    {
+      "spirit": "aerial",
+      "count": 32
+    },
+    {
+      "spirit": "aqueous",
+      "count": 32
+    },
+    {
+      "spirit": "earthen",
+      "count": 32
+    },
+    {
+      "spirit": "umbral",
+      "count": 32
+    }
+  ]
+}

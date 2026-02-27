@@ -1,0 +1,16 @@
+{
+	"name": "给玩家的消息",
+	"icon": "minecraft:writable_book",
+	"category": "distant_worlds:misc_information",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Greetings, $(playername) !$(br2)This book, first of all, is a message from the author of the Distant Worlds mod to new players and those who have long been familiar with the modification. Here you will find all the information you need to help you start exploring new worlds, and even a little more."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "We still have many adventures ahead, so I continue to work on new content, and you, in turn, can support my project in the comments on the official website or tell your friends about it.$(br)Be sure to also look at the other pages of the book so you don't miss anything.$(br2)I wish you a pleasant game!"
+		}
+	]
+}

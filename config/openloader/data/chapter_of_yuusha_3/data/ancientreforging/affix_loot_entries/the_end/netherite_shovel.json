@@ -1,0 +1,16 @@
+{
+    "dimensions": [
+        "minecraft:the_end"
+    ],
+    "min_rarity": "epic",
+    "max_rarity": "epic",
+    "weight": 5,
+    "quality": 20.0,
+    "stack": {
+        "item": "minecraft:netherite_shovel",
+        "count": 1,
+        "nbt": {
+            "Damage": 0
+        }
+    }
+}

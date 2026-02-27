@@ -1,0 +1,13 @@
+{
+	"item.morebows.copper_bow": "铜弓『妖弓』",
+	"item.morebows.iron_bow": "铁弓『妖弓』",
+	"item.morebows.golden_bow": "金弓『妖弓』",
+	"item.morebows.emerald_bow": "绿宝石弓『妖弓』",
+	"item.morebows.diamond_bow": "钻石弓『妖弓』",
+	"item.morebows.netherite_bow": "下界合金弓『妖弓』",
+	"item.morebows.enderite_bow": "以太星光弓『妖弓』",
+	"item.morebows.gilded_netherite_bow": "末影处刑弓『妖弓』",
+	"item.morebows.gilded_enderite_bow": "以太贪狼弓『妖弓』",
+		
+	"tooltip.morebows.damage_tooltip": "破空之势"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "wizards_reborn:innocent_wood_trim",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "wizards_reborn:innocent_wood_planks"
+    },
+    {
+      "item": "wizards_reborn:innocent_wood_planks"
+    },
+    {
+      "item": "wizards_reborn:innocent_wood_planks"
+    },
+    {
+      "item": "wizards_reborn:innocent_wood_planks"
+    }
+  ]
+}

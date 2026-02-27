@@ -1,0 +1,10 @@
+{
+  "add_cosmetic": false,
+  "icon": "yuusha:slot/nano_cube",
+  "operation": "SET",
+  "order": 78,
+  "render_toggle": true,
+  "replace": false,
+  "size": 2,
+  "use_native_gui": true
+}

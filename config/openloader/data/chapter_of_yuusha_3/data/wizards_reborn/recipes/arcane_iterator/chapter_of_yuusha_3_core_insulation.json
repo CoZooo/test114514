@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "chapter_of_yuusha_3_core:insulation",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "celestial_artifacts:thunder_ring"
+    },
+    {
+      "item": "artifacts:universal_attractor"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "confluence:treasure_magnet"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "touhou_little_maid:item_magnet_bauble"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "moonstone:rage_magnet"
+    },
+    {
+      "item": "confluence:royal_gel"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Bone Meal",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "bygonenether:warped_ender_pearl"
+    },
+    "defaultCategory": "yuusha_other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:villager_spawn_egg"
+    }
+  ]
+}

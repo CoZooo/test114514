@@ -1,0 +1,17 @@
+{
+  "modId": "malum",
+  "group": {
+    "name": "Malum Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "malum:processed_soulstone",
+      "count": 1
+    },
+    "defaultCategory": "yuusha_plant"
+  },
+  "customEntries": [
+    {
+      "output": "malum:runewood_sapling"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "minecraft:torchflower"
+  },
+  "to": {
+    "item": "aether_redux:flareblossom"
+  }
+}

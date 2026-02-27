@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "cod:coral_frag"
+  },
+  "base": {
+    "item": "shieldexp:golden_shield"
+  },
+  "result": {
+    "item": "shieldexp:griefer_shield"
+  },
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  }
+}

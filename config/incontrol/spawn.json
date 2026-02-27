@@ -1,0 +1,1249 @@
+[
+	{
+		"mob": ["minecraft:creeper", "minecraft:spider", "minecraft:zombie_villager", "minecraft:zombie", "minecraft:skeleton", "hmag:zombie_girl", "hmag:skeleton_girl", "touhou_little_maid:fairy", "minecraft:wither_skeleton"],
+		"dimension": ["minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer"],
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:endermite"],
+		"dimension": ["infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer"],
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:piglin"],
+		"dimension": ["minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer"],
+		"result": "deny"
+	},
+	{
+		"mob": ["mokels_witch_boss:witchhat"],
+		"dimension": ["aether:the_aether"],
+		"mincount": {
+			"amount": 4,
+			"mob": "mokels_witch_boss:witchhat"
+		},
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["mokels_witch_boss:witchhat_giving"],
+		"dimension": ["aether:the_aether"],
+		"mincount": {
+			"amount": 4,
+			"mob": "mokels_witch_boss:witchhat_giving"
+		},
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:enderman", "arcalis_bosses:magic_skeleton", "arcalis_bosses:barrel_skeleton", "arcalis_bosses:pirate_skeleton"],
+		"dimension": ["distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["minecraft:wither_skeleton", "minecraft:silverfish"],
+		"dimension": ["distant_worlds:garhenna"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"dimension": "minecraft:the_nether",
+		"mob": ["born_in_chaos_v1:bone_imp", "born_in_chaos_v1:bone_imp_minion", "cataclysm:ignited_berserker"],
+		"result": "deny"
+	},
+	{
+		"mob": ["infinite_abyss:deeprock_golem", "infinite_abyss:mushroom_spider", "infinite_abyss:disgruntled_glow_bulb", "infinite_abyss:guardian_knight", "infinite_abyss:eyeball_frog", "infinite_abyss:giant_eyeball_frog", "infinite_abyss:ice_creeper", "infinite_abyss:wind_spirit", "infinite_abyss:ice_cube", "infinite_abyss:shadow_eyes"],
+		"incontrol": "true"
+	},
+	{
+		"mob": ["minecraft:guardian", "minecraft:drowned", "hmag:drowned_girl"],
+		"dimension": ["infinite_abyss:fifth_layer"],
+		"result": "deny"
+	},
+	{
+		"mob": ["born_in_chaos_v1:phantom_creeper"],
+		"dimension": ["minecraft:the_end"],
+		"result": "deny"
+	},
+	{
+		"mob": ["realmrpg_demons:chort", "realmrpg_demons:imp", "realmrpg_demons:imp_guard", "realmrpg_demons:demon", "realmrpg_demons:demon_lord", "realmrpg_demons:ancient_demon_lord", "realmrpg_demons:demon_minion"],
+		"dimension": ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 5500,
+		"mob": ["aquamirae:anglerfish", "aquamirae:maw", "aquamirae:tortured_soul"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 11000,
+		"mob": ["aquamirae:eel", "aquamirae:maze_mother"]
+	},
+	{
+		"biome": "minecraft:deep_frozen_ocean",
+		"mob": ["aquamirae:anglerfish", "aquamirae:maw", "aquamirae:tortured_soul", "aquamirae:eel", "aquamirae:maze_mother"],
+		"result": "allow"
+	},
+	{
+		"mob": ["aquamirae:eel", "aquamirae:anglerfish", "aquamirae:maze_mother"],
+		"result": "deny"
+	},
+	{
+		"biome": "minecraft:deep_frozen_ocean",
+		"mob": ["grimoireofgaia:cecaelia", "born_in_chaos_v1:corpse_fish", "grimoireofgaia:mermaid", "born_in_chaos_v1:glutton_fish", "grimoireofgaia:sharko"],
+		"result": "deny"
+	},
+	{
+		"biome": "minecraft:mushroom_fields",
+		"mob": ["arcalis_bosses:magic_skeleton", "arcalis_bosses:pirate_skeleton", "arcalis_bosses:barrel_skeleton"],
+		"result": "deny"
+	},
+	{
+		"dimension": ["distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end", "callfromthedepth_:depth", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "binah:endlessdesert", "graveyard:past", "infinite_abyss:seventh_layer", "chapter_of_yuusha_3_core:eternal_night_flat_dimension"],
+		"when": "onjoin",
+		"mob": ["mokels_boss_mantyd:mantydbossdead"],
+		"result": "deny"
+	},
+	{
+		"dimension": ["distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end", "aether:the_aether", "callfromthedepth_:depth", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "binah:endlessdesert", "graveyard:past"],
+		"when": "onjoin",
+		"mob": ["depthcrawler:deep", "depthcrawler:electricdeep", "depthcrawler:reddeep", "depthcrawler:nightmaredeep", "depthcrawler:deepling", "depthcrawler:cavedeep", "depthcrawler:pinkdeep", "depthcrawler:oceanicdeep"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 50,
+		"mob": ["aquamirae:golden_moth", "netherdepthsupgrade:blazefish", "netherdepthsupgrade:bonefish", "netherdepthsupgrade:eyeball_fish", "netherdepthsupgrade:fortressgrouper", "netherdepthsupgrade:glowdine", "netherdepthsupgrade:lava_fishing_bobber", "netherdepthsupgrade:lava_pufferfish", "netherdepthsupgrade:magmacubefish", "netherdepthsupgrade:obsidianfish", "netherdepthsupgrade:searing_cod", "netherdepthsupgrade:soulsucker", "netherdepthsupgrade:wither_bonefish", "minecraft:cod", "minecraft:pufferfish", "minecraft:salmon", "minecraft:tropical_fish", "aquaculture:arapaima", "aquaculture:arrau_turtle", "aquaculture:atlantic_cod", "aquaculture:atlantic_halibut", "aquaculture:atlantic_herring", "aquaculture:bayad", "aquaculture:blackfish", "aquaculture:bluegill", "aquaculture:bobber", "aquaculture:boulti", "aquaculture:box_turtle", "aquaculture:brown_shrooma", "aquaculture:brown_trout", "aquaculture:capitaine", "aquaculture:carp", "aquaculture:catfish", "aquaculture:gar", "aquaculture:jellyfish", "aquaculture:minnow", "aquaculture:muskellunge", "aquaculture:pacific_halibut", "aquaculture:perch", "aquaculture:pink_salmon", "aquaculture:piranha", "aquaculture:pollock", "aquaculture:rainbow_trout", "aquaculture:red_grouper", "aquaculture:red_shrooma", "aquaculture:smallmouth_bass", "aquaculture:starshell_turtle", "aquaculture:synodontis", "aquaculture:tambaqui", "aquaculture:tuna"]
+	},
+	{
+		"when": "onjoin",
+		"knockbackresistanceset": 10,
+		"armoradd": 200,
+		"mob": ["youkaishomecoming:yukari", "youkaishomecoming:small_fairy", "youkaishomecoming:shrine_maiden", "youkaishomecoming:rumia", "youkaishomecoming:remilia_scarlet", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:komeiji_koishi", "youkaishomecoming:kochiya_sanae", "youkaishomecoming:kirisame_marisa", "youkaishomecoming:eternity_larva", "youkaishomecoming:clownpiece", "youkaishomecoming:cirno"]
+	},
+	{
+		"when": "onjoin",
+		"armoradd": 200,
+		"healthset": 600,
+		"mob": ["minecraft:parrot"]
+	},
+	{
+		"when": "onjoin",
+		"knockbackresistanceset": 10,
+		"mob": ["bosses_of_mass_destruction:lich"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 100,
+		"mob": ["dummmmmmy:target_dummy", "aether:sentry"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 100,
+		"mob": ["minecraft:axolotl", "crockpot:volt_goat"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 200,
+		"mob": ["mowziesmobs:umvuthana_crane", "mowziesmobs:umvuthana_follower_raptor", "mowziesmobs:umvuthana_raptor", "mowziesmobs:umvuthana"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 400,
+		"mob": ["aether:slider", "grimoireofgaia:mandragora", "grimoireofgaia:sporeling", "mowziesmobs:bluff"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 500,
+		"mob": ["goety:hostile_black_wolf", "goety:web_spider", "goety:icy_spider"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 800,
+		"mob": ["aether:zephyr", "grimoireofgaia:ant"]
+	},
+	{
+		"mob": ["aether:zephyr"],
+		"maxlight_full": 6,
+		"result": "allow"
+	},
+	{
+		"mob": ["aether:zephyr"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 900,
+		"mob": ["arcalis_bosses:barrel_skeleton"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1000,
+		"mob": ["goety:haunted_skull", "cataclysm:the_baby_leviathan", "cataclysm:modern_remnant", "aether:aerwhale"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1100,
+		"mob": ["aether:blue_swet", "ancient_aether:festive_swet", "aether:golden_swet", "ancient_aether:slammroot", "aether_redux:vanilla_swet"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1200,
+		"mob": ["grimoireofgaia:mimic"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1300,
+		"mob": ["goety:warlock", "goety:wraith", "goety:heretic", "goety:maverick", "goety:reaper", "goety:muck_wraith"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1500,
+		"mob": ["goety:haunt", "whisperwoods:hidebehind"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 2100,
+		"mob": ["minecraft:guardian"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 3600,
+		"mob": ["mowziesmobs:ferrous_wroughtnaut"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 4500,
+		"mob": ["minecraft:enderman", "grimoireofgaia:behender", "cataclysm:deepling", "cataclysm:deepling_brute", "cataclysm:deepling_angler", "cataclysm:deepling_priest", "cataclysm:deepling_warlock", "mowziesmobs:sculptor"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 4800,
+		"mob": ["goety:crusher", "goety:envioker", "goety:tormentor", "goety:inquillager", "goety:conquillager", "goety:piker", "goety:ripper", "goety:storm_caster", "goety:trampler", "goety:cryologer", "goety:preacher"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 9600,
+		"mob": ["goety:sorcerer"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 5000,
+		"mob": "minecraft:vex"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 6000,
+		"mob": ["aether:mimic", "embers:ancient_golem", "cataclysm:koboleton"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 7500,
+		"mob": ["cthulhufishing:obsessed_eye_mob"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 8000,
+		"mob": ["theinkarena:splotch", "theinkarena:titan_splotch", "aether:valkyrie", "sons_of_sins:gulber", "sons_of_sins:devourer", "sons_of_sins:grub", "sons_of_sins:guzzler", "sons_of_sins:nibbler", "mutantmonsters:spider_pig"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 9000,
+		"mob": ["mowziesmobs:umvuthi"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 9000,
+		"knockbackresistanceset": 10,
+		"mob": ["faded_conquest_2:the_plauge_bringer", "faded_conquest_2:pbprefight", "faded_conquest_2:pbdowned"]
+	},
+	{
+		"when": "onjoin",
+		"mob": ["born_in_chaos_v1:krampus_henchman"],
+		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_nether", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "aether:the_aether", "faded_conquest_2:the_mirror_realm"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 9350,
+		"mob": ["born_in_chaos_v1:krampus_henchman"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 10800,
+		"mob": ["call_of_drowner:tide_raiser", "faded_conquest_2:blocknight_boot", "faded_conquest_2:blocknight_fool", "faded_conquest_2:blocknight_heavyman", "faded_conquest_2:blocknight_leaper", "faded_conquest_2:blocknight_longarm", "faded_conquest_2:blocknight_paladin", "faded_conquest_2:blocknightfist"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 11500,
+		"mob": ["sleep_killer:sleep_killer", "eyesinthedark:eyes_in_the_dark", "theplaguedoctor:plague_doctor"]
+	},
+	{
+		"when": "onjoin",
+		"dimension": "minecraft:overworld",
+		"healthset": 11500,
+		"mob": "hmag:crimson_slaughterer"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 12000,
+		"mob": ["callfromthedepth_:screamer", "theinkarena:soul_specter", "theinkarena:soul_tendril", "theinkarena:blot_tendril", "theinkarena:morphink", "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 13500,
+		"mob": ["callfromthedepth_:deepspider", "callfromthedepth_:sculkcreeper", "callfromthedepth_:mushroom", "callfromthedepth_:rotwalker", "goety:haunted_armor", "goety:border_wraith", "goety:bone_spider"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 15000,
+		"knockbackresistanceset": 10,
+		"mob": ["faded_conquest_2:the_plauge_bringerp_2"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 15000,
+		"mob": ["theinkarena:ink_worm", "theinkarena:ink_brute", "theinkarena:natural_ink_brute", "mokels_boss_mantyd:mantyd_boss_spawn", "mokels_boss_mantyd:boss_mantyd", "mokels_boss_mantyd:mantydbossdead", "mokels_boss_mantyd:mantydbosssiting", "mokels_boss_mantyd:mantydbosssitingtwo", "mokels_witch_boss:witchboss", "mokels_witch_boss:witchhat", "mokels_witch_boss:witchhat_giving"]
+	},
+	{
+		"damagemultiply": 20,
+		"mob": ["mokels_boss_mantyd:boss_mantyd", "mokels_witch_boss:witchboss"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 15500,
+		"mob": ["call_of_drowner:deepwater_piranha", "goety:wight"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 18000,
+		"mob": ["goety:minister", "theinkarena:ink_titan", "theinkarena:natural_ink_titan"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 19500,
+		"mob": ["stalwart_dungeons:propulk", "meetyourfight:swampjaw", "eeeabsmobs:immortal_golem", "eeeabsmobs:corpse"]
+	},
+	{
+		"structure": "minecraft:end_city",
+		"mob": ["stalwart_dungeons:propulk"],
+		"result": "allow"
+	},
+	{
+		"mob": ["stalwart_dungeons:propulk"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 20500,
+		"mob": ["realmrpg_demons:chort", "realmrpg_demons:demon_minion", "realmrpg_demons:imp", "realmrpg_demons:imp_guard", "distant_worlds:crouthil", "distant_worlds:loteress", "distant_worlds:shrullot", "faded_conquest_2:puny_juggernaut"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 21000,
+		"knockbackresistanceset": 10,
+		"mob": "minecraft:elder_guardian"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 21500,
+		"mob": "hardtodestroyreptile:the_hard_to_destroy_reptile"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 22500,
+		"mob": ["callfromthedepth_:roteater", "callfromthedepth_:riper", "callfromthedepth_:seeker", "eeeabsmobs:guling_sentinel"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 24000,
+		"mob": ["realmrpg_demons:demon"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 25000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:skull_lord"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 25000,
+		"mob": ["call_of_drowner:drowner", "cataclysm:the_watcher", "cataclysm:endermaptera"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 28000,
+		"mob": ["realmrpg_demons:demon_lord", "distant_worlds:toran"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 29500,
+		"mob": ["hmag:ender_executor", "grimoireofgaia:ender_dragon_girl", "hmag:monolith", "minecraft:shulker"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 30000,
+		"mob": ["callfromthedepth_:citadelguardian"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 31500,
+		"mob": ["starvingskeleton:starving_skeleton", "eeeabsmobs:guling_sentinel_heavy"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 32000,
+		"mob": ["realmrpg_demons:ancient_demon_lord", "distant_worlds:druth"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 35000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:bone_lord"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 35000,
+		"mob": ["irons_spellbooks:priest", "irons_spellbooks:pyromancer", "irons_spellbooks:apothecarist", "irons_spellbooks:citadel_keeper", "irons_spellbooks:archevoker", "irons_spellbooks:cryomancer", "irons_spellbooks:cultist"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 35250,
+		"mob": ["goety:necromancer", "goety:cairn_necromancer"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 38500,
+		"mob": ["cataclysm:ignited_revenant", "cataclysm:ignited_berserker", "cataclysm:the_prowler", "cataclysm:ender_golem", "darkdoppelganger:dark_doppelganger"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 40800,
+		"mob": ["goety:crone"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 42000,
+		"mob": ["infinite_abyss:deeprock_golem", "infinite_abyss:fire_vortex"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 42500,
+		"mob": ["born_in_chaos_v1:lord_the_headless", "born_in_chaos_v1:lords_felsteed", "binah:white_cube", "binah:dronevul", "binah:drone_missile"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 45000,
+		"mob": ["bygonenether:warped_enderman", "faded_conquest_2:terrible_ten", "faded_conquest_2:ttphase_2"]
+	},
+	{
+		"structure": "betterfortresses:fortress",
+		"mob": ["stalwart_dungeons:giddy_blaze"],
+		"result": "allow"
+	},
+	{
+		"mob": ["stalwart_dungeons:giddy_blaze"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 45500,
+		"mob": ["binah:yallow_cube"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 48500,
+		"mob": ["binah:black_cube"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 49500,
+		"mob": ["cataclysm:the_leviathan"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 49500,
+		"knockbackresistanceset": 10,
+		"mob": ["meetyourfight:bellringer"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 52500,
+		"mob": ["arkane_domains:reanimated"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 54500,
+		"mob": ["stalwart_dungeons:reinforced_blaze", "aquamirae:captain_cornelia"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 57500,
+		"mob": ["cthulhufishing:ice_crab"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 59500,
+		"mob": ["minecraft:wither"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 60000,
+		"mob": ["goety:grave_golem", "goety:redstone_golem"]
+	},
+	{
+		"structure": "castle_in_the_sky:castle_in_the_sky",
+		"mob": ["goety:grave_golem", "goety:redstone_golem"],
+		"result": "allow"
+	},
+	{
+		"structure": ["graveyard:lich_prison", "faded_conquest_2:aero_guardian_temple"],
+		"mob": ["goety:grave_golem", "goety:redstone_golem"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 65000,
+		"mob": ["infinite_abyss:mushroom_spider", "infinite_abyss:disgruntled_glow_bulb"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 67000,
+		"mob": ["cthulhufishing:fossil_fish"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 68500,
+		"mob": ["cthulhufishing:obsessed_eye_minion", "infinite_abyss:puffball", "hs_bosses:sand_warrior"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 68800,
+		"mob": ["meetyourfight:rose_spirit"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 69500,
+		"mob": ["cataclysm:ancient_remnant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 71500,
+		"mob": ["infinite_abyss:chomper"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 72500,
+		"mob": ["minecraft:warden", "ancient_ones:witch_king", "aether:valkyrie_queen", "infinite_abyss:vortex", "infinite_abyss:ice_creeper", "infinite_abyss:ice_cube", "infinite_abyss:eyeball_frog"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 76500,
+		"mob": ["ancient_aether:mutated_aechor_plant", "ancient_ones:amethyst_colossus", "infinite_abyss:lightning_ghost", "infinite_abyss:wind_spirit", "infinite_abyss:guardian_knight"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 77500,
+		"mob": ["theinkarena:blot"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 78500,
+		"mob": ["infinite_abyss:giant_eyeball_frog"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 79500,
+		"mob": ["whisperwoods:hirschgeist", "eeeabsmobs:nameless_guardian", "lost_aether_content:aerwhale_king"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 80000,
+		"mob": ["cataclysm:elite_draugr", "cataclysm:draugr", "cataclysm:royal_draugr"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 82500,
+		"mob": ["irons_spellbooks:dead_king_corpse"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 85500,
+		"mob": ["callfromthedepth_:corruptedstalker"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 87500,
+		"mob": ["callfromthedepth_:agonysoul", "born_in_chaos_v1:lord_pumpkinhead_withouta_horse", "born_in_chaos_v1:lord_pumpkinhead_head"]
+	},
+	{
+		"when": "onjoin",
+		"mob": ["born_in_chaos_v1:krampus"],
+		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_nether", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "aether:the_aether", "faded_conquest_2:the_mirror_realm"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 93500,
+		"mob": ["goety:obsidian_monolith", "born_in_chaos_v1:krampus", "goety:skeleton_villager_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 95500,
+		"mob": ["angelcraft_bosses:broken_angel"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 97500,
+		"mob": ["irons_spellbooks:dead_king", "infinite_abyss:tempest_of_flame", "infinite_abyss:shadow_eyes"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 98500,
+		"mob": ["born_in_chaos_v1:lord_pumpkinhead", "entity_303:spirits", "meetyourfight:dame_fortuna"]
+	},
+	{
+		"when": "onjoin",
+		"structure": "aether:gold_dungeon",
+		"mob": ["aether:sun_spirit"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 100000,
+		"mob": ["awakened_bosses:herobrine_minion", "awakened_bosses:mahva", "awakened_bosses:prowler", "awakened_bosses:reeker", "aether:sun_spirit"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 125000,
+		"mob": ["luminous_halloween:horseless_headsman", "cthulhufishing:cthulhu_adept", "infinite_abyss:huge_puffball"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 155000,
+		"mob": ["stalwart_dungeons:nether_keeper"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 185000,
+		"mob": ["goety:hostile_redstone_golem"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 195000,
+		"mob": ["call_of_yucutan:ah_puch", "call_of_yucutan:kukulkan"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 275000,
+		"mob": ["cataclysm:aptrgangr", "cataclysm:ender_guardian"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 182500,
+		"mob": ["eeeabsmobs:corpse_warlock"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 295000,
+		"mob": ["graveyard:lich"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 355000,
+		"mob": ["cataclysm:the_harbinger"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 375000,
+		"mob": ["corundumguardian:corundum_guardian", "ancient_ones:tm_29"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 416000,
+		"mob": ["binah:binah_v_2"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 465000,
+		"mob": ["stalwart_dungeons:awful_ghast"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 475000,
+		"mob": ["cataclysm:netherite_monstrosity"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 495000,
+		"mob": ["cataclysm:ignis"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 525000,
+		"mob": ["arkane_domains:dark_shaman", "goety:hostile_redstone_monstrosity"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 555000,
+		"knockbackresistanceset": 10,
+		"mob": "goety:vizier"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 575000,
+		"mob": ["faded_conquest_2:aero_guardian"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 595000,
+		"mob": ["faded_conquest_2:lich_phase_2", "faded_conquest_2:doomharbor_lich"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 630000,
+		"mob": ["arcalis_bosses:jack"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 666000,
+		"mob": ["arcalis_bosses:the_deathbringer"]
+	},
+	{
+		"when": "onjoin",
+		"mob": ["cthulhufishing:obsessed_eye_boss"],
+		"mincount": {
+			"amount": 4,
+			"mob": "cthulhufishing:obsessed_eye_boss"
+		},
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 678000,
+		"mob": ["cthulhufishing:obsessed_eye_boss"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 688000,
+		"mob": ["meetyourfight:rosalyne"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 698500,
+		"mob": ["faded_conquest_2:faded_king", "faded_conquest_2:faded_kingp_2"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 715000,
+		"mob": ["arcalis_bosses:captain_deadbone"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 735000,
+		"mob": ["infinite_abyss:charya"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 755000,
+		"mob": ["infinite_abyss:crystal_construct"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 775000,
+		"mob": ["cataclysm:maledictus"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 795000,
+		"mob": ["infinite_abyss:frozen_wither", "goety:wither_necromancer"]
+	},
+	{
+		"mob": ["depthcrawler:jabberwock"],
+		"mincount": {
+			"amount": 2,
+			"mob": "depthcrawler:jabberwock"
+		},
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 825000,
+		"mob": ["depthcrawler:jabberwock"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 850000,
+		"mob": ["depthcrawler:deepboss"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 895000,
+		"mob": ["depthcrawler:ancientdeep"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 915000,
+		"mob": ["faded_conquest_2:vessel_of_calamity", "faded_conquest_2:vessel_sword", "faded_conquest_2:vessel_shield"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 925000,
+		"mob": ["goety:apostle"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 955000,
+		"mob": ["angelcraft_bosses:boos_shield", "angelcraft_bosses:boos", "angelcraft_bosses:boos_artemis"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 985000,
+		"mob": ["stalwart_dungeons:shelterer", "stalwart_dungeons:shelterer_without_armor", "entity_303:entity_303"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1000000,
+		"mob": ["aether:fire_minion"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1500000,
+		"mob": ["faded_conquest_2:radiance_guardian", "sons_of_sins:betrayed_guzzler", "sons_of_sins:wistiver", "sons_of_sins:walking_bed", "sons_of_sins:prowler", "sons_of_sins:curse", "sons_of_sins:kelvin", "sons_of_sins:blud", "sons_of_sins:butcher", "cataclysm:nameless_sorcerer", "awakened_bosses:herobrine"]
+	},
+	{
+		"when": "onjoin",
+		"healthmultiply": 3.8,
+		"mob": ["depthcrawler:deep", "depthcrawler:electricdeep", "depthcrawler:cavedeep", "depthcrawler:oceanicdeep"]
+	},
+	{
+		"when": "onjoin",
+		"healthmultiply": 6.5,
+		"mob": ["depthcrawler:reddeep", "depthcrawler:pinkdeep"]
+	},
+	{
+		"when": "onjoin",
+		"healthmultiply": 7.8,
+		"mob": ["depthcrawler:nightmaredeep", "depthcrawler:deepling"]
+	},
+	{
+		"structure": "irons_spellbooks:ancient_battleground",
+		"mob": ["stalwart_dungeons:incomplete_wither"],
+		"result": "allow"
+	},
+	{
+		"mob": ["stalwart_dungeons:incomplete_wither"],
+		"result": "deny"
+	},
+	{
+		"structure": "goety_revelation:church",
+		"healthset": 150000,
+		"mob": ["eeeabsmobs:immortal"],
+		"result": "allow"
+	},
+	{
+		"mob": ["eeeabsmobs:immortal"],
+		"result": "deny"
+	},
+	{
+		"structure": "irons_spellbooks:catacombs",
+		"mob": ["irons_spellbooks:necromancer", "irons_spellbooks:dead_king"],
+		"result": "allow"
+	},
+	{
+		"structure": "irons_spellbooks:catacombs",
+		"result": "deny"
+	},
+	{
+		"structure": "cataclysm:ancient_factory",
+		"mob": ["callfromthedepth_:deepspider", "callfromthedepth_:sculkcreeper", "callfromthedepth_:mushroom", "callfromthedepth_:rotwalker", "callfromthedepth_:screamer", "callfromthedepth_:roteater", "callfromthedepth_:riper", "callfromthedepth_:seeker", "callfromthedepth_:citadelguardian"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 10000.0,
+		"mob": ["goety:carrion_fly", "goety:carrion_maggot", "goety:black_wolf", "goety:black_beast", "goety:inferno"]
+	},
+	{
+		"mob": ["moonstone:cell_zombie", "moonstone:cell_giant", "moonstone:cell_slime"],
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthmultiply": 75,
+		"mob": ["goety:crypt_slime"]
+	},
+	{
+		"when": "onjoin",
+		"healthmultiply": 50,
+		"mob": ["minecraft:slime", "minecraft:magma_cube"]
+	},
+	{
+		"when": "onjoin",
+		"damagemultiply": 0,
+		"mob": ["eidolon:slimy_slug"]
+	},
+	{
+		"mob": ["minecraft:bat"],
+		"mincount": {
+			"amount": 17,
+			"mob": "minecraft:bat"
+		},
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"healthset": 500,
+		"knockbackresistanceset": 10,
+		"mob": ["irons_spellbooks:summoned_zombie", "irons_spellbooks:summoned_skeleton"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 650,
+		"damageset": 250,
+		"knockbackresistanceset": 10,
+		"mob": ["born_in_chaos_v1:controlled_baby_skeleton", "goety:spider_servant", "goety:cave_spider_servant", "goety:web_spider_servant", "goety:icy_spider_servant", "goety:bone_spider_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 750,
+		"damageset": 225,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:skeleton_servant", "goety:stray_servant", "goety:mossy_skeleton_servant", "goety:sunken_skeleton_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 750,
+		"damageset": 325,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:skeleton_pillager"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 750,
+		"damageset": 525,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:wither_skeleton_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1150,
+		"damageset": 335,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:zombie_servant", "goety:zombie_villager_servant", "goety:husk_servant", "goety:drowned_servant", "goety:frozen_zombie_servant", "goety:jungle_zombie_servant", "goety:zombie_vindicator"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1275,
+		"damageset": 725,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:reaper_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1350,
+		"damageset": 575,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:zpiglin_servant", "goety:zpiglin_brute_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_iron:necromancer_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 2500,
+		"knockbackresistanceset": 10,
+		"mob": ["refined_mod:summoned_wolf"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 2250,
+		"damageset": 1125,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:urchinkin_servant", "goety_cataclysm:symbiocto_servant", "goety_cataclysm:drowned_host_servant", "goety_cataclysm:cindaria_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 825,
+		"damageset": 4500,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:phantom_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 11250,
+		"damageset": 5250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:hippocamtus", "goety_cataclysm:clawdian", "goety:wildfire"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1750,
+		"damageset": 3275,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:wraith_servant", "goety:border_wraith_servant", "goety:muck_wraith_servant", "goety:blaze_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 750,
+		"damageset": 3275,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:mini_ghast"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 1125,
+		"damageset": 7250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:ghast_servant", "goety:malghast", "goety:ally_vex"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 3750,
+		"damageset": 3250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:vanguard_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 4150,
+		"damageset": 5250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:deepling_servant", "goety_cataclysm:deepling_angler_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 4750,
+		"damageset": 7250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:guardian_servant", "goety_cataclysm:deepling_brute_servant", "goety_cataclysm:deepling_priest_servant", "goety_cataclysm:deepling_warlock_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 5750,
+		"damageset": 825,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:ice_golem"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 5250,
+		"damageset": 7250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:redstone_cube"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 15250,
+		"damageset": 12750,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:coral_golem", "goety_cataclysm:coralssus", "goety:leapleaf"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 16250,
+		"knockbackresistanceset": 10,
+		"mob": ["irons_spellbooks:summoned_polar_bear"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 5200,
+		"damageset": 16250,
+		"armorset": 65,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:pillager_servant", "goety:vindicator_servant", "goety:vindicator_chef_servant", "goety:crusher_servant", "goety:evoker_servant", "goety:geomancer_servant", "goety:iceologer_servant", "goety:wind_caller_servant", "goety:storm_caster_servant", "goety:bound_evoker", "goety:bound_iceologer"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 11250,
+		"damageset": 16250,
+		"armorset": 75,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:blackguard_servant", "cthulhufishing:obsessed_eye_pet"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 18750,
+		"damageset": 22250,
+		"armorset": 75,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_iron:ancient_knight_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 15750,
+		"damageset": 26250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:koboleton_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 28750,
+		"damageset": 77250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:wadjet", "goety_cataclysm:kobolediator"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 48750,
+		"damageset": 5450,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:ancient_remnant", "goety:brood_mother_servant"]
+	},
+	{
+		"when": "onjoin",
+		"knockbackresistanceset": 10,
+		"mob": ["goety:slime_servant", "goety:magma_cube_servant", "goety:crypt_slime_servant", "goety:tropical_slime_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 32650,
+		"damageset": 117250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:whisperer", "goety:wavewhisperer", "goety:quick_growing_vine", "goety:quick_growing_kelp", "goety:poison_quill_vine", "goety:poison_anemone"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 25750,
+		"damageset": 57250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:bear_servant", "goety:polar_bear_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 29750,
+		"damageset": 87250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:hoglin_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 32750,
+		"knockbackresistanceset": 10,
+		"mob": ["irons_spellbooks:summoned_vex"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 42750,
+		"damageset": 217500,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:watchling_servant", "goety:blastling_servant", "goety:snareling_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 82750,
+		"damageset": 817500,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:ender_golem"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 35250,
+		"damageset": 2100,
+		"armorset": 85,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:necromancer_servant", "goety:cairn_necromancer_servant", "goety:drowned_necromancer_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 32250,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_iron:priest_servant", "goety_iron:cryomancer_servant", "goety_iron:pyromancer_servant", "goety_iron:archevoker_servant", "goety_iron:alchemist_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 82750,
+		"damageset": 1550000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:watcher_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 162750,
+		"damageset": 4250000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:the_prowler"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 202750,
+		"armorset": 85,
+		"damageset": 200,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_iron:dead_king_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 152500,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:squall_golem"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 98500,
+		"knockbackresistanceset": 10,
+		"mob": ["ias_spellbooks:summoned_ragno"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 172750,
+		"damageset": 15000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:ignited_revenant", "goety_cataclysm:ignited_berserker"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 795000,
+		"damageset": 15000,
+		"armorset": 85,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:wither_necromancer_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 97500,
+		"armorset": 85,
+		"damageset": 15000,
+		"knockbackresistanceset": 10,
+		"mob": ["revelationfix:heretic_servant", "revelationfix:maverick_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 525000,
+		"armorset": 85,
+		"damageset": 100000000,
+		"knockbackresistanceset": 10,
+		"mob": ["goety:redstone_monstrosity", "goety_cataclysm:netherite_monstrosity"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 187500,
+		"damageset": 200000,
+		"armorset": 85,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:draugr_servant", "goety_cataclysm:royal_draugr_servant", "goety_cataclysm:elite_draugr_servant"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 287500,
+		"damageset": 1000000,
+		"armorset": 85,
+		"knockbackresistanceset": 10,
+		"mob": ["goety_cataclysm:aptrgangr"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 985211,
+		"armorset": 85,
+		"damageset": 100000000,
+		"knockbackresistanceset": 10,
+		"mob": ["revelationfix:apostle_servant"]
+	}
+]

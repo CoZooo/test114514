@@ -1,0 +1,29 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fortune",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:flora_aspect"
+    }
+  ],
+  "name": "slashblade_addon:green_mist",
+  "properties": {
+    "attack_base": 18.0,
+    "max_damage": 36,
+    "slash_art": "slashblade_addon:rapid_blistering_swords",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/blademaster/blademaster.obj",
+	"summon_sword_color": 2059292,
+    "texture": "slashblade_addon:model/blademaster/green_mist.png"
+  }
+}

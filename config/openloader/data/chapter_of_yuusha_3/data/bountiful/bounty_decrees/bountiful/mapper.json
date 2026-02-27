@@ -1,0 +1,12 @@
+{
+	"objectives": [
+		"mapper_objs",
+		"_all_objs"
+	],
+	"rewards": [
+		"mapper_rews",
+		"_all_rews",
+		"ember_heart_rews",
+		"angelheart_vial"
+	]
+}

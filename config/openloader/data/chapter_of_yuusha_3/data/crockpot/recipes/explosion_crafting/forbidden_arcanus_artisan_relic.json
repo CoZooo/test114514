@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "forbidden_arcanus:artisan_relic"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "forbidden_arcanus:artisan_relic"
+}

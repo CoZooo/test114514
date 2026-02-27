@@ -1,0 +1,8 @@
+{
+  "name": "pgp.gun.b101.name",
+  "display": "pgp:b101_display",
+  "data": "pgp:b101_data",
+  "tooltip": "pgp.gun.b101.desc",
+  "type": "sniper",
+  "sort": 2
+}

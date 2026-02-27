@@ -1,0 +1,11 @@
+{
+  "requirements": {
+    "WEAR": { "love": 900 },
+    "USE": { "love": 900 }
+  },
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"aetherworks:pulldown": 4
+	}
+}

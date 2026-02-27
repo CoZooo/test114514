@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/screen",
+  "model": "pgp:attachment/screen_geo",
+  "texture": "pgp:attachment/uv/screen",
+  "lod": {
+    "model": "pgp:attachment/lod/screen_lod",
+    "texture": "pgp:attachment/lod/screen_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

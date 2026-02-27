@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:doutanuki",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 50,
+    "slash_art": "slashblade:drive_horizontal",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/muramasa/muramasa.obj",
+	"summon_sword_color": 9852970,
+    "texture": "slashblade:model/named/muramasa/doutanuki.png"
+  }
+}

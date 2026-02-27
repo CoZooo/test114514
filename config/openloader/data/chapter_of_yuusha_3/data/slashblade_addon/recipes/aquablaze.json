@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:aquablaze",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 400,
+        "name": "slashblade:sabigatana",
+        "refine": 4
+      }
+    },
+    "C": {
+      "item": "callfromthedepth_:soulingot"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "L": {
+      "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+    },
+    "P": {
+      "item": "immortalers_delight:leisamboo_block"
+    }
+  },
+  "pattern": [
+    "CLC",
+    "GBG",
+    "CPC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "slashblade:yamato",
+  "properties": {
+    "attack_base": 27.0,
+	"slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "broken",
+      "sealed"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade:model/named/yamato.obj",
+	"summon_sword_color": 4862227,
+    "texture": "slashblade:model/named/yamato.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 80,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "callfromthedepth_:immemorial_debris"
+  },
+  "residue": {
+    "chance": 0.0,
+    "name": "arcane_crystal"
+  },
+  "result": "callfromthedepth_:immemorialscrap"
+}

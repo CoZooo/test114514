@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "goety:ice_cube"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "embers:ember_crystal_cluster"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_fmj"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

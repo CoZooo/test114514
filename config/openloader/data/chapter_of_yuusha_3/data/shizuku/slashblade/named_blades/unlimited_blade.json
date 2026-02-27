@@ -1,0 +1,41 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:unlimited_blade",
+  "properties": {
+    "attack_base": 26.0,
+    "max_damage": 600,
+    "slash_art": "shizuku:unlimited_blade_works",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/base.obj",
+    "summon_sword_color": 16737792,
+    "texture": "shizuku:model/shizuku/red.png"
+  }
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/z750muzzle",
+  "model": "pgp:attachment/z750muzzle_geo",
+  "texture": "pgp:attachment/uv/z750muzzle",
+  "lod": {
+    "model": "pgp:attachment/lod/z750muzzle_lod",
+    "texture": "pgp:attachment/lod/z750muzzle_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

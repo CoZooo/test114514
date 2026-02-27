@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "apotheosis:sigil_of_rebirth"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "apotheosis:sigil_of_rebirth"
+}

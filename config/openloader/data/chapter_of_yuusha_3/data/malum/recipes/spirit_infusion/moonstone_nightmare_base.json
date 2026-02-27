@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "malum:malignant_lead",
+    "count": 1
+  },
+  "output": {
+    "item": "moonstone:nightmare_base",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "malum:soul_stained_steel_ingot",
+      "count": 4
+    },
+    {
+      "item": "meetyourfight:mossy_tooth",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 8
+    },
+    {
+      "type": "umbral",
+      "count": 4
+    }
+  ]
+}

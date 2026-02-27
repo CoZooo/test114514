@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "apotheosis:ancient_material"
+    }
+  ],
+  "output": {
+    "item": "yuusha:ancient_aether_shard",
+    "count": 1
+  }
+}

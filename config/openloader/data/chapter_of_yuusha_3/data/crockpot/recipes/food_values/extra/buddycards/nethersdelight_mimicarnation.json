@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "nethersdelight:mimicarnation"
+  ],
+  "values": {
+    "VEGGIE": 0.5
+  }
+}

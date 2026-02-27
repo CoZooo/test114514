@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "embers:caminite_bricks_wall"
+    }
+  },
+  "pattern": [
+    "C C",
+    "C C",
+    "C C"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aetherworks:prism_support"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.sight_eos_hs02.name",
+  "display": "eos:sight_eos_hs02_display",
+  "data": "eos:sight_eos_hs02_data",
+  "type": "scope",
+  "sort": 256
+}

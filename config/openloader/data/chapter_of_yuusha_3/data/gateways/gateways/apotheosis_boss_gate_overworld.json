@@ -1,0 +1,153 @@
+{
+	"size": "medium",
+	"color": "#8552a1",
+	"spawn_range": 32,
+	"leash_range": 256,
+	"waves": [
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/vindicator"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/witch"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/snow_canine"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/grimoireofgaia_naga"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/dullahan"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/grimoireofgaia_sphinx"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/grimoireofgaia_yuki"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheosis:overworld/grimoireofgaia_siren"
+			}],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "yuusha:unstable_redstone_part",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 300,
+			"setup_time": 30
+		}
+	],
+	"rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "yuusha:unstable_redstone_part",
+				"count": 1
+			}
+		}
+	]
+}

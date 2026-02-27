@@ -150,7 +150,7 @@ def render_update_dc(
     if del_paths:
         lines.append("  [del]")
         for path in del_paths:
-            lines.append(f"  {dc_quote(path)},")
+            lines.append(f"    {dc_quote(path)}")
     if add_paths:
         if del_paths:
             lines.append("")

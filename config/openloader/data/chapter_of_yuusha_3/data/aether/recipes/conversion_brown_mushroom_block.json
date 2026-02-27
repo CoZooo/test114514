@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "infinite_abyss:fourth_layer_cavern",
+  "ingredient": {
+    "block": "minecraft:water"
+  },
+  "result": {
+    "block": "minecraft:brown_mushroom_block"
+  }
+}

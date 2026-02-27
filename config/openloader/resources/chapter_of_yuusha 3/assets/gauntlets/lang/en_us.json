@@ -1,0 +1,22 @@
+{
+  "item.gauntlets.quick_iron_gauntlet": "Quick Iron Gauntlet",
+  "item.gauntlets.quick_punch_trim": "Smithing Template",
+  "enchantment.gauntlets.almighty_push": "Almighty Push",
+  "item.gauntlets.fisting_glove": "Fisting Glove",
+  "item.gauntlets.netherite_gauntlet": "Netherite Gauntlet",
+  "item.gauntlets.diamond_gauntlet": "Diamond Gauntlet",
+  "enchantment.gauntlets.black_flash": "Black Flash",
+  "item.gauntlets.quick_fisting_glove": "Quick Fisting Glove",
+  "subtitles.black_flash": "black_flash_hit",
+  "item.gauntlets.quick_netherite_gauntlet": "Quick Netherite Gauntlet",
+  "item.gauntlets.golden_gauntlet": "Golden Gauntlet",
+  "death.attack.black_flash_damage.player": "%1$s sent to the shadow realm whilst trying to escape %2$s",
+  "death.attack.black_flash_damage": "%1$s was sent to the shadow realm",
+  "death.attack.black_flash_damage.item": "%1$s was sent to the shadow realm by %2$s using %3$s",
+  "item.gauntlets.quick_diamond_gauntlet": "Quick Diamond Glove",
+  "item.gauntlets.iron_gauntlet": "Iron Gauntlet",
+  "enchantment.gauntlets.heavy_slam": "Heavy Slam",
+  "enchantment.gauntlets.rocket_fist": "Rocket Fist",
+  "effect.gauntlets.zone": "Zone",
+  "item.gauntlets.quick_golden_gauntlet": "Quick Golden Gauntlet"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "poisoned_chakra",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "395",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "1": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "2": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "3": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "5": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "6": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "7": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "8": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "9": {
+      "item": "goety:ominous_orb"
+    }
+  },
+  "result": {
+    "item": "aquamirae:poisoned_chakra",
+    "count": 1
+  }
+}

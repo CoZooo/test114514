@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:tidal_bow",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "morebows:netherite_bow"
+    },
+    {
+      "item": "call_of_drowner:coral_ingot"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "eeeabsmobs:heart_of_pagan"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    }
+  ]
+}

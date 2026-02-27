@@ -1,0 +1,8 @@
+{
+  "slot": "eos:ammo/slot/eoslab_12g",
+  "shell": {
+    "model": "eos:shell/eoslab_12g_shell",
+    "texture": "eos:shell/eoslab_12g_shell"},
+  "tracer_color": "#ffd580"
+}
+    

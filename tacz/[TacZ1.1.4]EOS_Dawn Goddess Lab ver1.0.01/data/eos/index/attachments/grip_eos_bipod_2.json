@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.grip_eos_bipod_2.name",
+  "display": "eos:grip_eos_bipod_2_display",
+  "data": "eos:grip_eos_bipod_2_data",
+  "type": "grip",
+  "sort": 256
+}

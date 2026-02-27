@@ -1,0 +1,2426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_2"
+	group: "381A0F9F8CC8976C"
+	icon: "minecraft:amethyst_shard"
+	id: "03D2ADFF4AC686AB"
+	images: [
+		{
+			alpha: 180
+			color: 2807130
+			height: 20.5d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 15.5d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 22.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: 4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["击杀[幽灵]获得。"]
+			id: "13527AB726A8858A"
+			rewards: [{
+				id: "59AD69D9B6C016E0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "446610478DCC720E"
+				item: "hmag:soul_powder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			description: ["具有较高的护甲值。击杀[钢铁守护者]获得。详看天顶巨兽章节。"]
+			hide_dependency_lines: true
+			id: "02A37FA58BAA5C96"
+			rewards: [{
+				id: "2E953A90A28C615C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34036EECB6E58F57"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"击杀[霜冻巨兽]获得。详看天顶巨兽章节。"
+				""
+				"&3右击可释放冰霜风暴，在前期有不错的伤害，但是对Boss只有冰冻效果并无伤害。"
+			]
+			hide_dependency_lines: true
+			id: "4D828FA9588DEEF0"
+			rewards: [{
+				id: "78EF6E62DB470558"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6810C356D5C5847B"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["击杀[乌姆武蒂]获得。详看天顶巨兽章节。"]
+			hide_dependency_lines: true
+			id: "1A40C9EC2AD44E23"
+			rewards: [{
+				id: "41EEB94D85FB5462"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36C54FD3A1CE830A"
+				item: "mowziesmobs:sol_visage"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"需手持铂金板材右击灵魂营火会给予附近玩家5级不祥之兆效果。"
+				""
+				"&c部分灾厄Boss只有在其它灾厄村民都死亡的情况下才会变身并消除无敌，且部分灾厄Boss每次受伤具有上限阈值。请勿用弓箭提前杀死带有无敌的灾厄村民（如灾厄术士等），会导致游戏崩溃。"
+				""
+				"&e袭击有几率卡死当前阶段，这是特性。如果需要袭击的材料，可以尝试去寻找林地府邸等灾厄建筑。单人存档可以尝试退出存档再进入，也许能过当前阶段。"
+				""
+				"&6需注意，袭击内会有怪物可以直接把盾牌摧毁，尤其是女仆的盾牌要注意。此外据部分玩家反馈，有部分生物可能会有客户端渲染崩溃特性，能重进游戏就没问题。最好不要让一堆袭击生物在一起互相攻击。"
+				""
+				"&3利用FTB地图可显示查看部分藏在地下的灾厄生物，或者用召集之钟也可召集不远处的灾厄生物。"
+				""
+				"&2还可制作不祥垠际-灾厄袭击传送门珍珠。"
+			]
+			id: "3EB1630B7EC027F3"
+			rewards: [{
+				id: "449D348CE48F0C07"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&5袭击-获取不祥之兆"
+			tasks: [{
+				id: "27B554C21C9AEFE1"
+				item: "illagerinvasion:platinum_sheet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"蝙蝠与幻翼掉落（10%）、流浪商人处购买（16绿宝石）、通过灵风罐提取。"
+				""
+				"在主世界滑翔时若携带玻璃罐，则有几率会转化为灵风罐，几率与飞行速度和高度相关。主世界最优飞行高度为255。"
+				""
+				"&6[幻翼]可用[召唤祭坛]召唤。"
+			]
+			hide_dependency_lines: true
+			id: "48FFB6E942567587"
+			rewards: [{
+				id: "1F689DDAFCDE3914"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "416039909D984C44"
+				item: "locusazzurro_icaruswings:zephir_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			description: ["用于在魔法羽翼相关合成中作为触媒，合成时不消耗。也可作为食物食用。恢复10点饥饿值与10点饱和度，并获得生命回复II（20秒）、抗性II（60秒）、抗火（60秒）和生命提升III（60秒）效果。"]
+			hide_dependency_lines: true
+			id: "0BF046E0D4C5937D"
+			rewards: [{
+				id: "50839E6388A508B6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B3D83B3DAFD9340"
+				item: "locusazzurro_icaruswings:philosopher_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"数天不睡觉且无死亡，就会生成幻翼。此外，幻翼膜在战斗高塔的战利品箱内可能找到。"
+				""
+				"&c[幻翼]可用[召唤祭坛]召唤。召唤需要的材料为注魔膜及咒灰，激活工具为博丽的御币。"
+				""
+				"&6幻影苦力怕在阿比斯之渊洞穴生成，击杀也掉落幻翼膜。阿比斯之渊洞穴详见极尽深渊章节。"
+				""
+				"&e手持末影珍珠碎片右击营火可召唤幻翼。在切石机中用终焉之尘也可制作末影珍珠碎片。"
+			]
+			id: "42A53D435F1DDE35"
+			rewards: [{
+				id: "50AA53C50001F065"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AEA72044AA2285B"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"夜晚在野外会自然生成闪电苦力怕，击杀可获得。"
+				""
+				"&6开地牢奖励袋也有几率开出。"
+			]
+			id: "1581961752702D80"
+			rewards: [{
+				id: "21435B0DDBAAE82F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7362F52D7BFFF2B7"
+				item: "hmag:lightning_particle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"击杀部分娘化的怪物可获得。"
+				""
+				"&6亡灵军团会有部分娘化怪物袭击，详见亡灵军旗。"
+			]
+			id: "1D0D43F2CFD98F10"
+			rewards: [{
+				id: "4C4119D5F3338EB4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34F0C1A0C0F56EC1"
+				item: "hmag:evil_crystal_fragment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"击杀部分娘化的怪物可获得。"
+				""
+				"&6亡灵军团会有部分娘化怪物袭击，详见亡灵军旗。"
+			]
+			id: "1BC33EB0295A7A79"
+			rewards: [{
+				id: "4B72FBC9CE809CCF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36C907986F96DD17"
+				item: "hmag:kobold_leather"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"击杀巫妖可获得。"
+				""
+				"&6亡灵军团会有部分娘化怪物袭击，详见亡灵军旗。"
+			]
+			id: "4577BB2562E44C52"
+			rewards: [{
+				id: "0B8CE077E300530E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CC6D48360860F49"
+				item: "hmag:lich_cloth"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"击杀食人魔可获得。"
+				""
+				"&6亡灵军团会有部分娘化怪物袭击，详见亡灵军旗。"
+			]
+			id: "1ED2BBC9CC8F9D84"
+			rewards: [{
+				id: "56EC39EEB514B416"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B835EC6EEE5F01D"
+				item: "hmag:ogre_horn"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			description: ["击杀幻骨蝠可获得。"]
+			id: "4FF78C783FD67352"
+			rewards: [{
+				id: "3DD4924A89D5D776"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26C7DB5CC97BF6FF"
+				item: "hmag:dyssomnia_skin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			description: [
+				"击杀部分娘化的怪物可获得。"
+				""
+				"&6亡灵军团会有部分娘化怪物袭击，详见亡灵军旗。"
+			]
+			id: "20298255D8DE2D45"
+			rewards: [{
+				id: "44436AE8F42BD3DD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33A3E4C44D1FE56D"
+				item: "hmag:sharp_fang"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			description: ["击杀部分娘化的怪物可获得。"]
+			id: "6ECC6206B5D9C9DC"
+			rewards: [{
+				id: "55D309F73D9E0765"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AEC06EE2DE56B0B"
+				item: "hmag:cubic_nucleus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			description: ["在流浪商人处可交易获得。用于制作[阿涅摩伊之杖]。该杖可突破磁力、瘫痪等怪物的多种禁锢。"]
+			id: "376307340005F41C"
+			rewards: [{
+				id: "07925887D1FCC5E1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "658E5722B3079F07"
+				item: "locusazzurro_icaruswings:anemone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"击杀[娜迦]可额外获得[狩猎]和[飞行]技能经验。"
+				""
+				"&c[娜迦]可在[召唤祭坛]召唤。召唤需要的材料为幻翼膜、毒马铃薯及咒灰，激活工具为博丽的御币。"
+			]
+			id: "5F3D374C96C50FDA"
+			rewards: [{
+				id: "108392E8FDF58832"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EC81B2222B9AB86"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"附魔台目前只有神意要求。"
+				""
+				"&6[附魔台]在野外某些建筑也能找到。"
+				""
+				"&c某些特殊附魔基本只有附魔台出，甚至你还要神化书架。图书管理员现在可交易的附魔书基本都没什么用。"
+			]
+			id: "0001AE4971268FBB"
+			rewards: [{
+				id: "6BAA5A601B32E53B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61AC5A9BC41BC39C"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"所有末影生物都是群体仇恨，而且会将视野范围内的敌人传送。"
+				""
+				"&6前期可通过末影宝藏袋或者星河贸易站的末影女孩刷怪蛋刷出的末影女孩交易获得。"
+			]
+			id: "3FD35188F7610DAF"
+			rewards: [{
+				id: "5421C454436409CF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7434E84443EDDEC7"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"亡灵军团首次触发的击杀亡灵生物数为5000，之后的为10000。破旧布料可合成。"
+				""
+				"&6建议在平原等较为平坦的地方召唤。部分生物可能仇恨不稳，会停留在生成地方，可以利用小地图及聊天栏内提示的亡灵军团逼近方向找到。"
+				""
+				"&3会大概在50格处生成传送点，随后亡灵军团从传送点出现并往触发点进军。"
+				""
+				"&e现在亡灵军团的怪物基本都为怪物与女孩模组的怪物。"
+				""
+				"&c不要在家附近召唤，有部分生物会破坏方块。需要玩家攻击过生物，才会给予宝藏袋。"
+			]
+			id: "6984554E6C78ECAF"
+			rewards: [{
+				id: "2630FD135C4B0623"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A3F3003BA4AC57C"
+				item: "majruszsdifficulty:undead_battle_standard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"制作任意永恒之门珍珠均可完成该任务，该模组可在JEI搜索“@gateway”查看合成表。"
+				""
+				"该模组可以打开一道巨大的传送门，其中会一波波地召唤敌人出现。手持传送门珍珠右击一个方块就能召唤出传送门，这需要相当大的空间才能正常工作，请不要在封闭区域使用！"
+				""
+				"传送门出现后就会开始召唤相应的敌人，每一波的敌人数量和目前的波数都会在boss条上显示，消灭一波敌人后传送门会给予奖励并在短暂冷却后开始下一波召唤。完成最后一波召唤后会得到最终奖励并且关闭召唤门。"
+				""
+				"&6调整了传送门珍珠的通关奖励，需要击杀里面召唤的怪物来获取掉落物奖励。传送门珍珠的通关奖励会在开启传送门的地点掉落，可能需要一些保护措施以防被销毁。"
+				""
+				"&c可以召唤大部分原版怪物，比如史莱姆、女巫等。"
+				""
+				"&2对着[挑战传送门珍珠]按住Shift+鼠标滚轮，可以查看其波数怪物。"
+			]
+			id: "454FE1D2D92B9C95"
+			rewards: [{
+				id: "7184AEDD1AF72478"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C119CF62B5F2B1F"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"[海王粒]可复制合成。"
+				""
+				"&e击杀[守卫者]会额外掉落海王粒。"
+				""
+				"&6任务也有可能获得海王块。"
+			]
+			id: "105F759881C1270C"
+			rewards: [{
+				id: "71058E531C0CE687"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29EE532AE8187EF7"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"远古守卫者可在召唤祭坛中召唤，也可在海底神庙找到。守卫者也可利用召唤祭坛召唤。都需要在下雨天。"
+				""
+				"&6守卫者刷怪蛋在小市场新增售卖。现在守卫者有20%几率掉落蛤蜊等海产品。"
+				""
+				"&c守卫者具有和远古守卫者类似的弱点抗性。"
+			]
+			id: "7C390E4F884FE876"
+			rewards: [{
+				id: "37C2C5649FF98F01"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "177E53D085A910AE"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"远古守卫者可在召唤祭坛中召唤，也可在海底神庙找到。守卫者也可利用召唤祭坛召唤。都需要在下雨天。"
+				""
+				"&6守卫者刷怪蛋在小市场新增售卖。现在守卫者有20%几率掉落蛤蜊等海产品。"
+				""
+				"&c守卫者具有和远古守卫者类似的弱点抗性。"
+			]
+			id: "7E524BE5B0D3B96B"
+			rewards: [{
+				id: "50987CBF89D75ED9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D1E3452C9FB562A"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"没有交易过的村民现在可以在交易界面进行无限刷新。"
+				""
+				"&6村民、流浪商人目前自带99%减伤。"
+				""
+				"&e虽然JEI的合成表上没有写，但是任意护符碎片都可以无序合成为绿宝石。"
+				""
+				"&c图书管理员可刷新的附魔被魔改过，基本没有十分强力的附魔，但有些附魔还是挺有用的。"
+				""
+				"&3新增了村民刷怪蛋在小市场的交易。"
+			]
+			id: "208B703BAA6FBBF1"
+			rewards: [{
+				id: "78A20674FD66A545"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33ADED9555B2523B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"野外会有几率找到。也可以制作。"
+				""
+				"&e你知道吗？玩家可以利用指路石来传送用拴绳拴住的动物，需要消耗额外的经验，且需要距离指路石较近。"
+				""
+				"&6你知道吗？指路石里的传送位点，在右边有上下箭头可以挪动位置，按住Shift左击会直接到最前或最后。"
+				""
+				"&c指路石现在可以在古遗天境、遥远世界、幽匿暗域、极尽深渊等维度生成。"
+				""
+				"&3现在允许指路石在放置或者改名时开启是否“设为全局”，若设为全局，则任意玩家（即使未碰触）都可传送到该指路石处。"
+			]
+			id: "3E6E93D1AEE6D9AA"
+			rewards: [{
+				id: "1154B9E97CAD4454"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75CC1229F0075D63"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"一本特殊的附魔宝典，用铁砧将附魔装备一半数量（向上取整）的随机魔咒转移到拆解宝典上，消耗（魔咒个数×10）级经验变成附魔书，最后装备消失。"
+				""
+				"可以对其他装备使用铁砧来刷新特定装备将要移除的魔咒。"
+			]
+			id: "795817FB3E7A3BA0"
+			rewards: [{
+				id: "3D3769D00FA4F2EA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "616587164DF11F60"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"与任意附魔物品合成将物品的全部附魔转移到此书上然后这本书会变成附魔书。不会消耗装备。"
+				""
+				"&6远古守卫者可在召唤祭坛中召唤，也可在海底神庙找到。"
+			]
+			id: "3A97E81D06067841"
+			rewards: [{
+				id: "789E6E4AF083062B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "14317A00FB30C8B4"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"糖不再能通过甘蔗获取。"
+				""
+				"&6可通过养蜂获得。"
+			]
+			id: "57CA8B45E32DA384"
+			rewards: [{
+				id: "7CA9DE04630A6AD7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F7E1CAA3759D2BE"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			description: ["新增击杀各种史莱姆类型的生物都有几率掉落[黏液珍珠]。包括但不限于原版史莱姆、各种史莱姆娘、魔法史莱姆、凝胶史莱姆等。"]
+			id: "18D1624ADD32ACA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298738F5A29B676A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60ED1F4E287A4716"
+				item: "reliquary:slime_pearl"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"狂野闪耀之灯会检测周围半径为16格的球中各个方块的亮度，若某方块的亮度小于7，狂野闪耀之灯会尝试在其周围放置亮度为11的隐形光源。"
+				""
+				"&3隐形光源没有碰撞箱，且像原版的草一样，如果玩家将方块放置在其所在的格子上，隐形光源会被替换为新方块。"
+				""
+				"&e狂野闪耀之灯被破坏后，和橡树树叶枯萎类似，隐形光源会缓慢消失，本模组的寒冻珍珠可以加速这一效果。"
+				""
+				"&6在生存中，为了达到最大效益，较理想的照明方式是每隔30个方块左右放置一个狂野闪耀之灯。"
+			]
+			id: "6576CF77F28D03E2"
+			rewards: [{
+				id: "0C3BC793B6B2FEA5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "356A9A87AC2DA8FE"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"跟随该物品飞行的方向，玩家可以找到暗夜巫妖，在该结构中，玩家需要在祭坛上放置四个灵魂之星，来召唤暗夜巫妖。"
+				""
+				"与末影之眼类似，手持该物品并点击右键，物品会向一个方向飞出。物品在飞出一段距离后，会掉落在地上，玩家捡起后可再次使用。使用一定次数后，物品会损坏并消失。"
+				""
+				"&c灵魂之星无法通过击杀亡灵生物获得，只能合成获得。"
+				""
+				"&6该建筑还可利用探险家指南针搜索，详见天顶巨兽章节暗夜巫妖任务。"
+			]
+			id: "1845909DE1D79916"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0326E76055338E15"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D1A6CBE82558703"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: ["通过击杀暗夜巫妖掉落，用于合成镇压之杖、升腾台座、充能末影珍珠。"]
+			id: "0953DB8515199D34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "336B26DF5B127A5E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A91015B64423524"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"击杀突变苦力怕后，敲破他的苦力怕蛋（包括闪电苦力怕蛋）后有几率获得。苦力怕残片右键会发生爆炸，爆炸威力取决于耐久，爆炸不会伤害到自己，使用后耐久会归零但是不会消失。使用苦力怕残片近战攻击一次生物就会恢复1点耐久。"
+				""
+				"&6变异体无自然生成，只能在召唤祭坛召唤。详见天顶巨兽章节。"
+			]
+			hide_dependency_lines: true
+			id: "75761B7BC75F3D11"
+			rewards: [{
+				id: "5057A85B132EBD7B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C80037AFC19A8F1"
+				item: {
+					Count: 1
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"突变僵尸死后掉落。巨人之锤对地面右键会发出突变僵尸的冲击波攻击，会将经过的草方块、耕地、灰化土等能变成泥土的方块变为泥土，也会摧毁经过的花草、火把、红石、单层雪等非实体方块和冰、树叶、玻璃等透明方块(空手能够采集的会掉落)，并且触发碰到的TNT。"
+				""
+				"&6变异体无自然生成，只能在召唤祭坛召唤。详见天顶巨兽章节。"
+			]
+			hide_dependency_lines: true
+			id: "1FF95CE442E983C7"
+			rewards: [{
+				id: "0DEA666A3B49857F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10235EC00FB69302"
+				item: {
+					Count: 1
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"突变骷髅死亡后会散架，右键突变骷髅散架的各个部位能够把他们变成掉落物捡起。"
+				""
+				"&6变异体无自然生成，只能在召唤祭坛召唤。详见天顶巨兽章节。"
+			]
+			hide_dependency_lines: true
+			id: "3AFB4AAB2321F33E"
+			rewards: [{
+				id: "79D2C519E0853F8D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E98D0D1A6B43A0E"
+				item: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"击杀突变末影人后，收集他释放的末影魂片，然后Q键扔出一个末影之眼即会自动转换为末影之手。"
+				""
+				"&6变异体无自然生成，只能在召唤祭坛召唤。详见天顶巨兽章节。"
+			]
+			hide_dependency_lines: true
+			id: "4B7DA3D98D82E9D1"
+			rewards: [{
+				id: "52AA6321FB49D017"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04709A50AA05788F"
+				item: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"击杀模组内搁浅舰船遗迹中待在船长室的掠夺者可获得。用于在冰冻深海群系中的水边召唤船长科妮莉亚亡灵。右键使用后消耗（若召唤失败则不消耗）。"
+				""
+				"&6搁浅舰船：此处遗迹有大量卫道士和掠夺者把守其中的财宝，玩家可以冒险潜入其中来掠夺海盗们遗留下的宝藏（这里也是游戏中唯二藏有贪婪匕首的建筑之一）。"
+				""
+				"&e搁浅舰船可利用探险者指南针搜索“Ship”找到。"
+				""
+				"&c可利用自然指南针搜索“冰冻深海”去召唤场地。"
+				""
+				"&3新增击杀迷阵之母有10%几率获得贝壳号角。"
+			]
+			id: "21A1DE2F6B8C4916"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "683EA563B1D396B1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "624F1DC4026D3308"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"可以通过击杀该模组内除金蛾和棘鱼的生物概率掉落，在冰冻深海生物群系内有几率生成，其中只有击杀鳗鱼可固定掉落，也可以通过打开冰冻箱子概率获得。"
+				""
+				"&e新增用海船墓地之回响可以在小市场中兑换部分修改刷怪笼的材料。"
+				""
+				"&c现在海灵物语的巨鳗、迷阵之母、鮟鱇鱼有且只有在冰冻深海顺利生成。"
+				""
+				"&6新增在额外地牢的扭曲花园内有几率发现海船墓地之回响。扭曲花园详见树海化章节的额外地牢任务。"
+			]
+			id: "2673AAFD6F050557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DDE7DCEE7A22E45"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04D6CC8355BF7207"
+				item: "aquamirae:ship_graveyard_echo"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"灌注台：可以让装备所拥有的附魔等级的突破原版上限的限制（就只是原版）。"
+				""
+				"&e打开UI后，（从左到右）依次在空格内放入满级附魔、具有同类满级附魔的装备、神圣宝石。"
+				""
+				"&c神圣宝石所需的材料，也是打袭击获得。"
+				""
+				"&6始源精华由祈灵师掉落的珍贵材料。需打袭击。"
+				""
+				"&3该灌注台只能提升原版的附魔等级上限，不能提升神化的等级上限，所以用处较小。"
+			]
+			id: "76E052AA5499D4E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A0F2332797DB2E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F5268192270E6F1"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"用于闪电合成物品。"
+				""
+				"&6利用女仆模组也可[生成闪电]。"
+			]
+			id: "53472C640DBB4497"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FBB7F91B04B787B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2754FB53647BAD25"
+				item: "hmag:lightning_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"在沙漠神殿和丛林神庙的战利品宝箱中概率出现。"
+				""
+				"&6开启魔典盖亚模组的沙漠宝箱、丛林宝箱也有几率获得。"
+			]
+			id: "16BD1907BF1A7475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56ADB78AF0D4F7BF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1912E2552C61B3E9"
+				item: "buzzier_bees:four_leaf_clover"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"佩戴无咒之戒死亡后，会在死亡处生成一个悬空的灵魂水晶并减少佩戴者10%的生命值上限。"
+				""
+				"&e靠近悬空的灵魂水晶或右键使用灵魂水晶可回复生命值上限。"
+				""
+				"&c新增了合成方式，再也不用担心找不到灵魂水晶。"
+			]
+			id: "77301E9204505719"
+			rewards: [{
+				id: "14BB34D8542815A3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56B0A0C578021E38"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"转化灵药和恶魔南瓜所需的大部分材料都可以在起之洞穴打到。起之洞穴详见极尽深渊章节。"
+				""
+				"&6手持转化灵药，右击放在地上的恶魔南瓜，即可召唤[狱火暗域领主]。需注意是恶魔南瓜！！！"
+				""
+				"&e恶魔南瓜、邪恶南瓜、邪恶南瓜灯可击杀特定生物获得，也可通过合成获得。特定生物可在起之洞穴内找到。"
+				""
+				"&c转化灵药可合成复制。"
+				""
+				"&3手持转化试剂对某些方块或生物右键使用，将会对目标方块或生物进行转化，如：粗金块→远古残骸；铁块→暗金属块；紫水晶块→钻石块；炽魂南瓜人→邪魂南瓜人。"
+			]
+			id: "131B7B197D51440B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10E7FE35843C3659"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62D056ACA9377A74"
+				item: "born_in_chaos_v1:transmuting_elixir"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: ["击杀狱火暗域领主有较大几率获得。召唤方式详见转化灵药任务。"]
+			id: "639115DA8A0D168F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "017D00297C016D84"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4686A30389461F12"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			description: ["自动收集附近半径8格范围内的鸡产出的蛋。"]
+			id: "5C11433823D1643C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD177E073DCA835"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4ED71C03F253A329"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"放入对应食物后自动喂养附近可被喂养的生物，包括猪，羊，牛，鸡，兔子。右键一次放入一组。"
+				""
+				"作用于距离饲养槽半径8格范围内生物，生物数量（每种）达到32只后停止喂养。"
+			]
+			id: "767653109B36FD39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1910391B783A88DB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EA675F9D9015D3C"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"用[玻璃瓶]右击蜜蜂，即可将蜜蜂装瓶，之后可放出。"
+				""
+				"&6或者利用精准采集可把整个蜂箱采集。"
+			]
+			id: "179E7EC026627465"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D6F82F734EAD953"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62A806E8A123DF88"
+				item: "buzzier_bees:bee_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"前期只能通过完成任务抽奖几率获得。"
+				""
+				"&6中期可通过神化Boss召唤器，击杀神化boss获得宝石，再分解为宝石粉。详见遥远世界章节。"
+			]
+			id: "53E7762B74773A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "124217B9ADED05DE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "259D6E15B9FE78A4"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"不死图腾现在可堆叠，且在物品栏内即可生效。"
+				""
+				"&e在天空之城（详见遥远世界章节）有唤魔者刷怪笼。"
+				""
+				"&c现在不死图腾具有短暂的冷却时间，不能一直使用。"
+			]
+			id: "2BD152E15476A757"
+			rewards: [{
+				id: "2B2C88A476F1FF7A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5503084D8F0154B9"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"除了祈灵师外，其他袭击生物也有几率掉落。"
+				""
+				"&6新增唤灵术士、灾厄叛乱者、灾厄术士现在必定掉落始源精华。"
+				""
+				"&3袭击有几率卡死当前阶段，这是特性，如果需要袭击的材料，可以尝试去寻找林地府邸等灾厄建筑。单人存档可以尝试退出存档再进入，也许能过当前阶段。"
+				""
+				"&c袭击详见此章节有任务介绍。"
+			]
+			id: "65957E6ADE1BC626"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62D10F0599587737"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "212491580F4E5442"
+				item: "illagerinvasion:primal_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"除了幻术师外，其他袭击生物也有几率掉落。"
+				""
+				"&6现在大部分灾厄村民都有几率掉落奇异之尘和虚幻之尘，可以寻找林地府邸等灾厄建筑。"
+				""
+				"&3袭击有几率卡死当前阶段，这是特性，如果需要袭击的材料，可以尝试去寻找林地府邸等灾厄建筑。单人存档可以尝试退出存档再进入，也许能过当前阶段。"
+				""
+				"&c袭击详见此章节有任务介绍。"
+			]
+			id: "4F14814AD23D127F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A3E305F49F52038"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C39115C42B2DFA8"
+				item: "illagerinvasion:illusionary_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"除了不祥术士外，其他袭击生物也有几率掉落。"
+				""
+				"&6现在大部分灾厄村民都有几率掉落奇异之尘和虚幻之尘，可以寻找林地府邸等灾厄建筑。"
+				""
+				"&3袭击有几率卡死当前阶段，这是特性，如果需要袭击的材料，可以尝试去寻找林地府邸等灾厄建筑。单人存档可以尝试退出存档再进入，也许能过当前阶段。"
+				""
+				"&c袭击详见此章节有任务介绍。"
+			]
+			id: "67BC0F50F52C8B57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C621D6528187E5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04DF5C3BBF0C1E18"
+				item: "illagerinvasion:unusual_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			description: ["可以重置暗夜巫妖、下界铁掌、黑曜巨石柱等Boss生成结构。"]
+			id: "0AF9633A54CA1E91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5393B9D31F5C0421"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79812686AB6F2765"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"鳞甲是幼年海龟在成年时掉落的物品。"
+				""
+				"&6在深海的扭曲花园战利品箱内也有几率有。可用探险家指南针搜索，名称见树海化章节的额外地牢任务。"
+				""
+				"&c此整合包允许生物破坏方块，但如果你开启了生物无法破坏方块，海龟将无法产蛋，怪物也无法摧毁放置的海龟蛋。"
+				""
+				"&e海龟蛋需要放置在沙子或红沙上才能进行孵化。在星河贸易站有兜售海龟蛋。"
+			]
+			id: "2EF99C460B21669B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "238F279CC4DF3BCC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "023A44A1A878C23B"
+				item: "minecraft:scute"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"蜜蜂可产出，用玻璃瓶可右击抓蜜蜂。蜂箱有多种合成方式。"
+				""
+				"&6可利用女仆进行自动养蜂。"
+				""
+				"&e在利维坦尸骨结构内可以找到蜂蜜块和蜜脾块。探险家指南针可搜索到，详见树海化章节的额外地牢任务。"
+				""
+				"&2新增额外地牢的利维坦尸骨结构内的宝箱、考古，会必定出现一定数量的蜜脾和蜂蜜块。"
+				""
+				"&c利用爆炸可将物品形式的蜜牌块分解为蜜脾。"
+			]
+			id: "747CA561197BE2C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23C534F3AA386B58"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38A33BB45CB42F8E"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"深寒星尘是用来制作枪械和魔法的材料。"
+				""
+				"&e击杀船长幽灵所获得的冻结的钥匙，可以寻找避难所（可用探险家指南针搜索“Shelter”）找到木屋阁楼的被冰封的宝箱开启。也可直接在星河贸易站内交易获得其他材料。"
+				""
+				"&c氧气筒和潜水服头盔都能用PMMO回收为碳素钢锭。"
+			]
+			id: "625D05B73F3BE035"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17281F1F01B1A908"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "500C16FB6E6606BE"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"埋藏的宝藏箱子内可以找到。也可通过地牢宝藏袋获得。"
+				""
+				"&6新增击杀科妮莉亚船长幽灵等必定获得。"
+			]
+			id: "3ED646343327FBD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3125888CCFF1D604"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09361EFC2356431B"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"可利用基座进行部分自动化。"
+				""
+				"&c并不能很好地兼容其他模组物品。"
+			]
+			id: "14FD7499EA975ABB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BBBB2B06B6A0E36"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34FC3DD7D3D266C9"
+				item: "reliquary:pedestals/yellow_pedestal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"用于催熟作物，每隔1秒对富饶莲叶为中心底部的4半径*半径+1*4半径的矩形体中的作物催熟。"
+				""
+				"&6刚开始放下后，需要等待一段时间才开始工作。"
+				""
+				"&c不要用富饶莲叶催熟部分植物（比如咖啡丛等），可能会导致游戏崩溃。"
+			]
+			id: "1AFFB63E2333ED9E"
+			rewards: [{
+				id: "02894A9860E245DB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "403BF56964B3B288"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"击杀在主世界生成的部分怪物可获得暗金属堆。"
+				""
+				"&6在极尽深渊章节的初始洞穴内基本只会刷新该模组的生物。需注意部分生物会在黑暗隐身。"
+			]
+			id: "0138060AFC05DDEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2546D113952D3E09"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21231FB7CD568681"
+				item: "born_in_chaos_v1:dark_metal_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"通过亡灵军团后可获得亡灵军团宝藏袋，开启即可获得灵魂罐。"
+				""
+				"&e灵魂罐是一个包含3个随机灵魂的物品，当用副手拿着时，它们会给玩家带来一定的加成。在工作台上与盾牌合成，可以将效果附在盾牌上但有所减弱。"
+				""
+				"&6亡灵军团详见此章节亡灵军旗任务。不要在家附近召唤，有部分生物会破坏方块。"
+				""
+				"&c需要玩家攻击过生物，才会给予宝藏袋。"
+			]
+			id: "45A9BC1CDEE4C7A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E3D1A4452FE4B8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2176C692939C7B76"
+				item: {
+					Count: 1
+					id: "majruszsdifficulty:soul_jar"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"放在物品栏内即可生效，效果与不死图腾类似，但是不会清除所有药水效果，也没有冷却时间。"
+				""
+				"&6无法合成，只能击杀消失的天使-本源圣体获得。"
+				""
+				"&c或者通过悬赏板的任务可以获得，任意类型悬赏都有几率出现天使心瓶。"
+			]
+			id: "3537D2E60DE9B070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19CC238FB2603551"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2659402E93DEE03B"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"黄金树在繁花森林自然生成。"
+				""
+				"&6好好吃章节有任务奖励自然宝藏袋，有几率获得各种树苗、种子。"
+			]
+			id: "5CE6967B065DF991"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D8553E57CE17AF4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E00DFA711E1E3CD"
+				item: "forbidden_arcanus:aurum_sapling"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "1705F69DA0C4833A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A5533DAE8DC1555"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "57D94801685F21F5"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"经验晶矿在主世界地下可挖掘到。"
+				""
+				"&6还可利用女仆获得附魔之瓶。"
+			]
+			id: "73E7A618F8F678A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A6D04E9EB12DDF1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06037F43FE08C2A8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			description: [
+				"在海面上可以找到一个以铜作为主体建材的塔楼，里面有一个唤潮者。该建筑可通过探险家指南针搜索“The Tide Raiser Tower”找到。"
+				""
+				"&6在击杀一次后，可以在召唤祭坛中召唤[唤潮者]，召唤需要的材料为残败溺魂、咒灰，激活工具为博丽的御币。"
+				""
+				"&c在击杀唤潮者时有15%几率获得溺尸腰带。"
+				""
+				"&e唤潮者具有和溺亡者Boss相似的抗性和攻击效果。"
+			]
+			id: "6BA915E8C830DE4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3146C7CF66702AB1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4301C1722DE9613D"
+				item: "call_of_drowner:drowned_soul"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"在主世界的野外有几率刷新焰芒虫、炽魂南瓜人。"
+				""
+				"&c焰芒尘可通过击杀主世界野外能找到的焰芒虫、炽魂南瓜人获得。炽魂南瓜人在阿比斯之渊也有生成。"
+				""
+				"&e此外，在阿比斯之渊也能找到高阶骷髅召唤师，高阶骷髅召唤师可以召唤恶魔小骷髅。阿比斯之渊详见极尽深渊章节。"
+			]
+			id: "13A685310F0A78AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C884E42534BC7C1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F9C61CC6A64EDA5"
+				item: "born_in_chaos_v1:fire_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"在主世界的水椰浮空岛可以找到。利用探险家指南针搜索“Nipa Floating”可找到。"
+				""
+				"&6还可在星河贸易站内交易获得，史维特球需在古遗天境维度击杀史维特获得。此外，击杀溺亡者也会掉落水椰。"
+			]
+			id: "505D16B78A339C1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74A7852C31B49760"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BA10ABE3BDBD74E"
+				item: "forbidden_arcanus:nipa"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"火把花种子是能够种出火把花植株的物品，植株成熟后为火把花。火把花种子可以被嗅探兽刨挖出。"
+				""
+				"嗅探兽只能通过嗅探兽蛋孵化。嗅探兽有时会用力闻一次检查附近垂直3格，水平20格内的是否有泥土、灰化土、菌丝、泥巴、沾泥的红树根、草方块、砂土、缠根泥土 ，如果有则会向这个方块走动并趴在地上刨挖，并掉落火把花种子，并张开耳朵摇头几秒钟后恢复正常。"
+				""
+				"每次嗅探兽刨挖后都会有8分钟的冷却时间。如果嗅探兽在刨挖时被攻击，则会停止刨挖并进入冷却时间。"
+				""
+				"在亮度等级≥7时，对着耕地使用火把花种子可种植出火把花植株。火把花植株有3个生长阶段，只有在亮度等级≥9时，植株才能生长到下一个阶段。"
+			]
+			id: "7E731959778547FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C67AFE66927C0A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2ACD6FFCC41478F7"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"用刷子刷暖水海底废墟里的可疑的沙子/沙砾有较高概率掉落嗅探兽蛋。"
+				""
+				"嗅探兽蛋被破坏后会掉落其自身。嗅探兽蛋有3个孵化阶段，不同的阶段裂纹不同，总计孵化时间20分钟。当嗅探兽蛋下方有苔藓块时会加速孵化进程，总共只需10分钟。"
+				""
+				"嗅探兽可通过火把花种子繁殖，也能被火把花种子吸引，繁殖后掉落一个嗅探兽蛋，幼年嗅探兽需要20分钟成长，喂食火把花种子可加快10%成长进度。"
+				""
+				"&6可利用探险家指南针搜索“海底废墟”找到，且新增冷水或暖水海底废墟都能找到。海底废墟的生成几率已大幅度提升。嗅探兽蛋的几率也大幅度提升。"
+				""
+				"&c可利用女帝塔罗牌快速催长。"
+			]
+			id: "1FEF8F891DB181A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7496865D244D7A46"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4370572DCBA157BD"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"玩家可以用刷子刷扫方块。对任何方块使用刷子时，刷子会被平放并左右往复移动，并在目标方块上产生向左抛射的对应方块破坏粒子。如果对可疑的方块使用刷子，可疑的方块将会在一段时间之后变为沙子或沙砾，若为自然生成还会掉落一样其他物品。"
+				""
+				"可疑的沙子/沙砾是可供考古的方块。可疑的沙子会在沙漠神殿内部的地窖、沙漠水井底部或热带海底废墟中自然生成。可疑的沙砾会在古迹废墟或寒带海底废墟中自然生成。"
+				""
+				"&6考古可获得的物品此整合包有优化，详见相关任务。"
+				""
+				"&c新增以下物品可右击沙子或沙砾将其转变为不同的可疑方块：陈旧骨头、冰封骨头、骷髅狗头人之骨、刺骨、海船墓地之回响、骨头、腐肉、烈焰粉、腐枯物质、远古硬币、远古纤维、千古乐事的作物、绿茶叶、破碎的维度意志、神秘水晶粉末。"
+				""
+				"&e附魔：效率附魔可以刷扫更快。时运附魔有几率使被扫刷的可疑方块在扫刷出战利品后不会变为其对应的原本方块。"
+				"{@pagebreak}"
+				"以下为部分可转化的考古列表："
+				""
+				"&6陈旧骨头&r：暴食的赞赏、复苏之叶、蜂蜜瓶、蜂蜜块、莫里斯的脑子、蜂蜜苹果。"
+				""
+				"&6冰封骨头&r：远古细菌、远古凿子、各种纹样陶片、远古硬币、幸运围巾、烈火手套、远古真菌、挖掘爪、钓鱼佬帽、嗅探兽蛋、大地之心。"
+				""
+				"&6骷髅狗头人之骨&r：沙漠之眼、各种纹样陶片。"
+				""
+				"&6刺骨&r：远古病毒、瓶子草英果、禁书碎片、远古凿子、各种纹样陶片、各种陶器碎片、各种装饰用锻造模版、防爆服、苦力怕的知能、牢固鞋钉、云朵瓶、雪地鞋、生长之靴、烈焰吊坠、荆棘吊坠、整蛊坐垫、音乐唱片、大地之心。"
+				""
+				"&6远古纤维&r：千古乐事模组的食物、丘比娃娃。"
+				""
+				"&6嗅探兽毛和千古作物的种子&r：千古乐事模组的种子。"
+				""
+				"&6海船墓地之回响&r：铅球、牛黄、手钻、维生素、手电筒、快走时钟、能量棒、三折地图、蒙眼布、圣水。"
+				""
+				"&6骨头、腐肉&r：嗅探兽蛋、木炭、绿宝石、羽毛、空法术聚晶、亚麻籽、神秘吊坠、邪恶水晶碎片、石化经验球。"
+				""
+				"&6烈焰粉&r：岩浆晶球、岩浆核心、熔火核心、岩浆膏、岩浆石、沙拉曼达之眼。"
+				""
+				"&6腐枯物质&r：凋零枯骨、腐化粉末、幻灵碎晶、紫菀岩和神圣石、凋零玫瑰。"
+				""
+				"&6远古硬币&r：远古硬币、利刃纹样陶片、锈蚀古刀、古代口粮包。"
+				""
+				"&6绿茶叶、绿妖茶叶&r：手机和创造之手的原材料。"
+				""
+				"&6神秘水晶粉末&r：各种晶球（可天华砧锻打）。"
+				""
+				"&6幻昙花、干燥的曼德拉花&r：妖怪归家模组的食物。"
+			]
+			id: "5A94A0E65B644BB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2056FE6078ECF943"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意有两页任务介绍"
+			tasks: [{
+				id: "34CE8660EDB67961"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"瓶子草荚果是能够种出瓶子草植株的物品，植株成熟后破坏会获得瓶子草。"
+				""
+				"用刷子刷古迹废墟里的可疑的沙子/沙砾有较高概率掉落瓶子草荚果。"
+				""
+				"&6可利用探险家指南针搜索“Trail Ruins”找到古迹废墟。"
+			]
+			id: "4BDDE45416AEEDA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C63FED8CEF81019"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "781CC2729693D521"
+				item: "minecraft:pitcher_plant"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"毛茛：自然生成在繁花森林生物群系中，会带有黄色的粒子效果。使用毛茛合成的迷之炖菜食用后获得4分钟阳光灿烂效果。"
+				""
+				"&e阳光灿烂：哞花会持续给予半径12格内的生物该效果，也可通过食用使用毛茛合成的迷之炖菜获得。"
+				""
+				"&6带有该效果的村民和蜜蜂不会睡觉，仍然正常工作。幻翼不会攻击带有该效果的玩家。"
+			]
+			id: "74249DD01AB5D6F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45978009EC4029FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F5D365BA5EEBD0F"
+				item: "buzzier_bees:buttercup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"制作时仪式匕首不消耗。深渊祭品可用作召唤利维坦。"
+				""
+				"&e部分材料可通过击杀沉没之城内的生物获得。"
+				""
+				"&c利用珊瑚残片右击深渊祭坛，可召唤珊瑚巨像。"
+			]
+			id: "1D6B179231083E2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "279F7FA96E507A6F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0ABC5FCE5D615E3B"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["击杀[溺亡者]获得材料制作。详看天顶巨兽章节。"]
+			id: "2F1350C9018C28F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149DE2DB7E25E973"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7466BC517DD5A1A9"
+				item: "call_of_drowner:seagold_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["击杀[利维坦]获得。详看天顶巨兽章节。"]
+			id: "0ABDCE61A561118F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F1F57AD2AEBB146"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1940724571FBAC45"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"击杀[乌姆武蒂]获得。详看天顶巨兽章节。"
+				""
+				"&e右击获得太阳祝福，太阳祝福技能在前期有不错伤害。"
+			]
+			id: "7340AC5D41654045"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136AF1A0169A7BF6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C7D9584012F3E01"
+				item: "mowziesmobs:grant_suns_blessing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["大地祝福技能的伤害全靠对方体型能不能吃满，最长时间蓄力的漂砾在打出后，只要不碰到方块，就可以在一定距离内对碰触的实体造成高额的接触伤害。"]
+			id: "6B2977282D95CE37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E74705A348B8309"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B63F582E4F0BDF7"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "732D32D301A1FE39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69969449BFC0CA80"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33AC618C0A02C762"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mowziesmobs:wrought_axe"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"利用精准采集可获得。通过制作出来的黏液镐会自带精准采集。"
+				""
+				"&6还可前往古遗天境收集材料制作冷冻器，利用冷冻器也可获得。"
+			]
+			id: "7E54C864500BB1CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B48BD6D4E2E85E2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4F3F5F1C64691F13"
+				item: "minecraft:packed_ice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "04508B4BF10914F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31AAEA9FCDEB2557"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A8E892A718960F5"
+				item: "yuusha:blood_bone_heart"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"可制作获得。需特殊鱼饵进行钓鱼。"
+				""
+				"&c详见此章节“克苏鲁钓鱼”任务。重型钓鱼竿可以上饵钓等附魔，虽然不显示，但实际有效果。"
+				""
+				"&e饵钓3级、饵钓5级、各种捕手5级、海之眷顾5级和10级的附魔书可用鹦鹉螺、海洋之心等材料在切石机制作。"
+				""
+				"&6各种捕手附魔可以大幅度提高克苏鲁鱼类的上钓几率。"
+			]
+			id: "04D0190BF55625B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44BCA1AC43F272F5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70DA75F0E8323C28"
+				item: {
+					Count: 1
+					id: "cthulhufishing:heavy_fishing_road"
+					tag: {
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"§bHeavy fishing rod\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "重型钓鱼竿"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"使用刷子考古诅咒金字塔结构中可疑的沙子有概率获得。"
+				""
+				"&c需注意，骷髅狗头人的近战攻击有概率触发特殊效果，可以使玩家手持的物品掉落，或者在玩家使用盾牌格挡攻击时禁用玩家的盾牌。装备黏性手套可用于防止骷髅狗头人抢走你的手持物品。"
+				""
+				"&6JEI只会显示可疑的沙子名字为沙子，但仔细看其材质与普通沙子不同。"
+			]
+			id: "7190181FDE79C75A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "400B38E6B3AC9427"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2519EA4B789FABD8"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"击杀特定生物可获得远古金属。"
+				""
+				"&c需注意，骷髅狗头人的近战攻击有概率触发特殊效果，可以使玩家手持的物品掉落，或者在玩家使用盾牌格挡攻击时禁用玩家的盾牌。"
+				""
+				"&e装备黏性手套可用于防止骷髅狗头人抢走你的手持物品。"
+			]
+			id: "775ABB0233F3ACB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72CC434A02E18B8C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2063AF0E5C34A066"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"需合成获得。"
+				""
+				"&6手持该物品右击沉睡状态下的远古遗魂，可将其唤醒。"
+				""
+				"&c需注意，骷髅狗头人的近战攻击有概率触发特殊效果，可以使玩家手持的物品掉落，或者在玩家使用盾牌格挡攻击时禁用玩家的盾牌。装备黏性手套可用于防止骷髅狗头人抢走你的手持物品。"
+			]
+			id: "1EF676D3F2231756"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57BFC8285F0BDA2B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C217B936C703FCE"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			description: ["首次需击杀冰封蟹获得。之后可通过瓦解聚晶获得。"]
+			id: "71E0120F7B20DE18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02357D4BC3BDF456"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "210A5CCE5230BA2B"
+				item: "goety:ice_cube"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "17CD2E26BC071571"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73D59A7E6B07EBF2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35A6D9D335955F39"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"利用第三之眼可以制作克苏鲁海洋祭坛，打开祭坛可看到有钓鱼任务（需你自己看外形去对应水域钓鱼），完成钓鱼任务可以获得揭示值（暂无特殊用途）。"
+				""
+				"&e所需的部分材料在阿比斯之渊维度内可以获得。阿比斯之渊维度详见极尽深渊章节。"
+				""
+				"&c克苏鲁海洋祭坛可以给予附近村民虚空商人职业。"
+				""
+				"&6新增虚空宝藏袋有几率开出虚空水晶、虚空类型聚晶。"
+			]
+			id: "3F3C9652F254E9C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A18D2B85175CD1A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4991E771819C98D4"
+				item: "cthulhufishing:ctulhu_altar_fish"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"击杀冰封蟹、化石鱼、巨型迷离之眼可获得。在主世界有小几率刷新特定怪物击杀会掉落。"
+				""
+				"&6制作或者与虚空商人交易可获得深渊遗物，使用深渊遗物可以更快地获得深渊反应物。深渊遗物详见此章节。"
+			]
+			id: "5F0B3E9935893CD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "313B355ADB189CF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64E822CD35A7B299"
+				item: {
+					Count: 1
+					id: "cthulhufishing:reagent"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"深渊遗物：放置在地上后，击杀周围的敌对生物，会给予深渊催化剂。在打够深渊催化剂后，可以消耗6个深渊催化剂右击深渊遗物以关闭。如果长时间不关闭，深渊遗物会发生爆炸。"
+				""
+				"&c必须等待一秒左右，深渊遗物才会给予周围生物癫狂状态，击杀才会有深渊反应物。"
+			]
+			id: "37443C909228D868"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56271A7AB006DFC6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41B1E7F2897B2BF2"
+				item: {
+					Count: 1
+					id: "cthulhufishing:relic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"在超级血月时会生成各种异形生物，击杀有几率获得死亡血肉、深渊反应物。"
+				""
+				"&c超级血月可召唤，详见树海化章节超级血月任务。"
+			]
+			id: "30D98ECF1B16C455"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED1ED8CE1300784"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F725AE0D3D6430D"
+				item: "sons_of_sins:flesh_of_demise"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"猩红鱼类：用出血仪式匕首右击获得仪式出血Buff，然后副手持猩红诱饵用钓竿去任意水域钓鱼可获得。相应的捕手附魔能提高钓鱼几率。"
+				""
+				"幽匿鱼类：副手持幽匿诱饵用钓竿在深暗之域生物群系钓鱼可获得。相应的捕手附魔能提高钓鱼几率。"
+				""
+				"菇化鱼类：副手持蘑菇诱饵用钓竿在蘑菇岛生物群系钓鱼可获得。相应的捕手附魔能提高钓鱼几率。"
+				""
+				"冰冻鱼类：副手持冰冻诱饵用钓竿在冰冻海洋、冰冻深海生物群系钓鱼可获得。相应的捕手附魔能提高钓鱼几率。"
+				""
+				"&6该模组的物品需搜索英文，或搜索中文，不能用拼音。"
+				""
+				"&e饵钓3级、饵钓5级、各种捕手5级的附魔书可以用鹦鹉螺、海洋之心在切石机中制作。"
+				""
+				"&c各种捕手附魔可以大幅度提高克苏鲁鱼类的上钓几率。"
+			]
+			id: "184EF8E1B8DC51F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D61D0246A2F9839"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0373ACEFA6123D79"
+					item: {
+						Count: 1
+						id: "cthulhufishing:knife_for_ritual_bleeding"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1817C2191435E633"
+					item: "cthulhufishing:crimson_jellyfish"
+					type: "item"
+				}
+				{
+					id: "5F4934435C9D4BDF"
+					item: "cthulhufishing:crimson_crunch"
+					type: "item"
+				}
+				{
+					id: "6F767AB3E301B99E"
+					item: "cthulhufishing:crimson_fish"
+					type: "item"
+				}
+				{
+					id: "0361E4B225BAAA78"
+					item: "cthulhufishing:mushroom_anglerfish"
+					type: "item"
+				}
+				{
+					id: "638C413123F80102"
+					item: "cthulhufishing:mushroom_torchfish"
+					type: "item"
+				}
+				{
+					id: "5DB00AD5B73161C6"
+					item: "cthulhufishing:mushroom_sprat"
+					type: "item"
+				}
+				{
+					id: "6FDD19D4256A18D2"
+					item: "cthulhufishing:ice_cod"
+					type: "item"
+				}
+				{
+					id: "3B3AD623DF998E84"
+					item: "cthulhufishing:ice_stingray"
+					type: "item"
+				}
+				{
+					id: "4A555F54CEAD7501"
+					item: "cthulhufishing:ice_boulti"
+					type: "item"
+				}
+				{
+					id: "166F36816FFB3878"
+					item: "cthulhufishing:hermit_slulk_fish"
+					type: "item"
+				}
+				{
+					id: "1A39DC6408F25741"
+					item: "cthulhufishing:horse_sculk_fish"
+					type: "item"
+				}
+				{
+					id: "36037A05BA363BCD"
+					item: "cthulhufishing:gluton_sculk_fish"
+					type: "item"
+				}
+			]
+			title: "&c克苏鲁钓鱼"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			description: ["将[腐化粉末]和[暗物质]丢在地上，就会生成黑洞。黑洞吸收了足够的经验之后，就会掉落[石化经验球]。或者在地下可找到石化经验矿物。"]
+			id: "123F977D609535FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45B3CDCF8E5949D9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63C5227007084619"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"可使用禁书碎片合成获取，或在远古城市的战利品箱内找到，也可在击杀骷髅领主后，在陶瓷坛中必定开出。"
+				""
+				"击败会使用法术的灾厄村民、使徒、女巫和术士都有2.5％的概率掉落该物品，每级抢夺魔咒增加1%的掉落概率。"
+				""
+				"&6骷髅领主详见咒法章节『诅咒契约』任务。"
+			]
+			id: "0A4CC589A216FA20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1806F27A8D9BA22D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73C355853E08E603"
+				item: "goety:forbidden_fragment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			description: [
+				"朽烂树苗在朽坏木屋的花盆里可以发现。种植在任意泥土方块上等待成长，之后砍伐获得朽木原木。"
+				""
+				"&6可利用探险家指南针搜索“Blighted Shack”找到朽烂木屋。"
+			]
+			id: "50D081C00B54D7F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24C7E4ECDF4F44B1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "781DACDBFE417525"
+				item: "goety:rotten_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"朽坏木屋是一种可以在沼泽和针叶林生物群落中发现的遗迹，里面一定会生成用于召唤巫婆的水晶球。右击激活自然生成的水晶球，可召唤巫婆。随后就会失活并可以采掘。"
+				""
+				"&e在朽坏小屋内手持重生锚右击失活的水晶球会使水晶球重新激活，让你可以再次挑战巫婆。"
+				""
+				"&6可利用探险家指南针搜索“Blighted Shack”找到朽烂木屋。"
+				""
+				"&c巫婆为特殊的7星Boss，可以接受所有类型的伤害，对部分魔法的抗性较低。建议至少打过7星Boss再挑战。击杀巫婆额外有几率掉落幸运四叶草。巫婆会放魔法仙人掌、除你盔甲法术，最好带磁铁饰品以防盔甲丢失。"
+				""
+				"&2必须用精准采集才能采掘获得。"
+			]
+			id: "70A896F75795293D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FE7630B40A5F02A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A5029B62E8204D6"
+				item: "goety:crystal_ball"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "5415B99718ABA809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F2D9CBA4BBF6C69"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66924B12424D125F"
+				item: "celestial_core:guardian_ocean_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "0693E0F3F3608A9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A15440F9B46A2D5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E7144A14A6888CA"
+				item: "sons_of_sins:ether_ashes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "69868B2C1AD51DD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A6CC4D89312E3C8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "681789479201AB5C"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"可捕捉一切生物。"
+				""
+				"&6陨星碎片可在地下挖掘奥术陨星获得。奥术陨星支持扫描器的稀有矿石模块扫描。"
+			]
+			id: "707FA701F8F6C6A3"
+			rewards: [{
+				id: "4D49775956D871AF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&m无敌"
+			tasks: [{
+				id: "69A3E2D1F8BE3522"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:quantum_catcher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["[湮灭基石]是处理可能进入玩家背包的不受欢迎的垃圾的最终方式。它具有广泛的可调节性，可以精确控制哪些物品被消耗，以及何时被消耗。为了发挥作用，它只需要存在于玩家的背包中。"]
+			id: "251A994FD39ADBD8"
+			rewards: [{
+				id: "58BFC667AB80A746"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FAFA14A3EE8F0B8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["&9『主世界』"]
+	title: "&6※ 上层世界"
+}

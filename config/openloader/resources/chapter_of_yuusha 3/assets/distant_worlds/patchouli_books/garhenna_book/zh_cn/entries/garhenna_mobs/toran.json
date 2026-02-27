@@ -1,0 +1,34 @@
+{
+	"name": "托伦兽",
+	"icon": "distant_worlds:sticky_garsale_bark",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 6,
+	"advancement": "distant_worlds:trees_are_watching",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "托伦兽",
+			"item": "distant_worlds:toran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 6$()$(br)托伦兽是在粘液沼泽生物群系中发现的巨大地面怪物。它们看起来像活的迦塞尔树，在它们的栖息地可能难以看见。攻击后，它会把你击退，并使用一种新的效果，名为粘性枷锁。死亡后，它会掉落迦塞尔木和小几率黏液迦塞尔树皮。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "粘性枷锁",
+			"item": "minecraft:potion{Potion:\"distant_worlds:sticky_shackles_potion\"}",
+			"text": "这个效果会在掉落超过半个方块后对实体造成相当于效果等级的伤害。"
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:garsale_slime",
+			"text": "黏液迦塞尔树皮可以冶炼成迦塞尔黏液。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees",
+				"distant_worlds:garhenna_mobs/loteress"
+			]
+		}
+	]
+}

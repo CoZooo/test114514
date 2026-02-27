@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:book"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:starting_inventory"
+}

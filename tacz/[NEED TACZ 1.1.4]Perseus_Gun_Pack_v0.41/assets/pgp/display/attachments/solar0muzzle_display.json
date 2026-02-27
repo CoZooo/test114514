@@ -1,0 +1,9 @@
+{
+  "slot": "pgp:attachment/slot/solar0muzzle",
+  "model": "pgp:attachment/solar0muzzle_geo",
+  "texture": "pgp:attachment/uv/solar0muzzle",
+  "sounds": {
+    "install": "pgp:attachments/attachment_general_a",
+    "uninstall": "pgp:attachments/attachment_general_uninstall"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "depthcrawler:corruptingot"
+	},
+	"requirements": {
+		"eterna": 50,
+		"quanta": 95,
+		"arcana": 95
+	},
+	"result": {
+		"item": "yuusha:twist_ingot",
+		"count": 1
+	}
+}

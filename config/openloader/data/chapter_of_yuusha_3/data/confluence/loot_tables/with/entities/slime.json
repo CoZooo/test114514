@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "confluence:royal_gel",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.03
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "direct_entity": {
+                                    "type": "touhou_little_maid:maid"
+                                },
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "animation",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "nethersdelight:hoglin_hide"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_feather"
+    }
+  ],
+  "result": {
+    "item": "goety:animation_core",
+    "count": 4
+  }
+}

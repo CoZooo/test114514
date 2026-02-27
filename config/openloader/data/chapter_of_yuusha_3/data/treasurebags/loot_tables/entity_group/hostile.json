@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 124
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 60,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:sticks_and_stones"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:food"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 2,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:literacy"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:ender"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:ingots"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:entity_group/hostile"
+}

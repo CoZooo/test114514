@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "distant_worlds:helyst_boots"
+  },
+  "addition": {
+    "item": "cataclysm:monstrous_horn"
+  },
+  "result": {
+    "item": "majruszsdifficulty:enderium_boots"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

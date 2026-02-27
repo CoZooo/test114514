@@ -1,0 +1,42 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 23
+    },
+    {
+      "item": {
+        "item": "embers:lead_ingot"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:smoldering_scorched_log"
+      },
+      "count": 5
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:nether_essence"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpk",
+    "attachments": {
+      "stock": "tacz:oem_stock_heavy"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

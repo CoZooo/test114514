@@ -1,0 +1,261 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "relics:magic_mirror"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:backpack"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:shield"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:wooden_pickaxe"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:wooden_axe"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:wooden_shovel"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle"
+        }
+      ]
+    },
+	{
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_bed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_bed"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:leather_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:wooden_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0,Unbreakable:1}"
+            }
+          ],
+          "name": "minecraft:wooden_hoe"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/spawn"
+}

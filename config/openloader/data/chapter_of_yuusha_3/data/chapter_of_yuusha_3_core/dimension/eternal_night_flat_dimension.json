@@ -1,0 +1,11 @@
+{
+  "type": "chapter_of_yuusha_3_core:eternal_night_flat",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "chapter_of_yuusha_3_core:flat_empty",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "chapter_of_yuusha_3_core:empty_biome"
+    }
+  }
+}

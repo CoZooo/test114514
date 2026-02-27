@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "celestial_core:earth_core"
+  },
+  "base": {
+    "item": "stalwart_dungeons:chorundum_axe"
+  },
+  "result": {
+    "item": "celestial_artifacts:earth_axe"
+  },
+  "template": {
+    "item": "celestial_artifacts:nebula_cube"
+  }
+}

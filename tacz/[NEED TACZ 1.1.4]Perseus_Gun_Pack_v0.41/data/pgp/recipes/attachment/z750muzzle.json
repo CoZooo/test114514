@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "pgp:aam_lv3"
+        }
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "aether_redux:gravitite_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "cataclysm:emp"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "angelcraft_bosses:recompensa_boss"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:z750muzzle"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

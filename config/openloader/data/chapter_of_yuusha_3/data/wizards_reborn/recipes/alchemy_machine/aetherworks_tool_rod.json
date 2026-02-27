@@ -1,0 +1,27 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "aetherworks:tool_rod",
+    "count": 1
+  },
+  "steam": 1000,
+  "ingredients": [
+    {
+      "item": "aetherworks:tool_rod_crude"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "aetherworks:aether_gas_painful",
+      "amount" : 1000
+    },
+    {
+      "name": "wizards_reborn:flower_brew",
+      "amount" : 1000
+    },
+    {
+      "name": "wizards_reborn:alchemy_oil",
+      "amount" : 1000
+    }
+  ]
+}

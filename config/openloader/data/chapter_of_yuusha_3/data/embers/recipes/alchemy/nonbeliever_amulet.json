@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:eldritch_insignia"
+    },
+    {
+      "item": "embers:archaic_circuit"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "embers:archaic_circuit"
+    }
+  ],
+  "output": {
+    "item": "embers:nonbeliever_amulet"
+  },
+  "tablet": {
+    "item": "embers:ashen_amulet"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "NNN",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crying_obsidian"
+    },
+	"A": {
+      "item": "majruszsaccessories:secret_ingredient"
+    },
+	"B": {
+      "item": "celestial_core:midnight_fragment"
+    },
+	"N": {
+      "item": "celestial_core:light_fragment"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/will_gate"
+}

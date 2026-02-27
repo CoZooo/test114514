@@ -1,0 +1,9 @@
+{
+    "name": "emxarms.gun.emx_draftsman_ev1.name",
+    "display": "emxarms:emx_draftsman_ev1_display",
+    "data": "emxarms:emx_draftsman_ev1_data",
+    "tooltip": "emxarms.gun.emx_draftsman_ev1.desc",
+    "type": "shotgun",
+    "item_type": "modern_kinetic",
+    "sort": 10
+}

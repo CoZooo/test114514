@@ -1,0 +1,67 @@
+{
+  "model": "eos:gun/chasing_light_magazine_geo",
+  "texture": "eos:gun/uv/chasing_light",
+  "lod": {
+    "model": "eos:gun/lod/chasing_light",
+    "texture": "eos:gun/lod/chasing_light"
+  },
+  "hud": "eos:gun/hud/chasing_light",
+  "slot": "eos:gun/slot/chasing_light_magazine",
+  "animation": "eos:chasing_light_magazine",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "eos:flash/common_muzzle_flash",
+    "scale": 0.75
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "tacz:hk416d/hk416d_shoot",
+    "shoot_3p": "tacz:hk416d/hk416d_shoot_3p",
+    "reload_empty": "eos:chasing_light/chasing_light_reload_empty",
+    "reload_tactical": "eos:chasing_light/chasing_light_reload_tactical",
+    "inspect": "eos:chasing_light/chasing_light_inspect",
+    "inspect_empty": "eos:chasing_light/chasing_light_inspect_empty",
+    "draw": "tacz:hk416d/hk416d_draw",
+    "put_away": "tacz:hk416d/hk416d_put_away",
+    "silence": "tacz:hk416d/hk416d_silence",
+    "silence_3p": "tacz:hk416d/hk416d_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02"
+  },
+  "text_show": {
+	    "ammo_count_text_show_pos": {
+      "scale": 0.4,
+      "align": "center",
+      "shadow": false,
+      "color": "#aa80ff",
+      "light": 15,
+      "text": "%ammo_count%"
+    }
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

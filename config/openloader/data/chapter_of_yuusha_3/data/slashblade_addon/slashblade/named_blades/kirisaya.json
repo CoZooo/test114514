@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:thunder_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:kirisaya",
+  "properties": {
+    "attack_base": 43.0,
+    "max_damage": 86,
+    "slash_art": "slashblade:drive_horizontal",
+    "special_effects": [
+      "slashblade_addon:burst_drive"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/kirisaya/kirisaya.obj",
+	"summon_sword_color": 4265029,
+    "texture": "slashblade_addon:model/kirisaya/kirisaya.png"
+  }
+}

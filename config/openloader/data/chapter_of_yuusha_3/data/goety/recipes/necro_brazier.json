@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:shade_brazier"
+  },
+  "craftType": "forge",
+  "soulCost": 500,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "yuusha:ink_heart"
+    },
+    {
+      "item": "goety:magic_emerald"
+    },
+    {
+      "item": "minecraft:sculk_catalyst"
+    },
+    {
+      "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
+    },
+    {
+      "item": "callfromthedepth_:immemorialingot"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    },
+    {
+      "item": "minecraft:skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "goety:necro_brazier"
+  }
+}

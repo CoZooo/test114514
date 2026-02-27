@@ -1,0 +1,334 @@
+{
+	"root_health+1": {
+		"title": "+1 颗心",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.0,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dzjhwf4qggiw1w4k"
+		}
+	},
+	"root_armor+1": {
+		"title": "+0.25 护甲",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p0bll6urci4jeqds"
+		}
+	},
+	"root_melee_damage+1": {
+		"title": "+2 近战伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6nw21g4674h0rhgt"
+		}
+	},
+	"root_ranged_damage+1%": {
+		"title": "+2% 箭术伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jc4pl563gcwkza7w"
+		}
+	},
+	"health+1": {
+		"title": "+1 颗心",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.0,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cqrzzaqwp36jnpog"
+		}
+	},
+	"armor+1": {
+		"title": "+0.25 护甲",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "msd9nzonl5qahvbz"
+		}
+	},
+	"melee_damage+1": {
+		"title": "+2 近战伤害",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stone_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "00h9757sywug5r3t"
+		}
+	},
+	"ranged_damage+1%": {
+		"title": "+2% 箭术伤害",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4qjegrbgkyri2ku3"
+		}
+	},
+	"attack_speed+5%": {
+		"title": "+5% 攻击速度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "stmpy8pht1qgqpes"
+		}
+	},
+	"movement_speed+2.5%": {
+		"title": "+2.5% 移动速度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "brcas2kqt8acpbx9"
+		}
+	},
+	"luck+0.25": {
+		"title": "+1 幸运",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "luck"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1.0,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lncxa7w21wgloprn"
+		}
+	},
+	"stamina+2.5%": {
+		"title": "+2.5% 耐力",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "saturation"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.stamina",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "vqd240ei97uciy9a"
+		}
+	},
+	"healing+2.5%": {
+		"title": "+2.5% 治疗效果",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.healing",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p32f817ihuughvgd"
+		}
+	},
+	"jump+2.5%": {
+		"title": "+2.5% 跳跃高度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.jump",
+					"value": 0.025,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "klor2m9pekoqhd7r"
+		}
+	}
+}

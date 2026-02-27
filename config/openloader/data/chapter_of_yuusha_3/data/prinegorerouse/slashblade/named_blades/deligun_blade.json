@@ -1,0 +1,37 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:ice_aspect"
+    }
+  ],
+  "name": "prinegorerouse:deligun_blade",
+  "properties": {
+    "attack_base": 55.0,
+    "max_damage": 110,
+    "slash_art": "slashblade_addon:water_drive",
+    "special_effects": [
+      "prinegorerouse:oracle"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/deligun/deligun.obj",
+    "summon_sword_color": 39638,
+    "texture": "prinegorerouse:model/named/custom/deligun/deligun.png"
+  }
+}

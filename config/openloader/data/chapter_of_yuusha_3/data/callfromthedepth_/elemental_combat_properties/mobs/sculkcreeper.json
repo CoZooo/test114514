@@ -1,0 +1,17 @@
+{
+	"defense_element":{
+		"light":-50
+	},
+	"defense_style":{
+		"slash":70,
+		"projectile":80,
+		"hit":80,
+		"stab":80,
+		"bash":80,
+		"explosion":80,
+		"magic":95,
+		"bite":80,
+		"environment":80
+	},
+	"biome_dependency":false
+}

@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "#aether:is_aether",
+  "ingredient": {
+    "block": "minecraft:tnt"
+  },
+  "result": {
+    "block": "minecraft:red_sand"
+  }
+}

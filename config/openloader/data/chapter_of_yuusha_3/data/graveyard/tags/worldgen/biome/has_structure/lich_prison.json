@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "distant_worlds:burning_plains",
+    "distant_worlds:dead_valley",
+    "distant_worlds:molten_hills",
+    "distant_worlds:sticky_marshes"
+  ]
+}

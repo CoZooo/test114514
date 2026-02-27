@@ -1,0 +1,10 @@
+{
+  "type": "aether:placement_conversion",
+  "biome": "infinite_abyss:first_layer_cavern",
+  "ingredient": {
+    "block": "minecraft:cobweb"
+  },
+  "result": {
+    "block": "goety:spider_mother_den"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "enigmaticlegacy:earth_heart"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "enigmaticlegacy:earth_heart"
+}

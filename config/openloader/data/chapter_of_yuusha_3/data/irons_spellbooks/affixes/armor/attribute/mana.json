@@ -1,0 +1,15 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "irons_spellbooks:max_mana",
+	"operation": "ADDITION",
+	"values": {
+		"uncommon": 50,
+		"rare": 100,
+		"epic": 150,
+		"mythic": 200,
+		"ancient": 250
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

@@ -1,0 +1,62 @@
+{
+  "additional_requirements": {
+	"enhancers": [
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 4000,
+    "blood": 20000,
+    "experience": 1500,
+    "souls": 200
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:emper_core"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_star"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "stalwart_dungeons:ancient_fire"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "stalwart_dungeons:awful_crystal"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:ignitium_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:monstrous_horn"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "celestial_artifacts:demon_curse"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticaddons:hell_blade_charm"
+    }
+  }
+}

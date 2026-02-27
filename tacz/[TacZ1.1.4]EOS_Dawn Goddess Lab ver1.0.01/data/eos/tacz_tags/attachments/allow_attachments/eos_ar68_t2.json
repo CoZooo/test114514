@@ -1,0 +1,16 @@
+[
+  "#tacz:scope",
+  "#tacz:muzzle",
+  "#tacz:extended_mag",
+  "#tacz:stock",
+  "#tacz:grip",
+  "#tacz:ammo_mod",
+	"#tacz:bayonet_ar",
+	"#tacz:bayonet_ak",
+	"#eos:bayonet",
+	"#emxarms:bayonet",
+  "#eos:magazine_t2",
+	"#emxarms:h_mag",
+  "#tacz:ar_laser",
+  "#tacz:pistol_laser"
+]

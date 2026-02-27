@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "INTERACT": {"love": 800},
+    "PLACE": {"love": 800}
+  },
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

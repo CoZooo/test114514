@@ -1,0 +1,3129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_13"
+	group: "13D24688CE1CFEDA"
+	icon: "yuusha:dice_10"
+	id: "697875065C976FFC"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 24.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 42.0d
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 25.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 43.5d
+			x: 13.5d
+			y: 3.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"只有开局选择『玩家是邪灵』世界线，才可检测到完成此任务。"
+				""
+				"&6该路线需要跳过部分Boss，不用按天顶巨兽章节顺序。"
+				""
+				"&c所有召唤物只会遵循召唤主人的命令，会攻击非玩家自身以外的大部分生物（包括其他玩家）。且不同派系的召唤物之间，可能会互相攻击。"
+			]
+			id: "357B74FAD7D07998"
+			rewards: [{
+				id: "0331263B73874E0B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「邪灵」"
+			tasks: [{
+				id: "7405DB3A36364E31"
+				item: "yuusha:focus_9"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["357B74FAD7D07998"]
+			description: [
+				"提交物品后，玩家身上会直接穿上特定盔甲套装（会降低玩家的全伤害）。不要穿戴任何盔甲提交该任务！"
+				""
+				"&e利用铭记传说之卷等材料，可制作此世界线专署物品。"
+				""
+				"&c不要与别人组队时完成该任务，会发生奇怪的特性。"
+			]
+			icon: {
+				Count: 1
+				id: "eidolon:bonelord_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "292A05D33B0D54CD"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.head with eidolon:bonelord_helm{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"majruszsenchantments:magic_protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"head\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "eidolon:bonelord_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "70FF74EC55301349"
+					team_reward: true
+					title: "提交任务会立刻穿上特定盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.chest with eidolon:bonelord_chestplate{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"majruszsenchantments:magic_protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"chest\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "eidolon:bonelord_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "09D7BDFCE50BEDC6"
+					team_reward: true
+					title: "提交任务会立刻穿上特定盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.legs with eidolon:bonelord_greaves{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"majruszsenchantments:magic_protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"legs\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "eidolon:bonelord_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A4CD58923DE24C1"
+					team_reward: true
+					title: "提交任务会立刻穿上特定盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/item replace entity @s armor.feet with netherdepthsupgrade:soul_sucker_boots{Unbreakable:1, itemModifier: \"celestial_forge:hearty\", Enchantments: [{lvl: 20, id: \"minecraft:protection\"}, {lvl: 20, id: \"majruszsenchantments:magic_protection\"}, {lvl: 20, id: \"elementalcombat:magic_protection\"}, {lvl: 1, id: \"enigmaticlegacy:eternal_binding\"}], ISBUpgrades: [{id: \"irons_spellbooks:mana\", slot: \"feet\", upgrades: 3}]}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "netherdepthsupgrade:soul_sucker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "49E2B8D4BC4853E4"
+					team_reward: true
+					title: "提交任务会立刻穿上特定盔甲套装"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "75ABC6E4A688B14D"
+					item: "yuusha:remembered_scroll"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "5102C2B12C0F46CA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:necronomicon_spell_book"
+						tag: {
+							ISBEnhance: "irons_spellbooks:raise_dead"
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:invisibility"
+									index: 0
+									level: 5
+									locked: 0b
+								}]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "50D729909E22AE0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "enabled"
+					id: "330EC26F06BA3876"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "6E70207E055D9FF2"
+					item: "moonstone:blood_candle"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "4B00A82E2E430CB5"
+				item: "yuusha:focus_9"
+				type: "item"
+			}]
+			title: "灵体化"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["292A05D33B0D54CD"]
+			description: [
+				"可召唤血灵增生体。"
+				""
+				"&e仆从特点：一定的远程伤害能力。"
+				""
+				"&c血灵增生体会无差别攻击除饰品所有者外的所有单位。"
+				""
+				"&6也许有一定的用途。"
+			]
+			id: "574AA3C7793F6681"
+			rewards: [{
+				id: "283F6A6D4C6A9864"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44D5CC94A5DA2367"
+				item: "moonstone:blood_candle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["574AA3C7793F6681"]
+			description: [
+				"可在砧板中制作获得。"
+				""
+				"&c其中苦力和封魔录会让血灵增生体变为玩家伤害，反而会因为玩家的全伤害降低而导致伤害降低。"
+				""
+				"&6也许有一定的用途。"
+			]
+			id: "2BCD54761CEB22D7"
+			rewards: [{
+				id: "7E3D70CDF79213D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1E389D2A1CC88021"
+					item: "moonstone:owner_blood_eye"
+					type: "item"
+				}
+				{
+					id: "67F046EB08D5CF79"
+					item: "moonstone:owner_blood_attack_eye"
+					type: "item"
+				}
+				{
+					id: "32137D0145E418BA"
+					item: "moonstone:owner_blood_speed_eye"
+					type: "item"
+				}
+				{
+					id: "4AD1103B3C91FF8C"
+					item: "moonstone:owner_blood_effect_eye"
+					type: "item"
+				}
+				{
+					id: "79D681C0B7932501"
+					item: "moonstone:owner_blood_vex"
+					type: "item"
+				}
+				{
+					id: "559E4A72A78EA752"
+					item: "moonstone:owner_blood_earth"
+					type: "item"
+				}
+				{
+					id: "7F378F45C819FE9F"
+					item: "moonstone:owner_blood_boom_eye"
+					type: "item"
+				}
+				{
+					id: "59CA82DB946C08A0"
+					item: "moonstone:the_blood_book"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["315D3EE7D306B0A2"]
+			description: [
+				"右击可召唤受控的小骷髅，享受与诡厄巫法召唤物一样的加伤。"
+				""
+				"&6施放后会进入魔力耗尽状态，在该状态时无法召唤。"
+				""
+				"&e仆从特点：一定的近战伤害能力。"
+			]
+			id: "4F02FD99682260DD"
+			rewards: [{
+				id: "1B7A9D28AB3DC271"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E858596A7913C17"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:bonescaller_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["574AA3C7793F6681"]
+			id: "315D3EE7D306B0A2"
+			rewards: [{
+				id: "2D580DEA964F0721"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3261AA376F14F3E7"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["574AA3C7793F6681"]
+			description: [
+				"铁之咒语可制作隐身术等法术卷轴并抄写入法术书内。"
+				""
+				"&e「本命仆从」会享受玩家的法术强度、全伤害、魔能强度等加成，且攻击时可以获得魔法技能经验。手持任意法杖，可以让「本命仆从」享受法杖的魔法等级加成。"
+				""
+				"&6「本命仆从」主要用于过度，伤害能力可能不足。"
+				""
+				"&c本命仆从不享受猎人腰带、血腥狩猎手册等宠物加成。"
+				""
+				"&3本命仆从说明：①在玩家手持粗制镰刀等可以给予化魂状态的武器时，大部分铁之咒语召唤物近战击杀生物也能获得精魂。②在玩家有根之图腾等灵魂容器，铁之咒语召唤物近战击杀生物也能获得灵魂能量。③本命仆从击杀相应生物也能获得相应材料（血球、灵风精髓、邪恶精髓），即等同于玩家击杀，但需玩家达到一定条件，比如佩戴血之魔盒，或者不佩戴对应刻蚀板。"
+				""
+				"&5铁之咒语模组召唤物，需玩家攻击才会有仇恨去攻击。"
+			]
+			icon: "irons_spellbooks:inscription_table"
+			id: "57086B5D43457A41"
+			rewards: [{
+				id: "7CF2726AD8BD2BF0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "本命仆从"
+			tasks: [
+				{
+					id: "76FCF7599A274994"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+				{
+					id: "032A4BB2E36F342A"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+				{
+					id: "2B4A85767D134FAB"
+					item: "malum:totemic_staff"
+					type: "item"
+				}
+			]
+			title: "&a「说明」铁之咒语召唤物"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["574AA3C7793F6681"]
+			description: [
+				"玩家手持任意魔杖左键仆从即可改变其行为模式。"
+				""
+				"&6跟随&r：仆从跟随玩家移动，若与玩家距离过远则会瞬移至玩家身边；"
+				""
+				"&6闲逛&r\\：仆从自由移动；"
+				""
+				"&6警戒&r：仆从以所在格为中心，在此格周围半径 16 格范围内自由移动；"
+				""
+				"&6停留&r：此模式期间，仆从不会移动，但依旧可以攻击；"
+				""
+				"&6长按Shift+手持任意魔杖左键&r 仆从可将其强制击杀。"
+				""
+				"&c诡厄巫法仆从，可以享受血腥狩猎手册的加成。不能享受猎人腰带、全伤害、魔能强度等加成。"
+				""
+				"&3诡厄巫法仆从手中的武器和身上的装备均可以替换。"
+				""
+				"&e黑暗魔杖可以在天华砧内几率嬗变为不同的魔杖。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+				}
+				id: "goety:dark_wand"
+				tag: {
+					cap: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+				}
+			}
+			id: "2D168FE01100A4BF"
+			rewards: [{
+				id: "0121F956B3993EAB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "主战仆从"
+			tasks: [
+				{
+					id: "6DF1126971099AEB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:dark_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE02996F343C52B"
+					item: {
+						Count: 1
+						id: "goety:totem_of_roots"
+						tag: {
+							"Max Souls": 800
+							Souls: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a「说明」诡厄巫法召唤物"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: [
+				"命令聚晶允许施法者命令仆从向某个位置移动。如果命令聚晶指向一个生物，仆从会移动到该生物的位置，但如果该生物可以骑乘，那么仆从会选择骑在上面。"
+				""
+				"&6要使用命令聚晶，必须将其放在魔杖中，然后施法者必须左击仆从将其选择，才能开始指挥。施法者可以右击方块或生物，来使仆从移动到方块或生物所在位置，也可以选择潜行右键点击空气，这样会将已选择的仆从从命令聚晶上移除。"
+				""
+				"&e在指挥的过程中，即使仆从处于待命模式，它仍然可以移动。如果你要让仆从在坐骑上下来，请潜行右键点击坐骑本身。"
+			]
+			id: "42A9DCEAFFABF9E4"
+			rewards: [{
+				id: "044513540D9F54B3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E9B631BA8ABA46C"
+				item: "goety:command_focus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79B1E79D82B629F0"]
+			description: [
+				"主世界僵尸类仆从：僵尸仆从、僵尸村民仆从、尸壳仆从、溺尸仆从、霜冻僵尸仆从、丛林僵尸仆从、僵尸卫道士仆从（林地府邸内）。下界僵尸类仆从：僵尸猪灵仆从（在下界）、僵尸猪灵蛮兵仆从（在堡垒遗迹附近有几率）。"
+				""
+				"&c玩家至多可同时持有32只僵尸类仆从。"
+				""
+				"&6可以使用金苹果将虚弱状态的僵尸卫道士治愈为卫道士仆从。后续也可以通过暗影墓碑生成。死灵魔杖或无名魔杖可提高召唤数量。"
+				""
+				"&e仆从特点：不同的近战伤害能力。不同的元素战斗类型。"
+			]
+			id: "07F58F57A40CDEDF"
+			rewards: [{
+				id: "2B2242B0036B23D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "500500A21013DC72"
+				item: "goety:rotting_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42A9DCEAFFABF9E4"]
+			description: [
+				"命令聚晶的升级版，功能不变，但一次可以储存至多八名仆从的信息。"
+				""
+				"&6它还可以用来引导你的新刌民，让他们在不祥火炬周围开始自我训练；或是在满足要求的情况下右键你的唤魔者仆从，去把村民制成蹂躏者。"
+			]
+			id: "3AFDD7462C0EEAC8"
+			rewards: [{
+				id: "0AFE84A411BCA259"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3656AD65DD9A0AF8"
+				item: "goety:order_focus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: [
+				"用于切换大范围内仆从的行为模式。"
+				""
+				"&6手持右键使用&r：将自身周围16格半径内所有仆从的行为模式切换为跟随或原地待命；"
+				""
+				"&6对方块右键使用时&r：自身周围 16 格半径内所有仆从立刻停止待命，并向着你右键的方块位置移动；"
+				""
+				"&e处于巡逻模式、已经被命令聚晶指定的仆从、或是已与坚守之书绑定的仆从不会听从命令呼号的指挥。"
+				""
+				"&c无法用此进行跨维度传送。如果需要跨纬度传送，可以用末影传送门法术。部分可以骑行的仆从，也可以在骑行时用指路石传送。"
+			]
+			id: "4F14FFE98C328D2C"
+			rewards: [{
+				id: "182E5630BE2AC24F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21E098756F6C30EF"
+				item: "goety:command_horn"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57086B5D43457A41"]
+			description: [
+				"可制作驱役亡灵等法术卷轴。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予缓慢效果。"
+			]
+			id: "0D274EEA7832F69B"
+			rewards: [{
+				id: "05348D1A6D666335"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "099C0C90C4E34C44"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57086B5D43457A41"]
+			description: [
+				"可制作召唤狼、末影传送门等法术卷轴。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予缓慢效果。"
+			]
+			id: "523624FC7A59DA53"
+			rewards: [{
+				id: "65634B5FFC0FB6A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1109E1F69465E419"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["57086B5D43457A41"]
+			description: [
+				"可制作召唤北极熊等法术卷轴。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予缓慢效果。"
+			]
+			id: "4C90EE32BF121425"
+			rewards: [{
+				id: "58FA6285951B8206"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D3DC9542A120593"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57086B5D43457A41"]
+			description: [
+				"可制作召唤恼鬼、纠缠根须等法术卷轴。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予缓慢效果。"
+			]
+			id: "3977B04C7653120A"
+			rewards: [{
+				id: "7A27CB36AE1CCF3E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C19F878F0C2BB3B"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["57086B5D43457A41"]
+			description: [
+				"可制作剧毒重生等法术卷轴。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予缓慢效果。"
+			]
+			id: "324434E35465231F"
+			rewards: [{
+				id: "31D7517F0A1AB9F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "184A8C062941FBFA"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["79B1E79D82B629F0"]
+			description: [
+				"主世界骷髅类仆从：骷髅仆从、流濁仆从、青苔骷髅仆从、沉溺骷髅仆从、骷髅掠夺者仆从（掠夺者前哨站内）。下界骷髅类仆从：凋灵骷髅仆从（需下界魔杖；或阅读过往卷轴后在下界要塞召唤）。"
+				""
+				"&c玩家至多可同时持有32只骷髅类仆从。"
+				""
+				"&6死灵魔杖或无名魔杖可提高召唤数量。"
+				""
+				"&e仆从特点：不同的远程伤害能力（可矢量突破）。不同的元素战斗类型。"
+			]
+			id: "068081D6511F4DA2"
+			rewards: [{
+				id: "0ADDF0FF70FCFD20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40FD9BF4C3A7F5CB"
+				item: "goety:osseous_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"史莱姆类仆从：史莱姆仆从、岩浆怪仆从、热带史莱姆仆从、墓穴史莱姆仆从。墓穴史莱姆仆从需要处于墓穴结构内使用该聚晶，或者用死灵魔杖/无名魔杖施法。"
+				""
+				"&6可以使用黏液块、岩浆块来增生史莱姆类仆从。"
+				""
+				"&c玩家至多可同时持有16只史莱姆类仆从。"
+				""
+				"&e仆从特点：极低近战伤害，低血量，高抗性。其中墓穴史莱姆仆从攻击时基于不同体型赋予不同的侵蚀效果。"
+			]
+			id: "6F4535C5367B13C4"
+			rewards: [{
+				id: "263015CB55D478E8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "74FAB03E7EBDEED7"
+				item: "goety:slimy_focus"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: [
+				"由玩家放置的蜘蛛巢会自动判定为该名玩家所属，此后该蜘蛛巢生成的所有蜘蛛类仆从都归该名玩家所属。蜘蛛类仆从：蜘蛛、洞穴蜘蛛仆从、冰蜘蛛仆从、织网蜘蛛仆从、骸骨蜘蛛仆从。"
+				""
+				"&6手持任意生肉、熟肉或腐肉右键蜘蛛巢即可开始训练你的蜘蛛仆从；也可以直接将上述肉食放入与蜘蛛巢相连的漏斗，实现自动化训练。"
+				""
+				"&2若蜘蛛巢位于特定区域/周围放置了符合特定条件且数量足够的方块，该蜘蛛巢则可以生成特定的变种蜘蛛仆从，上述条件可用黑暗秘典查询蜘蛛巢。"
+				""
+				"&c玩家至多可同时持有16只蜘蛛类仆从。"
+				""
+				"&e仆从特点：不同的近战伤害能力。不同的元素战斗类型。骸骨蜘蛛仆从具有远程伤害能力。洞穴蜘蛛仆从攻击附加一定的瞬间伤害效果。织网蜘蛛仆从攻击附加一定的瞬间治疗效果。"
+			]
+			id: "0C8C935FF6BFCDB0"
+			rewards: [{
+				id: "7A255C4857CA41B7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12812644852166A7"
+				item: "goety:spider_nest"
+				type: "item"
+			}]
+			title: "蜘蛛类仆从"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"若穿戴死灵长袍/无名长袍召唤：由聚晶生成的幻翼仆从身体会变得半透明，获得与恼鬼一样的穿墙能力。"
+				""
+				"&c玩家至多只能同时持有16只幻翼仆从。"
+				""
+				"&e仆从特点：一定的近战伤害能力。攻击附加侵蚀效果。"
+			]
+			id: "118778FB6C9D0C5D"
+			rewards: [{
+				id: "40DBC28B7BD1023C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "0339F3514A2A216B"
+				item: "goety:phantasm_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["14F562AC3C819131"]
+			description: [
+				"可佩戴相关饰品增加迷离之眼仆从的召唤数量。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+				""
+				"&c属于间接伤害类型，无法突破天境首领的弹射物防护。"
+			]
+			id: "29006180EF3377DA"
+			rewards: [{
+				id: "21695D3902C689C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69B24F8520CDA365"
+				item: "cthulhufishing:obsessed_eye_staff_r"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B5D33281E516CA7"]
+			description: [
+				"召唤魔杖：可召唤由捕获仪式（需魂灵方骰等材料用幻之火盆触发）或奴役咒语捕捉的亡灵生物。手持魔杖Shift+右键切换要召唤的生物。手持魔杖左键奴仆将其收回魔杖。奴仆会你而战，也会跟随你行动，但不会传送。重新召唤奴仆将使其回满血量。"
+				""
+				"奴役：奴役玩家视线处的亡灵生物，并消耗100×目标生命值%的魔能。解锁条件：暗黑神祇声名>50。奴仆会你而战，也会跟随你行动，但不会传送。奴仆可被召唤魔杖收回。"
+				""
+				"&6魔能与声名相关内容，详见秘仪教典。"
+			]
+			id: "0C933D6A6E1E5A76"
+			rewards: [{
+				id: "098AF0CA685F4CBF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可选物品"
+			tasks: [{
+				id: "007C5025F9506DBD"
+				item: {
+					Count: 1
+					id: "eidolon:summoning_staff"
+					tag: {
+						selected: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79B1E79D82B629F0"]
+			description: [
+				"收割者仆从是一种具有飞行能力的近战仆从，它每次挥舞镰刀都可以命中前方大范围内的生物。收割者仆从的攻击每命中一个目标，其主人就会恢复10点灵魂能量。"
+				""
+				"&c玩家至多只能同时持有8只收割者仆从。"
+				""
+				"&6死灵魔杖或无名魔杖可提高召唤数量。"
+				""
+				"&e仆从特点：一定的近战伤害能力。特定元素战斗类型。"
+			]
+			id: "3BC3C0C54D72AFF0"
+			rewards: [{
+				id: "526F28DF98A73D67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B27402CFD3D93BE"
+				item: "goety:reaping_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"骇人聚晶可召唤幽灵类仆从：幽灵仆从、边境幽灵仆从（墓穴内）、秽灵仆从（沼泽类群系内）。"
+				""
+				"&6使用死灵魔杖/无名魔杖可以进一步提升单次召唤量。"
+				""
+				"&c玩家至多可同时持有6只幽灵类仆从。"
+				""
+				"&e仆从特点：魔法伤害能力、特定元素战斗类型。"
+			]
+			id: "7F559668DD7B3B81"
+			rewards: [{
+				id: "52AF41A8192D738A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2070D02E1AB40EE5"
+				item: "goety:spooky_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"先锋仆从：使用黑暗魔杖承载可以一次召唤一只或多只，使用死灵魔杖承载可以进一步提升单次召唤量；使用无名魔杖承载时：一次必定召唤七只；使用其它魔杖则会将单次召唤量强制降为一只。"
+				""
+				"&6先锋仆从的主人可以给予其一块任意类型的木板，让先锋仆从获得一块新的盾牌。"
+				""
+				"&c玩家至多只能同时持有16只先锋仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "5200222A48A92468"
+			rewards: [{
+				id: "17F13D5F3A5D1479"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E7C809C7C344E12"
+				item: "goety:vanguard_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: [
+				"需注意部分仆从攻击会附加不等的药水效果等级，每次攻击时，该附加效果即使药水效果等级低，但是也可以强制覆盖之前的药水效果等级。"
+				""
+				"&6此路线主要以各种方骰的制作作为核心，部分天顶巨兽的首领为非必要打。"
+			]
+			id: "63E4A0304A800D34"
+			rewards: [
+				{
+					id: "68A9E9A5A5D239C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1900A7C047C31B61"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3368A481BC3B5306"
+				item: "goety:empty_focus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14F562AC3C819131"]
+			description: [
+				"使用黑暗魔杖承载可以一次召唤一只或多只，使用死灵魔杖承载可以进一步提升单次召唤量；使用无名魔杖承载时：一次必定召唤七只；使用其它魔杖则会将单次召唤量强制降为一只。"
+				""
+				"&6暗卫仆从的主人可以给予其一块铁锭，让暗卫仆从在没有攻击目标的时候获得一块新的盾牌。"
+				""
+				"&c一名玩家最多只能拥有16只暗卫仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "530E00C69C9A9A26"
+			rewards: [{
+				id: "6C89733F11B8B78B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36134D7282CA1779"
+				item: "goety:blackguard_focus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"烈焰人仆从：用任何魔杖（下界魔杖可召唤更多）使用燃烧聚晶可召唤烈焰人仆从。也可使用燃烧之笼召唤，手持岩浆块右键燃烧之笼即可开始训练。"
+				""
+				"&6野火仆从：只可以用烈焰人仆从通过指定仪式（需瘟疫钥匙等材料）来转化而成。野火仆从可发射浓缩烈焰弹、召唤烈焰人仆从、有可阻挡攻击的盾牌。"
+				""
+				"&c玩家最多只能拥有16只烈焰人仆从、2只野火仆从。烈焰术士之杖会吃掉该火焰伤害。"
+				""
+				"&e仆从特点：近战和远程伤害能力、特定元素战斗类型。"
+			]
+			id: "3B79AAD0A4D4B0B0"
+			rewards: [{
+				id: "77FE0824838D6DD6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73DDE4C0041ED407"
+				item: "goety:blazing_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"迷你恶魂：使用阴森聚晶召唤，一次2~3只。免疫火焰伤害，且具有飞行能力；仅进行远程攻击。"
+				""
+				"&6在阅读过往卷轴后，穿戴下界长袍时使用阴森聚晶将召唤出一个恶魂仆从；若使用下界魔杖承载阴森聚晶召唤：则召唤量增加到1~3个。若穿戴不洁套召唤：则改为召唤1只归属于玩家的凶魂。"
+				""
+				"&c至多可同时持有10只恶魂类仆从或8只恶魂仆从/凶魂。烈焰术士之杖会吃掉该火焰伤害。"
+				""
+				"&e仆从特点：远程伤害能力、特定元素战斗类型。"
+			]
+			id: "2D0B23834FB8A74D"
+			rewards: [{
+				id: "69C46D0D10E3F53E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67285FE55424EBB0"
+				item: "goety:ghastly_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"猛击类仆从：熊仆从、北极熊仆从、疣猪兽仆从（处于下界任意区域或下界魔杖）。"
+				""
+				"&6若使用荒野魔杖承载猛击聚晶召唤：则改为一次召唤2只；若召唤者穿戴荒野长袍：熊仆从/北极熊仆从会转化为【强化版】生成，基础数值更高且攻击命中后附带4秒侵蚀1级。"
+				""
+				"&c玩家至多可同时持有10只猛击类仆从。"
+				""
+				"&e仆从特点：近战伤害能力。攻击赋予穿孔效果。"
+			]
+			id: "4927EE5F79D840CB"
+			rewards: [{
+				id: "2FB7C2B5A3D0B48C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "穿孔效果"
+			tasks: [{
+				id: "7104F6433AD08136"
+				item: "goety:mauling_focus"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14F562AC3C819131"]
+			description: [
+				"玩家可举行魔法仪式（需狂暴之斧等材料）把一名村民转化为一名新刌民。新刌民类似于村民，也可以进行繁殖。玩家持有新刌民没有寿命与最大持有上限限制。详见黑暗秘典的变异章节。"
+				""
+				"&c不祥火炬可以把新刌民训练成灾厄村民战斗兵种。只有激活的不祥火炬才能练兵，要激活不祥火炬，你必须在它周围半径7格内放置特定方块，一个不详火炬至多可以同时将8名新刌民训练成相同的兵种。"
+				""
+				"&6可训练类型：掠夺者仆从（弩兵）、卫道士仆从（近战）、卫道士厨师仆从（近战）、粉碎者仆从（近战）、地卜师仆从（低伤）、唤风者仆从（低伤）、暴风术士仆从（法术）、唤魔者仆从（法术）、冰术士仆从（法术）。所需方块的相关内容可用黑暗秘典查看不祥火炬。"
+				""
+				"&e仆从特点：不同的伤害能力、特定元素战斗类型。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:rampaging_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D31D4ACC6F84EE5"
+			rewards: [{
+				id: "5402C5E118FA69E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "019D73B61EDE8E00"
+					item: {
+						Count: 1
+						id: "goety:rampaging_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A5F59C72A1C2299"
+					item: "goety:ominous_pyre"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: [
+				"生物如果被记录在怨恨之书中，玩家召唤的所有仆人就会对其产生敌意。怨恨之书可以记录多个生物。"
+				""
+				"生物如果被记录在亲善之书中，即使玩家主动攻击某人，仆从也不会去攻击他们。亲善之书可以记录多个生物。"
+				""
+				"被记录在坚守之书之中的仆从在玩家使用对应的召唤聚晶潜行右键时，将会留在原地而不是被传送至玩家位置。"
+				""
+				"&6更多内容详见黑暗宝典。"
+			]
+			id: "0849C20A95A60B4E"
+			rewards: [{
+				id: "602F7F8604BE2F07"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "52EA9DCC5067361E"
+					item: "goety:grimoire_of_grudges"
+					type: "item"
+				}
+				{
+					id: "350D059ADF9EA6FD"
+					item: "goety:grimoire_of_goodwill"
+					type: "item"
+				}
+				{
+					id: "509F515BDC43B145"
+					item: "goety:grimoire_of_grounding"
+					type: "item"
+				}
+			]
+			title: "仆从之书"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25F772FDA9A7DF10"]
+			description: [
+				"守卫者仆从：若使用深渊魔杖承载守卫聚晶召唤：则改为一次召唤2只。在目标与自身距离不足2格时会试图远离目标，并导致守卫者仆从中断当前攻击的蓄力。"
+				""
+				"&c玩家至多可同时持有8只守卫者仆从。"
+				""
+				"&e仆从特点：魔法伤害能力、特定元素战斗类型。攻击附加侵蚀效果。"
+			]
+			id: "7F933B0BAC2F723F"
+			rewards: [{
+				id: "3B93CFE4CC980865"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "15FBBC287DA3DEBF"
+				item: "goety:guardian_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"育母蜘蛛仆从：由玩家使用活力仪式生成。需要献祭一只用于转化的蜘蛛类生物或者蜘蛛类仆从。"
+				""
+				"&c玩家至多可同时持有2只育母蜘蛛仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。有融身入影（重新加载可刷新）、洪荒之力效果。"
+			]
+			id: "7883EB65B51D2E50"
+			rewards: [{
+				id: "5BE5940CC47D6917"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A7A9D5DE552909F"
+				item: "goety:venomous_fang"
+				type: "item"
+			}]
+			title: "育母蜘蛛仆从"
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"召唤速生藤蔓：可以把敌人围起来，或是生成两列以阻挡敌人的行动；一次最多生成12个。在完全浸入水下时施法，则改为召唤速生海带。"
+				""
+				"召唤毒刺藤：当玩家潜行施法时，则改为召唤一棵毒刺藤；毒刺藤不会移动，但会向目标远程喷射毒液。在完全浸入水下时施法，则改为召唤毒海葵。"
+				""
+				"&6若使用荒野魔杖承载该聚晶：潜行施法可一次召唤两棵毒刺藤或毒海葵。"
+				""
+				"&e仆从特点：毒刺藤和毒海葵有远程伤害能力。攻击赋予侵蚀效果。"
+			]
+			id: "145FFC5B94BD7AAA"
+			rewards: [{
+				id: "52CB255C4C5D2ABD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "36978E9C5A8E2D33"
+				item: "goety:overgrowth_focus"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"若使用荒野魔杖承载该聚晶：则会召唤出2个唤藤者；唤藤者可以召唤速生藤蔓、毒刺藤，并通过缠绕树根（同缠绕聚晶）限制敌人移动；在完全浸入水下时施法，则改为召唤唤浪者。"
+				""
+				"&e仆从特点：近战伤害能力。"
+			]
+			id: "5D39637783B75E2C"
+			rewards: [{
+				id: "57145F7370E39058"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "036C03165A68AA9A"
+				item: "goety:whispering_focus"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B5D33281E516CA7"]
+			description: [
+				"由玩家使用死灵仪式（需魂灵方骰等材料）生成。在战斗期间主动施法召唤更低级的亡灵仆从作战。如果死灵法师类仆从（除溺尸和凋灵）的目标与其距离不足2格，会停止施法并试图与目标保持4格或更远的距离。玩家可以给予腐烂聚晶、骨质聚晶、先锋聚晶、暗卫聚晶、骇人聚晶、收割聚晶，其每次召唤均有概率将初始召唤物随机替换为上述仆从。"
+				""
+				"&6死灵法师仆从会发射灵魂束（单发较高伤射速低）。流髑死灵法师仆从会发射冰刺（单发较低伤射速高）。溺尸死灵法师仆从可发射风暴戟（单发高伤）。凋灵死灵法师仆从可发射凋灵飞弹（单发较高伤射速低）。"
+				""
+				"&c玩家至多可同时持有8只死灵法师类仆从。其中凋灵死灵巫师需后续才能召唤。"
+				""
+				"&e仆从特点：法术伤害能力、特定元素战斗类型。不同死灵法师类仆从之间伤害差距可能较大。攻击附加侵蚀10级效果。"
+				"{@pagebreak}"
+				"当所属于你的死灵法师类仆从被消灭，你物品栏中持有的空灵魂罐会自动装填为可以使用的灵魂罐。"
+				""
+				"&6使用灵魂罐右键正确的生物即可将其转化为你原有的死灵法师类仆从。"
+				""
+				"&e手持灵魂罐右键喂给你的死灵法师类仆从，它会将其消耗并强化一个等级，能提升血量上限、单轮攻击的射弹数量，至多可强化三级。"
+			]
+			id: "7305AD6D17F25F2A"
+			rewards: [{
+				id: "5E8EF24909C69B3D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "7A5599BC045CFB6D"
+				item: "goety:empty_soul_jar"
+				type: "item"
+			}]
+			title: "死灵法师类仆从"
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32D9EE1E14B5F491"]
+			description: [
+				"使用虚空魔杖承载可以显著提升单次召唤量。"
+				""
+				"&c玩家至多只能同时持有32只看守灵仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击赋予末影禁锢效果。"
+			]
+			id: "7FA0037BC1525D2C"
+			rewards: [{
+				id: "772D8A0C3FEAFF9D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "末影禁锢效果"
+			tasks: [{
+				id: "4D468D788D89C098"
+				item: "goety:watching_focus"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32D9EE1E14B5F491"]
+			description: [
+				"使用虚空魔杖承载可以显著提升单次召唤量。"
+				""
+				"&c玩家至多只能同时持有32只爆破灵仆从。"
+				""
+				"&e仆从特点：远程伤害能力、特定元素战斗类型。攻击赋予侵蚀效果。"
+			]
+			id: "71C0D92A6A75B343"
+			rewards: [{
+				id: "54B09707C16AF8F8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "1B1187A608A9B880"
+				item: "goety:blasting_focus"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32D9EE1E14B5F491"]
+			description: [
+				"使用虚空魔杖承载可以显著提升单次召唤量。不主动近战攻击目标，而是先向目标远程吐出黏液团。"
+				""
+				"&c玩家至多只能同时持有32只迷惑灵仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击赋予灵液腐蚀效果。"
+			]
+			id: "700FFAEC1EB36901"
+			rewards: [{
+				id: "46DD48418010A0CB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "灵液腐蚀效果"
+			tasks: [{
+				id: "0F9FB3E52916182D"
+				item: "goety:snaring_focus"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0400F5BFD1758C4D"]
+			description: [
+				"腾跃之叶是一种可建造的中立生物，通过跳跃和粉碎攻击来攻击怪物。"
+				""
+				"腾越之叶的召唤结构为：四个增生之根放置成倒置T形，并且把两片丛林树叶放在顶部增生根的左右，一朵大王花在顶部增生之根的上方，然后手持活力核心，右键中心的增生之根，就可以生成。玩家必须阅读过花纹卷轴才能建造腾跃之叶。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。具有洪荒之力效果。"
+			]
+			icon: "goety:leaping_focus"
+			id: "6E5D95F7A4EAAF24"
+			rewards: [{
+				id: "1A75C9E2A2BC480C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "357E721F07C81D40"
+					item: "goety:overgrown_roots"
+					type: "item"
+				}
+				{
+					id: "363347EB8E6BEAF5"
+					item: "goety:leaping_focus"
+					type: "item"
+				}
+			]
+			title: "腾跃之叶"
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25F772FDA9A7DF10"]
+			description: [
+				"若穿戴冰霜长袍召唤：生成的冰傀儡会转化为冰刺变种，解锁反伤被动。"
+				""
+				"也可以通过搭建如下多方块结构召唤：使用1块蓝冰、3块浮冰、1块雪块搭建多方块结构，再使用并消耗活力核心右键此结构即可生成一只冰傀儡。如同铁傀儡摆放，雕刻南瓜替换为雪块，雪块下方是蓝冰，剩下是浮冰。"
+				""
+				"&6若冰傀儡周围的目标数量≥4时：冰傀儡将会使用霜冻爆炸（等同于霜冻新星聚晶）。"
+				""
+				"&c玩家至多只能同时持有2只冰傀儡。"
+				""
+				"&e仆从特点：近战、魔法伤害能力、特定元素战斗类型。"
+			]
+			id: "178DC8DE4F08B02D"
+			rewards: [{
+				id: "455EF38FA1995DC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D9E5553A4C15DA8"
+				item: "goety:frostborn_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7DDF5D5DF26EEFDE"]
+			description: [
+				"呼啸傀儡只能被玩家建造出来。需要一个模具、一个活力核心，并且玩家必须阅读一个狂风卷轴才能创建。模具需要：12个磨制高岭石、9个锈蚀铁格栅、4个石砖、4个平滑金块、1个玉块。然后，玩家必须用活力核心右键点击中心的玉块。"
+				""
+				"&6呼啸傀儡生成时处于非激活状态，必须通过共振晶体左击激活。玩家手持共振晶体左击呼啸傀儡，这个共振晶体就会与呼啸傀儡绑定。当共振晶体被充能时，与其绑定的呼啸傀儡会苏醒。当鼓风机被红石信号激活时，如果吹出的风正对共振晶体，共振晶体就会被充能。"
+				""
+				"&e仆从特点：近战伤害能力。自带雷暴效果。攻击附加星裂2级效果。"
+			]
+			id: "00E601BE57DC1370"
+			rewards: [{
+				id: "0F49A416F6097736"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂2级效果"
+			tasks: [{
+				id: "7E31B72D661976CF"
+				item: "goety:resonance_crystal"
+				type: "item"
+			}]
+			title: "「雷焱」呼啸傀儡仆从"
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DDF5D5DF26EEFDE"]
+			description: [
+				"红石巨兽需要一个巨大的模具、一个活力核心，并且玩家必须要阅读终结卷轴。模具需要：91个石砖或其变种、40个钻石模具块、96个红石块、1个强化红石块，以及至少16桶熔岩。激活后仅消耗红石块、强化红石块和熔岩。"
+				""
+				"&c世界内只能存在四个红石巨兽仆从或者下界合金巨兽仆从，每个玩家限制最多两个。"
+				""
+				"&e仆从特点：近战伤害能力，特定元素战斗类型，自带回响打击效果。攻击附加侵蚀10级、破坏效果。"
+			]
+			icon: "goety:diamond_mold_block"
+			id: "550CACF0243F97CC"
+			rewards: [{
+				id: "3FFFF0B29015B4F3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "0784F8CB146DC2A1"
+				item: "goety:reinforced_redstone_block"
+				type: "item"
+			}]
+			title: "「星焱」红石巨兽仆从"
+			x: 23.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0400F5BFD1758C4D"]
+			description: [
+				"红石怪：手持活力核心右击红石块将会生成一只忠于制造者的红石怪。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "75B2A7C8E8F7A226"
+			rewards: [{
+				id: "1C8C1D2FCC96EDD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5792D507ED4FF20E"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			title: "红石怪"
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CA6862271925F93"]
+			description: [
+				"聚晶允许玩家向下界教团寻呼。该聚晶会召唤2~4个异教徒仆从和1~3个独行者仆从。"
+				""
+				"&6持有下界魔杖施法时会召唤4个异教徒仆从和3个独行者仆从。玩家需攻击生物，上述仆从才会有仇恨去攻击。"
+				""
+				"&e仆从特点：一定的近战伤害能力，特定元素战斗类型。部分攻击可以附加星裂3级效果。"
+			]
+			id: "444CC2E84D3E72D4"
+			rewards: [{
+				id: "303CC7C0EE39B7F7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂3级效果"
+			tasks: [{
+				id: "170CEA45D5CE16FA"
+				item: "goety_revelation:heretic_focus"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["030BA8782CD3B686"]
+			description: [
+				"使徒仆从不会主动攻击敌对生物，只会在主人攻击生物或主人被生物攻击后才会出手。使徒仆从还会攻击除了主人以外的玩家。"
+				""
+				"&6使徒仆从属于亡灵仆从，会通过主人的死灵长袍与无名长袍用灵魂能量恢复生命值，喂食使徒仆从不洁之血后会使其恢复全部生命值并回到一阶段。"
+				""
+				"&c使徒仆从在攻击招式与行为方面与敌对的使徒完全一致，包括随机头衔，下界增强与二阶段雷暴。"
+				""
+				"&5需注意，使徒仆从在没有黑曜石柱时是较为脆弱的。"
+				""
+				"&e仆从特点：一定的远程伤害能力，特定元素战斗类型。攻击附加星裂20级、侵蚀100级效果。"
+			]
+			id: "6A63E7A97894E631"
+			rewards: [{
+				id: "1F9E19E403500C12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂10级效果"
+			tasks: [{
+				id: "78F0C49A9B0E83C4"
+				item: "yuusha:blood_star"
+				type: "item"
+			}]
+			title: "&5使徒仆从"
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"小海胆仆从：玩家使用罪行者聚晶生成。会游泳，可以在水下战斗。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2~4。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "083EEBE4924539DD"
+			rewards: [{
+				id: "1209717894F2F28E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1449326EFDB6A867"
+				item: "goety_cataclysm:kakourgos_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"此聚晶允许召唤一个章鱼共生体仆从和溺尸宿主仆从。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2~4。"
+				""
+				"&e仆从特点：近战和远程伤害能力、特定元素战斗类型。"
+			]
+			id: "5D298F546B629C82"
+			rewards: [{
+				id: "011590AD5ED35F7D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "028461469BB564D2"
+				item: "goety_cataclysm:polemistis_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"此聚晶允许玩家召唤一个水母莉亚仆从。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2~4。"
+				""
+				"&e仆从特点：近战和远程伤害能力、特定元素战斗类型。"
+			]
+			id: "12CB346D5D216245"
+			rewards: [{
+				id: "01DE01A7B5AAA618"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B3295CD845AE977"
+				item: "goety_cataclysm:kyria_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"由深渊仪式（需上述目标物品等）生成。所有技能招式均沿用自敌对版本。斯库拉在当前阶段不一定好打。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加穿透效果。较高防御。"
+			]
+			id: "6A10A3A4D1496E5A"
+			rewards: [{
+				id: "017CDA2A827F8F01"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "穿透效果"
+			tasks: [{
+				id: "70B27431FFA59DF8"
+				item: "cataclysm:astrape"
+				type: "item"
+			}]
+			title: "沧溟巡守仆从"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["02D6088923F2F8AF"]
+			description: [
+				"由深渊仪式（需上述目标物品等）生成。所有技能招式均沿用自敌对版本。斯库拉在当前阶段不一定好打。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加侵蚀效果。较高防御。"
+				""
+				"&c注意：此仆从的冲撞技能会破坏沿途的方块，且不会掉落物品，请谨慎使用。"
+			]
+			id: "43B14F32A00AF583"
+			rewards: [{
+				id: "2C7C56622DEEFC1C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "2A77DBAFB870130E"
+				item: "cataclysm:ceraunus"
+				type: "item"
+			}]
+			title: "巨钳守卫仆从"
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["25F772FDA9A7DF10"]
+			description: [
+				"渊灵仆从：玩家使用渊没浪涌聚晶生成。所有技能招式均沿用自敌对版本。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2~4。"
+				""
+				"&e仆从特点：近战伤害能力（远程低伤害）、特定元素战斗类型。"
+			]
+			id: "5402BDABFD8A68B6"
+			rewards: [{
+				id: "400D71C4D075B175"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79979CF26CA913FE"
+				item: "goety_cataclysm:sunken_swell_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25F772FDA9A7DF10"]
+			description: [
+				"渊灵蛮兵仆从：玩家使用渊没暗流聚晶生成。概率生成渊灵垂钓者仆从。所有技能招式均沿用自敌对版本。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2~4。"
+				""
+				"&e仆从特点：近战伤害能力（远程低伤害）、特定元素战斗类型。"
+			]
+			id: "401E5EAAEE1A7E93"
+			rewards: [{
+				id: "4B89C75649A51A06"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57579DF46A11ACEE"
+				item: "goety_cataclysm:sunken_current_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25F772FDA9A7DF10"]
+			description: [
+				"渊灵祭司仆从、渊灵术士仆从：此聚晶允许玩家几率召唤一个渊灵祭司仆从（攻击给予失明效果）或渊灵术士仆从（攻击给予深渊烧灼效果）。"
+				""
+				"&6通过深渊魔杖召唤时，召唤量提升至2。"
+				""
+				"&e仆从特点：近战伤害能力（受手中武器词条影响）、特定元素战斗类型。"
+			]
+			id: "0C45F00686DD2D0C"
+			rewards: [{
+				id: "70BF65072047CA82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "70EDB3A34BA81BEA"
+				item: "goety_cataclysm:sunken_tribune_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0400F5BFD1758C4D"]
+			description: [
+				"珊瑚傀儡仆从：需要一个模具、一个活力核心，并且玩家必须阅读花纹卷轴才能创建。"
+				""
+				"模具需要：9块紫水晶块、12块石砖或者其变种、8块任意珊瑚块、1块铜块，需要按手册提示将上述方块叠两层放置，且必须全部位于水中。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击赋予坠落效果。"
+			]
+			id: "3679CA1732B63BFD"
+			rewards: [{
+				id: "21B1CF6077082278"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D7EEA3F0A618468"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			title: "珊瑚傀儡仆从"
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0400F5BFD1758C4D"]
+			description: [
+				"珊瑚巨像仆从：需要一个模具、一个活力核心，并且玩家必须阅读花纹卷轴才能创建。"
+				""
+				"模具需要：12块紫水晶块、25块石砖或者其变种、21块管珊瑚块、火珊瑚块或鹿角珊瑚块（必须是同种珊瑚块）、1棵海泡菜，需要按手册提示将上述方块叠两层放置，且必须全部位于水中。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。具有洪荒之力效果。"
+			]
+			id: "1D5B727F756AFA41"
+			rewards: [{
+				id: "458901E3AD51DF7E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14664CBA9322D49A"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			title: "珊瑚巨像仆从"
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B7D07AF705E0498"]
+			description: [
+				"骸龙仆从：玩家使用沙漠强袭聚晶生成。此仆从的缴械能力只对其他玩家生效。"
+				""
+				"&6通过死灵魔杖召唤时，召唤量提升至2~4；通过无名魔杖召唤时，召唤量提升至7。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "7125B9632132F7C8"
+			rewards: [{
+				id: "05A2EB3FDDE2FD94"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A564F5A9CAA345F"
+				item: "goety_cataclysm:desert_raid_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B7D07AF705E0498"]
+			description: [
+				"由死灵仪式（需骸龙斗士头颅等材料）转化骸龙仆从生成。也可用历战残魂右击骸龙仆从转化。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个历战残魂（可用于复活）。"
+				""
+				"&c玩家至多可同时持有2只骸龙斗士仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加侵蚀效果。"
+			]
+			id: "2408964F76E8AC73"
+			rewards: [{
+				id: "57522745196126C0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "0A17513EDD27DB79"
+				item: "cataclysm:kobolediator_skull"
+				type: "item"
+			}]
+			title: "骸龙斗士仆从"
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B7D07AF705E0498"]
+			description: [
+				"由死灵仪式（需远古之矛等材料）转化骸龙仆从生成。也可用奥术残魂右击骸龙仆从转化。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个奥术残魂（可用于复活）。"
+				""
+				"&c玩家至多可同时持有2只瓦吉特仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加穿透效果。"
+			]
+			id: "395933D0E1059D41"
+			rewards: [{
+				id: "4F798277328A56E4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "穿透效果"
+			tasks: [{
+				id: "4E2E9C2FA2A5A48D"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "瓦吉特仆从"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B7D07AF705E0498"]
+			description: [
+				"可使用死灵仪式（需远古金属镀层等材料）生成，仪式旁需要有现世遗魂（未驯服或任意玩家的均可）。"
+				""
+				"&6远古遗魂的各种技能、攻击伤害与其敌对版本保持一致，但不再会破坏方块。远古遗魂仆从可以被它主人或同主人的部分仆从骑乘。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。有融身入影（重新加载可刷新）、洪荒之力效果。具有与远古遗魂一样的效果免疫。"
+			]
+			id: "6A0C4D5D8364D5D5"
+			rewards: [{
+				id: "30B77AAF804C2A07"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4120D12D88D9B821"
+				item: "goety_cataclysm:ancient_plating"
+				type: "item"
+			}]
+			title: "远古遗魂仆从"
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["32D9EE1E14B5F491"]
+			description: [
+				"末影傀儡需要一个模具、一个活力核心，并且玩家必须阅读战争卷轴才能创建。"
+				""
+				"模具需要：25块黑曜石或任意黑曜石砖、21块虚空石、12块虚空模具块；需要按手册提示将上述方块叠两层放置。然后用活力核心右键点击中心的虚空石。"
+				""
+				"&c玩家最多只能持有2个末影傀儡。"
+				""
+				"&6末影傀儡被击败后，将掉落末影傀儡头骨用于复活傀儡。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "17C6FD823558ACA5"
+			rewards: [{
+				id: "4AE17EAB453F6589"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D7D965B83878726"
+				item: "goety_cataclysm:void_mold_block"
+				type: "item"
+			}]
+			title: "末影傀儡仆从"
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DDF5D5DF26EEFDE"]
+			description: [
+				"器械加工厂是一种能够生成观测者仆从的方块。手持机械化铁块右键器械加工厂即可开始训练（生成）你的观测者仆从。也可以直接将机械化铁块放入与器械加工厂相连的漏斗，实现自动化训练。"
+				""
+				"&6使用任意魔杖右击器械加工厂后，器械加工厂会进入“目标敏感”状态，只会在附近有有效目标的情况下生成仆从，再次点击可取消此状态。"
+				""
+				"&c玩家至多可同时持有16只观测者仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加星裂1级效果。"
+			]
+			id: "1E78D1FB4DBF4779"
+			rewards: [{
+				id: "2574FDE98B4AFCD5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂1级效果"
+			tasks: [{
+				id: "2B597C59748B24F2"
+				item: "goety_cataclysm:fabricator"
+				type: "item"
+			}]
+			title: "观测者仆从"
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DDF5D5DF26EEFDE"]
+			description: [
+				"必须阅读战争卷轴才能知晓制造配方。利用锻造仪式（需机械铁块等材料）生成召唤。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个机械核心。"
+				""
+				"&c玩家至多可同时持有2只徘徊者仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加星裂1级效果。"
+			]
+			id: "75BC07A22DC8CD2C"
+			rewards: [{
+				id: "73A414CF9861AC71"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂1级效果"
+			tasks: [{
+				id: "73664C7FA1AEF64B"
+				item: "goety_cataclysm:mechanized_iron_block"
+				type: "item"
+			}]
+			title: "徘徊者仆从"
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CA6862271925F93"]
+			description: [
+				"由专家下界仪式（需炽狱方骰等材料）将野火仆从转变生成。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个焰遗头盔。"
+				""
+				"&c玩家至多可同时持有2只炽燃遗魂仆从。"
+				""
+				"&e仆从特点：近战及远程伤害能力、特定元素战斗类型。攻击附加侵蚀10级效果。"
+			]
+			id: "0CA27D070070793A"
+			rewards: [{
+				id: "3C75CCB04334A9D6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "1E0762913ED9E190"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			title: "炽燃遗魂仆从"
+			x: 25.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CA6862271925F93"]
+			description: [
+				"由专家下界仪式（需炽狱方骰等材料）将烈焰人仆从转变生成。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个炽燃残魂。"
+				""
+				"&c玩家至多可同时持有2只炽燃狂魂仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。攻击附加侵蚀10级效果。"
+			]
+			id: "25CFF3F789447D4C"
+			rewards: [{
+				id: "771BEC0BA74CAD0F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "0BE4CA6DF4D69B3B"
+				item: "cataclysm:dying_ember"
+				type: "item"
+			}]
+			title: "炽燃狂魂仆从"
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CA6862271925F93"]
+			description: [
+				"下界合金巨兽仆从在阅读终结卷轴后才能够建造。需使用黑石（或其变种）、金块、镶金黑石、灵魂火、熔岩（必须为静止的源头）、下界砖块（或红色下界砖块）、下界合金块、红石块与强化红石块等材料进行建造。建造完成后，使用炼狱锻锤右键点击结构中心的强化红石块，即可生成下界合金巨兽仆从。"
+				""
+				"&c世界内只能存在四个红石巨兽仆从或者下界合金巨兽仆从，每个玩家限制最多两个。"
+				""
+				"&6下界合金巨兽仆从的各攻击招式均与其敌对版本基本保持一致，但技能都不再破坏方块，且不再生成熔岩。下界合金巨兽可以被骑乘。具有和下界合金巨兽类似的免疫效果能力。"
+				""
+				"&e仆从特点：近战伤害能力，特定元素战斗类型，自带回响打击效果。攻击附加侵蚀10级、破坏效果。"
+			]
+			id: "795D0520C345CCC5"
+			rewards: [{
+				id: "663FF7F7183EA89E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "766979DF21CE2D83"
+				item: "goety:reinforced_redstone_block"
+				type: "item"
+			}]
+			title: "「星焱」下界合金巨兽仆从"
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C8CFA0DA2313F9A"]
+			description: [
+				"再行魂尸仆从：玩家使用咒碑聚晶生成。通过死灵魔杖召唤时，召唤量提升至2~4；通过无名魔杖召唤时，召唤量提升至7。"
+				""
+				"&6所有技能招式均沿用自敌对版本。此仆从不能换武器，且不能穿装备。"
+				""
+				"&e仆从特点：一定的近战伤害能力，特定元素战斗类型。攻击附加侵蚀10级、缠绕、坠落效果。"
+			]
+			id: "2BCEC398E673DA10"
+			rewards: [{
+				id: "405ED98B85A0EC05"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀、缠绕、坠落效果"
+			tasks: [{
+				id: "29B4429C91FB04C8"
+				item: "goety_cataclysm:cursed_grave_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C8CFA0DA2313F9A"]
+			description: [
+				"皇家魂尸仆从：玩家使用咒陵聚晶生成。通过死灵魔杖召唤时，召唤量提升至2~4；通过无名魔杖召唤时，召唤量提升至7。"
+				""
+				"&6所有技能招式均沿用自敌对版本。此仆从不能换武器，且不能穿装备。"
+				""
+				"&e仆从特点：一定的近战伤害能力，特定元素战斗类型。攻击附加星裂3级效果。"
+			]
+			id: "49A1D367E363AB75"
+			rewards: [{
+				id: "0F5F0B7A6E096F2B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂3级效果"
+			tasks: [{
+				id: "77E04E9233281B12"
+				item: "goety_cataclysm:cursed_tomb_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C8CFA0DA2313F9A"]
+			description: [
+				"精英魂尸仆从：玩家使用咒冢聚晶生成。通过死灵魔杖召唤时，召唤量提升至2~3；通过无名魔杖召唤时，召唤量提升至5。"
+				""
+				"&6所有技能招式均沿用自敌对版本。此仆从不能换武器，且不能穿装备。"
+				""
+				"&c需注意精英魂尸仆从发射的箭矢可以伤害到友军。"
+				""
+				"&e仆从特点：一定的远程伤害能力，特定元素战斗类型。攻击附加星裂3级效果。"
+			]
+			id: "6C7BA87255AB5BC3"
+			rewards: [{
+				id: "59BF94A0FC1AC6E9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂3级效果"
+			tasks: [{
+				id: "16DA31267AA36B76"
+				item: "goety_cataclysm:cursed_cairn_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C8CFA0DA2313F9A"]
+			description: [
+				"由死灵仪式（需武弁的头等材料）生成。"
+				""
+				"&6所有技能招式均沿用自敌对版本。死亡后掉落一个武弁的头。"
+				""
+				"&c玩家至多可同时持有2只冥行武弁仆从。"
+				""
+				"&e仆从特点：极高的近战伤害能力，特定元素战斗类型。"
+			]
+			id: "43F0BEBD6544E0B3"
+			rewards: [{
+				id: "1B43461CDF70E42D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5ABE4F817B571AC5"
+				item: "cataclysm:aptrgangr_head"
+				type: "item"
+			}]
+			title: "冥行武弁仆从"
+			x: 26.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"该聚晶允许玩家变出4个替身，分散敌对生物攻击你的注意力；替身被攻击，或施法者被攻击都会导致替身消失；替身继承玩家的皮肤，且生成时自带一把弓。"
+				""
+				"&6替身不会造成任何伤害，除非你穿上了无名套或幻术师长袍。穿戴幻术师长袍后，玩家会在替身生成时获得60秒隐身效果；替身射出的箭还会造成少量伤害。"
+				""
+				"&3如果玩家同时装备无名王冠+无名长袍；那么玩家召唤的替身将免疫绝大多数类型的伤害，同时也不会移动；替身会继承玩家的无名套，并且手持无名魔杖，对他们的目标发射一枚死灵束，之后替身会消失。"
+				""
+				"&e仆从特点：远程伤害能力。攻击附加穿透效果（替身需要造成伤害才会附加）。"
+			]
+			id: "01BD98B854F2D1FC"
+			rewards: [{
+				id: "01A80F51E96A9518"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "穿透效果"
+			tasks: [{
+				id: "4E4880BEA8E85700"
+				item: "goety:illusion_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"恼鬼仆从：使用其它魔杖承载该聚晶时：一次可以召唤3个恼鬼；使用不祥之杖承载该聚晶时：一次可以召唤5个恼鬼；如果玩家在潜行时施法：立刻杀死自己拥有的所有恼鬼。"
+				""
+				"&c若使用黑暗魔杖：至多可同时持有8只恼鬼仆从；若使用其它类型魔杖：至多可同时持有16只恼鬼仆从。"
+				""
+				"&e仆从特点：一定的近战伤害能力。攻击附加侵蚀效果。有融身入影效果（首次攻击加伤）。"
+			]
+			id: "731CA9213E99B8B9"
+			rewards: [{
+				id: "682E1AFD41E3AFFB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "0EC7E86CB7C37BFA"
+				item: "goety:vexing_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["死火方骰可在便携烹饪锅中进行抽卡获得特定聚晶。"]
+			id: "3A8ABA5A1C267D57"
+			rewards: [{
+				id: "28BB611B898D66F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18237EB712454731"
+				item: "yuusha:dice_1"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["渊冰方骰可在捕蟹笼中进行抽卡获得特定聚晶。"]
+			id: "25F772FDA9A7DF10"
+			rewards: [
+				{
+					id: "789D3C02B4D6D858"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EF45CD82920FEC4"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A08B6BBCE2F50AD"
+				item: "yuusha:dice_2"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: [
+				"腐烂方骰可在砧板中进行抽卡获得特定聚晶。"
+				""
+				"&c部分近战召唤物的攻击距离过短，无法打到霜冻巨兽等大体型生物。"
+				""
+				"&6在前期普通墨水制作的驱役亡灵，具有较长攻击距离。"
+			]
+			id: "79B1E79D82B629F0"
+			rewards: [{
+				id: "431BAB71A8325532"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "209C0CD28C1CA760"
+				item: "yuusha:dice_4"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["死水方骰可在捕蟹笼中进行抽卡获得特定聚晶。"]
+			id: "02D6088923F2F8AF"
+			rewards: [
+				{
+					id: "4D8AF463DE55A56D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32B2B5DA55BE5887"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03F91CA1D4CE2718"
+				item: "yuusha:dice_5"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["暗影方骰可在爆炸中进行抽卡获得特定聚晶。除了狂暴之斧必出之外，其它物品都是有几率出。"]
+			id: "14F562AC3C819131"
+			rewards: [
+				{
+					id: "72F83940ED4D4C4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "283EFAFE44FD70BD"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00C77B625F2D092A"
+				item: "yuusha:dice_6"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["自然方骰可在砧板中进行抽卡获得特定聚晶。"]
+			id: "4A54281A3A4D898D"
+			rewards: [
+				{
+					id: "0193953806DAB37A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "744CA2F3B66DD10A"
+					item: "yuusha:magic_ring_ticket"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F3CAFF7CCE0F503"
+				item: "yuusha:dice_7"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["圣骸方骰可在闪电中进行抽卡获得特定聚晶。所有物品都是有几率出。"]
+			id: "4B7D07AF705E0498"
+			rewards: [{
+				id: "54BE94E90860FD2B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E70D973A7DA00A0"
+				item: "yuusha:dice_8"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["末影方骰可在天华砧中进行抽卡获得特定聚晶。"]
+			id: "32D9EE1E14B5F491"
+			rewards: [{
+				id: "47072D33CB16EE18"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "440D3EC7ED15570C"
+				item: "yuusha:dice_9"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: ["炽狱方骰可直接召唤或制作召唤相关物品。部分物品可能需后续才能制作。"]
+			id: "3CA6862271925F93"
+			rewards: [{
+				id: "4F904820A7F50D22"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "543746D588AE10F7"
+				item: "yuusha:dice_10"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: [
+				"咒冥方骰可在天华砧中进行抽卡获得特定聚晶。"
+				""
+				"&6不建议打贪婪化身。"
+			]
+			id: "6C8CFA0DA2313F9A"
+			rewards: [{
+				id: "60B49F1C80353301"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F55920B365376DC"
+				item: "yuusha:dice_11"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: [
+				"魂灵方骰可直接召唤或制作召唤相关物品。部分物品可能需后续才能制作。"
+				""
+				"&6玄奥沙可制作星裂1级药水。后续可召唤观测者或者徘徊者仆从，攻击时会附加星裂1级效果。"
+			]
+			id: "7B5D33281E516CA7"
+			rewards: [{
+				id: "7037496198CEC848"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "235C3D33A14B04FD"
+				item: "yuusha:dice_12"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			description: [
+				"魂灵方骰可直接召唤或制作召唤相关物品。部分物品可能需后续才能制作。"
+				""
+				"&6建议跳过薄暮之锋-罗莎琳。"
+			]
+			id: "7DDF5D5DF26EEFDE"
+			rewards: [{
+				id: "4D88EFF92C551586"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A6D0FFB31C3A3FF"
+				item: "yuusha:dice_13"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			id: "030BA8782CD3B686"
+			rewards: [{
+				id: "582EA01B9B0FB13C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C0E2ABCB7FF1904"
+				item: "yuusha:dice_3"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14F562AC3C819131"]
+			description: [
+				"受火聚晶可以让施法者召唤属于自己的远古骑士仆从，潜行施法可将所有远古骑士仆从传送到自己身边。若使用下界魔杖施法，则会一次性召唤两只远古骑士仆从。"
+				""
+				"&e仆从特点：近战伤害能力、特定元素战斗类型。"
+			]
+			id: "73212AA12E70E650"
+			rewards: [{
+				id: "4ADDC000CB742FA9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0786FF2B0F97B6F6"
+				item: "goety_iron:fiery_focus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79B1E79D82B629F0"]
+			description: [
+				"黯淡聚晶可以让施法者召唤属于自己的亡灵术士仆从，潜行施法可将所有亡灵术士仆从传送到自己身边。"
+				""
+				"&3召唤出来的亡灵术士仆从无法学习新的魔法和使用法球升级，仅能使用固定的法术（有几率施放枯萎术）。"
+				""
+				"&c玩家至多可同时持有8只。"
+				""
+				"&6死灵魔杖或无名魔杖可提高召唤数量。"
+				""
+				"&e仆从特点：一定的法术伤害、召唤能力。"
+			]
+			id: "451A7E7831D90ECF"
+			rewards: [{
+				id: "324556041A170DB8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38BBB27EBBF75092"
+				item: "goety_iron:necromancer_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7B5D33281E516CA7"]
+			description: [
+				"死者之王仆从可在通过死灵仪式（需魂灵方骰、猩红神杖等材料）转化亡灵术士仆从（黯淡聚晶召唤）获得。"
+				""
+				"&6死者之王可以学习猩红、炽焰、自然、唤魔四个学派的法术，并且可以学习至多12种法术。还可以使用各种法术流派的法球强化自身的法强，共可以强化至多9次。"
+				""
+				"&3死者之王仆从死后掉落的猩红魔力核心，右键亡灵术士可以复活死者之王仆从。"
+				""
+				"&c死者之王仆从召唤上限为两只。召唤出来即为愤怒状态。"
+				""
+				"&e仆从特点：法术伤害能力、特定元素战斗类型。攻击附加侵蚀10级效果。"
+			]
+			id: "5BA31BCC0404F981"
+			rewards: [{
+				id: "63CC7F1DB9A68657"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "侵蚀效果"
+			tasks: [{
+				id: "4246E07E63373B6A"
+				item: "goety_iron:crimson_core"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7B5D33281E516CA7"]
+			description: [
+				"可通过魔法仪式（需相应的符文、魂灵方骰等材料）将特定生物强化成不同的术士仆从。不同的术士仆从会施放自己本系的铁之咒语法术。术士仆从身上的法师盔甲被攻击后，会因耐久耗尽而消失。"
+				""
+				"&6主人可以给术士仆从学习相应派系的法术，且可以学习至多6种法术。可以使用各种法术流派的法球强化术士仆从的法强，共可以强化至多9次。死亡后会掉落相应的魔力核心，右击特定生物可复活。"
+				""
+				"&c最多只能拥有4个术士仆从。"
+				""
+				"&e仆从特点：法术伤害能力、特定元素战斗类型。同一术士仆从的不同法术之间伤害差距较大。"
+			]
+			id: "442AD374FC117C21"
+			rewards: [{
+				id: "5097C696D36D91C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "65DD14B09D07A833"
+					item: "goety_iron:archevoker_core"
+					type: "item"
+				}
+				{
+					id: "51A9CCD87C528482"
+					item: "goety_iron:pyromancer_core"
+					type: "item"
+				}
+				{
+					id: "5A8E14E3B0B31CDC"
+					item: "goety_iron:cryomancer_core"
+					type: "item"
+				}
+				{
+					id: "290DCFE2311C13B3"
+					item: "goety_iron:priest_core"
+					type: "item"
+				}
+				{
+					id: "48AF576F9A903470"
+					item: "goety_iron:alchemist_core"
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["574AA3C7793F6681"]
+			description: [
+				"可制作获得。"
+				""
+				"&e仆从特点：一定的近战伤害能力。能给予破坏效果（移除被近战攻击时的无敌帧）。"
+			]
+			id: "4A2C67D9A1DE270A"
+			rewards: [{
+				id: "30DA666E4508B929"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22F5A16B300C3D3E"
+				item: "moonstone:zombie_box"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["57086B5D43457A41"]
+			description: ["消耗悲叹之种可扫除击杀铁之咒语模组的召唤物。"]
+			icon: "grimoireofgaia:broom"
+			id: "14B8C6DF6A1CAE7C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/kill @e[type=irons_spellbooks:summoned_zombie]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "367307DDEA419E1F"
+					title: "扫除召唤的僵尸（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e[type=irons_spellbooks:summoned_skeleton]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "2473342C4B2448BA"
+					title: "扫除召唤的骷髅（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e[type=irons_spellbooks:summoned_polar_bear]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "221312487F1F1383"
+					title: "扫除召唤的北极熊（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e[type=irons_spellbooks:summoned_vex]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "78E7A54B7D69464B"
+					title: "扫除召唤的恼鬼（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e[type=ias_spellbooks:summoned_ragno]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "61ECDAAC09AF1252"
+					title: "扫除召唤的腐败蜘蛛（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e[type=refined_mod:summoned_wolf]"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "wizards_reborn:innocent_wood_sword"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					id: "05DE04E4E423434F"
+					title: "扫除召唤的狼（自动领取）"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "11B3F9F2B00B3F3D"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			title: "&6&l扫除铁之咒语召唤物"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: [
+				"使用召集聚晶可以绑定一个你的仆从，然后右键施法将它召唤过来。潜行施法将所有该仆从召唤过来。"
+				""
+				"&6貌似使用时有可能会卡顿，只要不崩即可。"
+				""
+				"&c无法用此进行跨维度传送。如果需要跨纬度传送，可以用末影传送门法术。部分可以骑行的仆从，也可以在骑行时用指路石传送。"
+			]
+			id: "4BF134D786AEB707"
+			rewards: [{
+				id: "6E2F5218056B3235"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BE9CBCE9DD3FBB3"
+				item: "goety:call_focus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BF134D786AEB707"]
+			description: [
+				"军团聚晶是改良版的召集聚晶，对仆从左键可以绑定该仆从的类型，右键施法可将所有该类型仆从传送过来。"
+				""
+				"&6貌似使用时有可能会卡顿，只要不崩即可。"
+				""
+				"&c无法用此进行跨维度传送。如果需要跨纬度传送，可以用末影传送门法术。部分可以骑行的仆从，也可以在骑行时用指路石传送。"
+			]
+			id: "7F8304B9CBA14174"
+			rewards: [{
+				id: "36E79902E9B56C61"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02F6693339DA8D81"
+				item: "goety:troop_focus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B7D07AF705E0498"]
+			description: ["&e诡厄巫法仆从&r，可以享受血腥狩猎手册的加成。不能享受猎人腰带、全伤害、魔能强度等加成。"]
+			id: "103D90BE5910C2C6"
+			rewards: [{
+				id: "39404D30129A5CDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7669E32B25A186DE"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: ["除无名外可在天华砧中转化获得。"]
+			id: "56D9E6B72605C50C"
+			rewards: [{
+				id: "209FC8BC01E6A598"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "774C6FA4838BC611"
+					item: "goety:necro_crown"
+					type: "item"
+				}
+				{
+					id: "583D55AB3804438C"
+					item: "goety:wild_crown"
+					type: "item"
+				}
+				{
+					id: "7E8EAF2CBF62FCC9"
+					item: "goety:abyss_crown"
+					type: "item"
+				}
+				{
+					id: "5003F228D6FB1A0F"
+					item: "goety:void_crown"
+					type: "item"
+				}
+				{
+					id: "7558FF4D522E9411"
+					item: "goety:nether_crown"
+					type: "item"
+				}
+				{
+					id: "0CFA53EC2D895F91"
+					item: "goety:frost_crown"
+					type: "item"
+				}
+				{
+					id: "1A52C53AF4E11EAB"
+					item: "goety:nameless_crown"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: ["除无名外可在天华砧中转化获得。"]
+			id: "74EC946D51701A72"
+			rewards: [{
+				id: "10A5E4F459064D09"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "618F8DAF1D1746DE"
+					item: "goety:necro_cape"
+					type: "item"
+				}
+				{
+					id: "60CE3662FF662BED"
+					item: "goety:nameless_cape"
+					type: "item"
+				}
+				{
+					id: "006687CB2A9FAAE3"
+					item: "goety:illusion_robe"
+					type: "item"
+				}
+				{
+					id: "2046221950060632"
+					item: "goety:frost_robe"
+					type: "item"
+				}
+				{
+					id: "3C9820557ECA873A"
+					item: "goety:wind_robe"
+					type: "item"
+				}
+				{
+					id: "4E51718DFB1F26A9"
+					item: "goety:wild_robe"
+					type: "item"
+				}
+				{
+					id: "3AE1C97125F8D05A"
+					item: "goety:abyss_robe"
+					type: "item"
+				}
+				{
+					id: "51B0B4873AAAF6EC"
+					item: "goety:void_robe"
+					type: "item"
+				}
+				{
+					id: "570D97B6DB124BC2"
+					item: "goety:nether_robe"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D168FE01100A4BF"]
+			description: ["除无名外可在天华砧中转化获得。"]
+			id: "133CFD79F73373A2"
+			rewards: [{
+				id: "0812B37C004C3F18"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1B927E3728C0BE56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:ominous_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "0AE2F06C79AC19FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:necro_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "1C6777FE06EC0E50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:geo_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "7CBF51A20ECCAEB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wind_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "3BEF390C66A68AA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:storm_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "46762A0D849CE812"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:frost_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "3E34EDB2731A2724"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wild_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "4BE77DD90F14D148"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:abyss_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "2E8ECDF3ACAD3897"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:void_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "0969C3C6C5B58333"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:nether_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "76B568B50324B702"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:nameless_staff"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			id: "1B8A196390560C20"
+			rewards: [{
+				id: "0030DAA431DE206F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5369DA992AC3C353"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63E4A0304A800D34"]
+			id: "0400F5BFD1758C4D"
+			rewards: [{
+				id: "6B287CCD1FDF0403"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B3A3D6FF0017D58"
+				item: "goety:animation_core"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A8ABA5A1C267D57"]
+			description: [
+				"用于治愈玩家自身，拥有半径附魔时还可以同时治愈周围的仆从、宠物等友方目标。"
+				""
+				"&6持有任意附魔时，该法术的灵魂能量消耗×2。"
+				"{@pagebreak}"
+			]
+			id: "5B6C0BAEB31661CB"
+			rewards: [{
+				id: "592AD792ADB10B46"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F973F316933B0A9"
+				item: "goety:soul_heal_focus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A54281A3A4D898D"]
+			description: [
+				"可配合血腥狩猎手册使用。"
+				""
+				"&6虽然此路线也能制作千咒卷轴，并配合血腥狩猎手册，但千咒卷轴只能解锁勇者世界线的基础任务，无法解锁女仆世界线专属任务。"
+				""
+				"&e龙皮和龙鳞可以通过制作获得。"
+			]
+			id: "631EFE433B3E6327"
+			rewards: [{
+				id: "512C0238440548D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C1ABFEC0E5B9385"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA6862271925F93"]
+			description: ["可配合血腥狩猎手册使用。"]
+			id: "5B595BDC2DDF7641"
+			rewards: [{
+				id: "29277A18A0E25EE7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73435E3C2D09C4DB"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["&9『反派自我修养』"]
+	title: "&6※ 唤灵"
+}

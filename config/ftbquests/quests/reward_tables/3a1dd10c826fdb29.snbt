@@ -1,0 +1,72 @@
+{
+	icon: "cataclysm:tidal_claws"
+	id: "3A1DD10C826FDB29"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "cataclysm:soul_render" }
+		{ count: 2, item: "cataclysm:the_annihilator" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "fire"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:laser_gatling"
+				tag: {
+					Charged: 0b
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								element: "fire"
+								style: "hit"
+							}
+							"minecraft:enchantment": {
+								element: "normal"
+								style: "hit"
+							}
+						}
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "cataclysm:void_assault_shoulder_weapon"
+			}
+		}
+		{ item: "cataclysm:tidal_claws" }
+		{ item: "cataclysm:wither_assault_shoulder_weapon" }
+		{
+			item: {
+				Count: 1
+				id: "malum:weight_of_worlds"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "特殊武器"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "luminous_halloween:pumpkin_helmet_helmet"
+  },
+  "base": {
+    "item": "lost_aether_content:gravitite_shield"
+  },
+  "result": {
+    "item": "cataclysm:black_steel_targe"
+  },
+  "template": {
+    "item": "majruszsdifficulty:enderium_upgrade_smithing_template"
+  }
+}

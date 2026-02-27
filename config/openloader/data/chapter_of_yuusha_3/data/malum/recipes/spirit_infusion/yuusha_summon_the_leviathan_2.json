@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "celestial_core:treasure_fragment",
+    "count": 1
+  },
+  "output": {
+    "item": "confluence:angler_earring",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_the_leviathan",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 8
+    }
+  ]
+}

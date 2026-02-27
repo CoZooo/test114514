@@ -1,0 +1,12 @@
+
+#虚空之力客户端相关配置
+[powerOfTheVoidSettings]
+	#是否渲染高斯能量条
+	batteryHudOverlayEnabled = false
+
+#Armorpointspp血条渲染配置
+[armorpointsppSettings]
+	#当玩家生命值超过配置值时关闭血条渲染
+	#Range: 0.0 ~ 3.4028234663852886E38
+	armorpointsppHealthMaxEnabled = 1.0E7
+

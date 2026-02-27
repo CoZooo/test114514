@@ -1,0 +1,7 @@
+{
+  "slot": "eos:attachment/slot/magazine_t3_2",
+  "sounds": {
+    "install": "tacz:attachments/extended_mag_install",
+    "uninstall": "tacz:attachments/extended_mag_uninstall"
+  }
+}

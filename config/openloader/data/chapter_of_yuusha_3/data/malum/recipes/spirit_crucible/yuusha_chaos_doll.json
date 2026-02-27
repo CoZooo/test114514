@@ -1,0 +1,17 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "cataclysm:ignitium_block"
+  },
+  "output": {
+    "item": "yuusha:chaos_doll",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "eldritch"
+    }
+  ]
+}

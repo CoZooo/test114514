@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_c",
+    "nbt": {
+      "BlockId": "applied_armorer:worckbench_applied_armorer"
+    }
+  },
+  "pattern": [
+      "AEA",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "wizards_reborn:enchanted_calx"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "refinedstorage:construction_core"
+      },
+      "E": {
+        "item": "embers:focal_lens"
+      }
+    }
+}

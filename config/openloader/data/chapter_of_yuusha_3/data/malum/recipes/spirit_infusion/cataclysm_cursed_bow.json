@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "eidolon:shadow_gem"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ancient_metal_block"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:cursium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:diamond_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "cataclysm:cursed_bow"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    }
+  ]
+}

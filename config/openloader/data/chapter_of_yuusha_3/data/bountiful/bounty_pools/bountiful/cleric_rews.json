@@ -1,0 +1,195 @@
+
+{
+	"content": {
+
+        "cleric_rew_redstone": {
+            "type": "item",
+            "content": "minecraft:redstone",
+            "amount": {
+                "min": 1,
+                "max": 6
+            },
+            "unitWorth": 500
+        },
+
+        "cleric_rew_common_ink": {
+            "type": "item",
+            "content": "irons_spellbooks:common_ink",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 350
+        },
+
+        "cleric_rew_magma_cream": {
+            "type": "item",
+            "content": "minecraft:magma_cream",
+            "amount": {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 350,
+            "forbids": [
+                {
+                    "type": "item",
+                    "content": "minecraft:magma_cream"
+                }
+            ]
+        },
+
+        "cleric_rew_lapis": {
+            "type": "item",
+            "content": "minecraft:lapis_lazuli",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 250
+        },
+
+        "cleric_rew_potion_knowledge": {
+            "type": "item",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 3
+            },
+            "unitWorth": 550,
+            "nbt": "{Potion:\"apotheosis:long_knowledge\"}"
+        },
+
+        "cleric_rew_potion_fire_resist": {
+            "type": "item",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 600,
+            "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+        },
+
+        "cleric_rew_ench_book_unbreaking": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:unbreaking\"}]}"
+        },
+
+        "cleric_rew_ench_book_severing": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"reliquary:severing\"}]}"
+        },
+
+        "cleric_rew_glowstone": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:glowstone",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+
+        "cleric_rew_copper_spell_book": {
+            "type": "item",
+            "content": "irons_spellbooks:copper_spell_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000
+        },
+
+        "cleric_rew_inscription_table": {
+            "type": "item",
+            "content": "irons_spellbooks:inscription_table",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "cleric_rew_scroll_forge": {
+            "type": "item",
+            "content": "irons_spellbooks:scroll_forge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "cleric_rew_ghast_tear": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:ghast_tear",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000
+        },
+
+        "cleric_rew_ender_pearl": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "minecraft:ender_pearl",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3000
+        },
+
+        "cleric_rew_potion_luck": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:potion",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 2000,
+            "nbt": "{Potion:\"minecraft:luck\"}"
+        },
+
+        "cleric_rew_xp_bottle": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "minecraft:experience_bottle",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000.0
+        },
+
+        "cleric_rew_ench_book_mending": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:mending\"}]}"
+        }
+
+	}
+
+}

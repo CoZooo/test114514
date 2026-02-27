@@ -1,0 +1,9 @@
+{
+  "asset_name": "wither",
+  "description": {
+    "color": "#625859",
+    "translate": "trim_material.additionaltrims.wither"
+  },
+  "ingredient": "minecraft:wither_rose",
+  "item_model_index": 0.3
+}

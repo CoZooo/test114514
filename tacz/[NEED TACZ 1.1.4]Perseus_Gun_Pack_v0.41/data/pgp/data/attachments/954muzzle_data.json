@@ -1,0 +1,12 @@
+{
+	"weight": 0.2,
+	"damage": {
+		"addend":4
+	},
+	"pierce": {
+		"multiplier": 2
+	}, 
+	"armor_ignore":{
+		"addend": 0.15
+	}
+}

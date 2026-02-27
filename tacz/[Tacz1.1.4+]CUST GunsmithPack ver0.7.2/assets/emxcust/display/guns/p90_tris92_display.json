@@ -1,0 +1,62 @@
+{
+  "model": "emxcust:gun/p90_tris92_geo",
+  "texture": "emxcust:gun/uv/p90_tris92",
+  "lod": {
+    "model": "emxcust:gun/lod/p90_tris92",
+    "texture": "emxcust:gun/lod/p90_tris92"
+  },
+  "hud": "emxcust:gun/hud/p90_tris92",
+  "slot": "emxcust:gun/slot/p90_tris92",
+  "animation": "emxcust:p90_tris92",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "emxcust:flash/tris_muzzle_flash",
+    "scale": 0.75
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "reload_empty": "emxcust:trisguns/cms92_reload_ep2",
+    "reload_tactical": "emxcust:trisguns/cms92_reload_tactical",
+    "inspect": "tacz:p90/p90_inspect",
+    "inspect_empty": "tacz:p90/p90_inspect_empty",
+    "draw": "tacz:p90/p90_draw",
+    "put_away": "tacz:p90/p90_put_away",
+    "shoot": "emxcust:trisguns/tris_shoot71",
+    "shoot_3p": "tacz:p90/p90_shoot_3p",
+    "silence": "tacz:p90/p90_silence",
+    "dry_fire": "emxcust:trisguns/emx_dw2",
+    "fire_select": "emxcust:trisguns/emx_mode",
+    "head_hit": "emxcust:head_hit",
+    "flesh_hit": "emxcust:flesh_hit",
+    "kill": "emxcust:kill",
+    "silence_3p": "tacz:p90/p90_silence_3p",
+    "melee_push": "tacz:melee_stock/melee_stock_03",
+    "melee_stock": "tacz:melee_stock/melee_stock_01"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

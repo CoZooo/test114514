@@ -1,0 +1,15 @@
+{
+	"defense_style":{
+		"yuusha":80,
+		"hit":95,
+		"slash":95,
+		"stab":95,
+		"bash":95,
+		"projectile":95,
+		"explosion":95,
+		"magic":95,
+		"bite":95,
+		"environment":95
+	},
+	"biome_dependency":false
+}

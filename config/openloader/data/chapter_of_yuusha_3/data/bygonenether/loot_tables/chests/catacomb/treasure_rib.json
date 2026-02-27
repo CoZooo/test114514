@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:crying_obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "bygonenether:wither_waltz_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:ancient_debris"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:wither_skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "enigmaticlegacy:darkest_scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "crockpot:hoglin_nose"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:gambling_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:removal_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:reverse_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "eidolon:crimson_gem"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:gambling_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:removal_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "majruszsaccessories:reverse_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "enigmaticlegacy:golden_ring"
+        }
+      ]
+    }
+  ]
+}

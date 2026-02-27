@@ -1,0 +1,9 @@
+{
+	"weight": 0.2,
+	"aim_inaccuracy": {
+    "addend": -0.3
+	},
+	"head_shot":{
+		"addend": 0.15
+	}
+}

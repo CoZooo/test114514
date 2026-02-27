@@ -1,0 +1,28 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:rodai_wooden",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "slashblade:slashblade"
+    },
+    "P": {
+      "item": "slashblade:proudsoul_tiny"
+    },
+    "S": {
+      "item": "locusazzurro_icaruswings:linen_string"
+    },
+    "W": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "pattern": [
+    "  P",
+    " B ",
+    "WS "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

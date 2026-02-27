@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "gauntlets:quick_diamond_gauntlet"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "gauntlets:quick_netherite_gauntlet"
+  }
+}

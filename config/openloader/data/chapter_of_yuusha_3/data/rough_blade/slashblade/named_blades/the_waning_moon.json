@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 20
+    }
+  ],
+  "name": "rough_blade:the_waning_moon",
+  "properties": {
+    "attack_base": 1000.0,
+    "max_damage": 2000,
+    "slash_art": "chapter_of_yuusha_3_core:synced_health_bypass",
+
+    "special_effects": [
+      "rough_blade:the_waning_moon"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "rough_blade:models/the_waning_moon.obj",
+    "summon_sword_color": 1644912,
+    "texture": "rough_blade:textures/model/the_waning_moon.png"
+  }
+}

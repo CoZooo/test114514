@@ -1,0 +1,33 @@
+{
+	"name": "迦塞尔果",
+	"icon": "distant_worlds:garsale_fruit",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 3,
+	"advancement": "distant_worlds:does_it_smile",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_fruit",
+			"link_recipe": "true",
+			"text": "从迦塞尔树叶子上，你有很小几率获得迦塞尔果实，由于其治疗特性，它可以降低迦赫纳的损耗率。它可以被制成营养丰富的迦塞尔蛋糕或迦塞尔药剂，可以进一步减少消耗并提供临时保护。为了方便起见，迦塞尔果可以储存在大箱子里。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Related Recipes",
+			"recipe": "distant_worlds:garsale_cake_recipe",
+			"recipe2": "distant_worlds:garsale_elixir_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"title": "Storage in Boxes",
+			"recipe": "distant_worlds:garsale_fruit_box_recipe",
+			"recipe2": "distant_worlds:garsale_fruit_recipe"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees"
+			]
+		}
+	]
+}

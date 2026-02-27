@@ -1,0 +1,41 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "moonstone:greedcrystal"
+    },
+    {
+      "item": "moonstone:ectoplasmball"
+    },
+    {
+      "item": "moonstone:warcrystal"
+    }
+  ],
+  "output": {
+    "item": "moonstone:universe",
+	"count": 1
+  },
+  "tablet": {
+    "tag": "minecraft:decorated_pot_sherds"
+  }
+}

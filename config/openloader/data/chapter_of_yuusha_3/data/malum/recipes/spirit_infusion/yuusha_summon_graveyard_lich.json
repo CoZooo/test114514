@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "enigmaticlegacy:astral_dust",
+    "count": 1
+  },
+  "output": {
+    "item": "moonstone:nightmare_base_fool_bone",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_graveyard_lich",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

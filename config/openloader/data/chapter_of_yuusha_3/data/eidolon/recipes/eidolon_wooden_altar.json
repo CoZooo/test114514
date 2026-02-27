@@ -1,0 +1,23 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "reagents": "CCCC",
+  "key": {
+    "A": {
+      "item": "eidolon:polished_planks_slab"
+    },
+    "B": {
+      "item": "eidolon:polished_planks"
+    },
+    "C": {
+      "item": "goety:magic_emerald"
+    }
+  },
+  "result": {
+    "item": "eidolon:wooden_altar"
+  }
+}

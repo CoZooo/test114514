@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 13
+    },
+    {
+      "item": {
+        "item": "celestial_core:sakura_fragment"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_pulse_sc"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

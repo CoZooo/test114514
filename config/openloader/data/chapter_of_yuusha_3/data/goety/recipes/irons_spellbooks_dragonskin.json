@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:dragon_egg"
+  },
+  "craftType": "end",
+  "soulCost": 500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "yuusha:moon_core"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "yuusha:moon_core"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "yuusha:moon_core"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "yuusha:moon_core"
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:dragonskin",
+	"count": 64
+  }
+}

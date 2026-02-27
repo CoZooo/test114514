@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": false,
+	"title": "魔力",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "eidolon:bonechill_wand"
+		}
+	},
+	"background": "textures/block/tube_coral_block.png"
+}

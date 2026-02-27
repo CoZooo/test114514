@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BDB",
+    "DAD",
+    "BDB"
+  ],
+  "reagents": "E   ",
+  "key": {
+    "A": {
+      "item": "cataclysm:desert_eye"
+    },
+    "B": {
+      "item": "yuusha:ectoplasm_string"
+    },
+    "D": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "E": {
+      "tag": "cthulhufishing:crimson"
+    }
+  },
+  "result": {
+    "item": "cataclysm:necklace_of_the_desert"
+  }
+}

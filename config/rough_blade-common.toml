@@ -1,0 +1,15 @@
+#power mode open or close
+Power = true
+#rank boost damage mode open or close
+Rank_damage = true
+#Cant_other_entity_teleport_to_dimension mode open or close
+CANT_OTHER_ENTITY_TELEPORT_TO_DIMENSION = true
+#close text render
+CLOSE_TEXT_RENDER = false
+#OLD_TEXT_RENDER_ALAWAYS mode open or close
+Old_Text_Render = false
+#NEW_TEXT_RENDER_ALAWAYS mode open or close
+NEW_TEXT_RENDER_ALAWAYS = false
+#COMBO_SCREEN open or close
+COMBO_SCREEN = true
+

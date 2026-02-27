@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "slashblade:proudsoul"
+    },
+    {
+      "count": 4,
+      "item": "irons_spellbooks:blood_vial"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:lost_blade_fake"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "celestial_artifacts:gold_ring"
+  },
+  "output": {
+    "count": 1,
+    "item": "chapter_of_yuusha_3_core:cy3_excessive_treatment"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 16
+    },
+    {
+      "type": "sacred",
+      "count": 16
+    },
+    {
+      "type": "infernal",
+      "count": 8
+    }
+  ]
+}

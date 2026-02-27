@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.muzzle_chasing_light.name",
+  "display": "eos:muzzle_chasing_light_display",
+  "data": "eos:muzzle_chasing_light_data",
+  "type": "muzzle",
+  "sort": 256
+}

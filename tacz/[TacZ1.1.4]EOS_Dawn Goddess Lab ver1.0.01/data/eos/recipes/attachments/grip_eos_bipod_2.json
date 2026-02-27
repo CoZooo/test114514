@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:grip_eos_bipod_2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

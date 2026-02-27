@@ -1,0 +1,58 @@
+{
+	"enchantment.enigmaticlegacy.ceaseless": "无尽弩箭",
+
+	"tooltip.enigmaticlegacy.miningCharm4": "§5该效果可通过将护符拿在手上§6右击§5关闭。",
+    "tooltip.enigmaticlegacy.miningCharm5": "§5需头顶有不透明方块遮挡才会生效。",
+
+	"enchantment.enigmaticlegacy.sharpshooter.desc": "可以附在弩上的附魔，效果与弓的力量附魔基本相同，增加箭矢的伤害并减少伤害随机性",
+    "enchantment.enigmaticlegacy.ceaseless.desc": "可以附在弩上的附魔，效果与弓的无限附魔基本相同，射击时不会消耗常规箭矢",
+    "enchantment.enigmaticlegacy.torrent.desc": "此附魔会增加三叉戟对火焰免疫和怕水的生物的伤害",
+    "enchantment.enigmaticlegacy.wrath.desc": "一个三叉戟专属的附魔，类似于剑和斧的锋利附魔，增加三叉戟造成的伤害。对近战和远程攻击均有效",
+    "enchantment.enigmaticlegacy.slayer.desc": "可以为你的剑和斧头增加对所有怪物的伤害，与锋利、亡灵杀手和节肢杀手互斥，被攻击的怪物会被短暂减速",
+
+	"enchantment.enigmaticlegacy.nemesis": "复仇诅咒（禁止玩家使用）",
+	"enchantment.enigmaticlegacy.nemesis.desc": "对使用者造成反弹伤害，威力为近战伤害的25%（玩家无法使用有该附魔的武器）",
+	
+	"tooltip.enigmaticlegacy.enchantersPearl6": "§5附魔操作仍需要§6青金石§5。",
+  "item.enigmaticlegacy.architect_eye": "全知之眼",
+  
+  "item.enigmaticlegacy.loot_generator": "无尽财宝箱",
+  "item.enigmaticlegacy.cursed_ring": "无咒之戒",
+  "tooltip.enigmaticlegacy.worthyOnesOnly2": "§5你必须在自来到世界以来§699%§的时间",
+  "stat.enigmaticlegacy.play_time_with_seven_curses": "游戏时间（佩戴无咒之戒时）",
+  "stat.enigmaticlegacy.play_time_without_seven_curses": "游戏时间（没有佩戴无咒之戒）",
+  "tooltip.enigmaticlegacy.cursedOnesOnly1": "承受无咒之人",
+  "tooltip.enigmaticlegacy.cursedOnesOnly2": "才能使用该物品",
+  "tooltip.enigmaticlegacy.worthyOnesOnly3": "§5都在无咒的指引下度过。",
+  "tooltip.enigmaticlegacy.cursedStone3": "§5你所佩戴的§6无咒之戒§5与你的",
+
+  "advancement.enigmaticlegacy:cursedRing": "前途不再黑暗，圆环之理之下",
+  "advancement.enigmaticlegacy:cursedRing.desc": "过去和未来的所有魔女均消灭在诞生之前",
+
+    "tooltip.enigmaticlegacy.cursedRingLore1": "§5这是由圆环之理法则重构后的世界",
+    "tooltip.enigmaticlegacy.cursedRingLore2": "§5世界上存在着各种魔兽和外神造物",
+    "tooltip.enigmaticlegacy.cursedRingLore3": "§5你已与丘比签订契约成为马猴烧酒",
+    "tooltip.enigmaticlegacy.cursedRingLore4": "§5马猴烧酒在死亡后不再陷入魔女化",
+    "tooltip.enigmaticlegacy.cursedRingLore5": "§5而是由圆环之理接管终结",
+    "tooltip.enigmaticlegacy.cursedRingLore6": "§5希望和奇迹是永远存在的",
+    "tooltip.enigmaticlegacy.cursedRingLore7": "§5但是或许需要一定的代价",
+
+  "tooltip.enigmaticlegacy.cursedRing3": "§d受到圆环之理的指引，诅咒已减弱：",
+  "tooltip.enigmaticlegacy.cursedRing4": "§5- 你不再因此戒指受到伤害加深",
+  "tooltip.enigmaticlegacy.cursedRing4_alt": "§5- 你不再因此戒指受到伤害加深",
+  "tooltip.enigmaticlegacy.cursedRing5": "§5- 中立生物（除蜜蜂等）在4格内才主动攻击你",
+  "tooltip.enigmaticlegacy.cursedRing6": "§5- 盔甲效力降低 §6%1$s",
+  "tooltip.enigmaticlegacy.cursedRing7": "§5- 你对怪物的伤害降低 §6%1$s§5",
+  "tooltip.enigmaticlegacy.cursedRing8": "§5- 一旦着火，火焰将会永远灼烧着你",
+  "tooltip.enigmaticlegacy.cursedRing9": "§5- 每次死亡都会使你的灵魂破裂",
+  "tooltip.enigmaticlegacy.cursedRing10": "§5- 失眠症已被治愈",
+  "tooltip.enigmaticlegacy.cursedRing11": "§d受到圆环之理的指引，祝福已调整：",
+  "tooltip.enigmaticlegacy.cursedRing12": "§5- §6+%1$s§d 抢夺等级",
+  "tooltip.enigmaticlegacy.cursedRing13": "§5- §6+%1$s§d 时运等级",
+  "tooltip.enigmaticlegacy.cursedRing14": "§5- §6+%1$s§5 掉落的§d经验§",
+  "tooltip.enigmaticlegacy.cursedRing15": "§5- §6+%1$s§5 在附魔台中的§d附魔能力",
+  "tooltip.enigmaticlegacy.cursedRing16": "§5- 一些生物开始产出独特掉落物。",
+  "tooltip.enigmaticlegacy.cursedRing17": "§5- 获得§6末影之戒§5的效果",
+  "tooltip.enigmaticlegacy.cursedRing18": "§5- 你可以制作和使用独特遗物",
+  "item.enigmaticlegacy.enigmatic_item": "绝对AT力场核心"
+}

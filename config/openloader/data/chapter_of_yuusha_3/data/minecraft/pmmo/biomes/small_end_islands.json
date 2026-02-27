@@ -1,0 +1,11 @@
+{
+	"travel_req":{
+        "love": 300
+    },
+	"negative_effect":{
+        "castle_in_the_sky:sacred_castle_effect": 3,
+        "distant_worlds:suppression": 3
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+	"mob_multiplier":{}
+}

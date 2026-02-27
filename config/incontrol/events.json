@@ -1,0 +1,40 @@
+[
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "born_in_chaos_v1:maggot",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.35
+    },
+    "spawn": {
+      "mob": "born_in_chaos_v1:maggot",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 2,
+      "norestrictions": true,
+      "attempts": 5
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "minecraft:zombie",
+      "player": true
+    },
+    "conditions": {
+      "random": 1.0
+    },
+    "spawn": {
+      "mob": "born_in_chaos_v1:maggot",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 2,
+      "norestrictions": true,
+      "attempts": 2
+    }
+  }
+]

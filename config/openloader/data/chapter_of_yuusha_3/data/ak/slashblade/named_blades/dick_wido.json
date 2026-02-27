@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "name": "ak:dick_wido",
+  "properties": {
+    "attack_base": 44.0,
+    "max_damage": 88,
+    "slash_art": "slashblade_addon:fire_spiral",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "ak:model/named/dick_wido/sange.obj",
+    "summon_sword_color": -1169920,
+    "texture": "ak:model/named/dick_wido/blood.png"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.scope_eos_eh_72_hud_sight.name",
+  "display": "eos:scope_eos_eh_72_hud_sight_display",
+  "data": "eos:scope_eos_eh_72_hud_sight_data",
+  "type": "scope",
+  "sort": 256
+}

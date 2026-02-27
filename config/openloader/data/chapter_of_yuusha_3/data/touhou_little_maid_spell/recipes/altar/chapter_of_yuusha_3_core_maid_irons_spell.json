@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "chapter_of_yuusha_3_core:maid_irons_spell",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.2,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "wizards_reborn:arcanum_lens"
+    },
+    {
+      "item": "wizards_reborn:arcanum_lens"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "cataclysm:abyssal_egg"
+    }
+  ]
+}

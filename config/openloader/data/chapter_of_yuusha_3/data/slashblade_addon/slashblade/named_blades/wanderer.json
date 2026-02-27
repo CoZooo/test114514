@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "majruszsenchantments:leech",
+      "lvl": 1
+    },
+    {
+      "id": "elementalcombat:wind_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:wanderer",
+  "properties": {
+    "attack_base": 28.0,
+    "max_damage": 56,
+    "slash_art": "ak:liulifan_city",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "slashblade_addon:model/wanderer/wanderer.obj",
+	"summon_sword_color": 11526116,
+    "texture": "slashblade_addon:model/wanderer/wanderer.png"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon_tamed",
+  "activation_item": {
+    "item": "yuusha:dice_12"
+  },
+  "craftType": "necroturgy",
+  "entity_to_convert": {
+    "tag": "goety:necromancer_servant",
+    "display_name": "entity.goety_iron.necromancer_servant"
+  },
+  "entity_to_summon": "goety_iron:dead_king_servant",
+  "soulCost": 4500,
+  "duration": 10,
+  "research": "terminus",
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:blood_staff"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "irons_spellbooks:necronomicon_spell_book"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    {
+      "item": "irons_spellbooks:blood_rune"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

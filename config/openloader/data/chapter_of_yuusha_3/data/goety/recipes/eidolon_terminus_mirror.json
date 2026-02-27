@@ -1,0 +1,37 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:star_amulet"
+  },
+  "craftType": "end",
+  "entity_to_sacrifice": {
+    "tag": "goety:ender_dragon",
+    "display_name": "entity.minecraft.ender_dragon"
+  },
+  "soulCost": 8000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    },
+    {
+      "item": "enigmaticlegacy:astral_dust"
+    }
+  ],
+  "result": {
+    "item": "eidolon:terminus_mirror"
+  }
+}

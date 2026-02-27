@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "frost",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:chill_fabric"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "goety:chill_fabric"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "irons_spellbooks:permafrost_shard"
+    }
+  ],
+  "result": {
+    "item": "goety:frost_staff"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 3,
+  "emberPerHit": 25,
+  "input": {
+    "item": "goety:dark_robe"
+  },
+  "numberOfHits": 4,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:grand_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:necro_cape"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:illusion_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:frost_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:wind_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:wild_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:abyss_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:void_robe"
+    },
+    {
+      "chance": 10.0,
+      "count": 1,
+      "item": "goety:nether_robe"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

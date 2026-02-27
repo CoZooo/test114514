@@ -1,0 +1,18 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "cataclysm:scylla",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 24 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "yuusha:summon_scylla" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

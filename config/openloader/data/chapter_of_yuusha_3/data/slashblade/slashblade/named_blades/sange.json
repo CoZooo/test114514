@@ -1,0 +1,22 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:sange",
+  "properties": {
+    "attack_base": 36.0,
+    "max_damage": 72,
+    "slash_art": "slashblade:void_slash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/sange/sange.obj",
+	"summon_sword_color": 132112255,
+    "texture": "slashblade:model/named/sange/sange.png"
+  }
+}

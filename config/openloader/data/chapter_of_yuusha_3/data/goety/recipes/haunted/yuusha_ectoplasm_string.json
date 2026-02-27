@@ -1,0 +1,8 @@
+{
+  "type": "goety:cursed_infuser_recipes",
+  "ingredient": {
+    "item": "locusazzurro_icaruswings:linen_string"
+  },
+  "result": "yuusha:ectoplasm_string",
+  "cookingTime": 60
+}

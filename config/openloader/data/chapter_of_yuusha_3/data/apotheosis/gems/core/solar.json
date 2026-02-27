@@ -1,0 +1,71 @@
+{
+	"variant": "solar",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+		"infinite_abyss:sixth_layer",
+		"minecraft:overworld",
+		"minecraft:the_nether",
+		"minecraft:the_end"
+	],
+	"unique": true,
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "attributeslib:fire_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1000,
+				"uncommon": 2000,
+				"rare": 3000,
+				"epic": 4000,
+				"mythic": 5000,
+				"ancient": 10000
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate", "leggings"
+				]
+			},
+			"attribute": "forge:entity_gravity",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.15,
+				"epic": 0.20,
+				"mythic": 0.25,
+				"ancient": 0.50
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"attribute": "forge:step_height_addition",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 1,
+				"epic": 1.5,
+				"mythic": 2,
+				"ancient": 4
+			}
+		}
+	]
+}

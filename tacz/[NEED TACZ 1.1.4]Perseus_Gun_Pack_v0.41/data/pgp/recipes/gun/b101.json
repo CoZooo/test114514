@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "hmag:crimson_bow"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:restored_fallen_relic_offensive"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pgp:b101",
+    "ammo_count": 0
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

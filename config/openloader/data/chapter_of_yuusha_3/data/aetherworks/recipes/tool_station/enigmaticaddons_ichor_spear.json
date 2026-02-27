@@ -1,0 +1,26 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "crockpot:volt_goat_horn"
+    },
+    {
+      "item": "yuusha:gold_skull"
+    },
+    {
+      "item": "call_of_yucutan:hematite"
+    },
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    }
+  ],
+  "output": {
+    "item": "enigmaticaddons:ichor_spear",
+    "count": 8
+  },
+  "temperature": 2100,
+  "temperature_rate": 12.0
+}

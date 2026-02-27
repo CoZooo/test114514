@@ -1,0 +1,85 @@
+{
+  "model": "pgp:gun/z750_geo",
+  "texture": "pgp:gun/uv/z750",
+  "lod": {
+    "model": "pgp:gun/lod/z750lod_geo",
+    "texture": "pgp:gun/lod/z750"
+  },
+  "hud": "pgp:gun/hud/z750_hud",
+  "slot": "pgp:gun/slot/z750",
+  "damage_style": "per_projectile",
+  "animation": "pgp:z750",
+  "state_machine": "pgp:pgp_state_machine",
+  "use_default_animation": "rifle",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.6, 1.6, 1.6]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "pgp:flash/green_muzzleflash",
+    "scale": 0
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot_3p": "pgp:z750/z750_shoot",
+    "fire_select": "pgp:z750/z750_fire_select",
+    "silence": "pgp:z750/z750_silence",
+    "silence_3p": "pgp:z750/z750_silence_3p",
+    "reload_empty": "pgp:z750/z750_reload_empty",
+    "reload_tactical": "pgp:z750/z750_reload_tactical",
+    "reload_empty_scattering": "pgp:z750/z750_reload_empty",
+    "reload_tactical_scattering": "pgp:z750/z750_reload_tactical",
+    "inspect": "pgp:z750/z750_inspect",
+    "inspect_empty": "pgp:z750/z750_inspect",
+    "inspect_scattering": "pgp:z750/z750_inspect",
+    "inspect_empty_scattering": "pgp:z750/z750_inspect",
+    "draw": "pgp:z750/z750_draw",
+    "draw_scattering": "pgp:z750/z750_draw",
+    "put_away": "pgp:z750/z750_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02",
+    "dry_fire": "pgp:z750/z750_dry_fire",
+    "bolt": "pgp:z750/z750_bolt",
+    "bolt_scattering": "pgp:z750/z750_bolt"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "text_show": {
+    // 定位组名，与模型中的组名对应。
+    "ammo_count_text_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "right",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#ffffff",
+      // 亮度：1-15
+      "light": 15,
+      // 支持在语言文件中定义，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  }
+}

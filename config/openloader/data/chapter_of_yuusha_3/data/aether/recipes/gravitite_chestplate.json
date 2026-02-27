@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "item": "aether_redux:gravitite_ingot"
+  },
+  "result": {
+    "item": "aether:gravitite_chestplate"
+  },
+  "template": {
+    "item": "cthulhufishing:relic"
+  }
+}

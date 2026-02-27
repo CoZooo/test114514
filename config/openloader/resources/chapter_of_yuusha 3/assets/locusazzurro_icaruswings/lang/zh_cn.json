@@ -1,0 +1,13 @@
+{
+  "item.locusazzurro_icaruswings.golden_feather_helmet": "金羽灰烬之冠",
+  "item.locusazzurro_icaruswings.sapphire_gem": "炽星宝石",
+  "item.locusazzurro_icaruswings.blue_topaz_gem": "异界宝石",
+  "item.locusazzurro_icaruswings.ultramarine_gem": "紫心刚玉",
+  "item.locusazzurro_icaruswings.golden_feather": "神圣金羽毛",
+  "item.locusazzurro_icaruswings.golden_feather_bunch": "神圣金羽毛扎",
+  "enchantment.locusazzurro_icaruswings.collision_protection.desc": "羽翼附魔，降低飞行撞击伤害，触发时会随抵消伤害量消耗一定耐久。",
+  "enchantment.locusazzurro_icaruswings.pyrotechnic_affinity.desc": "羽翼附魔，提升飞行时使用烟花提供的助推时长。",
+  "enchantment.locusazzurro_icaruswings.blessing_of_the_sky.desc": "羽翼宝藏附魔，飞行时火焰、爆炸、熔岩和魔法伤害减半。",
+  "block.locusazzurro_icaruswings.greek_fire": "希腊火",
+  "block.locusazzurro_icaruswings.flax": "亚麻苗"
+}

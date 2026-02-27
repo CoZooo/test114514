@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:ender_pocket",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.5,
+  "ingredients": [
+    {
+      "item": "minecraft:ender_chest"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    {
+      "item": "aether:ambrosium_block"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    }
+  ]
+}

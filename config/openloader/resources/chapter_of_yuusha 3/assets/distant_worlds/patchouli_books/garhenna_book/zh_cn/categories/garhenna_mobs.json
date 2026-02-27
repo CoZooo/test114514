@@ -1,0 +1,6 @@
+{
+	"name": "怪物",
+	"description": "该类别包含由迦赫纳维度添加的所有怪物的摘要。",
+	"icon": "distant_worlds:textures/screens/garhenna_mobs_icon.png",
+	"sortnum": 4
+}

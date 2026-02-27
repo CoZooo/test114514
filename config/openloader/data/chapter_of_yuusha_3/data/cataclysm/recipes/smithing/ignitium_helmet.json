@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+    },
+    "base": {
+        "item": "born_in_chaos_v1:dark_metal_armor_helmet"
+    },
+    "result": {
+        "item": "cataclysm:ignitium_helmet"
+    },
+    "template": {
+        "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+}

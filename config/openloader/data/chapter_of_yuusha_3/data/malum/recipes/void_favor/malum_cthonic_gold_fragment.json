@@ -1,0 +1,9 @@
+{
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "aether:golden_amber"
+  },
+  "output": {
+    "item": "malum:cthonic_gold_fragment"
+  }
+}

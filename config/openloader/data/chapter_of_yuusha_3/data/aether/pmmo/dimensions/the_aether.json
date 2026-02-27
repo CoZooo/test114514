@@ -1,0 +1,22 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 2.50,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "attributeslib:knowledge": 0,
+        "goety:flimsy": 4,
+        "minecraft:slow_falling": 0,
+		"attributeslib:sundering": 0
+    },
+    "travel_req":{
+        "flying": 5
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

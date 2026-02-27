@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "theinkarena:soul_slasher"
+  },
+  "craftType": "forge",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:savage_tooth"
+    },
+    {
+      "item": "goety:hunger_core"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    },
+    {
+      "tag": "goety:haunted_logs"
+    },
+    {
+      "item": "eidolon:unholy_symbol"
+    },
+    {
+      "item": "goety:occult_fabric"
+    }
+  ],
+  "result": {
+    "item": "goety:dark_scythe"
+  }
+}

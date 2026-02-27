@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hmag:evil_crystal_block"
+    },
+    {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    {
+      "tag": "forge:storage_blocks/emerald"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    },
+    {
+      "item": "yuusha:magic_dust"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "buzzier_bees:four_leaf_clover"
+    },
+    {
+      "tag": "minecraft:music_discs"
+    },
+    {
+      "item": "distant_worlds:glowing_pollen"
+    }
+  ],
+  "result": {
+    "item": "hmag:fortune_crystal",
+	"count": 4
+  }
+}

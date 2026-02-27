@@ -1,0 +1,32 @@
+{
+	"name": "迦塞尔树",
+	"icon": "distant_worlds:garsale_sapling",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 2,
+	"advancement": "distant_worlds:sticky_marshes_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_sapling",
+			"link_recipe": "true",
+			"text": "迦塞尔树经常出现在粘液沼泽生物群系中，你可以用树苗种植，包括4棵相邻树苗。这些树是由迦塞尔木制成的，可以剥皮或回收成各种其他装饰性和功能性方块。碎裂的迦塞尔木偶尔会在树上出现，随着时间的推移，它会被一层泄漏的黏液覆盖，变成粘液迦塞尔木。粘液迦塞尔木上的黏液可以被整齐地少量收集多次，或者只在剥离时和粘液迦塞尔树皮一起收集一次。"
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:garsale_slime",
+			"text": "迦塞尔黏液也可以在高温下从粘液迦塞尔树皮中提取。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:garsale_lantern",
+			"link_recipe": "true",
+			"text": "迦塞尔树的顶部经常生长迦塞尔灯笼，可以用作装饰，也可以在很小几率下产生发光花粉。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_fruit"
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "yuusha:ectoplasm_string"
+    },
+    {
+      "item": "yuusha:ectoplasm_string"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    {
+      "item": "irons_spellbooks:permafrost_shard"
+    }
+  ],
+  "result": {
+    "item": "goety:chill_fabric",
+    "count": 4
+  }
+}

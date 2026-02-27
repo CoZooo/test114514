@@ -1,0 +1,41 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:yamato",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 50000,
+        "refine": 5,
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ]
+      }
+    },
+    "P": {
+      "item": "yuusha:chaos_ingot"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "D": {
+      "item": "yuusha:tomb_stone"
+    },
+    "E": {
+      "item": "immortalers_delight:enchanted_golden_himekaido"
+    }
+  },
+  "pattern": [
+    "PDP",
+    "CBC",
+    "PEP"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

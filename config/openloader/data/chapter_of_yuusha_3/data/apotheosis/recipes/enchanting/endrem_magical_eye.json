@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "endrem:cursed_eye"
+	},
+	"requirements": {
+		"eterna": 15,
+		"quanta": 10,
+		"arcana": 5
+	},
+	"result": {
+		"item": "endrem:magical_eye",
+		"count": 1
+	}
+}

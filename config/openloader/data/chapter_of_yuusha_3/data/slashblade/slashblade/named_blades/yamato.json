@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:soul_speed",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:darkness_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:yamato",
+  "properties": {
+    "attack_base": 67.0,
+	"max_damage": 134,
+	"slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade:model/named/yamato.obj",
+	"summon_sword_color": 4265029,
+    "texture": "slashblade:model/named/yamato.png"
+  }
+}

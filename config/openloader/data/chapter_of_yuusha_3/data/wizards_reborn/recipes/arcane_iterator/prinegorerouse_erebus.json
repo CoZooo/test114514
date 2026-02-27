@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:erebus",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:maledictus_pact"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "eeeabsmobs:immortal_debris"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    }
+  ]
+}

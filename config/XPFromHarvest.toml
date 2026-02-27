@@ -1,0 +1,13 @@
+#Chance in % of XP orb spawning after harvest done
+#Range: 1 ~ 100
+Chance = 100
+#Amount of XP given
+#Range: > 1
+"XP Amount" = 10
+#Enable simple harvesting and replanting with right click
+"Simple Harvest" = false
+#List of crops to process with their ages
+"Crops List" = ["Block{minecraft:potatoes}[age=7]", "Block{minecraft:carrots}[age=7]", "Block{minecraft:wheat}[age=7]", "Block{minecraft:beetroots}[age=3]", "Block{minecraft:nether_wart}[age=3]", "Block{farmersdelight:cabbages}[age=7]", "Block{farmersdelight:tomatoes}[age=3]", "Block{farmersdelight:onions}[age=7]", "Block{farmersdelight:rice_upper_crop}[age=3]", "Block{farmersdelight:brown_mushroom_colony}[age=3]", "Block{farmersdelight:red_mushroom_colony}[age=3]", "Block{crockpot:onions}[age=7]", "Block{crockpot:eggplants}[age=7]", "Block{crockpot:corns}[age=7]", "Block{crockpot:asparaguses}[age=7]", "Block{crockpot:peppers}[age=7]", "Block{crockpot:tomatoes}[age=7]", "Block{forbidden_arcanus:golden_orchid}[age=6]", "Block{farmersdelight:wild_carrots}", "Block{farmersdelight:wild_potatoes}", "Block{farmersdelight:wild_cabbages}", "Block{farmersdelight:wild_onions}", "Block{farmersdelight:wild_beetroots}", "Block{farmersdelight:wild_tomatoes}", "Block{farmersdelight:wild_rice}", "Block{locusazzurro_icaruswings:flax}[age=7]"]
+#Curiosity Mode: sneak + right click with on block to get info in chat
+Curiosity = false
+

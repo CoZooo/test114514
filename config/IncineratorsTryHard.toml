@@ -1,0 +1,66 @@
+
+#Incinerator's Try Hard Config
+["The Incinerator"]
+	#Range: 1 ~ 100
+	"Charging time (ticks) of The Incinerator" = 60
+	#Range: 1 ~ 100
+	"(Client Only) Max Charging time (ticks) to Form the Biggest Magic Circle underfoot when charging" = 60
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Basic Damage dealt by The Incinerator's Skill" = 6.0
+	#Range: 0.0 ~ 100.0
+	"Max Health Damage Percentage dealt by The Incinerator's Skill" = 2.0
+	#Range: 0.0 ~ 100.0
+	"The Radius of the ignis circles released by The Incinerator's Skill" = 1.0
+
+["The Immolator"]
+	#Range: 1 ~ 100
+	"Charging time (ticks) of The Immolator" = 45
+	#Range: 1 ~ 100
+	"(Client Only) Max Charging time (ticks) to Form the Biggest Magic Circle underfoot when charging" = 45
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Basic Ignis Circle Damage dealt by The Immolator's Skill" = 6.0
+	#Range: 0.0 ~ 100.0
+	"Max Health Damage Percentage dealt by The Immolator's Skill" = 2.0
+	#Range: 0.0 ~ 100.0
+	"The Radius of the ignis circles released by The Immolator's Skill" = 2.5
+	#Range: 0.01 ~ 250.0
+	"[Questionable, maybe unused method] The Radius of the Quake released by The Immolator's Skill" = 6.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"[Questionable, maybe unused method] Quake Damage Multiplier of The Immolator's Skill" = 2.0
+
+["Tidal Claws"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Tentacle Damage released by Tidal Claws" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Tentacle's First Detection Range released by Tidal Claws" = 16.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Tentacle's Second Detection Range released by Tidal Claws" = 16.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Hook's Max Range released by Tidal Claws" = 30.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Hook's Max Speed released by Tidal Claws" = 12.0
+
+["Gauntlet of Bulwark"]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Charge Damage Multiplier Of Gauntlet Of Bulwark" = 1.2
+
+["Bloom Stone Pauldrons"]
+	#Range: > 1
+	"Cooldown time (ticks) of Bloom Stone Pauldrons to shoot Amethyst Cluster" = 240
+
+["The Annihilator"]
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Skill Range Of The Annihilator" = 6.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Skill Damage Multiplier Of The Annihilator" = 2.0
+	#Range: 1 ~ 1000
+	"Charging time (ticks) of The Annihilator" = 40
+	#Range: > 1
+	"Skill Cooldown time (ticks) of The Annihilator" = 100
+
+["Gauntlet of Guard"]
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Attraction Radius Of Gauntlet Of Guard" = 11.0
+	#Range: 0.01 ~ 1.7976931348623157E308
+	"Scale of Normalized Attraction Vector Of Gauntlet Of Bulwark" = 0.1
+

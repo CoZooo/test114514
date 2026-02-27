@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/copper"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    },
+    {
+      "tag": "forge:dusts/ash"
+    },
+    {
+      "item": "malum:blighted_gunk"
+    }
+  ],
+  "output": {
+    "item": "embers:ashen_fabric",
+	"count": 4
+  },
+  "tablet": {
+    "tag": "minecraft:wool"
+  }
+}

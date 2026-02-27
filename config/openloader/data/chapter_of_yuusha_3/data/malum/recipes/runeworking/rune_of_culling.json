@@ -1,0 +1,14 @@
+{
+  "type": "malum:runeworking",
+  "output": {
+    "item": "malum:rune_of_culling"
+  },
+  "primaryInput": {
+    "count": 1,
+    "item": "wizards_reborn:innocent_wood_trim"
+  },
+  "secondaryInput": {
+    "count": 16,
+    "item": "malum:umbral_spirit"
+  }
+}

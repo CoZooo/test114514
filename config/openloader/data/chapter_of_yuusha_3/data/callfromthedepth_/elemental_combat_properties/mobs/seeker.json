@@ -1,0 +1,10 @@
+{
+	"defense_element":{
+		"light":-50
+	},
+	"defense_style":{
+		"slash":-50,
+		"magic":50
+	},
+	"biome_dependency":false
+}

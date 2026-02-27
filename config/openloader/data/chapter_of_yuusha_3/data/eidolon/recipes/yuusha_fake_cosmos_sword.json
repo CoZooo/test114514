@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "FDF",
+    "DAD",
+    "FDF"
+  ],
+  "reagents": "BECE",
+  "key": {
+    "A": {
+      "item": "yuusha:emper_core"
+    },
+    "B": {
+      "item": "yuusha:yuusha_medal"
+    },
+    "C": {
+      "item": "goety_revelation:apocalyptium_upgrade_smithing_template"
+    },
+    "D": {
+      "item": "enigmaticlegacy:storage_crystal"
+    },
+    "E": {
+      "item": "cataclysm:flame_eye"
+    },
+    "F": {
+      "item": "awakened_bosses:herobrine_block"
+    }
+  },
+  "result": {
+    "item": "yuusha:fake_cosmos_sword"
+  }
+}

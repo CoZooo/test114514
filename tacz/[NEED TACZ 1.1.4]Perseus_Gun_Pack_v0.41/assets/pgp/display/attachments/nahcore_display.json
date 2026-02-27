@@ -1,0 +1,13 @@
+{
+  "slot": "pgp:attachment/slot/nahcore",
+  "model": "pgp:attachment/nahcore_geo",
+  "texture": "pgp:attachment/uv/nahcore",
+  "lod": {
+    "model": "pgp:attachment/lod/nahcore_lod",
+    "texture": "pgp:attachment/lod/nahcore_lod"
+  },
+  "sounds": {
+    "install": "pgp:attachments/muzzle_general_d",
+    "uninstall": "pgp:attachments/muzzle_general_d"
+  }
+}

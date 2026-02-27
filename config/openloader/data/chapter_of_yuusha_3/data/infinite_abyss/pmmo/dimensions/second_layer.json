@@ -1,0 +1,20 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 0.75,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "goety:flammable": 249,
+		"born_in_chaos_v1:infernal_flame": 9,
+		"attributeslib:sundering": 4,
+		"distant_worlds:suppression": 3
+    },
+    "travel_req":{},
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

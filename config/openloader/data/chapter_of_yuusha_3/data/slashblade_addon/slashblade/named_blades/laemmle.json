@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:light_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:laemmle",
+  "properties": {
+    "attack_base": 26.0,
+    "max_damage": 52,
+    "slash_art": "ak:the_wrath_of_indra"
+  },
+  "render": {
+    "model": "slashblade_addon:model/laemmle/blade.obj",
+	"summon_sword_color": 16770560,
+    "texture": "slashblade_addon:model/laemmle/lem.png"
+  }
+}

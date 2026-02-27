@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 42
+    },
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "born_in_chaos_v1:smoldering_scorched_log"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "obscure_api:astral_dust"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:rpg7"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

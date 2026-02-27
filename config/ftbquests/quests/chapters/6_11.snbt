@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_11"
+	group: "13D24688CE1CFEDA"
+	icon: "goety_revelation:atonement_voucher"
+	id: "727E367DBE841106"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 12.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 21.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 22.5d
+			x: 4.5d
+			y: -0.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"只有开局选择『玩家是神魔』世界线，才可检测到完成此任务。"
+				""
+				"&c此路线下，无法获得咒龙之鳞、诅咒星尘、刻蚀板、终焉之尘，无法获得除邪祟之戒外的撒旦契约饰品、各种需刻蚀板制作的物品。"
+				""
+				"&e但是会有额外的饰品获取，以替代上述所需发展，详见此任务线。"
+			]
+			id: "2AF55A91464CE7C1"
+			rewards: [{
+				id: "0E6DCAA7C8980460"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「恶魔」"
+			tasks: [{
+				id: "79BBD6EAE9780127"
+				item: "yuusha:focus_5_none"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AF55A91464CE7C1"]
+			description: ["特定饰品会把无厄之册卸下，无厄之册会进入背包，请保存好后续任务有用。"]
+			icon: "chapter_of_yuusha_3_core:adaptation"
+			id: "6AD73E7392928C32"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip chapter_of_yuusha_3_core:adaptation{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}]} @s force"
+					elevate_perms: true
+					icon: "chapter_of_yuusha_3_core:adaptation"
+					id: "08B943A77DAABED1"
+					team_reward: true
+					title: "&c用特定饰品换下无厄之册（自动领取）"
+					type: "command"
+				}
+				{
+					id: "7D5D09245422BCFE"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1F6D7B0C6D4D56DE"
+				item: "yuusha:focus_5_none"
+				type: "item"
+			}]
+			title: "「世界」此岸魔女之册"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02D46D776D30C026"]
+			description: [
+				"物品栏内有神圣之石，死亡一次即可将佩戴的无咒之戒转变为无赎之戒。"
+				""
+				"&c需注意，无赎可用的无咒物品将被划分为两种：恩惠物品与背叛物品。对应悬浮文本将会变为：&e恩惠&c：“该物品依旧认可往日的经历，你可以安心使用”。&e背叛&c：“救赎勉强允许你使用该物品，但切莫贪心”。"
+				""
+				"&6恩惠物品可放心使用。背叛物品使用会增加无赎之戒的破损值，在破损值满后，无赎之戒会变为&e破损之戒&6，可能会导致卡关。尤其是背叛的饰品，会持续快速增加破损值。单纯使用背叛物品合成，破损值会自然回复。"
+				""
+				"&5如果想一命通关无赎，在极限模式时，让闪电击中该物品可让其附魔。手持附魔过的该物品右键时，会在玩家周围产生几道闪电束，若成功存活则会完成转变仪式。"
+			]
+			icon: "enigmaticaddons:bless_stone"
+			id: "4FAA88938920247F"
+			rewards: [
+				{
+					id: "77E4B021E84F63C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "enigmaticaddons:bless_stone"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4C8364698C9F53B5"
+					item: "yuusha:bless_star"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "713CB75313B95F18"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "celestial_artifacts:catastrophe_scroll"
+				}
+				type: "item"
+			}]
+			title: "神圣之石"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FAA88938920247F"]
+			description: [
+				"在顺利将无咒之戒转化为无赎之戒后，会完成「命运扭转」成就，并获得无赎核心物品。"
+				""
+				"&c无赎之星需要在赫尔菲斯托斯锻炉内制作，且需要放入无赎核心作为催化剂。"
+			]
+			icon: "yuusha:bless_core"
+			id: "1CA0F8ABA3F50C81"
+			rewards: [{
+				id: "6C9D4F990FC9B54B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6E1FB923323EB33B"
+					item: "yuusha:bless_core"
+					type: "item"
+				}
+				{
+					id: "4B8051AF2191ACD2"
+					item: "yuusha:bless_star"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: ["所造成伤害的2%会转变为伤害吸收。"]
+			id: "31AC8D07E9ABB45D"
+			rewards: [{
+				id: "5EE860F84DF5317D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32E1519A771B2104"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "chapter_of_yuusha_3_core:excessive_treatment"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: [
+				"无赎世界线专署饰品，替代勇者世界线恶魔之心饰品。"
+				""
+				"&c谨慎佩戴！部分Boss会因为失明而导致脱战而快速回血，还有部分Boss失明后会有特性，例如巨型迷离之眼会无限召唤小怪。"
+			]
+			id: "037BE9D2027DD82D"
+			rewards: [{
+				id: "0A32A1268AFD3AA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DF842DFF0448B00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_black_eye_eye"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: [
+				"无赎世界线专署饰品，一个饰品即可替代勇者世界线的其它上帝之手和撒旦契约栏位饰品。"
+				""
+				"&c罪孽囚笼上限为35%全部属性，达到上限不再衰减。"
+				""
+				"&e罪孽囚笼只能佩戴在上帝之手栏位。"
+				""
+				"&6相对而言，其它撒旦契约饰品在无赎世界线无法制作，撒旦契约栏位只能佩戴邪祟之戒。"
+				""
+				"&3玩家的法术吟唱缩减不能过高，会导致无法施放需要持续释放的铁之咒语法术，比如星海落瀑等。"
+			]
+			id: "7FE2FCD92D2AAE23"
+			rewards: [{
+				id: "13B9CD8F3A2D8E2C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "177DAC451B82EE93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:the_prison_of_sin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: ["无赎世界线专署饰品，替代勇者世界线深渊意志徽章。"]
+			id: "5996E2A584477A0A"
+			rewards: [{
+				id: "511436CFCB6C12E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C4470221C68A866"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_black_eye_red"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: ["无赎世界线专署饰品，替代勇者世界线万钧之护。"]
+			id: "7E335C43409D4ABB"
+			rewards: [{
+				id: "0C1B26568CD58176"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64062EC9D5C06F5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_start_power"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: [
+				"无赎世界线专署饰品，替代勇者世界线血战沙场之证。"
+				""
+				"&6需先获得颠倒之物才能制作和使用。"
+			]
+			id: "77159E9D5CFAB56D"
+			rewards: [{
+				id: "7BB7C52EDFAEBF9A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42B8C33CDD77EFC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "moonstone:nightmare_base_reversal_card"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AD73E7392928C32"]
+			description: [
+				"需先制作冒险者之证，才能完成后续任务。"
+				""
+				"&c如果想一命通关无赎线，需按树海化章节的“常用按键及系统设置”任务第三页开启极限模式。"
+				""
+				"&6在极限模式下佩戴冒险者之证，即可变为绝望者证章。"
+			]
+			id: "2686B207C56B1A8F"
+			rewards: [{
+				id: "6112B237372A09F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B33B3BF3D88135D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticaddons:adventure_charm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2686B207C56B1A8F"]
+			description: [
+				"需先获得绝望者证章，才能完成后续任务。"
+				""
+				"&e在死亡10次且不捡起所丢失的灵魂水晶后，佩戴的冒险者之证会变为绝望者证章。"
+				""
+				"&6在极限模式下佩戴冒险者之证，也可变为绝望者证章。"
+			]
+			id: "02D46D776D30C026"
+			rewards: [{
+				id: "22A2B92B43031254"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "571D74FFCEEB7F16"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticaddons:despair_insignia"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA0F8ABA3F50C81"]
+			description: [
+				"无赎世界线的部分合成与勇者世界线不同。"
+				""
+				"&c咒龙之鳞、诅咒星尘等材料无法获得。"
+				""
+				"&6命运之手、极恶锭、隙血组件等具有额外的合成方式。"
+			]
+			id: "060725EF3F2D2B51"
+			rewards: [{
+				id: "374269C8044A8612"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "53D6A32073505443"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "locusazzurro_icaruswings:void_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "031662E28D776A02"
+					item: "locusazzurro_icaruswings:nether_essence"
+					type: "item"
+				}
+				{
+					id: "741B04C11343893C"
+					item: "locusazzurro_icaruswings:zephir_essence"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	subtitle: ["&9『叛逆物语篇章』"]
+	title: "&6※ 无赎"
+}

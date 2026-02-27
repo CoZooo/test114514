@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"BREAK": {"endurance": 450},
+		"INTERACT": {"endurance": 450}
+	}
+}

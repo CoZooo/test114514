@@ -1,0 +1,36 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "EBE",
+    "DAD",
+    "ECE",
+    "GHGH"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:enchanting_table"
+    },
+    "B": {
+      "item": "aetherworks:aether_amalgam"
+    },
+    "C": {
+      "item": "yuusha:cursed_star"
+    },
+    "D": {
+      "item": "celestial_enchantments:basic_celestial_catalyst"
+    },
+    "E": {
+      "item": "bosses_of_mass_destruction:obsidilith_rune"
+    },
+    "G": {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    "H": {
+      "item": "yuusha:hot_fire_bottle"
+    }
+  },
+  "output": {
+    "item": "celestial_enchantments:celestial_enchanting_table"
+  },
+  "wissen": 1500
+}

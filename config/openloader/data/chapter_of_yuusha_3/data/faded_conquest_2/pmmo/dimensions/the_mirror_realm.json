@@ -1,0 +1,15 @@
+{
+    "bonus":{
+        "DIMENSION":{
+		    "endurance": 1.25,
+		    "flying": 2.50,
+		    "farming": 1.5
+        }
+    },
+    "positive_effect":{
+        "attributeslib:knowledge": 0,
+		"attributeslib:sundering": 0
+    },
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

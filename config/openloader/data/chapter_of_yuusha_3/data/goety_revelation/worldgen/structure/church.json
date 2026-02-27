@@ -1,0 +1,7 @@
+{
+  "type": "goety_revelation:church",
+  "biomes": "chapter_of_yuusha_3_core:empty_biome_1",
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "bury"
+}

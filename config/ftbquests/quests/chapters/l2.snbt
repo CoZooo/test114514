@@ -1,0 +1,6104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2"
+	group: "27875B8237928FF1"
+	icon: "born_in_chaos_v1:death_totem"
+	id: "57F6B0EE41EC0FA3"
+	images: [
+		{
+			alpha: 180
+			color: 11515099
+			height: 13.5d
+			image: "yuusha:textures/gui_researchback.png"
+			rotation: 0.0d
+			width: 18.25d
+			x: -8.7d
+			y: 14.0d
+		}
+		{
+			alpha: 180
+			color: 15823788
+			height: 13.5d
+			image: "yuusha:textures/gui_researchback.png"
+			rotation: 0.0d
+			width: 18.32d
+			x: 7.78d
+			y: 14.0d
+		}
+		{
+			alpha: 180
+			color: 16770560
+			height: 13.5d
+			image: "yuusha:textures/gui_researchback.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 15.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 46.5d
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			alpha: 64
+			height: 6.0d
+			image: "yuusha:textures/tianding_1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 14.0d
+		}
+		{
+			alpha: 64
+			height: 6.0d
+			image: "yuusha:textures/tianding_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			alpha: 64
+			height: 6.0d
+			image: "yuusha:textures/tianding_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			alpha: 64
+			height: 6.0d
+			image: "yuusha:textures/tianding_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: 14.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"寻觅：可在『召唤祭坛』召唤，材料为余烬晶体或其召唤物、咒灰，激活工具为博丽的御币。生成在热带地形地表，探险家指南针可搜索“Umvuthana Grove”找到，也可用太阳之眼。"
+				""
+				"&c特点：具有生命恢复5级、活力迸发3级、星灵之力3级、痉挛（移动会不受控制）1级效果、&e阳炎&c属性。会召唤小怪给自己上无敌+回血护盾。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得太阳面具、太阳祝福、贪婪水晶、少量狩猎经验、召唤物。可制作能量晶核、星星项链、极光之耀、构造之戒指。在星河贸易站可交易猎人腰带。额外有几率掉落特定塔罗牌、珠宝腰带。"
+			]
+			hide_dependent_lines: true
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "590E33C2BE977AC3"
+			rewards: [{
+				id: "2C3823C32EEE1D12"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "3星"
+			tasks: [{
+				id: "736BB3B875E47341"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mowziesmobs:grant_suns_blessing"
+				}
+				type: "item"
+			}]
+			title: "击杀：乌姆武蒂-太阳鸟"
+			x: -15.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"寻觅：可在『召唤祭坛』召唤，材料为碳素钢锭或其召唤物、咒灰，激活工具为博丽的御币。生成在地下，探险家指南针可搜索“Wrought Chamber”找到，也可用钢铁之眼。"
+				""
+				"&c特点：具有生命恢复10级、活力迸发3级、星灵之力1级效果、&e怨恨&c属性。只有在其进行竖劈攻击时，其背后刃柄偏下部位才能受到一次伤害。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得千锻巨斧、精炼头盔、战争水晶、少量狩猎经验、召唤物、铁指环。可制作能量晶核、精灵箭袋。千锻巨斧可在切石机中制作铁砧附魔。额外有几率获得铅球、混沌战斧、磁铁、九剑归一诀、疾风、七剑修罗之心、骤雨、疾风骤雨。特定条件获得刻蚀板。"
+			]
+			hide_dependent_lines: true
+			id: "2F62E4E30BEA0EED"
+			rewards: [
+				{
+					id: "7A756536D10AC896"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "4157A2450601D704"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "3+星"
+			tasks: [{
+				id: "78CAAE72F0757E08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mowziesmobs:wrought_axe"
+				}
+				type: "item"
+			}]
+			title: "击杀：钢铁守护者"
+			x: -15.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"寻觅：可在『召唤祭坛』召唤，材料为浮冰或其召唤物、咒灰，激活工具为博丽的御币。生成在冰雪地形，探险家指南针可搜索“Frostmaw Spawn”找到，也可用霜冻之眼。"
+				""
+				"&c特点：具有生命恢复10级、活力迸发3级、星灵之力3级、霜冻之心（攻击冰冻玩家）效果。能施展冰冻风暴技能冰冻玩家。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得冰霜结晶（无法偷窃获得）、少量狩猎经验、召唤物。可制作能量晶核、速之力、保护和魔法类型抗性5级附魔书、绞肉锯、下界岩石。在星河贸易站可交易破冰靴、溜冰靴、羊毛手套。额外有几率掉落特定塔罗牌、火箭靴、恶意之殇。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "370055871088B9B3"
+			rewards: [{
+				id: "188066E55BB6DDA6"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "3星"
+			tasks: [{
+				id: "3FE2F06E9AC56AD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀:   霜冻巨兽"
+			x: -15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			dependency_requirement: "one_completed"
+			description: [
+				"寻觅：找到在主世界的巫妖塔，随后手持灵魂之星分别右击四个雕纹石头祭坛。随后暗夜巫妖就会在巫妖塔的外圈被召唤。可用探险家指南针搜索“Lich Tower”找到巫妖塔。用硫磺花蜜可以重置该祭坛结构。击杀一次后可用召唤祭坛召唤，召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害2级、活力迸发4级、星灵之力4级、树皮10级效果。攻击赋予空丝化3级、侵蚀5级效果。受到震撼等眩晕效果、玩家脱战隐身等导致&e无仇恨&c时，都会瞬间回满血。"
+				""
+				"&6元素战斗类型：对光属性、魔法类型伤害分别均会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得较多的经验、古代灵魂、召唤物、阴阳尘埃。可在星河贸易站兑换传送器、弹跳器、力量和神射手10级附魔书。可制作奥术法杖、唤魔者刷怪蛋、赤限法术卷轴、烈风。额外有几率获得特定塔罗牌、夜行蝠突变基因。"
+			]
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "7ED6055E1CACD72B"
+			rewards: [{
+				id: "586DEB23C92960F4"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "7+星"
+			tasks: [{
+				id: "2835312CEC0BE231"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			title: "击杀：暗夜巫妖"
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			dependency_requirement: "one_completed"
+			description: [
+				"寻觅：在阿比斯之渊的地下特殊洞穴找到。可用探险家指南针搜索“Void Blossom”。击杀后可在召唤祭坛召唤（在16格外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发10级、星灵之力4级、树皮13级效果。攻击赋予血殇40级、重伤2级、禁空、侵蚀5级效果。受到震撼等眩晕效果、玩家脱战隐身等导致&e无仇恨&c时，都会瞬间回满血。近战攻击伤害极高，远程攻击约瞬间伤害5级。"
+				""
+				"&6元素战斗类型：对火或光属性、魔法类型伤害分别均会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得较多的原版经验、大量的种植经验、野生茶树、虚空荆棘、虚空液滴、水晶果实、召唤物、硫磺花蜜。额外有几率掉落腐香囊。可制作潜地矛、腐化聚晶、樱花发簪、侦查镜。"
+			]
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "2672CD13F5BD8399"
+			rewards: [{
+				id: "26DDF400577F1C2B"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "7星"
+			tasks: [{
+				id: "6231599316B4A3A9"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			title: "击杀：虚空之花"
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			dependency_requirement: "one_completed"
+			description: [
+				"寻觅：在下界找到铁掌竞技场结构，采掘中心结构（需忍耐技能450级）可召唤下界铁掌，只有中间眼睛能受伤。可用探险家指南针搜索“Gauntlet Arena”找到。可用硫磺花蜜重置，重置范围仅中心结构。"
+				""
+				"&c特点：具有瞬间治疗10级、活力迸发20级、&e星灵之力5级&c、树皮16级效果（基本能瞬间回满，但可以一击秒）。攻击赋予助燃性250级、狱火10级、重伤3级、末日40级效果。受到震撼、失明效果、玩家脱战隐身等导致&e无仇恨&c时，都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱冰属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得熔岩绵、下界狱星、烈焰之眼、硫磺花蜜、古老的迦赫纳纸张。可制作噬咒护符、迦赫纳研究台。"
+			]
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "66B6BA4CCE74C302"
+			rewards: [
+				{
+					id: "7999417EE9D44693"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B488BE1B7E123B"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "579B1D9C672C0D20"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A27735777D652CA"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "4177781A7C5A4CD8"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			title: "击杀：下界铁掌"
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"寻觅：在异想体祭坛上方放置一个骷髅头颅，然后用钥匙303号右击异想体祭坛，即可召唤异想体303号。击杀后可在『召唤祭坛』中召唤，材料为异想体303号召唤物、咒灰，用博丽的御币右击激活。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发30级、星灵之力7级、纯化抗性2级、树皮16级效果，适应、反射属性。攻击赋予空丝化15级、重伤4级、侵蚀5级效果。每次受到伤害时都会短距离移动并召唤异想灵，有仇恨时除了双眼外会永久隐身。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有高额抗性。"
+				""
+				"&2用途：击杀必定获得异想体之心（需在最终极之涡维度击杀才有）、召唤物。可交易获得镶孔符石。可制作万钧之护卷轴。可复制远古珍宝材料。额外有几率获得Nightecora病毒。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:dragon_heart"
+			id: "695FDF680550C074"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18C419F2B701605D"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "6A3FB0DC3EBC56C7"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "68C992B01CD62D16"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2DD684AE57016685"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "746890619F23A2F2"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "12046CA19F2B88BF"
+				item: "yuusha:dragon_heart"
+				type: "item"
+			}]
+			title: "击杀：异想体303号"
+			x: 13.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"寻觅：只能在[召唤祭坛]中召唤。召唤需要的材料为炼金矿尘、节日糖果、咒灰、灵魂之星，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。不属于严格意义上的Boss，卸载区块后会消失。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发5级、星灵之力2级、纯化抗性2级效果、&e刺客&c属性。攻击赋予毒液5级、重伤3级（-120%受到治疗）、侵蚀5级效果。受到爆炸类型伤害会免疫并回血。"
+				""
+				"&6元素战斗类型：对光、冰属性伤害会有100%易伤，对锤击类型伤害有50%抗性，免疫爆炸类型伤害，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得巨食人鱼胃、召唤物，通过特殊途径可获得苦力怕残片。可制作同前，还有焰灼遗物。额外有几率获得特定塔罗牌、苦力怕残片、四头肌强化、漂流发酵、电池。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:creeper_shard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2950637175E7D370"
+			rewards: [{
+				id: "61C584278B3B95B2"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "4星"
+			tasks: [{
+				id: "69452660D281EEC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：苦力怕突变体"
+			x: -14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"寻觅：只能在[召唤祭坛]中召唤。召唤需要的材料为星灵织物、节日糖果、咒灰、灵魂之星，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。不属于严格意义上的Boss，卸载区块后会消失。"
+				""
+				"&c特点：不具有回血能力。攻击赋予重伤3级（-120%受到治疗）、毒液5级、侵蚀5级效果。每次被攻击都会瞬移。在末影人突变体死亡动画时，玩家如果死亡，可能会崩游戏，且无法获得掉落物。"
+				""
+				"&6元素战斗类型：对锤击类型伤害有90%抗性，对其它所有类型伤害具有75%抗性。"
+				""
+				"&2用途：击杀必定获得巨食人鱼胃、召唤物，通过特殊途径可获得末影之手。可制作同前。额外有几率获得特定塔罗牌、末影之手、咬合肌强化、魔法箭袋。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1862F7563FC6FE1E"
+			rewards: [{
+				id: "2131DF8090D9F1C8"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "4星"
+			tasks: [{
+				id: "74279527A9F008D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：末影人突变体"
+			x: -14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"寻觅：只能在[召唤祭坛]中召唤（在16格外）。召唤需要的材料为阴冷骨石、节日糖果、咒灰、灵魂之星，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。不属于严格意义上的Boss，卸载区块后会消失。"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发5级、星灵之力2级、纯化抗性2级效果、&e怨恨、破空&c属性。攻击赋予侵蚀5级、重伤3级（-120%受到治疗）效果。"
+				""
+				"&6元素战斗类型：对光、冰属性、爆炸类型伤害会有分别100%、400%易伤，对锤击类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得骷髅突变体头颅、巨食人鱼胃、召唤物。可制作同前，还有骷髅突变体套装。额外有几率获得特定塔罗牌、骷髅突变体头颅、皮肤质钙化、自溶性抑制、游侠徽章。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06C4876F493D38E7"
+			rewards: [{
+				id: "3EF71A45E94EB432"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "4星"
+			tasks: [{
+				id: "6D7B245D20DDAEEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：骷髅突变体"
+			x: -14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"寻觅：只能在[召唤祭坛]中召唤。召唤需要的材料为鲜活血肉、节日糖果、咒灰、灵魂之星，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。不属于严格意义上的Boss，卸载区块后会消失。"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发5级、星灵之力2级、纯化抗性2级效果、&e怨恨&c属性。攻击赋予目标重伤3级（-120%受到治疗）、侵蚀5级效果。击倒后会复活，需四次击倒才会死亡，也可以通过烧毁其尸体阻止复活。可能有特性烧不死，且会隐身复活。"
+				""
+				"&6元素战斗类型：对光、冰属性、爆炸类型伤害会有分别100%、400%易伤，对锤击类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得巨人之锤、巨食人鱼胃、召唤物。可制作优秀枪械材料、燃烧弹、卓越墨水、医药箱、怨影吊坠、祭血仪式法术卷轴。额外有几率掉落特定塔罗牌、巨人之锤、食欲抗性、细胞重生、腐败抗性、再生活性化。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:hulk_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BC1C8307C303C43"
+			rewards: [{
+				id: "3213D1C290A8E71D"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "4星"
+			tasks: [{
+				id: "62EE86CD7BC8C994"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：僵尸突变体"
+			x: -14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&c你知道吗？只有提交任务物品，才能看到“奇迹并不是免费的”任务里的说明文字。该说明只会提示其中一种路线的可行打法，也许并不是最优解。"
+				""
+				"&6你知道吗？龙前部分Boss具有特定属性易伤，但是并不代表其它武器不能打。"
+				""
+				"&e你知道吗？在咒法章节可以制作召唤祭坛，方便召唤Boss等生物。"
+				""
+				"&2你知道吗？每级纯化抗性会有20%几率免疫伤害。"
+				""
+				"&3你知道吗？Boss并非要全部打完。有些Boss打完可能对你并没有特别好的提升，可以后续再打。"
+			]
+			icon: "mowziesmobs:logo"
+			id: "383E3CF739CE7C74"
+			rewards: [{
+				id: "23436307CE718C14"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第一章 - 旅行 -"
+			tasks: [{
+				id: "78C8DD7A6D176F44"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "【愚者】"
+			x: -15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"&c你知道吗？除非你真的很缺饰品，否则至少留一两个可疑粉尘或药水护符，以制作特定阶段所需要的饰品。"
+				""
+				"&e你知道吗？打开物品栏后对着物品按A键，可将其添加到JEI书签内。"
+				""
+				"&6你知道吗？不仅弓弩射出的箭矢类可以无视弹射物免疫，部分聚晶的箭矢类也能无视。"
+			]
+			icon: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					abilities: {
+						backstab: {
+							points: 0
+							stats: {
+								damage: 1.30286d
+								distance: 18.86904d
+							}
+						}
+						vanish: {
+							points: 0
+							stats: {
+								light: 1.99736d
+								speed: 0.23981d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "3449CA7CC9FD4109"
+			rewards: [{
+				id: "4FC78C91B64C499A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第五章 - 探索 -"
+			tasks: [{
+				id: "746B60940230E6E5"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【隐者】"
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			description: [
+				"&c你知道吗？前中期可用饰品的附加伤害、附魔的附加伤害破除适应属性，后期可用神化词缀的附加伤害。"
+				""
+				"&e你知道吗？在选项的辅助功能设置内，可以改受伤屏幕抖动幅度等内容。"
+				""
+				"&6你知道吗？下界坐标×8=主世界坐标，在下界天花板上跑图可更快去到已知坐标。"
+				""
+				"&2你知道吗？空丝化的伤害数值与瞬间伤害类似。"
+			]
+			icon: "reliquary:witch_hat"
+			id: "218B5CD994C5A8EE"
+			rewards: [{
+				id: "0BE9D6F9887D6F45"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第六章 -  创造  -"
+			tasks: [{
+				id: "333373284317712F"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "【魔术师】"
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"&c你知道吗？前期的饰品的星月词缀加伤很重要，险恶能增加近战伤害，鹰眼能增加箭术伤害。"
+				""
+				"&e你知道吗？玩家被攻击时能增加玩家怒气从而触发兴怒模组的加伤。"
+				""
+				"&6你知道吗？礼装章节的近战类、远程类、全伤类饰品基本涵盖了通关需要的加伤饰品，且已按发展顺序排列。"
+				""
+				"&3你知道吗？部分Boss会有其特定掉落物的保底获取，大部分都是用其召唤物制作。"
+			]
+			hide_dependency_lines: false
+			icon: "goety:skull_focus"
+			id: "16FFD21575AD92EC"
+			rewards: [{
+				id: "0E58CD973A7AF245"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第二章 - 净化 -"
+			tasks: [{
+				id: "46B221F5F21EC316"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【节制】"
+			x: -14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			description: [
+				"寻觅：凋零骷髅头颅难以放置，可以通过[召唤祭坛]召唤。召唤需要的材料为3×凋零骷髅头颅、4×灵魂沙、深渊反应物、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有&e活力、反射、阳炎、适应&c（受到同种伤害减伤）属性。攻击给予凋零5级、重伤3级、空丝化5级、饥饿20级、侵蚀10级效果。半血时进入二阶段，免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有高额抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀必定获得下界之星、凋灵宝藏袋、恶魔之心、召唤物。凋灵宝藏袋有几率开出炼狱海绵。光明碎片可制作怪物猎人勋章、泰坦剑鞘、祷告者冠冕、灰烬法杖、炽热射线枪。子夜碎片可制作泰坦手套。额外有几率获得凋灵图腾、暗黑下界之星、疯狂灵药。在星河贸易站可交易午夜斗篷。特定条件获得刻蚀板。"
+			]
+			hide_dependent_lines: true
+			icon: "confluence:demon_heart"
+			id: "44CCB29EB665BBE9"
+			rewards: [
+				{
+					id: "4553CD2DFADE4140"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "539682DCD2554714"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "7星"
+			tasks: [{
+				id: "18215CE0F8D45CBE"
+				item: "confluence:demon_heart"
+				type: "item"
+			}]
+			title: "击杀：凋灵"
+			x: -9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"&c你知道吗？元素战斗图标在树海化章节有详细解释。"
+				""
+				"&e你知道吗？伤害过低会无法破除适应属性。"
+			]
+			icon: "celestial_artifacts:demon_heart"
+			id: "0D12B530D6BD51FB"
+			rewards: [{
+				id: "27F9F8A5503F4F01"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十七章 - 诱惑 -"
+			tasks: [{
+				id: "4148D676F90EE167"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【恶魔】"
+			x: 11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"&c你知道吗？飞艇、蜻蜓式扑翼机（匠作章节）、魔理沙的扫帚等物品，都是很好的前期飞行工具。"
+				""
+				"&e你知道吗？不仅玩家有兴怒加伤，怪物也有兴怒加伤。某些多段伤害的武器会导致怪物伤害奇高。"
+				""
+				"&6你知道吗？此整合包生物额外掉落物品的“有几率”基本为35%，“小几率/较低几率”基本为10%或5%，“极小几率”基本为1%。且不享受掠夺、幸运、幸运四叶草等加成。"
+				""
+				"&3你知道吗？部分Boss为额外的“+”星，表示只有部分武器或者需要特定套路才比较好打。"
+			]
+			icon: "cataclysm:altar_of_fire"
+			id: "660654373269C8CA"
+			rewards: [{
+				id: "5D10DA2FF27F152B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第三章 - 毁灭 -"
+			tasks: [{
+				id: "53E91A1E1DDD2132"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: " 【塔楼】"
+			x: -12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"&e你知道吗？击杀龙后的Boss任务奖励可获得各种永恒负面效果药水护符。"
+				""
+				"&c你知道吗？神化的暴击率和暴击伤害提供的伤害乘区比较高。"
+			]
+			icon: "graveyard:soul_fire_brazier"
+			id: "2737E9EE295A4D42"
+			rewards: [{
+				id: "2D2392C8EA0764BB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十一章 - 支配 -"
+			tasks: [{
+				id: "3A7E0507A247EA01"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【皇帝】"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"&c你知道吗？利用捕捉附魔可以获得生物的刷怪蛋。"
+				""
+				"&e你知道吗？如果你觉得某些非敌对生物阻碍你的场地，但你又不想杀，你可以试试结界火炬。"
+			]
+			icon: "nameless_trinkets:moon_stone"
+			id: "633C6DA8C759C3F8"
+			rewards: [{
+				id: "3773F5E582F89098"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十六章 - 不安 -"
+			tasks: [{
+				id: "3903F4B6ABB6F985"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "【月亮】"
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"&c你知道吗？破碎之石、珍钻手环等饰品能很好地降低被瞬间伤害等各种魔法伤害击杀的几率。"
+				""
+				"&e你知道吗？部分Boss在脱战时会快速回血。"
+				""
+				"&6你知道吗？在开启死亡不掉落后，一般情况下消失诅咒不会生效。除非像轻蔑之约这种死亡保留物品的饰品。"
+			]
+			icon: {
+				Count: 1
+				id: "reliquary:mercy_cross"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "394278F69FA905F5"
+			rewards: [{
+				id: "5DB6504F097FC5B5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第九章 - 复活 -"
+			tasks: [{
+				id: "5B403280F88244E6"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【审判】"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"3491239F1B3DD848"
+				"394278F69FA905F5"
+			]
+			description: [
+				"寻觅：在主世界找到前往末地的堡垒，开启末地传送门可看到在末地主岛的末影龙（详见末路之地章节）。可在探险家指南针中搜索“Stronghold”找到在主世界前往末地的要塞。末影龙可末地水晶用原版方式复活。"
+				""
+				"&c特点：具有&e反射、适应&c属性。无特殊回血能力，免疫所有药水效果。攻击赋予重伤2级、空丝化8级、侵蚀10级效果。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有极高额抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀必定获得龙蛋、龙之鳞片、龙皮、末影龙魄、深渊之心、大量飞行经验。可制作千咒卷轴、神秘龙蛋、阅历3级、保护15级附魔书、神秘无名饰品（狂暴之心）、ARX-160、暗影基因、女巫长袍、热分解抑制。可升级法术书。额外有几率获得特定塔罗牌。特定条件获得刻蚀板。"
+				""
+				"&3额外：请勿在末影龙降到龙池上方时使用黑洞法术、幽古暗雷坚弓等方式控制末影龙移动，会导致末影龙消失。如果消失，可按原版放置4个末地水晶，然后开作弊模式输入“/kill @e[type=minecraft:ender_dragon]”击杀消失的末影龙。"
+			]
+			hide_dependent_lines: true
+			icon: "enigmaticlegacy:abyssal_heart"
+			id: "4547C78EF16CDCAB"
+			rewards: [
+				{
+					id: "6DBFB4EB968D75B2"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "4EA192EBEEE8C71F"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "019E3D67DBC75388"
+				item: "irons_spellbooks:dragonskin"
+				type: "item"
+			}]
+			title: "击杀：末影龙"
+			x: -3.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"&c在通关上级挑战传送门后，可开启神性挑战系列Boss。"
+				""
+				"&e你知道吗？星灵之力效果每级可增加20%的抗性，而星裂效果每级会降低20%的抗性，两者可以抵消。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			id: "34DC2A146836EC4D"
+			rewards: [{
+				id: "13995273C102990D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十九章  - 轮 回 -  上"
+			tasks: [{
+				id: "453AB1CB7829D815"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【命运之轮】"
+			x: 17.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"寻觅：只能用召唤祭坛召唤，召唤材料为混沌魔珠（要提前复制，可能会击杀后不返还）或者召唤物、咒灰。在当前阶段可能较难击杀。"
+				""
+				"&c特点：具有星灵之力4级、纯化抗性2级、树皮16级效果、&e适应、反射&c属性。不会自然回血，但有技能击中玩家会回血。攻击赋予血殇100级、禁空、重伤3级、侵蚀10级效果。具有三个阶段。自身免疫所有负面效果。在残血时有一定的无敌时间，周围有分身时也有无敌。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有一定抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀必定获得银莲花、能量晶核、混沌魔晶、召唤物。可制作虚无之书、魂之接力、破空之愿。额外有几率掉落复仇之心、混沌魔戒、巫古项链、唤士项链。"
+			]
+			hide_dependent_lines: true
+			id: "67D4BF5F0B13A610"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31BAE19931D42348"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "45510DCA021B7269"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8+星"
+			tasks: [{
+				id: "39696DE3523A7F1E"
+				item: "yuusha:chaos_stone"
+				type: "item"
+			}]
+			title: "击杀：混沌魔影"
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"&c你知道吗？可以单独做一个亚历山大图书馆，用以存放武器的附魔。利用砂轮可将武器的附魔惩罚取消。"
+				""
+				"&e你知道吗？如果用连锁挖掘召唤下界铁掌的中心结构，可能会同时召唤多个。"
+				""
+				"&6你知道吗？女仆没有原版/星月的暴击率和暴击伤害，但是有神化暴击率和暴击伤害"
+				""
+				"&3你知道吗？星灵之力效果每级可增加20%的抗性，而星裂效果每级会降低20%的抗性，两者可以抵消。"
+			]
+			icon: "deep_aether:sun_core"
+			id: "3AC84AAE98D3EC16"
+			rewards: [{
+				id: "7934753E550A5F4F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十三章 - 生命 -"
+			tasks: [{
+				id: "3061F92CD359A5F9"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【太阳】"
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"&c你知道吗？利用阅历附魔可以清理掉大部分生物的掉落物。"
+				""
+				"&e你知道吗？伤害过低会无法破除适应属性。"
+				""
+				"&6有空的时候先按[好好吃]章节的[陶制蜜酒罐]任务，开始酿造[蜜酒]（需要长时间酿造），后续合成会需要。"
+			]
+			icon: "bosses_of_mass_destruction:mob_ward"
+			id: "2743D00B69EB23F2"
+			rewards: [{
+				id: "1795751B687AEC2C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十八章 - 援助 -"
+			tasks: [{
+				id: "30265AD82A633D29"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【教皇】"
+			x: 13.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"寻觅：在无间之炼狱维度的灵魂锻造厂可找到。可用探险家指南针搜索“Soul Black Smith”找到该建筑（内有大量篝火，拆掉可提高游戏帧数）。手持恶兽犄角或者其召唤物右击烈焰祭坛也可召唤。击杀一次后可在召唤祭坛召唤。"
+				""
+				"&c特点：具有瞬间治疗5级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果、抑制、阳炎属性。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级效果。被攻击时会瞬移，免疫锚定等大部分效果。&e免疫12格&c以外的伤害，具有0.5秒的&e动态减伤&c。免疫末影禁锢效果但是不免疫锚定效果。任何&e脱战隐身&c都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱冰属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量炼金经验、恶兽犄角、破碎的希望之心、史诗墨水、召唤物、阴阳颗粒。可制作灼烧1级法术卷轴。额外有几率获得扭曲之心。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:monstrous_horn"
+			id: "4018AFEC52F68171"
+			rewards: [
+				{
+					id: "4742FC7920807215"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "09C561229BA26E77"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "401C88CB36B91EA1"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A3795D1AFC4E204"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "06375CEA80CA9519"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			title: "击杀：下界合金巨兽「爆裂形态」"
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"寻觅：找到无间之炼狱维度的烈焰竞技场，用炽燃余烬右击其顶层中心的烈焰祭坛召唤。在焰魔举起巨盾且没使用其它技能时，将免疫正前方的攻击并反弹弹射物，此时只有在它身后攻击才能造成伤害。也可通过反弹焰魔的深渊火球，并使其击中焰魔三次从而摧毁盾牌。可用探险家指南针搜索“Burning Arena”找到该建筑。"
+				""
+				"&c特点：具有瞬间治疗5级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果、&e抑制、阳炎、刺客&c属性。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级效果。免疫部分效果。&e免疫24格&c以外的伤害，受击后有0.5秒的&e动态减伤&c。任何&e脱战隐身&c都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱冰属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量炼金经验、腾炎锭、破碎的希望之心、史诗墨水。可制作琍斯石祭坛、无限余烬能量源、诡异新芽、锚定药水、锚定护符、灼烧1级法术卷轴。有额外几率获得特定塔罗牌。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:ignitium_ingot"
+			id: "68B3FB2E17F9984A"
+			rewards: [
+				{
+					id: "413CF34CED0ADAC9"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "7C475995C603CD10"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "1F0C4F091DF0ACF2"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "19E4EA416C5C8819"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E8CCADE6A75D41"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "7DA176E3243B2BE7"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "击杀：焰魔"
+			x: 5.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"寻觅：可以在主世界的海底神庙找到，一个海底神庙默认有三个远古守卫者。可通过探险家指南针搜索“Ocean Monument”找到海底神庙。在击杀一次后，可利用召唤祭坛进行召唤，召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币，不要在非水体环境召唤，除非你伤害足够打。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发10级、星灵之力4级、纯化抗性2级效果、&e反射&c属性。攻击赋予醺毒（移动不受控制）、重伤1级（-40%受到治疗）、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对雷属性、刺击类型伤害分别均会有100%易伤，对斩击类有80%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得航海经验、守卫者之眼、召唤物。可制作溺魂、海神卷轴、卫射聚晶等。额外有几率获得特定塔罗牌、守卫者眼球、守卫者之心、手钻。"
+			]
+			hide_dependent_lines: true
+			icon: "celestial_artifacts:guardian_eye"
+			id: "5D9B430013C25698"
+			rewards: [{
+				id: "4E19ADFE9B56EDDB"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "6星"
+			tasks: [{
+				id: "32068DA18B9095F0"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：远古守卫者"
+			x: -11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7BADC977E39D9437"]
+			description: [
+				"寻觅：将隙血黑色组件、隙血白色组件、雕刻南瓜，依次从下往上放置即可召唤（详见大满开章节任务）。击杀后可在『召唤祭坛』召唤，材料为片翼天使复制体召唤物、咒灰，用博丽的御币右击激活。"
+				""
+				"&c特点：具有瞬间治疗13级、活力迸发30级、&e星灵之力14级&c、纯化抗性4级、树皮16级效果、&e适应、抑制&c属性。攻击赋予空丝化20级、星裂10级效果。残血时会给自身&e穿戴&c有随机附魔的装备，可能会导致出现超过100%的抗性等情况。"
+				""
+				"&6元素战斗类型：对所有类型伤害具有极高抗性。"
+				""
+				"&2用途：击杀必定获得异火之眼、工匠遗物、堕天末影珍珠。额外有几率获得光态英魂、片翼天使盔甲。可制作堕天镰刀、恩惠之典、魂祸战刃。额外有几率获得恶蝗蜇针（仅佩戴，无法右击）。堕天末影珍珠可开启永恒轮回-最终试炼传送门。"
+			]
+			hide_dependent_lines: true
+			icon: "awakened_bosses:herobrine_ingot"
+			id: "10B5C180038266F8"
+			rewards: [
+				{
+					id: "46083001D9410676"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1043EC404A65FE9F"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5187DE49084C3989"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "275666FC5A7E5FED"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "671E00F64F45C04A"
+				item: "yuusha:falling_ender_pear"
+				type: "item"
+			}]
+			title: "击杀：片翼天使复制体"
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"44CCB29EB665BBE9"
+				"5D9B430013C25698"
+				"590E33C2BE977AC3"
+				"2F62E4E30BEA0EED"
+				"370055871088B9B3"
+				"7ED6055E1CACD72B"
+				"2672CD13F5BD8399"
+				"7BC1C8307C303C43"
+				"06C4876F493D38E7"
+				"2950637175E7D370"
+				"1862F7563FC6FE1E"
+				"7D67A714136E8558"
+				"4547C78EF16CDCAB"
+				"0CC6FA91C0867563"
+				"07A1BDD019A13232"
+				"0230CC8048790B7E"
+				"0297D9D51116BE73"
+				"0D1B5BC013BE2109"
+				"0CD140417D3012A3"
+				"327C8D55437DFD1D"
+				"5A6BFEDF5F6CD834"
+				"517280861D6216FB"
+				"34DF8AE7C33F8AC9"
+				"5671166544651D9E"
+				"038C97E0BFE640D6"
+				"21BC823C8189EB54"
+				"6F811F1BE758477D"
+				"2BCA32D0DC6B7890"
+				"1C615301AF815917"
+				"368748EF21F8DEC8"
+				"2816F77EAC575627"
+				"0526FDAC9D1DE79B"
+				"5143D953D8D76063"
+				"6A194236869A094B"
+				"04FE62D8D68AACF7"
+				"67D4BF5F0B13A610"
+				"697139F8A65D5F24"
+				"1BDA3ECDCA5DB367"
+				"74812D2BC08F5953"
+				"452A5736184753B9"
+				"5C51B709F9106B58"
+				"0A3785AB4C410DCA"
+			]
+			description: ["&c需要完成此列之前的Boss击杀任务中的特定数量（三角箭头查看前置），才能开启神树之根-无边恶意传送门。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:boss_rush_gate_1"
+				}
+			}
+			id: "1C904226CFB35AD2"
+			min_required_dependencies: 38
+			rewards: [{
+				id: "69D58E867DFBFBCE"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "下级挑战传送门"
+			tasks: [{
+				id: "3EF4D9E23BC5045F"
+				type: "checkmark"
+			}]
+			title: "神树之根-无边恶意传送门"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4018AFEC52F68171"
+				"68B3FB2E17F9984A"
+				"4A9D45727EE2D931"
+				"7229C5552BAB5A65"
+				"5855D9DC9BED13A4"
+				"6CA42CA059A74E46"
+				"73DD32D7A37ED2D3"
+				"695FDF680550C074"
+				"429722B875288446"
+				"401E5046DC87789E"
+				"577B6D54654394EE"
+				"392DE3B2720A9796"
+				"23C582241DF4AC5C"
+				"347D6BFA10BED332"
+				"77868945AC33FB3B"
+				"14323D590DD88978"
+				"66B6BA4CCE74C302"
+				"0A4918A1017DEB46"
+				"7A93D86054EF28CB"
+				"599CD576BE63F051"
+				"22B7A2EB9762DA24"
+				"0AD4CB1AC4BB4AEE"
+				"0D983D9E339EE87A"
+				"4AD94A50EDB892D3"
+				"2C59046767D9BD83"
+				"2CB2AF13324EE548"
+				"1106FDFD523846F3"
+				"42F1EEE02C4319E2"
+				"7C977028A4A299EC"
+				"0A682943879D5180"
+				"5850E605E1ED01C1"
+				"64C4205C5EDA81BB"
+				"6B65C53EE8FDFD5D"
+				"5F00FE832C9E0663"
+				"4D7C3181454AF657"
+				"0AD6B83836EDEC8F"
+				"4D2A2AEA1DDFCEF2"
+				"33988B0ADF0014D6"
+			]
+			description: ["&c需要完成神树之根-无边恶意传送门之后，至此列之前的Boss击杀任务中的特定数量（三角箭头查看前置），才能开启神树之冠-原初混沌传送门。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:boss_rush_gate_2"
+				}
+			}
+			id: "190390BC22EFEDA0"
+			min_required_dependencies: 34
+			rewards: [{
+				id: "2E05B5CF7FAA68D7"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "上级挑战传送门"
+			tasks: [{
+				id: "00CDBEA06DE47233"
+				type: "checkmark"
+			}]
+			title: "神树之冠-原初混沌传送门"
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C904226CFB35AD2"]
+			description: [
+				"奖励：通关神树之根-无边恶意传送门可获得[不稳定红石余烬]、[大地之心]、[新生符石]、珍贵珍宝材料[发光水晶碎片]。"
+				""
+				"&c注意：成功挑战后需先提交不稳定红石余烬（暂不领取此任务奖励），然后把☆勇者祈愿中☆任务做完，再领取奖励刷新此任务。"
+				""
+				"&6进展：可用神化宝石强化装备，以便击杀龙后Boss。"
+				""
+				"&2用途：制作简易重铸台和回收台。不稳定红石余烬可在切石机中制作各种神化宝石。用新生符石+发光水晶碎片可在简易重铸台中给装备打上神化词缀，可根据龙后的Boss针对性强化，优先强化武器伤害。珍贵级别最多出现2个镶孔，可以在锻造台内给有镶孔的装备放入相应的神化宝石。利用摘除符石可将宝石完好脱下。"
+			]
+			id: "71DB6A133C94CD98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479A114B5830904D"
+				table_id: 1165908756396855906L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "40F3F4B4C71F67FB"
+				item: "yuusha:unstable_redstone_part"
+				type: "item"
+			}]
+			title: "选择药水护符"
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["190390BC22EFEDA0"]
+			description: [
+				"奖励：通关神树之冠-原初混沌传送门可获得十六夜咲夜的怀表、不稳定荧石余烬、工匠遗物、远古珍宝材料。"
+				""
+				"&c注意：成功挑战后需先提交不稳定荧石余烬（暂不领取此任务奖励），然后把☆永恒万华镜☆任务做完，再领取奖励刷新此任务。"
+				""
+				"&6进展：通关神树之冠-原初混沌传送门后，可以正式开启『大满开』章节。需先按好好吃章节的陶制蜜酒罐任务，开始酿造蜜酒（需要长时间酿造），后续合成会需要。"
+				""
+				"&2用途：可制作强化台、强化符石、血战沙场之证。强化台可以把装备的词缀强化至最高级（有可能一个装备有多条相同属性的词缀，不会叠加，只有最高的属性才有效果）。"
+			]
+			id: "244FF7C5431BB312"
+			rewards: [
+				{
+					id: "2E9370120DF8CC45"
+					table_id: 3366165184641522358L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "513AF4E46C06C3D7"
+					table_id: 5677650089290078333L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3C300EE359C9BB51"
+				item: "yuusha:unstable_glowstone_part"
+				type: "item"
+			}]
+			title: "选择满级附魔书"
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["244FF7C5431BB312"]
+			description: ["需先在[选择满级附魔书]任务中提交不稳定荧石余烬，但是不要领取该任务奖励，才可完成此任务。"]
+			icon: "minecraft:pink_candle"
+			id: "63EDA9DEC8A1DE36"
+			rewards: [
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "27C676D70535AB42"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "55C55F3628966297"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3B688C67EF925C00"
+					item: "yuusha:eternal_luck_cake"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "325EB98FB806D19A"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "☆永恒万华镜☆"
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["71DB6A133C94CD98"]
+			description: ["需先在[选择药水护符]任务中提交不稳定红石余烬，但是不要领取该任务奖励，才可完成此任务。"]
+			icon: "minecraft:pink_candle"
+			id: "76FC9361919880D0"
+			rewards: [
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "7DD2C2597F9F610B"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "347425E4C63BF075"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7AD91F24FF802EBA"
+					item: "yuusha:eternal_luck_cake"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "68DA0C34651668A6"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "☆勇者祈愿中☆"
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7090E91D0EBFDBD3"
+				"252A48074AA4117B"
+				"5A7CCB00910E0CF8"
+				"3AA4A6AC9BA3A0A6"
+				"10B5C180038266F8"
+				"2830360460B452C9"
+			]
+			description: ["&c需要完成神树之冠-原初混沌传送门之后，至此列之前的Boss击杀任务中的特定数量（三角箭头查看前置），才能开启永恒轮回-最终试炼传送门。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:boss_rush_gate_3"
+				}
+			}
+			id: "788CB3A4AF9088E0"
+			min_required_dependencies: 5
+			rewards: [{
+				id: "080747F66BD604EA"
+				type: "xp"
+				xp: 10000
+			}]
+			subtitle: "终极挑战传送门"
+			tasks: [{
+				id: "68C2240AB96F3A6F"
+				type: "checkmark"
+			}]
+			title: "永恒轮回-最终试炼传送门"
+			x: 20.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["788CB3A4AF9088E0"]
+			description: [
+				"奖励：通关永恒轮回-最终试炼传送门可获得不稳定末影余烬、无尽催化剂。"
+				""
+				"&c注意：成功挑战后需先提交不稳定末影余烬（暂不领取此任务奖励），然后把☆祈愿百分百☆任务做完，再领取奖励刷新此任务。"
+				""
+				"&6进展：不稳定末影余烬可用来召唤特定生物。"
+				""
+				"&2用途：可制作绝对AT力场核心、虚伪审判、混沌进化之翼、瞬寰宇支配之剑。"
+			]
+			id: "08D94296090FAA54"
+			rewards: [{
+				id: "237D67FF900C8ECA"
+				item: "yuusha:yuusha_medal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "37AFB6A4CFF8D6C9"
+				item: "yuusha:unstable_ender_part"
+				type: "item"
+			}]
+			title: "获得满开勋章"
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["08D94296090FAA54"]
+			description: ["需先在[获得满开勋章]任务中提交不稳定末影余烬，但是不要领取该任务奖励，才可完成此任务。"]
+			icon: "minecraft:pink_candle"
+			id: "62DA04B689C2477C"
+			rewards: [
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "4F7F8CC04382FF60"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+				{
+					id: "11AF5F0D8D32ACF1"
+					item: "yuusha:eternal_luck_cake"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "240DE1EDBE9AC121"
+				title: "点我"
+				type: "checkmark"
+			}]
+			title: "☆祈愿百分百☆"
+			x: 20.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"寻觅：在末地找到一个浮空的黑曜石末地石砖柱结构，在其顶端的黑曜石祭坛上放一颗末影之眼，随后黑曜巨石柱就会从地底钻出。可在末地用探险家指南针搜索“Obsidilith Arena”找到该建筑。利用硫磺花蜜可以重置该结构。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发10级、星灵之力4级、树皮16级效果。攻击赋予&e短暂眩晕&c（无法攻击和移动）、空丝化7级、重伤2级、侵蚀5级效果。会召唤黑曜石柱并给予无敌。受到震撼等眩晕效果、玩家脱战隐身等导致&e无仇恨&c时，都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱暗属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量的建造和合成经验、黑曜石锭、黑曜石之心、末影合金锭、硫磺花蜜。可制作不稳定红石灰烬、高级魔引、饕餮之锅。"
+			]
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "7229C5552BAB5A65"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38EE898ADB7BD746"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6D63696BE3E0FB6A"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "2D835B89F393E5B3"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FDAD80506879592"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "2298427FB61A2FF5"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			title: "击杀：黑曜石柱"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			description: [
+				"寻觅：当你手持贝壳号角并在主世界的冰冻深海海边时按住右键吹响，船长科妮莉亚亡灵会从水中浮现。贝壳号角的获取详见上层世界章节。"
+				""
+				"&c特点：具有瞬间伤害2级、活力迸发6级、星灵之力4级、树皮14级、霜冻之心效果、&e破空、刺客&c属性。攻击赋予短时间冰冻、空丝化3级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对光或雷属性、魔法类型伤害分别均会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得海洋之心、冻结的钥匙、氧气筒、潜水员头盔、忏悔石、召唤物。冻结的钥匙可开启冰封箱子或交易获得深寒星尘等材料。可制作重型钓鱼竿、损坏的王冠。氧气筒、潜水服头盔可用PMMO回收为碳素钢锭。额外有几率获得特定塔罗牌、生命强化基因、甜蜜长枪。"
+			]
+			hide_dependent_lines: true
+			icon: "aquamirae:frozen_key"
+			id: "0526FDAC9D1DE79B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "262FEF9940B9212F"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					command: "/curios add ncrdna @s 1"
+					elevate_perms: true
+					icon: "moonstone:cell_boom"
+					id: "6485DA0282EC49F3"
+					title: "&5增加一个魔人基因锁栏位"
+					type: "command"
+				}
+			]
+			subtitle: "7星"
+			tasks: [{
+				id: "5C8B096574AE590C"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			title: "击杀：科妮莉亚船长幽灵"
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"寻觅：在阿比斯之渊维度手持水晶之心（可复制，相关材料详见极尽深渊章节）右击可召唤水晶构造体。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射属性。攻击赋予冰冻3级、禁空、空丝化9级、重伤4级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得宝石粉、死亡水晶之心、黑色粘板岩、召唤物。可制作魔光弹、凋零之物。额外有几率掉落自修正强化基因。"
+			]
+			hide_dependent_lines: true
+			icon: "infinite_abyss:dead_crystal_heart"
+			id: "73DD32D7A37ED2D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42B61F37470C3F33"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "12A304FD4340159E"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "1890707CCEB21041"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "537A2BE61FF49464"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "0A5E5989F3F33C8B"
+				item: "infinite_abyss:dead_crystal_heart"
+				type: "item"
+			}]
+			title: "击杀：水晶构造体"
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"寻觅：手持召唤之钟在诱惑之森维度右击即可召唤。在亡骸之海的地牢内蓝宝石板条箱可找到召唤之钟（可复制）。"
+				""
+				"&c特点：具有瞬间治疗10级、活力迸发20级、星灵之力6级、树皮16级效果（基本能瞬间回满血），活力、反射、刺客属性。攻击赋予冰冻3级、禁空、空丝化11级、重伤4级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得召唤之钟、查尔雅触手（具有极高的食物多样性）、宝石粉、神秘水晶粉末。额外有几率掉落月之石。"
+			]
+			hide_dependent_lines: true
+			icon: "infinite_abyss:tentacle"
+			id: "5855D9DC9BED13A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44532F04916133A9"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "19FD8B544E8C36DB"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "1FBBED1F473982CC"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A8914235E77456C"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "6FC988FCDA06A535"
+				item: "infinite_abyss:tentacle"
+				type: "item"
+			}]
+			title: "击杀：水晶共鸣者"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"寻觅：在来无回之都维度手持凋零之物（可复制）右击，即可召唤冰霜凋灵。详见极尽深渊章节。"
+				""
+				"&c特点：具有瞬间伤害7级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射、怨恨属性。攻击赋予削50%护甲、冰冻3级、血殇250级、重伤4级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得凋零之物、暗黑下界之星、冰霜下界之星、下界合金块、空域神殿合金锭。可制作AN-94。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:ice_star"
+			id: "6CA42CA059A74E46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D2B7F5F554FC72A"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "5C7EA309D8073B8A"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "19D38C429BD84952"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "39A56785B8ADD1C1"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C7447AA684AADC6"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "69F00CDD2B3650CB"
+				item: "yuusha:ice_star"
+				type: "item"
+			}]
+			title: "击杀：冰霜凋灵"
+			x: 10.0d
+			y: 18.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C904226CFB35AD2"]
+			description: [
+				"消耗一个下界之星可获得挑战神树之根-无边恶意传送门珍珠，里面会有大部分龙前的Boss。"
+				""
+				"&6会在32格范围内生成，如果有怪尝试逃离此范围会被拉回去。此外当有生物超出256格范围，会挑战失败。"
+				""
+				"&c只建议在下界天花板上打，其它维度不确保有无奇怪的特性。传送门内的怪物具有较高的闪避率，有几率闪避大部分伤害。"
+				""
+				"&e在打挑战门的时候，有可能会出现游戏崩溃，只要能重新进入游戏就没有什么大问题。"
+				""
+				"&3除了开局的凋灵外，基本按前面几波为近战专署Boss，后面几波为远程专署Boss分类。可能需千咒卷轴+100%伤害以上，当然如果数值够就随便打。"
+				""
+				"&2需注意提前准备好沙漠项链、多种武器。"
+			]
+			id: "3D32D4851EA1DA61"
+			rewards: [{
+				id: "417FAF4FEB3572B3"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:boss_rush_gate_1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "29B956FCA5EB313B"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "神树之根-无边恶意传送门珍珠"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["190390BC22EFEDA0"]
+			description: [
+				"消耗一个暗黑下界之星可获得挑战神树之冠-原初混沌传送门珍珠，里面会有大部分龙后的Boss。"
+				""
+				"&6会在32格范围内生成，如果有怪尝试逃离此范围会被拉回去。此外当有生物超出256格范围，会挑战失败。"
+				""
+				"&c只建议在下界天花板上打，其它维度不确保有无奇怪的特性。传送门内的怪物具有较高的闪避率，有几率闪避大部分伤害。"
+				""
+				"&e在打挑战门的时候，有可能会出现游戏崩溃，只要能重新进入游戏就没有什么大问题。"
+				""
+				"&2需注意提前准备好下界之星作为激活道具。"
+				""
+				"&3大部分波数的Boss都具有极高的闪躲率，该闪躲仅会导致受到伤害无效且无受击动画，此外无其它效果。"
+			]
+			id: "1781F716874AACEE"
+			rewards: [{
+				id: "5156BA6DC532782C"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:boss_rush_gate_2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3A4C2C85C8D50FF5"
+				item: "forbidden_arcanus:dark_nether_star"
+				type: "item"
+			}]
+			title: "神树之冠-原初混沌传送门珍珠"
+			x: 14.5d
+			y: 12.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["788CB3A4AF9088E0"]
+			description: [
+				"消耗一个堕天末影珍珠可获得挑战永恒轮回-最终试炼传送门珍珠，里面会有大部分Boss。"
+				""
+				"&6会在32格范围内生成，如果有怪尝试逃离此范围会被拉回去。此外当有生物超出256格范围，会挑战失败。"
+				""
+				"&c只建议在下界天花板上打，其它维度不确保有无奇怪的特性。传送门内的怪物具有较高的闪避率，有几率闪避大部分伤害。"
+				""
+				"&e在打挑战门的时候，有可能会出现游戏崩溃，只要能重新进入游戏就没有什么大问题。"
+				""
+				"&3除了部分波数外，大部分波数时间都相对较短，需要些快速清怪的手段。"
+			]
+			id: "0B513ABE33854FCA"
+			rewards: [{
+				id: "1B29D55FAA926361"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:boss_rush_gate_3"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3F009E1C865E0DD9"
+				item: "yuusha:falling_ender_pear"
+				type: "item"
+			}]
+			title: "永恒轮回-最终试炼传送门珍珠"
+			x: 20.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"寻觅：在迦赫纳维度找到腐化英雄监狱，然后手持血腥钻石右击腐化英雄祭坛，即可召唤腐化英雄。详见遥远世界章节。可以用探险家指南针搜索“Lich Prison”找到。"
+				""
+				"&c特点：具有&e适应、活力、抑制、怨恨&c属性。攻击赋予短暂眩晕（无法攻击和移动）、末影溶解（受伤瞬移）、灵魂破碎5级（减三分之一移速、血量）、空丝化7级、重伤2级、侵蚀10级效果。&e免疫所有药水效果&c。具有极高的攻击伤害。"
+				""
+				"&6元素战斗类型：弱暗属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量屠夫经验、不死之魂、古尔之杖、召唤物。可制作命运之手、终极枪械材料、冷火之瓶、射线枪、机械融合砧、旋涡护手、挽魂锋镰、暴雪聚晶。额外有几率获得邪恶蜡烛、危险的头骨。"
+			]
+			hide_dependent_lines: true
+			icon: "graveyard:white_bone_staff"
+			id: "4A9D45727EE2D931"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58F9E459658C4588"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0DDFA56D96E1532C"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "7BBBABBDE0D61191"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					id: "038BB35111F95293"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C37455A3D6DE1D9"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "4D3FBE36D4BC60BC"
+				item: "graveyard:white_bone_staff"
+				type: "item"
+			}]
+			title: "击杀：腐化英雄"
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"&c你知道吗？利用女巫坩埚可以精酿药水，其中末影珍珠可酿造末影禁锢药水，从而阻止生物传送。"
+				""
+				"&e你知道吗？建议打龙后的Boss都先把多样性吃到100，这样有饱和还能有星灵之力4，否则很容易被Boss秒。"
+				""
+				"&6你知道吗？龙后的Boss以千咒卷轴+100%至150%为强度基准。"
+				""
+				"&3你知道吗？星灵之力效果每级可增加20%的抗性，而星裂效果每级会降低20%的抗性，两者可以抵消。"
+				""
+				"&2你知道吗？Boss并非必须要按照顺序打，有些Boss需要特定武器才好打。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:charmof_power"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "05A7666B2FF2E43D"
+			rewards: [{
+				id: "27239D0D8437D83E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十章 - 意志 -"
+			tasks: [{
+				id: "2EEA3865C3088017"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【力量】"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"寻觅：找到幽匿暗域维度内的远古祭祀堡垒（召唤永恒苦痛之灵的地方），手持缚魂之链或其召唤物（副手不要持物品）右击献祭之石，即可召唤。击杀后可在召唤祭坛召唤。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发25级、星灵之力4级、树皮16级、速度3级、纯化抗性1级效果、&e抑制&c属性。攻击赋予助燃性200级（每级+1点火焰伤害）、狱火5级（属火焰伤害）、侵蚀5级效果。释缚的鹿之精魂在主世界时，白天为无敌状态，只有夜晚才能造成伤害，但是在其它大部分维度没有此限制。"
+				""
+				"&6元素战斗类型：对光和雷属性、斩击类型伤害分别均会有50%易伤，对魔法类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得吉加骑士之心、释缚的鹿之精魂颅骨、召唤物、神圣契约。额外有几率获得圣遗箭袋、天华聚晶、神奇石头、多种法术聚晶（灵魂束、地震、牙之、冰川、音爆、电刑、撕咬、季风）。可制作奇异节日糖果、培养皿、天使的祈愿、法术反制法术卷轴。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "whisperwoods:hirschgeist_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21BC823C8189EB54"
+			rewards: [
+				{
+					id: "4B61AC4FA0B0D593"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "20E7FCAEE682951F"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8星"
+			tasks: [{
+				id: "3605F5AD73B7B1D0"
+				item: {
+					Count: 1
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：释缚的鹿之精魂"
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"寻觅：手持转化灵药，右击放在地上的恶魔南瓜，即可召唤，只建议在下界天花板上召唤。击杀后可在『召唤祭坛』召唤，材料为其召唤物、咒灰，用博丽的御币右击激活。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发15级、星灵之力4级、纯化抗性2级、树皮16级效果、&e怨恨、刺客、阳炎&c属性。有三个阶段。攻击赋予重伤2级、助燃性200级、狱火5级、侵蚀10级效果。有可能会清除目标所有效果。"
+				""
+				"&6元素战斗类型：一阶段受到&3冰属性&6有100%易伤，二阶段受到&e雷属性&6有100%易伤，三阶段受到&5暗属性&6有100%易伤。此外所有形态对魔法类型伤害都有额外50%易伤，且对打击类型伤害有50%抗性。其余类型伤害不变。"
+				""
+				"&2用途：击杀后必定获得南瓜手铳、奇异节日糖果、召唤物。额外有几率获得狱火暗域领主灯笼、扭曲之脑、血怒水晶、希腊火桶。可制作AWM 狙击步枪、魔灵箭袋、无尽箭袋附魔、炽焰斩击50级法术卷轴。"
+			]
+			hide_dependent_lines: true
+			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			id: "7D67A714136E8558"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "392E7B62BE0A0F75"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "05ADCDB35B99BAAA"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8星"
+			tasks: [{
+				id: "1628894C902999D3"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinhandgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：狱火暗域领主"
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"寻觅：在来无回之都维度可找到苦寒监牢，需用怪奇钥匙开启最底层的大门，然后右击激活被诅咒的墓碑可召唤。可用探险家指南针搜索“Frosted Prison”找到苦寒监牢。击杀后等待3分钟，可再次右击召唤。也可用召唤物右击立刻召唤，在击杀后会多一个墓碑。用余烬模组的灰烬右击墓碑可清除。"
+				""
+				"&c特点：具有瞬间伤害6级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，反射属性。攻击赋予冰冻3级、禁空、空丝化13级、重伤3级、侵蚀5级效果。免疫48格以外伤害，免疫护甲穿透伤害，但不免疫魔法伤害。每次受击会获得短暂100%减伤，在1.5秒内会线性衰减到0%，再次受击会重置减伤。任何脱战隐身都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得咒魂锭、诅咒之眼、召唤物。可制作生息胸花、炽烈号角、除幽匿之触外的远古巫术。额外有几率获得终结者头骨。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:cursium_ingot"
+			id: "64C4205C5EDA81BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77ADC110D7CD948F"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "377E31F2A18D9698"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "602DBD4A337A5B69"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "419DB359A88E58D0"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "25FA6288B2E2B51B"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "击杀：咒翼灵骸"
+			x: 10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"&c你知道吗？部分隐身怪物，可能你需要幽灵之眼等显隐饰品。甚至有部分隐身怪物免疫显隐饰品。"
+				""
+				"&e你知道吗？每个Boss最好都重复打三四次以便获得足够的材料。否则切换装备比较麻烦。"
+				""
+				"&6你知道吗？有些特性只有在开启创造模式才会出现。"
+			]
+			icon: "confluence:paladins_shield"
+			id: "6D8D46A8D5F1DD25"
+			rewards: [{
+				id: "23B9DBB4EFEBB231"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第七章 - 胜利 -"
+			tasks: [{
+				id: "631E99D438E1A766"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【战车】"
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["34DC2A146836EC4D"]
+			description: [
+				"寻觅：第一次只能通过『召唤祭坛』召唤。召唤需要的材料为孽血瓶×7或者七宗罪化身召唤物×7、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害9级、活力迸发25级、星灵之力7级、纯化抗性1级、树皮16级效果、&e破空&c属性。攻击赋予空丝化8级、星裂5级效果，并短暂降低1000点基础&e生命值&c（除色欲化身）。色欲化身会强制把玩家穿戴的防具（头盔、胸甲、护腿、靴子）&e脱下&c来并可能销毁。贪婪化身会把玩家及自身&e下沉&c并穿过方块。"
+				""
+				"&6元素战斗类型：弱神属性、勇者攻击方式，对其它类型伤害具有极高抗性。"
+				""
+				"&2用途：击杀必定获得血肉之骨、七宗罪碎片、七宗罪装备（不防雷）、召唤物。可制作血肉下界之星、虚空珍珠、圆环之理碎片、无尽图腾、狂怒手套、亚特格拉德病毒『重生』、天堂陨落长弓。"
+			]
+			hide_dependent_lines: true
+			id: "3AA4A6AC9BA3A0A6"
+			rewards: [
+				{
+					count: 3
+					id: "7A296C40A94AC573"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55D12105695C03FA"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FFB10A9C8B454D1"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327BC291044C0D06"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "649EA0721A909475"
+				item: "yuusha:blood_star"
+				type: "item"
+			}]
+			title: "击杀：七宗罪化身"
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"&c你知道吗？不建议给武器、装备附魔太多，只要有用的就行，否则容易出特性。"
+				""
+				"&e你知道吗？十字项链能有效延长保命时间。"
+			]
+			icon: "yuusha:purple_heart_melted"
+			id: "2E605CBE6AD51878"
+			rewards: [{
+				id: "00A45660056139FC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十二章 - 结合 -"
+			tasks: [{
+				id: "3D32F3C93119EDA1"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【恋人】"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["34DC2A146836EC4D"]
+			description: [
+				"寻觅：只能通过『召唤祭坛』召唤（在16格外）。召唤需要的材料为异想体之心或者庇护者召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗8级、活力迸发25级、星灵之力7级、纯化抗性1级、树皮16级效果、&e破空&c属性。攻击赋予空丝化15级、星裂5级效果，并短暂降低1000点基础&e生命值&c。具有两个阶段，第一阶段不会攻击，但&e免疫&c大部分近战、原版魔法伤害，不免疫爆炸、箭矢、女仆近战攻击、部分铁之咒语法术、部分聚晶、特殊镰刀近战。"
+				""
+				"&6元素战斗类型：弱神属性、勇者攻击方式，对其它类型具有极高抗性。"
+				""
+				"&2用途：击杀必定获得虚空庇晶、十六夜咲夜的怀表、召唤物、极多所有技能经验。可制作战争亡者之徽、奥术永恒皇冠、绝对零度聚晶、幽匿之触法术卷轴、犬牙钓竿。"
+			]
+			hide_dependent_lines: true
+			icon: "stalwart_dungeons:void_crystal"
+			id: "7090E91D0EBFDBD3"
+			rewards: [
+				{
+					id: "7323107A1F13B3B1"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A7C7883D09BC34"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62A13F97D0D21D4B"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D83927BE4026F1B"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "4B8C4C88FCC219FC"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			title: "击杀：庇护者"
+			x: 17.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"寻觅：制作一把重型钓鱼竿（见上层世界章节任务），并获得一些蘑菇鮟鱇鱼/火炬鱼/鲱鱼在副手，然后在溶洞/繁茂洞穴/深暗之域生物群系进行垂钓。击杀后可用召唤祭坛召唤（会在16格以外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发10级、星灵之力4级、纯化抗性1级、树皮14级效果、&e怨恨&c属性。攻击赋予玩家血殇40级、禁空、重伤2级、侵蚀5级效果。会清除周围方块（除黑曜石和基岩）。"
+				""
+				"&6元素战斗类型：对魔法类型伤害会有100%易伤，对冰、火、雷属性有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得化石鱼胸甲、深渊反应物、血骸之心、召唤物。额外有几率获得金沙护符、不朽之身。可制作史诗枪械材料、太阳磁铁、索命聚晶。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:blood_bone_heart"
+			id: "2816F77EAC575627"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "754F1324348E10D4"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					command: "/curios add dna @s 1"
+					elevate_perms: true
+					icon: "moonstone:cell_not_do"
+					id: "6C7EF41AE459F7A0"
+					title: "&5增加一个异种基因锁栏位"
+					type: "command"
+				}
+			]
+			subtitle: "7星"
+			tasks: [{
+				id: "107467E4612E6686"
+				item: "yuusha:blood_bone_heart"
+				type: "item"
+			}]
+			title: "击杀：化石鱼"
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			description: [
+				"寻觅：制作一把重型钓鱼竿（见上层世界章节任务），并获得一些冰冻鳕鱼/罗非鱼/黄貂鱼在副手，然后在冻洋/冰冻深海生物群系进行垂钓。击杀后可用召唤祭坛召唤（会在16格以外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发8级、星灵之力4级、树皮14级、霜冻之心效果。攻击赋予短时间冰冻、空丝化3级、侵蚀5级效果。每次&e被攻击会冲撞&c（在水中冲刺距离会受限）并清除周围方块（除黑曜石和基岩）。"
+				""
+				"&6元素战斗类型：对火或雷属性、魔法类型伤害分别均会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得深渊反应物、冰立方材料、召唤物。在星河贸易站内可交易暗影飞刃。可制作瓦解聚晶、深渊遗物、扭曲无常符文、全金属被甲弹。额外有几率获得特定塔罗牌、冰封蟹项链、冰冻护腿、冰冻海龟壳、恐慌项链、永冻碎片。"
+			]
+			hide_dependent_lines: true
+			icon: "confluence:frozen_turtle_shell"
+			id: "368748EF21F8DEC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B238ACAAE0741A3"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "7星"
+			tasks: [{
+				id: "5D8CE2BE74F5C080"
+				item: "goety:ice_cube"
+				type: "item"
+			}]
+			title: "击杀：冰封蟹"
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"寻觅：激活迷离之眼方尖碑后即可召唤巨型迷离之眼（最多同时存在三个）。击杀后可在召唤祭坛召唤（会在16格以外），需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗8级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果，&e活力、破空&c属性。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级效果。在「&e冲刺或者有小怪&c」时，会获得星灵之力6级效果。&e失去仇恨&c时会不停召唤小怪，比如失明等。"
+				""
+				"&6元素战斗类型：弱光属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀可获得混沌咒石、扭曲魔钢锭、石化经验球、召唤物。额外有几率获得特定塔罗牌。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:twist_ingot"
+			id: "0A4918A1017DEB46"
+			rewards: [
+				{
+					count: 3
+					id: "5EDFF13C09FAC5FF"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F532E0FC50D56E6"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "36D5A96047B86F8B"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A0BA6EAE30A8BD4"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "3380209FFE685233"
+				item: "yuusha:twist_ingot"
+				type: "item"
+			}]
+			title: "击杀：巨型迷离之眼"
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"寻觅：手持虹影渊晶，右击最终极之涡维度的奇异藤花，即可从高空处召唤渊兽领主并降落到天花板之上。击杀后可用其召唤物、咒灰、博丽的御币在召唤祭坛中召唤。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射、适应属性。攻击赋予禁空、削50%护甲、空丝化11级、重伤4级、侵蚀50级效果。每次被攻击都有几率把一定范围内的生物瞬移到其脚下。同时存在两个靠近时游戏可能会崩溃。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得渊兽灵眸、腐化锭、虹影渊晶、召唤物。可制作玻璃之手。额外有几率获得虚伪锚、深渊护符、深渊石球、魔鬼的财宝、卑微之酿（深渊遗物系列饰品必须同时佩戴深渊之眼才能生效，礼装章节有任务可获得更多深渊遗物栏位）。"
+			]
+			hide_dependent_lines: true
+			icon: "depthcrawler:deepbosseye"
+			id: "0A682943879D5180"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52AD08EF2099DBA8"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "054FFEE0DDBE640C"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "3D5AD5CD4E1B755A"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "057FAB047DF0E398"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "601DBAC3D6E073FE"
+				item: "depthcrawler:deepbosseye"
+				type: "item"
+			}]
+			title: "击杀：渊兽领主"
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"寻觅：手持苍白下界之星，右击最终极之涡维度的奇异藤花，会从高空处召唤渊眼苍龙并降落到天花板之上。击杀后可用其召唤物、咒灰、博丽的御币在召唤祭坛中召唤。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射属性。攻击赋予禁空、削50%护甲、空丝化11级、重伤4级、侵蚀50级效果。同时存在两个靠近时游戏可能会崩溃。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得衔尾蛇项链、苍白珍珠、完美的炭紫晶、苍白下界之星、召唤物。可制作魔眼高爆弹/魔眼内爆弹。额外有几率获得痛苦游离石。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:pale_pearl"
+			id: "4AD94A50EDB892D3"
+			rewards: [
+				{
+					id: "28629F5F1E66E673"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68432F8A0C6F3AFE"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "2E668748218C32E9"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77782FB9AD501092"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "653EF352F757C6CF"
+				item: "depthcrawler:ouroborosnecklace"
+				type: "item"
+			}]
+			title: "击杀：渊眼苍龙"
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"寻觅：手持充满的远古注灵器，右击最终极之涡维度的奇异藤花，即可从高空处召唤远古渊兽领主，会降落到天花板之上。击杀后可用其召唤物、咒灰、博丽的御币在召唤祭坛中召唤。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射、适应属性。攻击赋予禁空、削50%护甲、空丝化11级、重伤4级、侵蚀50级效果。同时存在两个靠近时游戏可能会崩溃。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得异界法钥、无魂渊晶、充满的远古注灵器、召唤物。可制作远古珍宝材料（JEI搜索“无限之体现”）。额外有几率获得无限之体验、万腐之心、深渊方尖碑、共鸣者法球、万贯者的悲哀、窥眸者的暗染之眼（深渊遗物饰品须同时佩戴深渊之眼才能生效，礼装章节可获得更多深渊遗物栏位）。"
+			]
+			hide_dependent_lines: true
+			icon: "depthcrawler:soullessgem"
+			id: "599CD576BE63F051"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C8436B7B25F9AD4"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "288007616BF4BB9F"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					id: "6D8FDDFBC274E1E2"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 5
+					id: "73EA4EAB8D26A210"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02D5B27E0704AB18"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "4A2D57C69DD6D202"
+				item: "depthcrawler:soullessgem"
+				type: "item"
+			}]
+			title: "击杀：远古渊兽领主"
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"寻觅：利用锻造仪式（需破碎的希望之心等材料）进行召唤，相关材料详见遥远世界章节。击杀后可用其召唤物、咒灰在召唤祭坛中召唤。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果，活力属性。攻击赋予血殇200级、禁空、重伤3级、侵蚀20级效果。&e被攻击时会瞬移&c。"
+				""
+				"&6元素战斗类型：弱草属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得异化红石巨兽燃芯、异化红石巨兽头颅、末影符文、自然符文、召唤物、闪烁的精炼蜂蜡锭。可制作黑暗卷轴。可复制法术速吟宝石。"
+			]
+			hide_dependent_lines: true
+			icon: "goety:redstone_monstrosity_head"
+			id: "577B6D54654394EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "503412642654DA94"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "1F2F5C060AC0B89A"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "1D2AEAE7E0887EF6"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "441C6641856A4BB1"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "34A0231C121E44C8"
+				item: "goety:redstone_monstrosity_head"
+				type: "item"
+			}]
+			title: "击杀：异化红石巨兽"
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"寻觅：在林地府邸、古代城市、下界要塞中使用黑暗卷轴（可复制）会召唤出灾厄宰相，击杀后会给袭击效果。可用探险家指南针搜索“林地府邸”等找到。击杀后可召唤祭坛召唤，材料为其召唤物、咒灰，用博丽的御币激活。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发15级、星灵之力5级、纯化抗性1级、树皮16级效果，&e活力&c属性。攻击赋予血殇200级、重伤3级、侵蚀20级效果。死亡后会给予玩家&e不祥之兆&c效果。"
+				""
+				"&6元素战斗类型：弱火属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得灵魂红宝石、炽焰符文、冰霜符文、黑暗卷轴、符文、召唤物、秘术粉。可制作腾炎下界之星、传说墨水、球状闪电法术卷轴、熔火箭袋。"
+			]
+			hide_dependent_lines: true
+			icon: "goety:soul_ruby"
+			id: "0D983D9E339EE87A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0845E6A80A6EC8AC"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "1220804F09021F20"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "020B64EEE116C502"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11147122DB885CDD"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "35089B35FC0F83FA"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			title: "击杀：灾厄宰相"
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"寻觅：可用安息仪式召唤使徒，祭坛基座上需放置异界法钥、巫婆帽、术士腰带、炼狱之泪或虚空之泪，最后往黑暗祭坛放入双生魂。击杀后可在『召唤祭坛』中召唤，材料为使徒召唤物、咒灰，用博丽的御币右击激活。此击杀任务需检测物品完成。"
+				""
+				"&c特点：具有活力、反射、适应、阳炎属性。攻击赋予空丝化12级、重伤4级、侵蚀5级效果。每次受伤有上限阈值。免疫所有药水效果。第一阶段时血量降至三分之一，会发出烟雾并保持无敌，直到血量回满，然后进入第二阶段。被亡灵杀手附魔会导致无法回血。"
+				""
+				"&6元素战斗类型：弱光属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀必定获得伊卡洛斯之翼徽章、不洁之血或至纯之血（需在下界击杀）、召唤物、暗夜信标（需在下界击杀）。可制作自适应强化基因、深渊之锁。可复制远古珍宝材料。额外有几率获得破碎之环。"
+			]
+			hide_dependent_lines: true
+			id: "14323D590DD88978"
+			rewards: [
+				{
+					id: "6EC19111588FFAFF"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64595625DC169A1E"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "7A11B296A1609238"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "3D9508B86C4DC178"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62FE39B6CC7E77E4"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "74405704E89769E7"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "击杀:   使徒"
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"寻觅：找到古遗天境的墨魂神殿建筑，并按古遗天境章节任务，通关墨怪入侵传送门，制作墨魂祭品。可用墨魂祭品（或其召唤物）右击泰坦墨魂头颅召唤远古墨魂化身。可用探险家指南针搜索“Ink Arena Structure”找到墨魂神殿。"
+				""
+				"&c特点：具有瞬间治疗3级、活力迸发16级、星灵之力4级、纯化抗性1级、树皮16级效果、&e反射&c属性。攻击赋予神圣城堡（无法建造和破坏方块）、空丝化6级、削50%护甲、重伤1级、骨裂、墨染、禁空、末日40级效果。"
+				""
+				"&6元素战斗类型：对暗属性、魔法类型伤害分别会有50%、50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得墨灵印记、墨灵核心、召唤物。可制作传奇枪械材料、星月附魔台、隐匿手环、受诅咒的坚盾、双生对影、绯红联结。额外有几率获得特定塔罗牌、富饶之心、幸运水晶+、古代戒指、古代吊坠。只有在墨魂神殿区域内击杀才可获得古代地牢钥匙、墨魂珑心。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:ink_heart"
+			id: "0CD140417D3012A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A1B00FB4242818D"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "39A0863609EC1B72"
+				item: "ancient_aether:ancient_dungeon_key"
+				type: "item"
+			}]
+			title: "击杀：远古墨魂化身"
+			x: -6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"寻觅：手持伊卡洛斯之翼右击暗夜信标即可召唤，会在高空处生成然后自由落体。击杀后可在『召唤祭坛』中召唤，材料为消失的天使召唤物、咒灰，用博丽的御币右击激活。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发30级、星灵之力7级、纯化抗性2级、树皮16级效果，反射、活力属性。攻击赋予空丝化12级、重伤4级、侵蚀5级效果。有两个阶段，要击杀第二个阶段才能获得较多的掉落物。"
+				""
+				"&6元素战斗类型：弱光属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得消失的天使本源核心（在天境维度击杀可以获得更多）、召唤物。可在星河贸易站交易获得钥匙303号。可制作传奇魔引、灵歌附魔台、神圣七彩护符。可复制远古珍宝材料。"
+			]
+			hide_dependent_lines: true
+			icon: "angelcraft_bosses:recompensa_boss"
+			id: "5F00FE832C9E0663"
+			rewards: [
+				{
+					id: "1ED81772B63AB5D3"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15ECF6C76B1F509E"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "7C4C5CAE368594C9"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3B22C8CEE2F9CB8A"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57DF8F5B8D446756"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "221053FD96D164E7"
+				item: "angelcraft_bosses:recompensa_boss"
+				type: "item"
+			}]
+			title: "击杀：消失的天使"
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"寻觅：在诱惑之森维度找到小丑皇城堡，然后用杰克玩偶右击建筑内的特定祭坛召唤。可利用探险家指南针搜索“Jack Castle”找到该建筑。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果，&e适应、刺客&c属性。攻击赋予禁空、空丝化10级、重伤3级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱光属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得杰克的帽子、杰克玩偶、诅咒布匹、诅咒树脂球。可制作诅咒长袍。"
+			]
+			hide_dependent_lines: true
+			icon: "arcalis_bosses:jack_puppet"
+			id: "6B65C53EE8FDFD5D"
+			rewards: [
+				{
+					id: "72829415549C855C"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "71C9308785AC87ED"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "750E5A5510F728CC"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13B13EBE6FE5365C"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "05C13E8FF858907A"
+				item: {
+					Count: 1
+					id: "arcalis_bosses:jacks_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：小丑皇杰克"
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"寻觅：在诱惑之森维度找到死亡墓园，然后用诅咒长袍右击建筑内的特定祭坛召唤。可利用探险家指南针搜索“Deathbringer Graveyard”找到该建筑。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果，&e活力、怨恨&c、反射属性。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级效果。无视狂暴之心的加伤。"
+				""
+				"&6元素战斗类型：弱光属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得血腥颅骨、诅咒长袍、虚金残骸。可制作不死者护符、迷离之眼方尖碑、恒星燃料。"
+			]
+			hide_dependent_lines: true
+			icon: "arcalis_bosses:cursed_robe"
+			id: "23C582241DF4AC5C"
+			rewards: [
+				{
+					id: "025E261B5BBDC6B9"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "11068D0A0ABDCADA"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "195AF7D9027A3B91"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55C1593EC025436B"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "601AAC9B487BD506"
+				item: "arcalis_bosses:bloody_skull"
+				type: "item"
+			}]
+			title: "击杀：死亡到临者"
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"寻觅：在亡骸之海维度找到海盗酒馆，然后用诅咒海盗帽右击建筑内的特定祭坛召唤。可利用探险家指南针搜索“Pirate Tavern”找到该建筑。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发20级、&e星灵之力6级&c、纯化抗性1级、树皮16级效果，活力、反射属性。攻击赋予禁空、空丝化9级、重伤4级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得诅咒海盗帽、死骸船长的军刀、灵魂尘。可制作被咒者的图腾、魔能空尖弹、直死魔眼高斯反器材步枪、术士帽。"
+			]
+			hide_dependent_lines: true
+			icon: "arcalis_bosses:cursed_pirate_hat"
+			id: "7C977028A4A299EC"
+			rewards: [
+				{
+					id: "37BD7733F6AB5977"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "48E0D4217453661C"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64D624FC5CC4AF61"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B46DD9102A5E794"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "228DD07BAAED9645"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticlegacy:soul_dust"
+				}
+				type: "item"
+			}]
+			title: "击杀：死骸船长"
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"寻觅：只能通过召唤祭坛召唤。召唤需要的材料为南瓜月碎片、魂心水晶、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间伤害4级、活力迸发25级、星灵之力4级、纯化抗性1级、树皮16级效果、刺客属性。攻击赋予眩晕（无法攻击和移动）、重伤2级、侵蚀10级效果。每次&e受伤都会瞬移&c最多9格（可能会从下界天花板上瞬移到下面）。"
+				""
+				"&6元素战斗类型：弱光属性、弹射攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量灵敏、箭术经验、幸运水晶+、南瓜月苹果、哀木锭、召唤物。可制作不稳定红石余烬、魂灵匣、火矢附魔。额外有几率获得绝望共鸣、幻灵结晶。"
+			]
+			hide_dependent_lines: true
+			icon: "luminous_halloween:halloween_ingot"
+			id: "2CB2AF13324EE548"
+			rewards: [
+				{
+					id: "7CB325B689FA9717"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C038E1351307D70"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5FAFBEC16AB2026D"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34729D159D6C6AB5"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "67A484562A08E478"
+				item: "luminous_halloween:halloween_ingot"
+				type: "item"
+			}]
+			title: "击杀：南瓜月魂怨领主"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"寻觅：只能通过[召唤祭坛]召唤。召唤需要的材料为末地石晶球、哀木锭、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间治疗5级、树皮16级、活力迸发15级、星灵之力4级、纯化抗性1级效果，反射、&e怨恨&c属性。攻击赋予短暂眩晕（无法攻击和移动）、末影溶解（受伤瞬移）、易燃性200级、狱火5级、侵蚀10级效果。"
+				""
+				"&6元素战斗类型：弱火属性、弹射攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量巧匠和采掘经验、恶兽之眼、召唤物、阴阳颗粒。可制作倒转之启、不稳定红石余烬、力量和神射手15级，可星河贸易站交易永恒陨星。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:monstrous_eye"
+			id: "1106FDFD523846F3"
+			rewards: [
+				{
+					id: "56B79ACE72E535B7"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30D6141150B3FFFE"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3CE437FBE0F5A2AC"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "518108A41A009BB2"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "31E7C9948EE125A1"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "击杀：异化红石傀儡"
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"寻觅：在下界要塞使用咒怨炽烈号角（可复制）即可召唤咒怨凋零死灵巫妖。"
+				""
+				"&c特点：具有瞬间伤害7级、活力迸发20级、星灵之力6级、纯化抗性1级、树皮16级效果，活力、反射、怨恨属性。攻击赋予禁空、削50%护甲、空丝化11级、重伤4级、侵蚀50级、末日40级效果。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得咒怨炽烈号角、凋零手稿。可制作暗影钥匙、深渊意志徽章、异教徒项链。额外有几率掉落邪恶徽记。"
+			]
+			hide_dependent_lines: true
+			icon: "goety:withered_manuscript"
+			id: "77868945AC33FB3B"
+			rewards: [
+				{
+					id: "2AAA82C7FE8F4461"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BA5736CAF185343"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "2449D4EC86F85DBE"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA5D8F766AD63E1"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "5EC0B99956124FB3"
+				item: "goety:withered_manuscript"
+				type: "item"
+			}]
+			title: "击杀：咒怨死灵巫妖"
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"寻觅：在主世界的沙漠守卫竞技场内可以找到封印沙罐，用不死图腾右击该方块（需种植技能250级才能交互）即可召唤沙漠守卫者。可利用探险家指南针搜索“Sand Warrior Arena”找到沙漠守卫竞技场。击杀后可在召唤祭坛中召唤，召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发11级、星灵之力4级、纯化抗性1级、树皮14级效果、&e刺客&c属性。攻击赋予血殇40级、禁空、重伤1级、侵蚀5级效果。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对打击类型伤害会有50%易伤，对冰、火、雷属性有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得沙暴之剑、少量远古金属锭、召唤物、金箭。可制作诅咒金属锭、RPG-7火箭筒、沙漠项链、日炎和噩兆、绽放聚晶、传送石。额外有几率获得特定塔罗牌、沙暴瓶、七剑修罗万法、圣骑士护盾。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:ancient_metal_ingot"
+			id: "1C615301AF815917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4C4586EC6B35A8"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "7星"
+			tasks: [{
+				id: "149012885CF57DED"
+				item: {
+					Count: 1
+					id: "hs_bosses:sand_sword_test"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：沙漠守卫者"
+			x: -8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"寻觅：在主世界的深海海底找到一座破败神龛，将溺魂放入神龛中心的海洋祭坛上，就能够召唤溺亡者与它的坐骑深水食人鱼。可通过探险家指南针搜索“Ocean Shrine”找到破败神龛。"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发14级、星灵之力4级、树皮14级效果、&e适应&c（持续受到同种伤害减伤）属性。攻击赋予空丝化3级、重伤1级（-40%受到治疗）、侵蚀5级效果。如果深水食人鱼先死亡，溺亡者会浮到水面上。溺亡者会给予禁音效果，可重新进入存档、调整音量大小刷出声音。"
+				""
+				"&6元素战斗类型：对雷属性、刺击类型伤害分别均会有100%易伤，对打击类和斩击类有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得海金粒、珊瑚锭、水椰、死亡精华、忏悔石、航海经验、召唤物。可制作水晶矩阵锭、魔法石英戒指、毁灭者勋章，可升级法术书。有几率获得特定塔罗牌、渔民袖珍宝典、六分仪、天气收音机。"
+			]
+			hide_dependent_lines: true
+			icon: "call_of_drowner:seagold_ingot"
+			id: "07A1BDD019A13232"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EF46E52008D1544"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					command: "/curios add ncrdna @s 1"
+					elevate_perms: true
+					icon: "moonstone:adrenaline"
+					id: "732EF1C62702B870"
+					title: "&5增加一个魔人基因锁栏位"
+					type: "command"
+				}
+			]
+			subtitle: "6星"
+			tasks: [{
+				id: "4E44ED4E607D232C"
+				item: "call_of_drowner:seagold_ingot"
+				type: "item"
+			}]
+			title: "击杀：溺亡者"
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"寻觅：在古遗天境找到萨菲拉墓园建筑，多次右击建筑顶部的墓碑处的奇怪的巫师帽进行对话（不能在隐身状态下右击，请勿开启连锁右击），结束后，用腐朽图腾右击即可展开战斗。可利用探险家指南针搜索“Graveyard Arena”找到萨菲拉墓园。击杀后可在『召唤祭坛』召唤（在16格外），召唤材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发4级、星灵之力4级、纯化抗性2级效果，&e活力、破空、抑制&c（非近战减伤）属性。攻击赋予重伤2级（-80%受到治疗）、血殇20级、痉挛5级、侵蚀5级效果。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得无底袋、治疗药剂、女巫法杖、召唤物。额外有几率获得特定塔罗牌、魔光护符、巫师徽章。无底袋开启几率获得下界合金升级锻造模板、下界之星。可制作无限增幅卡、HK-416D、复仇者勋章。"
+			]
+			hide_dependent_lines: true
+			icon: "mokels_witch_boss:bottomless_bag"
+			id: "0D1B5BC013BE2109"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57DBCB2CB31FFC3D"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "5星"
+			tasks: [{
+				id: "3F00CF6EE1369DE7"
+				item: "mokels_witch_boss:bottomless_bag"
+				type: "item"
+			}]
+			title: "击杀：萨菲拉"
+			x: -12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"寻觅：找到幽匿暗域维度内的远古竞技场，手持哭泣幽魂右击哭泣之石（采掘无掉落物），即可召唤。可利用探险家指南针搜索“Ancient Arena”找到远古竞技场。"
+				""
+				"&c特点：具有瞬间治疗3级、活力迸发15级、星灵之力4级、树皮16级、速度3级效果、&e抑制、怨恨、刺客、破空&c属性。攻击赋予重伤2级、助燃性100级（每级+1点火焰伤害）、狱火5级（属火焰伤害）、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对光和雷属性、斩击类型伤害分别均会有50%易伤，对魔法类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得炼金经验、幽魂灯笼、幽古残骸、诅咒头盔、召唤物、下界合金箭。可制作MK14 EBR 精确射手步枪。额外有几率获得手电筒、恶魔之心。"
+			]
+			hide_dependent_lines: true
+			icon: "callfromthedepth_:immemorial_debris"
+			id: "6F811F1BE758477D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0694FE426517E9BE"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "7E74FF2772D6662C"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:soullight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：幽匿诅咒骑士"
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"寻觅：找到幽匿暗域维度内的远古祭祀堡垒，手持苦痛幽魂右击献祭之石，即可召唤。可利用探险家指南针搜索“AncientSacrificialBastion”找到远古祭祀堡垒。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发15级、星灵之力4级、树皮16级、速度5级效果、&e反射、抑制、破空&c属性。攻击赋予重伤2级、助燃性100级（每级+1点火焰伤害）、狱火5级（属火焰伤害）、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对光和雷属性、斩击类型伤害分别均会有50%易伤，对魔法类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得炼金经验、冥魂锭、幽魂铃铛等。可制作光染死神之镰、腐化徽章、决裁者徽章、猩红手环。额外有几率获得灵质果、多种法术聚晶（毒镖、火球、凋零、冰刺）。特定条件获得刻蚀板。"
+			]
+			hide_dependent_lines: true
+			icon: "callfromthedepth_:soulingot"
+			id: "34DF8AE7C33F8AC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10EFD3A2E48D3ED5"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "0A67ABCB8B8C4806"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "callfromthedepth_:soulbell"
+				}
+				type: "item"
+			}]
+			title: "击杀：永恒苦痛之灵"
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"寻觅：只能通过[召唤祭坛]召唤。所需要的材料为冰石、瘟疫钥匙、炼金石灰、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发6级、星灵之力4级、纯化抗性1级效果、&e怨恨&c属性。攻击赋予重伤2级、血殇20级、侵蚀5级效果。具有极高的法术伤害。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得冰霜能量碎片、奥术残骸、召唤物、不详碎片。额外有几率获得附魔石灰、特定塔罗牌、邪恶酒桶、死亡酒桶。可制作稀有枪械材料、海神王冠。特定条件获得刻蚀板。"
+			]
+			hide_dependent_lines: true
+			icon: "goety:ominous_orb"
+			id: "0CC6FA91C0867563"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A17384CF1125DF"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "5星"
+			tasks: [{
+				id: "259D719EC2BDFE9D"
+				item: "goety:ominous_orb"
+				type: "item"
+			}]
+			title: "击杀：灾厄教父"
+			x: -12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"寻觅：只可在[召唤祭坛]中召唤。召唤需要的材料为紫心刚玉、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间治疗5级、活力迸发15级、树皮3级效果，刺客、怨恨属性。攻击赋予&e短暂眩晕&c（无法近战攻击）、血殇200级、重伤2级、侵蚀10级效果。具有&e受伤上限阈值&c（约1000点），享受易伤提升伤害。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得虚空之眼、紫颂刚玉、碳素钢锭、大量忍耐经验、召唤物。可制作20级保护附魔书、不稳定红石余烬、破空等离子通用机枪。额外有几率获得智械机关。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:void_eye"
+			id: "401E5046DC87789E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C1CAC2BB9F9D241"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "2DDA84204BAAFAF5"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "675EE63D97847602"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40986E7AF4C67AD1"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "4992DAE60AFAAD86"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "击杀：紫心刚玉影鬼"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"寻觅：利用异界沙漠传送石可前往异界沙漠，击杀生物可获得异界宝石。在「召唤祭坛」用异界宝石、咒灰可召唤，祭坛下方需异白之沙，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发15级、星灵之力4级、纯化抗性1级、树皮16级效果、&e刺客&c属性。攻击赋予血殇200级、重伤2级、侵蚀20级效果。死亡后会自爆。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得机械之眼、碳素钢锭、炽星宝石、希腊火桶、大量钓鱼经验。可制作不稳定红石余烬、纯净之心、地灵之诺。"
+			]
+			hide_dependent_lines: true
+			id: "7A93D86054EF28CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ECBF35C559D8443"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "0579358F72791FEF"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "145B8D4FDE5AE6C8"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0D78ED2F5310DC"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "1D0A7B0E641BB3E9"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "击杀：异界电锯战姬"
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"寻觅：在主世界地下的深暗之域生物群系/远古城市建筑，当自然生成的幽匿尖啸体被激活至少4次时监守者会从地面钻出。可利用探险家指南针搜索“Ancient City”找到远古城市。"
+				""
+				"&c特点：具有瞬间治疗10级（基本能瞬间回满，但可以一击秒）、活力迸发10级、星灵之力2级、树皮12级、回响打击20级、暴食20级效果、&e抑制&c（非近战减伤）属性。攻击赋予玩家重伤2级、助燃性20级（每级+1点火焰伤害）、狱火5级（属火焰伤害）、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对光属性、斩击类型伤害分别会有50 %、50%易伤，对魔法类型伤害有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得幽匿之心等。额外有几率获得特定塔罗牌、上古果实、蒙眼布、监守者骨片、监守者卷须、回响碎片、幽匿催发体。可制作深渊之钥、传送石、诺克萨斯纹章、神之冠、吸血鬼的血、法术精通符文、雷动聚晶、暗夜信标。"
+			]
+			hide_dependent_lines: true
+			icon: "callfromthedepth_:sculkhearth"
+			id: "5A6BFEDF5F6CD834"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C94F79BE888118A"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "6A6938463CB8C794"
+				item: "callfromthedepth_:sculkhearth"
+				type: "item"
+			}]
+			title: "击杀：监守者"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"咒法章节可以做召唤祭坛召唤Boss。古遗天境地表有宝箱怪，击杀可掉落奇异饰品。纯净织布可以把开局送的神秘护身符洗成吸血词条。冒险者之证能让你在攻击时不破坏方块。狂野爪、古代吊坠、古代戒指可提升玩家基础攻速。"
+				""
+				"&b霜冻巨兽（混合线）：激光暴雨梨花袖箭远处击杀，可做墙格挡冰爆弹，需一定箭术等级、鹰眼词缀、远程加伤饰品。平凡墨水法术也能打，需一定魔法等级。不建议近战打，至少要50+点血量，20+点甲，星灵之力2级，才能扛住一下，且Boss能冰冻玩家。"
+				""
+				"&e太阳鸟（战士线）：太阳鸟的伤害很低，堆高点近战伤害（可用背刺刀）和移速，在下界天花板上召唤打。"
+				""
+				"&c钢铁守护者（战士线）：满级战斗+战斗技能树点满，可用农夫乐事的刀+背刺附魔（任务随机送，也可制作）。要有足够的移速去躲避攻击（副手持盾也可格挡部分伤害）。背刺时跳劈可加伤。星星项链也有背击加伤。"
+				""
+				"&3霜冻巨兽（女仆线）：类吸血鬼附魔+锁链套。玩家猎人腰带加伤满级。可以用法术战斗来进行近战攻击。也可远程击杀，女仆背包不要有食物。"
+				""
+				"&2太阳鸟（女仆线）：上火属性附加附魔，其余同前。"
+				""
+				"&5钢铁守卫者（女仆线）：需女仆一下攻击有1500+伤害，女仆分配在Boss的前后两个方向即可，也可玩家引诱。"
+				""
+				"&6雕刻师试炼（所有线）：手持兔子脚右击石制神像可获得跳跃指环，用灵质云可在切石机中制作各种气球。利用上述饰品可轻松通关试炼。也可用渡鸦斗篷。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "1F14B7AE5A452B87"
+			rewards: [{
+				id: "4E23980C70AB7C70"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "5A019B10E7CAD025"
+				item: "locusazzurro_icaruswings:colored_feather_bunch"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"&c你知道吗？饰品词缀之间有组合，且不同发展方向的词缀会有所差距。"
+				""
+				"&e你知道吗？遇到大部分Boss都不要怂，有不少饰品都是被打才会加伤。"
+				""
+				"&6你知道吗？伤害过低会无法破除适应属性。"
+				""
+				"&2你知道吗？部分Boss为低级限伤，比如使徒、帝王云鲸、紫心刚玉影鬼、灾变Boss等，只要玩家伤害加成足够高，可以秒掉。部分Boss为高级限伤，比如无名守卫者、下界亚波伦等，除了部分特殊攻击外，大部分攻击无法越过伤害阈值。"
+			]
+			icon: "moonstone:diemug"
+			id: "0806BC3D040EDDE8"
+			rewards: [{
+				id: "4BCAC06BC206B097"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第八章 - 结束 -"
+			tasks: [{
+				id: "0672D746AF24D729"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【死亡】"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"&c你知道吗？不要穿戴任何带有反伤效果的饰品、附魔或装备，包括荆棘、复仇诅咒附魔等，可能会导致卡顿等不明特性。"
+				""
+				"&e你知道吗？如果玩家的“受到治疗”数值因特性而变为0，可以通过佩戴整蛊坐垫然后脱下，从而刷新玩家所受到的重伤效果。"
+			]
+			icon: "moonstone:ectoplasmstar"
+			id: "4E59C4B07D86318D"
+			rewards: [{
+				id: "6C50D563B530A7F1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十五章 - 希望 -"
+			tasks: [{
+				id: "01DB4D0F7E1F1029"
+				title: "星星"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"&c你知道吗？法杖上的神化暴击率和暴击伤害词条能提升法术伤害，但是法杖上的星裂效果词条是无效的。"
+				""
+				"&e你知道吗？每个Boss最好都重复打三四次以便获得足够的材料。否则切换装备比较麻烦。"
+			]
+			icon: {
+				Count: 1
+				id: "majruszsaccessories:soul_of_minecraft"
+				tag: {
+					Bonus: {
+						Boosters: [ ]
+						Value: -0.6f
+					}
+				}
+			}
+			id: "299BCA572729581B"
+			rewards: [{
+				id: "7F6BD449DB3DE8DF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第十四章 - 达成 -"
+			tasks: [{
+				id: "273E79970162E13B"
+				title: "世界"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"匠作章节可发展至强能结晶。需一定的险恶词缀。活力药水可提高回血能力（仅能抵抗重伤效果）。女仆可配合猎人腰带加伤，能很好地使用各种枪械。始源刻蚀板能提高近战伤害。"
+				""
+				"&a僵尸突变体（混合线）：活力2级药水能少量吸血。可用绞肉锯右击莽过去，被僵尸突变体的投技锁定时切盾牌防御。也可用光属性强能结晶武器走位打，净化技能可右击清除所有药水效果，还可配合盾牌来格挡僵尸突变体的投技。"
+				""
+				"&6骷髅突变体（枪械线）：用枪械+燃烧弹可以击杀。并配合活力2级药水、怨影吊坠可以远程吸血。可能需要300以上的枪械技能等级。"
+				""
+				"&c爬行者突变体（枪械线）：基本同击杀骷髅突变体。用FTB圈地可以防爆。"
+				""
+				"&3末影人突变体（枪械线）：可以选择用榴弹发射器击杀。活力2级药水+怨影吊坠可以少量吸血。"
+				""
+				"&2僵尸突变体（女仆线）：光属性强能结晶武器+铁或穹玉盾牌。可上活力迸发2级药水。或者用枪械。"
+				""
+				"&7骷髅突变体（女仆线）：同前。"
+				""
+				"&4爬行者突变体（女仆线）：沙漠之鹰+燃烧弹。女仆可上拆弹能宠附魔或者爆炸保护饰品。"
+				""
+				"&5末影人突变体（女仆线）：同前。"
+				""
+				"&e斯库拉（大部分线）：跳过不打。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "6891414E932BF9AE"
+			rewards: [{
+				id: "0754EA02AA9A1232"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "1CA9C50D1B9F982B"
+				item: "wizards_reborn:arcanum_dust"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"以下为当前阶段可以获得的饰品：医药箱（皮肤质钙化、混乱水晶）、冒险者勋章、始源刻蚀板、狂野爪、莫里斯的脑子、黑魔球、星星项链、电池、怨影吊坠、天界石、绿宝石戒指、绿宝石手环、绿宝石项链。怨影吊坠在暗处可大幅度提升全伤害。"
+				""
+				"&6基诺拉（战士线）：可用强能结晶武器击杀。小心贴身攻击。最好至少15个饰品改为险恶词缀。数值面板显示攻击伤害约1000。"
+				""
+				"&c萨菲拉（战士线）：同击杀基诺拉。可佩戴战士徽章。"
+				""
+				"&2异端堕落先知、沼泽巨颌怪（混合线）：优秀材料枪械（如HK-416 D）或卓越墨水制作的法术都可击杀。需一定的技能等级才有伤害。"
+				""
+				"&b灾厄教父（混合线）：用优秀材料枪械（如HK-416D）或者卓越墨水制作的法术都可击杀。需一定的技能等级才有伤害。"
+				""
+				"&7基诺拉（女仆线）：凤凰剑。"
+				""
+				"&5萨菲拉（女仆线）：棠郎古镰+火属性附加。"
+				""
+				"&9异端堕落先知（女仆线）：同前。"
+				""
+				"&3灾厄教父（女仆线）：尽量多女仆秒掉。灾厄教父法术能秒女仆，也可用不死图腾、魔法保护+魔法类型抗性附魔等保命手段。也可玩家抱起女仆躲避。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "78B2AA44E836D36D"
+			rewards: [{
+				id: "42925931F782B8AA"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "0F546AFE20D3DC1C"
+				item: "locusazzurro_icaruswings:steel_ingot"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"溺尸腰带（获取见礼装章节）必须双方完全都在水中才能有加伤。箭术饰品可佩戴潜行者箭袋、魔法箭袋、精灵套装饰品。海洋之泪、真正的海洋之心、阿涅摩伊之杖可提高水中机动性。三叉戟附魔引雷可变为雷属性。引雷、愤怒20级、忠诚5级附魔书均可制作。多备点三叉戟以防丢失。Necora病毒能有效降低反射伤害。"
+				""
+				"&c远古守卫者（枪械线）：可选择稀有枪械材料制作的枪械M4A1卡宾枪等，需加上燃烧弹。"
+				""
+				"&b溺亡者（弓兵线）：佩戴海神王冠和海神卷轴。雷属性三叉戟远程打两下，近战打一下。可能需15个以上鹰眼词缀。"
+				""
+				"&6利维坦（弓兵线）：需进食受祝福的紫水晶蟹肉。用雷属性+附魔忠诚的三叉戟右击投掷攻击（可佩戴多把更快输出）。攻击张口部位能造成更高的伤害。不要带任何隐身等可能导致脱战的饰品。"
+				""
+				"&9远古守卫者（女仆线）：可用枪械。超维之眼可把Boss弄到陆地上。卓越墨水等材料可制作超限猎人腰带。"
+				""
+				"&3溺亡者（女仆线）：引雷附魔三叉戟+海皇套+紫晶盾，三叉戟攻击模式。玩家用气泡柱聚晶破适应。"
+				""
+				"&5利维坦（女仆线）：注意不能用太高频的攻击。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "6DF59292C93F9A60"
+			rewards: [{
+				id: "1D31C436A21D19C7"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "282D88196E03350A"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3449CA7CC9FD4109"]
+			description: [
+				"毁灭者勋章、天界石、克苏鲁盾牌所增加的暴击率为全伤害加成。可能需要亡灵徽章、魔法石英戒指。全类型无尽弹药盒可以实现无限弹药。可上保护或魔法保护+魔法类型抗性附魔。施展法术时，需一定的法师法杖和盔甲、饰品词缀。冰护之戒能免疫冰冻效果。"
+				""
+				"&a暗夜巫妖（混合线）：猎人腰带+女仆配M4A1、AUG等枪械（用实体ID复制器给女仆添加仇恨），玩家AUG上燃烧弹。FTB圈地可防止地面炸毁。女仆配不死图腾。"
+				""
+				"&6科妮莉亚船长幽灵（法师线）：用神圣打击法术击杀。"
+				""
+				"&b冰封蟹（法师线）：用雷或火属性的铁之咒语法术（如雷电长枪等，可能需吟唱缩减、冷却缩减法球）击杀。需要将其引诱到水中再打，可享受溺尸腰带的加伤。"
+				""
+				"&c凋灵（混合线）：最好在下界天花板上召唤。一直后退，同时用枪械+铁之咒语模组法术攻击。饮用活力迸发2级药水可吸血。"
+				""
+				"&2暗夜巫妖（女仆线）：可用枪械。玩家需用实体ID复制器给女仆添加Boss为敌对目标。需下隐匿手环等隐身饰品防止脱战回血。"
+				""
+				"&7科尼丽亚船长幽灵（女仆线）：破法者+雷属性附加+破坏者坚盾。必须时刻注意女仆血量。"
+				""
+				"&3冰封蟹（女仆线）：用黑曜石可困住冰封蟹。"
+				""
+				"&5凋灵（女仆线）：女仆500血以上，魔法保护+魔法类型保护10级。用不同伤害破适应。上活力迸发2级药水。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "101525E9428259EE"
+			rewards: [{
+				id: "26907C855877B489"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "1C9E0EDA2279C902"
+				item: "call_of_drowner:coral_smithing_template"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"可以先发展下咒法章节的诅咒注入器、研究台相关内容。部分Boss可能需要玩家接近200点血才能存活。"
+				""
+				"&a虚空之花（混合线）：可用炽热射线枪或者灰烬法杖击杀。保命方面至少有保护10级一套，且护甲越高越好。不要佩戴隐匿手环，会触发高额回血。"
+				""
+				"&3惊骇的小型方块骑士主宰（混合线）：可用炽热射线枪或者灰烬法杖击杀。"
+				""
+				"&e化石鱼（法师线）：可上腐香囊加伤。制作腐化聚晶（需魔殇词缀）并放入黑暗魔杖内施法，需灵魂图腾。"
+				""
+				"&6沙漠守卫者（枪械线）：用史诗枪械材料制作的枪械（如SCAR-H战斗步枪等）加上全金属被甲弹可击杀。可能需金沙护符、太阳磁铁加伤。"
+				""
+				"&c远古遗魂（战士线、枪械线）：1. 用日炎或噩兆右击放旗子破适应，副手也能上盾牌格挡甩尾招式防晕眩。2. RPG-7火箭筒的子弹+爆炸伤害可破适应。可能需金沙护符、太阳磁铁、怨影吊坠、Necora病毒。没有什么是八发RPG..…..再来八发！"
+				""
+				"&2虚空之花（女仆线）：可用枪械，玩家下了隐匿手环近距离拉仇恨，远了会放AOE。可参考暗夜巫妖。"
+				""
+				"&d惊骇的小型方块骑士主宰（女仆线）：可用枪械。二阶段的分身可以逐个击杀。"
+				""
+				"&7化石鱼（女仆线）：枪械+全金属被甲弹，可上灾厄皇家护卫盔甲。"
+				""
+				"&9沙漠守卫者（女仆线）：可上史诗枪械+全金属被甲弹、灾厄皇家护卫盔甲。"
+				""
+				"&5远古遗魂（女仆线）：可上RPG、爆炸保护饰品+永恒之石、灾厄皇家护卫盔甲。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "1E37F369532A6994"
+			rewards: [{
+				id: "7BE05EA63928478B"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "74DBCE38E1DB84F8"
+				item: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["633C6DA8C759C3F8"]
+			description: [
+				"可上审判塔罗牌。在来无回之都维度使用神化Boss召唤器并击杀后可获得神铸珍珠，可将宝石和词缀升级为神话级别。部分Boss需被打触发狂暴之心。可能需1.75以上神化暴击率和2.25以上神化暴击伤害。"
+				""
+				"&c死骸船长（枪械线）：神铸珍珠强化等离子通用机枪。缺基础攻速可以上古代吊坠、古代戒指、狂野爪。"
+				""
+				"&e水晶共鸣者查尔雅（枪械线）：高斯反器材步枪，需星云之眼、午夜斗篷、埋伏性狩猎、恶魔之心、瞄准时星裂2级。最好爆头  ▄︻┻┳═一……   ☆(>○<)。"
+				""
+				"&6水晶构造体（枪械线）：用等离子通用机枪+魔能空尖弹，换弹时可用法术阻止活力回血。"
+				""
+				"&a咒翼灵骸（枪械线）：另做一把高斯反器材步枪+魔光弹+子弹将造成魔法伤害词条。黑钢锭可制作星裂2级喷溅药水。屠戮符文、恶魔之心可提升魔法伤害。"
+				""
+				"&b冰霜凋灵（枪械线）：用等离子通用机枪可击杀。"
+				""
+				"&7死骸船长（女仆线）：在来无回之都获得星裂2级后，再回来打。装备同前。"
+				""
+				"&5水晶共鸣者查尔雅（女仆线）：一波爆发击杀。"
+				""
+				"&2咒翼灵骸（女仆线）：当前阶段满神化词缀和宝石、星月附魔的提尔锋。"
+				""
+				"&3冰霜凋灵（女仆线）：同前。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "256EEFF6C5530260"
+			rewards: [{
+				id: "17FD366817322BA5"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "5BEF2F8625DD21B4"
+				item: "infinite_abyss:drill_part"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"对亡灵增伤饰品：怪物猎人勋章、亡灵徽章。"
+				""
+				"全伤害增加饰品：金沙护符、太阳磁铁、金沙护符、怨影吊坠、复仇之心、有神化暴击率的泰拉饰品、诺克萨斯纹章、莫里斯的脑子、狂暴之心。"
+				""
+				"&c死者之王（法师线）：用永恒苦痛之灵和释缚的鹿之精魂掉落的法术聚晶，分别装到九把魔杖内，在快捷栏内按住右键+滚轮快速施法。不能过快，要注意节奏。相同类型的聚晶不要相邻，要错开以破适应。还可上法术精通符文。"
+				""
+				"&6狱火暗域领主（法师线）：用史诗级别铁之咒语法术可击杀。可能需要超负荷、法杖、法师盔甲、饰品词缀。"
+				""
+				"&b混沌魔影、福尔图娜女爵（枪械线、法师线）：也许能用RPG。九杖王。"
+				""
+				"&e末影龙（混合线）：可以用史诗枪械材料制作的枪械结合史诗墨水制作的法术一起输出，需注意末影龙有适应属性，不能一直用一种输出方式。最好躲下末影龙的攻击，会有极高的伤害。巨型火把能有效防止小怪干扰。"
+				""
+				"&7死者之王（女仆线）：铁之咒语（神圣打击、炽焰斩击、雷霆打击）+聚晶（音爆、灵魂束、电刑、冰川）。用近战打的话可以上法术反制。"
+				""
+				"&2狱火暗域领主（女仆线）：虚空锻锤（不稳定刀刃、魔法刀刃、毁灭裂纹、对应属性附加附魔）+堡垒盾牌+凤凰盔甲。"
+				""
+				"&3混沌魔影、福尔图娜女爵（女仆线）：建议跳过。"
+				""
+				"&5末影龙（女仆线）：用RPG等具有爆炸的枪械。不过建议跳过，龙鳞可以制作。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "4DAD5BD7B6F1A900"
+			rewards: [{
+				id: "3B6299E47225E84E"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "1E9B252CF7A431DA"
+				item: "callfromthedepth_:soulbow"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1C904226CFB35AD2"]
+			description: [
+				"龙后饰品推荐：千咒卷轴（+150%伤害以上）、狂暴之心、天堂之礼。"
+				""
+				"&6以下武器可携带：光染死神镰刀、枪械（ARX-160、RPG等）、震撼聚晶魔杖、冰霜射线、星海落瀑。"
+				""
+				"&e以下道具可携带：烈焰术士之杖、受祝福的紫水晶蟹肉、多个存储背包、沙漠项链。"
+				""
+				"&c可能特性：午夜长袍可能会让部分Boss仇恨丢失。着火饰品可能导致末影生物瞬移离开范围。隐匿手环会触发部分Boss脱战高额回血。"
+				""
+				"&b混合线：多打几次熟悉顺序就行。以下为具体波数打法：1.凋灵随便。2.光染死神镰刀打完。3.用RPG打。4-12.震撼聚晶+冰霜射线+星海落瀑基本能清完，少数需光染死神镰刀近战击杀或破适应叠易伤。"
+				""
+				"&2女仆线：任意两个龙前满配装备的女仆都可以过，用枪械最为简单（需提前用实体ID复制器新增攻击列表）。"
+			]
+			hide_text_until_complete: true
+			icon: "yuusha:qb"
+			id: "7E81043683F8F4D0"
+			rewards: [{
+				id: "1FAAC75D644AD444"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "702CB3D3AF5F01DA"
+				item: "majruszsdifficulty:enderium_ingot"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"所需用到的近战加伤饰品基本同前，不要佩戴隐匿手环，会触发部分Boss脱战高额回血。佩戴珍钻手环、女巫长袍或者术士长袍可有效降低魔法伤害。玩家在晕眩时可能仍有攻击动作，但是不会造成伤害。建议佩戴降低负面药水效果时长的饰品。"
+				""
+				"&b黑曜石柱（战士线）：用倒转之启加上神化重铸和宝石即可。可用钻石头采矿箭快速破坏召唤的黑曜石柱。"
+				""
+				"&e末影守卫（战士线）：给光染死神镰刀加上暗属性附加、星月附魔，基本就能击杀。有用的星月附魔，如不稳定刀刃、狂热斩、复仇、致命一击、经验之谈、淬火之刃，上述部分星月附魔可利用合成转化获得。"
+				""
+				"&c腐化英雄（战士线）：将倒转之启放入古旧书袋可略提升伤害。用恐怖之剑可打过，同时用法术破适应。不死图腾可保命。如果能打过末影守卫，基本可以顶着传送打死腐化英雄。（也可女巫坩埚酿造末影禁锢药水）"
+				""
+				"&3黑曜石柱（女仆线）：先打腐化英雄获得神秘天龙剑。玩家需破坏黑曜石柱和吸引Boss仇恨。"
+				""
+				"&2末影守卫（女仆线）：神秘天龙剑+女武神盔甲+高级魔引的星月附魔。"
+				""
+				"&7腐化英雄（女仆线）：可以给女仆上末影禁锢药水。冥魂之剑（不稳定刀刃、魔法刀刃、毁灭裂纹附魔）+堡垒盾牌+凤凰盔甲。女仆要有足够的不死图腾。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "26A03C27A56F32BE"
+			rewards: [{
+				id: "39DF257537D36885"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "5502BA6FB4D90B88"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:nether_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"部分常规远程加伤饰品：复仇之心、魔灵箭袋、精灵箭袋、魔法箭袋、潜行者箭袋、复仇者勋章、毁灭者勋章、狙击镜、侦查镜、天界石、恶魔之心。Boss建议多打几次以获得更多不稳定红石余烬。"
+				""
+				"&b南瓜月魂怨领主（弓兵线）：无尽箭袋+力量+诅咒附魔的原版弓，致命星月词缀，两镶孔（武士、战斗宝石）。箭袋饰品可提高拉弓速度。副手可多带一把致命词缀弓。配合大天使之戒，用光灵箭一直射。不要佩戴带施加负面效果的饰品。大概需要500万伤害一箭。可上末影禁锢的喷溅女巫精酿药水。"
+				""
+				"&c下界岩砖傀儡（弓兵线）：绯红菌丝弓，强化同前，需额外附魔火矢。可用黑曜石箭。佩戴午夜斗篷+埋伏性狩猎+星云之眼主动技能，多试几次触发多重暴击可以击杀。如果没击杀需出圈激活午夜斗篷。"
+				""
+				"&e异化红石傀儡（弓兵线）：下了埋伏性狩猎，带上火焰箭袋、熔火箭袋，绯红菌丝弓属性基本同前。基本一直射就能死。伤害不够可以蹭蹭受伤触发饰品的加伤。"
+				""
+				"&3南瓜月魂怨领主（女仆线）：AWM+云母钢盾牌+幽匿盔甲。玩家血腥狩猎手册+千咒卷轴。"
+				""
+				"&2下界岩砖傀儡（女仆线）：需用实体ID复制器新增女仆攻击列表才会攻击。火矢附魔的绯红联结+有瑕疵的嗜血领主宝石+黑钢圆盾。"
+				""
+				"&5异化红石傀儡（女仆线）：同下界岩砖傀儡。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "567ED8399539FD01"
+			rewards: [{
+				id: "3A27A2BB1185139B"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "069E191742836E27"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinhandgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"需尽可能穿戴全伤害加成饰品（如怨影吊坠等）。也能上超负荷法术。泰拉饰品的神化暴击率需拉满。"
+				""
+				"&c先驱者（混合线）：给射线枪打上神化重铸和宝石可击杀。副手可以不死图腾保命。在换弹药时可释放法术来阻止Boss的活力回血。"
+				""
+				"&b紫心刚玉影鬼（枪械线）：可用BAL-27或MSMC。狂暴之心等易伤饰品可提高其伤害上限阈值。神化词缀可上节省子弹。饰品可上虚无刻蚀板、病痛祓除符文。近战直接跳过。"
+				""
+				"&e异界机械巨蛇薇娜（枪械线）：破空等离子通用机枪上神化重铸和宝石、全金属被甲弹。可能需不死图腾。"
+				""
+				"&5先驱者（女仆线）：枪械。"
+				""
+				"&3紫心刚玉影鬼（女仆线）：高射速枪械。"
+				""
+				"&7异界机械巨蛇薇娜（女仆线）：龙后枪械+全金属被甲弹。女仆给不死图腾保命。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "4D15522A9CB089A7"
+			rewards: [{
+				id: "70C978FE78FD106F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "5F102BA8BF7A8B79"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"部分Boss需利用怨影吊坠的暗处加伤效果。樱花发簪、祈告者冠冕、蠕虫围巾、天使珍珠、隐者塔罗牌、不朽之身等能有效提高玩家生存率。天境大部分生物群系都算炎热地区，金沙护符必上。"
+				""
+				"&b滑行魔石（战士线）：用炼狱锻锤左击攻击+右击技能，可以避免适应属性减伤。注意下走位就能击杀。"
+				""
+				"&e武神女王（法师线）：用震撼聚晶+魔杖（需魔殇词缀）。需尽量拉开距离，出现雷云球时要尽快击破。"
+				""
+				"&a突变毒箭花（法师线）：冲击波、雷霆、霜冻新星、释放聚晶，魔杖4把按住右键并滑动鼠标滚轮接连施法击杀。不同聚晶法术类型代表不同伤害类型，可避免适应减伤。如果是多人游戏不要被打到就不会掉线，或者跳过不打。"
+				""
+				"&c远古墨魂化身（法师线）：等级1的星海落瀑可直接制作，配合大天使之视、复仇之心，需一定魔殇和魔息词缀。白天不会刷新西风啸云。"
+				""
+				"&6帝王云鲸（枪械线）：受诅咒的坚盾能防止副手盾牌冷却。保持举盾可将下冲的帝王云鲸格挡晕眩，用BAL-27正对头部射击。需神化暴击率和全伤饰品。"
+				""
+				"&3滑行魔石（女仆线）：虚空锻锤+堡垒盾牌。玩家用镐类左击破适应。"
+				""
+				"&7武神女王（女仆线）：虚空锻锤+毁灭裂纹附魔+堡垒盾牌。玩家血腥狩猎手册。"
+				""
+				"&2突变毒箭花（女仆线）：同击杀武神女王。玩家可用其它武器破适应。"
+				""
+				"&d远古墨魂化身（女仆线）：同前。"
+				""
+				"&9帝王云鲸（女仆线）：用高射速的枪械。玩家可用盾牌格挡，可佩戴受诅咒的坚盾，或者走位躲开攻击。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "1CA9E20E7CB3010A"
+			rewards: [{
+				id: "715264297EFF11D0"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "038D385F9AC9A6BA"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0D12B530D6BD51FB"]
+			description: [
+				"部分boss最好先被打一下触发狂暴之心的加伤，且枪械爆头输出比较高。枪械的神化暴击率、神化暴击伤害都比较重要。异教徒项链可有效防止高额的魔法伤害。食物多样性100点也能提供抗性4级。"
+				""
+				"&b咒怨凋零死灵巫妖（枪械线）：用咒怨附灵AN-94。"
+				""
+				"&e渊眼苍龙（枪械线）：背包里带上烈焰术士之杖防止附近地形着火。用歼灭No.1400。"
+				""
+				"&6渊兽领主（枪械线）：高斯反器材步枪+魔眼高爆弹可以击杀。貌似爆炸伤害不能完全破适应，可兼用法术。"
+				""
+				"&c远古渊兽领主（枪械线）：触发狂暴之心后，直接飞到远处，上玻璃之手，用高斯反器材步枪+魔眼高爆弹可以击杀。用幽匿之触可以持续破适应。"
+				""
+				"&3咒怨凋零死灵巫妖（女仆线）：提尔锋+星月附魔。"
+				""
+				"&7渊眼苍龙（女仆线）：同前。"
+				""
+				"&2渊兽领主（女仆线）：反器材步枪+魔眼高爆弹。"
+				""
+				"&5远古渊兽领主（女仆线）：同前。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "19917ECFB05207D6"
+			rewards: [{
+				id: "788CD3BD1D6EA606"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "091B96BBDD1F30F4"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"在无间之炼狱召唤神化Boss可获得法术相关宝石。可制作星裂相位附魔书。可上亲和之戒、死亡塔罗牌。各种升级法球可略提升伤害。忏悔石可以移除升级法球等铁之咒语模组的升级。专注护身符可防止被打断施法。"
+				""
+				"&c异化红石巨兽（法师线）：喷溅锚定药水可阻止其传送。法杖可上自然法术强度宝石，可上毒液飞溅、超负荷。奥法能效宝石可提高吟唱缩减。"
+				""
+				"&6灾厄宰相（法师线）：可用3级灼烧法术+炽焰法术强度宝石。可能需速吟之戒、吟唱缩减宝石、学徒法术书、匠师之杖、怨影吊坠。"
+				""
+				"&e天空守卫者（混合线）：可用传说级回响打击+无止之言。按住Shift键可避免被旋风控制。用末影法术强度宝石的法杖施法，可获得更高强度的回响打击效果。"
+				""
+				"&b末日巫妖（法师线）：可用5级球状闪电+雷霆法术强度宝石。可上雷霆升级法球。"
+				""
+				"&5异化红石巨兽（女仆线）：锚定药水+枪械，词条要“弹射物击中目标造成星裂1级”。"
+				""
+				"&7灾厄宰相（女仆线）：同击杀异化红石巨兽。"
+				""
+				"&9天空守卫者（女仆线）：等离子通用机枪。"
+				""
+				"&3末日巫妖（女仆线）：同击杀天空守卫者。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "747BFA44DE0334ED"
+			rewards: [{
+				id: "5F349DD394D4680C"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "1ABA4FB7144DE8F4"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"法师克星宝石（在末地神化Boss）、巫术项链可增加远古巫术强度。寄生虫、金沙护符、复仇之心、恶魔之心等能增加全伤害。"
+				""
+				"&e小丑皇杰克、罗莎琳（法师线）：上超负荷等，用铁之咒语模组的传说级法术。可能需要蹭蹭被打增伤。"
+				""
+				"&6死亡到临者（法师线）：上超负荷等，用铁之咒语模组的传说级法术。可能需要蹭蹭被打增伤。"
+				""
+				"&b巨型迷离之眼（法师线）：先清小怪。上超负荷等，用铁之咒语模组的传说级法术。可能需要亲和之戒。"
+				""
+				"&c复仇暴君（混合线）：利用阿涅摩伊之杖快速移动触发午夜斗篷隐身。然后利用高伤害的单次攻击，反复即可击杀。只有在其脱战时才不会格挡伤害。"
+				""
+				"&2小丑皇杰克（女仆线）：有星裂1级效果的爆炸枪。可上“子弹将会造成魔法伤害”词条或其它女仆用弓等破适应。玩家可用缠绕聚晶控制Boss。"
+				""
+				"&7死亡到临者（女仆线）：除了不用破适应外，其余同击杀小丑皇杰克。"
+				""
+				"&3巨型迷离之眼（女仆线）：同击杀死亡到临者。"
+				""
+				"&5复仇暴君（女仆线）：玩家利用魂符放出女仆，攻击后收起来等待高额的星灵之力效果消失，然后再攻击。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "18A4B4BDF22A72FC"
+			rewards: [{
+				id: "3D8BD6916944FF6F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "236D39996BCEC478"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["190390BC22EFEDA0"]
+			description: [
+				"战士线：远古级别词缀+宝石+虚空锁链附魔+光属性的堕天提尔锋，配合万钧之护卷轴，基本可以直接近战到底。可能需要点保命方式。"
+				""
+				"&6保命推荐：利用雷神之赐附魔、震颤项链、雷电之戒等可以避免雷电伤害误伤玩家。"
+				""
+				"&e位移推荐：阿涅摩伊之杖。"
+				""
+				"&c特性注意：要尽量降低身上的附伤装备，否则容易触发大范围雷电从而导致部分Boss乱瞬移。"
+				""
+				"&2女仆线：基本任意两个女仆用当前满配装备都能过。准备下界之星激活和熔岩绵清除场地的熔岩。提前标记下界岩砖傀儡、黑曜石柱、消失的天使为敌对攻击目标。最后一两波用纠缠根须或缠绕聚晶控制。"
+			]
+			hide_text_until_complete: true
+			icon: "yuusha:qb"
+			id: "355DDB14ACE9CA03"
+			rewards: [{
+				id: "3377A656F92DA6E9"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "6F4B6BE714B805C5"
+				item: "celestial_enchantments:legendary_celestial_catalyst"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["34DC2A146836EC4D"]
+			description: [
+				"① 最好通关神树之冠-原初混沌传送门再来进行神性挑战。② 可能需血战沙场之证、强化台强化装备。③ 部分Boss可能需要蹭蹭受伤触发加伤。④ 此阶段手持武器时，神化暴击率需2.2以上，神化暴击伤害需3.0以上。⑤ 可能需星星项链背后攻击加伤。⑥大恶魔之咒、整蛊坐垫可阻止玩家回血。"
+				""
+				"&6庇护者（混合线）：魔眼高爆弹+高斯反器材步枪（武士、稳定、战神、战斗、马格南宝石，词条星裂3级、不消耗弹药，不要变为魔法伤害）。清除药水效果可恢复血量上限。此外，挽魂锋镰的左键攻击可以直接攻击到庇护者。"
+				""
+				"&e辉光守卫者（法师线）：喷溅星裂3级药水（不要大天使之视）。用超负荷+回响打击+纠缠根须+幽匿之触法术。可上奥术永恒皇冠、战争亡者之徽、亲和之戒。盔甲上法术强度词条。胸甲上远古级别的法师克星（末地专署掉落）、突破宝石。法杖满神化暴击率+暴击伤害词缀、宝石。超负荷后面板法强100以上，巫术法强8.5以上。"
+				""
+				"&c七宗罪化身（混合线）：禁忌之剑（不上属性附加）。超维之眼将色欲和贪婪化身拉走单独打。打色欲化身时不要穿戴贵重盔甲，边后退边打。打贪婪化身时可提前上飘浮、纠缠根须阻止潜地，玩家在飞行、飘浮时不会陷地。其余飞空可击杀。辅助可上幽灵之眼护身符。"
+				""
+				"&3庇护者（女仆线）：堕天提尔锋或者末路NO.1500。玩家可上血战沙场之证。"
+				""
+				"&5辉光守卫者（女仆线）：基本同击杀庇护者，战争亡者之徽可超限猎人腰带。"
+				""
+				"&2七宗罪化身（女仆线）：用超维之眼把色欲和贪婪化身拉走并分开，先击杀其它七宗罪化身，装备基本同击杀辉光守卫者。打色欲化身时玩家可以去扛，并能把诅咒盔甲给脱下。打贪婪化身时用纠缠根须控死即可。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "0DA136B8C69F8404"
+			rewards: [{
+				id: "1E3B2CBFF156797B"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "3722B7FF0A91C6D5"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 17.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["788CB3A4AF9088E0"]
+			description: [
+				"辅助说明：虚空珍珠等免疫负面效果的饰品，可能会导致玩家无法压血线。但是可能需要能临时清除负面效果的装备。"
+				""
+				"&e最终试炼传送门（混合线）：武器可能需要准备伪寰宇支配之剑、高斯反器材步枪、咒怨附灵AN-95、魂祸战刃。前三波用近战打，第四波为庇护者用高斯反器材步枪，第五至第十九波可以用AN-95清远距离怪+近战大范围清怪能打完，第二十波用魂祸战刃清效果然后秒掉。"
+				""
+				"&2最终试炼传送门（女仆线）：任意种类女仆多个。准备熔岩绵、精妙背包。部分Boss要提前标记为敌对状态（神女章节的实体ID复制器任务有相关记录）。最后一波用魂祸战刃清效果然后女仆可以秒。"
+				""
+				"&c克苏鲁侵袭的烈阳巨灵（所有线）：不讲武德！先用瞬寰宇支配之剑右击技能造成伤害，阻止其活力回血，然后用伪寰宇支配之剑右击削血，最后用瞬寰宇支配之剑右击斩杀。可能需要永恒怀表、终末之环。不要穿着女仆线的诅咒盔甲。"
+			]
+			hide_text_until_complete: true
+			icon: "yuusha:qb"
+			id: "1A731EB33F39C395"
+			rewards: [{
+				id: "0E7DDBA47609A729"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "521C930F33045D28"
+				item: "awakened_bosses:herobrine_ingot"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"&c你知道吗？通气管（树海化章节的奇异饰品任务）、鱼鳃（礼装章节）、水下呼吸药水等物品，都是很好的前期水下逛街的工具。"
+				""
+				"&e你知道吗？怪物也有无敌帧，在0.5秒内只能受到一次伤害，比如大部分法术。只有部分武器可以无视，比如枪械。"
+				""
+				"&6你知道吗？魔法保护和魔法类型抗性附魔能有效抵御各种法术伤害和瞬间伤害效果。"
+				""
+				"&2你知道吗？灾变模组的Boss只会受到少部分负面药水效果，如星裂、重伤、侵蚀、易伤、破坏、蚀焚甲熔、灵液腐蚀、锚定等。"
+			]
+			icon: "graveyard:leaning_skeleton"
+			id: "51A8ABB7D9C4550B"
+			rewards: [{
+				id: "15680011DBDDEFD9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第四章 - 牺牲 -"
+			tasks: [{
+				id: "4C583EEA0910BC62"
+				title: "【倒吊者】"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"寻觅：在古遗天境的基诺拉花园建筑，右击该Boss触发剧情展开战斗（不能在隐身状态下右击）。可利用探险家指南针搜索“Kinoras Garden”找到基诺拉花园。击杀后可在『召唤祭坛』召唤（只会在天境维度触发倒地剧情），召唤材料为其召唤物、咒灰，激活工具为博丽的御币。该Boss倒地后，用奇妙药剂右击可治疗，等待剧情过后，古老护身符会掉落在地上。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发3级、星灵之力4级、纯化抗性1级效果，&e活力、刺客、抑制&c（非近战减伤）属性。攻击赋予重伤2级（-80%受到治疗）、血殇10级、痉挛4级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得花饰袋、棠郎古镰、棠郎头盔、召唤物。额外有几率获得灵质马蹄、战士徽章、七剑修罗剑阵之章、九剑归一诀、七剑修罗之心、骤雨、疾风骤雨。花饰袋开启几率获得下界合金升级锻造模板、下界之星。可制作天界石、下界合金战斗法师套。"
+			]
+			hide_dependent_lines: true
+			icon: "mokels_boss_mantyd:ancestral_bag"
+			id: "0230CC8048790B7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58582854A5C1C977"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "5星"
+			tasks: [{
+				id: "126384B403AA0356"
+				item: "mokels_boss_mantyd:ancestral_bag"
+				type: "item"
+			}]
+			title: "击杀：基诺拉"
+			x: -12.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"寻觅：生成在古遗天境的滑行魔石迷宫内。可利用探险家指南针搜索“青铜地牢”找到滑行魔石迷宫。在击杀一次后，可利用召唤祭坛进行召唤（会在16格以外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有生命恢复5级、活力迸发4级、星灵之力4级、树皮16级效果、&e适应、抑制&c（非近战减伤）属性。攻击赋予血殇50级、削50%护甲、重伤2级、骨裂、侵蚀10级效果。血量很低，抗性极高。&e免疫&c枪械、投射类法术、魔伤SA等伤害，需主手持镐类攻击。免疫除箭矢外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对暗属性有25%易伤，其余类型攻击都有较高抗性。"
+				""
+				"&2用途：击杀必定获得青铜钥匙、陨星碎片、召唤物。可制作震撼聚晶。额外有几率获得灵质石头、神奇石头、扭曲石头、石巨人之眼、幸运水晶+、滑块之眼。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "deep_aether:slider_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5671166544651D9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14626C426BB47451"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8星"
+			tasks: [{
+				id: "7DEDD2A97EE14524"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			title: "击杀：滑行魔石"
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"寻觅：找到古遗天境的武神族神庙并击败女武神获得10枚胜利奖牌，之后去圣殿大厅与武神女王右击对话发起挑战。武神女王会先让玩家攻击一次后才会开始战斗。可利用探险家指南针搜索“白银地牢”找到武神族神庙。击杀后可利用召唤祭坛进行召唤（会在16格以外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。也可利用胜利奖牌、巫瞳、咒灰、博丽的御币召唤女巫之王作为上替。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发12级、星灵之力4级、树皮15级效果、&e抑制、阳炎&c属性。攻击赋予削50%护甲、重伤1级、骨裂、侵蚀5级效果。几率召唤可击破的雷云球，雷云球会给予武神女王无敌。免疫枪械、投射类法术、魔伤SA等伤害。&e免疫&c除箭矢外的弹射物攻击。女巫之王额外有刺客属性，不免疫弹射物，但死亡后会爆炸。"
+				""
+				"&6元素战斗类型：对暗或雷属性、魔法类型伤害分别会有50%、50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得白银钥匙、召唤物、大胜利勋章、钻石箭、乾蓝冰血。女武神镐、云母钢升级锻造模板可通过开启其宝箱有几率获得，或者在星河贸易站内交易获得。可制作「冲击波、雷霆、霜冻新星、释放」聚晶、大天使之视、切鳍剑、绝缘体。额外有几率获得黑腰带、狂暴战士、幸运水晶+、天华聚晶、雷电之戒。"
+			]
+			hide_dependent_lines: true
+			icon: "aether_redux:grand_victory_medal"
+			id: "517280861D6216FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71CB5B2EED925158"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					command: "/curios add necora @s 1"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "moonstone:flygene"
+						tag: { }
+					}
+					id: "711417E8AC7FA650"
+					title: "&5增加一个原生基因锁栏位"
+					type: "command"
+				}
+			]
+			subtitle: "8星"
+			tasks: [{
+				id: "17C1A42ECCA20AB0"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			title: "击杀：武神女王"
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["62DA04B689C2477C"]
+			description: [
+				"寻觅：用不稳定末影余烬、咒灰在召唤祭坛中，用博丽的御币激活，可召唤克苏鲁侵袭的太阳仆从。击杀仆从可获得「克苏鲁侵染的太阳徽章」，然后直接右击召唤祭坛即可召唤「克苏鲁侵袭的烈阳巨灵-爆裂形态」。右击与之谈完话后可正式开始战斗。"
+				""
+				"&c特点：具有抑制、反射、适应、活力、阳炎属性。攻击赋予玩家瞬间伤害20级、破甲10级效果。正式开始战斗后受到攻击就会进行高速移动。免疫所有药水效果，免疫大部分直接伤害。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有高额抗性。"
+				""
+				"&2用途：击杀必定获得克苏鲁侵染的太阳徽章、无尽之锭（需在主世界击杀才能获得）。可制作无尽系列装备。"
+			]
+			id: "61BEA1CFC4B267DB"
+			rewards: [
+				{
+					id: "44CAD37739D693D2"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "373B9F3BC61BB06B"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F7DF0D1D0C953BA"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D3A8E0F23953FE"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "5DF306F1B32D7E27"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "击杀:   1x克苏鲁侵袭的烈阳巨灵-爆裂形态"
+			x: 20.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"寻觅：生成在古遗天境的铂金地牢，需激活最顶端的颂歌石，帝王云鲸才会开始战斗。可用探险家指南针搜索“Platinum Dungeon”找到铂金地牢。击杀后可在『召唤祭坛』16格外召唤无AI的帝王云鲸（用弓射击后可破除无敌），材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发15级、星灵之力2级、树皮5级效果、&e破空&c属性。攻击赋予削50%护甲、重伤2级、骨裂、瞬间伤害4级、侵蚀50级效果。每次受伤有上限阈值。帝王云鲸会盘旋在空中，并不时俯冲攻击，如果躲开或用盾牌格挡，则会使其陷入晕眩状态，防御会大幅下降。&e免疫&c除箭矢、枪械外的弹射物攻击、魔伤SA等伤害。"
+				""
+				"&6元素战斗类型：对暗属性伤害会有50%易伤，对弹射伤害类型有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得召唤物、铂金钥匙、神圣契约、埋伏性狩猎、帝王云鲸鲸油、乾蓝冰血。可在星河贸易站内交易获得女武神镐、云母钢升级锻造模板、钻石箭。可制作背刺10级附魔娜迦毒牙匕首（需按咒法章节奥秘全典任务解锁邪术学才能看到合成表）。额外有几率获得幸运水晶+、小几率电子战用隐秘翼。"
+			]
+			hide_dependent_lines: true
+			icon: "forbidden_arcanus:divine_pact"
+			id: "038C97E0BFE640D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50FCFFEBD462189C"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "0E1D1EA42B37E671"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8+星"
+			tasks: [{
+				id: "4021B268D927472A"
+				item: "lost_aether_content:platinum_key"
+				type: "item"
+			}]
+			title: "击杀：帝王云鲸"
+			x: -6.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"可能用到的常规近战加伤饰品：珍钻项链、怪物猎人勋章、金沙护符、神奇石头、扭曲石头、黑魔球、樱花发簪、莫里斯的脑子、星星项链、绿宝石系列饰品、怨影吊坠、始源蚀刻板、复仇者勋章、毁灭者勋章、狙击镜、侦查镜、克苏鲁盾牌、天界石、腐香囊、狂暴战士、混乱水晶、损坏的王冠、扭曲无常符文、水蛭剑鞘、泰坦剑鞘、机械手套、灵质幸运星、失落引擎。"
+				""
+				"烈焰人核心、绯红宝石手环等可降低火焰伤害。光属性附加附魔可制作。星月附魔不稳定刀刃或狂热斩能提升伤害。"
+				""
+				"&2监守者（战士线）：埋伏性狩猎、星星项链、隐匿戒指、午夜斗篷+附魔不稳定刀刃、背刺10级、光属性附加的娜迦毒牙匕首可击杀。适量险恶，面板攻击约2400，暴击率和神化暴击率尽可能高。可用女仆拉仇恨，需不死图腾、瓦琍斯盔甲、魔法保护附魔等保命手段。"
+				""
+				"&e幽匿诅咒骑士（战士线）：可佩戴神之冠、吸血鬼的血、灵质幸运星、世界塔罗牌，用强能结晶武器或切鳍剑击杀。远古竞技场平台会发光，如需黑暗环境加伤可拉别处打。"
+				""
+				"&c永恒苦痛之灵（枪械线）：可佩戴恶魔之心、诺克萨斯纹章等饰品。站在高处或远处，利用MK14 EBR 精确射手步枪可顺利击杀。"
+				""
+				"&6释缚的鹿之精魂（战士线）：饰品参考近战击杀幽匿诅咒骑士。在远古祭祀堡垒平台下方是一片黑暗的地方，可在里面打。用光染死神镰刀或切鳍剑基本能击杀。"
+				""
+				"&3监守者（女仆线）：K30有几率能秒。"
+				""
+				"&7幽匿诅咒骑士（女仆线）：幽匿剑+不稳定刀刃附魔+堡垒盾牌+凤凰盔甲，"
+				""
+				"&5永恒苦痛之灵（女仆线）：同前。"
+				""
+				"&9释缚的鹿之精魂（女仆线）：冥魂之剑+不稳定刀刃附魔+堡垒盾牌+凤凰盔甲。"
+				""
+				"&d无名守卫者：跳过。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "61FC153299CADA09"
+			rewards: [{
+				id: "61310D7AD8A6EA75"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "38FBCBD85314A6E9"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"利用玄奥沙可获得星裂1级效果。神化Boss在不同维度打会有特征宝石（如王室宝石等）掉落，详见匠作章节重铸台任务。嗜血领主宝石、活力迸发护符可增加受到治疗，抵抗重伤。"
+				""
+				"&c下界铁掌（战士线）：无止之言+冰属性附加（附魔书可制作），神化重铸3个镶孔（可选武士、稳定、战神、嗜血领主神化宝石）。用午夜斗篷+埋伏性狩猎+星云之眼+狂暴之心。提前喷溅星裂1级药水。"
+				""
+				"&b惊骇恶魂（战士线）：下了埋伏性狩猎和星云之眼，带上失落引擎、噬咒徽章、腐化徽章等。用无止之言（神化重铸需要有星裂效果）可击杀。"
+				""
+				"&e爆烈下界合金巨兽（战士线）：焰护之戒可完全免疫火焰。寄生虫吃满900点活性可获得加伤。贴近后用无止之言手动攻击打得更快。"
+				""
+				"&6焰魔（战士线）：用无止之言绕其持剑的一侧一直攻击就行。可能需不死图腾、星云之眼主动技能绕后。"
+				""
+				"&a黑暗萨满（混合线）：用枪械、法术交替攻击击杀。"
+				""
+				"&9下界铁掌（女仆线）：冰属性神秘天龙剑（神化暴击率、暴击伤害、星裂）+战神、武士宝石。手动添加“bosses_of_mass_ destruction gauntlet”为敌对，或玩家近战攻击下。"
+				""
+				"&3惊骇恶魂（女仆线）：红色渊剑+星裂1级词缀+神化宝石（战神、武士）+女武神盔甲+远古盾牌+星月附魔（不稳定刀刃、轻甲杀手）。可喷溅坠落药水，或超维之眼拉小黑屋。可拆弹能宠附魔或爆炸吊坠。"
+				""
+				"&2爆烈下界合金巨兽（女仆线）：同击杀惊骇恶魂。可上锚定药水+缠绕聚晶。"
+				""
+				"&5焰魔（女仆线）：同前。"
+				""
+				"&7黑暗萨满（女仆线）：同前。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "397ADA6921B6DFDE"
+			rewards: [{
+				id: "1602F9D4BFE361ED"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "6E29D2A43396EF7E"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:chorundum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"部分Boss需触发狂暴之心的加伤。嗜血领主宝石、活力迸发护符可增加受到治疗。远古重铸台可把词缀升级为远古级别（可出星裂3级、5个镶孔）。可用不死图腾、被咒者的图腾、神圣七彩护符等保命。"
+				""
+				"&6灾厄魂灵（战士线）：堕天提尔锋+光属性附加。扭曲之心、超负荷和回响打击等能提高近战伤害。"
+				""
+				"&c使徒（混合线）：宝石切割台升级神化宝石为远古（如王室、战神、马格南、稳定、嗜血领主、武士）。堕天提尔锋+法术破适应。可用烈焰术士之杖、天使的祈愿。"
+				""
+				"&b消失的天使（战士线）：堕天提尔锋。"
+				""
+				"&e异想体303号（战士线）：堕天提尔锋+魔法刀刃附魔。"
+				""
+				"&7灾厄魂灵（女仆线）：堕天提尔锋（附魔光属性附加+不稳定刀刃+轻甲杀手，远古级别，有星裂3级）+火焰壁垒。可上弱化聚晶。"
+				""
+				"&5使徒（女仆线）：堕天提尔锋或者末路NO.1500。缠绕聚晶可控制使徒。烈焰术士之杖清除火焰。"
+				""
+				"&3消失的天使（女仆线）：堕天提尔锋。二阶段时可用纠缠根须拉下来。实体ID复制器可新增女仆攻击列表。"
+				""
+				"&2异想体303号（女仆线）：堕天提尔锋。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "151A1D50933E62B2"
+			rewards: [{
+				id: "4A8672421FA2E1B6"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "4C9017D6B6E0C91B"
+				item: "depthcrawler:deeplight_2"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"寻觅：在幽匿暗域维度可找到远古工厂内的先驱者，手持下界之星右击先驱者以将其唤醒。可利用探险家指南针搜索“Ancient Factory”找到远古工厂。击杀后可在召唤祭坛召唤（会在16格外），召唤需要的材料为凋灵合金锭或其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发15级、星灵之力4级、纯化抗性1级、树皮16级效果、&e刺客&c属性。攻击赋予血殇200级、重伤2级、侵蚀10级效果。&e免疫24格&c以外的攻击，受击后无动态减伤。任何脱战隐身都会瞬间回满血。二阶段免疫除箭矢外的普通弹射物。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量狩猎经验、凋灵合金块、暗黑下界之星、下界之星、碳素钢锭、紫心刚玉、召唤物。额外有几率获得发条齿轮、机械眼。可制作毁灭者徽章、异界沙漠传送石、不稳定红石余烬、MSMC、火焰箭袋、月之斩击1级法术卷轴。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:witherite_block"
+			id: "347D6BFA10BED332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BB47200A21ACC8C"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "7AC617C8483885DD"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4E5D0B0056B42749"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30DAA9BA65F87375"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "1BCF4F4AB15791C3"
+				item: "cataclysm:witherite_block"
+				type: "item"
+			}]
+			title: "击杀：先驱者「爆裂形态」"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"寻觅：找到主世界的诅咒金字塔，在最深处沉睡着远古遗魂，需手持沙漠项链右击沉睡状态下的远古遗魂将其唤醒。可利用探险家指南针搜索“Cursed Pyramid”找到诅咒金字塔。击杀后可在召唤祭坛中召唤（会在16格以外），召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害3级、活力迸发1级、星灵之力4级、树皮16级效果、&e反射、适应、刺客&c属性。攻击赋予血殇50级、禁空、重伤1级、侵蚀5级效果。特定攻击赋予沙漠诅咒（反方向移动）、眩晕。召唤或攻击时会破坏周围方块。免疫16格以外的攻击，受击后无动态减伤。小怪会偷取武器，黏性手套可阻止。任何脱战隐身都会瞬间回满血。"
+				""
+				"&6元素战斗类型：对打击类型有50%易伤，对爆炸类型会有100%易伤，对冰、火、雷属性有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得遗魂头骨、远古金属块、狂沙瓶、沙漠项链、召唤物。可制作炼狱锻锤、古代殉葬品、诅咒金属锭、贤者之杖。可交易获得余烬之心。额外有几率掉落幸运马蹄、起源卵蛋。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:remnant_skull"
+			id: "2BCA32D0DC6B7890"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "525FBC3ED1AB9A7D"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "702527037C22E4A4"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "7+星"
+			tasks: [{
+				id: "468B8EFFD4912102"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			title: "击杀：远古遗魂「爆裂形态」"
+			x: -8.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"寻觅：通过在沉没之城中心的水底用深渊祭品右击中心的深渊祭坛召唤。可用探险家指南针搜索“Sunken City”找到沉没之城。沉没之城内的生物都是一次性的，将其内部生物和附近扭曲花园的溺尸清理干净就不会那么卡。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发5级、星灵之力4级、树皮14级效果、&e反射&c属性、额外&e脱战回血&c速度。利维坦所有攻击都会赋予肾上腺素疲劳（降攻击力和移速）、骨裂（降攻速和移速）、高额挖掘疲劳（降攻速）、深渊烧灼（伤害）、重伤1级、侵蚀5级效果；部分特定攻击会赋予玩家深渊诅咒（伤害）、眩晕、深渊恐惧（禁疗）效果。免疫100格外攻击，受击后有1秒的动态减伤。任何脱战隐身后会回血。"
+				""
+				"&6元素战斗类型：对雷属性、刺击类型伤害分别均会有100%易伤，对斩击类和弹射类有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得潮汐利爪、深渊之卵、海洋之心、精湛水晶、航海经验、召唤物。可制作杀手和锋利10级、魔法类型抗性10级附魔书、保护、魔法保护10级附魔书、奥术迭代器、原始纹章、高级墨水、潮汐聚晶、潜行者箭袋。可兑换全类型无尽弹药盒。额外有几率获得特定塔罗牌、渔夫耳环、水蛭剑鞘、泰坦手套。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:abyssal_egg"
+			id: "0297D9D51116BE73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E62F22F57EE617E"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "6星"
+			tasks: [{
+				id: "633FFCB0B4B9CE2E"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			title: "击杀：利维坦"
+			x: -11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"寻觅：在迦赫纳维度用探险家指南针搜索“Rededor”可找到萨满小屋。击杀后可在召唤祭坛用其召唤物、咒灰作为材料召唤。非必须，当前阶段可能较难击杀。"
+				""
+				"&c特点：具有星灵之力4级、纯化抗性3级、树皮16级效果，&e适应、反射&c属性，无特殊回血能力。攻击赋予血殇200级、禁空、重伤3级效果。不会再召唤瘟疫炸弹。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有高额抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀后可获得诡异蝇蛆、能量晶核、召唤物。可制作诡异新芽、锚定药水、毒液飞溅1级法术卷轴。额外有小几率掉落诛神剑碑。"
+			]
+			hide_dependent_lines: true
+			id: "4D7C3181454AF657"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "521096BD9CDA3F48"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B93814D060080E7"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "7C9C4DD0416D7CB8"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "206FA3C1335824F1"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10+星"
+			tasks: [{
+				id: "48391FB8EF0B6A13"
+				item: {
+					Count: 1
+					id: "arkane_domains:voodo_doll"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：黑暗萨满"
+			x: 5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["6D8D46A8D5F1DD25"]
+			description: [
+				"寻觅：生成在古遗天境的哨兵实验室内。可用探险家指南针搜索“Sentry Laboratory”找到哨兵实验室。在击杀一次后，可利用召唤祭坛进行召唤，召唤需要的材料为其召唤物、咒灰，激活工具为博丽的御币。也可通过手持女武神金属锭右击该建筑内的古冰冻石器花瓶，会从高处召唤&e紫晶巨石像&r，击杀可获得相同掉落物。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发12级、星灵之力4级、树皮15级效果、&e抑制、适应、反射&c属性。攻击赋予血殇100级、削50%护甲、重伤2级、骨裂、侵蚀5级效果。免疫枪械、投射类法术、魔伤SA等伤害。&e免疫&c除箭矢外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对暗属性、魔法类型伤害均分别会有50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得实验室钥匙、召唤物、秘术粉。可制作等级1的星海落瀑。额外有几率获得复仇之心、幸运水晶+。"
+			]
+			hide_dependent_lines: true
+			icon: "born_in_chaos_v1:puddleofintoxication"
+			id: "327C8D55437DFD1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290C7FF4E8D1E88F"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8+星"
+			tasks: [{
+				id: "760ED8155C2E3DC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "ancient_aether:laboratory_dungeon_key"
+				}
+				type: "item"
+			}]
+			title: "击杀:   突变箭毒花"
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3AC84AAE98D3EC16"]
+			description: [
+				"寻觅：只能通过[召唤祭坛]召唤。召唤需要的材料为下界狱星、下界合金块、熔岩绵、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间治疗5级、活力迸发30级、星灵之力5级、纯化抗性1级、树皮16级效果、&e抑制、阳炎&c属性。攻击赋予助燃性250级、狱火10级、末日20级效果，并使被击生物手中物品陷入短暂&e封禁右击&c使用的状态。"
+				""
+				"&6元素战斗类型：弱冰属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得惊骇水晶、召唤物。可制作焰护之戒、地狱之火、黑曜石骷髅头、阳灼护符、粉色水晶钥匙。额外有几率获得烈焰之核、狂风卷轴。可复制寰宇肉丸、超级煲供渊碎灵质虫生长。"
+			]
+			hide_dependent_lines: true
+			icon: "stalwart_dungeons:awful_crystal"
+			id: "22B7A2EB9762DA24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "787BDE6C0EB21518"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "5868E1E91C7E07E7"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "34CA80BB33EF4334"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B8DB73374DC5CAF"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "3E8B2297E46D2166"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
+			title: "击杀：惊骇恶魂"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"寻觅：只能通过[召唤祭坛]召唤。召唤需要的材料为下界岩晶球、魂心水晶、咒灰，激活工具为博丽的御币。击杀后可用其召唤物、咒灰作为材料召唤。"
+				""
+				"&c特点：具有瞬间治疗10级（基本能&e瞬间回满&c，但可一击秒）、活力迸发20级、星灵之力4级、树皮16级效果、反射属性。攻击赋予短暂眩晕（无法攻击和移动）、末影溶解（受伤会瞬移）、侵蚀10级效果。"
+				""
+				"&6元素战斗类型：弱火属性、弹射攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量的种植和烹饪经验、古代火焰、召唤物。可制作不稳定红石余烬、猎人3级附魔书。额外有几率获得野火核心。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:ancient_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "429722B875288446"
+			rewards: [
+				{
+					id: "24671E65D968DFAA"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B49989E59C133E"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "46B0E5869524B7A4"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EFD2BF70251BD12"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "43D0C7F32D804353"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：下界岩砖傀儡"
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"寻觅：在末地外岛可找到废弃堡垒，一共分为四层，这里是末影守卫的迷宫堡垒。可以利用探险家指南针在末地搜索“Ruined Citadel”找到该建筑。在击杀后可在召唤祭坛召唤，材料为其召唤物、咒灰，用博丽的御币Shift+右击即可。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发15级、星灵之力4级、树皮16级效果，抑制属性。攻击赋予&e短暂眩晕&c（无法攻击和移动）、空丝化8级、重伤2级、侵蚀10级效果。免疫12格以外的攻击，受击后有0.5秒的动态减伤。任何&e脱战隐身&c都会瞬间回满血。"
+				""
+				"&6元素战斗类型：弱暗属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量伐木和挖掘经验、以太矿石、召唤物、守卫者护手。额外有几率获得古旧书袋。可制作不稳定红石余烬、以太星光弓、力量和神射手20级、诺翰壬兽手套、创造者的恩赐、恐怖之剑、奥术宝藏深暗书架。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "5850E605E1ED01C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66008FD3769E38DD"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "76B2D9650D062EF7"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4F6DA407540C690B"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148C3E42AE16BABE"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "597B6BC1772D0B83"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			title: "击杀：末影守卫"
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7BADC977E39D9437"]
+			description: [
+				"寻觅：只能通过『召唤祭坛』召唤。召唤需要的材料为血肉下界之星或者未来神巫召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗10级、活力迸发25级、星灵之力7级、纯化抗性4级、树皮16级效果、&e保护&c属性。攻击赋予空丝化16级、星裂5级效果。不会下降玩家血量。"
+				""
+				"&6元素战斗类型：弱神属性、勇者攻击方式，对其它类型伤害具有极高抗性。"
+				""
+				"&2用途：击杀必定获得隙血珍珠、超维容器、召唤物、工匠遗物。可制作双生花饰品、催化剂开关。额外有几率掉落末世之脑。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:sirenhead_pearl"
+			id: "252A48074AA4117B"
+			rewards: [
+				{
+					id: "065D74B6A1FAD045"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44105F7F670DEF5C"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F51A54347D2D18C"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "175186122E3CA52A"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "357A4008D0E53B24"
+				item: "yuusha:sirenhead_pearl"
+				type: "item"
+			}]
+			title: "击杀：未来神巫"
+			x: 19.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"寻觅：在阿比斯之渊找到地下墓穴。可用探险家指南针搜索“Catacombs”。击杀后可在召唤祭坛中召唤，召唤材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有超负荷20级、瞬间伤害4级、活力迸发25级、纯化抗性2级、星灵之力4级、树皮16级效果、&e适应、怨恨&c属性。攻击赋予缠绕、禁空、重伤2级、侵蚀5级、助燃性100级、狱火5级效果。"
+				""
+				"&6元素战斗类型：对魔法类型伤害时会有25%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得奥术源质、空白符文、灵能墓石、猩红神杖、召唤物。可制作史诗墨水、狙击镜。额外有几率掉落暗之十字项链、末日之石、狂暴锁。"
+			]
+			hide_dependent_lines: true
+			icon: "irons_spellbooks:blood_staff"
+			id: "5143D953D8D76063"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B4724DE9EE15A58"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "3A90F6AECB41B935"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8星"
+			tasks: [{
+				id: "5D3766D4C178E071"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:tomb_stone"
+				}
+				type: "item"
+			}]
+			title: "击杀：死者之王"
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"寻觅：在迦赫纳维度可找到天空守卫者神殿。可通过探险家指南针搜索“Aero Guardian Temple”找到。击杀后可在召唤祭坛召唤，需要的材料为风暴眼球或其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发25级、星灵之力5级、纯化抗性1级、树皮16级效果，&e活力&c属性。攻击赋予血殇200级、重伤3级、禁空、侵蚀20级、&e末日&c40级效果。"
+				""
+				"&6元素战斗类型：弱暗属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得风暴眼球、风暴能量晶体、雷霆符文、冷却缩减符文、召唤物、神圣金羽毛。可复制传说墨水。可制作纯洁木树苗、纯洁花簇。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "faded_conquest_2:eye_of_the_storm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "392DE3B2720A9796"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40FED8269DB08AA0"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FCED8C87BAD2388"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "318F0B30D3C075B0"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B6F9FD6E75BD07E"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "5544D549678C2B71"
+				item: {
+					Count: 1
+					id: "faded_conquest_2:eye_of_the_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "击杀：天空守卫者"
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"寻觅：在主世界可找到瘟疫使者居处，右击瘟疫使者即可激活，具有多个阶段。可通过探险家指南针搜索“Alchemists Lair”找到。击杀后可在召唤祭坛召唤，材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发8级、星灵之力4级、纯化抗性2级效果，最终阶段会有&e刺客&c属性。攻击赋予重伤2级、血殇20级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得瘟疫钥匙、奥术残骸、召唤物。额外有几率获得炼金石灰、亡灵徽章、污秽蜡烛、邪祟之戒、怪异的瘟疫苹果。可制作诅咒注入器。"
+			]
+			hide_dependent_lines: true
+			icon: "faded_conquest_2:keyof_pestilence"
+			id: "6A194236869A094B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "170D222BDA531F70"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "5星"
+			tasks: [{
+				id: "5881E2504DC32646"
+				item: "faded_conquest_2:keyof_pestilence"
+				type: "item"
+			}]
+			title: "击杀：异端堕落先知"
+			x: -12.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["218B5CD994C5A8EE"]
+			description: [
+				"寻觅：在主世界可找到征服堡垒，右击惊骇的十之方块骑士召唤方块即可激活，具有两个阶段。可通过探险家指南针搜索“Fort Of Conquest”找到。击杀后可在召唤祭坛召唤，需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗2级、活力迸发10级、星灵之力4级、树皮13级效果、&e活力&c属性。攻击赋予玩家较长时间血殇40级、禁空、重伤2级、侵蚀5级效果。免疫除箭矢、枪械外的弹射物攻击。"
+				""
+				"&6元素战斗类型：对火属性、魔法类型伤害分别均会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得征服钥匙、能量晶核、召唤物。连同击杀虚空之花后可开启超级血月。可制作血之魔盒、猩红诱饵、狂暴统治者徽章、决裁者徽章。击杀二阶段的不同方块骑士有小几率获得余烬晶体簇。"
+			]
+			hide_dependent_lines: true
+			icon: "faded_conquest_2:key_of_conquest"
+			id: "04FE62D8D68AACF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0811DC283D5BC9DF"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "7星"
+			tasks: [{
+				id: "22F7702B694F4EB9"
+				item: "faded_conquest_2:key_of_conquest"
+				type: "item"
+			}]
+			title: "击杀：惊骇的十之方块骑士"
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"寻觅：找到迦赫纳维度的衰落之王竞技场，用采矿箭破坏神秘王冠即可召唤，具有两个阶段。可利用探险家指南针搜索“Fc Battleroom”找到该建筑。击杀后可在召唤祭坛召唤，需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发20级、星灵之力4级、树皮16级效果。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级、末日40级效果。每次被攻击后都会进入&e格挡状态&c（给予自身数秒超高额星灵之力效果），该状态下会让“星灵之力4”显示为“星灵之力”。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有极高额抗性。"
+				""
+				"&2用途：击杀必定获得战争钥匙、召唤物、古代战刃。可制作蛋白石钥匙。可前往亡骸之海后并继续前往来无回之都维度召唤神话级别的神化Boss。额外有几率获得菲隆剑。"
+			]
+			hide_dependent_lines: true
+			icon: "faded_conquest_2:key_of_war"
+			id: "42F1EEE02C4319E2"
+			rewards: [
+				{
+					count: 3
+					id: "0491C31A63CBD295"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7068D73E56DE1F30"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31B9601AA1392194"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "6A1D4A974B1E890C"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10FEBA13F479C947"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10+星"
+			tasks: [{
+				id: "43159F2D51C5E62F"
+				item: "faded_conquest_2:key_of_war"
+				type: "item"
+			}]
+			title: "击杀：复仇暴君"
+			x: 8.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["299BCA572729581B"]
+			description: [
+				"寻觅：在迦赫纳维度可找到末日巫妖塔，用采矿箭（不能用穿凿聚晶）破坏不详头骨召唤，具有两个阶段。可通过探险家指南针搜索“Lich Tower”（Garhenna维度）找到。击杀后可在召唤祭坛召唤，需要的材料为其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间伤害6级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级效果，&e活力、怨恨&c属性。攻击赋予血殇200级、禁空、重伤3级、侵蚀20级、&e末日&c40级效果。"
+				""
+				"&6元素战斗类型：弱雷属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得死亡钥匙、神圣符文、猩红符文、召唤物。可制作远古巫术手稿、红色水晶钥匙、杰克玩偶、灵魂猎手套装。额外有几率获得癫狂之石。"
+			]
+			hide_dependent_lines: true
+			icon: "faded_conquest_2:key_of_death"
+			id: "2C59046767D9BD83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62445455FBB23B12"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B7DDB553F796DE1"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "085DC0EA18CE884C"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "5156C4DC3DBEEE35"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "271B1B214F1E3439"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "4A9197EE478B609C"
+				item: "faded_conquest_2:key_of_death"
+				type: "item"
+			}]
+			title: "击杀：末日巫妖"
+			x: 7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2743D00B69EB23F2"]
+			description: [
+				"寻觅：只能通过『召唤祭坛』召唤，召唤需要的材料为无魂渊晶或者灾厄魂灵召唤物、咒灰，激活工具为博丽的御币。灾厄魂灵具有两个阶段。"
+				""
+				"&c特点：具有瞬间治疗8级、活力迸发25级、&e星灵之力7级&c、纯化抗性2级、树皮16级效果，活力、反射、刺客属性。攻击赋予空丝化12级、重伤4级、侵蚀3级、末日40级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：弱光属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得双生魂（需在幽匿暗域维度击杀才有）、灾厄魂锭、召唤物。可制作宝石切割台。可复制远古珍宝材料。额外有小几率掉落核心去稳定化模块。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:calamity_ingot"
+			id: "0AD4CB1AC4BB4AEE"
+			rewards: [
+				{
+					count: 6
+					id: "18D41F8F8D46E461"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "487A64B227EFAE3F"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "373A824EB5EE1E50"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "44C71341027AA4B0"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1511030141110DA8"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "11星"
+			tasks: [{
+				id: "7741965C06E96924"
+				item: "yuusha:double_soul"
+				type: "item"
+			}]
+			title: "击杀：灾厄魂灵"
+			x: 13.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["34DC2A146836EC4D"]
+			description: [
+				"寻觅：只能通过『召唤祭坛』召唤。召唤需要的材料为奥利哈钢锭或者辉光守卫者召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗7级、活力迸发25级、星灵之力7级、纯化抗性1级、树皮16级效果。攻击赋予空丝化15级、星裂5级效果，并短暂降低1000点基础&e生命值&c。"
+				""
+				"&6元素战斗类型：弱神属性、勇者攻击方式，对其它类型具有极高抗性。"
+				""
+				"&2用途：击杀必定获得辉光守卫者之心、奥利哈钢锭、星尘、召唤物。可制作禁忌之剑、地狱刃片护符、以太盔甲。"
+			]
+			hide_dependent_lines: true
+			icon: "yuusha:light_guardian_heart"
+			id: "5A7CCB00910E0CF8"
+			rewards: [
+				{
+					id: "1C084759F427BF10"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17F13EBE20E7BDB9"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12E90C3E1D8B0F6C"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5619FE4E08048A49"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "12星"
+			tasks: [{
+				id: "55CB633E1C6CBAB1"
+				item: "yuusha:light_guardian_heart"
+				type: "item"
+			}]
+			title: "击杀：辉光守卫者"
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7BADC977E39D9437"]
+			description: [
+				"佩戴大恶魔之咒能更好地限制回血。去最终极之涡，玩家会有星裂10级效果。"
+				""
+				"&c未来神巫（战士线）：佩戴狂怒手套、亚特格拉德病毒-重生，带上无尽图腾，保持低血量，还能上止心术+超负荷。在保护的空档期间，输出足够就能秒掉。基本前面能打过，这里就能打过，可能需要凹伤害。"
+				""
+				"&e片翼天使复制体（战士线）：玩家佩戴双生花饰品，在最终极之涡维度，把星裂10级效果转移过去，然后一直攻击，叠狂怒手套就能击杀。复制体在残血时所佩戴的装备，可通过犬牙钓竿等方式解除。"
+				""
+				"&b亚波伦（混合线）：做出终末之环再打下界亚波伦。用提尔锋、灵灾镰刀可破适应。"
+				""
+				"&5未来神巫（女仆线）：佩戴亚特格拉德病毒『重生』超限后的猎人腰带。武器同前。"
+				""
+				"&2片翼天使复制体（女仆线）：在最终极之涡维度，用双生花饰品可以给Boss上星裂10级。武器堕天提尔锋。"
+				""
+				"&3亚波伦（女仆线）：需注意，尾杀可能会导致女仆墓碑消失而永久死亡。可以尝试做出终末之环去打，在尾杀前把女仆收走。"
+			]
+			hide_text_until_complete: true
+			icon: "depthcrawler:unstablecreationcore"
+			id: "6AD6FCD9BFA8AE02"
+			rewards: [{
+				id: "6DA7FA76C69BFB6C"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "如果你已厌倦死亡的轮回，可以来换取圆环之理的指引"
+			tasks: [{
+				consume_items: true
+				id: "7E924A671DF9273C"
+				item: "yuusha:emper_core"
+				type: "item"
+			}]
+			title: "奇迹并不是免费的"
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["34DC2A146836EC4D"]
+			description: [
+				"&c在通关上级挑战传送门后，可开启神性挑战系列Boss。"
+				""
+				"&e你知道吗？活力迸发效果每级可增加20%的受到治疗，而重伤效果每级会降低40%的受到治疗，两者可以抵消。"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			id: "7BADC977E39D9437"
+			rewards: [{
+				id: "7B519D72446B958B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "第二十章  - 轮 回 -  下"
+			tasks: [{
+				id: "1488FA3F5DA3D9EF"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "【命运之轮】"
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7BADC977E39D9437"]
+			description: [
+				"寻觅：用异火之眼、隙血珍珠、血肉下界之星、不洁之血作为材料，最后用破碎之环右击举行安息仪式召唤。击杀后可用末日勋章等材料进行召唤。在当前阶段可能较难击杀，打不过可以用赎罪券清除亚波伦。"
+				""
+				"&c特点：具有&e活力、反射、适应、阳炎&c属性。攻击赋予空丝化12级、重伤4级、侵蚀5级效果。每次受伤有&e上限&c阈值，特定阶段会有回血能力。&e免疫&c所有药水效果。具有动态减伤。具有两个阶段。随血量会改变头衔能力。被&e亡灵杀手&c附魔攻击会失去回血能力。在&e下界&c召唤时（非主线，仅供挑战），亚波伦会更为强大，还会夺取玩家大部分&e饰品&c（黑白名单详见大满开章节神灵金属锭任务）且锁定玩家属性为基础数值。下界亚波伦在死亡时会在8秒后释放&e炼狱结界&c击杀生物（如果有无尽图腾可能会导致玩家卡住无限复活，拿起来可避免）。"
+				""
+				"&6元素战斗类型：弱神或光属性、勇者或斩击攻击方式，对其它类型伤害具有较高的抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：在主世界击杀必定获得末日勋章（在下界会掉落更多）、晋升之环。可特殊方法获得神锻卷轴。可进入永昼空境。可制作终末之环、死心之胚、非欧立方、催眠外表法术卷轴、晋升硬糖、神灵金盔甲、凋灵寂灭聚晶、炼狱聚晶、伪寰宇支配之剑、破妄1级附魔。在下界第一次击杀可获得天启七印（世界唯一），可制作断曜流光、炼狱聚晶、大天使之证。"
+			]
+			hide_dependent_lines: true
+			id: "2830360460B452C9"
+			rewards: [
+				{
+					id: "07523A23D348755A"
+					item: "yuusha:yuusha_medal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E9B93900AE02111"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27B1AF63F67014D3"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41D6DA00316A20F5"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+			]
+			subtitle: "??星"
+			tasks: [{
+				id: "534696010528BF22"
+				item: "goety_revelation:doom_medal"
+				type: "item"
+			}]
+			title: "击杀:   亚波伦"
+			x: 19.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["660654373269C8CA"]
+			description: [
+				"寻觅：手持化石之饵右击即可召唤，可以在任意维度召唤。在当前阶段可能较为难打、"
+				""
+				"&c特点：具有瞬间伤害1级、活力迸发10级、星灵之力4级、纯化抗性2级效果、&e反射&c属性。攻击赋予重伤2级、血殇20级、侵蚀5级效果。只有头部能被攻击。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得化石之饵、奥术残骸、藓牙、惰性三叉戟。额外有几率获得自然石灰、不灭苞荚、力量之石、鱼鳃、两栖之手、海洋之泪。可制作残骨军刀、魂染钢镰刀、笼中心、精灵项链、真正的海洋之心。"
+				""
+				"&3后续：击杀唤潮者（详见上层世界的溺魂任务）几率获得溺尸腰带。击杀紫水晶巨蟹后可制作受祝福的紫水晶蟹肉（详见好好吃章节任务）。可制作三叉戟附魔。"
+			]
+			hide_dependent_lines: true
+			icon: "meetyourfight:mossy_tooth"
+			id: "697139F8A65D5F24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AADF146A746F432"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "04A3E7E4A4CC5CE6"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "5+星"
+			tasks: [{
+				id: "18B9B9E7CA8BC2D0"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			title: "击杀：沼泽巨颌怪"
+			x: -12.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["51A8ABB7D9C4550B"]
+			description: [
+				"寻觅：手持缠魂铃铛右击即可召唤，可以在任意维度召唤。在当前阶段可能较为难打。"
+				""
+				"&c特点：具有瞬间伤害2级、活力迸发5级、星灵之力4级、树皮14级效果、&e适应&c属性。攻击赋予空丝化3级、侵蚀5级效果。"
+				""
+				"&6元素战斗类型：对光属性、魔法类型伤害分别均会有50%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得幽魂质、缠魂铃铛、完整构造体、铁箭。可制作暴食徽章、旅人之钟、幽灵之眼、绽放之念、火焰舌。额外有几率获得落魄。"
+			]
+			hide_dependent_lines: true
+			icon: "meetyourfight:phantoplasm"
+			id: "1BDA3ECDCA5DB367"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15E12F2BED2B079D"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "0D07EFCDEDA8972D"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "6+星"
+			tasks: [{
+				id: "1E7B010C850967E6"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			title: "击杀：敲钟人"
+			x: -11.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E59C4B07D86318D"]
+			description: [
+				"寻觅：手持薄暮之钥右击即可召唤。"
+				""
+				"&c特点：具有瞬间治疗8级、活力迸发20级、星灵之力5级、纯化抗性1级、树皮16级、超负荷20级效果，反射、活力、&e适应&c属性。攻击赋予禁空、空丝化11级、重伤3级、侵蚀5级效果。&e无玩家仇恨&c时会无敌。具有多个阶段，部分阶段需先击杀蔷薇怨灵，蔷薇怨灵每次只会有其中一个可以被玩家攻击。"
+				""
+				"&6元素战斗类型：弱光属性、魔法攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀可获得薄暮之钥、暮光紫罗兰。可制作未竞之志、堕天提尔锋、屠戮符文、风暴戟聚晶。额外有几率获得飞仙戒指。"
+			]
+			hide_dependent_lines: true
+			icon: "meetyourfight:violet_bloom"
+			id: "4D2A2AEA1DDFCEF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A0921E76421E446"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "4DD71EB1A0C4B072"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E83DDC867D77356"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "665CF88B36BA3776"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "10星"
+			tasks: [{
+				id: "0E8CA60E228081C8"
+				item: "meetyourfight:violet_bloom"
+				type: "item"
+			}]
+			title: "击杀：薄暮之锋-罗莎琳"
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["394278F69FA905F5"]
+			description: [
+				"寻觅：手持恶魔赌注右击即可召唤，属于可选Boss。可以在任意维度召唤。在当前阶段可能较为难打。"
+				""
+				"&c特点：具有瞬间治疗4级、活力迸发25级、星灵之力4级、纯化抗性2级、树皮16级效果、&e反射&c属性。被攻击时会瞬移。攻击赋予血殇100级、禁空、重伤2级、侵蚀10级效果。半血以下会使自己&e无敌&c直至发现攻击目标。共三个阶段，分别在25%、50%、75%血量，过阶段时需&e猜牌&c，猜牌正确后会进入下一个阶段。"
+				""
+				"&6元素战斗类型：对魔法类型伤害时会有25%易伤，对弹射伤害类型有50%抗性，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得恶魔赌注、命运之眷。可制作铁之王牌、切割者之骰。"
+			]
+			hide_dependent_lines: true
+			icon: "meetyourfight:fortunes_favor"
+			id: "74812D2BC08F5953"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BC1704C7DC5987A"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "4F333FD083433596"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "8+星"
+			tasks: [{
+				id: "465F96D7AA3D8A75"
+				item: "meetyourfight:fortunes_favor"
+				type: "item"
+			}]
+			title: "击杀：福尔图娜女爵"
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["383E3CF739CE7C74"]
+			description: [
+				"寻觅：右击雕刻之眼指引寺庙，右击雕刻家并提交泥峭棒可开始试炼。探险家指南针搜索“Monastery”可找到。也可在『召唤祭坛』召唤，材料为沃土或其召唤物、咒灰，激活工具为博丽的御币。"
+				""
+				"&c特点：具有生命恢复5级、活力迸发3级、星灵之力2级效果。在未完成试炼之前任何攻击都可击杀雕刻家，击杀不能完成试炼。试炼中使用飞行会导致失败，基本只能通过跳跃。在完成试炼后免疫所有攻击，可以通过超维之眼传送。"
+				""
+				"&6元素战斗类型：对火、雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：通过试炼必定获得大地手套，可在星河贸易站交易获得探险家指南针。击杀必定获得少量狩猎经验、召唤物。额外有几率掉落地卜师法杖、地卜师套装、自然指南针。"
+			]
+			hide_dependent_lines: true
+			id: "0A3785AB4C410DCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "763577D72245A46A"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "2星"
+			tasks: [{
+				id: "16278211C4960832"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "试炼： 雕刻家-通臂大师"
+			x: -15.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["16FFD21575AD92EC"]
+			description: [
+				"寻觅：在死寂之海维度利用风暴之眼可找到卫城，右键卫城中的船锚可召唤斯库拉。也可用探险家指南针搜索“Acropolis”找到卫城。卫城内的生物都是一次性的，将生物清理干净就不会那么卡。击杀一次后可在召唤祭坛召唤。"
+				""
+				"&c特点：具有瞬间治疗1级、活力迸发3级、星灵之力4级、纯化抗性1级效果、&e怨恨&c属性。攻击赋予重伤2级（-80%受到治疗）、风暴之怒5级（露天被雷劈）、侵蚀5级效果。免疫24格外攻击，受击后有1秒的动态减伤（每次受击会获得短暂100%减伤，在该时间内会线性衰减到0%，再次受击会重置减伤至100%），此外还有一定的限伤能力。任何脱战隐身都会瞬间回满血。"
+				""
+				"&6元素战斗类型：对光和雷属性伤害会有100%易伤，其余类型伤害不变。"
+				""
+				"&2用途：击杀必定获得泪宝石、风暴精华、伪·静籁永恒、召唤物。可制作探险家指南针、恩赐卷轴、神怒长槊、霆浪锚戟、万象模板。额外有几率获得蓝色符石、绿色符石、红色符石、雷电核心。特定条件获得刻蚀板。"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:essence_of_the_storm"
+			id: "452A5736184753B9"
+			rewards: [
+				{
+					id: "281A3171C6D7954E"
+					table_id: 1165908756396855906L
+					type: "random"
+				}
+				{
+					id: "02215A7967467578"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "4+星"
+			tasks: [{
+				id: "4407FA434A01308E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "cataclysm:essence_of_the_storm"
+				}
+				type: "item"
+			}]
+			title: "击杀：斯库拉"
+			x: -14.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2E605CBE6AD51878"]
+			description: [
+				"寻觅：利用异界沙漠传送石可前往异界沙漠，然后击杀生物获得异界宝石，并完成幽匿暗域章节特定任务，才能召唤异界机械巨蛇。击杀后可在「召唤祭坛」用召唤物、咒灰可召唤，祭坛下方需异白之沙，激活工具为博丽的御币。"
+				""
+				"&c特点：具有瞬间治疗6级、活力迸发15级、星灵之力4级、纯化抗性1级、树皮16级效果。攻击赋予血殇200级、重伤2级、侵蚀20级效果。碰撞箱与模型不是完全重合的，此外不要近距离贴贴模型，可能会崩游戏。对&e过近或者过远距离&c伤害会有减伤。"
+				""
+				"&6元素战斗类型：弱无属性、打击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得召唤物、异界机械巨蛇战利品、下界合金块、碳素钢锭、大量游泳经验、炽星宝石。可制作不稳定红石余烬、炽火之瓶、无止之言、神化Boss召唤器、重铸台、冰霜打击1级法术卷轴。额外有几率获得特定塔罗牌。玄奥沙可升级神化宝石。"
+			]
+			hide_dependent_lines: true
+			icon: "binah:binah_desert_trophy"
+			id: "33988B0ADF0014D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DA573D65077F03E"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "0E8B581363C56948"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "60E471983FE3ACB0"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "550415435A9C20FF"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45F0EE76EEF5EF74"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "4BFF9A7A3C2BC24F"
+				item: "binah:binah_desert_trophy"
+				type: "item"
+			}]
+			title: "击杀：异界机械巨蛇薇娜"
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0806BC3D040EDDE8"]
+			description: [
+				"寻觅：生成在死寂之海维度内的古陵，该建筑在地下。可用探险家指南针搜索“古陵”找到。非主线必须。击杀后可用无名幻锭、咒灰等材料在「召唤祭坛」召唤。"
+				""
+				"&c特点：具有&e怨恨、抑制、刺客&c属性。攻击赋予助燃性200级（每级+1点火焰伤害）、狱火5级（属火焰伤害）、侵蚀5级效果。所有近战招式都附带吸血效果，部分攻击会造成&e眩晕&c效果。免疫大部分药水效果。在血量低于60%时，会在增幅状态和虚弱状态之间互相转换，在增幅状态时会免疫大部分弹射物。有&e受伤阈值&c，在计算减伤后最高只受到1000点。"
+				""
+				"&6元素战斗类型：对所有攻击类型都具有高额抗性。此外受到暗属性攻击会免疫并回血。"
+				""
+				"&2用途：击杀必定获得无名幻锭、守卫者战斧、守卫者核心。额外有几率掉落魔法石英花、烈焰灵石、隐形宝石、哨兵护身符、诡异戒指、未竟之志。可制作暗夜契约卷轴、炽热之握。"
+			]
+			hide_dependent_lines: true
+			id: "5C51B709F9106B58"
+			rewards: [{
+				id: "242C1EEBC6E1A15D"
+				table_id: 1165908756396855906L
+				type: "random"
+			}]
+			subtitle: "8+星"
+			tasks: [{
+				id: "27298BF60BE5AC1E"
+				item: "yuusha:chaos_ingot"
+				type: "item"
+			}]
+			title: "击杀：无名守卫者"
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["05A7666B2FF2E43D"]
+			description: [
+				"寻觅：在死寂之海维度的特定建筑内找到特定的神像，在无相应的祝福效果时，破坏阿·普切或者库库尔坎神像即可召唤。可用探险家指南针搜索“Deadly Crypt”或者“Overgrown Temple”。后续可制作神像并破坏以召唤。"
+				""
+				"&c特点：具有瞬间治疗/瞬间伤害5级、树皮16级、活力迸发15级、星灵之力4级、纯化抗性1级效果，反射、&e怨恨、活力&c、抑制属性。攻击赋予短暂眩晕（无法攻击和移动）、末影溶解（受伤瞬移）、易燃性200级、狱火5级、侵蚀10级效果。此外库库尔坎对大部分攻击有80%&e额外减伤&c。"
+				""
+				"&6元素战斗类型：弱火属性、弹射攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得大量巧匠和采掘经验、尤卡坦之魂、洁净粉末。可制作不稳定红石余烬，还可在星河贸易站交易永恒陨星。额外有几率获得复苏之叶、灵魂绯红之石、无尽财宝箱（只有库库尔坎会掉落）。可优化灵质、神奇、扭曲石头。"
+			]
+			hide_dependent_lines: true
+			id: "0AD6B83836EDEC8F"
+			rewards: [
+				{
+					id: "0396E7E0253ABBA8"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E75A3B227B53D0C"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "05E658F26B5B628B"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					id: "21F6DF49F636EDF8"
+					item: "yuusha:primordial_pearl"
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D6A14B477CC075F"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "592A9B524835CA00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:sand_soul"
+				}
+				type: "item"
+			}]
+			title: "击杀：阿·普切 或 库库尔坎"
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2737E9EE295A4D42"]
+			description: [
+				"寻觅：在幽匿暗域可找到血色祭坛。可以利用探险家指南针搜索“Bloody Altar”找到该建筑。在击杀后可在召唤祭坛召唤，材料为异教徒的心脏、咒灰，用博丽的御币Shift+右击即可。"
+				""
+				"&c特点：具有星灵之力4级、树皮16级效果、&e抑制、怨恨&c属性。攻击赋予短暂眩晕（无法攻击和移动）、空丝化8级、重伤2级、侵蚀5级效果。有&e受伤阈值&c，在计算减伤后最高只受到1000点。"
+				""
+				"&6元素战斗类型：弱暗属性、斩击攻击方式，上述两种类型每有一个不符则伤害降低三分之一。"
+				""
+				"&2用途：击杀必定获得异教徒的心脏、不死之魂。可在星河贸易站内交易获得血腥钻石。额外有几率获得邪恶蜡烛、危险的头骨。可制作枯萎术法术卷轴。"
+			]
+			hide_dependent_lines: true
+			id: "3748098EAD5EFD33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DFCB1C4C2902297"
+					table_id: 3366165184641522358L
+					type: "random"
+				}
+				{
+					id: "33627263C2F5D0A6"
+					table_id: 5677650089290078333L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3E4674B0296EB9A2"
+					item: "yuusha:knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F03A06A1141434"
+					table_id: 2547637580080195502L
+					type: "random"
+				}
+			]
+			subtitle: "9星"
+			tasks: [{
+				id: "68B19163FE665791"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eeeabsmobs:heart_of_pagan"
+				}
+				type: "item"
+			}]
+			title: "击杀：死尸术士"
+			x: 2.5d
+			y: 15.5d
+		}
+	]
+	subtitle: ["&9『击杀主线』"]
+	title: "&6※ 天顶巨兽"
+}

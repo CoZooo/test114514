@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " a ",
+        "a#a",
+        " a "
+        
+    ],
+    "key": {
+        "#": {
+      "item": "xtraarrows:diamond_arrow"
+    },
+    "a": {
+        "tag": "aether:swet_balls"
+      }
+    },
+    "result": {
+        "item": "xtraarrows:diamond_slime_arrow",
+        "count": 1
+    }
+}

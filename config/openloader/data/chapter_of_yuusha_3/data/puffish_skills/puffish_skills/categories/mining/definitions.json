@@ -1,0 +1,46 @@
+{
+	"fortune+0.1": {
+		"title": "+0.1 时运",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "diamond"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "x09t22pzcd7hay3l"
+		}
+	},
+	"mining_speed+1%": {
+		"title": "+1% 挖掘速度",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "haste"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.mining_speed",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dlouwyqfu4bnrhh1"
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:redstone_block"
+  },
+  "craftType": "forge",
+  "soulCost": 35000,
+  "duration": 5,
+  "entity_to_summon": "goety:hostile_redstone_monstrosity",
+  "research": "terminus",
+  "ingredients": [
+    {
+      "item": "goety:redstone_golem_skull"
+    },
+    {
+      "item": "goety:cursed_metal_block"
+    },
+    {
+      "item": "distant_worlds:module_core_stabilization"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "goety:grave_golem_skull"
+    },
+    {
+      "item": "goety:cursed_metal_block"
+    },
+    {
+      "item": "yuusha:destructed_hope"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

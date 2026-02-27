@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 20
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 20
+    }
+  ],
+  "name": "rough_blade:ming_li",
+  "properties": {
+    "attack_base": 100.0,
+    "max_damage": 200,
+    "slash_art": "rough_blade:zj",
+    "special_effects": [
+      "rough_blade:ming_li"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "rough_blade:models/mingli.obj",
+    "summon_sword_color": -65536,
+    "texture": "rough_blade:textures/model/mingli.png"
+  }
+}

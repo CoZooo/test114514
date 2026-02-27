@@ -1,0 +1,31 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:necro_staff"
+  },
+  "craftType": "necroturgy",
+  "research": "buried",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "yuusha:tomb_stone"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:heart_of_the_night"
+    }
+  ],
+  "result": {
+    "item": "goety:nameless_staff"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "moonstone:ectoplasmshild",
+    "count": 1
+  },
+  "wissen": 2500,
+  "ingredients": [
+    {
+      "item": "moonstone:blueamout"
+    },
+    {
+      "item": "moonstone:ectoplasmcube"
+    },
+    {
+      "item": "moonstone:ectoplasmball"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "moonstone:ectoplasmcloub"
+    },
+    {
+      "item": "hmag:ancient_stone_block"
+    },
+    {
+      "item": "moonstone:ectoplasmball"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "moonstone:ectoplasmcloub"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+	"name": "达琍特",
+	"icon": "distant_worlds:dalite_crystal",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 4,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:dalite_nugget",
+			"text": "你经常可以在熔融山脉的生物群系中找到它。通过挖掘它的矿石，你将获得粗达琍特，必须将其冶炼成达琍特粒进行进一步的工作。使用5个达琍特粒，你将能够制作一些达琍特晶体。纯净达琍特相当脆弱，但有能力储存、集中和传递一种特殊的能量。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:dalite_crystal_recipe",
+			"recipe2": "distant_worlds:dalite_block_recipe"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_dalite_block_recipe",
+			"recipe2": "distant_worlds:raw_dalite_recipe"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

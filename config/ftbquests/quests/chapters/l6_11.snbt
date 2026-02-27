@@ -1,0 +1,1903 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_11"
+	group: "381A0F9F8CC8976C"
+	icon: "infinite_abyss:perfect_charium"
+	id: "32EE6EFD88EF6910"
+	images: [
+		{
+			alpha: 180
+			color: 15176402
+			height: 16.0d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 29.0d
+			x: 15.5d
+			y: 22.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 17.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 30.5d
+			x: 15.5d
+			y: 22.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于128格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：黑暗旋涡、骷髅召唤师、堕落混沌骑士、惧狼、暗影潜伏者、炽魂南瓜人、木桶僵尸、小丑僵尸、幻影苦力怕、南瓜爵士、幽灵向导、传教士、混沌恶灵、窃命者、血腥牛虻、史莱姆娘。"
+				""
+				"&e怪物特点：会在较近范围处快速刷新，每秒最多刷新2个怪，有刷怪容量上限。"
+				""
+				"&c维度特点：恒定给予古代知识1级（大幅提高经验获取）、压抑2级（几率无法回血）等效果。"
+			]
+			hide_dependency_lines: false
+			id: "2032706ED4F9E7EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52A1FFA934E051E1"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "7C6C40295572779E"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l阿比斯之渊"
+			tasks: [
+				{
+					id: "342DC4D9A1521E17"
+					item: {
+						Count: 1
+						id: "infinite_abyss:first_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4A93BCC42D596CC4"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			description: ["用原版镐即可挖掘，不需要精准采集。"]
+			id: "447163DE6E365A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43AC8ECE95F01102"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AD6838F6A0B1E3C"
+				item: "infinite_abyss:glowing_green_crystal_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			description: [
+				"可以用任意带精准采集附魔的原版类型的镐。"
+				""
+				"&6粘液镐可制作，自带精准采集。"
+			]
+			id: "406A4650814678E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DA866B715D4D0BD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34A7E925285F3880"
+				item: "infinite_abyss:glowing_pink_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于128格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：深层岩傀儡（深层岩傀儡灵魂石）、火焰旋涡（蛋白石）、燃魂（炽燃余烬）、炽燃狂魂（将熄余烬）、装甲烈焰人（烈焰人盔甲碎片）。"
+				""
+				"&e怪物特点：对冰属性、斩击类型伤害抗性较低，对其它类型伤害抗性较高。均具有星灵之力5级。无止之言对该维度内的非Boss生物也有增伤。"
+				""
+				"&c维度特点：恒定给予易燃性250级、狱火10级、压抑4级（几率无法回血）、星裂5级（受伤增加）等效果。地狱之火等饰品可免疫所有火焰伤害。该维度无法放置水。"
+			]
+			hide_dependency_lines: true
+			id: "0E5CAAA3C7BABFE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FF18DA2ECDAE13B"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "047025F39F6A7581"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l无间之炼狱"
+			tasks: [
+				{
+					id: "30A7852B7CE9ECEA"
+					item: {
+						Count: 1
+						id: "infinite_abyss:second_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3860D2B88746D121"
+					item: "infinite_abyss:deepstone"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			description: ["可以用带精准采集附魔的原版类型的镐挖掘获得。"]
+			id: "319CDFD491B1608E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B7FF3CCE1B27AF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D669B29243BC22C"
+				item: "infinite_abyss:fire_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			description: ["可以用带精准采集附魔的原版类型的镐挖掘获得。"]
+			id: "1119C04517CFD83C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2D263B169D8EC1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D922F5F8BA4ECC4"
+				item: "infinite_abyss:glowing_red_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			id: "285B10DCF7914A80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "682B3499586A76F7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "562991C34CFE394F"
+				item: "infinite_abyss:deeprock_golem_spirit_stone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于128格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：末日蘑蛛（攻击附加高额末日效果，末日效果会无视玩家所有抗性造成真实伤害）、恶意发光球茎、尘孢（20%尘孢之心）、巨大尘孢（100%附魔尘孢之心）。上述生物都具有极高的回血速度（基本只能一击秒）。"
+				""
+				"&e怪物特点：对光属性、魔法类型伤害抗性较低，对其它类型伤害抗性较高。"
+				""
+				"&c维度特点：恒定给予侵蚀20级（所受伤害增加）、压抑4级（几率无法回血）、禁空2级、肾上腺疲劳5级、静默1级等效果。该维度放置水会变为蘑菇方块。"
+			]
+			hide_dependency_lines: true
+			id: "678EC116E5DD6051"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7754BD5FF7ACE48A"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "7BCF6B73B4924666"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l诱惑之森"
+			tasks: [
+				{
+					id: "4E4B820036CC8A5C"
+					item: {
+						Count: 1
+						id: "infinite_abyss:fourth_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2D305FE217471528"
+					item: "infinite_abyss:red_deepstone"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			id: "1C6E0D5E3395B1FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A4766CE57553D2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50917016A66AA85F"
+				item: "infinite_abyss:red_glowing_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			id: "6AA7CA259E85BDB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5C3293AA414976"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19BA3E1F366E0DEA"
+				item: "infinite_abyss:pink_glowing_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于128格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：守护骑士、眼球蛙、巨型眼球蛙、咀嚼者。击杀以上生物都有几率掉落冰封钥匙。"
+				""
+				"&e怪物特点：对无属性、打击类型伤害抗性较低，对其它类型伤害抗性较高。"
+				""
+				"&c维度特点：恒定给予骨裂8级（降低基础攻速和移速）、护甲值削弱50%、灵魂破碎5级（血量上限和移速降低）、压抑4级（几率无法回血）等效果。在上述减速后玩家基本无法行走，只能飞行移动。"
+			]
+			hide_dependency_lines: true
+			id: "13A733D2E7713379"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BB5DB0F2B9FBA40"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "2B48C679D435394D"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l亡骸之海"
+			tasks: [
+				{
+					id: "0D58722A4B018941"
+					item: {
+						Count: 1
+						id: "infinite_abyss:fifth_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "0E8E085B0D0081FC"
+					item: "infinite_abyss:fourth_layer_deepstone"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			description: ["需挖掘等级3以上的原版类型的镐，如钻石镐等。时运过高也会无掉落（反正各种奇怪的特性可能导致没有掉落物）。"]
+			id: "3DA57B6BC7BE7F56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "422BF7C67DBFF7B3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "380A2FBA580B2F7A"
+				item: "infinite_abyss:opal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: [
+				"需挖掘等级较高的镐，如下界合金镐等。时运过高也会无掉落（反正各种奇怪的特性可能导致没有掉落物）。"
+				""
+				"&e利用扫描器的稀有矿石模块可以扫描出。"
+			]
+			id: "4A88F39F5CAF6DC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E8D61E7F513CAD3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "613D74A1EC313DAD"
+				item: "infinite_abyss:cursed_opal"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: [
+				"需挖掘等级较高的镐，如下界合金镐等。时运过高也会无掉落（反正各种奇怪的特性可能导致没有掉落物）。"
+				""
+				"&e利用扫描器的稀有矿石模块可以扫描出。"
+			]
+			id: "1183BC470FB3E7B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1ACDEE6E8262F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "038D4EAF2ACC036D"
+				item: "infinite_abyss:deepsilver_plate"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于256格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：冰冻苦力怕、冰立方、风之精灵、闪电幽灵、旋风怪。"
+				""
+				"&e怪物特点：对无属性、打击类型伤害抗性较低，对其它类型伤害抗性较高。"
+				""
+				"&c维度特点：恒定给予冰冻3级（降低近战伤害和移速）、压抑4级（几率无法回血）等效果。在该维度放置水会变为浮冰。"
+			]
+			hide_dependency_lines: true
+			id: "0B1806EC033D3E14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43ACB744FE710F19"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "1343CDC16459692F"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l来无回之都"
+			tasks: [
+				{
+					id: "607AD77962AD3216"
+					item: {
+						Count: 1
+						id: "infinite_abyss:sixth_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5747E08910B9E23A"
+					item: "infinite_abyss:deep_prismarine"
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: ["击杀眼球蛙几率获得。"]
+			id: "5A3C33DFF5CB0A5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5309B6E791FFBF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EEA9692FCDE69F7"
+				item: "infinite_abyss:eyeball_frog_meat"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: [
+				"维度相关：类似原版下界传送门建造和激活。所有洞穴维度都有着基岩天花板，如果在高度大于256格进入传送门会到天花板上，可以拆了门，然后换个地方再开门。"
+				""
+				"&6该维度生成的生物：暗影之眼、各种渊兽（渊兽只能在最终极之涡生成）。在最终极之涡的天花板上可以放置指路石等方块。"
+				""
+				"&e怪物特点：对无属性、打击类型伤害抗性较低，对其它类型伤害抗性较高。所有渊兽及渊兽领主有几率给予玩家不可名状的恐惧，不可名状的恐惧会导致玩家无法攻击、破坏及飞行。"
+				""
+				"&c维度特点：恒定给予侵蚀20级（受到伤害增加）、冰冻4级（攻击和移速降低）、压抑4级（几率无法回血）、灵魂破碎1级、星裂10级等效果。在该维度放置水会变为浮冰。"
+			]
+			hide_dependency_lines: true
+			id: "33E5FBF434F18D62"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E0C26447E91E39E"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					id: "0FCD95EA4EFAB223"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "&7&l最终极之涡"
+			tasks: [
+				{
+					id: "73819486138ADD39"
+					item: {
+						Count: 1
+						id: "infinite_abyss:seventh_layer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6A3FE9D00E9E6BFC"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: ["可以用任意带精准采集附魔的原版类型的镐。"]
+			id: "670EA86B21A8DE9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60E6444D86A5B4FD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BB15B8D11B4A5D0"
+				item: "infinite_abyss:light_blue_crystal_block"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: ["在来无回之都的苦寒监牢可找到有放置的，也可通过击杀相应生物有几率获得。可利用探险家指南针搜索“Frosted Prison”找到苦寒监牢。"]
+			id: "0B4A63CA93B2174C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C59EF7613710268"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "15B052683BA7A2F1"
+					item: {
+						Count: 1
+						id: "cataclysm:draugr_head"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "648CC4F502FC522D"
+					item: "cataclysm:aptrgangr_head"
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["33E5FBF434F18D62"]
+			description: [
+				"击杀暗影之眼可获得材料。也可挖掘相应的矿获得，需紫晶钻石钻头。"
+				""
+				"&6新增击杀渊眼苍龙会直接掉落完美的炭紫晶。"
+			]
+			id: "1FCD42E50657BC23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D29123070AB6FB0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06901DAA89342356"
+				item: "infinite_abyss:perfect_charium"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			id: "4EF50D894AAF282E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "721D584816EF8A43"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FFC59791C2AA3A2"
+				item: "infinite_abyss:rainbow_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["27496D3F784CEBC2"]
+			id: "05DC96F001E8C5F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FB16A202A4F1ED7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F9E0B8FE24E7C2C"
+				item: "infinite_abyss:tentacle"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			description: ["用带时运附魔的原版类型的镐挖掘红色发光水晶块更容易获得。时运好像不能过高，否则会触发特性无掉落。"]
+			id: "571C2D45B10FE077"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "311C7CFFD8674942"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BC145A51A0C6895"
+				item: "infinite_abyss:rough_red_crystal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["05DC96F001E8C5F3"]
+			id: "0D842826E29FB6DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BC18DDBEE16B33F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17805D7E01BF10FB"
+				item: "infinite_abyss:crystal_heart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0D842826E29FB6DB"]
+			id: "2B64780621A2F893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "055FF23B3411B239"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DE81FD4541D34B8"
+				item: "infinite_abyss:dead_crystal_heart"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			hide_dependency_lines: true
+			id: "46CCDC4C6DF15DF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2862C60568B09C04"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "116D8EF8A1AE968C"
+				item: "infinite_abyss:wither_artefact"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: [
+				"在亡骸之海的地牢内蓝宝石板条箱可找到召唤之钟。"
+				""
+				"&c在地图上能看到有青色的地牢结构。"
+			]
+			hide_dependency_lines: true
+			id: "27496D3F784CEBC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A507F74E605F18"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BD73588B2A83747"
+				item: "infinite_abyss:summoning_bell"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: [
+				"紫晶钻石矿在亡骸之海维度可以找到。"
+				""
+				"&6需挖掘等级较高的镐，如下界合金镐或诅咒蛋白石镐。"
+			]
+			id: "2F8A8EB3DCB09294"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CBBBB2449A591BF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54EBE29C3789326C"
+				item: "infinite_abyss:violet_diamond"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2F8A8EB3DCB09294"]
+			description: [
+				"挖掘等级5级。"
+				""
+				"&c也可通过其它工具或途径进行挖掘。"
+			]
+			id: "75986A72E300F5C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355B58D055FC6D84"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BD9CC3A175675DE"
+				item: {
+					Count: 1
+					id: "infinite_abyss:violet_diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["74B6007FCB4A5DA6"]
+			description: [
+				"挖掘等级6级。需先击杀来无回之都维度内的生物有几率获得星陨水晶。"
+				""
+				"&e钻头部件在亡骸之海的建筑内挖掘板条箱有几率获得。"
+				""
+				"&6钻头部件新增可在切石机中制作获得。"
+				""
+				"&c也可通过其它工具或途径进行挖掘。"
+			]
+			id: "29DB6CFCC9A0DA4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA71819E6CB8B29"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5DAE36051C904CEE"
+				item: {
+					Count: 1
+					id: "infinite_abyss:violet_diamond_drill"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: [
+				"在酿造台中，蛋白石+防火药水可制作深度抗性药水。"
+				""
+				"&e来无回之都、最终极之涡需要有深度抗性药水或者探险护符，否则会不停受伤。"
+				""
+				"&6探险护符在亡骸之海的城堡内的金制板条箱挖掘获得。"
+				""
+				"&c深度抗性药水也可在切石机中直接制作获得。"
+			]
+			id: "0090EA91101CF4CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41DB92A595DDB13E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C0435A3041AA5AB"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "infinite_abyss:depth_resistance_potion"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: [
+				"在酿造台中，火焰水晶块+粗制的药水可制作寒冷抗性药水。"
+				""
+				"&6来无回之都需要有寒冷抗性药水或者保暖护符或者穿戴皮革护甲。深度抗性药水和寒冷抗性药水都要喝，否则会一直掉血。"
+				""
+				"&c寒冷抗性药水也可在切石机中直接制作获得。"
+			]
+			id: "69FBF4302983C533"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "736C6EF2A65B4653"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F15DB5234BA8AD9"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "infinite_abyss:cold_resistance_potion"
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: ["当巨型尘孢顶起护盾时，只能用[破盾者]去破除护盾才能造成伤害。"]
+			id: "14138A7895496FEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF9C0AF228705D8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45E29C3247F8430E"
+				item: "infinite_abyss:shield_breaker"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: [
+				"需挖掘等级6，如[紫晶钻石钻头]。需先击杀来无回之都维度内的生物有几率获得星陨水晶。"
+				""
+				"&e利用扫描器的稀有矿石模块可以扫描出。"
+				""
+				"&c在来无回之都维度的中间层数（Y=128以下）可找到。"
+				""
+				"&6掉率较低，经常挖掘后无掉落。可以用精准采集类挖掘后获得原矿再烧制。可以用法术挖掘（无视挖掘等级）。可兼容高等级的时运。"
+			]
+			id: "32EAE6C2CD0CB85F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C06D578F4A2F703"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4131713577FF659F"
+				item: "infinite_abyss:astarium_crystal"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: [
+				"需挖掘等级5，如紫晶钻石镐等。"
+				""
+				"&e利用扫描器的稀有矿石模块可以扫描出。"
+				""
+				"&6掉率较低，有可能在挖掘后无掉落。可以用精准采集类挖掘后获得原矿再烧制。可兼容高等级的时运。"
+			]
+			id: "74B6007FCB4A5DA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B7E5008D2A16B31"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31A84D6B088D67DE"
+				item: "infinite_abyss:vicerite_crystal"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: ["当巨型尘孢顶起护盾时，只能用[破盾者]去破除护盾才能造成伤害。"]
+			id: "5E75BBDEB1864E24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF9001B98201AFF"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62740020ECED4772"
+				item: "infinite_abyss:enchanted_puffball_heart"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			id: "1BB65CF14E9AF483"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7569ACC21C8662B3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0179650A90F22D22"
+				item: "infinite_abyss:glow_bulb"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			id: "54C806A5084C96EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A88B1426AF62B1F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1161BA4C8E0AE4BB"
+				item: "infinite_abyss:blue_glowing_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0A7A4C907FB39E45"]
+			description: [
+				"击杀消失的天使可在星河贸易站交易获得。"
+				""
+				"&6在异想体祭坛上方放置一个骷髅头颅，然后用钥匙303号右击异想体祭坛，即可召唤异想体303号。"
+			]
+			id: "2D97D6EB0ECCEE45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "606ECDE93D7D3990"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BA7B7B113DFFAD6"
+				item: {
+					Count: 1
+					id: "entity_303:key_303"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0FFBDBB8BFCB34B4"]
+			id: "0A7A4C907FB39E45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E17E3B0ACA7E4F9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77F5BEE380CE33B9"
+				item: "entity_303:altar"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			hide_dependency_lines: true
+			id: "6260CB86B262E02A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05EC208631F68CB0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68D81BAEF2B0D608"
+				item: "born_in_chaos_v1:fel_lamp"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			hide_dependency_lines: true
+			id: "3C95B2E269DEEE50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E12671202E27F58"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3EAD7D1455AD9B92"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2D97D6EB0ECCEE45"]
+			description: [
+				"可在星河贸易站内交易获得镶孔符石。"
+				""
+				"&c在树海化章节有任务可以消耗悲叹之种扫除实体形式的凋灵之首投射物。"
+				""
+				"&6星裂药水也可用各种珍宝材料制作，可JEI搜索“珍宝材料”查看。"
+			]
+			id: "56969BDF4F86D63F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C4F1941970FBA5"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&e可制作星裂3级药水"
+			tasks: [{
+				id: "069A0291F8330EEA"
+				item: "yuusha:dragon_heart"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			hide_dependency_lines: true
+			id: "686BC0C8DDC77E01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26DD17DF0F754391"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D98ECD2344875BF"
+				item: "born_in_chaos_v1:shattered_skull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			id: "2A200F23BEEAF161"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "316114AEC60404CA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07E1A60E4054B3EE"
+				item: "infinite_abyss:yellow_glowing_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"3C43624A849355DC"
+				"0E5CAAA3C7BABFE3"
+			]
+			hide_dependency_lines: true
+			id: "4F3000F087F2DDBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "364CB1E10A5A8047"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56113A6AB4A941D4"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["74B6007FCB4A5DA6"]
+			description: [
+				"效果：按右键或者shift+右键来选择前一个或者后一个战利品表（仅限原版战利品表）。对箱子上方按shift+右键可以随机填入选择的战利品表内的战利品。点击箱子的侧面将会清除箱子内的所有物品。"
+				""
+				"&6可无限制生成地牢战利品箱内的物品。必须对着空气来切换战利品表。"
+			]
+			id: "5E20EC2FF38A1A0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48D6D4606C860C27"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10E74968E8BFD48F"
+				item: "enigmaticlegacy:loot_generator"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["4F3000F087F2DDBB"]
+			id: "4D8CC96BABC40CD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4031A78B9D7E567E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F257E52753B069C"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4592D8EE8193332B"]
+			hide_dependency_lines: false
+			id: "5B53BB5608653B90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40EB01239B122570"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4862C42A11A494CC"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			description: ["用来召唤[小丑皇杰克]。其抗性详见天顶巨兽章节。"]
+			hide_dependency_lines: true
+			id: "26076FCCB475A0EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C8A12C011F64432"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0ED75E2403CF01DD"
+				item: "arcalis_bosses:jack_puppet"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["13A733D2E7713379"]
+			description: ["用来召唤[死骸船长]。详看天顶巨兽章节。"]
+			hide_dependency_lines: true
+			id: "1E9923B1F107A4F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6595499A24CD0AE2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E8FC0514EF27972"
+				item: "arcalis_bosses:cursed_pirate_hat"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["61442303BB47D20C"]
+			description: ["用来召唤[死亡到临者]。其抗性详见天顶巨兽章节。"]
+			id: "60D1B36E6E72A853"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A0162F603289616"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5636EEE80C9F54CB"
+				item: "arcalis_bosses:cursed_robe"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			hide_dependency_lines: true
+			id: "7F2488F0A14FD0E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3748B5C8485F05"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C40120E2E133354"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			hide_dependency_lines: true
+			id: "104363BAD20085C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C099E6DF52BE9A9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EBC81975A812138"
+				item: "cataclysm:dying_ember"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26076FCCB475A0EC"]
+			description: ["击杀[小丑皇杰克]获得。其抗性详见天顶巨兽章节。"]
+			id: "61442303BB47D20C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C82EB4B850751E1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "608782C97E7F4FB0"
+				item: "arcalis_bosses:cursed_cloth_shard"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			id: "058731897341F6B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "378021B308762341"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AD7329FC38B0F64"
+				item: "infinite_abyss:puffball_heart"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["20089F1BC7A2A801"]
+			id: "39CA3934A0046810"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AA0705B3AEF0D34"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AF27D6964977CF1"
+				item: "yuusha:twist_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["20089F1BC7A2A801"]
+			id: "44F5E6DA58CFC0B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28BBDC8F0DAB930C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D77C0CD2B097B7A"
+				item: "yuusha:chaos_charm"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			id: "60E0CA00CB2C1689"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "451FE2303FB9624E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B905F0568672D32"
+				item: "infinite_abyss:green_glowing_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			id: "00DDB7B0A8B90EAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CF7BE4818809C02"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D59330C96C37667"
+				item: "infinite_abyss:flawless_light_blue_crystal"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: [
+				"找到来无回之都的苦寒监牢，击杀里面的各种魂尸可获得。可利用探险家指南针搜索“Frosted Prison”找到苦寒监牢。"
+				""
+				"&6星裂药水也可用各种珍宝材料制作，可JEI搜索“珍宝材料”查看。"
+			]
+			id: "302E3F82147047D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12F5BB05DBAA8E46"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&e可制作星裂2级药水"
+			tasks: [{
+				id: "3BEE2E9FF9EB1786"
+				item: "cataclysm:black_steel_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["0B1806EC033D3E14"]
+			description: ["在来无回之都内击杀咒翼灵骸获得。"]
+			hide_dependency_lines: true
+			id: "1ABC15292F8B372D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "774BD576A061D983"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "780A93A80D5364AB"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["60D1B36E6E72A853"]
+			description: [
+				"手持[深渊遗物]右击[迷离之眼方尖碑]下半部分，会立刻召唤克苏鲁异能者。击杀克苏鲁异能者可获得[异能药剂]。手持异能药剂右击[迷离之眼方尖碑]下半部分累计三次后，就会激活迷离之眼方尖碑，从而召唤[巨型迷离之眼]。"
+				""
+				"&6克苏鲁异能者具有和巨型迷离之眼相似的抗性。"
+			]
+			id: "20089F1BC7A2A801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "702D8C11B61C1B25"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7F5EFD8D99330EE7"
+					item: "cthulhufishing:obelisk_of_gteatest_obsessed_eye"
+					type: "item"
+				}
+				{
+					id: "3A4112E4470A2614"
+					item: "yuusha:chaos_potion"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			description: [
+				"手持虚空液滴右击起之洞穴内的深层岩（不是原版的深板岩），即可将其变成带眼矿石，采掘后有几率召唤出迷离之眼小怪。击杀迷离之眼可获得第三之眼。"
+				""
+				"&6带眼矿石在主世界高度0至-40之间也有小几率生成。"
+			]
+			hide_dependency_lines: true
+			id: "6053CB49161710E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EE493E4C87D91CA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A5109D4DCE22F2A"
+				item: {
+					Count: 1
+					id: "cthulhufishing:third_eye_r"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "第三之眼"
+			x: 6.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2032706ED4F9E7EE"]
+			hide_dependency_lines: true
+			id: "577FFFD9EEFD185A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E75068148EBBDF9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31F905BC0A3A4DBA"
+				item: {
+					Count: 1
+					id: "cthulhufishing:drip_void"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "虚空液滴"
+			x: 6.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["46CCDC4C6DF15DF5"]
+			id: "04FE7C3C11B0E7C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "287F0E5C3F4699E0"
+					table_id: 2805430797220875844L
+					type: "random"
+				}
+				{
+					amount: 100
+					icon: "minecraft:pink_candle"
+					id: "2C21FA993B73357C"
+					skill: "love"
+					title: "&d祈愿等级 +100级"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "&d获得祈愿等级"
+			tasks: [{
+				id: "57D2D127B5C2DA73"
+				item: "yuusha:ice_star"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1FCD42E50657BC23"]
+			description: [
+				"手持虹影渊晶，右击最终极之涡内的奇异藤花，即可从高空处召唤渊兽领主并降落到天花板之上。"
+				""
+				"&6在最终极之涡维度击杀时会额外获得其召唤材料。"
+			]
+			id: "007390C99B80C7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C52506769757EEC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "392F350422E1BA09"
+				item: "yuusha:iridescent_shadow_gem"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["33E5FBF434F18D62"]
+			description: [
+				"手持苍白下界之星，右击最终极之涡维度的奇异藤花，会从高空处召唤渊眼苍龙并降落到天花板之上。"
+				""
+				"&6在最终极之涡维度内击杀时会额外获得其召唤材料。"
+			]
+			id: "13470700619B9084"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C4BC42204BB140"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2017B89EF5E594C4"
+				item: "yuusha:white_star"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["33E5FBF434F18D62"]
+			description: [
+				"手持充满的远古注灵器，右击最终极之涡内的奇异藤花，即可从高空处召唤远古渊兽领主，会降落到天花板之上。"
+				""
+				"&6在最终极之涡维度击杀时会额外获得其召唤材料。"
+			]
+			id: "771E6C27B4F028AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EDD28DCC0263778"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31D6C4A276313FF3"
+				item: "depthcrawler:ancientinjector"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["771E6C27B4F028AA"]
+			id: "5452D129F718DD3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C46BC2440CB38D1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B56C73555BF28A8"
+				item: "depthcrawler:soullessgem"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"5452D129F718DD3C"
+				"33E5FBF434F18D62"
+			]
+			description: ["击杀远古渊兽领主可制作。"]
+			id: "2292756EA271C828"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01F1A99C5F99E0F9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48F37F36A62FF873"
+				item: "yuusha:unstable_otherside_core"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["0869E8F8C6F10754"]
+			description: ["击杀消失的天使本源圣体可获得。"]
+			id: "0FFBDBB8BFCB34B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F7590ED7872DC9C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B1B2B23F312D733"
+				item: "angelcraft_bosses:recompensa_boss"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1E9923B1F107A4F8"]
+			id: "6685AF545531C8D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A7361B907B1476"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73C4AB7FB212A6D1"
+				item: "enigmaticlegacy:soul_dust"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			id: "622BB73EDAE98388"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EDADB6D792F538A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07087FFF1E7E300D"
+				item: "stalwart_dungeons:blaze_armor_scrap"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["4D8CC96BABC40CD1"]
+			description: [
+				"击杀焰魔后可制作获得。可在切石机中制作星裂1级的喷溅型药水。"
+				""
+				"&6星裂药水也可用各种珍宝材料制作，可JEI搜索“珍宝材料”查看。"
+			]
+			id: "674EB53CC8813AD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633D4E6F00D9042E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&e可制作星裂1级药水"
+			tasks: [{
+				id: "4891F4AFD3A860F7"
+				item: "yuusha:chaos_doll"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["33E5FBF434F18D62"]
+			hide_dependency_lines: true
+			id: "0869E8F8C6F10754"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E51905CC02488A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6044809008CD6282"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["678EC116E5DD6051"]
+			id: "4A4B4EB53FC2A69B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16FC2B877CE46C6B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12543346EF4B2E7C"
+				item: "infinite_abyss:enhancing_table"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["1ABC15292F8B372D"]
+			id: "1E3F94DD3F20AA52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "389A7BA89DF2754F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "670DBB07C286B10D"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["32EAE6C2CD0CB85F"]
+			id: "511B632AEE97A5AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49C030137B80CB7C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3487199D5A71B12A"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["007390C99B80C7CF"]
+			id: "17040BC837FF2766"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F5315D07C0BEE88"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F6986704EDD3C8B"
+				item: "depthcrawler:corruptingot"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["33E5FBF434F18D62"]
+			hide_dependency_lines: true
+			id: "476D8CBA80808BDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11CC893A6520A16E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25D571BBB5323C15"
+				item: "yuusha:calamity_ingot"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["1ABC15292F8B372D"]
+			description: [
+				"在下界要塞使用炽烈号角即可召唤凋零死灵巫师。"
+				""
+				"&6可利用暗黑下界之星简单复制制作。"
+			]
+			id: "3D33A6DE99A07091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EB67559C9AB0C56"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "466049E689112209"
+				item: "goety:blazing_horn"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3D33A6DE99A07091"]
+			description: ["在下界要塞使用炽烈号角即可召唤凋零死灵巫师。"]
+			id: "0C7D65C3189E23E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F6872D3160E6242"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "593F01B480289FD2"
+				item: "goety:withered_manuscript"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0E5CAAA3C7BABFE3"]
+			hide_dependency_lines: true
+			id: "4592D8EE8193332B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17AA7E96A480D283"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "51674DD29B87ACC3"
+				item: "yuusha:destructed_hope"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.5d
+		}
+	]
+	subtitle: ["&9『秘境洞穴』"]
+	title: "&6※ 极尽深渊"
+}

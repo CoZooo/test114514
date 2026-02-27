@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "BSR",
+    " G "
+  ],
+  "key": {
+    "R": {
+      "item": "endrem:undead_soul"
+    },
+    "G": {
+      "item": "reliquary:void_tear"
+    },
+    "B": {
+      "item": "cataclysm:abyssal_egg"
+    },
+    "M": {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    },
+    "S": {
+      "item": "endrem:old_eye"
+    }
+  },
+  "result": {
+    "item": "endrem:undead_eye"
+  }
+}

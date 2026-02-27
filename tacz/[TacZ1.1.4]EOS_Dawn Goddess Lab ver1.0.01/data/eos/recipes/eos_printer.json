@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_c",
+    "nbt": {
+      "BlockId": "eos:eos_printer"
+    }
+  },
+  "pattern": [
+      "AEA",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "locusazzurro_icaruswings:reforged_netherite_ingot"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "refinedstorage:machine_casing"
+      },
+      "E": {
+        "item": "forbidden_arcanus:divine_pact"
+      }
+    }
+    }
+}

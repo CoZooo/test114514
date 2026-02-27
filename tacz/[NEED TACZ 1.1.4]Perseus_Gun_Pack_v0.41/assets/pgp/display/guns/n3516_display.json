@@ -1,0 +1,78 @@
+{
+  "model": "pgp:gun/n3516_geo",
+  "texture": "pgp:gun/uv/n3516",
+  "lod": {
+    "model": "pgp:gun/lod/n3516",
+    "texture": "pgp:gun/lod/n3516"
+  },
+  "hud": "pgp:gun/hud/n3516_hud",
+  "slot": "pgp:gun/slot/n3516",
+  "damage_style": "total",
+  "animation": "pgp:n3516",
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "pgp:flash/green_muzzleflash",
+    "scale": 3
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "pgp:n3516/n3516_shoot",
+    "shoot_3p": "pgp:n3516/n3516_shoot_3p",
+    "silence": "pgp:n3516/n3516_silence",
+    "silence_3p": "pgp:n3516/n3516_silence_3p",
+    "reload_empty": "pgp:n3516/n3516_reload_empty",
+    "reload_tactical": "pgp:n3516/n3516_reload_tactical",
+    "inspect": "pgp:n3516/n3516_inspect",
+    "inspect_empty": "pgp:n3516/n3516_inspect",
+    "draw": "pgp:n3516/n3516_draw",
+    "put_away": "pgp:n3516/n3516_put_away",
+    "melee_push": "tacz:melee_stock/melee_stock_01",
+    "melee_stock": "tacz:melee_stock/melee_stock_02",
+    "dry_fire": "pgp:n3516/n3516_dry_fire",
+    "bolt": "pgp:n3516/n3516_bolt"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "text_show": {
+    // 定位组名，与模型中的组名对应。
+    "ammo_count_text_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#ffffff",
+      // 亮度：1-15
+      "light": 15,
+      // 支持在语言文件中定义，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": {"alchemy": 100},
+    "INTERACT": {"alchemy": 100}
+  }
+}

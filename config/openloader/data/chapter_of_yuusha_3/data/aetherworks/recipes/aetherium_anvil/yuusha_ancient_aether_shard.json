@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 4,
+  "emberPerHit": 60,
+  "input": {
+    "item": "yuusha:strange_crystal"
+  },
+  "numberOfHits": 15,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 8,
+      "item": "yuusha:ancient_aether_shard"
+    }
+  ],
+  "temperatureMax": 2900,
+  "temperatureMin": 2100
+}

@@ -1,0 +1,25 @@
+{
+  "enchantments": [
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:ice_aspect"
+    }
+  ],
+  "name": "slashblade_addon:frost_wolf",
+  "properties": {
+    "attack_base": 27.0,
+    "max_damage": 54,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/frostwolf/frost_wolf.obj",
+	"summon_sword_color": 9492460,
+    "texture": "slashblade_addon:model/frostwolf/frost_wolf.png"
+  }
+}

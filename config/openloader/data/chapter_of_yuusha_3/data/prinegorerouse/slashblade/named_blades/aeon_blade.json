@@ -1,0 +1,19 @@
+{
+  "name": "prinegorerouse:aeon_blade",
+  "properties": {
+    "attack_base": 100.0,
+    "slash_art": "prinegorerouse:over_the_horizon",
+    "special_effects": [
+      "prinegorerouse:eternity"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/aeon/aeon.obj",
+    "summon_sword_color": 25518515,
+    "texture": "prinegorerouse:model/named/custom/aeon/aeon.png"
+  }
+}

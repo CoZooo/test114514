@@ -1,0 +1,241 @@
+[
+	{
+		"mob": ["born_in_chaos_v1:dark_vortex", "born_in_chaos_v1:supreme_bonescaller", "born_in_chaos_v1:bonescaller", "born_in_chaos_v1:nightmare_stalker", "born_in_chaos_v1:seared_spirit", "born_in_chaos_v1:barrel_zombie", "born_in_chaos_v1:fallen_chaos_knight", "born_in_chaos_v1:dire_hound_leader", "born_in_chaos_v1:zombie_clown", "born_in_chaos_v1:phantom_creeper", "born_in_chaos_v1:sir_pumpkinhead", "born_in_chaos_v1:spirit_guide", "born_in_chaos_v1:missioner", "born_in_chaos_v1:spiritof_chaos", "born_in_chaos_v1:lifestealer", "born_in_chaos_v1:bloody_gadfly", "hmag:slime_girl"],
+		"amount": {
+			"minimum": 2,
+			"maximum": 3
+		},
+		"attempts": 2,
+		"conditions": {
+			"dimension": "infinite_abyss:first_layer",
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 127,
+			"maxhostile": 50
+		}
+	},
+	{
+		"mob": ["cataclysm:ignited_revenant", "cataclysm:ignited_berserker", "stalwart_dungeons:reinforced_blaze"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "infinite_abyss:second_layer",
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 127,
+			"maxthis": 5
+		}
+	},
+	{
+		"mob": ["youkaishomecoming:rumia", "youkaishomecoming:shrine_maiden", "youkaishomecoming:cirno", "youkaishomecoming:yukari", "youkaishomecoming:kochiya_sanae", "youkaishomecoming:kirisame_marisa", "youkaishomecoming:komeiji_koishi", "youkaishomecoming:remilia_scarlet", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:eternity_larva", "youkaishomecoming:clownpiece", "youkaishomecoming:small_fairy"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "faded_conquest_2:the_mirror_realm",
+			"mindist": 24,
+			"maxdist": 80,
+			"minheight": 32,
+			"maxheight": 127,
+			"maxtotal": 4
+		}
+	},
+	{
+		"mob": ["infinite_abyss:fire_vortex"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "infinite_abyss:second_layer",
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 127,
+			"maxthis": 6
+		}
+	},
+	{
+		"mob": ["depthcrawler:deep", "depthcrawler:electricdeep", "depthcrawler:reddeep", "depthcrawler:nightmaredeep", "depthcrawler:deepling", "depthcrawler:cavedeep", "depthcrawler:pinkdeep", "depthcrawler:oceanicdeep"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "infinite_abyss:seventh_layer",
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 127,
+			"maxthis": 4
+		}
+	},
+	{
+		"mob": ["stalwart_dungeons:propulk"],
+		"amount": {
+			"minimum": 2,
+			"maximum": 4
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:the_end",
+			"mindist": 24,
+			"maxdist": 80,
+			"maxthis": 20
+		}
+	},
+	{
+		"mob": ["goety:grave_golem", "goety:redstone_golem"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 4,
+		"conditions": {
+			"dimension": "distant_worlds:garhenna",
+			"minheight": 360,
+			"maxheight": 512,
+			"norestrictions": true,
+			"mindist": 16,
+			"maxdist": 128,
+			"maxthis": 20
+		}
+	},
+	{
+		"mob": ["eeeabsmobs:immortal"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 2,
+		"conditions": {
+			"dimension": "chapter_of_yuusha_3_core:eternal_day_flat_dimension",
+			"maxheight": 256,
+			"minheight": 1,
+			"mindist": 16,
+			"maxdist": 64,
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": ["stalwart_dungeons:giddy_blaze", "stalwart_dungeons:incomplete_wither"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:the_nether",
+			"maxheight": 120,
+			"minheight": 1,
+			"mindist": 16,
+			"maxdist": 64,
+			"maxthis": 16
+		}
+	},
+	{
+		"mob": ["goety:wight"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1.0,
+		"conditions": {
+			"dimension": "callfromthedepth_:depth",
+			"norestrictions": true,
+			"mindist": 16,
+			"maxdist": 32,
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": ["realmrpg_demons:chort", "realmrpg_demons:imp", "realmrpg_demons:imp_guard", "realmrpg_demons:demon", "realmrpg_demons:demon_lord", "realmrpg_demons:ancient_demon_lord"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "distant_worlds:garhenna",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"maxthis": 8
+		}
+	},
+	{
+		"mob": ["aether:aerwhale"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "faded_conquest_2:the_mirror_realm",
+			"mindist": 32,
+			"maxdist": 80,
+			"maxheight": 128,
+			"minheight": 48,
+			"maxthis": 2
+		}
+	},
+	{
+		"mob": ["aquamirae:anglerfish"],
+		"amount": {
+			"minimum": 2,
+			"maximum": 4
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 80,
+			"maxheight": 63,
+			"minheight": 1,
+			"inwater": true,
+			"maxthis": 8
+		}
+	},
+	{
+		"mob": ["aquamirae:maze_mother"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 80,
+			"maxheight": 63,
+			"minheight": 1,
+			"inwater": true,
+			"maxthis": 2
+		}
+	},
+	{
+		"mob": ["aquamirae:eel"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 80,
+			"inwater": false,
+			"minheight": 63,
+			"maxthis": 2
+		}
+	}
+]

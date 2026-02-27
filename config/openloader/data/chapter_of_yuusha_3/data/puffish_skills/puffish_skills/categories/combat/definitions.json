@@ -1,0 +1,202 @@
+{
+	"root_health+2": {
+		"title": "+1% 生命值",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dzjhwf4qggiw1w4k"
+		}
+	},
+	"root_resistance+1%": {
+		"title": "+1% 抗性",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "p0bll6urci4jeqds"
+		}
+	},
+	"root_melee_damage+3%": {
+		"title": "+3% 近战伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6nw21g4674h0rhgt"
+		}
+	},
+	"root_ranged_damage+3%": {
+		"title": "+3% 箭术伤害",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jc4pl563gcwkza7w"
+		}
+	},
+	"health+2": {
+		"title": "+1% 生命值",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cqrzzaqwp36jnpog"
+		}
+	},
+	"resistance+1%": {
+		"title": "+1% 抗性",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "resistance"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "msd9nzonl5qahvbz"
+		}
+	},
+	"melee_damage+3%": {
+		"title": "+3% 近战伤害",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "00h9757sywug5r3t"
+		}
+	},
+	"ranged_damage+3%": {
+		"title": "+3% 箭术伤害",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "smfit6t1fdiporue"
+		}
+	}
+}

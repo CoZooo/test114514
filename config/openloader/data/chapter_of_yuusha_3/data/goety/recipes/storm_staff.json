@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_wand"
+  },
+  "craftType": "storm",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:magic_fabric"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "goety:magic_fabric"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "eidolon:withered_heart"
+    },
+    {
+      "item": "irons_spellbooks:energized_core"
+    }
+  ],
+  "result": {
+    "item": "goety:storm_staff"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:nihil",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo",
+      "request": {
+        "proud_soul": 1000
+      }
+    },
+    "S": {
+      "item": "immortalers_delight:kwat_wheat_block"
+    },
+    "I": {
+      "item": "slashblade:proudsoul_sphere"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IBI",
+    "SIS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

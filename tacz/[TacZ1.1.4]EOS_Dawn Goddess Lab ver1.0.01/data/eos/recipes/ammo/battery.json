@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "irons_spellbooks:energized_core"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "refinedstorage:construction_core"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "refinedstorage:1k_storage_part"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "eos:battery",
+    "count": 2
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

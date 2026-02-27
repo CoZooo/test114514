@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "stalwart_dungeons:nether_keeper",
+    "minecraft:warden",
+    "minecraft:elder_guardian",
+    "theinkarena:blot",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:obsidilith",
+    "bosses_of_mass_destruction:gauntlet",
+    "meetyourfight:swampjaw",
+    "meetyourfight:bellringer",
+    "meetyourfight:dame_fortuna",
+    "meetyourfight:rosalyne",
+    "mutantmonsters:mutant_zombie",
+    "mutantmonsters:mutant_creeper",
+    "mutantmonsters:mutant_skeleton",
+    "mutantmonsters:mutant_enderman"
+  ]
+}

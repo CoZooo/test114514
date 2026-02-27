@@ -1,0 +1,37 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "attributeslib:sundering",
+	"target": "BLOCK_ATTACKER",
+	"values": {
+		"epic": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 0
+		},
+		"mythic": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 1,
+			"cooldown": 0
+		},
+		"ancient": {
+			"duration": {
+				"min": 120,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 2,
+			"cooldown": 0
+		}
+	},
+	"types": [
+		"shield"
+	]
+}

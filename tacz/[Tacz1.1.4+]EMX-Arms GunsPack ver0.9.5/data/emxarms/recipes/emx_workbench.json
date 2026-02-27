@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "emxarms:emx_workbench"
+    }
+  },
+  "pattern": [
+      "AEA",
+      "BCB",
+      "BDB"
+    ],
+    "key": {
+      "A": {
+        "item": "embers:archaic_circuit"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "E": {
+        "item": "born_in_chaos_v1:dark_metal_ingot"
+      }
+    }
+}

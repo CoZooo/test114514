@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:hercules",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:divine_pact"
+    },
+    {
+      "item": "aquamirae:golden_moth_in_a_jar"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "aquamirae:golden_moth_in_a_jar"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "aquamirae:golden_moth_in_a_jar"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "aquamirae:golden_moth_in_a_jar"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SAA",
+        " EA",
+        "E F"
+    
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:slime_ball"
+        },
+        "A":
+        {
+            "item": "malum:hallowed_gold_ingot"
+        },
+        "F":
+        {
+            "tag": "locusazzurro_icaruswings:colored_feathers"
+        },
+        "E":
+        {
+            "item": "forbidden_arcanus:edelwood_stick"
+        }
+    },
+    "result": {
+        "item": "forbidden_arcanus:slimec_pickaxe",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "minecraft:silk_touch",
+                    "lvl": 1
+                }
+            ]
+        }
+    }
+}

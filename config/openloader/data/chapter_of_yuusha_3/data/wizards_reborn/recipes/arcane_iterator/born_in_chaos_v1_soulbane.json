@@ -1,0 +1,43 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "born_in_chaos_v1:soulbane",
+    "count": 1
+  },
+  "wissen": 10000,
+  "ingredients": [
+    {
+      "item": "aquamirae:poisoned_blade"
+    },
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    {
+      "item": "nameless_trinkets:unknown_fragment"
+    },
+    {
+      "item": "cataclysm:flame_eye"
+    },
+    {
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "cataclysm:cursium_ingot"
+    },
+    {
+      "item": "cataclysm:flame_eye"
+    },
+    {
+      "item": "nameless_trinkets:unknown_fragment"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    }
+  ]
+}

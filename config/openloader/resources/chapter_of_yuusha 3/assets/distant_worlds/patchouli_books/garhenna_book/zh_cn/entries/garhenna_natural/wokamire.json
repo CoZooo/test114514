@@ -1,0 +1,19 @@
+{
+	"name": "沃卡米尔",
+	"icon": "distant_worlds:wokamire",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 9,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wokamire",
+			"link_recipe": "true",
+			"text": "沃卡米尔--你经常可以在死亡山谷生物群系中找到这些高大的竹子状植物。在熔炉里烘干生的沃卡米尔会产生类似皮革的材料。"
+		},
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:raw_wokamire"
+		}
+	]
+}

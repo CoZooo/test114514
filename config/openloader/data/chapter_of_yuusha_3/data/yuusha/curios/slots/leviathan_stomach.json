@@ -1,0 +1,10 @@
+{
+  "add_cosmetic": false,
+  "icon": "yuusha:slot/leviathan_stomach",
+  "operation": "SET",
+  "order": 82,
+  "render_toggle": true,
+  "replace": false,
+  "size": 2,
+  "use_native_gui": true
+}

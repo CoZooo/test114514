@@ -1,0 +1,6 @@
+{
+  "xp_values": {
+    "DEATH": {"farming":50000, "cooking":50000}
+  },
+  "override": true
+}

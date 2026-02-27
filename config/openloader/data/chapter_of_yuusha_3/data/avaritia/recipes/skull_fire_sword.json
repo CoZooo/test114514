@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "forbidden_arcanus:reinforced_deorum_sword"
+  },
+  "addition": {
+    "item": "yuusha:unstable_glowstone_part"
+  },
+  "result": {
+    "item": "avaritia:skull_fire_sword"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 1,
+  "emberPerHit": 10,
+  "input": {
+    "item": "aetherworks:geode_magical"
+  },
+  "numberOfHits": 1,
+  "result": [
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "aether:ambrosium_shard"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "aether:zanite_gemstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "deep_aether:skyjade"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "aether_redux:raw_veridium"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "aether_redux:raw_gravitite"
+    },
+    {
+      "chance": 10.0,
+      "count": 4,
+      "item": "forbidden_arcanus:rune"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "aether_redux:raw_valkyrum"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "forbidden_arcanus:dark_rune"
+    }
+  ],
+  "temperatureMax": 2100,
+  "temperatureMin": 700
+}

@@ -1,0 +1,94 @@
+
+[misc]
+	#Ignore the nearby grass when attacking
+	grassPiercingAttack = false
+	#Enable sword holding block
+	canUseSwordBlock = false
+	#When an arrow hits a non-player mob, it also makes a hit sound
+	arrowHitMobSound = true
+	#Whether to allow vanilla crit
+	canVanillaCritical = true
+
+[enchantments_and_effects]
+	#Sharp enchantment damage bonus as percentage bonus
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 10.0
+	sharpnessEnchantmentBonus = 0.01
+	#Smite-like enchantment damage bonus as percentage bonus
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 10.0
+	killerEnchantmentTweak = 0.02
+	#Strength effect damage bonus per level
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 10.0
+	strengthEffectDamageBonus = -1
+	#Multiplicative stacking factor for Resistance Effect
+	#newDamage = incomingDamage * factor ^ level
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 10.0
+	resistanceEffectTweak = -1
+	#Multiplicative stacking factor for Protection-like Enchantments
+	#newDamage = incomingDamage * factor ^ totalPoints
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	protectionEnchantmentTweak = -1
+
+[max_health_based_scaling]
+	#All damage scaling applies to player only
+	scalingToPlayerOnly = true
+	#Fire type damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	fireTypeDamageTweak = 0.1
+	#Frozen type damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	frozenTypeDamageTweak = 0.25
+	#Starvation damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	playerHungryDamageTweak = 0.25
+	#Suffocation and Cramming damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	entityCrammingDamageTweak = 0.25
+	#Drowning damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	entityDrownDamageTweak = 0.25
+	#Fall damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	entityFallDamageTweak = 0.25
+	#Poison damage scales with current health
+	#newDamage = oldDamage * max(1, factor * health)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	poisonEffectDamageTweak = 0.25
+	#Wither effect damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	witherEffectDamageTweak = 0.25
+	#Thorn damage scales with max health
+	#newDamage = oldDamage * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	thornsEnchantmentTweak = -1
+	#Regeneration effect scales with max health
+	#newHealing = oldHealing * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	regenerationEffectTweak = -1
+	#Natural healing scales with max health
+	#newHealing = oldHealing * max(1, factor * maxHealth)
+	#A value of -1 disables this function
+	#Range: -1.0 ~ 1.0
+	fullFoodLevelHealTweak = -1
+

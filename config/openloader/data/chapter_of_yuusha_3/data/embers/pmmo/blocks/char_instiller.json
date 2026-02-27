@@ -1,0 +1,6 @@
+{
+	"requirements":{
+		"INTERACT": {"cooking": 5},
+		"PLACE": {"cooking": 5}
+	}
+}

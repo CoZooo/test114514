@@ -1,0 +1,10 @@
+{
+  "message.deathcounter.deathAndRank": "§5轮回次数: §c%s §5位列: §c%s",
+  "message.deathcounter.death": "§5你已经轮回 §c%s §5次。",
+  "message.deathcounter.rank": "§5当前世界线你位列第§c%s。",
+  "commands.deathcounter.resetAll": "[轮回计数器]重置所有玩家的轮回次数。",
+  "commands.deathcounter.resetPlayer": "[轮回计数器]重置玩家%s的轮回次数。",
+  "commands.deathcounter.noDeathsPlayer": "[轮回计数器]%s未尝轮回之苦。",
+  "commands.deathcounter.noDeaths": "绝望还没有留意过此世界线。",
+  "commands.deathcounter.leaderboard": "§e轮回观测者:"
+}

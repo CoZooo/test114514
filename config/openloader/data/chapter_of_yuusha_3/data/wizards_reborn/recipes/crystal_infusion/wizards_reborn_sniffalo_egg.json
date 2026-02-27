@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "wizards_reborn:sniffalo_egg",
+    "count": 1
+  },
+  "light": 550,
+  "ingredients": [
+    {
+      "item": "cataclysm:abyssal_egg"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "item": "minecraft:pitcher_plant"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    },
+    {
+      "tag": "minecraft:decorated_pot_sherds"
+    }
+  ]
+}

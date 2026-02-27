@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WDW",
+    "MRM",
+	"WSW"
+  ],
+  "key": {
+    "M": {
+      "item": "locusazzurro_icaruswings:magma_ingot"
+    },
+    "R": {
+      "item": "locusazzurro_icaruswings:fallen_relic_offensive"
+    },
+    "W": {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    "D": {
+      "item": "locusazzurro_icaruswings:daedalus_decryptor"
+    },
+    "S": {
+      "item": "cataclysm:witherite_block"
+    }
+  },
+  "result": {
+    "item": "locusazzurro_icaruswings:restored_fallen_relic_offensive",
+    "count": 4
+  }
+}

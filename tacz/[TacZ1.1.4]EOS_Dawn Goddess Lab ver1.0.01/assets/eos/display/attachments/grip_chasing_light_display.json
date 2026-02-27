@@ -1,0 +1,11 @@
+{
+  "slot": "eos:attachment/slot/grip_chasing_light",
+  // 配件的默认模型，不可为空
+  "model": "eos:attachment/grip_chasing_light_geo",
+  // 配件默认模型使用的材质，不可为空
+  "texture": "eos:gun/uv/chasing_light",
+  "sounds": {
+    "install": "tacz:attachments/attachment_general_b",
+    "uninstall": "tacz:attachments/attachment_general_uninstall"
+  }
+}

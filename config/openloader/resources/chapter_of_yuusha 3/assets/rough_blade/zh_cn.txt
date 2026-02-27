@@ -1,0 +1,69 @@
+{
+  "message.rough_blade.slash_arts_no_power": "§e能量不足 %s§e 无法释放 %s",
+  "message.rough_blade.sprint_no_power": "§e能量不足 %s§e 无法位移",
+  "message.rough_blade.sprint_no_stamina": "§e精力不足 %s§e 无法位移",
+
+  "message.rough_blade.sword_broken": "你的刀已损坏",
+
+  "skill.rough_blade.guard": "格挡",
+  "skill.rough_blade.guard_space": "格挡·空中",
+
+  "message.rough_blade.hide_model": "当前模型隐藏模式 %s",
+
+  "slash_art.rough_blade.zj": "§4真我刀界",
+  "slash_art.rough_blade.super_sword": "§a天穹坠星",
+  "slash_art.rough_blade.rsa": "§6囫§a囵",
+  "slash_art.rough_blade.break_sky": "§4剑陨九天",
+  "slash_art.rough_blade.fzu": "§a天§8空§5陨§6落",
+  "slash_art.rough_blade.full_fire": "§c星火§6燃烧",
+
+  "se.rough_blade.star_fire": "§c星火 X",
+  "se.rough_blade.ming_li": "§4命§6定§7之§8理",
+
+  "key.rough_blade.hide_model": "隐藏拔刀剑模型",
+  "key.rough_blade.guard": "格挡",
+  "adv.slashblade.shooting": "发射幻影剑",
+
+  "slash_art.zj": "斩破虚妄，真我无惧！",
+  "slash_art.zj_x": "剑指苍穹，心证真我！",
+  "slash_art.break_sky": "破灭！剑陨九天",
+  "slash_art.super_sword": "星辰陨落，天地共鸣！",
+  "slash_art.full_fire": "烈火焚尽，星火燃破！",
+  "slash_art.fzz": "剑雨！落！",
+  "slash_art.zhenli": "命运与真理交织之时茧——命理。即映吾之道途，命轮回转，得见真解。道纹重叠溯理，回应烂柯之过往，驰向终焉之境。",
+  "slash_art.fzu": "「以太之海沸腾，苍穹枷锁解缚。星辰之泪终将洗净蝼蚁的傲慢。」",
+  "slash_art.fzu1": "「以永劫回廊之名，剥夺汝等仰望的权利。此乃天穹的哀嚎，此乃世界的疝痕。」",
+  "slash_art.fzu2": "「坠落吧（Caelum Fractura Tonitrus）！超位阶魔法·天空坠落——！」",
+
+  "effect.rough_blade.guard_effect": "格挡",
+  "effect.rough_blade.ming_li_effect": "§4命理",
+  "effect.rough_blade.zhen_li_effect": "§e真理",
+  "effect.rough_blade.guard_effect_suc": "成功格挡",
+
+  "item.rough_blade.liu_ying": "§a萤",
+  "item.rough_blade.ming_li": "§4§n命•理",
+
+  "item.rough_blade.shine_core": "§a闪§6耀§3核§c心",
+  "item.rough_blade.shine_fire": "§4闪耀之火",
+
+  "enchantment.level.17": "「§4终焉级§r」",
+
+  "tooltip.rough_blade.recall": "§a虹",
+  "tooltip.rough_blade.shine_fire": "§7闪耀着来自虚无那一侧的希冀",
+  "tooltip.rough_blade.shine_core": "§7虹刀觉醒之物,拥有磅礴的能量",
+  "tooltip.rough_blade.shine_core.1": "§7承载刀魂: ",
+  "tooltip.rough_blade.empty" : "空",
+  "tooltip.rough_blade.shine_art.rough_blade:shine_dash_art": "§6觉醒 「§a破晓之荧」",
+  "tooltip.rough_blade.mingli": "§4你无法窥视命运",
+
+  "itemGroup.rough_blade_tab": "§6无锋道",
+
+  "key.categories.rough_blade": "无锋道",
+  "key.rough_blade.skill_1": "释放一技能",
+  "key.rough_blade.skill_2": "释放二技能",
+  "key.rough_blade.skill_3": "释放三技能",
+  "key.rough_blade.skill_4": "释放四技能"
+
+
+
+}

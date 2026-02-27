@@ -1,0 +1,27 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "irons_spellbooks:netherite_mage_boots",
+    "count": 1
+  },
+  "output": {
+    "item": "irons_spellbooks:priest_boots",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "irons_spellbooks:holy_rune",
+      "count": 1
+    },
+    {
+      "item": "call_of_drowner:coral_smithing_template",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    }
+  ]
+}

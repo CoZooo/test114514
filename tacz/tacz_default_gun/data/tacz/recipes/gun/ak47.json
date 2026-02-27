@@ -1,0 +1,36 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 31
+    },
+    {
+      "item": {
+        "item": "rustic_engineer:solarite_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "mutantmonsters:endersoul_hand"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:ak47",
+    "attachments": {
+      "stock": "tacz:oem_stock_tactical"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

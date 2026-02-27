@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "magic",
+  "soulCost": 200,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "avaritia:neutron_ingot"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "item": "reliquary:salamander_eye"
+    }
+  ],
+  "result": {
+    "item": "goety:philosophers_stone"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "stalwart_dungeons:void_crystal"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "stalwart_dungeons:void_crystal"
+}

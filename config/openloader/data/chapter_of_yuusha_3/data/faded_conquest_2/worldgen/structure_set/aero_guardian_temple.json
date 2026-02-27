@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "faded_conquest_2:aero_guardian_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 30,
+    "salt": 2025122166
+  }
+}

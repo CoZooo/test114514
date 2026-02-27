@@ -1,0 +1,32 @@
+{
+	"name": "琍斯石熔炉",
+	"icon": "distant_worlds:lithum_furnace",
+	"category": "distant_worlds:lithum_altar",
+	"sortnum": 3,
+	"advancement": "distant_worlds:inner_spark",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "在琍斯石熔炉中，由于与曲雷琍矿的燃烧发生特殊反应，可以积累达琍特能量。在琍斯石祭坛的所有材料中，都使用了相同名称的石头，因为它具有相当稳定的特性，并且最不容易受到大量达琍特能量堆积的强烈影响。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:lithum_furnace_recipe",
+			"text": "另一方面，由于达琍特矿石在其自然环境——熔融山脉中的堆积，法尔琍石的遏制性能相当弱。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:lithum_furnace",
+			"text": "在琍斯石熔炉中使用燃料后，你会看到火焰，这是一个显示剩余燃料水平的指示器。如果未满，达琍特能量可以立即转移到连接的琍斯石存储器。",
+			"link_recipe": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:lithum_altar/modules",
+				"distant_worlds:garhenna_materials/curelite",
+				"distant_worlds:garhenna_materials/dalite"
+			]
+		}
+	]
+}

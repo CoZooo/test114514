@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot",
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "mutantmonsters:endersoul_hand",
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "simplyswords:diamond_katana"
+      },
+      "count": 15
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxcust:rd704_murusama"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

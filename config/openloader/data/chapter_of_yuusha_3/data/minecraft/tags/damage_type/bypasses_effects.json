@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "enigmaticaddons:evil_curse",
+    "enigmaticaddons:false_justice",
+    "minecraft:starve",
+    "goety:doom",
+    "avaritia:infinity"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "minecraft:ender_eye"
+  },
+  "output": {
+    "item": "mowzies_cataclysm:frostmaw_eye",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "aqueous"
+    }
+  ]
+}

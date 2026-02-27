@@ -1,0 +1,56 @@
+{
+	"name": "菲隆工具",
+	"icon": "distant_worlds:firon_sword",
+	"category": "distant_worlds:garhenna_tools",
+	"sortnum": 1,
+	"advancement": "distant_worlds:incandescent_forever",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "破坏方块时，潜行会熔化它，并根据时运附魔增加获得的材料数量。这个工具在这个过程中会失去一些耐久。一旦击中，它们就能点燃可燃生物。$(br)菲隆剑，有足够的耐久，可以消耗一些耐久并向你挥动的方向发起火焰冲锋，之后需要一段时间才能再次使用此技能。菲隆多功能工具将所有菲隆工具与其能力相结合，能够使用一系列火力。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_sword",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金剑$(o) [Main]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_pickaxe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金镐$(o) [Main]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_axe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金斧$(o) [Main]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_shovel",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金锹$(o) [Main]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_hoe",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)下界合金锄$(o) [Main]$()$(li)菲隆锭 $(o)[x4]$()$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:firon_multitool",
+			"text": "可以在琍斯石祭坛上制作，使用 $(#ea7f17)$(l)200 000 DE$() 和以下物品：$(li)菲隆锭$(o) [Main]$()$(li)Firon Sword$(li)Firon Pickaxe$(li)Firon Axe$(li)Firon Shovel$(li)Firon Hoe$(br2)完整仪式后的恢复： $(#992032)$(l)2000 DRP$()",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_materials/firon",
+				"distant_worlds:lithum_altar/preparing_for_rituals"
+			]
+		}
+	]
+}

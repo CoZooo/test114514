@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.grip_chasing_light.name",
+  "display": "eos:grip_chasing_light_display",
+  "data": "eos:grip_chasing_light_data",
+  "type": "grip",
+  "sort": 256
+}

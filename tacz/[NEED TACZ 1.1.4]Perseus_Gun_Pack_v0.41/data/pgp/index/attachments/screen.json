@@ -1,0 +1,6 @@
+{
+  "name": "pgp.attachment.screen.name",
+  "display": "pgp:screen_display",
+  "data": "pgp:screen_data",
+  "type": "stock"
+}

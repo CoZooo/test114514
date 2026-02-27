@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "name": "slashblade:koseki",
+  "properties": {
+    "attack_base": 48.0,
+    "max_damage": 96,
+    "slash_art": "slashblade:judgement_cut",
+    "special_effects": [
+      "slashblade:wither_edge"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "ninja",
+    "model": "slashblade:model/named/dios/dios.obj",
+    "summon_sword_color": 8865823,
+    "texture": "slashblade:model/named/dios/koseki.png"
+  }
+}

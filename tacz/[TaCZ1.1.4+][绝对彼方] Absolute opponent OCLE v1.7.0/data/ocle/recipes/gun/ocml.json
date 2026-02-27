@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 64
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "depthcrawler:soullessgem"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "depthcrawler:blockof_ancient_mechanism"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ocle:ocml"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

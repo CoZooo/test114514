@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "aether_redux:gravitite_ingot"
+  },
+  "result": {
+    "item": "aether:gravitite_leggings"
+  },
+  "template": {
+    "item": "cthulhufishing:relic"
+  }
+}

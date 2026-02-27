@@ -1,0 +1,91 @@
+{
+    "model": "emxcust:gun/rd704_murusama_geo",
+    "texture": "emxcust:gun/uv/rd704_murusama",
+    "lod": {
+        "model": "emxcust:gun/lod/rd704_murusama",
+        "texture": "emxcust:gun/lod/rd704_murusama"
+    },
+    "hud": "emxcust:gun/hud/rd704_murusama",
+    "slot": "emxcust:gun/slot/rd704_murusama",
+    "animation": "emxcust:rd704",
+    "use_default_animation": "rifle",
+    "third_person_animation": "default",
+    "transform": {
+        "scale": {
+            "thirdperson": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "ground": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "fixed": [
+                1.2,
+                1.2,
+                1.2
+            ]
+        }
+    },
+    "shell": {
+        "initial_velocity": [5, 2, 1],
+        "random_velocity": [1, 1, 0.25],
+        "acceleration": [0.0, -10, 0.0],
+        "angular_velocity": [360, -1200, 90],
+        "living_time": 1.0
+      },
+    "iron_zoom": 1.2,
+    "muzzle_flash": {
+        "texture": "emxcust:flash/emx_muzzle_flash_cy",
+        "scale": 1
+    },
+  "text_show": {
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.25,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#d8eba0",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    },
+    // 作用的组名，该组的旋转点决定文本的位置和朝向
+    "ammo_text2": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.25,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#d8eba0",
+      // 亮度：1-15
+      "light": 15,
+      // 本地化，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  },
+    "sounds": {
+        "shoot": "emxcust:trisguns/fs_shoot1",
+        "shoot_3p": "emxcust:trisguns/fs_shoot2",
+        "draw": "emxcust:rd704/rd704_draw",
+        "put_away": "emxcust:rd704/rd704_put_away",
+        "silence": "emxcust:trisguns/fs_shoot3",
+        "silence_3p": "emxcust:trisguns/fs_shoot4",
+        "dry_fire": "emxcust:trisguns/emx_dw2",
+        "fire_select": "emxcust:trisguns/emx_mode",
+        "head_hit": "emxcust:head_hit",
+        "flesh_hit": "emxcust:flesh_hit",
+        "kill": "emxcust:kill"
+    }
+}

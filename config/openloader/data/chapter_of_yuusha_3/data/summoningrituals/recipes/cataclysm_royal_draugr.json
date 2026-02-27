@@ -1,0 +1,36 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "cataclysm:draugr",
+            "count": 4,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "cataclysm:elite_draugr",
+            "count": 4,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "cataclysm:royal_draugr",
+            "count": 2,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+        {
+            "mob": "cataclysm:aptrgangr",
+            "count": 1,
+            "offset": { "x": 24, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "cataclysm:black_steel_ingot" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

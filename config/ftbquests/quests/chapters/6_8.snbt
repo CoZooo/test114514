@@ -1,0 +1,581 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_8"
+	group: "13D24688CE1CFEDA"
+	icon: "goety:howling_soul"
+	id: "004F6A172285C5EF"
+	images: [
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 19.5d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			alpha: 200
+			color: 10551890
+			height: 12.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -6.5d
+			y: -0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["478A612F781EDE10"]
+			description: [
+				"只有开局选择『玩家是刺客』世界线，才可完成此任务。"
+				""
+				"&e注意，此任务为团队奖励，建议先领取后再与别人组队。"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "relics:midnight_robe"
+				tag: {
+					abilities: {
+						backstab: {
+							points: 0
+							stats: {
+								damage: 1.44264d
+								distance: 49.35202d
+							}
+						}
+						vanish: {
+							points: 0
+							stats: {
+								light: 1.00439d
+								speed: 0.23118d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "44FE32ED4F1B2A76"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "66845F6570589577"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.44264d
+										distance: 49.35202d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.00439d
+										speed: 0.23118d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "2E6DD198A883BAF0"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "「暗影刺客」"
+			tasks: [{
+				consume_items: true
+				id: "663CA98EE98841C5"
+				item: "yuusha:focus_4_ass"
+				type: "item"
+			}]
+			title: "午夜斗篷"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28C58982CC37413E"]
+			description: [
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				""
+				"&6「暗影刺客」和「时之刺客」只能选一条路线，一般来说「暗影刺客」适合法师、弓兵、近战，「时之刺客」适合枪械。"
+				""
+				"&c需注意，此为时之刺客路线的入口，提交该物品后无法获得暗影刺客路线的物品。会将特殊的永恒怀表强制自动穿戴。在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
+				""
+				"&e注意，此任务为团队奖励，建议先领取后再与别人组队。"
+				""
+				"&2此路线尚未完善，难度未确定。赠予的虫箭「恶意歼灭」用于把埋伏性狩猎取下。"
+			]
+			hide_dependency_lines: false
+			icon: "chapter_of_yuusha_3_core:universal_unequip"
+			id: "41E12ACF5DB362E9"
+			rewards: [{
+				id: "3B9EC24DAB424C7B"
+				item: "chapter_of_yuusha_3_core:universal_unequip"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "「时之刺客」"
+			tasks: [{
+				consume_items: true
+				id: "0FD70DF83A40D5F6"
+				item: "yuusha:focus_4_ass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28C58982CC37413E"]
+			description: [
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				""
+				"&6「暗影刺客」和「时之刺客」只能选一条路线，一般来说「暗影刺客」适合法师、弓兵、近战，「时之刺客」适合枪械。"
+				""
+				"&c只要选择刺客路线，就会自动完成此任务，会将特殊的埋伏性狩猎强制自动穿戴，且有绑定诅咒。如果需走时之刺客路线，可以向下做任务。"
+				""
+				"&e需注意，此任务为团队奖励，建议先领取后再与别人组队。"
+				""
+				"&2「暗影刺客」路线为玩家一击击杀Boss的挑战路线，有埋伏性狩猎进行限制，可能需要跳过部分Boss。"
+				""
+				"&3需注意，枪械的物理伤害和穿甲伤害计算为2次伤害，只有物理伤害部分才会享受埋伏性狩猎的伤害加成，而穿甲伤害只会吃到减伤，所以枪械目前暂时不适合作为暗影刺客线的选择。"
+			]
+			icon: {
+				Count: 1
+				id: "moonstone:fermentation"
+				tag: {
+					Enchantments: [
+						{
+							id: "enigmaticlegacy:eternal_binding"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticlegacy:sorrow"
+							lvl: 1s
+						}
+						{
+							id: "celestial_enchantments:curse_of_illiteracy"
+							lvl: 1s
+						}
+						{
+							id: "majruszsenchantments:breaking_curse"
+							lvl: 1s
+						}
+						{
+							id: "apotheosis:life_mending"
+							lvl: 1s
+						}
+						{
+							id: "majruszsenchantments:fatigue_curse"
+							lvl: 1s
+						}
+						{
+							id: "celestial_enchantments:powerless_curse"
+							lvl: 1
+						}
+						{
+							id: "celestial_enchantments:dragging_curse"
+							lvl: 1
+						}
+						{
+							id: "celestial_enchantments:curse_of_gravity"
+							lvl: 1
+						}
+						{
+							id: "celestial_enchantments:curse_of_withering"
+							lvl: 1
+						}
+						{
+							id: "celestial_enchantments:cures_of_corrosion"
+							lvl: 1
+						}
+						{
+							id: "majruszsenchantments:incompatibility_curse"
+							lvl: 1
+						}
+					]
+					RepairCost: 3
+					id: "celestial_enchantments:powerless_curse"
+					itemModifier: "celestial_forge:hasty"
+					"{lvl": 1
+				}
+			}
+			id: "478A612F781EDE10"
+			rewards: [{
+				auto: "enabled"
+				command: "/cy3 admin curios equip moonstone:fermentation{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+				elevate_perms: true
+				icon: "moonstone:fermentation"
+				id: "53516265BC61E04F"
+				team_reward: true
+				title: "&c强制穿戴埋伏性狩猎（自动领取）"
+				type: "command"
+			}]
+			subtitle: "「暗影刺客」"
+			tasks: [{
+				consume_items: false
+				id: "23A0DE22608607D8"
+				item: {
+					Count: 1
+					id: "yuusha:focus_4_ass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "埋伏性狩猎"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				""
+				"&6「暗影刺客」和「时之刺客」只能选一条路线，一般来说「暗影刺客」适合法师、弓兵、近战，「时之刺客」适合枪械。"
+				""
+				"&c暗影刺客的法师线发展较为简单，而暗影刺客的战士线较为困难。"
+				""
+				"&e向上为暗影刺客路线，向下为时之刺客路线，需选一。"
+			]
+			id: "28C58982CC37413E"
+			rewards: [
+				{
+					id: "039788018F61A670"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3011938753DC5BA2"
+					item: "yuusha:focus_4_ass"
+					type: "item"
+				}
+			]
+			subtitle: "「暗影刺客」|「时之刺客」"
+			tasks: [{
+				consume_items: true
+				id: "6C5CE83D045F9FF0"
+				item: "yuusha:focus_4_ass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: [
+				"该武器相关介绍详见宝具章节任务。战士线还可参考狂人章节任务。"
+				""
+				"&6战士刺客可用此武器作为前期武器。龙后基本就用正常战士线的武器。"
+			]
+			id: "0F216D8334EC6BE2"
+			rewards: [{
+				id: "6C2D9EF001A60684"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "3A75ED7711EB1D9D"
+				item: {
+					Count: 1
+					id: "immortalers_delight:ancient_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47EFF30F33E5B9EB"]
+			id: "3915910E99E0A596"
+			rewards: [{
+				id: "78C129B34618A1CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C623938452BC10F"
+				item: "locusazzurro_icaruswings:steel_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47EFF30F33E5B9EB"]
+			id: "32A749D14B7853E5"
+			rewards: [{
+				id: "58803669EB9032BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FADC97851A21070"
+				item: "confluence:demon_heart"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47EFF30F33E5B9EB"]
+			id: "51D64FFD272ABFE9"
+			rewards: [{
+				id: "0C33794ED0782B59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "447118AC4883EB1D"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F216D8334EC6BE2"]
+			description: ["也许有用。"]
+			id: "0032FE345C878F54"
+			rewards: [{
+				id: "01D06C921FAF0F47"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "243F9A2C66422570"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety:end_walk_focus"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: [
+				"法师刺客基本发展就和正常法师一样，除了具有埋伏性狩猎限制外。"
+				""
+				"&e法师线还可参考魔爆章节任务。"
+			]
+			id: "4EFEAD99ACDE5F19"
+			rewards: [{
+				id: "02945A6CC0274ACE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11E57526E787D049"
+				item: "confluence:sorcerer_emblem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: [
+				"弓兵刺客，待完善。"
+				""
+				"&c除非你想要挑战，否则不要用弓来玩刺客世界线。"
+			]
+			icon: "chapter_of_yuusha_3_core:draw_power"
+			id: "4386DEF0B85B55DB"
+			rewards: [
+				{
+					id: "0DFA36C489BF2ED1"
+					item: "chapter_of_yuusha_3_core:draw_power"
+					type: "item"
+				}
+				{
+					id: "68BEF6D6482DF141"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6862AEBBB2A4A1CE"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "破空之愿"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41E12ACF5DB362E9"]
+			description: [
+				"用赠予的虫箭「恶意歼灭」把埋伏性狩猎取下。"
+				""
+				"&c需注意，只要提交了该饰品，会自动完成任务，会将特殊的永恒怀表强制自动穿戴，且有绑定诅咒。在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
+				""
+				"&e注意，此任务为团队奖励，建议先领取后再与别人组队。"
+			]
+			hide_dependency_lines: false
+			icon: "goety_revelation:eternal_watch"
+			id: "47EFF30F33E5B9EB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip goety_revelation:eternal_watch{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "goety_revelation:eternal_watch"
+					}
+					id: "79EE79B34B3C64A1"
+					team_reward: true
+					title: "&c强制穿戴永恒怀表（自动完成）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "0877E77C6A815CEC"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "「时之刺客」"
+			tasks: [{
+				consume_items: true
+				id: "5AB513ABC1B1D157"
+				item: {
+					Count: 1
+					id: "moonstone:fermentation"
+					tag: {
+						Enchantments: [
+							{
+								id: "enigmaticlegacy:eternal_binding"
+								lvl: 1
+							}
+							{
+								id: "enigmaticlegacy:sorrow"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:curse_of_illiteracy"
+								lvl: 1
+							}
+							{
+								id: "majruszsenchantments:breaking_curse"
+								lvl: 1
+							}
+							{
+								id: "apotheosis:life_mending"
+								lvl: 1
+							}
+							{
+								id: "majruszsenchantments:fatigue_curse"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:powerless_curse"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:dragging_curse"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:curse_of_gravity"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:curse_of_withering"
+								lvl: 1
+							}
+							{
+								id: "celestial_enchantments:cures_of_corrosion"
+								lvl: 1
+							}
+							{
+								id: "majruszsenchantments:incompatibility_curse"
+								lvl: 1
+							}
+						]
+						id: "celestial_enchantments:powerless_curse"
+						itemModifier: "celestial_forge:hasty"
+						"{lvl": 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["&9『暗影刺客守则』"]
+	title: "&6※ 界青"
+}

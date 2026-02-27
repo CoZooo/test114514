@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "born_in_chaos_v1:smoked_flesh"
+    },
+    {
+      "count": 4,
+      "item": "malum:grim_talc"
+    },
+    {
+      "count": 4,
+      "item": "hmag:soul_powder"
+    },
+    {
+      "count": 4,
+      "item": "malum:hex_ash"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "output": {
+    "item": "malum:ring_of_desperate_voracity"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    },
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "sacred",
+      "count": 8
+    }
+  ]
+}

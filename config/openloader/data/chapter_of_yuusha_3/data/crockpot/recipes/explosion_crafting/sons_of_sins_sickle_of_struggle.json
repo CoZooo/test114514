@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "sons_of_sins:sickle_of_struggle"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "sons_of_sins:sickle_of_struggle"
+}

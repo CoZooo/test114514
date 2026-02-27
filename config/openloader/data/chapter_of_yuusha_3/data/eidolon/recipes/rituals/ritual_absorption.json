@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:ritual_brazier",
+  "focusItems": [],
+  "invariantItems": [
+    {
+      "item": "eidolon:summoning_staff"
+    }
+  ],
+  "pedestalItems": [
+    {
+      "item": "eidolon:tattered_cloth"
+    },
+    {
+      "item": "eidolon:tattered_cloth"
+    },
+    {
+      "item": "eidolon:death_essence"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    },
+    {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "yuusha:dice_12"
+    }
+  ],
+  "ritual": "eidolon:absorption"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "moonstone:maxamout",
+    "count": 1
+  },
+  "wissen": 1500,
+  "ingredients": [
+    {
+      "item": "wizards_reborn:wisestone_trim"
+    },
+    {
+      "item": "moonstone:blueamout"
+    },
+    {
+      "item": "moonstone:redamout"
+    },
+    {
+      "item": "moonstone:greedamout"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+
+{
+	"content": {
+
+        "embers_rew_mechanical_core": {
+            "type": "item",
+            "content": "embers:mechanical_core",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2500
+        },
+
+        "embers_rew_melter": {
+            "type": "item",
+            "content": "embers:melter",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_stamper": {
+            "type": "item",
+            "content": "embers:stamper",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "embers_rew_stamp_base": {
+            "type": "item",
+            "content": "embers:stamp_base",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500
+        },
+
+        "embers_rew_cinder_plinth": {
+            "type": "item",
+            "content": "embers:cinder_plinth",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_ember_bore": {
+            "type": "item",
+            "content": "embers:ember_bore",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_mixer_centrifuge": {
+            "type": "item",
+            "content": "embers:mixer_centrifuge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_crystal_cell": {
+            "type": "item",
+            "content": "embers:crystal_cell",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_item_pipe": {
+            "type": "item",
+            "content": "embers:item_pipe",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 100
+        },
+
+        "embers_rew_fluid_pipe": {
+            "type": "item",
+            "content": "embers:fluid_pipe",
+            "amount": {
+                "min": 4,
+                "max": 16
+            },
+            "unitWorth": 100
+        },
+
+        "embers_rew_caminite_brick": {
+            "type": "item",
+            "content": "embers:caminite_brick",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+
+        "embers_rew_caminite_lever": {
+            "type": "item",
+            "content": "embers:caminite_lever",
+            "amount": {
+                "min": 8,
+                "max": 32
+            },
+            "unitWorth": 50
+        },
+
+        "embers_rew_ember_emitter": {
+            "type": "item",
+            "content": "embers:ember_emitter",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 100
+        },
+
+        "embers_rew_ember_receiver": {
+            "type": "item",
+            "content": "embers:ember_receiver",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 100
+        },
+
+        "embers_rew_caminite_plate": {
+            "type": "item",
+            "content": "embers:caminite_plate",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 200
+        },
+
+        "embers_rew_tinker_lens": {
+            "type": "item",
+            "content": "embers:tinker_lens",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1000
+        },
+
+        "embers_rew_alchemy_pedestal": {
+            "type": "item",
+            "content": "embers:alchemy_pedestal",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 2000
+        },
+
+        "embers_rew_codebreaking_slate": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "embers:codebreaking_slate",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_alchemy_tablet": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "embers:alchemy_tablet",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_beam_cannon": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "embers:beam_cannon",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_mnemonic_inscriber": {
+            "type": "item",
+			"rarity": "UNCOMMON",
+            "content": "embers:mnemonic_inscriber",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_ashen_fabric": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "embers:ashen_fabric",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 5000
+        },
+
+        "embers_rew_aether_forge": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "aetherworks:aether_forge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 160000
+        },
+
+        "embers_rew_forge_heater": {
+            "type": "item",
+			"rarity": "RARE",
+            "content": "aetherworks:forge_heater",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 80000
+        },
+
+        "embers_rew_forge_anvil": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "aetherworks:forge_anvil",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 320000
+        },
+
+        "embers_rew_forge_tool_station": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "aetherworks:forge_tool_station",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 320000
+        },
+
+		"embers_rew_qb": {
+			"type": "item",
+			"content": "yuusha:qb",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 12000
+		},
+
+        "embers_rew_creative_ember_source": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "embers:creative_ember_source",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 640000
+        },
+
+		"embers_rew_quietus_star": {
+			"type": "item",
+			"content": "goety_revelation:quietus_star",
+			"rarity": "LEGENDARY",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 240000
+		}
+
+	}
+
+}

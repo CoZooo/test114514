@@ -1,0 +1,43 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:smite",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:nihil",
+  "properties": {
+    "attack_base": 23.0,
+    "max_damage": 46,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "slashblade_addon:model/nihil/nihil.obj",
+	"summon_sword_color": 8651304,
+    "texture": "slashblade_addon:model/nihil/nihil.png"
+  }
+}

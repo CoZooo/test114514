@@ -1,0 +1,8 @@
+{
+  "name": "pgp.gun.z761.name",
+  "display": "pgp:z761_display",
+  "data": "pgp:z761_data",
+  "tooltip": "pgp.gun.z761.desc",
+  "type": "sniper",
+  "sort": 2
+}

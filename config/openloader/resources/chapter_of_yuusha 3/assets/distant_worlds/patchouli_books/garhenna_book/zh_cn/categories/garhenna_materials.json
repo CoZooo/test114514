@@ -1,0 +1,6 @@
+{
+	"name": "材料",
+	"description": "该类别包含由迦赫纳维度添加的所有材料的摘要。",
+	"icon": "distant_worlds:textures/screens/garhenna_materials_icon.png",
+	"sortnum": 1
+}

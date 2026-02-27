@@ -1,0 +1,25 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "embers:crystal_cell"
+    },
+    {
+      "item": "distant_worlds:dalite_block"
+    },
+    {
+      "item": "distant_worlds:module_raging_flame"
+    },
+    {
+      "item": "cataclysm:ignitium_block"
+    },
+    {
+      "item": "aetherworks:block_aether"
+    }
+  ],
+  "output": {
+    "item": "embers:creative_ember_source"
+  },
+  "temperature": 2800,
+  "temperature_rate": 15.0
+}

@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 7,
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:light_guardian_heart"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:netherite_leggings"
+  },
+  "output": {
+    "item": "enigmaticlegacy:etherium_leggings"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 64
+    },
+    {
+      "type": "sacred",
+      "count": 64
+    }
+  ]
+}

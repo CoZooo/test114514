@@ -1,0 +1,14 @@
+{
+	"defense_style":{
+		"slash":80,
+		"hit":80,
+		"stab":80,
+		"bash":80,
+		"projectile":80,
+		"explosion":80,
+		"magic":80,
+		"bite":80,
+		"environment":80
+	},
+	"biome_dependency":false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "celestial_core:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "arcalis_bosses:the_deathbringer"
+      }
+    }
+  ],
+  "item": "celestial_core:virtual_gold_nugget"
+}

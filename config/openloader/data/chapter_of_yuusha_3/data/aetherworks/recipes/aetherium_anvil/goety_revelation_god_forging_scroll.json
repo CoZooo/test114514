@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 5,
+  "emberPerHit": 65,
+  "input": {
+    "item": "goety_revelation:ascension_halo"
+  },
+  "numberOfHits": 100,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "goety_revelation:god_forging_scroll"
+    }
+  ],
+  "temperatureMax": 2950,
+  "temperatureMin": 2600
+}

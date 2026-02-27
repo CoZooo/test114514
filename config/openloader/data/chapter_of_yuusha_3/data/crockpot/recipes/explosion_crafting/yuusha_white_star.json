@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:white_star"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:white_star"
+}

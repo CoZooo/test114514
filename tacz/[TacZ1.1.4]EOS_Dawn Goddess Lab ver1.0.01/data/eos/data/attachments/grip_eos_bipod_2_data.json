@@ -1,0 +1,14 @@
+{
+  "weight": 0.3,
+  "ads": {
+    "multiplier": 1.05
+  },
+  "recoil": {
+    "pitch": {
+      "multiplier": 0.7
+    },
+    "yaw": {
+      "multiplier": 0.7
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "faded_conquest_2:lich_tower",
+  "size": 1,
+  "max_distance_from_center": 48,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 1
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": "#castle_in_the_sky:has_structure/castle_in_the_sky_biomes",
+  "use_expansion_hack": false
+}

@@ -1,0 +1,29 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:ice_aspect"
+    }
+  ],
+  "name": "slashblade_addon:frosty_cherry",
+  "properties": {
+    "attack_base": 28.0,
+    "max_damage": 56,
+    "slash_art": "slashblade:drive_horizontal",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/frostwolf/frosty_cherry.obj",
+	"summon_sword_color": 9492460,
+    "texture": "slashblade_addon:model/frostwolf/frosty_cherry.png"
+  }
+}

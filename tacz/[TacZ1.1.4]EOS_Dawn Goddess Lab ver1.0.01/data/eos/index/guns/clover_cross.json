@@ -1,0 +1,9 @@
+{
+  "name": "eos.gun.clover_cross.name",
+  "display": "eos:clover_cross_display",
+  "data": "eos:clover_cross_data",
+  "tooltip": "eos.gun.clover_cross.desc",
+  "type": "sniper",
+  "item_type": "modern_kinetic",
+  "sort": 16
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warden",
+    "callfromthedepth_:citadelguardian",
+    "callfromthedepth_:roteater",
+    "callfromthedepth_:sculkcreeper",
+    "callfromthedepth_:deepspider",
+    "callfromthedepth_:riper",
+    "callfromthedepth_:mushroom",
+    "callfromthedepth_:rotwalker",
+    "callfromthedepth_:seeker",
+    "callfromthedepth_:screamer",
+    "callfromthedepth_:corruptedstalker",
+    "callfromthedepth_:agonysoul",
+    "cataclysm:the_leviathan",
+    "cataclysm:ender_guardian",
+    "cataclysm:the_harbinger",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ignis"
+  ]
+}

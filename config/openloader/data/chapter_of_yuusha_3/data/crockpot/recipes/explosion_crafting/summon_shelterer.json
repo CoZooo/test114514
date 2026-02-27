@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "yuusha:summon_shelterer"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "yuusha:summon_shelterer"
+}

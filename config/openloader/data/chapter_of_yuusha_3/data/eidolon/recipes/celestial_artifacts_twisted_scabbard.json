@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " AB",
+    "ACA",
+    "DA "
+  ],
+  "reagents": "EEEE",
+  "key": {
+    "A": {
+      "item": "malum:malignant_pewter_ingot"
+    },
+    "B": {
+      "item": "hmag:ender_plasm"
+    },
+    "C": {
+      "item": "celestial_artifacts:iron_scabbard"
+    },
+    "D": {
+      "item": "celestial_core:death_essence"
+    },
+    "E": {
+      "item": "yuusha:chaos_stone"
+    }
+  },
+  "result": {
+    "item": "celestial_artifacts:twisted_scabbard"
+  }
+}

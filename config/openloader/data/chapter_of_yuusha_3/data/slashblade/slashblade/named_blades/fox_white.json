@@ -1,0 +1,38 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "enigmaticaddons:frost_aspect",
+      "lvl": 3
+    },
+    {
+      "id": "elementalcombat:ice_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:fox_white",
+  "properties": {
+    "attack_base": 38.0,
+    "max_damage": 76,
+	"slash_art": "ak:the_emperor_of_ice",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/sange/sange.obj",
+	"summon_sword_color": 4474515,
+    "texture": "slashblade:model/named/sange/white.png"
+  }
+}

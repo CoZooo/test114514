@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "celestial_core:ocean_essence"
+    },
+    {
+      "count": 1,
+      "item": "aquaculture:neptunium_block"
+    },
+    {
+      "count": 1,
+      "item": "call_of_drowner:coral_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "aquaculture:neptunium_bow"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

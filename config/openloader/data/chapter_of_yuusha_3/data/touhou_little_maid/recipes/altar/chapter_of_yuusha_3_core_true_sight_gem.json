@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "chapter_of_yuusha_3_core:true_sight_gem",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "eidolon:crimson_gem"
+    },
+    {
+      "item": "moonstone:ectoplasmcloub"
+    },
+    {
+      "item": "moonstone:ectoplasmcloub"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "reliquary:eye_of_the_storm"
+    }
+  ]
+}

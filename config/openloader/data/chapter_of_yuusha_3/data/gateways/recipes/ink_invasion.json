@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB"
+  ],
+  "key": {
+	"A": {
+      "item": "endrem:old_eye"
+    },
+	"B": {
+      "item": "theinkarena:ink_block"
+    },
+	"C": {
+      "item": "theinkarena:ink_waste"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:ink_invasion"
+}

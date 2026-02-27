@@ -1,0 +1,20 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "touhou_little_maid:hakurei_gohei" },
+    "outputs": [
+        {
+            "mob": "mutantmonsters:mutant_creeper",
+            "count": 1,
+            "offset": { "x": 0, "y": 4, "z": 0 },
+            "spread": { "x": 16, "y": 4, "z": 16 }
+        },
+		{ "item": "touhou_little_maid:hakurei_gohei" }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "malum:alchemical_calx" }, "count": 1 },
+        { "ingredient": { "item": "born_in_chaos_v1:holiday_candy" }, "count": 1 },
+        { "ingredient": { "item": "bosses_of_mass_destruction:soul_star" }, "count": 1 },
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
+    ],
+    "recipe_time": 60
+}

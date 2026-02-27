@@ -1,0 +1,23 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "AA ",
+    "ACA",
+    " AA"
+  ],
+  "reagents": "BBBB",
+  "key": {
+    "A": {
+      "item": "distant_worlds:noarhorn_spike"
+    },
+    "C": {
+      "item": "enigmaticlegacy:abyssal_heart"
+    },
+    "B": {
+      "item": "enigmaticlegacy:etherium_scraps"
+    }
+  },
+  "result": {
+    "item": "distant_worlds:noarhorn_gloves"
+  }
+}

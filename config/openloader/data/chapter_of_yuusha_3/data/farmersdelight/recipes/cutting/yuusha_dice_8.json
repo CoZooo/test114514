@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "yuusha:dice_8"
+    }
+  ],
+  "result": [
+    {
+      "chance": 0.25,
+      "item": "goety_cataclysm:kakourgos_focus"
+    },
+    {
+      "chance": 0.25,
+      "item": "goety_cataclysm:polemistis_focus"
+    },
+    {
+      "chance": 0.25,
+      "item": "goety_cataclysm:kyria_focus"
+    },
+    {
+      "chance": 0.25,
+      "item": "goety:phantasm_focus"
+    }
+  ],
+  "tool": {
+    "item": "yuusha:remembered_scroll"
+  }
+}

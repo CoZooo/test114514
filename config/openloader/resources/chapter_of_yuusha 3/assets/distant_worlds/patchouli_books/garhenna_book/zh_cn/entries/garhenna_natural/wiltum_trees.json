@@ -1,0 +1,31 @@
+{
+	"name": "威琍特树",
+	"icon": "distant_worlds:wiltum_sapling",
+	"category": "distant_worlds:garhenna_natural",
+	"sortnum": 4,
+	"advancement": "distant_worlds:dead_valley_explore",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_sapling",
+			"link_recipe": "true",
+			"text": "威琍特树在死亡山谷生物群系中大量生长，你可以用树苗种植，包括4棵相邻树苗。这些树是由威琍特木制成的，可以将其剥皮或回收成各种其他装饰性和功能性方块。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "distant_worlds:wiltum_core",
+			"link_recipe": "true",
+			"text": "威琍特核心位于树叶后面的树顶，可以加工成木材或用作装饰照明。"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/wiltum_fruit"
+			]
+		}
+	]
+}

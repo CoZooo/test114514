@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "end_midlands",
+    "the_void",
+    "end_highlands"
+  ],
+  "features": "stalwart_dungeons:end_dungeon",
+  "step": "surface_structures"
+}

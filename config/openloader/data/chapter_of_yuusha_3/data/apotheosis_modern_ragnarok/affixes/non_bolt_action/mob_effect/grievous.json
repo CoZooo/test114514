@@ -1,0 +1,60 @@
+{
+  "type": "apotheosis_modern_ragnarok:mob_effect_rated",
+  "mob_effect": "aquamirae:armor_decrease",
+  "target": "ARROW_TARGET",
+  "values": {
+    "rare": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": 1,
+      "rate": 0.25
+    },
+    "epic": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+	  "amplifier": {
+        "min": 1,
+        "steps": 4,
+        "step": 0.3
+      },
+      "rate": 0.25
+    },
+    "mythic": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": {
+        "min": 2,
+        "steps": 4,
+        "step": 0.3
+      },
+      "rate": 0.25
+    },
+    "ancient": {
+      "duration": {
+        "min": 120,
+        "steps": 5,
+        "step": 40
+      },
+      "amplifier": {
+        "min": 3,
+        "steps": 8,
+        "step": 0.3
+      },
+      "rate": 0.25
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto"
+  ]
+}

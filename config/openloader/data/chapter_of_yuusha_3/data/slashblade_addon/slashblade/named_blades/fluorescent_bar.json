@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:light_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:fluorescent_bar",
+  "properties": {
+    "attack_base": 17.0,
+    "max_damage": 34,
+    "sword_type": [
+      "none"
+    ],
+    "slash_art": "ak:liulifan_city"
+  },
+  "render": {
+    "model": "slashblade_addon:model/fluorescentbar/fluorescent_bar.obj",
+	"summon_sword_color": 16576878,
+    "texture": "slashblade_addon:model/fluorescentbar/fluorescent_bar.png"
+  }
+}

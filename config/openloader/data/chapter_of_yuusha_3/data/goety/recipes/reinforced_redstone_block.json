@@ -1,0 +1,52 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "yuusha:dice_10"
+  },
+  "craftType": "forge",
+  "soulCost": 50000,
+  "duration": 10,
+  "research": "terminus",
+  "ingredients": [
+    {
+      "item": "depthcrawler:reinforcedeye"
+    },
+    {
+      "item": "infinite_abyss:deepsilver_block"
+    },
+    {
+      "item": "yuusha:burn_core"
+    },
+    {
+      "item": "cataclysm:black_steel_block"
+    },
+    {
+      "item": "depthcrawler:reinforcedeye"
+    },
+    {
+      "item": "infinite_abyss:deepsilver_block"
+    },
+    {
+      "item": "yuusha:burn_core"
+    },
+    {
+      "item": "cataclysm:black_steel_block"
+    },
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:reinforced_redstone_block"
+  }
+}

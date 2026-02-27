@@ -1,0 +1,6 @@
+{
+	"weight": 0.5,
+	"aim_inaccuracy": {
+    "addend": -0.5
+	}
+}

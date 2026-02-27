@@ -1,0 +1,67 @@
+{
+  "model": "eos:gun/elp_13_t3x2_geo",
+  "texture": "eos:gun/uv/elp_13_t3x2",
+  "lod": {
+    "model": "eos:gun/elp_13_t3_geo",
+    "texture": "eos:gun/uv/elp_13_t3"
+  },
+  "hud": "eos:gun/hud/elp_13_t3x2",
+  "slot": "eos:gun/slot/elp_13_t3x2",
+  "state_machine": "eos:dual_wield",
+  "animation": "eos:elp_13_t3x2",
+  "ammo_count_style": "percent",
+  "show_crosshair": "true",
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "eos:flash/plasma_flash",
+    "scale": 0.0
+  },
+  "iron_zoom": 1.2,
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "reload_empty": "eos:elp_13_t3x2/elp_13_t3x2_reloadempty",
+    "reload_tactical": "eos:elp_13_t3x2/elp_13_t3x2_reloadtac",
+    "inspect": "eos:elp_13_t3x2/elp_13_t3x2_inspect",
+    "inspect_empty": "eos:elp_13_t3x2/elp_13_t3x2_inspectemp",
+    "draw": "tacz:deagle/deagle_draw",
+    "shoot_3p": "eos:eos_hg/elp_13_t3_shoot",
+    "silence": "tacz:deagle/deagle_silence",
+    "silence_3p": "tacz:deagle/deagle_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 3.5],
+    "rotate": [0, 0, 60],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 20, 3],
+      "rotate": [-180, 0, 120],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "text_show": {
+    "ammo_count_text_show_pos": {
+      "scale": 1,
+      "align": "center",
+      "shadow": false,
+      "color": "#FFFFFF",
+      "light": 15,
+      "text": "text_show.tacz.ak47.ammo_count"
+    }
+  }
+}

@@ -1,0 +1,4666 @@
+
+#List of entity configurations
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 0
+	minTier = 0
+	entity = "faded_conquest_2:heiroglyph_room"
+	presetAffixes = []
+
+[[entities]]
+	entity = "binah:rororo"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = []
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "minecraft:slime"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "minecraft:silverfish"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "minecraft:magma_cube"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "minecraft:endermite"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "born_in_chaos_v1:baby_spider"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "immortalers_delight:skelverfish_ambusher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "immortalers_delight:skelverfish_bomber"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "immortalers_delight:skelverfish_thrasher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "hmag:magical_slime"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "majruszsdifficulty:creeperling"
+	presetAffixes = []
+
+[[entities]]
+	entity = "binah:sandstorm"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "faded_conquest_2:poisonspikea"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "faded_conquest_2:poison_spike_b"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "WHITELIST"
+
+[[entities]]
+	entity = "ancient_aether:slammroot"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "aether:blue_swet"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "ancient_aether:festive_swet"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "aether:golden_swet"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "aether_redux:vanilla_swet"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "mowziesmobs:umvuthana"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "mowziesmobs:umvuthana_raptor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "mowziesmobs:umvuthana_follower_raptor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "mowziesmobs:umvuthana_crane"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "mowziesmobs:naga"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "irons_spellbooks:necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:cultist"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:priest"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:citadel_keeper"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:archevoker"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:apothecarist"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:cryomancer"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:pyromancer"
+	presetAffixes = ["reflective", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 2
+	minTier = 1
+	entity = "minecraft:creeper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 2
+	minTier = 1
+	entity = "minecraft:phantom"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:witch"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:guardian"
+	presetAffixes = ["reflective", "hasty", "knocking"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:vindicator"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:ravager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:pillager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:evoker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:zoglin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:blaze"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:wither_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:piglin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:piglin_brute"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:zombified_piglin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:hoglin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:illusioner"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "minecraft:ghast"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "minecraft:vex"
+	presetAffixes = ["reflective", "adaptable", "paralyzing", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "minecraft:enderman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "minecraft:shulker"
+	presetAffixes = ["adaptable", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "call_of_yucutan:undead_warrior"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "call_of_yucutan:blowgun_huracan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "call_of_yucutan:mitnal_monkey"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "call_of_yucutan:ah_puch"
+	presetAffixes = ["reflective", "grudge", "hasty", "lively", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "call_of_yucutan:kukulkan"
+	presetAffixes = ["reflective", "grudge", "hasty", "lively", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "faded_conquest_2:mimic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "faded_conquest_2:demon"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "born_in_chaos_v1:pumpkinhead"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:baby_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:lifestealer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:lifestealer_true_form"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:missioner"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:spiritof_chaos"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:siamese_skeletons"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:baby_skeleton_2"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:baby_skeleton_minion"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:barrel_zombie"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bloody_gadfly"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bone_imp"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bone_imp_2"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bone_imp_minion"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bonescaller"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:bonescaller_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:controlled_baby_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:corpse_fish"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:corpse_fly"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:dark_vortex"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:decaying_zombie"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:decaying_zombie_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:decrepit_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:diamond_termite"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:dire_hound_leader"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:door_knight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:door_knight_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:dread_hound"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:dread_hound_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:fallen_chaos_knight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:felsteed"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:firelight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:firelight_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "born_in_chaos_v1:glutton_fish"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 1
+	minTier = 1
+	entity = "born_in_chaos_v1:maggot"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:mr_pumpkin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:mr_pumpkin_controlled"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:nightmare_stalker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:phantom_creeper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:phantom_creeper_copy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:scarlet_persecutor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:seared_spirit"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:seared_spirit_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:senor_pumpkin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:shy_spirit"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:sir_pumpkinhead"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:sir_pumpkinhead_without_horse"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:sir_the_headless"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "born_in_chaos_v1:skeleton_demoman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:skeleton_thrasher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:mother_spider"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:skeleton_thrasher_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:spirit_guide"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:spirit_guide_assistant"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:supreme_bonescaller"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:supreme_bonescaller_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:supreme_bonescaller_stage_2"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:swarmer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:restless_spirit"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:zombie_bruiser"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:wither_scuttler"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:zombie_clown"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:zombie_clown_not_despawn"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:zombie_fisherman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:siamese_skeletons"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:siamese_skeletonsleft"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "born_in_chaos_v1:siamese_skeletonsright"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "born_in_chaos_v1:krampus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:acolyte"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "graveyard:corrupted_pillager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "graveyard:corrupted_vindicator"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:ghoul"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:nightmare"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:reaper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:revenant"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:skeleton_creeper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "graveyard:wraith"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "aquamirae:maw"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "aquamirae:eel"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "aquamirae:anglerfish"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "aquamirae:maze_mother"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "aquamirae:tortured_soul"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "stalwart_dungeons:incomplete_wither"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "stalwart_dungeons:giddy_blaze"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "stalwart_dungeons:reinforced_blaze"
+	presetAffixes = ["dampening", "hasty", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "stalwart_dungeons:propulk"
+	presetAffixes = ["dampening", "adaptable"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "whisperwoods:zotzpyre"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:giant_mummy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:swamper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:nightwalker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:jiangshi"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:creeper_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:drowned_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:husk_girl"
+	presetAffixes = ["infested"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:skeleton_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:stray_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "hmag:zombie_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "hmag:imp"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:melty_monster"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "hmag:wither_skeleton_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:kasha"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:dodomeki"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:alraune"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:banshee"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:catoblepas"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 5
+	entity = "hmag:crimson_slaughterer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:cursed_doll"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:dogu"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:dullahan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "hmag:dyssomnia"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:ghastly_seeker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:glaryad"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:ghost"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:harpy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:hornet"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:jack_frost"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:kobold"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:lich"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "hmag:monolith"
+	presetAffixes = ["adaptable", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 5
+	entity = "hmag:necrotic_reaper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:ogre"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:redcap"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:savagefang"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:scorpion"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:slime_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:snow_canine"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:spider_nest"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "hmag:wither_ghost"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "hmag:fortress_keeper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "hmag:ender_executor"
+	presetAffixes = ["adaptable", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "arcalis_bosses:magic_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "arcalis_bosses:pirate_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "arcalis_bosses:barrel_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "eeeabsmobs:corpse_villager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "eeeabsmobs:immortal_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "eeeabsmobs:immortal_knight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "eeeabsmobs:immortal_shaman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "eeeabsmobs:immortal_executioner"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "eeeabsmobs:corpse_warlock"
+	presetAffixes = ["hasty", "dampening", "adaptable", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "eeeabsmobs:guling_sentinel"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "eeeabsmobs:guling_sentinel_heavy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "eeeabsmobs:immortal_golem"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "eeeabsmobs:corpse"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:ant_salvager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:ant"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:anubis"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:arachne"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:banshee"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:bee"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "grimoireofgaia:behender"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:bone_knight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:cecaelia"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:centaur"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:chest"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:cobble_golem"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:cobblestone_golem"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:creep"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:cyclops"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:deathword"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:dryad"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:dullahan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:dwarf"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "grimoireofgaia:ender_dragon_girl"
+	presetAffixes = ["adaptable", "dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "grimoireofgaia:ender_eye"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:flesh_lich"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:gelatinous_slime"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:goblin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:goblin_feral"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:gryphon"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:harpy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:hunter"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:kobold"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:mandragora"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:matango"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:mermaid"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "grimoireofgaia:mimic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:minotaur"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:minotaurus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:mummy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:naga"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:nine_tails"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:oni"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:orc"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:satyress"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:shaman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:sharko"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:siren"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:sludge_girl"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:sphinx"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:sporeling"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:spriggan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "grimoireofgaia:succubus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:toad"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:valkyrie"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:werecat"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:witch"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "grimoireofgaia:wither_cow"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:wizard_harpy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "grimoireofgaia:yuki_onna"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "call_of_drowner:tide_raiser"
+	presetAffixes = ["adaptable"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "touhou_little_maid:fairy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "embers:ancient_golem"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "eidolon:zombie_brute"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "eidolon:giant_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "eidolon:wraith"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "eidolon:necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:funnybone"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:eyesore"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:igniter"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:illashooter"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 6
+	minTier = 6
+	entity = "illageandspillage:magispeller"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:preserver"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:crocofang"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "illageandspillage:freakager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "illageandspillage:ragno"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "illageandspillage:spiritcaller"
+	presetAffixes = ["ada"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illageandspillage:twittollager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:beamloger"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:cowboy"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:new_samurai"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:royal_guard_spearman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:samurai"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:shogun"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illager_additions:spearman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:alchemist"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:archivist"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:basher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:firecaller"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:inquisitor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:marauder"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:provoker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:sorcerer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "illagerinvasion:surrendered"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "illagerinvasion:invoker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "starvingskeleton:starving_skeleton"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "sleep_killer:sleep_killer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "eyesinthedark:eyes_in_the_dark"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "hardtodestroyreptile:the_hard_to_destroy_reptile"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "theplaguedoctor:plague_doctor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:wraither"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:corpor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:piglin_hunter"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:piglin_prisoner"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "bygonenether:warped_enderman"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:wex"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "bygonenether:wither_skeleton_knight"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "distant_worlds:crouthil"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "distant_worlds:druth"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "distant_worlds:loteress"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "distant_worlds:shrullot"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "distant_worlds:toran"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:chort"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:imp"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:imp_guard"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:demon"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:demon_lord"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:ancient_demon_lord"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["adaptable"]
+	maxTier = 8
+	minTier = 7
+	entity = "realmrpg_demons:demon_minion"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:morphink"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:splotch"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:soul_tendril"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:ink_brute"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:natural_ink_brute"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:natural_ink_titan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:soul_specter"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:ink_worm"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "theinkarena:blot_tendril"
+	presetAffixes = ["reflective", "knocking", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:ink_titan"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "theinkarena:titan_splotch"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:reaper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:wraith"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:hostile_black_wolf"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:hostile_black_wolf"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "goety:brood_mother"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "goety:crypt_slime"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:armored_ravager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:warlock"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:envioker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:tormentor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:inquillager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:conquillager"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:sorcerer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:piker"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:ripper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:trampler"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:crusher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:storm_caster"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:cryologer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:heretic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:preacher"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "revelationfix:maverick_servant"
+	presetAffixes = ["lively", "wounding", "paralyzing", "desecrating", "adaptable"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "revelationfix:heretic_servant"
+	presetAffixes = ["lively", "wounding", "paralyzing", "desecrating", "adaptable"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:maverick"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "goety:minister"
+	presetAffixes = ["hasty", "magnetic", "wounding", "grudge"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:cairn_necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:haunted_armor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:bone_spider"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "goety:border_wraith"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 7
+	entity = "goety:wight"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 7
+	minTier = 7
+	entity = "goety:crone"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "goety:wither_necromancer"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 8
+	minTier = 8
+	entity = "goety:skull_lord"
+	presetAffixes = ["knocking", "paralyzing", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["dampening", "adaptable"]
+	maxTier = 8
+	minTier = 8
+	entity = "goety:bone_lord"
+	presetAffixes = ["lively", "paralyzing", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "goety:irk"
+	presetAffixes = ["lively", "magnetic", "wounding", "hasty"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "faded_conquest_2:pbprefight"
+	presetAffixes = ["hasty", "magnetic", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "faded_conquest_2:the_plauge_bringer"
+	presetAffixes = ["hasty", "magnetic", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "faded_conquest_2:pbdowned"
+	presetAffixes = ["hasty", "magnetic", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "faded_conquest_2:the_plauge_bringerp_2"
+	presetAffixes = ["hasty", "magnetic", "wounding", "assassin"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "faded_conquest_2:toxicrow"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:terrible_ten"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:ttphase_2"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:puny_juggernaut"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_boot"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_fool"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_heavyman"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_leaper"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_longarm"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknightfist"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "faded_conquest_2:blocknight_paladin"
+	presetAffixes = ["hasty", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "faded_conquest_2:aero_guardian"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "faded_conquest_2:doomharbor_lich"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "plagued", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "faded_conquest_2:lich_phase_2"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "plagued", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "faded_conquest_2:faded_king"
+	presetAffixes = ["magnetic", "hasty", "reflective", "wounding", "paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "faded_conquest_2:faded_kingp_2"
+	presetAffixes = ["magnetic", "hasty", "reflective", "wounding", "paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "faded_conquest_2:vessel_of_calamity"
+	presetAffixes = ["magnetic", "hasty", "assassin", "wounding", "plagued", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "faded_conquest_2:vessel_sword"
+	presetAffixes = ["magnetic", "hasty", "assassin", "wounding", "plagued", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "faded_conquest_2:vessel_shield"
+	presetAffixes = ["magnetic", "hasty", "assassin", "wounding", "plagued", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "faded_conquest_2:radiance_guardian"
+	presetAffixes = ["lively", "hasty", "knocking", "magnetic", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "meetyourfight:swampjaw"
+	presetAffixes = ["hasty", "magnetic", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "meetyourfight:bellringer"
+	presetAffixes = ["hasty", "magnetic", "wounding", "adaptable"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "meetyourfight:dame_fortuna"
+	presetAffixes = ["hasty", "magnetic", "wounding", "reflective", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "meetyourfight:rosalyne"
+	presetAffixes = ["hasty", "adaptable", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "meetyourfight:rose_spirit"
+	presetAffixes = ["hasty", "adaptable", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 7
+	entity = "callfromthedepth_:citadelguardian"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:roteater"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:sculkcreeper"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:deepspider"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:riper"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:mushroom"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:rotwalker"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:seeker"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = ["reflective"]
+	maxTier = 7
+	minTier = 6
+	entity = "callfromthedepth_:screamer"
+	presetAffixes = ["dampening"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 2
+	entity = "majruszsdifficulty:cursed_armor"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "majruszsdifficulty:giant"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "majruszsdifficulty:tank"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "majruszsdifficulty:cerberus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "majruszsdifficulty:illusioner"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:deeprock_golem"
+	presetAffixes = ["dampening", "hasty", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:fire_vortex"
+	presetAffixes = ["dampening", "hasty", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:giant_eyeball_frog"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:eyeball_frog"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:guardian_knight"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:ice_creeper"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:ice_cube"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:mushroom_spider"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:puffball"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:disgruntled_glow_bulb"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:huge_puffball"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:chomper"
+	presetAffixes = ["wounding", "knocking", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:vortex"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:lightning_ghost"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "infinite_abyss:shadow_eyes"
+	presetAffixes = ["knocking", "hasty", "wounding", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "infinite_abyss:tempest_of_flame"
+	presetAffixes = ["knocking", "hasty", "wounding", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "infinite_abyss:wind_spirit"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:clawdian"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:hippocamtus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:cindaria"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:urchinkin"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:drowned_host"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "cataclysm:symbiocto"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:deepling"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:deepling_brute"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:deepling_angler"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:deepling_priest"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:deepling_warlock"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:coral_golem"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:coralssus"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "cataclysm:amethyst_crab"
+	presetAffixes = ["adaptable"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "cataclysm:koboleton"
+	presetAffixes = ["adaptable", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "cataclysm:kobolediator"
+	presetAffixes = ["adaptable", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "cataclysm:wadjet"
+	presetAffixes = ["adaptable", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "cataclysm:ender_golem"
+	presetAffixes = ["magnetic", "hasty", "wounding", "dampening"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "cataclysm:endermaptera"
+	presetAffixes = ["magnetic", "hasty", "wounding", "dampening"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "cataclysm:the_watcher"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "cataclysm:the_prowler"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:ignited_revenant"
+	presetAffixes = ["dampening", "hasty", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:ignited_berserker"
+	presetAffixes = ["dampening", "hasty", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:elite_draugr"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:draugr"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:royal_draugr"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:aptrgangr"
+	presetAffixes = ["hasty", "wounding", "magnetic", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "cataclysm:nameless_sorcerer"
+	presetAffixes = ["hasty", "wounding", "magnetic", "reflective", "shielding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:deep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:electricdeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:reddeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:nightmaredeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:deepling"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:cavedeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:pinkdeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "depthcrawler:oceanicdeep"
+	presetAffixes = ["hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:betrayed_guzzler"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "binah:white_cube"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "binah:yallow_cube"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "binah:black_cube"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "binah:dronevul"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "binah:drone_missile"
+	presetAffixes = ["magnetic", "hasty", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "entity_303:spirits"
+	presetAffixes = ["adaptable", "hasty", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "awakened_bosses:herobrine_minion"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "awakened_bosses:mahva"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "awakened_bosses:prowler"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "awakened_bosses:reeker"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "cthulhufishing:obsessed_eye_mob"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cthulhufishing:obsessed_eye_minion"
+	presetAffixes = ["hasty", "knocking", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cthulhufishing:cthulhu_adept"
+	presetAffixes = ["hasty", "knocking", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "cthulhufishing:grimoire_tentacle"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "aether:cockatrice"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "ancient_aether:aeronautic_leaper"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "aether:fire_minion"
+	presetAffixes = ["adaptable", "dampening", "magnetic", "molten", "hasty", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 7
+	minTier = 6
+	entity = "aether:mimic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "aether:zephyr"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "aether:sentry"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "aether:valkyrie"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 4
+	minTier = 3
+	entity = "artifacts:mimic"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 5
+	minTier = 4
+	entity = "aether_redux:blightbunny"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "mowziesmobs:umvuthi"
+	presetAffixes = ["liquid", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "mowziesmobs:frostmaw"
+	presetAffixes = ["paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 3
+	minTier = 3
+	entity = "mowziesmobs:ferrous_wroughtnaut"
+	presetAffixes = ["grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "mutantmonsters:mutant_creeper"
+	presetAffixes = ["knocking", "assassin", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "mutantmonsters:mutant_enderman"
+	presetAffixes = ["knocking", "assassin", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "mutantmonsters:mutant_skeleton"
+	presetAffixes = ["air_break", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "mutantmonsters:mutant_zombie"
+	presetAffixes = ["knocking", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 4
+	minTier = 4
+	entity = "cataclysm:scylla"
+	presetAffixes = ["knocking", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_boss_mantyd:mantyd_bloom"
+	presetAffixes = ["dampening", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_boss_mantyd:boss_mantyd"
+	presetAffixes = ["dampening", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_boss_mantyd:mantydbosssiting"
+	presetAffixes = ["dampening", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_boss_mantyd:mantydbosssitingtwo"
+	presetAffixes = ["dampening", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_witch_boss:witchboss"
+	presetAffixes = ["dampening", "magnetic", "wounding", "lively", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_witch_boss:witchhat"
+	presetAffixes = ["dampening", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 5
+	minTier = 5
+	entity = "mokels_witch_boss:witchhat_giving"
+	presetAffixes = ["dampening", "magnetic", "wounding", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "minecraft:elder_guardian"
+	presetAffixes = ["magnetic", "wounding", "reflective", "hasty"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "call_of_drowner:drowner"
+	presetAffixes = ["reflective", "adaptable", "hasty", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "call_of_drowner:deepwater_piranha"
+	presetAffixes = ["reflective", "adaptable", "hasty", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "minecraft:wither"
+	presetAffixes = ["assassin", "wounding", "adaptable", "lively", "grudge", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "minecraft:warden"
+	presetAffixes = ["wounding", "reflective", "dampening", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "minecraft:ender_dragon"
+	presetAffixes = ["reflective", "knocking", "wounding", "adaptable"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "aether:slider"
+	presetAffixes = ["dampening", "knocking", "wounding", "adaptable"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "ancient_aether:mutated_aechor_plant"
+	presetAffixes = ["reflective", "knocking", "dampening", "adaptable"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "ancient_ones:amethyst_colossus"
+	presetAffixes = ["reflective", "knocking", "dampening", "adaptable"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "aether:valkyrie_queen"
+	presetAffixes = ["dampening", "knocking", "wounding", "reflective", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "ancient_ones:witch_king"
+	presetAffixes = ["dampening", "assassin", "wounding", "reflective", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "lost_aether_content:aerwhale_king"
+	presetAffixes = ["air_break", "knocking", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "aether:sun_spirit"
+	presetAffixes = ["adaptable", "dampening", "magnetic", "molten", "hasty", "wounding", "reflective", "knocking", "shielding", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "theinkarena:blot"
+	presetAffixes = ["reflective", "knocking", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "callfromthedepth_:corruptedstalker"
+	presetAffixes = ["dampening", "assassin", "grudge", "magnetic", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "callfromthedepth_:agonysoul"
+	presetAffixes = ["hasty", "reflective", "plagued", "dampening", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "cthulhufishing:ice_crab"
+	presetAffixes = ["magnetic", "wounding", "hasty", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "cthulhufishing:fossil_fish"
+	presetAffixes = ["magnetic", "wounding", "grudge", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "cthulhufishing:obsessed_eye_boss"
+	presetAffixes = ["hasty", "air_break", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "darkdoppelganger:dark_doppelganger"
+	presetAffixes = ["magnetic", "adaptable", "hasty", "reflective", "wounding"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
+	maxTier = 8
+	minTier = 7
+	entity = "born_in_chaos_v1:krampus_henchman"
+	presetAffixes = ["assassin", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:krampus"
+	presetAffixes = ["assassin", "adaptable", "hasty", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "arkane_domains:dark_shaman"
+	presetAffixes = ["magnetic", "adaptable", "hasty", "reflective", "plagued"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "irons_spellbooks:dead_king"
+	presetAffixes = ["adaptable", "wounding", "lively", "magnetic", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:lord_pumpkinhead"
+	presetAffixes = ["assassin", "hasty", "wounding", "grudge", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:lord_pumpkinhead_head"
+	presetAffixes = ["assassin", "hasty", "wounding", "grudge", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:lord_pumpkinhead_withouta_horse"
+	presetAffixes = ["assassin", "hasty", "wounding", "grudge", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:lord_the_headless"
+	presetAffixes = ["assassin", "hasty", "wounding", "grudge", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "born_in_chaos_v1:lords_felsteed"
+	presetAffixes = ["assassin", "hasty", "wounding", "grudge", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "bosses_of_mass_destruction:lich"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "bosses_of_mass_destruction:gauntlet"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "bosses_of_mass_destruction:void_blossom"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "bosses_of_mass_destruction:obsidilith"
+	presetAffixes = []
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "ancient_ones:tm_29"
+	presetAffixes = ["magnetic", "hasty", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "binah:binah_v_2"
+	presetAffixes = ["magnetic", "hasty", "wounding", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "graveyard:lich"
+	presetAffixes = ["lively", "dampening", "adaptable", "grudge", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "whisperwoods:hirschgeist"
+	presetAffixes = ["reflective", "lively", "dampening", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 8
+	minTier = 8
+	entity = "eeeabsmobs:nameless_guardian"
+	presetAffixes = ["reflective", "grudge", "dampening", "wounding", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "aquamirae:captain_cornelia"
+	presetAffixes = ["hasty", "wounding", "air_break", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "infinite_abyss:crystal_construct"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "plagued", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "infinite_abyss:charya"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "reflective", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "infinite_abyss:frozen_wither"
+	presetAffixes = ["lively", "reflective", "hasty", "grudge", "magnetic", "wounding"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 6
+	minTier = 6
+	entity = "cataclysm:the_leviathan"
+	presetAffixes = ["reflective", "wounding", "hasty", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "cataclysm:ancient_remnant"
+	presetAffixes = ["wounding", "adaptable", "grudge", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:ender_guardian"
+	presetAffixes = ["magnetic", "hasty", "wounding", "lively", "dampening"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "cataclysm:the_harbinger"
+	presetAffixes = ["assassin", "hasty", "wounding", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "cataclysm:netherite_monstrosity"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "assassin", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "cataclysm:ignis"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "magnetic", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "cataclysm:maledictus"
+	presetAffixes = ["hasty", "knocking", "magnetic", "wounding", "reflective", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "goety:hostile_redstone_monstrosity"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "goety:vizier"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "paralyzing", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "goety:apostle"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "adaptable", "reflective", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "revelationfix:apostle_servant"
+	presetAffixes = ["shielding", "hasty", "lively", "wounding", "adaptable", "reflective", "paralyzing", "dampening", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "ias_spellbooks:summoned_ragno"
+	presetAffixes = ["lively", "hasty", "adaptable", "wounding", "paralyzing"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "arcalis_bosses:jack"
+	presetAffixes = ["magnetic", "hasty", "adaptable", "wounding", "assassin", "knocking"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "arcalis_bosses:the_deathbringer"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "grudge", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "arcalis_bosses:captain_deadbone"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "plagued", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 7
+	minTier = 7
+	entity = "hs_bosses:sand_warrior"
+	presetAffixes = ["magnetic", "wounding", "assassin", "hasty"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "corundumguardian:corundum_guardian"
+	presetAffixes = ["grudge", "hasty", "wounding", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "luminous_halloween:horseless_headsman"
+	presetAffixes = ["assassin", "reflective", "wounding", "plagued", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 9
+	minTier = 9
+	entity = "goety:hostile_redstone_golem"
+	presetAffixes = ["hasty", "reflective", "grudge", "plagued", "magnetic"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "goety:wither_necromancer"
+	presetAffixes = ["magnetic", "hasty", "lively", "wounding", "reflective", "grudge"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "angelcraft_bosses:boos"
+	presetAffixes = ["magnetic", "hasty", "wounding", "paralyzing", "lively", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "angelcraft_bosses:boos_artemis"
+	presetAffixes = ["magnetic", "hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "angelcraft_bosses:boos_shield"
+	presetAffixes = ["magnetic", "hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "angelcraft_bosses:broken_angel"
+	presetAffixes = ["magnetic", "hasty", "wounding", "paralyzing", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "entity_303:entity_303"
+	presetAffixes = ["adaptable", "hasty", "knocking", "magnetic", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "awakened_bosses:herobrine"
+	presetAffixes = ["adaptable", "dampening", "hasty", "magnetic", "wounding", "reflective", "lively", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "eeeabsmobs:immortal"
+	presetAffixes = ["adaptable", "dampening", "hasty", "magnetic", "wounding", "reflective", "lively", "assassin", "grudge", "assassin"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:wistiver"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:walking_bed"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:prowler"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:kelvin"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:curse"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:blud"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "sons_of_sins:butcher"
+	presetAffixes = ["magnetic", "hasty", "knocking", "wounding", "reflective", "lively", "grudge", "air_break"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 10
+	minTier = 10
+	entity = "stalwart_dungeons:awful_ghast"
+	presetAffixes = ["dampening", "hasty", "wounding", "reflective", "lively", "liquid"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "depthcrawler:jabberwock"
+	presetAffixes = ["hasty", "knocking", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "depthcrawler:deepboss"
+	presetAffixes = ["hasty", "adaptable", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 11
+	minTier = 11
+	entity = "depthcrawler:ancientdeep"
+	presetAffixes = ["hasty", "adaptable", "magnetic", "wounding", "reflective", "lively"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "stalwart_dungeons:shelterer"
+	presetAffixes = ["lively", "hasty", "air_break", "magnetic", "wounding", "reflective"]
+
+[[entities]]
+	affixPermission = "WHITELIST"
+	affixList = []
+	maxTier = 12
+	minTier = 12
+	entity = "stalwart_dungeons:shelterer_without_armor"
+	presetAffixes = ["lively", "hasty", "air_break", "magnetic", "wounding", "reflective"]
+

@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "ak:greedy",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "ak:gem"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "D": {
+      "item": "yuusha:sin_shard_1"
+    },
+    "E": {
+      "item": "ak:dragon_cross"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "ak:yataghans",
+        "refine": 5
+      }
+    }
+  },
+  "pattern": [
+    "ACE",
+    "DGD",
+    "ECA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

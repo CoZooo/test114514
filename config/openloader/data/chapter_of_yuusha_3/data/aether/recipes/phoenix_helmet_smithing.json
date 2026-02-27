@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aether:gravitite_helmet"
+  },
+  "addition": {
+    "item": "yuusha:ink_heart"
+  },
+  "result": {
+    "item": "aether:phoenix_helmet"
+  },
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  }
+}

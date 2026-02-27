@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "irons_spellbooks:wandering_magician_boots"
+  },
+  "addition": {
+    "item": "minecraft:carved_pumpkin"
+  },
+  "result": {
+    "item": "irons_spellbooks:pumpkin_boots"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

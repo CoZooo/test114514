@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:glass_bottle"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 2000,
+  "duration": 40,
+  "ingredients": [
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "born_in_chaos_v1:death_totem"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minecraft:suspicious_stew"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "endrem:undead_soul"
+    }
+  ],
+  "result": {
+    "item": "goety:undeath_potion"
+  }
+}

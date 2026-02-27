@@ -1,0 +1,121 @@
+
+{
+	"content": {
+
+        "shepherd_rew_golden_fleece": {
+            "type": "item",
+            "content": "locusazzurro_icaruswings:golden_fleece",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 3500
+        },
+
+        "shepherd_rew_shears": {
+            "type": "item",
+            "content": "reliquary:shears_of_winter",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2000,
+            "nbt": "{Damage:0}"
+        },
+
+        "shepherd_rew_wool_random": {
+            "type": "item",
+            "content": "#minecraft:wool",
+            "amount": {
+                "min": 4,
+                "max": 24
+            },
+            "unitWorth": 70,
+            "weightMult": 4.0
+        },
+
+        "shepherd_rew_painting": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "minecraft:painting",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 650
+        },
+
+        "shepherd_rew_chromatic": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:chromatic\"}]}"
+        },
+
+        "shepherd_rew_exploitation": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:exploitation\"}]}"
+        },
+
+        "shepherd_rew_growth_serum": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"apotheosis:growth_serum\"}]}"
+        },
+
+        "shepherd_rew_weresheep_token": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "grimoireofgaia:weresheep_token",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 2000
+        },
+
+        "shepherd_rew_efficiency": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
+        },
+
+        "shepherd_rew_fortune": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 2500,
+            "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}"
+        }
+		
+	}
+
+}

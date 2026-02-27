@@ -1,0 +1,6 @@
+{
+	"enchantment.minecraft.thorns.desc": "[已被禁用]被攻击时对攻击者造成伤害。",
+	"enchantment.minecraft.vanishing_curse.desc": "在死亡时物品栏中存在该诅咒的物品会销毁（此整合包自带死亡不掉落，该诅咒不会生效）",
+	
+	"enchantment.minecraft.fire_aspect.desc": "使武器变为火属性，不与其他属性附加叠加，可用相应的属性源质制作附魔书"
+}

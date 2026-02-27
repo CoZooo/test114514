@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAR": { "love": 600 },
+    "USE": { "love": 600 }
+  },
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"aetherworks:pulldown": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

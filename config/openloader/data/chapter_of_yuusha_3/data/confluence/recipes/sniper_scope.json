@@ -1,0 +1,17 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:rifle_scope"
+        },
+        {
+            "item": "confluence:destroyer_emblem"
+        },
+        {
+            "item": "confluence:cross_necklace"
+        }
+    ],
+    "result": {
+        "item": "confluence:sniper_scope"
+    }
+}

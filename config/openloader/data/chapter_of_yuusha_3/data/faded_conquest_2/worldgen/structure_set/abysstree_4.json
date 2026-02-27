@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "faded_conquest_2:abysstree_4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 4,
+    "salt": 1971010427
+  }
+}

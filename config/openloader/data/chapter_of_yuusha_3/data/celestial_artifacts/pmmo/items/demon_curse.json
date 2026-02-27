@@ -1,0 +1,10 @@
+{
+  "requirements": {
+    "WEAR": { "love": 1000 },
+    "USE": { "love": 1000 }
+  },
+  "negative_effect": 
+    { 
+	"attributeslib:grievous": 4
+	}
+}

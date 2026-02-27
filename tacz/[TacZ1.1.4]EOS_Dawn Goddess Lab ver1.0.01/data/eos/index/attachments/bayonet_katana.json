@@ -1,0 +1,8 @@
+{
+  "name": "eos.attachment.bayonet_katana.name",
+  "tooltip": "eos.attachment.bayonet_katana.desc",
+  "display": "eos:bayonet_katana_display",
+  "data": "eos:bayonet_katana_data",
+  "type": "muzzle",
+  "sort": 256
+}

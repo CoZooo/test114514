@@ -1,0 +1,49 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "shizuku:yeying",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "proud_soul": 30000,
+        "name": "slashblade_addon:moonlight_cherry",
+        "refine": 3
+      }
+    },
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "shizuku:meow_stone"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "D": {
+      "item": "minecraft:gold_ingot"
+    },
+    "G": {
+      "item": "minecraft:cherry_leaves"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "minecraft:salmon"
+    },
+    "F": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "pattern": [
+    "ABH",
+    "DEF",
+    "CGK"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:chaos",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:maledictus_pact"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    }
+  ]
+}

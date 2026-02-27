@@ -1,0 +1,35 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade:slashblade",
+  "name": "shizuku:shizuku",
+  "properties": {
+    "attack_base": 67.0,
+    "max_damage": 134,
+    "slash_art": "shizuku:shizukusa",
+    "special_effects": [
+      "shizuku:shizuku"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "shizuku:model/shizuku/shizuku.obj",
+    "summon_sword_color": 65535,
+    "texture": "shizuku:model/shizuku/shizuku.png"
+  }
+}

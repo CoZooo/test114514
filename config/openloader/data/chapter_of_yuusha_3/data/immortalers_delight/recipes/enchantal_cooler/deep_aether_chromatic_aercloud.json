@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "deep_aether:sterling_aercloud"
+    }
+  ],
+  "output": {
+    "item": "deep_aether:chromatic_aercloud",
+    "count": 1
+  }
+}

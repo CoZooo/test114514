@@ -1,0 +1,38 @@
+{
+    "type": "eidolon:worktable",
+    "pattern": [
+      "ada",
+      "ebe",
+      "aga"
+    ],
+    "reagents": "hsws",
+    "key": {
+      "d": {
+        "item": "depthcrawler:reinforcedeye"
+      },
+      "b": {
+        "item": "celestial_artifacts:unowned_pendant"
+      },
+      "g": {
+        "item": "mutantmonsters:endersoul_hand"
+      },
+      "h": {
+        "item": "goety:withered_manuscript"
+      },
+      "s": {
+        "item": "yuusha:dragon_soul"
+      },
+      "w": {
+        "item": "grimoireofgaia:giga_gear"
+      },
+      "e": {
+        "item": "depthcrawler:corruptingot"
+      },
+      "a": {
+        "item": "wizards_reborn:alchemy_glass"
+      }
+    },
+    "result": {
+      "item": "eidolon:glass_hand"
+    }
+  }

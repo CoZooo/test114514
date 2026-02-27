@@ -1,0 +1,16 @@
+{
+  "name": "slashblade:sabigatana",
+  "properties": {
+    "attack_base": 13.0,
+    "slash_art": "slashblade:piercing",
+    "sword_type": [
+      "broken",
+      "sealed"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/muramasa/muramasa.obj",
+	"summon_sword_color": 5449247,
+    "texture": "slashblade:model/named/muramasa/sabigatana.png"
+  }
+}

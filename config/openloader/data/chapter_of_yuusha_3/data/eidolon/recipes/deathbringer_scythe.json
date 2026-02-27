@@ -1,0 +1,30 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "bwb",
+    "brb",
+    "bsb"
+  ],
+  "reagents": "eeee",
+  "key": {
+    "e": {
+    	"item": "eidolon:death_essence"
+    },
+    "b": {
+    	"item": "sons_of_sins:bloody_bone"
+    },
+    "r": {
+    	"item": "eidolon:reaper_scythe"
+    },
+    "s": {
+    	"item": "minecraft:skeleton_skull"
+    },
+    "w": {
+    	"item": "minecraft:wither_skeleton_skull"
+    }
+    
+  },
+  "result": {
+    "item": "eidolon:deathbringer_scythe"
+  }
+}

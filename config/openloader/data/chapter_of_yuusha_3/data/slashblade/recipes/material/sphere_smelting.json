@@ -1,0 +1,14 @@
+{
+    "type": "slashblade:proudsoul",
+    "ingredients": [
+        {
+            "item": "slashblade:proudsoul_ingot"
+        },
+        {
+            "item": "irons_spellbooks:divine_pearl"
+        }
+    ],
+    "result": {
+        "item": "slashblade:proudsoul_sphere"
+    }
+}

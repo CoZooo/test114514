@@ -1,0 +1,42 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "cataclysm:witherite_block"
+    },
+    "B": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "D": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "E": {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    "F": {
+      "item": "goety:soul_ruby"
+    },
+    "G": {
+      "item": "aetherworks:tool_rod_crude"
+    }
+  },
+  "pattern": [
+    "   BBB   ",
+    " ABDDDBA ",
+    " BCEEECB ",
+    "BDEEFEEDB",
+    "BDEFGFEDB",
+    "BDEEFEEDB",
+	" BCEEECB ",
+	" ABDDDBA ",
+	"   BBB   "
+  ],
+  "result": {
+    "item": "aetherworks:tool_rod"
+  },
+  "show_notification": true
+}

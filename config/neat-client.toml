@@ -1,0 +1,37 @@
+
+[general]
+	"Max Distance" = 24
+	"Render with Interface Disabled (F1)" = false
+	"Height Above Mob" = 0.6
+	"Draw Background" = true
+	"Background Padding" = 2
+	"Background Height" = 6
+	"Health Bar Height" = 4
+	"Plate Size" = 25
+	"Plate Size (Boss)" = 50
+	"Show Attributes" = true
+	"Show Armor" = true
+	"Group Armor (condense 5 iron icons into 1 diamond icon)" = true
+	"Color Health Bar by Type (instead of health percentage)" = true
+	"HP Text Height" = 14
+	"Show Max HP" = true
+	"Show Current HP" = true
+	"Show HP Percentage" = true
+	"Display on Players" = false
+	"Display on Bosses" = true
+	"Only show the health bar for the entity looked at" = false
+	"Show entities with full health" = true
+	"Show Debug Info with F3" = true
+	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
+	Blacklist = ["minecraft:armor_stand", "dummmmmmy:target_dummy", "illageandspillage:imp", "illageandspillage:boss_randomizer", "illageandspillage:crashager", "illageandspillage:dispenser", "illageandspillage:faker", "illageandspillage:illager_soul", "illageandspillage:mob_spirit", "illageandspillage:spirit_hand", "illageandspillage:kaboomer", "born_in_chaos_v1:pumpkin_bomb", "graveyard:falling_corpse", "stalwart_dungeons:spore_projectile", "call_of_drowner:phantom_trident_entity", "depthcrawler:deepjump", "depthcrawler:electricdeepjump", "depthcrawler:reddeepjump", "depthcrawler:nightmarejump", "depthcrawler:whitedeepjump", "depthcrawler:deeplingjump", "depthcrawler:cavedeepjump", "depthcrawler:pinkdeepjump", "depthcrawler:oceanicdeepjump", "binah:rororo", "binah:sandstorm", "too_much_bosses:bg_crack_entity", "too_much_bosses:bg_poof_entity", "too_much_bosses:bg_trap_entity", "too_much_bosses:bg_flame_entity", "too_much_bosses:bg_pillar_entity", "too_much_bosses:bg_earth_quake_entity", "touhou_little_maid:broom", "touhou_little_maid:chair", "illageandspillage:magi_heal", "illageandspillage:villager_soul", "aether:evil_whirlwind", "aether:whirlwind", "graveyard:nameless_hanged", "mokels_witch_boss:moonbeam", "mokels_witch_boss:witch_boss_projectile", "mokels_witch_boss:witch_boss_projectilefall", "rustic_engineer:submarine_abyssal", "rustic_engineer:dragon_fly", "rustic_engineer:airship", "rustic_engineer:spider_mech", "aether:slider", "aether:valkyrie_queen", "aether:sun_spirit", "lost_aether_content:aerwhale_king", "ancient_aether:mutated_aechor_plant", "irons_spellbooks:sculk_tentacle", "irons_spellbooks:root", "irons_spellbooks:spectral_hammer", "irons_spellbooks:wisp", "irons_spellbooks:magic_missile", "irons_spellbooks:dragon_breath_pool", "moonstone:flysword", "moonstone:suddenrain", "moonstone:test_e", "moonstone:test_blood", "moonstone:red_entity", "moonstone:sword", "moonstone:bolt", "moonstone:bolt_light", "moonstone:bule_bolt", "moonstone:blood_zombie_fly", "moonstone:blood_zombie_boom", "moonstone:line", "moonstone:snake", "moonstone:blood", "moonstone:attack_blood", "moonstone:owner_blood", "moonstone:blood_orb_owner", "moonstone:blood_orb_attack", "moonstone:blood_orb_small", "moonstone:sun", "call_of_drowner:phantom_trident", "call_of_drowner:phantom_trident_2", "call_of_drowner:enchant_phantom_trident_entity", "illageandspillage:hay_armor", "illageandspillage:trick_or_treat", "illageandspillage:web", "illageandspillage:scythe", "illageandspillage:axe", "illageandspillage:pumpkin_bomb", "distant_worlds:lithum_transmitter_crystal", "faded_conquest_2:poison_spike_b", "faded_conquest_2:poisonspikea", "distant_worlds:garhenna_researches_book", "goety:glacial_wall", "faded_conquest_2:whirlwind", "cthulhufishing:grimoire_tentacle", "faded_conquest_2:vessel_spawn", "goety:damned", "irons_spellbooks:firefly_swarm", "aquamirae:poisoned_chakra", "aquamirae:maze_rose", "simplyswords:battlestandard", "simplyswords:battlestandarddark", "distant_worlds:garsale_couch_ridden", "ancient_ones:amethyst_spike", "illageandspillage:web_net", "goety:volcano", "faded_conquest_2:fcdungeon", "faded_conquest_2:vfx_maiasma", "faded_conquest_2:vfx_purple_aura", "goety:totemic_wall", "goety:totemic_bomb", "goety:haunted_skull"]
+	"Max Distance Without Line of Sight" = 8
+	#Text color in hex code format
+	text_color = "FFFFFF"
+	#Whether bars on passive mobs should be shown
+	showOnPassive = true
+	#Whether bars on hostile mobs should be shown (does not include bosses)
+	showOnHostile = true
+	show_entity_name = true
+	#Disables the rendering of the vanilla name tag
+	disable_name_tag = false
+

@@ -1,0 +1,10 @@
+{
+  "subtitles.entity.starving_skeleton.death": "Starving Skeleton Die",
+  "subtitles.entity.starving_skeleton.step": "Starving Skeleton Step",
+  "subtitles.entity.starving_skeleton.ambient": "Starving Skeleton Ambient",
+  "subtitles.entity.starving_skeleton.hurt": "Starving Skeleton Hurt",
+  "item.starvingskeleton.starving_skeleton_spawn_egg": "饥饿巨型骷髅刷怪蛋",
+  "subtitles.entity.starving_skeleton.spawn": "Starving Skeleton Spawn",
+  "entity.starvingskeleton.starving_skeleton": "饥饿巨型骷髅",
+  "effect.starvingskeleton.earthquake": "地动山摇"
+}

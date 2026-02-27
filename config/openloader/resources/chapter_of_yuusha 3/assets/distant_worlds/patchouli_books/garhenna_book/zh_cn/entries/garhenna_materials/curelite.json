@@ -1,0 +1,19 @@
+{
+	"name": "曲雷琍",
+	"icon": "distant_worlds:curelite",
+	"category": "distant_worlds:garhenna_materials",
+	"sortnum": 5,
+	"advancement": "distant_worlds:new_energy",
+	"pages": [
+		{
+			"type": "patchouli:smelting",
+			"recipe": "distant_worlds:curelite",
+			"text": "在燃烧平原的生物群系中经常可以发现曲雷琍矿石。挖掘它你将获得粗曲雷琍，它已经可以作为燃料在熔炉中维持火力。粗曲雷琍可以制成这种材料的更饱和的形式，从而能够释放更多的能量。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:raw_curelite_block_recipe",
+			"recipe2": "distant_worlds:curelite_block_recipe"
+		}
+	]
+}

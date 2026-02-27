@@ -1,0 +1,23 @@
+{
+    "type": "slashblade:proudsoul",
+    "ingredients": [
+        {
+            "item": "slashblade:proudsoul_crystal"
+        },
+        {
+            "item": "yuusha:seven_color"
+        },
+        {
+            "item": "irons_spellbooks:dragonskin"
+        },
+        {
+            "item": "irons_spellbooks:dragonskin"
+        },
+        {
+            "item": "irons_spellbooks:dragonskin"
+        }
+    ],
+    "result": {
+        "item": "slashblade:proudsoul_trapezohedron"
+    }
+}

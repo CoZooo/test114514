@@ -1,0 +1,21 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key": {
+	"A": {
+      "item": "cthulhufishing:runic_tablet"
+    },
+	"B": {
+      "item": "irons_spellbooks:blood_vial"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/blood_moon"
+}

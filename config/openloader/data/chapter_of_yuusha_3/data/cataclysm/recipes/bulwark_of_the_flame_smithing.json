@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "yuusha:ancient_aether_shard"
+  },
+  "base": {
+    "item": "cataclysm:black_steel_targe"
+  },
+  "result": {
+    "item": "cataclysm:bulwark_of_the_flame"
+  },
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  }
+}

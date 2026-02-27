@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "aetherworks:tool_rod_infused"
+    },
+    {
+      "item": "yuusha:twist_ingot"
+    },
+    {
+      "item": "irons_spellbooks:lightning_upgrade_orb"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    }
+  ],
+  "output": {
+    "item": "embers:tyrfing"
+  },
+  "tablet": {
+    "item": "distant_worlds:firon_sword"
+  }
+}

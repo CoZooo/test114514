@@ -1,0 +1,6 @@
+{
+	"name": "杂项信息",
+	"description": "此类别包含其他信息。",
+	"icon": "distant_worlds:textures/screens/misc_information_icon.png",
+	"sortnum": 1
+}

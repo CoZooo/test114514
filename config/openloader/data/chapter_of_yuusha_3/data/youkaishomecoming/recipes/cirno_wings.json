@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "youkaishomecoming:fairy_ice_crystal"
+    },
+    "B": {
+      "item": "locusazzurro_icaruswings:colored_feather_wings"
+    }
+  },
+  "pattern": [
+    "A A",
+    "ABA",
+    "A A"
+  ],
+  "result": {
+    "item": "youkaishomecoming:cirno_wings"
+  },
+  "show_notification": true
+}

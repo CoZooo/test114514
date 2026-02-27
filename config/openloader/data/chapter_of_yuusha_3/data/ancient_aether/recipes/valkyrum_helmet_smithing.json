@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "aether:phoenix_helmet"
+  },
+  "addition": {
+    "item": "bosses_of_mass_destruction:obsidian_heart"
+  },
+  "result": {
+    "item": "ancient_aether:valkyrum_helmet"
+  },
+  "template": {
+    "item": "deep_aether:stratus_smithing_template"
+  }
+}

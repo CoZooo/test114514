@@ -1,0 +1,79 @@
+{
+	"name": "塞摩壬兽",
+	"icon": "distant_worlds:salmoran_eye",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 5,
+	"advancement": "distant_worlds:born_to_crawl",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "塞摩壬兽",
+			"item": "distant_worlds:salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 4$(#660066)$(br)Attack: 5$()$(br)塞摩壬兽是一种经常在死亡山谷生物群系中发现的飞行怪物。它们不容忍家里有陌生人，所以当它们看到你时，即使是从远处，它们也会试图靠近你，并用它们尾部有毒刺的强壮尾巴击打。鳞片和肉都可以从它们那获取。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "压抑",
+			"item": "minecraft:potion{Potion:\"distant_worlds:suppression_potion\"}",
+			"text": "如果它们击中你，那么你将受到一种新的负面影响，称为压抑，这将阻止你恢复健康。5级效果时会完全阻断再生。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:at_the_very_top",
+			"recipe": "distant_worlds:salmoran_treat_recipe",
+			"text": "玩家可以用塞摩壬兽饲料驯服它们。但你应该小心，因为野生的塞摩壬兽仍然会试图攻击你。驯服它们的几率是25%，否则你只有在一段时间后才能再次尝试。被攻击的塞摩壬兽也会对玩家感到愤怒，在一段时间内无法驯服。驯服的塞摩壬兽的健康和耐力水平可以通过使用威琍特果来提高。驯服的塞摩壬兽和阿尔法塞摩壬兽可以使用塞摩壬兽饲料进行繁殖。 "
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "幼年塞摩壬兽",
+			"item": "distant_worlds:baby_salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: 2$()$(br)从蛋中孵化出来后，幼年塞摩壬兽仍然不能使用翅膀，只能在地上爬行。如果你在孵化时离得足够近，幼年塞摩壬兽就会被你驯服，否则，它们只是不会对你怀有敌意。但如果你打了他们，他们就会开始攻击你，通过跳跃来移动。成年后，幼年塞摩壬兽会留下鳞片，这是制作新盔甲的一种材料。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "阿尔法塞摩壬兽",
+			"item": "distant_worlds:alpha_salmoran_spawn_egg",
+			"text": "$(l)$(#990000)Health: 45$(#336600)$(br)Armor: 6$(#660066)$(br)Attack: 7$()$(br)阿尔法塞摩壬兽比平时大得多，也强壮得多。他们强大一击能刺穿盾牌，对其造成了巨大的伤害。死亡后，他们可以掉落一只眼睛，这只眼睛用于制作一种特殊的配饰——塞摩壬兽王冠。你驯服的塞摩壬兽可以用塞摩壬兽之眼变成阿尔法塞摩壬兽，也可以保护你免受其他塞摩壬兽的伤害。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"title": "阿尔法塞摩壬兽战斗",
+			"text": "驯服的阿尔法塞摩壬兽可以同时被两名玩家使用来飞行，尽管这对他来说并不容易。要做到这一点，您需要使用指定按键不断保持或增加高度。$(t:Up to 1 second)$(o)按键按下的时间越长$()，你会飞得更高。每次起飞都会消耗阿尔法塞摩壬兽相应数量的耐力。耐力会随着时间的推移而再生。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:salmoran_crown_recipe",
+			"text": "当你戴上王冠时，它会保护你免受塞摩壬兽的攻击，除非你攻击他们。塞摩壬兽会将获得王冠的玩家视为领导者之一，但这并不能将他们从其他阿尔法塞摩壬兽中拯救出来。皇冠可以在工作台上用塞摩壬兽之眼进行修复。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:red_wiltum_couch_recipe",
+			"text": "你可以制作一张舒适的坐垫，驯服的塞摩壬兽会在那里等你。$(br)它也可以是你家的一个很好的装饰，因为它可以像床一样染色。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"advancement": "distant_worlds:encased_soul",
+			"recipe": "distant_worlds:helyst_bell_recipe",
+			"text": "有时你的塞摩壬兽飞得太远。使用海琍斯特钟让他们跟着你。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:wiltum_crate_recipe",
+			"text": "合成一个威琍特板条箱，带着驯服的幼年塞摩壬兽长途旅行，甚至前往其他世界。当你从板条箱中释放一只幼年塞摩壬兽时，你就成了它的拥有者。"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_armor/salmoran_armor",
+				"distant_worlds:garhenna_natural/wiltum_fruit"
+			]
+		}
+	]
+}

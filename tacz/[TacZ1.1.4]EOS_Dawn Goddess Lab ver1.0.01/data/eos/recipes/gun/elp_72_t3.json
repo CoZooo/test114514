@@ -1,0 +1,51 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 38
+    },
+    {
+      "item": {
+        "item": "cataclysm:ignitium_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "eos:alloy"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "eos:battery"
+        }
+      },
+      "count": 1
+    },
+    
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:elp_72_t3",
+    "attachments": {
+      "muzzle": "eos:bayonet_katana"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

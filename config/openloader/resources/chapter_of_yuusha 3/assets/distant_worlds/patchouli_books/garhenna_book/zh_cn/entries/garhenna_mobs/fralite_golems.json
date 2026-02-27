@@ -1,0 +1,44 @@
+{
+	"name": "法尔琍傀儡",
+	"icon": "distant_worlds:fralite_heart",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 1,
+	"advancement": "distant_worlds:awakened_stones",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "法尔琍傀儡是被唤醒的熔融石头，可以通过魔法移动，通常在燃烧平原的生物群落中发现。那些创造它们的人早已离开了这个地方，忠诚的仆人仍然继续守卫着这些废弃的图书馆。时间长了，它们身上出现了很多裂缝，一些部件严重损坏。共有3种类型的傀儡。他们的外表和打斗风格各不相同。"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "杜鲁斯傀儡",
+			"item": "distant_worlds:druth_spawn_egg",
+			"text": "$(l)$(#990000)Health: 30$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: 5$()$(br)杜鲁斯傀儡是一个很大的傀儡，生命值很高。你也很难用你的攻击来击退他。他能够对你施加点燃效果，并在接下来的一击中点燃你。它可以给你熔化的法尔琍碎片和小几率一个法尔琍之心。 ",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "克罗蒂傀儡",
+			"item": "distant_worlds:crouthil_spawn_egg",
+			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 1$(#660066)$(br)Attack: 2$()$(br)克罗蒂傀儡是一个移动速度比其他人更快的小傀儡。他们更喜欢集体攻击，可以对你施加低级别的点燃效果。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "须鲁洛傀儡",
+			"item": "distant_worlds:shrullot_spawn_egg",
+			"text": "$(l)$(#990000)Health: 15$(#336600)$(br)Armor: 2$(#660066)$(br)Attack: Special$()$(br)须鲁洛傀儡是一种飞行傀儡，能够通过投掷爆炸性的法尔琍石头进行远程空中攻击。你可以从中获得熔化的法尔琍碎片和法尔琍球。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "燃火",
+			"item": "minecraft:potion{Potion:\"distant_worlds:ignition_potion\"}",
+			"text": "具有燃火效果的实体在每次被另一个活动实体击中后，将被点燃与效果水平相等的秒数。"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler": "false"
+		}
+	]
+}

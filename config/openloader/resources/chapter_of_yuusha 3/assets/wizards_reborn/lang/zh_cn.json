@@ -1,0 +1,42 @@
+{
+	"item.wizards_reborn.arcane_wood_bow": "奥术木弓『封弓』",
+
+	"block.wizards_reborn.arcane_workbench": "光蕴工作台",
+	"gui.wizards_reborn.arcane_workbench.title": "光蕴工作台",
+	"sounds.wizards_reborn.arcane_workbench_start": "光蕴工作台：启动",
+    "sounds.wizards_reborn.arcane_workbench_end": "光蕴工作台：结束",
+    "sounds.wizards_reborn.arcane_workbench_loop": "光蕴工作台：循环",
+	"wizards_reborn.arcanemicon.chapter.arcane_workbench": "光蕴工作台",
+    "wizards_reborn.arcanemicon.page.arcane_workbench.title": "光蕴工作台",
+
+	"item.wizards_reborn.arcanum_dust": "秘术粉",
+	"gui.wizards_reborn.jei.arcanum_dust_transmutation": "秘术粉转化",
+
+	"item.wizards_reborn.cracked_sarcon_impetus": "碎裂的黯钢促符",
+	"item.wizards_reborn.sarcon_impetus": "黯钢促符",
+	"item.wizards_reborn.sarcon_node": "黯钢结点",
+	"item.wizards_reborn.cracked_arcane_gold_impetus": "碎裂的奥术金促符",
+	"item.wizards_reborn.arcane_gold_impetus": "奥术金促符",
+	"item.wizards_reborn.arcane_gold_node": "奥术金结点",
+	"block.wizards_reborn.mor_colony": "莫尔菌落",
+	"block.wizards_reborn.elder_mor_colony": "老莫尔菌落",
+
+	"lore.wizards_reborn.shrimp": "一只虾能成为你的宠物吗？",
+	"lore.wizards_reborn.fried_shrimp": "你太残暴了...",
+	"item.wizards_reborn.shrimp": "褐虾",
+	"item.wizards_reborn.fried_shrimp": "炸褐虾",
+	"item.wizards_reborn.underground_grape": "地下葡萄",
+	"block.wizards_reborn.pitcher_turnip": "猪笼草",
+	"attribute.name.wizards_reborn.magic_modifier": "奥术能量强化",
+	"block.wizards_reborn.placed_items": "放置的物品",
+	"block.wizards_reborn.shiny_clover_crop": "闪光四叶草作物",
+	"item.wizards_reborn.shiny_clover_seed": "闪光四叶草种子",
+	"block.wizards_reborn.shiny_clover": "闪光四叶草",
+	"block.wizards_reborn.potted_shiny_clover": "闪光四叶草盆栽",
+	"item.wizards_reborn.innocent_wood_trim": "皓洁木符文纹饰",
+	"item.wizards_reborn.wisestone_trim": "秘渊石符文纹饰",
+	"item.wizards_reborn.arcane_wood_trim": "奥术木符文纹饰",
+	"lore.wizards_reborn.wissen_wand_mode.receive_connect": "发送连接模式",
+    "lore.wizards_reborn.wissen_wand_mode.send_connect": "接收连接模式",
+	"item.wizards_reborn.arcane_linen_seeds": "奥术亚麻种子"
+}

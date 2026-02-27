@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:spell_overlimit_core",
+        "Count": 1
+      }
+    }
+  },
+  "power": 0.35,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "item": "yuusha:shard_1"
+    },
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    {
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    {
+      "item": "irons_spellbooks:legendary_ink"
+    },
+    {
+      "item": "yuusha:ignitium_star"
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+	icon: {
+		Count: 1
+		id: "apotheosis:potion_charm"
+		tag: {
+			Damage: 0
+			Potion: "minecraft:swiftness"
+		}
+	}
+	id: "102E23D6318D5262"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:water_resistance": {
+								element: {
+									thunder: -5
+									water: 10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_water_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:darkness_resistance": {
+								element: {
+									darkness: 10
+									light: -5
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_darkness_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:haste"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:long_night_vision"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:strong_leaping"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:fire_resistance": {
+								element: {
+									fire: 10
+									ice: -5
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_fire_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:long_invisibility"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:long_slow_falling"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:long_absorption"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:ice_resistance": {
+								element: {
+									fire: -5
+									ice: 10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_ice_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:thunder_resistance": {
+								element: {
+									thunder: 10
+									water: -5
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_thunder_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:strong_swiftness"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:long_water_breathing"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:strong_strength"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "buzzier_bees:strong_luck"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:light_resistance": {
+								element: {
+									darkness: -5
+									light: 10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_light_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:earth_resistance": {
+								element: {
+									earth: 10
+									wind: -5
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_earth_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:flora_resistance": {
+								element: {
+									flora: 10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_flora_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:wind_resistance": {
+								element: {
+									earth: -5
+									wind: 10
+								}
+								style: { }
+							}
+						}
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "elementalcombat:strong_wind_resistance"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "mowziesmobs:long_poison_resist"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "netherdepthsupgrade:long_lava_vision"
+					Repair: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "infinite_abyss:depth_resistance_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "infinite_abyss:cold_resistance_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "goety:climbing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "minecraft:regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "eidolon:reinforced"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "celestial_core:crit_rate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "celestial_core:crit_damage"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "celestial_core:regen_rate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "apotheosis:vitality"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "born_in_chaos_v1:stimulating_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Modifier: "forbidden_arcanus:eternal"
+					Potion: "netherdepthsupgrade:glowdine_long_glowing"
+				}
+			}
+		}
+	]
+	title: "永恒正面药水护符"
+}

@@ -1,0 +1,32 @@
+{
+	"name": "洛特勒怪",
+	"icon": "distant_worlds:glowing_pollen",
+	"category": "distant_worlds:garhenna_mobs",
+	"sortnum": 7,
+	"advancement": "distant_worlds:trees_are_watching",
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"title": "洛特勒怪",
+			"item": "distant_worlds:loteress_spawn_egg",
+			"text": "$(l)$(#990000)Health: 10$(#336600)$(br)Armor: 0$(#660066)$(br)Attack: Special$()$(br)洛特勒怪是一个飞行的怪物。它们被发现在粘液沼泽生物群系中，不会对玩家产生敌意。如果附近有一只健康状况不佳的托伦，它们的能力是在4秒内大量喷出花粉。",
+			"link_recipe": "true"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "在此期间，范围内的所有托伦都将受到越来越高水平的再生作用，最高可达4，所有易受花粉影响的生物都将中毒。使用此能力后，它将在20秒内恢复。如果你击中了最近没有使用过这种能力的洛特勒怪，有70%的机会掉落一些花粉，并对小半径内易受花粉影响的实体造成微弱的毒性作用。为了保护自己，你可以在被击后使用盾牌。"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "distant_worlds:glowing_pollen_jar_recipe",
+			"text": "从这些生物身上，你可以很小的机会获得闪光花粉和粘液迦塞尔树皮。闪光花粉是一种制作名为闪光花粉罐的配饰的材料。当戴在脖子上时，它能够将发光花粉撒在附近，并暂时照亮一个区域，同时失去耐久。在工作台上，罐子可以装满3个发光花粉。"
+		},
+		{
+			"type": "patchouli:relations",
+			"entries": [
+				"distant_worlds:garhenna_natural/garsale_trees",
+				"distant_worlds:garhenna_mobs/toran"
+			]
+		}
+	]
+}

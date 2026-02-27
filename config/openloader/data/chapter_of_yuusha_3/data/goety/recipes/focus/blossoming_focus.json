@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "animation",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "item": "immortalers_delight:warped_laurel"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "farmersdelight:straw_bale"
+    },
+    {
+      "item": "goety:corpse_blossom"
+    },
+    {
+      "item": "goety:corpse_blossom"
+    }
+  ],
+  "result": {
+    "item": "goety:blossoming_focus"
+  }
+}

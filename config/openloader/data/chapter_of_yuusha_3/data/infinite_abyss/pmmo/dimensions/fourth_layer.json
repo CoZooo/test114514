@@ -1,0 +1,22 @@
+{
+    "bonus":{
+        "DIMENSION":{
+            "combat": 1.25,
+		    "archery": 1.25,
+		    "endurance": 1.25,
+		    "flying": 0.75,
+		    "farming": 0.75
+        }
+    },
+    "positive_effect":{
+        "goety:sapped": 19,
+		"distant_worlds:suppression": 3,
+		"goety:plunge": 1,
+		"aether_redux:adrenal_fatigue": 4,
+		"attributeslib:sundering": 1,
+		"malum:silenced": 0
+    },
+    "travel_req":{},
+    "vein_blacklist":["minecraft:bedrock"],
+    "mob_multiplier": {}
+}

@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "count": 50
+    },
+    {
+      "item": {
+        "item": "minecraft:lime_dye"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_koei1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "BAB",
+    "CFE",
+    "BGB"
+  ],
+  "reagents": "DDDD",
+  "key": {
+    "A": {
+      "item": "infinite_abyss:cursed_opal_block"
+    },
+    "B": {
+      "item": "goety:spirit_fabric"
+    },
+    "C": {
+      "item": "minecraft:red_wool"
+    },
+    "D": {
+      "item": "infinite_abyss:glow_bulb"
+    },
+    "E": {
+      "item": "minecraft:black_wool"
+    },
+    "F": {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    "G": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "arcalis_bosses:jack_puppet"
+  }
+}

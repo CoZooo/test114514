@@ -1,0 +1,7 @@
+{
+  "name": "eos.attachment.scope_chasing_light.name",
+  "display": "eos:scope_chasing_light_display",
+  "data": "eos:scope_chasing_light_data",
+  "type": "scope",
+  "sort": 256
+}

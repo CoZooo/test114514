@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "distant_worlds:wiltum_tree_tower_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "salt": 528784061
+  }
+}

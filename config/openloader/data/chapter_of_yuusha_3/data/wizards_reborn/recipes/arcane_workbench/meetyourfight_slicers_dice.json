@@ -1,0 +1,30 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "JNJ",
+    "NWN",
+    "JNJ",
+    "ABAB"
+  ],
+  "key": {
+    "N": {
+      "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+    },
+    "W": {
+      "item": "meetyourfight:fortunes_favor"
+    },
+    "A": {
+      "item": "yuusha:curse_dragon_scale"
+    },
+    "J": {
+      "item": "hmag:fortune_crystal"
+    },
+    "B": {
+      "item": "yuusha:curse_astral_dust"
+    }
+  },
+  "output": {
+    "item": "meetyourfight:slicers_dice"
+  },
+  "wissen": 10000
+}

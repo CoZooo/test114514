@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "call_of_drowner:coral_smithing_template"
+  },
+  "base": {
+    "item": "gauntlets:quick_iron_gauntlet"
+  },
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "item": "gauntlets:quick_diamond_gauntlet"
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "s s",
+    "bwb",
+    "sbs"
+  ],
+  "reagents": "htlt",
+  "key": {
+    "b": {
+      "item": "eidolon:imbued_bones"
+    },
+    "w": {
+      "item": "born_in_chaos_v1:bone_heart"
+    },
+    "s": {
+      "item": "eidolon:silver_ingot"
+    },
+    "t": {
+      "item": "eidolon:tattered_cloth"
+    },
+    "h": {
+      "item": "eidolon:holy_symbol"
+    },
+    "l": {
+      "item": "goety:unholy_blood"
+    }
+  },
+  "result": {
+    "item": "eidolon:bonelord_chestplate"
+  }
+}

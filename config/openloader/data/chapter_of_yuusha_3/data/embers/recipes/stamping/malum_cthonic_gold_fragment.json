@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "name": "aetherworks:alchemic_precursor"
+  },
+  "input": {
+    "item": "aether:golden_amber"
+  },
+  "output": {
+    "item": "malum:cthonic_gold_fragment"
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

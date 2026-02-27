@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:aritemis",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "yuusha:sea_core"
+    },
+    {
+      "item": "cataclysm:mech_eye"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "cataclysm:mech_eye"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "cataclysm:mech_eye"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "cataclysm:mech_eye"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    }
+  ]
+}

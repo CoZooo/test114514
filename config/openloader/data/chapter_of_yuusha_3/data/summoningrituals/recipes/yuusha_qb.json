@@ -1,0 +1,11 @@
+{
+    "type": "summoningrituals:altar",
+    "catalyst": { "item": "mowziesmobs:earthrend_gauntlet" },
+    "outputs": [
+		{ "item": "yuusha:qb", "count": 4 }
+    ],
+    "inputs": [
+        { "ingredient": { "item": "malum:hex_ash" }, "count": 4 }
+    ],
+    "recipe_time": 24000
+}

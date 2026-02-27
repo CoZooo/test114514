@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "enigmaticlegacy:ascension_amulet"
+	},
+	"requirements": {
+		"eterna": 50,
+		"quanta": 100,
+		"arcana": 0
+	},
+	"result": {
+		"item": "enigmaticlegacy:eldritch_amulet",
+		"count": 1
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:necro_crown"
+  },
+  "craftType": "necroturgy",
+  "research": "buried",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "yuusha:tomb_stone"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    }
+  ],
+  "result": {
+    "item": "goety:nameless_crown"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "N": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "X": {
+      "item": "aetherworks:block_shards_raw"
+    }
+  },
+  "pattern": [
+    "NNNNNNNNN",
+    "NCXXCXXCN",
+    "NXCCXCCXN",
+    "NCXXCXXCN",
+    "NNNNNNNNN"
+  ],
+  "result": {
+    "item": "aetherworks:ingot_aether"
+  },
+  "show_notification": true
+}

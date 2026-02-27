@@ -1,0 +1,42 @@
+
+["Auto-Targeting Setting"]
+	#Enable the enemy lock-on switch?[Default:true]
+	enablesEnemyLockOnSwitch = true
+	#The maximum distance of the crosshair lock-on.[Default:100.0,Original Resharped:40.0]
+	#Range: 0.0 ~ 200.0
+	crosshairMaxDist = 100.0
+	#The maximum angle of the crosshair lock-on.[Default:10.0,Original Resharped:0.0]
+	#Range: 0.0 ~ 180.0
+	crosshairMaxAngle = 10.0
+	#The maximum distance of the nearest lock-on.[Default:32.0,Original Resharped:16.0]
+	#Range: 0.0 ~ 200.0
+	nearestMaxDist = 32.0
+	#The rotation speed of the lock-on.[Default:1.0]
+	#Range: 0.0 ~ 8.0
+	lockonRotationSpeed = 1.0
+	#Enable air trick-dodge?[Default:true]
+	enablesAirTrickDodge = true
+	#The speed multiplier of air trick-dodge.[Default:0.5]
+	#Range: 0.0 ~ 1.0
+	airTrickDodgeSpeedMultiplier = 0.5
+	#Enable interrupt combos?[Default:true]
+	enablesInterruptCombos = true
+	#Slow down attenuation value.[Default:0.05]
+	#Range: 0.0 ~ 1.0
+	slowDownAttenuationValue = 1.0
+	#Slow down attenuation max value.[Default:0.6]
+	#Range: 0.0 ~ 1.0
+	slowDownAttenuationMaxValue = 1.0
+	#Enable fortune drop equipment?[Default:true]
+	enablesFortuneDrop = true
+	#Enable the carry type switching function?[Default:true]
+	enablesChangeCarryType = true
+	#Enable bind owner function?[Default:true]
+	enablesBindOwner = true
+	#Enable S-Rank Boost function?[ Default:true]
+	enablesSRankBoost = true
+	#Enable the sneaking no back-off switch?[Default:true]
+	enablesSneakingNoBackOffSwitch = true
+	#Enable blade no slow down?[Default:true]
+	enablesBladeNoSlowDown = true
+

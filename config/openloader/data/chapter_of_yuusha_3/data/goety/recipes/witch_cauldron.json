@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:cauldron"
+  },
+  "craftType": "forge",
+  "soulCost": 400,
+  "duration": 20,
+  "research": "warred",
+  "ingredients": [
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:witch_cauldron"
+  }
+}

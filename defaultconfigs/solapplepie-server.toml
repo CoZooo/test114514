@@ -1,0 +1,121 @@
+
+[Benefits]
+	# A list of diversity value thresholds, in ascending order. When the player's food diversity reaches a threshold,
+	# they will get the benefits associated with that threshold.
+	#
+	#
+	thresholds = [8.0, 12.0, 16.0, 20.0, 24.0, 28.0, 32.0, 36.0, 40.0, 44.0, 48.0, 52.0, 56.0, 60.0, 64.0, 68.0, 72.0, 76.0, 80.0, 100.0, 200.0]
+	# 
+	# Define custom benefits here. Each entry in the list corresponds to a benefit that will be obtained
+	# at the corresponding diversity threshold defined the list above. For example, the first entry in
+	# this list will be applied when the player's food diversity reaches the number in the first entry in
+	# the threshold list above.
+	# A benefit can also be marked as a detriment. In that case, its activation is reversed.
+	# A detriment is applied while the player has less diversity than the threshold,
+	# and will be removed when the threshold is reached.
+	# Each benefit is a string with the following form: [+/-][type],[registry name],[value] (without the brackets)
+	# A leading plus (or the of a symbol) denotes a benefit, while a minus denotes a detriment.
+	# The type can either be 'attribute' for attribute modifiers or 'effect' for potion effects
+	# Registry names for common vanila attributes are 
+	# generic.max_health, generic.knockback_resistance, generic.movement_speed, generic.luck, 
+	# generic.attack_damage, generic.attack_speed, generic.armor, generic.armor_toughness 
+	# The value of attributes is the numerical number that will be added to that attribute
+	# Use a negative number for subtraction. Multiplicative modifiers are not supported.
+	# For potion effects, the value is an integer and is the potion effect amplifier. Note
+	# that the amplifier is 0 indexed, so minecraft:strength,1 corresponds to Strength II
+	#
+	# To add multiple benefits to the same threshold, separate them by a semicolon ';'
+	# Make sure that you have NO SPACES!
+	# As an example, 'attribute,generic.max_health,2;effect,strength,1' will give both +2 max hp
+	# and Strength II at the corresponding threshold.
+	# 'attribute,generic.attack_damage,1;-effect,slowness,0' will give +1 attack damage at the corresponding threshold
+	# and Slowness I below the corresponding threshold.
+	#
+	#
+	benefitsUnparsed = ["attribute,generic.armor_toughness,4;attribute,generic.attack_damage,4", "attribute,generic.armor_toughness,4;attribute,generic.attack_damage,4", "effect,regeneration,1;attribute,generic.armor_toughness,4;attribute,generic.attack_damage,4", "attribute,generic.armor_toughness,4;attribute,generic.attack_damage,4", "attribute,generic.armor_toughness,4;attribute,generic.attack_damage,4", "effect,regeneration,1;attribute,generic.attack_damage,6", "attribute,generic.luck,1", "attribute,generic.armor_toughness,4", "attribute,generic.luck,1", "attribute,generic.armor_toughness,4;effect,resistance,2", "attribute,generic.armor_toughness,4;attribute,generic.luck,1", "attribute,generic.attack_damage,6", "attribute,generic.armor_toughness,4;attribute,generic.luck,1", "attribute,generic.attack_damage,6", "attribute,generic.armor_toughness,4;attribute,generic.luck,1", "attribute,generic.attack_damage,6", "attribute,generic.armor_toughness,4;attribute,generic.luck,1", "attribute,generic.attack_damage,6", "attribute,generic.luck,1;attribute,generic.armor_toughness,4", "attribute,generic.luck,1;attribute,generic.attack_damage,10;effect,resistance,3;effect,saturation,0;effect,farmersdelight:nourishment,0", "effect,resistance,4"]
+	# The minimum number of foods a player needs to eat before any benefits are applied.
+	#
+	#
+	#Range: 0 ~ 1000
+	minFoodsToActivate = 100
+
+[Filtering]
+	# Foods in this list won't contribute to food diversity.
+	#
+	#
+	blacklist = ["theinkarena:inkstained_grimoire", "forbidden_arcanus:strange_root", "malum:concentrated_gluttony", "youkaishomecoming:sake_bottle"]
+	#
+	# When this list contains anything, the blacklist is ignored and instead only foods from here count.
+	#
+	#
+	whitelist = []
+
+[Miscellaneous]
+	# Whether or not to reset food diversity on death, effectively losing all benefits.
+	#
+	#
+	resetOnDeath = false
+	#
+	# If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked.
+	#
+	#
+	limitProgressionToSurvival = false
+	#
+	# How many foods should be tracked. I.e., how many food items eaten in the past should count toward food diversity.
+	# Note that the larger this is, the higher your potential diversity value can be, so keep this mind
+	# if you are defining custom thresholds/benefits above.
+	# !!!If you update queueSize, and leave the other advanced options unchanged,
+	# make sure you change endDecay (below) to match queueSize, or else nothing will change!!!
+	#
+	#
+	#Range: 1 ~ 1000
+	queueSize = 8
+
+[Advanced]
+	# These config options all affect the technical details of how diversity is calculated.
+	# Please look at the explanation on the wiki on the github to see how these values work.
+	#
+	# Lowest possible diversity contribution a food can give. This is a multiplier, not an
+	# absolute value!
+	#
+	#
+	#Range: 0.0 ~ 1.0
+	minContribution = 1.0
+	#
+	# The default diversity value when you eat a food. There is little reason to ever change this.
+	#
+	#
+	#Range: 0.0 ~ 100.0
+	defaultContribution = 1.0
+	#
+	# How many meals in the past should the diversity penalty stop from.
+	# **Needs to be less than queueSize and greater than startDecay!!!**
+	# Note that if you update queueSize, to retain the default behavior, you need to also
+	# set endDecay equal to the queueSize
+	#
+	#
+	#Range: 0 ~ 1000
+	endDecay = 8
+	#
+	# How many meals in the past should the diversity time penalty start to apply.
+	# **Needs to be less than queueSize and less than or equal to endDecay!!!**
+	#
+	#
+	#Range: 0 ~ 1000
+	startDecay = 8
+	#
+	# Whether blacklisted foods should still take a spot in the queue, even if they don't contribute any diversity.
+	#
+	#
+	shouldForbiddenCount = false
+
+[Complexity]
+	# Define custom complexity values for individual foods here.
+	# The complexity value of a food is how much diversity points it gives. 
+	# The base diversity value of foods not defined here is equal to defaultContribution.
+	# Each entry in the list should be a string defining one food, and the format is [registry name],[value]
+	# Note that tags are NOT currently supported.
+	#
+	#
+	complexityUnparsed = ["goety:void_bottle,2", "minecraft:golden_carrot,2", "farmersdelight:apple_pie_slice,2", "farmersrespite:green_tea,4", "farmersrespite:yellow_tea,4", "farmersrespite:coffee,4", "farmersrespite:black_tea,4", "farmersrespite:rose_hip_tea,4", "farmersrespite:dandelion_tea,4", "farmersrespite:black_tea,4", "grimoireofgaia:golden_apple_pie_slice,4", "born_in_chaos_v1:corpse_maggot,4", "born_in_chaos_v1:fried_maggot,4", "minecraft:golden_apple,4", "hmag:honeyed_apple,4", "buzzier_bees:honey_apple,4", "hmag:soul_apple,6", "farmersdelight:apple_cider,6", "farmersrespite:strong_apple_cider,6", "born_in_chaos_v1:holiday_candy,6", "distant_worlds:garsale_fruit,6", "yuusha:stewed_maggot,8", "immortalers_delight:traveer,8", "immortalers_delight:clear_water_vodka,8", "immortalers_delight:nether_kvass,8", "immortalers_delight:piglin_odori_sake,8", "immortalers_delight:dreumk_wine,8", "immortalers_delight:evolutcorn_beer,8", "immortalers_delight:sticky_beer,8", "immortalers_delight:vulcan_coktail,8", "immortalers_delight:leaf_tea,8", "immortalers_delight:leisamboo_tea,8", "immortalers_delight:iced_black_tea,8", "immortalers_delight:pearlipearl_milk_tea,8", "immortalers_delight:pearlipearl_milk_green,8", "immortalers_delight:stove_black_tea,8", "immortalers_delight:leaf_green_tea,8", "immortalers_delight:british_yellow_tea,8", "immortalers_delight:cherry_pearlipearl_tea,8", "immortalers_delight:gleeman_tear,8", "immortalers_delight:fruit_tea,8", "youkaishomecoming:green_tea,8", "youkaishomecoming:white_tea,8", "youkaishomecoming:black_tea,8", "youkaishomecoming:oolong_tea,8", "youkaishomecoming:cornflower_tea,8", "youkaishomecoming:tea_mocha,8", "youkaishomecoming:saidi_tea,8", "youkaishomecoming:sakura_honey_tea,8", "youkaishomecoming:genmai_tea,8", "youkaishomecoming:scarlet_tea,8", "youkaishomecoming:green_water,8", "youkaishomecoming:espresso,8", "youkaishomecoming:americano,8", "youkaishomecoming:ristretto,8", "youkaishomecoming:latte,8", "youkaishomecoming:affogato,8", "youkaishomecoming:con_panna,8", "youkaishomecoming:cappuccino,8", "youkaishomecoming:macchiato,8", "youkaishomecoming:wind_priestesses,8", "youkaishomecoming:scarlet_mist,8", "youkaishomecoming:tengu_tango,8", "youkaishomecoming:dassai,8", "youkaishomecoming:daiginjo,8", "youkaishomecoming:suigei,8", "youkaishomecoming:kappa_village,8", "youkaishomecoming:hakutsuru,8", "youkaishomecoming:kiku,8", "youkaishomecoming:sparrow_sake,8", "youkaishomecoming:mead,8", "youkaishomecoming:mio,8", "youkaishomecoming:mocha,8",  "born_in_chaos_v1:magical_holiday_candy,8", "grimoireofgaia:golden_apple_pie,8", "distant_worlds:garsale_elixir,8", "distant_worlds:wiltum_elixir,8", "crockpot:taffy,8", "crockpot:iced_tea,8", "crockpot:flower_salad,8", "crockpot:ice_cream,8", "bhc:relic_apple,8", "minecraft:enchanted_golden_apple,10", "crockpot:ceviche,10", "crockpot:surf_n_turf,10", "crockpot:mushy_cake,10", "distant_worlds:glistering_garsale_fruit,10", "bosses_of_mass_destruction:crystal_fruit,10", "locusazzurro_icaruswings:mead,10", "locusazzurro_icaruswings:zephir_infused_mead,10", "locusazzurro_icaruswings:nether_infused_mead,10", "locusazzurro_icaruswings:void_infused_mead,10", "locusazzurro_icaruswings:herbs_infused_mead,10", "locusazzurro_icaruswings:golden_apple_infused_mead,10", "locusazzurro_icaruswings:golden_apple_growth_infused_mead,10", "nethersdelight:plate_of_stuffed_hoglin_snout,12", "nethersdelight:plate_of_stuffed_hoglin_ham,12", "enigmaticlegacy:astral_fruit,12", "nethersdelight:plate_of_stuffed_hoglin_roast,12", "cthulhufishing:crimson_jellyfish,12", "cthulhufishing:crimson_crunch,12", "cthulhufishing:crimson_fish,12", "cthulhufishing:ice_stingray,12", "cthulhufishing:ice_cod,12", "cthulhufishing:ice_boulti,12", "cthulhufishing:gluton_sculk_fish,12", "cthulhufishing:horse_sculk_fish,12", "cthulhufishing:hermit_slulk_fish,12", "cthulhufishing:mushroom_sprat,12", "cthulhufishing:mushroom_anglerfish,12", "cthulhufishing:mushroom_torchfish,12", "distant_worlds:glistering_garsale_elixir,16", "avaritia:ultimate_stew,16", "avaritia:cosmic_meatballs,16", "infinite_abyss:tentacle,64", "immortalers_delight:purgatory_ale,100", "aquamirae:poseidons_breakfast,100", "moonstone:probability_stone,100", "goety_revelation:ascension_hard_candy,100"]
+

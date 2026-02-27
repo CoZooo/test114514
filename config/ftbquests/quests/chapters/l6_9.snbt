@@ -1,0 +1,1112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6_9"
+	group: "04E2E692241B230A"
+	icon: "avaritia:endest_pearl"
+	id: "639A0E5C7F93A134"
+	images: [
+		{
+			alpha: 180
+			color: 16619440
+			height: 15.75d
+			image: "yuusha:textures/mission_background_1.png"
+			rotation: 0.0d
+			width: 25.2d
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			alpha: 180
+			height: 15.75d
+			image: "yuusha:textures/yuusha_2.png"
+			order: -1
+			rotation: 0.0d
+			width: 25.2d
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			alpha: 128
+			color: 15919834
+			height: 16.95d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 26.4d
+			x: 12.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CE485305D2C6950"]
+			description: ["不建议佩戴，极易出现玩家假死特性。"]
+			hide_dependency_lines: false
+			id: "228675CFD7808D7F"
+			rewards: [{
+				id: "081603B66B1181D6"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&5[超越天堂]"
+			tasks: [{
+				id: "287CD8A21B75521D"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["16175E0DB5C38332"]
+			description: ["帝具核心可复制。"]
+			id: "5DFD05397F9C2B27"
+			rewards: [{
+				id: "278CAD6486503490"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DD9AF52D1B60DD9"
+				item: "yuusha:emper_core"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1134F32A25142099"]
+			id: "19846CAFEE3790F1"
+			rewards: [{
+				id: "2DA58E22F461323F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0608B7E3C1523A4F"
+				item: "yuusha:madoka_law_shard"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["369FA6C6631B1DCC"]
+			description: [
+				"该武器应该可瞬秒此整合包大部分生物。但有较低可能会导致假死。"
+				""
+				"&6右击可释放大范围伤害技能，不属于秒杀，但可无视星灵之力造成伤害。"
+			]
+			id: "0CFB24240132E820"
+			rewards: [{
+				id: "59C2E30BA2F25643"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&c[大满开]"
+			tasks: [{
+				id: "117F7B6B348317CE"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DFD05397F9C2B27"]
+			description: [
+				"这是一把被祈愿的剑，除了具有神属性+勇者攻击方式外，无其他特点。"
+				""
+				"&c神属性、勇者攻击方式可以无视所有元素抗性及攻击方式需求。"
+				""
+				"&6需自行添加永恒之石才能不毁。"
+			]
+			id: "767B58CECB9151A6"
+			rewards: [{
+				id: "31D8D0568381A91D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&6[满开]"
+			tasks: [{
+				id: "758DA4901C2AB099"
+				item: {
+					Count: 1
+					id: "yuusha:forbidden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			description: [
+				"右击使用时会在一定范围内降下闪电，将周围所有生物包括使用者的生命值降为1点。有30秒冷却时间。"
+				""
+				"&6需自行添加永恒之石才能不毁。"
+			]
+			id: "484FCEE21D307A92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55DE84B1430BBF77"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "&6[满开二档]"
+			tasks: [{
+				id: "4DB54D209386710C"
+				item: {
+					Count: 1
+					id: "yuusha:fake_cosmos_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24CB884F1221ECDD"]
+			id: "1E5714A7B8CB8262"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F701867CF1E563"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E81B16F387167DE"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D4D165B2DC48B60"]
+			description: ["击杀七宗罪化身可获得。详见天顶巨兽章节。"]
+			id: "1134F32A25142099"
+			rewards: [{
+				id: "7C0915D61559D4B2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "42586223C17F2479"
+					item: "yuusha:sin_shard_1"
+					type: "item"
+				}
+				{
+					id: "67E5998F35365AFF"
+					item: "yuusha:sin_shard_2"
+					type: "item"
+				}
+				{
+					id: "393FAF29B84CC27B"
+					item: "yuusha:sin_shard_4"
+					type: "item"
+				}
+				{
+					id: "58C29AA275B35A42"
+					item: "yuusha:sin_shard_3"
+					type: "item"
+				}
+				{
+					id: "6DB3E5721D6E9E04"
+					item: "yuusha:sin_shard_5"
+					type: "item"
+				}
+				{
+					id: "28832A30ACC72D39"
+					item: "yuusha:sin_shard_6"
+					type: "item"
+				}
+				{
+					id: "5033F376D89F20A3"
+					item: "yuusha:sin_shard_7"
+					type: "item"
+				}
+			]
+			title: "七宗罪碎片"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["052F95659D66DD4D"]
+			description: [
+				"无尽之锭需在主世界击杀克苏鲁侵袭的烈阳巨灵-爆裂形态获得。"
+				""
+				"&6可在锻造台中制作各种无尽物品。"
+			]
+			id: "616B5BF30636A449"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D68A93E373FE188"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C805DE896EA998A"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4C3E1C96898AB31A"]
+			description: [
+				"击杀[片翼天使复制体]可获得。"
+				""
+				"&c片翼天使复制体盔甲可用PMMO分解为光态英魂碎片，需一定的巧匠技能等级。"
+			]
+			id: "090A4158AB118D08"
+			rewards: [{
+				id: "29E56A501F6FF1FD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10062A78C1D1EE5E"
+				item: "awakened_bosses:herobrine_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EF39A35C38DCA6E"]
+			description: [
+				"合成隙血组件所需材料中的潜影盒，隙血珍珠必须放置在潜影盒的第一格。"
+				""
+				"&6将黑色组件、白色组件、雕刻南瓜，依次从下往上放置（类似于召唤雪傀儡），即可召唤片翼天使复制体。"
+			]
+			hide_dependency_lines: false
+			id: "4C3E1C96898AB31A"
+			rewards: [{
+				id: "3A9A1FDD97576CB4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "10星"
+			tasks: [
+				{
+					id: "1C993B0157E5F86B"
+					item: "awakened_bosses:herobrine_blue"
+					type: "item"
+				}
+				{
+					id: "659BAB523B4E2079"
+					item: "awakened_bosses:herobrine_cyan"
+					type: "item"
+				}
+				{
+					id: "7546F54705DE8B50"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+			]
+			title: "片翼天使复制体召唤材料"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"通关上级挑战传送门获得，在传送门开启的位置掉落。"
+				""
+				"&c在制作[帝具核心]之前，需先按[好好吃]章节的[陶制蜜酒罐]任务，开始酿造[蜜酒]（需要长时间酿造），后续合成会需要。"
+			]
+			id: "24CB884F1221ECDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BEE2D39EDD02060"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D92F7E4D7867F23"
+				item: "yuusha:sixteen_clock"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E5714A7B8CB8262"]
+			id: "16175E0DB5C38332"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F2A09B529F4DD9B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "198E071562149679"
+				item: "yuusha:orichalcum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5DFD05397F9C2B27"]
+			description: [
+				"基本设定：击杀带镰血肉兽会有较高几率获得。也可通过某些途径去抢夺带镰血肉兽身上的武器。"
+				""
+				"&6寻觅：带镰血肉兽只能通过[召唤祭坛]召唤。召唤需要的材料为虚空庇晶、咒灰，激活工具为博丽的御币。"
+				""
+				"&e元素战斗类型：带镰血肉兽对所有伤害都具有极高的抗性，但没有免疫的伤害类型。"
+				""
+				"&c特点：带镰血肉兽在被近战攻击时，会抢夺攻击者手上的近战武器（在击杀后会返还，但有可能变白板武器）。此外，在被击杀时会额外抢夺一次攻击者手上的近战武器且直接销毁。不会抢夺大部分非近战武器类型的物品。"
+				""
+				"&2额外：新增击杀带镰血肉兽额外有几率获得病毒、寄生虫、细菌、真菌。"
+			]
+			id: "0B143E28BF7ADAA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0654984A907B27A1"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11ACEAD6962BE62F"
+				item: {
+					Count: 1
+					id: "sons_of_sins:sickle_of_struggle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B143E28BF7ADAA1"]
+			description: [
+				"基本设定：利用孽血瓶可召唤七宗罪化身。七宗罪化身详见天顶巨兽章节。"
+				""
+				"&c特点：色欲化身会把玩家穿戴的防具（头盔、胸甲、护腿、靴子）脱下来，如果被雷击就会销毁。而且场面比较混乱，难以控制打到哪个化身，所以不要穿戴任何贵重的盔甲去打。"
+				""
+				"&e额外：用困兽镰击杀大部分原版生物可获得心脏，心脏可用来制作飘浮喷溅药水。"
+			]
+			id: "631C877A64BE2E62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CD1D9FA16AF5789"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06C1B7CF5F31FE78"
+				item: {
+					Count: 1
+					id: "sons_of_sins:bottle_of_blood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D4D165B2DC48B60"]
+			description: ["将血肉下界之星丢进酸液中，会获得孽血液体。然后可以用桶右击装起来。"]
+			id: "28E7F4ED0DCE800D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01D21FEEDA0A4DA0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A8A8C595F851463"
+				item: "sons_of_sins:blood_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["631C877A64BE2E62"]
+			description: ["击杀七宗罪化身可获得血肉之骨，即可制作血肉下界之星。"]
+			id: "6D4D165B2DC48B60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19F2738D47F8DDF9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D776BD1E136833E"
+				item: "yuusha:blood_star"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EF39A35C38DCA6E"]
+			description: ["众所周知，眼睛是一种可“热插拔”的功能性饰品。"]
+			id: "749EA44545104DA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D304935EBA5DBAE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "421D266C2C1D5733"
+				item: "moonstone:beacon"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B1D1D71C32DD9B8"]
+			description: ["可能会需要用到吧。"]
+			id: "081F7FC87A0F7E76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "340250BEC6C7D3BD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D04AEF0472568D1"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D4D165B2DC48B60"]
+			id: "1EF39A35C38DCA6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63B18267F7E96569"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A0B23AC8AE9818C"
+				item: "yuusha:sirenhead_pearl"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			id: "047999F58D936447"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FE5E02802D4C220"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66050791C963A687"
+				item: "yuusha:falling_ender_pear"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["047999F58D936447"]
+			description: ["通关无尽挑战传送门获得。"]
+			id: "6CE485305D2C6950"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BA316261884C37D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1012161C9A507D3D"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["048990FCABA63AA7"]
+			description: [
+				"不再能从战利品箱或地牢宝藏袋获得。"
+				""
+				"&c免疫任何状态效果：不仅会免疫负面状态，也会导致玩家无法获得正面增益效果。"
+			]
+			id: "71EB6E18F3AEAF09"
+			rewards: [{
+				id: "081A07C14D7FEB35"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AEA271765ED9FBC"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CE485305D2C6950"]
+			description: ["制作材料必须为无法破坏的冥魂之剑，可以用开局送的一把木剑进行升级获得（开局任务写了让你保留）。"]
+			id: "369FA6C6631B1DCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101F2D7A2F101293"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "06A6E5B06D1A4D3A"
+				item: {
+					Count: 1
+					id: "yuusha:awakened_ichorium_sword"
+					tag: {
+						Damage: 0
+						itemModifier: "celestial_forge:vicious"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["161AE7E53BE1D6D2"]
+			description: [
+				"击杀生物可把病毒点数和反研究点数补满。只要病毒点数和反研究点数满了，该病毒就能激活并增加属性。"
+				""
+				"&6该饰品所记录的研究点数对该饰品并无影响。"
+			]
+			id: "603C51D85763E2E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0318EE6461285BE0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1314F822DF41457B"
+				item: {
+					Count: 1
+					id: "moonstone:plagues"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D4D165B2DC48B60"]
+			id: "048990FCABA63AA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65405E8030562081"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21874ADEDB79B053"
+				item: "enigmaticaddons:primeval_cube"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19846CAFEE3790F1"]
+			id: "0BABC9E944B83831"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34B7110EC79F0150"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79AF99058AC223EF"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CE485305D2C6950"]
+			description: ["只加成近战伤害。"]
+			id: "2C2C9A22FFC0CAF5"
+			rewards: [{
+				id: "1F2294C3C67572FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A75041769158660"
+				item: {
+					Count: 1
+					id: "locusazzurro_icaruswings:chaos_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16175E0DB5C38332"]
+			id: "08DDC569395C24C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "570619B5EB5FF8EE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3ABD91200CBD0E9A"
+				item: "yuusha:light_guardian_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6D4D165B2DC48B60"]
+			description: ["需注意，上述物品不能防雷，可佩戴吸收雷击的饰品以防止被销毁。"]
+			id: "161AE7E53BE1D6D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36578A245C6C86FC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7206CCB511E22755"
+					item: {
+						Count: 1
+						id: "sons_of_sins:wistivers_jaws"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "436D00B42B2A65CB"
+					item: "sons_of_sins:puppet_of_strife"
+					type: "item"
+				}
+				{
+					id: "7CC0FCC38DBA5C66"
+					item: "sons_of_sins:hand_of_riot"
+					type: "item"
+				}
+				{
+					id: "3320A58750C44F0E"
+					item: "sons_of_sins:ether_engine"
+					type: "item"
+				}
+				{
+					id: "3D8177B2CC5FE998"
+					item: "sons_of_sins:cursed_head"
+					type: "item"
+				}
+				{
+					id: "15736F9E6DDFF4CC"
+					item: "sons_of_sins:touch_of_greed"
+					type: "item"
+				}
+				{
+					id: "517FA5FDAAFCB6CC"
+					item: {
+						Count: 1
+						id: "sons_of_sins:butcher_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CFB24240132E820"]
+			id: "052F95659D66DD4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6739B4BBD046C33E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3427C4AD4779B1AC"
+				item: "yuusha:cthuluhu_solar_emblem"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B143E28BF7ADAA1"]
+			description: ["基本设定：用困兽镰击杀大部分原版生物可获得心脏，心脏可用来制作飘浮喷溅药水。"]
+			id: "48870A85B854E892"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D55FDEC6856C4BC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04E6E6505514E928"
+				item: "sons_of_sins:blazing_heart"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["776DAC899FE9386F"]
+			description: [
+				"攻击后会让被攻击生物的所有药水效果清除。"
+				""
+				"&e有些生物具有极为强力的药水效果，可以清除后再打。"
+			]
+			id: "62F958CFF8C9DBF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7803689681FDC316"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "好强，太强了，我使用&m ▊▊▊▊&r。"
+			tasks: [{
+				id: "65906E264A11645D"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DFD05397F9C2B27"]
+			description: ["让你在夜色中无迹可寻。实际效果为亮度小于1时隐身，进行攻击也不会被发现。潜行右击开启/关闭。"]
+			id: "17C6CFCEB4D79EB5"
+			rewards: [{
+				id: "69C95429F6F74B90"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A5FE5235554C710"
+				item: "reliquary:twilight_cloak"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["16175E0DB5C38332"]
+			id: "3F9A5CAB19A1DA32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5231D688677F1E24"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B9F5D364FFEEE2D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08DDC569395C24C6"]
+			description: ["穿戴全套以太盔甲时，如果当前生命值低于最大生命值的1%，则会获得100%伤害减免。"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F3F6649AD33D719"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F1CA71A43CA6332"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1F3292A480E09C49"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28E7AA1A28E92A8D"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3748AB47DF2F851F"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ED50ABDADE918B3"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			description: [
+				"在主世界或者下界击杀亚波伦都可以获得。"
+				""
+				"&e女仆墓碑、枪械子弹、幽匿之触、巫术湮灭射线、音爆、天堂陨落长弓的箭矢、诛神剑碑等技术实体不再被亚波伦删除。"
+				""
+				"&c无厄之册、刻蚀板、玻璃之手、万钧之护卷轴、诛神剑碑、远古法典、死心之胚、恶蝗蜇针、非欧立方、晋升之环、终末之环、心之项链、千咒卷轴、猎人腰带、恩赐卷轴、罪孽囚笼、无赎之戒、九剑归一诀、万象模板等饰品不会被下界的亚波伦偷走。"
+				""
+				"&6利用神灵金属可制作破妄1级附魔书。之后可用塔罗牌：女祭司，将其升级为破妄5级附魔书。"
+			]
+			id: "5B1D1D71C32DD9B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38E7BFE2DB0BF6D2"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1811D5A2BB0189BF"
+				item: "goety_revelation:apocalyptium_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			description: ["部分饰品可以配合终末之环，实现无冷却时间加伤：埋伏性狩猎、潜伏之戒、混沌战斧、诛神剑碑等。"]
+			id: "08E4C85F521D7475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AB98D2752FE4EB8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FEE77EA008A5E23"
+				item: "goety_revelation:halo_of_the_end"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["047999F58D936447"]
+			description: ["该任务可以清除玩家的恶蝗蜇针（击杀下界亚波伦的才能右击使用）右击给予的数值，在清除后仍需新的恶蝗蜇针才能右击再次给予数值。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+				}
+				id: "goety_revelation:the_needle"
+				tag: {
+					isRealNeedle: 1b
+				}
+			}
+			id: "06287E0F7292FCE1"
+			rewards: [{
+				command: "/goety revelation clearNeedle @s"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "goety_revelation:the_needle"
+					tag: {
+						isRealNeedle: 1b
+					}
+				}
+				id: "7886D00305ECDA3F"
+				team_reward: true
+				title: "重置恶蝗蜇针"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6A1978C43F29683F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "yuusha:falling_ender_pear"
+				}
+				type: "item"
+			}]
+			title: "重置恶蝗蜇针"
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			id: "776DAC899FE9386F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA638552C22B64B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D38BAC599578E89"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["776DAC899FE9386F"]
+			description: [
+				"攻击会给予目标灵魂剥离效果，灵魂剥离效果结束后会清除目标的星灵之力等原版效果。"
+				""
+				"&e有些生物具有极为强力的药水效果，可以清除后再打。"
+			]
+			id: "38AB8B6290448DDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41E73058F726B6D9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "好强，太强了，我使用&m ▊▊▊▊&r。"
+			tasks: [{
+				id: "5008AA3004959574"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["090A4158AB118D08"]
+			description: [
+				"主手持末日勋章右击海洛格里夫壁画的特定部位可进入永昼空境。"
+				""
+				"&6可在主世界利用探险家指南针搜索“Heiroglyph”找到深埋在地下的上古铭文碑建筑，内有海洛格里夫壁画。"
+				""
+				"&e永昼空境内有女仆咖啡厅、黄金地牢（内部无烈阳巨灵）。可用探险家指南针搜索“Fairy Maid Cafe”、“黄金地牢”。"
+				""
+				"&c还有绯红教堂，共13个，只会在以下特定坐标生成："
+				"&c666，128，666；"
+				"&c±6660，128，±6660；"
+				"&c±66600，128，±66600；"
+				"&c±666000，128，±666000。"
+				""
+				"&5绯红教堂会刷新生成不朽者，击杀必定掉落神锻卷轴。"
+			]
+			id: "56DF434B866F6376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5116D5DC2E4EE807"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4713B7FA67887E6D"
+				item: "goety_revelation:doom_medal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["&9『希望和奇迹』"]
+	title: "&6※ 大满开"
+}

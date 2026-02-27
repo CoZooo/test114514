@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "pgp:data_lv2",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

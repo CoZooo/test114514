@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "infinite_abyss:seventh_layer_cavern",
+  "spawners": {
+    "type": "depthcrawler:oceanicdeep",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

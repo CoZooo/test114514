@@ -1,0 +1,20 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "reagents": "DDDD",
+  "key": {
+    "C": {
+      "item": "moonstone:blood"
+    },
+    "D": {
+      "item": "sons_of_sins:flesh_of_demise"
+    }
+  },
+  "result": {
+    "item": "moonstone:blood_jelly"
+  }
+}

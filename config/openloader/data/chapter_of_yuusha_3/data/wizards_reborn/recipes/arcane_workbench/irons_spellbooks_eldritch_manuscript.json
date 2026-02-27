@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW",
+    "BBBB"
+  ],
+  "key": {
+    "W": {
+      "item": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+    "B": {
+      "item": "wizards_reborn:petals_of_innocence"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:eldritch_manuscript"
+  },
+  "wissen": 1000
+}

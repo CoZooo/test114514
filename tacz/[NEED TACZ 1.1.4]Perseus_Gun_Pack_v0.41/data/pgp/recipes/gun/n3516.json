@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 33
+    },
+    {
+      "item": {
+        "item": "embers:archaic_circuit"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "forbidden_arcanus:divine_pact"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pgp:n3516",
+    "ammo_count": 0
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

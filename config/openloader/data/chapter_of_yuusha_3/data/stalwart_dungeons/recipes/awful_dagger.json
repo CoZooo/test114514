@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "avaritia:infinity_catalyst"
+  },
+  "base": {
+    "item": "born_in_chaos_v1:soulbane"
+  },
+  "result": {
+    "item": "stalwart_dungeons:awful_dagger"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

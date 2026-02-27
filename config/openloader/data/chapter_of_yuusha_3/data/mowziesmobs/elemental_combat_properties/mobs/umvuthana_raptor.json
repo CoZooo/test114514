@@ -1,0 +1,7 @@
+{
+	"defense_element":{
+		"fire":-100,
+		"thunder":-100
+	},
+	"biome_dependency":false
+}

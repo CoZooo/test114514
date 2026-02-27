@@ -1,0 +1,38 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:moonlight_cherry",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_silverbamboo"
+    },
+    "C": {
+      "item": "minecraft:cherry_leaves"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "L": {
+      "item": "minecraft:glowstone"
+    },
+    "P": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "PRQ",
+    "RL ",
+    "BGC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

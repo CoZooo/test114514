@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "irons_spellbooks:uncommon_ink"
+  },
+  "output": {
+    "item": "malum:concentrated_gluttony",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "wicked"
+    },
+    {
+      "type": "sacred"
+    }
+  ]
+}

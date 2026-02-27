@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:explosion_crafting",
+  "ingredient": {
+    "item": "depthcrawler:corruptingot"
+  },
+  "lossrate": 0.0,
+  "onlyblock": false,
+  "result": "depthcrawler:corruptingot"
+}

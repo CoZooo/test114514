@@ -1,0 +1,39 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 20
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    }
+  ],
+  "name": "prinegorerouse:chronosn_blade",
+  "properties": {
+    "attack_base": 1000.0,
+    "max_damage": 2000,
+    "slash_art": "ak:bloodsucking_sickle",
+    "special_effects": [
+      "prinegorerouse:oracle",
+      "prinegorerouse:absolute_power"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "katana",
+    "model": "prinegorerouse:model/named/custom/chronosn/chronosn.obj",
+    "summon_sword_color": 10690205,
+    "texture": "prinegorerouse:model/named/custom/chronosn/chronosn.png"
+  }
+}

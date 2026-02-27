@@ -1,0 +1,531 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_5"
+	group: "13D24688CE1CFEDA"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 14
+			GunFireMode: "SEMI"
+			GunId: "ocle:ocjm"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "3095CED7A637FBF4"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 12.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 26.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 13.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 27.5d
+			x: -8.0d
+			y: -2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37F5D6A8DB6CB847"]
+			description: [
+				"大部分增加枪械伤害的配件都为各种弹药类。"
+				""
+				"&6除了燃烧弹外，后续还能制作各种加伤的配件弹药。"
+				""
+				"&c所有的枪械和弹匣，都不会改变元素战斗类型，全部都是无属性、打击攻击类型。"
+			]
+			id: "72E31A19FD594603"
+			rewards: [{
+				id: "6E3B3C109CC3CD90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E589C1F247A1760"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_i"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A0E4CB59961B8DB"]
+			description: [
+				"只要获得1枚子弹，就能使用的无限单发手枪。"
+				""
+				"&6可以升级为CZ 75 自动手枪。仅此一个特殊升级，供开局使用。"
+				""
+				"&c枪械所降低的移速为乘法乘区的移速，可通过星月词缀、部分饰品来增加乘法乘区的移速。"
+				""
+				"&e可通过JEI搜索“速度 栏位”来查看相关饰品。"
+			]
+			id: "37F5D6A8DB6CB847"
+			rewards: [{
+				id: "5D2ADC2E06E3D9F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "122E533CA90BC25E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 17
+						GunFireMode: "SEMI"
+						GunId: "tacz:glock_17"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"开局树海化章节有任务奖励特殊武器，可以开局用用。"
+				""
+				"&6该武器享受枪械技能等级加成。"
+				""
+				"&e枪械的发展路线，基本集中在匠作章节任务。"
+				""
+				"&c枪械发展需研究匠作章节，输出需要一定压枪能力，总体较为简单。"
+			]
+			id: "2A0E4CB59961B8DB"
+			rewards: [{
+				id: "11A7A3E7D571A177"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「天工巧匠」"
+			tasks: [{
+				id: "2673DB73504B63B8"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7CD1474FD0DD7B"]
+			description: ["可以在匠作章节兑换全类型无尽弹药盒。"]
+			id: "3F7F80A687E146C8"
+			rewards: [{
+				id: "06135AD3DC6668DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F2FB91051925153"
+				item: "yuusha:fake_box"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37F5D6A8DB6CB847"]
+			description: [
+				"枪械的加伤饰品，可以直接看礼装章节的全伤类饰品，基本用到的都在里面。"
+				""
+				"&6对高射速的枪械，疾行项链能起到很好地加伤效果。"
+				""
+				"&e可通过饰品的迅捷词缀，提供给使用枪械所需的移速。相关信息详见树海化章节的星月词缀任务。"
+			]
+			id: "35FBF36E4A8D7F51"
+			rewards: [{
+				id: "49482C3CA81D90E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24EA33D0D59774F9"
+				item: "celestial_artifacts:gallop_necklace"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35AE3DEFA0F605CB"]
+			description: [
+				"可在零点枪械工作台中制作部分枪械。"
+				""
+				"优秀枪械材料（突变僵尸后）：AA12霰弹枪、81-1式制式步枪、M700狙击步枪、沙漠之鹰、CMR-951“蓝色恶魔”、拼装电磁枪“革命者”"
+				""
+				"优秀枪械材料（突变爬行者后）：M320榴弹发射器"
+				""
+				"优秀枪械材料（突变末影后）：AKM突击步枪、MACH-50FMJ“印花集”"
+				""
+				"优秀枪械材料（基诺拉后）：APM-130“厄兆”"
+				""
+				"优秀枪械材料（萨菲拉后）：HK-416D突击步枪"
+			]
+			id: "5408990F3485BD07"
+			rewards: [{
+				id: "558B9FF52F168D19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "215C040C4C898577"
+				item: "yuusha:uncommon_material"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5408990F3485BD07"]
+			description: [
+				"可在逆境重科制造终端中制作部分枪械。"
+				""
+				"稀有枪械材料（灾厄教父后）：黄金沙漠之鹰、M4A1卡宾枪、UMP冲锋枪、维克托冲锋枪、DB-2杜林人、P320手枪、SCAR-L突击步枪"
+				""
+				"稀有枪械材料（守卫者后）：RD-704“高频丛雨”"
+				""
+				"稀有枪械材料（溺亡者后）：XSP-31“私法制裁者”、维吉尼亚、SK-217“坚钉”、AUG突击步枪"
+				""
+				"稀有枪械材料（利维坦后）：K30、SKS战术步枪、VXM-31K“笨笨杂狼”"
+				""
+				"稀有枪械材料（暗夜巫妖后）：Ares-SF7B“地狱火”"
+				""
+				"稀有枪械材料（虚空花后）：GL-3"
+				""
+				"稀有枪械材料（血月后）：SAIG-24HE“罪恶导航者”"
+				"{@pagebreak}"
+			]
+			id: "19FDDA1B84AC43E6"
+			rewards: [{
+				id: "37274D0ED73A2163"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DBF92B6B8A168E0"
+				item: "yuusha:rare_material"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19FDDA1B84AC43E6"]
+			description: [
+				"可在枪械终端中制作部分枪械。"
+				""
+				"史诗枪械材料（化石鱼后）：雷内蒂(MW2019)、M16A4制式步枪、SCAR-H战斗步枪、RPK轻机枪"
+				""
+				"史诗枪械材料（沙漠守卫者后）：RPG-7火箭筒"
+				""
+				"史诗枪械材料（帝王云鲸后）：SG-914、LLB-41“啵啵鲨”、VXM-57X“绘”"
+				""
+				"&6其中雷内蒂、VXM-57X“绘”具有强力的单发模式。"
+			]
+			id: "6BC51AC481C52076"
+			rewards: [{
+				id: "2144CFD8E1F0DE9C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7AFCF5D0BACE3E3F"
+				item: "yuusha:epic_material"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BC51AC481C52076"]
+			description: [
+				"可在大型原子组装机中制作部分枪械。"
+				""
+				"传奇枪械材料（远古墨魂后）：N3516个人防卫火力“日冕”、BAL-27、M870霰弹枪"
+				""
+				"传奇枪械材料（监守者后）：HAER-90“德穆革”、HCMG-57FMJ“印花集”"
+				""
+				"传奇枪械材料（幽匿诅咒骑士后）：MK14EBR精确射手步枪、P90冲锋枪、M107.50口径反器材步枪、CML-951“星象仪”"
+				""
+				"传奇枪械材料（龙后）：ARX-160"
+				""
+				"传奇枪械材料（狱火领主后）：精密国际AWM狙击步枪、EMG-原型外骨骼机枪"
+				""
+				"传奇枪械材料（下级门后）：SAIG-24DB“日志劫持攻击”"
+				""
+				"传奇枪械材料（异界巨蛇后）：ELP-34「干扰」电浆突击步枪"
+			]
+			id: "45CDCBD8DD2B9746"
+			rewards: [{
+				id: "6FC43170D391AEB2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E9886FDEEADAC11"
+				item: "yuusha:legendary_material"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45CDCBD8DD2B9746"]
+			description: [
+				"可在曙光女神武器箱中制作部分枪械。部分枪械需要上各种「内核」弹匣。"
+				""
+				"终极枪械材料（腐化英雄后）：B101极轻量化战斗弓箭“真视场”、四叶十字、射线枪、ELP-13「黑翼」电浆手枪、95式\"长弓\"突击步枪、MSMC"
+				""
+				"终极枪械材料（末影守卫后）：等离子「破空」通用机枪"
+				""
+				"终极枪械材料（下界铁掌后）：Z761军用粒子束发射器“子午线”、极速追星"
+				""
+				"终极枪械材料（焰魔后）：NAK954定向能脉冲武器“共振截面”、ELP-72「岚」电浆霰弹枪"
+				""
+				"终极枪械材料（灾厄宰相后）：DZ01“破空枪刃”"
+				""
+				"终极枪械材料（死亡到临者后）：SOLAR-0质子-质子链反应触发器“主序星”"
+			]
+			id: "3FEAAD0585E30223"
+			rewards: [{
+				id: "0FE7D2E52EBD7D12"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A555F67339FE4D5"
+				item: "yuusha:ultimate_material"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FEAAD0585E30223"]
+			description: [
+				"可在U2-次元复制机中制作部分枪械。"
+				""
+				"永恒枪械材料（迷离之眼后）：ELP-45「夜莺」电浆步枪"
+				""
+				"永恒枪械材料（死骸船长后）：高斯「直死魔眼」反器材步枪"
+				""
+				"永恒枪械材料（水晶共鸣者后）：ELP-34C「干预」电浆冲锋枪"
+				""
+				"永恒枪械材料（冰霜凋灵后）：AN-94「咒怨附灵」灵质冲锋枪"
+				""
+				"永恒枪械材料（咒怨后）：歼灭NO.1400"
+				""
+				"永恒枪械材料（远古渊兽后）：末路NO.1500、ELP-52「黑矛」电浆狙击步枪"
+				""
+				"永恒枪械材料（使徒后）：Z750Sylphy“风精灵”"
+				""
+				"永恒枪械材料（庇护者后）：抗拒NO.1700"
+			]
+			id: "7B720D7E80F6F626"
+			rewards: [
+				{
+					id: "34AEA326728E10B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5634D4572DE3D429"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "yuusha:soul_gem_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19703EE2F46460AA"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7CD1474FD0DD7B"]
+			description: ["烬铸原液流体可通过余烬模组制作获得，也可在工作台中制作获得该流体桶，详见匠作章节任务。"]
+			id: "35AE3DEFA0F605CB"
+			rewards: [{
+				id: "4A32FA6BD9DB4290"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "671799EBFA1433BD"
+				item: "embers:dwarven_oil_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37F5D6A8DB6CB847"]
+			description: [
+				"可在探险者改枪王工作台中制作部分枪械。"
+				""
+				"碳素钢锭：格洛克17手枪、CZ75自动手枪"
+				""
+				"能量晶核（霜冻后）： MP5A5冲锋枪、乌兹冲锋枪、M1911手枪、XSP-31FMJ“绝境特攻”、XSP-31“彼岸樱” "
+			]
+			id: "5D7CD1474FD0DD7B"
+			rewards: [{
+				id: "40C6BCAADB965796"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CDCB0E40B114761"
+				item: "locusazzurro_icaruswings:steel_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D7CD1474FD0DD7B"]
+			description: [
+				"可在锻造台中制作钨盔甲套装。后续还能继续升级，详见宝具章节。"
+				""
+				"&6只能从皮革开始升级，不能享受宝藏袋的会心属性铁质盔甲。"
+			]
+			id: "0083953F431503A3"
+			rewards: [{
+				id: "44CDBF644C1E3575"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "042FC95072B0A5C8"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:tungsten_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0083953F431503A3"]
+			description: ["可在锻造台中制作天龙神秘盔甲套装。后续还能继续升级，详见宝具章节。"]
+			id: "7F2BC7C98E214E77"
+			rewards: [{
+				id: "3084A6A0BF3DFD44"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26BCE35DD1759041"
+				item: "confluence:demon_heart"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F2BC7C98E214E77"]
+			description: ["可在锻造台中制作战神提尔盔甲套装。详见宝具章节。"]
+			id: "4BC62ACABD22BE49"
+			rewards: [{
+				id: "358198A31CFE1F17"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08B0B0F6A824CC4C"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35AE3DEFA0F605CB"]
+			description: ["大部分枪械都可以用到该组件，配合稳重等附魔，以及其他组件，可以在很大程度上降低枪械后坐力。"]
+			id: "5470F38D674EF437"
+			rewards: [{
+				id: "49E2B50811FD1185"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EEB7D2F4E553047"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "applied_armorer:bracelet_zenith"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37F5D6A8DB6CB847"]
+			description: [
+				"超级磁铁具有超强吸力，基本能在掉落物被爆炸、闪电等常规方式销毁之前，瞬间吸收掉落物。"
+				""
+				"&6配合精妙背包的拾取升级，基本不会存在有掉落物被炸毁的情况。"
+			]
+			id: "5D3BF8E23107CDB2"
+			rewards: [{
+				id: "4807B1C2449BD019"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51A6D1CAE77246A2"
+				item: "nameless_trinkets:super_magnet"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+	]
+	subtitle: ["&9『枪械使用指南』"]
+	title: "&6※ 弹丸"
+}

@@ -1,0 +1,31 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "chapter_of_yuusha_3_core:magic_energy",
+      "lvl": 5
+    },
+    {
+      "id": "elementalcombat:earth_aspect",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade_addon:terra_blade",
+  "properties": {
+    "attack_base": 36.0,
+    "max_damage": 72,
+    "slash_art": "slashblade:wave_edge",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "rninja",
+    "model": "slashblade_addon:model/terra/terra.obj",
+    "summon_sword_color": 3524113,
+    "texture": "slashblade_addon:model/terra/terra.png"
+  }
+}

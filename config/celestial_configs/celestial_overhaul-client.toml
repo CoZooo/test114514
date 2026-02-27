@@ -1,0 +1,5 @@
+
+[function]
+	#Hide the flame screen when it has the flame resistance effect
+	hideEffectiveFireScreen = true
+

@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "prinegorerouse:chronos",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:primeval_cube"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:sixteen_clock"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:sixteen_clock"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:sixteen_clock"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:sixteen_clock"
+    }
+  ]
+}

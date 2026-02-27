@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 5,
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "type": "treasurebags:food"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:entity_group/peaceful"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "AAA",
+    " B ",
+    "C C"
+  ],
+  "reagents": "D   ",
+  "key": {
+    "A": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "B": {
+      "item": "malum:block_of_arcane_charcoal"
+    },
+    "C": {
+      "item": "eidolon:polished_planks"
+    },
+    "D": {
+      "item": "irons_spellbooks:ruined_book"
+    }
+  },
+  "result": {
+    "item": "eidolon:brazier"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "model": "pgp:gun/cfdz_geo",
+  "texture": "pgp:gun/uv/cfdz",
+  "lod": {
+    "model": "pgp:gun/lod/cfdz_geo",
+    "texture": "pgp:gun/lod/cfdz"
+  },
+  "hud": "pgp:gun/hud/cfdz_hud",
+  "slot": "pgp:gun/slot/cfdz",
+  "damage_style": "total",
+  "animation": "pgp:cfdz",
+  "state_machine": "pgp:cf_state_machine",
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "pgp:flash/green_muzzleflash",
+    "scale": 3
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "pgp:cfdz/cfdz_shoot",
+    "shoot_3p": "pgp:cfdz/cfdz_shoot_3p",
+    "silence": "pgp:cfdz/cfdz_silence",
+    "silence_3p": "pgp:cfdz/cfdz_silence_3p",
+    "reload_empty": "pgp:cfdz/cfdz_reload_tactical",
+    "reload_tactical": "pgp:cfdz/cfdz_reload_tactical",
+    "reload_empty_auto": "pgp:cfdz/cfdz_reload_",
+    "reload_tactical_auto": "pgp:cfdz/cfdz_reload_",
+    "inspect": "pgp:cfdz/cfdz_inspect",
+    "inspect_empty": "pgp:cfdz/cfdz_inspect",
+    "draw": "pgp:cfdz/cfdz_draw",
+    "put_away": "pgp:cfdz/cfdz_put_away",
+    "melee_push": "pgp:cfdz/cfdz_melee",
+    "melee_stock": "pgp:cfdz/cfdz_melee",
+    "melee_muzzle": "pgp:cfdz/cfdz_automelee",
+    "dry_fire": "pgp:cfdz/cfdz_dry_fire",
+    "bolt": "pgp:cfdz/cfdz_bolt",
+    "fire_select": "pgp:cfdz/cfdz_fire_select"
+  },
+  "offhand_show": {
+    "pos": [1, 19, 4],
+    "rotate": [0, 0, 50],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-1, 19, 3],
+      "rotate": [-180, 0, 130],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  },
+  "text_show": {
+    // 定位组名，与模型中的组名对应。
+    "ammo_count_text_pos": {
+      // 文本缩放，默认大小对于 BlockBench 里的 1
+      "scale": 0.35,
+      // 对齐方式：right，center，left
+      "align": "center",
+      // 阴影
+      "shadow": false,
+      // 文本颜色
+      "color": "#ffffff",
+      // 亮度：1-15
+      "light": 15,
+      // 支持在语言文件中定义，且支持PlaceholderAPI 风格的占位符
+      // 目前仅支持两个：%player_name% %ammo_count%
+      "text": "%ammo_count%"
+    }
+  }
+}

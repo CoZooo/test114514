@@ -1,0 +1,32 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert_complete_tamed",
+  "activation_item": {
+    "item": "yuusha:dice_12"
+  },
+  "craftType": "magic",
+  "entity_to_convert": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "entity_to_convert_into": "goety_iron:priest_servant",
+  "soulCost": 8000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    {
+      "item": "irons_spellbooks:holy_rune"
+    },
+    {
+      "item": "irons_spellbooks:villager_spell_book"
+    },
+    {
+      "item": "irons_spellbooks:holy_rune"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

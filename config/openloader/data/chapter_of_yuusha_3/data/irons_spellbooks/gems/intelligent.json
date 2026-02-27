@@ -1,0 +1,30 @@
+{
+    "variant": "intelligent",
+    "weight": 50,
+    "quality": 0,
+	"unique": true,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "anything",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots"]
+            },
+            "attribute": "irons_spellbooks:max_mana",
+            "operation": "ADDITION",
+            "values":
+            {
+                "epic": 100,
+                "mythic": 150,
+                "ancient": 200
+            }
+        }
+    ]
+}

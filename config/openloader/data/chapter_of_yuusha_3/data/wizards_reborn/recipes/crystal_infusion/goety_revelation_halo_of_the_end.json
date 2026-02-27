@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "goety_revelation:halo_of_the_end",
+    "count": 1
+  },
+  "light": 3000,
+  "ingredients": [
+    {
+      "item": "goety_revelation:ascension_halo"
+    },
+    {
+      "item": "simplyswords:tampered_remnant"
+    },
+    {
+      "item": "celestial_artifacts:end_etching"
+    },
+    {
+      "item": "moonstone:nightmare_base_stone_brain"
+    },
+    {
+      "item": "avaritia:eternal_singularity"
+    }
+  ]
+}

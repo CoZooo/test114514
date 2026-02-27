@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "morebows:diamond_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 1200,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "hmag:crimson_cuticula"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "hmag:crimson_cuticula"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "ancient_aether:ancient_dungeon_key"
+    },
+    {
+      "item": "deep_aether:stratus_smithing_template"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:crimson_nexus"
+  }
+}

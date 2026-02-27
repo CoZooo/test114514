@@ -1,0 +1,64 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#840228",
+	"base_wave": {
+        "entities": [
+			{
+				"entity": "hmag:crimson_slaughterer",
+				"count": 2
+			},
+			{
+				"entity": "starvingskeleton:starving_skeleton",
+				"count": 1
+			},
+			{
+				"entity": "sleep_killer:sleep_killer",
+				"count": 2
+			},
+			{
+				"entity": "eyesinthedark:eyes_in_the_dark",
+				"count": 2
+			},
+			{
+				"entity": "hardtodestroyreptile:the_hard_to_destroy_reptile",
+				"count": 2
+			},
+			{
+				"entity": "theplaguedoctor:plague_doctor",
+				"count": 2
+			}
+		],
+        "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "sons_of_sins:flesh_of_demise",
+				"count": 4
+			}
+        }],
+        "max_wave_time": 2400,
+        "setup_time": 120
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 2,
+                "max": 10
+            },
+            "modifiers": [{
+                "attribute": "generic.attack_damage",
+                "operation": "multiply_base",
+                "value": 0.1
+            }],
+            "max_wave_time": -200,
+            "setup_time": -10
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "name_plate"
+    },
+    "spawn_algorithm": "gateways:inward_spiral"
+}
