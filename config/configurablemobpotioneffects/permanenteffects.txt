@@ -608,7 +608,7 @@
 'goety_cataclysm:elite_draugr_servant' : 'minecraft:resistance,lvl:4|attributeslib:vitality,lvl:40|minecraft:strength,lvl:15|immortalers_delight:prehistoric_powers,lvl:5', 
 'goety_cataclysm:aptrgangr' : 'enigmaticaddons:pure_resistance,lvl:4|attributeslib:vitality,lvl:50|minecraft:strength,lvl:15|immortalers_delight:prehistoric_powers,lvl:5|irons_spellbooks:charged,lvl:50', 
 
-'revelationfix:apostle_servant' : '',
+'revelationfix:apostle_servant' : 'enigmaticaddons:pure_resistance,lvl:4|attributeslib:vitality,lvl:50|minecraft:strength,lvl:15|immortalers_delight:prehistoric_powers,lvl:5|confluence:cerebral_mindtrick,lvl:100|ak:blood_boost,lvl:4',
 
 
 

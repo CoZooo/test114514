@@ -1202,7 +1202,7 @@
 		{
 			dependencies: ["7B5D33281E516CA7"]
 			description: [
-				"由玩家使用死灵仪式（需魂灵方骰等材料）生成。在战斗期间主动施法召唤更低级的亡灵仆从作战。如果死灵法师类仆从（除溺尸和凋灵）的目标与其距离不足2格，会停止施法并试图与目标保持4格或更远的距离。玩家可以给予腐烂聚晶、骨质聚晶、先锋聚晶、暗卫聚晶、骇人聚晶、收割聚晶，其每次召唤均有概率将初始召唤物随机替换为上述仆从。"
+				"由玩家使用死灵仪式（需死亡精髓、空灵魂罐等材料）生成。在战斗期间主动施法召唤更低级的亡灵仆从作战。如果死灵法师类仆从（除溺尸和凋灵）的目标与其距离不足2格，会停止施法并试图与目标保持4格或更远的距离。玩家可以给予腐烂聚晶、骨质聚晶、先锋聚晶、暗卫聚晶、骇人聚晶、收割聚晶，其每次召唤均有概率将初始召唤物随机替换为上述仆从。"
 				""
 				"&6死灵法师仆从会发射灵魂束（单发较高伤射速低）。流髑死灵法师仆从会发射冰刺（单发较低伤射速高）。溺尸死灵法师仆从可发射风暴戟（单发高伤）。凋灵死灵法师仆从可发射凋灵飞弹（单发较高伤射速低）。"
 				""
@@ -1216,6 +1216,7 @@
 				""
 				"&e手持灵魂罐右键喂给你的死灵法师类仆从，它会将其消耗并强化一个等级，能提升血量上限、单轮攻击的射弹数量，至多可强化三级。"
 			]
+			icon: "goety:empty_soul_jar"
 			id: "7305AD6D17F25F2A"
 			rewards: [{
 				id: "5E8EF24909C69B3D"
@@ -1223,11 +1224,18 @@
 				xp: 100
 			}]
 			subtitle: "侵蚀效果"
-			tasks: [{
-				id: "7A5599BC045CFB6D"
-				item: "goety:empty_soul_jar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7A5599BC045CFB6D"
+					item: "goety:empty_soul_jar"
+					type: "item"
+				}
+				{
+					id: "34C0C60120412B16"
+					item: "eidolon:death_essence"
+					type: "item"
+				}
+			]
 			title: "死灵法师类仆从"
 			x: 22.0d
 			y: 6.0d
@@ -1471,7 +1479,7 @@
 				""
 				"&5需注意，使徒仆从在没有黑曜石柱时是较为脆弱的。"
 				""
-				"&e仆从特点：一定的远程伤害能力，特定元素战斗类型。攻击附加星裂20级、侵蚀100级效果。"
+				"&e仆从特点：远程伤害能力，特定元素战斗类型，自带控脑术、暴血效果。攻击附加星裂20级、侵蚀100级效果。"
 			]
 			id: "6A63E7A97894E631"
 			rewards: [{
@@ -2285,7 +2293,7 @@
 		}
 		{
 			dependencies: ["63E4A0304A800D34"]
-			description: ["圣骸方骰可在闪电中进行抽卡获得特定聚晶。所有物品都是有几率出。"]
+			description: ["圣骸方骰可在闪电中进行抽卡获得特定聚晶。所有物品都是有几率出，几率并非一样。"]
 			id: "4B7D07AF705E0498"
 			rewards: [{
 				id: "54BE94E90860FD2B"
@@ -2483,7 +2491,7 @@
 			subtitle: "侵蚀效果"
 			tasks: [{
 				id: "4246E07E63373B6A"
-				item: "goety_iron:crimson_core"
+				item: "irons_spellbooks:blood_staff"
 				type: "item"
 			}]
 			x: 22.0d
@@ -2509,27 +2517,27 @@
 			tasks: [
 				{
 					id: "65DD14B09D07A833"
-					item: "goety_iron:archevoker_core"
+					item: "irons_spellbooks:evocation_rune"
 					type: "item"
 				}
 				{
 					id: "51A9CCD87C528482"
-					item: "goety_iron:pyromancer_core"
+					item: "irons_spellbooks:fire_rune"
 					type: "item"
 				}
 				{
 					id: "5A8E14E3B0B31CDC"
-					item: "goety_iron:cryomancer_core"
+					item: "irons_spellbooks:ice_rune"
 					type: "item"
 				}
 				{
 					id: "290DCFE2311C13B3"
-					item: "goety_iron:priest_core"
+					item: "irons_spellbooks:holy_rune"
 					type: "item"
 				}
 				{
 					id: "48AF576F9A903470"
-					item: "goety_iron:alchemist_core"
+					item: "irons_spellbooks:nature_rune"
 					type: "item"
 				}
 			]

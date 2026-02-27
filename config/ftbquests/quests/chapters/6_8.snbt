@@ -242,12 +242,12 @@
 			id: "478A612F781EDE10"
 			rewards: [{
 				auto: "enabled"
-				command: "/cy3 admin curios equip moonstone:fermentation{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+				command: "/cy3 admin curios equip moonstone:fermentation{Enchantments: [{id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\", \"isIntensify\": 1} @s force"
 				elevate_perms: true
 				icon: "moonstone:fermentation"
 				id: "53516265BC61E04F"
 				team_reward: true
-				title: "&c强制穿戴埋伏性狩猎（自动领取）"
+				title: "&c强制穿戴特殊的埋伏性狩猎（自动领取）"
 				type: "command"
 			}]
 			subtitle: "「暗影刺客」"

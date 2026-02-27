@@ -57,7 +57,7 @@ craftingTable.remove(<item:reliquary:angelheart_vial>);
 
 //犬牙钓竿
 craftingTable.remove(<item:reliquary:rod_of_lyssa>);
-craftingTable.addShaped("reliquary.rod_of_lyssa", <item:reliquary:rod_of_lyssa>, [[<item:reliquary:infernal_claw>, <item:stalwart_dungeons:void_crystal>, <item:reliquary:bat_wing>], [<item:hmag:ender_plasm>, <item:distant_worlds:culafite_mushroom_on_a_stick>, <item:hmag:ender_plasm>], [<item:reliquary:infernal_claw>, <item:stalwart_dungeons:void_crystal>, <item:reliquary:infernal_claw>]]);
+craftingTable.addShaped("reliquary.rod_of_lyssa", <item:reliquary:rod_of_lyssa>, [[<item:reliquary:infernal_claw>, <item:stalwart_dungeons:void_crystal>, <item:reliquary:bat_wing>], [<item:hmag:ender_plasm>, <item:distant_worlds:culafite_mushroom_on_a_stick>, <item:hmag:ender_plasm>], [<item:reliquary:bat_wing>, <item:stalwart_dungeons:void_crystal>, <item:reliquary:infernal_claw>]]);
 
 //
 <item:reliquary:pyromancer_staff>.anyDamage().addTooltip("\u00A76神一品，可灭火，放在物品栏就能生效");

@@ -59,28 +59,67 @@ def find_changelog_text(ref: str) -> str:
 
 
 def parse_diff(from_ref: str, to_ref: str) -> tuple[set[str], set[str]]:
-    cp = git("diff", "--name-status", "-M", "--diff-filter=ACDMRTUXB", from_ref, to_ref, "--")
+    cp = subprocess.run(
+        [
+            "git",
+            "-c",
+            "core.quotepath=false",
+            "diff",
+            "--name-status",
+            "-z",
+            "-M",
+            "--diff-filter=ACDMRTUXB",
+            from_ref,
+            to_ref,
+            "--",
+        ],
+        check=True,
+        capture_output=True,
+        text=False,
+    )
     add_or_modify: set[str] = set()
     deleted: set[str] = set()
-    for line in cp.stdout.splitlines():
-        if not line.strip():
+    fields = cp.stdout.split(b"\0")
+    i = 0
+    while i < len(fields):
+        raw_status = fields[i]
+        i += 1
+        if not raw_status:
             continue
-        parts = line.split("\t")
-        status = parts[0]
+        status = raw_status.decode("utf-8", errors="surrogateescape")
         code = status[0]
+
+        def decode_path(raw: bytes) -> str:
+            return normalize_relpath(raw.decode("utf-8", errors="surrogateescape"))
+
         if code == "D":
-            if len(parts) >= 2:
-                deleted.add(normalize_relpath(parts[1]))
-        elif code == "R":
-            if len(parts) >= 3:
-                deleted.add(normalize_relpath(parts[1]))
-                add_or_modify.add(normalize_relpath(parts[2]))
-        elif code == "C":
-            if len(parts) >= 3:
-                add_or_modify.add(normalize_relpath(parts[2]))
-        else:
-            if len(parts) >= 2:
-                add_or_modify.add(normalize_relpath(parts[1]))
+            if i < len(fields) and fields[i]:
+                deleted.add(decode_path(fields[i]))
+            i += 1
+            continue
+
+        if code == "R":
+            if i + 1 < len(fields):
+                old_path = fields[i]
+                new_path = fields[i + 1]
+                if old_path:
+                    deleted.add(decode_path(old_path))
+                if new_path:
+                    add_or_modify.add(decode_path(new_path))
+            i += 2
+            continue
+
+        if code == "C":
+            if i + 1 < len(fields):
+                new_path = fields[i + 1]
+                if new_path:
+                    add_or_modify.add(decode_path(new_path))
+            i += 2
+            continue
+
+        if i < len(fields) and fields[i]:
+            add_or_modify.add(decode_path(fields[i]))
+        i += 1
     return add_or_modify, deleted
 
 

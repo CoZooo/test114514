@@ -290,18 +290,18 @@
 	[coreSettings.championsSettings]
 		#grudge词条受到的非仇恨实体来源的伤害百分比
 		#Range: 0.0 ~ 10.0
-		grudgeAffixHurt = 0.1
+		grudgeAffixHurt = 0.25
 		#grudge词条在伤害来源实体距离超过多少时触发
 		#Range: 0.0 ~ 2048.0
-		grudgeAffixDistance = 5.0
+		grudgeAffixDistance = 8.0
 		#grudge词条是否对无来源伤害生效
 		grudgeAffixSourceNull = true
 		#assassin词条瞬移攻击的伤害倍率
 		#Range: 0.0 ~ 100.0
-		assassinAffixDamage = 3.0
+		assassinAffixDamage = 2.0
 		#assassin词条每隔多少tick瞬移一次,20tick=1秒
 		#Range: > 1
-		assassinAffixTeleportationTick = 100
+		assassinAffixTeleportationTick = 160
 		#liquid词条的水清理半径，不要太大，8格半径就要处理2,100个方块
 		#Range: 0 ~ 100
 		liquidAffixRadius = 6
@@ -310,7 +310,7 @@
 		liquidAffixTick = 20
 		#air_break词条清理高度
 		#Range: 0 ~ 255
-		airBreakAffixHeight = 4
+		airBreakAffixHeight = 6
 		#air_break词条清理半径
 		#Range: 0 ~ 255
 		airBreakAffixRadius = 4
@@ -319,7 +319,7 @@
 		airBreakAffixTick = 20
 		#air_break词条清理黑名单，这些方块不会被清理，特别注意所有不可破坏方块都不会被清理
 		#格式示例: ["minecraft:stone", "minecraft:obsidian"]
-		airBreakAffixBlocks = []
+		airBreakAffixBlocks = ["summoningrituals:indestructible_altar", "callfromthedepth_:stone_of_sacrificial", "callfromthedepth_:corruptedstone", "minecraft:spawner", "summoningrituals:altar", "waystones:waystone", "refinedstorage:creative_controller", "refinedstorage:disk_drive", "refinedstorage:grid", "refinedstorage:crafting_grid"]
 
 		#新抑制词条配置
 		[coreSettings.championsSettings.dampening]
@@ -344,15 +344,15 @@
 		#古代殉葬品配置
 		[coreSettings.celestial_artifactsSettings.sacrificialObject]
 			#是否启用古代殉葬品强化
-			strengthen = false
+			strengthen = true
 			#殉葬白名单(实体注册ID)，会额外添加其中的实体进入殉葬列表
 			#格式示例: ["minecraft:zombie", "minecraft:skeleton"]
-			whitelist = []
+			whitelist = ["stalwart_dungeons:nether_keeper", "bosses_of_mass_destruction:lich", "bosses_of_mass_destruction:void_blossom", "bosses_of_mass_destruction:obsidilith", "bosses_of_mass_destruction:gauntlet", "mowziesmobs:sculptor", "goety:redstone_golem", "goety:grave_golem", "minecraft:player", "goety:zombie_servant", "goety:zombie_villager_servant", "goety:skeleton_servant", "goety:skeleton_villager_servant", "goety:carrion_maggot", "goety:carrion_fly", "whisperwoods:wisp", "goety:hostile_redstone_monstrosity", "goety:redstone_cube", "goety:wither_skeleton_servant", "arkane_domains:reanimated", "goety:brood_mother"]
 			#殉葬黑名单(实体注册ID)，这些实体不会被殉葬效果影响
 			#格式示例: ["minecraft:villager", "minecraft:cow"]
 			blacklist = []
 			#是否启用殉葬削弱，使其能被神秘遗物附加的纯化抗性抵挡
-			pureResistanceEffectEnabled = false
+			pureResistanceEffectEnabled = true
 			#是否启用殉葬削弱，使其受到目标精英怪等级影响
 			weakeningEnabled = false
 			#伤害指数衰减基础系数
@@ -372,7 +372,7 @@
 		#天堂箭是否在命中实体时也触发箭雨
 		heavenArrowOnHitEntityBarrage = true
 		#是否启用寰宇支配之剑强化,该强化会使被杀死实体的重生被无效
-		infinitySwordStrengthen = false
+		infinitySwordStrengthen = true
 
 	#现代化诸神黄昏配置
 	[coreSettings.apotheosisModernRagnarokSettings]
@@ -388,9 +388,9 @@
 			#捕捉配置
 			[coreSettings.apotheosisSettings.enchantmentSettings.capturingEnchantSettings]
 				#是否允许捕捉附魔附加在弓上
-				bowEnabled = false
+				bowEnabled = true
 				#是否允许捕捉附魔附加在铁魔法法杖和诡厄法杖上
-				wandEnabled = false
+				wandEnabled = true
 
 #精妙背包配置
 [sophisticatedBackpacksConfig]
