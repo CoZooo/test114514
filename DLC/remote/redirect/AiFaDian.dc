@@ -1,0 +1,11 @@
+available = "zh_cn"
+RedirectUrl = "https://afdian.com/a/lovin"
+
+[DisplayName]
+zh_cn = "爱发电"
+
+[notice]
+zh_cn = "即将跳转到浏览器打开链接。"
+
+[tip]
+zh_cn = "支持作者"
