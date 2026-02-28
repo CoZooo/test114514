@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "GitHub release tag to sync (empty = latest release)"
+        description: "GitHub release tag to sync"
         required: false
         default: ""
       sync_all:

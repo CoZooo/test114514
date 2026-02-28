@@ -6,14 +6,15 @@ on:
       - main
   workflow_dispatch:
     inputs:
-      version_file:
-        description: "Path to version.dc (empty = Repository Variable VERSION_DC_PATH or DLC/info/version.dc)"
-        required: false
-        default: ""
       platform:
-        description: "Update package platform (empty = Repository Variable AUTO_UPDATE_PLATFORM or universal)"
-        required: false
-        default: ""
+        description: "Update package platform"
+        required: true
+        type: choice
+        options:
+          - universal
+          - client
+          - server
+        default: universal
       sync_to_gitee:
         description: "Sync generated release to Gitee"
         required: true
@@ -45,7 +46,6 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_BEFORE: ${{ github.event.before }}
           EVENT_AFTER: ${{ github.sha }}
-          INPUT_VERSION_FILE: ${{ inputs.version_file }}
           INPUT_PLATFORM: ${{ inputs.platform }}
           INPUT_SYNC_TO_GITEE: ${{ inputs.sync_to_gitee }}
           VAR_VERSION_FILE: ${{ vars.VERSION_DC_PATH }}
@@ -107,7 +107,7 @@ jobs:
           event_name = (os.environ.get("EVENT_NAME", "") or "").strip()
           event_before = (os.environ.get("EVENT_BEFORE", "") or "").strip()
           event_after = (os.environ.get("EVENT_AFTER", "") or "").strip()
-          version_file = pick(os.environ.get("INPUT_VERSION_FILE"), os.environ.get("VAR_VERSION_FILE"), default="DLC/info/version.dc")
+          version_file = pick(os.environ.get("VAR_VERSION_FILE"), default="DLC/info/version.dc")
           platform = pick(os.environ.get("INPUT_PLATFORM"), os.environ.get("VAR_PLATFORM"), default="universal").lower()
           sync_to_gitee = normalize_bool(pick(os.environ.get("INPUT_SYNC_TO_GITEE"), os.environ.get("VAR_SYNC_TO_GITEE"), default="false"))
           auto_update_workflow_enabled = normalize_enabled_default_true(os.environ.get("VAR_AUTO_UPDATE_WORKFLOW"))

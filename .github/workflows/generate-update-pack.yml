@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       from_ref:
-        description: "Optional diff base ref (auto detect if empty)"
+        description: "Diff base ref"
         required: false
         default: ""
       platform:
@@ -29,7 +29,7 @@ on:
         description: "New DLC version"
         required: true
       sync_to_gitee:
-        description: "Sync generated release to Gitee after publish"
+        description: "Sync generated release to Gitee"
         required: true
         type: choice
         options:
