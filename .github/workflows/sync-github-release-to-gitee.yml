@@ -68,6 +68,7 @@ jobs:
           python - <<'PY'
           import os
           import json
+          import re
           from urllib.parse import quote
           import requests
           from pathlib import Path
@@ -310,13 +311,23 @@ jobs:
           }
           print(json.dumps(summary, ensure_ascii=False))
 
+          def sanitize_artifact_name(value):
+              raw = (value or "").strip()
+              if not raw:
+                  raw = "latest"
+              safe = re.sub(r'[\"\\:<>\|\*\?\r\n/\\\\]+', "-", raw)
+              safe = re.sub(r"-{2,}", "-", safe).strip("-")
+              return safe or "latest"
+
           if output_path:
               with open(output_path, "a", encoding="utf-8") as f:
                   first_tag = synced_tags[0] if synced_tags else ""
                   last_tag = synced_tags[-1] if synced_tags else ""
+                  artifact_tag = sanitize_artifact_name(first_tag)
                   f.write(f"tag_name={first_tag}\n")
                   f.write(f"first_tag={first_tag}\n")
                   f.write(f"last_tag={last_tag}\n")
+                  f.write(f"artifact_tag_name={artifact_tag}\n")
                   f.write(f"synced_release_count={len(synced_tags)}\n")
                   f.write(f"uploaded={total_uploaded}\n")
                   f.write(f"skipped={total_skipped}\n")
@@ -325,5 +336,5 @@ jobs:
       - name: Upload sync artifact
         uses: actions/upload-artifact@v4
         with:
-          name: synced-release-${{ steps.sync_release.outputs.tag_name || inputs.tag || 'latest' }}
+          name: synced-release-${{ steps.sync_release.outputs.artifact_tag_name || 'latest' }}
           path: out/sync-gitee-release/**
