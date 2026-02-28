@@ -8,7 +8,7 @@ on:
         required: false
         default: ""
       to_ref:
-        description: "Diff target ref (empty = HEAD)"
+        description: "Diff target ref"
         required: false
         default: ""
       platform:

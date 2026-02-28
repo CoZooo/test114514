@@ -2128,6 +2128,15 @@
 		}
 		{ item: "goety:haunted_jug" }
 		{ item: "reliquary:emperor_chalice" }
+		{
+			item: {
+				Count: 1
+				id: "malum:weight_of_worlds"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	title: "时空乱流"
 }

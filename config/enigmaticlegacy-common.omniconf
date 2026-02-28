@@ -964,6 +964,10 @@
         mowziesmobs:sculptor
         refined_mod:summoned_wolf
         irons_spellbooks:summoned_polar_bear
+        irons_spellbooks:summoned_zombie
+        irons_spellbooks:summoned_skeleton
+        irons_spellbooks:summoned_vex
+        ias_spellbooks:summoned_ragno
      >
 
     # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]

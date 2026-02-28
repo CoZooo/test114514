@@ -44,7 +44,7 @@
   "item.chapter_of_yuusha_3_core.life_limiter.tooltip": "§7佩戴后你的生命值将如风中残烛（当前生命值不会超过1点）",
 
   "item.chapter_of_yuusha_3_core.universal_unequip": "{flow}虫箭「恶意歼灭」{/flow}",
-  "item.chapter_of_yuusha_3_core.universal_unequip.tooltip": "§7拿起右击需要卸下的饰品或装备并消耗虫箭可以将其强制拆卸",
+  "item.chapter_of_yuusha_3_core.universal_unequip.tooltip": "拿起右击需要卸下的饰品或装备并消耗虫箭可以将其强制拆卸",
 
   "item.chapter_of_yuusha_3_core.excessive_treatment": "{flow}时之沙漏{/flow}",
   "item.chapter_of_yuusha_3_core.excessive_treatment.tooltip": "§7攻击时根据造成的伤害获得时之护盾（伤害吸收）",

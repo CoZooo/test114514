@@ -515,6 +515,10 @@
 					tag: {
 						Enchantments: [
 							{
+								id: "celestial_enchantments:powerless_curse"
+								lvl: 1
+							}
+							{
 								id: "enigmaticlegacy:eternal_binding"
 								lvl: 1
 							}
@@ -547,14 +551,6 @@
 								lvl: 1
 							}
 							{
-								id: "celestial_enchantments:curse_of_gravity"
-								lvl: 1
-							}
-							{
-								id: "celestial_enchantments:curse_of_withering"
-								lvl: 1
-							}
-							{
 								id: "celestial_enchantments:cures_of_corrosion"
 								lvl: 1
 							}
@@ -563,9 +559,9 @@
 								lvl: 1
 							}
 						]
-						id: "celestial_enchantments:powerless_curse"
+						isIntensify: 1
 						itemModifier: "celestial_forge:hasty"
-						"{lvl": 1
+						player_uuid: "b0b20cfc-7557-37f3-aa0d-84bcc5c2c4aa"
 					}
 				}
 				match_nbt: true

@@ -133,6 +133,8 @@ def filter_paths(
         basename = segments[-1] if segments else low
         if low in {"changelog", "changelog.md"}:
             return False
+        if basename == "version.dc":
+            return False
         if ".github" in segments:
             return False
         if basename in {".gitignore", ".gitattributes", ".gitmodules", ".gitkeep"}:

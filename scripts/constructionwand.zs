@@ -23,3 +23,9 @@ stoneCutter.addRecipe("constructionwand.core_destruction.2", <item:constructionw
 //堆叠
 <item:constructionwand:core_destruction>.setMaxStackSize(64);
 <item:constructionwand:core_angel>.setMaxStackSize(64);
+
+//tag
+<tag:items:ftbultimine:excluded_tools/strict>.add(<item:constructionwand:stone_wand>);
+<tag:items:ftbultimine:excluded_tools/strict>.add(<item:constructionwand:iron_wand>);
+<tag:items:ftbultimine:excluded_tools/strict>.add(<item:constructionwand:diamond_wand>);
+<tag:items:ftbultimine:excluded_tools/strict>.add(<item:constructionwand:infinity_wand>);

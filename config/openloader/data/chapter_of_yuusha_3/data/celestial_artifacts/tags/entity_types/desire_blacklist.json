@@ -47,6 +47,10 @@
 	"youkaishomecoming:small_fairy",
 	"mowziesmobs:sculptor",
 	"refined_mod:summoned_wolf",
-	"irons_spellbooks:summoned_polar_bear"
+	"irons_spellbooks:summoned_polar_bear",
+	"irons_spellbooks:summoned_zombie",
+	"irons_spellbooks:summoned_skeleton",
+	"irons_spellbooks:summoned_vex",
+	"ias_spellbooks:summoned_ragno"
   ]
 }

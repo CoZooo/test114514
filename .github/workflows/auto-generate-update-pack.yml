@@ -7,11 +7,11 @@ on:
   workflow_dispatch:
     inputs:
       from_ref:
-        description: "Diff base ref (commit/tag/branch)"
+        description: "Diff base ref"
         required: false
         default: ""
       to_ref:
-        description: "Diff target ref (commit/tag/branch, empty = latest commit)"
+        description: "Diff target ref"
         required: false
         default: ""
       platform:

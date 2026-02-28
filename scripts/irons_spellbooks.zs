@@ -87,7 +87,7 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:irons_spellbooks:apothecarist_spawn_egg>.addTooltip("\u00A7c该生物无法右击交互");
 <item:irons_spellbooks:pyromancer_spawn_egg>.addTooltip("\u00A7c该生物无法右击交互");
 <item:irons_spellbooks:priest_spawn_egg>.addTooltip("\u00A7c该生物无法右击交互");
-<item:irons_spellbooks:priest_spawn_egg>.addTooltip("\u00A7e该生物无法生成");
+//<item:irons_spellbooks:priest_spawn_egg>.addTooltip("\u00A7e该生物无法生成");
 
 <item:irons_spellbooks:ancient_knowledge_fragment>.addTooltip("\u00A7c在战利品箱中极度稀少地生成，可以用于制作远古巫术手稿");
 <item:irons_spellbooks:ancient_knowledge_fragment>.addTooltip("\u00A76也可以通过使用绿宝石和回响碎片在流浪商人处购买");
@@ -360,7 +360,7 @@ craftingTable.addShaped("irons_spellbooks.graybeard_staff", <item:irons_spellboo
 
 //破法者
 craftingTable.remove(<item:irons_spellbooks:spellbreaker>);
-craftingTable.addShaped("irons_spellbooks.spellbreaker", <item:irons_spellbooks:spellbreaker>, [[<item:yuusha:moon_core>, <item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:arcane_ingot>], [<item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:keeper_flamberge>.anyDamage(), <item:irons_spellbooks:arcane_salvage>], [<item:irons_spellbooks:arcane_ingot>, <item:irons_spellbooks:arcane_salvage>, <item:yuusha:moon_core>]]);
+craftingTable.addShaped("irons_spellbooks.spellbreaker", <item:irons_spellbooks:spellbreaker>, [[<item:yuusha:moon_core>, <item:callfromthedepth_:immemorialscrap>, <item:yuusha:chaos_ingot>], [<item:callfromthedepth_:immemorialscrap>, <item:irons_spellbooks:keeper_flamberge>.anyDamage(), <item:callfromthedepth_:immemorialscrap>], [<item:yuusha:chaos_ingot>, <item:callfromthedepth_:immemorialscrap>, <item:yuusha:moon_core>]]);
 
 //砧
 craftingTable.remove(<item:irons_spellbooks:arcane_anvil>);
@@ -511,9 +511,6 @@ craftingTable.addShaped("refined_mod.flame_tongue_sword", <item:refined_mod:flam
 <tag:items:curios:north>.add(<item:irons_spellbooks:frostward_ring>);
 <tag:items:curios:ring>.remove(<item:irons_spellbooks:fireward_ring>);
 <tag:items:curios:west>.add(<item:irons_spellbooks:fireward_ring>);
-
-<tag:items:curios:ring>.remove(<item:irons_spellbooks:invisibility_ring>);
-<tag:items:curios:burning_secret>.add(<item:irons_spellbooks:invisibility_ring>);
 
 //
 craftingTable.addShapeless("irons_spellbooks.evoker_spell_book.re", <item:irons_spellbooks:evoker_spell_book>.withTag({ISB_Spells: {maxSpells: 10, mustEquip: 1, spellWheel: 1}}), [<item:irons_spellbooks:evoker_spell_book>.anyDamage(), <item:celestial_artifacts:purified_powder>]);

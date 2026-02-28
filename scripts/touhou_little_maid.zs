@@ -20,8 +20,8 @@
 <item:touhou_little_maid:power_point>.addTooltip("\u00A76在世界各处的宝箱内也有几率获得");
 
 <item:touhou_little_maid_spell:wind_seeking_bell>.addTooltip("\u00A7c隐世之境已被禁止生成，无法使用");
-<item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A7c谨慎使用！会导致女仆击杀部分生物无掉落");
-<item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A7c谨慎使用！可能会导致女仆伤害下降，尤其是枪械");
+<item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A7e谨慎使用！会导致女仆击杀部分生物无掉落");
+<item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A76谨慎使用！可能会导致女仆部分武器伤害下降（例如枪械等）");
 <item:touhou_little_maid_spell:wound_rime_blade>.addTooltip("\u00A7e谨慎使用！可能会导致各种奇怪的特性");
 <item:touhou_little_maid_spell:blue_note>.addTooltip("\u00A7c请勿使用，会导致游戏崩溃");
 

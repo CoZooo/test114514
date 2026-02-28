@@ -109,6 +109,7 @@ import mods.jeitweaker.Jei;
 <item:confluence:ankh_charm>.anyDamage().addTooltip("\u00A76需要解锁邪术研究才会显示合成表，详见咒法章节奥秘全典任务");
 <item:confluence:avenger_emblem>.anyDamage().addTooltip("\u00A76需要解锁邪术研究才会显示合成表，详见咒法章节奥秘全典任务");
 <item:confluence:avenger_emblem>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");
+<item:confluence:avenger_emblem>.anyDamage().addTooltip("\u00A72新增击杀暗夜巫妖有几率掉落");
 <item:confluence:shield_of_cthulhu>.anyDamage().addTooltip("\u00A7c新增击杀灾厄术士、唤灵术士、祈灵师、灾厄蜘蛛均有几率获得");
 <item:confluence:shield_of_cthulhu>.anyDamage().addTooltip("\u00A76该饰品的神化暴击率为全伤害加成");
 

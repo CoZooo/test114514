@@ -1,6 +1,6 @@
 {
   "type": "goety:ritual",
-  "ritual_type": "goety:craft",
+  "ritual_type": "goety:summon",
   "activation_item": {
     "item": "minecraft:redstone_block"
   },

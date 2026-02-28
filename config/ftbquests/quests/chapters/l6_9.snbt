@@ -1106,6 +1106,24 @@
 			x: 13.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["5B1D1D71C32DD9B8"]
+			id: "0678DA893604E35E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33D711661097AB87"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76ADCCC5DE2E9340"
+				item: "chapter_of_yuusha_3_core:universal_unequip"
+				type: "item"
+			}]
+			title: "虫箭「恶意歼灭」"
+			x: 9.0d
+			y: 3.5d
+		}
 	]
 	subtitle: ["&9『希望和奇迹』"]
 	title: "&6※ 大满开"

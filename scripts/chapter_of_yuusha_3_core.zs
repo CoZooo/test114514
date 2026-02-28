@@ -18,7 +18,10 @@ craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:ch
 craftingTable.addShaped("chapter_of_yuusha_3_core.draw_power", <item:chapter_of_yuusha_3_core:draw_power>, [[<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>], [<item:yuusha:chaos_stone>, <item:ancient_aether:valkyrum_ring>.anyDamage(), <item:yuusha:chaos_stone>], [<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>]]);
 
 //虫箭「恶意歼灭」
+//stoneCutter.addRecipe("chapter_of_yuusha_3_core.universal_unequip", <item:chapter_of_yuusha_3_core:universal_unequip>, <item:goety_revelation:apocalyptium_ingot>);
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.universal_unequip", <item:chapter_of_yuusha_3_core:universal_unequip>, <tag:items:sons_of_sins:sins_shard>);
+
+//魂之接力
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.life_limiter.1", <item:chapter_of_yuusha_3_core:life_limiter>, <item:darkdoppelganger:doppelganger_ring>.anyDamage());
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.life_limiter.2", <item:chapter_of_yuusha_3_core:life_limiter>, <item:darkdoppelganger:elder_necklace>.anyDamage());
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.life_limiter.3", <item:chapter_of_yuusha_3_core:life_limiter>, <item:darkdoppelganger:summons_necklace>.anyDamage());
@@ -36,8 +39,8 @@ stoneCutter.addRecipe("chapter_of_yuusha_3_core.life_limiter.3", <item:chapter_o
 
 <tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:draw_power>);
 <tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:draw_power>);
-<tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:task_expert>);
-<tag:items:curios:malum_ring>.add(<item:chapter_of_yuusha_3_core:task_expert>);
+//<tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:task_expert>);
+//<tag:items:curios:malum_ring>.add(<item:chapter_of_yuusha_3_core:task_expert>);
 
 //进入永夜空境
 recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_night_flat_dimension",{ 

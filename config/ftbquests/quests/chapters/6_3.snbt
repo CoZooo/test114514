@@ -1160,8 +1160,8 @@
 		}
 		{
 			dependencies: [
-				"119C75FFF4BC985F"
 				"3449CA7CC9FD4109"
+				"088CE1B34D5F6F1D"
 			]
 			description: [
 				"需小心远古骑士伤害极高，女仆必须有盾牌格挡。"
@@ -1211,20 +1211,9 @@
 				id: "2FD67E9F6DE917BF"
 				item: {
 					Count: 1
-					id: "irons_spellbooks:spellbreaker"
+					id: "born_in_chaos_v1:frostbitten_blade"
 					tag: {
 						Damage: 0
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:counterspell"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
 					}
 				}
 				type: "item"

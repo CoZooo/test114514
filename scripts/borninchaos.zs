@@ -71,7 +71,9 @@ import mods.jeitweaker.Jei;
 <item:born_in_chaos_v1:corpse_maggot>.addTooltip("\u00A76请勿使用镰刀等多重攻击判定武器击杀尸蛆，会触发多重分裂");
 
 
-
+//寒蚀凄锋
+craftingTable.remove(<item:born_in_chaos_v1:frostbitten_blade>);
+craftingTable.addShaped("born_in_chaos_v1.frostbitten_blade", <item:born_in_chaos_v1:frostbitten_blade>, [[<item:yuusha:moon_core>, <item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:arcane_ingot>], [<item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:keeper_flamberge>.anyDamage(), <item:irons_spellbooks:arcane_salvage>], [<item:irons_spellbooks:arcane_ingot>, <item:irons_spellbooks:arcane_salvage>, <item:yuusha:moon_core>]]);
 
 //蛋白质
 <tag:items:diet:proteins>.add(<item:born_in_chaos_v1:rotten_fish>);
