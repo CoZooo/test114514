@@ -1,0 +1,281 @@
+name: Auto Generate Update Pack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      version_file:
+        description: "Path to version.dc (empty = Repository Variable VERSION_DC_PATH or DLC/info/version.dc)"
+        required: false
+        default: ""
+      platform:
+        description: "Update package platform (empty = Repository Variable AUTO_UPDATE_PLATFORM or universal)"
+        required: false
+        default: ""
+      sync_to_gitee:
+        description: "Sync generated release to Gitee"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+      release_tag: ${{ steps.generate.outputs.release_tag }}
+      sync_to_gitee: ${{ steps.detect.outputs.sync_to_gitee }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect version change from version.dc
+        id: detect
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_BEFORE: ${{ github.event.before }}
+          EVENT_AFTER: ${{ github.sha }}
+          INPUT_VERSION_FILE: ${{ inputs.version_file }}
+          INPUT_PLATFORM: ${{ inputs.platform }}
+          INPUT_SYNC_TO_GITEE: ${{ inputs.sync_to_gitee }}
+          VAR_VERSION_FILE: ${{ vars.VERSION_DC_PATH }}
+          VAR_PLATFORM: ${{ vars.AUTO_UPDATE_PLATFORM }}
+          VAR_SYNC_TO_GITEE: ${{ vars.AUTO_SYNC_TO_GITEE }}
+          VAR_AUTO_UPDATE_WORKFLOW: ${{ vars.AUTO_UPDATE_WORKFLOW }}
+        shell: bash
+        run: |
+          result="$(
+          python3 - <<'PY'
+          import os
+          import re
+          import subprocess
+          import sys
+
+          def run(*cmd, text=True, check=True):
+            return subprocess.run(list(cmd), check=check, capture_output=True, text=text)
+
+          def normalize_bool(v: str) -> str:
+            return "true" if (v or "").strip().lower() == "true" else "false"
+
+          def normalize_enabled_default_true(v: str) -> bool:
+            vv = (v or "").strip().lower()
+            if not vv:
+              return True
+            return vv in {"1", "true", "yes", "on"}
+
+          def pick(*values, default=""):
+            for v in values:
+              vv = (v or "").strip()
+              if vv:
+                return vv
+            return default
+
+          def file_exists_at(ref: str, path: str) -> bool:
+            cp = subprocess.run(["git", "cat-file", "-e", f"{ref}:{path}"], capture_output=True)
+            return cp.returncode == 0
+
+          def read_file_at(ref: str, path: str) -> str:
+            cp = run("git", "show", f"{ref}:{path}")
+            return cp.stdout
+
+          def parse_version_dc(text: str):
+            base = None
+            dlc = None
+            for line in text.splitlines():
+              m1 = re.match(r'^\s*base\s*=\s*"([^"]*)"\s*$', line)
+              if m1:
+                base = m1.group(1).strip()
+                continue
+              m2 = re.match(r'^\s*dlc\s*=\s*"([^"]*)"\s*$', line)
+              if m2:
+                dlc = m2.group(1).strip()
+                continue
+            if not base or not dlc:
+              return None
+            return (base, dlc)
+
+          event_name = (os.environ.get("EVENT_NAME", "") or "").strip()
+          event_before = (os.environ.get("EVENT_BEFORE", "") or "").strip()
+          event_after = (os.environ.get("EVENT_AFTER", "") or "").strip()
+          version_file = pick(os.environ.get("INPUT_VERSION_FILE"), os.environ.get("VAR_VERSION_FILE"), default="DLC/info/version.dc")
+          platform = pick(os.environ.get("INPUT_PLATFORM"), os.environ.get("VAR_PLATFORM"), default="universal").lower()
+          sync_to_gitee = normalize_bool(pick(os.environ.get("INPUT_SYNC_TO_GITEE"), os.environ.get("VAR_SYNC_TO_GITEE"), default="false"))
+          auto_update_workflow_enabled = normalize_enabled_default_true(os.environ.get("VAR_AUTO_UPDATE_WORKFLOW"))
+
+          if platform not in {"client", "server", "universal"}:
+            raise SystemExit(f"Invalid platform: {platform}")
+
+          if not event_after:
+            raise SystemExit("Missing EVENT_AFTER.")
+
+          if event_name == "push" and not auto_update_workflow_enabled:
+            print("changed=false")
+            print(f"version_file={version_file}")
+            print(f"platform={platform}")
+            print(f"sync_to_gitee={sync_to_gitee}")
+            print("reason=auto_workflow_disabled")
+            sys.exit(0)
+
+          if not event_before or set(event_before) == {"0"}:
+            # First push fallback: compare to previous commit if possible.
+            cp_prev = subprocess.run(["git", "rev-parse", f"{event_after}^"], capture_output=True, text=True)
+            event_before = cp_prev.stdout.strip() if cp_prev.returncode == 0 else ""
+
+          if not event_before:
+            print("changed=false")
+            print(f"version_file={version_file}")
+            print(f"platform={platform}")
+            print(f"sync_to_gitee={sync_to_gitee}")
+            print("reason=no_before_commit")
+            sys.exit(0)
+
+          if not file_exists_at(event_before, version_file) or not file_exists_at(event_after, version_file):
+            print("changed=false")
+            print(f"version_file={version_file}")
+            print(f"platform={platform}")
+            print(f"sync_to_gitee={sync_to_gitee}")
+            print("reason=version_file_missing")
+            sys.exit(0)
+
+          old_text = read_file_at(event_before, version_file)
+          new_text = read_file_at(event_after, version_file)
+          old_ver = parse_version_dc(old_text)
+          new_ver = parse_version_dc(new_text)
+          if old_ver is None or new_ver is None:
+            raise SystemExit(f"Failed to parse base/dlc from {version_file}.")
+
+          old_base, old_dlc = old_ver
+          new_base, new_dlc = new_ver
+
+          if old_base == new_base and old_dlc == new_dlc:
+            print("changed=false")
+            print(f"version_file={version_file}")
+            print(f"platform={platform}")
+            print(f"sync_to_gitee={sync_to_gitee}")
+            print("reason=version_unchanged")
+            sys.exit(0)
+
+          # Find the first commit where version became old_base+old_dlc.
+          commits = run("git", "rev-list", "--reverse", event_after).stdout.strip().splitlines()
+          first_old_commit = None
+          prev_pair = None
+          for c in commits:
+            if not file_exists_at(c, version_file):
+              continue
+            pair = parse_version_dc(read_file_at(c, version_file))
+            if pair is None:
+              continue
+            if pair == (old_base, old_dlc) and prev_pair != (old_base, old_dlc):
+              first_old_commit = c
+              break
+            prev_pair = pair
+
+          if not first_old_commit:
+            print("changed=false")
+            print(f"version_file={version_file}")
+            print(f"platform={platform}")
+            print(f"sync_to_gitee={sync_to_gitee}")
+            print("reason=from_ref_not_found")
+            sys.exit(0)
+
+          print("changed=true")
+          print(f"version_file={version_file}")
+          print(f"platform={platform}")
+          print(f"sync_to_gitee={sync_to_gitee}")
+          print(f"from_ref={first_old_commit}")
+          print(f"to_ref={event_after}")
+          print(f"base={old_base}")
+          print(f"base_new={new_base}")
+          print(f"dlc={old_dlc}")
+          print(f"dlc_new={new_dlc}")
+          PY
+          )"
+          echo "$result"
+          while IFS= read -r line; do
+            if [ -n "$line" ]; then
+              echo "$line" >> "$GITHUB_OUTPUT"
+            fi
+          done <<< "$result"
+
+      - name: Show detection result
+        run: |
+          echo "changed=${{ steps.detect.outputs.changed }}"
+          echo "version_file=${{ steps.detect.outputs.version_file }}"
+          echo "platform=${{ steps.detect.outputs.platform }}"
+          echo "sync_to_gitee=${{ steps.detect.outputs.sync_to_gitee }}"
+          echo "from_ref=${{ steps.detect.outputs.from_ref }}"
+          echo "to_ref=${{ steps.detect.outputs.to_ref }}"
+          echo "base=${{ steps.detect.outputs.base }}"
+          echo "base_new=${{ steps.detect.outputs.base_new }}"
+          echo "dlc=${{ steps.detect.outputs.dlc }}"
+          echo "dlc_new=${{ steps.detect.outputs.dlc_new }}"
+          echo "reason=${{ steps.detect.outputs.reason }}"
+
+      - name: Generate update package
+        if: ${{ steps.detect.outputs.changed == 'true' }}
+        id: generate
+        run: |
+          mkdir -p out
+          result="$(
+            python3 .github/tools/generate_update_pack.py \
+              --from-ref "${{ steps.detect.outputs.from_ref }}" \
+              --to-ref "${{ steps.detect.outputs.to_ref }}" \
+              --platform "${{ steps.detect.outputs.platform }}" \
+              --base "${{ steps.detect.outputs.base }}" \
+              --base-new "${{ steps.detect.outputs.base_new }}" \
+              --dlc "${{ steps.detect.outputs.dlc }}" \
+              --dlc-new "${{ steps.detect.outputs.dlc_new }}"
+          )"
+          echo "$result"
+          while IFS= read -r line; do
+            if [ -n "$line" ]; then
+              echo "$line" >> "$GITHUB_OUTPUT"
+            fi
+          done <<< "$result"
+
+      - name: Upload package artifact
+        if: ${{ steps.detect.outputs.changed == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-update-package-${{ steps.detect.outputs.platform }}-${{ steps.detect.outputs.base_new }}-${{ steps.detect.outputs.dlc_new }}
+          path: |
+            ${{ steps.generate.outputs.zip_path }}
+            ${{ steps.generate.outputs.summary_path }}
+            ${{ steps.generate.outputs.changelog_path }}
+            ${{ steps.generate.outputs.release_notes_path }}
+            work/**/update.dc
+
+      - name: Publish to GitHub Release
+        if: ${{ steps.detect.outputs.changed == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ steps.generate.outputs.release_tag }}"
+          ASSET="${{ steps.generate.outputs.zip_path }}"
+          NOTES="${{ steps.generate.outputs.release_notes_path }}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ASSET" --clobber
+          else
+            gh release create "$TAG" "$ASSET" --title "$TAG" --notes-file "$NOTES"
+          fi
+
+  sync_gitee:
+    if: ${{ needs.generate.outputs.changed == 'true' && needs.generate.outputs.sync_to_gitee == 'true' }}
+    needs: generate
+    uses: ./.github/workflows/sync-github-release-to-gitee.yml
+    with:
+      tag: ${{ needs.generate.outputs.release_tag }}
+      sync_all: "false"
+      overwrite_assets: "true"
+    secrets: inherit
