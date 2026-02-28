@@ -1,0 +1,313 @@
+name: Sync GitHub Release To Gitee
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "GitHub release tag to sync (empty = latest release)"
+        required: false
+        default: ""
+      sync_all:
+        description: "Sync all GitHub releases"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+      overwrite_assets:
+        description: "Overwrite same-name assets on Gitee release"
+        required: true
+        type: choice
+        options:
+          - "true"
+          - "false"
+        default: "true"
+  workflow_call:
+    inputs:
+      tag:
+        required: false
+        type: string
+        default: ""
+      sync_all:
+        required: false
+        type: string
+        default: "false"
+      overwrite_assets:
+        required: false
+        type: string
+        default: "true"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+
+      - name: Sync release
+        id: sync_release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+          SOURCE_REPO: ${{ github.repository }}
+          TARGET_TAG: ${{ inputs.tag }}
+          SYNC_ALL: ${{ inputs.sync_all }}
+          GITEE_USERNAME_VAR: ${{ vars.GITEE_USERNAME }}
+          GITEE_REPO_VAR: ${{ vars.GITEE_REPO }}
+          OVERWRITE_ASSETS: ${{ inputs.overwrite_assets }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import requests
+          from pathlib import Path
+
+          gh_token = os.environ.get("GH_TOKEN", "").strip()
+          gitee_token = os.environ.get("GITEE_TOKEN", "").strip()
+          source_repo = os.environ["SOURCE_REPO"].strip()
+          target_tag = os.environ.get("TARGET_TAG", "").strip()
+          sync_all = os.environ.get("SYNC_ALL", "false").strip().lower() == "true"
+          gitee_owner = (os.environ.get("GITEE_USERNAME_VAR", "") or "").strip()
+          gitee_repo = (os.environ.get("GITEE_REPO_VAR", "") or "").strip()
+          overwrite_assets = os.environ.get("OVERWRITE_ASSETS", "true").strip().lower() == "true"
+          output_path = os.environ.get("GITHUB_OUTPUT", "").strip()
+
+          if not gitee_token:
+              raise SystemExit("GITEE_TOKEN is required.")
+          if not gitee_owner or not gitee_repo:
+              raise SystemExit("GITEE_USERNAME/GITEE_REPO Repository Variables are required.")
+
+          gh_headers = {
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+          if gh_token:
+              gh_headers["Authorization"] = f"Bearer {gh_token}"
+
+          gh_base = "https://api.github.com"
+
+          def load_target_releases():
+              if sync_all:
+                  all_items = []
+                  page = 1
+                  while True:
+                      url = f"{gh_base}/repos/{source_repo}/releases?per_page=100&page={page}"
+                      resp = requests.get(url, headers=gh_headers, timeout=60)
+                      if resp.status_code >= 300:
+                          raise SystemExit(f"Failed to list GitHub releases: {resp.status_code} {resp.text}")
+                      items = resp.json() or []
+                      if not items:
+                          break
+                      all_items.extend(items)
+                      if len(items) < 100:
+                          break
+                      page += 1
+                  return all_items
+
+              if target_tag:
+                  url = f"{gh_base}/repos/{source_repo}/releases/tags/{target_tag}"
+              else:
+                  url = f"{gh_base}/repos/{source_repo}/releases/latest"
+              resp = requests.get(url, headers=gh_headers, timeout=60)
+              if resp.status_code >= 300:
+                  raise SystemExit(f"Failed to load GitHub release: {resp.status_code} {resp.text}")
+              return [resp.json()]
+
+          gh_releases = load_target_releases()
+          if not gh_releases:
+              raise SystemExit("No GitHub releases found to sync.")
+
+          gitee_base = "https://gitee.com/api/v5"
+
+          def gitee_request(method, path, *, params=None, data=None, files=None, timeout=120):
+              url = f"{gitee_base}{path}"
+              params = dict(params or {})
+              params["access_token"] = gitee_token
+              resp = requests.request(method, url, params=params, data=data, files=files, timeout=timeout)
+              return resp
+
+          def normalize_gitee_tag_name(tag):
+              return (tag or "").replace("+", "-")
+
+          def normalize_gitee_asset_name(name):
+              return (name or "").replace("+", "-")
+
+          def get_gitee_release_by_tag(gitee_tag_name):
+              resp = gitee_request("GET", f"/repos/{gitee_owner}/{gitee_repo}/releases/tags/{gitee_tag_name}")
+              if resp.status_code == 200:
+                  return resp.json()
+              list_resp = gitee_request("GET", f"/repos/{gitee_owner}/{gitee_repo}/releases", params={"per_page": 100})
+              if list_resp.status_code >= 300:
+                  raise SystemExit(f"Failed to list Gitee releases: {list_resp.status_code} {list_resp.text}")
+              for item in list_resp.json() or []:
+                  if (item.get("tag_name") or "").strip() == gitee_tag_name:
+                      return item
+              return None
+
+          out_dir = Path("out/sync-gitee-release")
+          out_dir.mkdir(parents=True, exist_ok=True)
+
+          total_uploaded = 0
+          total_skipped = 0
+          synced_tags = []
+
+          for gh_release in gh_releases:
+              tag_name = (gh_release.get("tag_name") or "").strip()
+              if not tag_name:
+                  continue
+              gitee_tag_name = normalize_gitee_tag_name(tag_name)
+              release_name = (gh_release.get("name") or tag_name).strip()
+              release_body = gh_release.get("body") or ""
+              target_commitish = (gh_release.get("target_commitish") or "master").strip()
+              prerelease = bool(gh_release.get("prerelease", False))
+              gh_assets = gh_release.get("assets") or []
+
+              gitee_release = get_gitee_release_by_tag(gitee_tag_name)
+              payload = {
+                  "tag_name": gitee_tag_name,
+                  "target_commitish": target_commitish,
+                  "name": release_name,
+                  "body": release_body,
+                  "prerelease": "true" if prerelease else "false",
+              }
+
+              if gitee_release:
+                  rid = gitee_release.get("id")
+                  update_resp = gitee_request(
+                      "PATCH",
+                      f"/repos/{gitee_owner}/{gitee_repo}/releases/{rid}",
+                      data=payload,
+                  )
+                  if update_resp.status_code >= 300:
+                      raise SystemExit(f"Failed to update Gitee release: {update_resp.status_code} {update_resp.text}")
+                  gitee_release = update_resp.json()
+              else:
+                  create_resp = gitee_request(
+                      "POST",
+                      f"/repos/{gitee_owner}/{gitee_repo}/releases",
+                      data=payload,
+                  )
+                  if create_resp.status_code >= 300:
+                      raise SystemExit(f"Failed to create Gitee release: {create_resp.status_code} {create_resp.text}")
+                  gitee_release = create_resp.json()
+
+              release_id = gitee_release.get("id")
+              if not release_id:
+                  raise SystemExit(f"Gitee release id missing for tag {tag_name}.")
+
+              existing_files_resp = gitee_request(
+                  "GET",
+                  f"/repos/{gitee_owner}/{gitee_repo}/releases/{release_id}/attach_files"
+              )
+              if existing_files_resp.status_code >= 300:
+                  raise SystemExit(
+                      f"Failed to list Gitee release assets: {existing_files_resp.status_code} {existing_files_resp.text}"
+                  )
+              existing_assets = existing_files_resp.json() or []
+              existing_by_name = {
+                  (item.get("name") or "").strip(): item
+                  for item in existing_assets
+                  if (item.get("name") or "").strip()
+              }
+
+              uploaded = 0
+              skipped = 0
+              for asset in gh_assets:
+                  source_asset_name = (asset.get("name") or "").strip()
+                  if not source_asset_name:
+                      continue
+                  gitee_asset_name = normalize_gitee_asset_name(source_asset_name)
+                  if gitee_asset_name in existing_by_name and not overwrite_assets:
+                      skipped += 1
+                      continue
+
+                  existing = existing_by_name.get(gitee_asset_name)
+                  if existing and overwrite_assets:
+                      aid = existing.get("id")
+                      if aid:
+                          del_resp = gitee_request(
+                              "DELETE",
+                              f"/repos/{gitee_owner}/{gitee_repo}/releases/{release_id}/attach_files/{aid}",
+                          )
+                          if del_resp.status_code >= 300:
+                              raise SystemExit(
+                                  f"Failed to delete existing Gitee asset '{gitee_asset_name}': {del_resp.status_code} {del_resp.text}"
+                              )
+
+                  gh_asset_url = asset.get("url")
+                  if not gh_asset_url:
+                      continue
+                  download_headers = dict(gh_headers)
+                  download_headers["Accept"] = "application/octet-stream"
+                  download_resp = requests.get(gh_asset_url, headers=download_headers, timeout=300)
+                  if download_resp.status_code >= 300:
+                      raise SystemExit(
+                          f"Failed to download GitHub asset '{source_asset_name}': {download_resp.status_code} {download_resp.text}"
+                      )
+
+                  asset_path = out_dir / gitee_tag_name / gitee_asset_name
+                  asset_path.parent.mkdir(parents=True, exist_ok=True)
+                  asset_path.write_bytes(download_resp.content)
+
+                  with asset_path.open("rb") as fp:
+                      upload_resp = gitee_request(
+                          "POST",
+                          f"/repos/{gitee_owner}/{gitee_repo}/releases/{release_id}/attach_files",
+                          data={"name": gitee_asset_name},
+                          files={"file": (gitee_asset_name, fp, "application/octet-stream")},
+                          timeout=600,
+                      )
+                  if upload_resp.status_code >= 300:
+                      raise SystemExit(
+                          f"Failed to upload asset '{gitee_asset_name}' to Gitee: {upload_resp.status_code} {upload_resp.text}"
+                      )
+                  uploaded += 1
+
+              total_uploaded += uploaded
+              total_skipped += skipped
+              synced_tags.append(gitee_tag_name)
+              print(json.dumps({
+                  "tag_name": tag_name,
+                  "gitee_tag_name": gitee_tag_name,
+                  "assets_total": len(gh_assets),
+                  "uploaded": uploaded,
+                  "skipped": skipped
+              }, ensure_ascii=False))
+
+          summary = {
+              "source_repo": source_repo,
+              "gitee_repo": f"{gitee_owner}/{gitee_repo}",
+              "synced_release_count": len(synced_tags),
+              "uploaded": total_uploaded,
+              "skipped": total_skipped,
+              "overwrite_assets": overwrite_assets,
+              "sync_all": sync_all,
+          }
+          print(json.dumps(summary, ensure_ascii=False))
+
+          if output_path:
+              with open(output_path, "a", encoding="utf-8") as f:
+                  first_tag = synced_tags[0] if synced_tags else ""
+                  last_tag = synced_tags[-1] if synced_tags else ""
+                  f.write(f"tag_name={first_tag}\n")
+                  f.write(f"first_tag={first_tag}\n")
+                  f.write(f"last_tag={last_tag}\n")
+                  f.write(f"synced_release_count={len(synced_tags)}\n")
+                  f.write(f"uploaded={total_uploaded}\n")
+                  f.write(f"skipped={total_skipped}\n")
+          PY
+
+      - name: Upload sync artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: synced-release-${{ steps.sync_release.outputs.tag_name || inputs.tag || 'latest' }}
+          path: out/sync-gitee-release/**

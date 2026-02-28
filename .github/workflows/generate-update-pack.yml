@@ -28,12 +28,22 @@ on:
       dlc_new:
         description: "New DLC version"
         required: true
+      sync_to_gitee:
+        description: "Sync generated release to Gitee after publish"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      release_tag: ${{ steps.generate.outputs.release_tag }}
 
     steps:
       - name: Checkout repository
@@ -165,3 +175,13 @@ jobs:
           else
             gh release create "$TAG" "$ASSET" --title "$TAG" --notes-file "$NOTES"
           fi
+
+  sync_gitee:
+    if: ${{ inputs.sync_to_gitee == 'true' }}
+    needs: generate
+    uses: ./.github/workflows/sync-github-release-to-gitee.yml
+    with:
+      tag: ${{ needs.generate.outputs.release_tag }}
+      sync_all: "false"
+      overwrite_assets: "true"
+    secrets: inherit
