@@ -136,7 +136,7 @@ jobs:
               return resp
 
           def normalize_gitee_tag_name(tag):
-              return (tag or "").replace("+", "-")
+              return (tag or "").strip()
 
           def normalize_gitee_asset_name(name):
               return (name or "").replace("+", "-")
