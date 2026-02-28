@@ -6,6 +6,14 @@ on:
       - main
   workflow_dispatch:
     inputs:
+      from_ref:
+        description: "Diff base ref (commit/tag/branch)"
+        required: false
+        default: ""
+      to_ref:
+        description: "Diff target ref (commit/tag/branch, empty = latest commit)"
+        required: false
+        default: ""
       platform:
         description: "Update package platform"
         required: true
@@ -46,6 +54,8 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           EVENT_BEFORE: ${{ github.event.before }}
           EVENT_AFTER: ${{ github.sha }}
+          INPUT_FROM_REF: ${{ inputs.from_ref }}
+          INPUT_TO_REF: ${{ inputs.to_ref }}
           INPUT_PLATFORM: ${{ inputs.platform }}
           INPUT_SYNC_TO_GITEE: ${{ inputs.sync_to_gitee }}
           VAR_VERSION_FILE: ${{ vars.VERSION_DC_PATH }}
@@ -107,6 +117,8 @@ jobs:
           event_name = (os.environ.get("EVENT_NAME", "") or "").strip()
           event_before = (os.environ.get("EVENT_BEFORE", "") or "").strip()
           event_after = (os.environ.get("EVENT_AFTER", "") or "").strip()
+          input_from_ref = (os.environ.get("INPUT_FROM_REF", "") or "").strip()
+          input_to_ref = (os.environ.get("INPUT_TO_REF", "") or "").strip()
           version_file = pick(os.environ.get("VAR_VERSION_FILE"), default="DLC/info/version.dc")
           platform = pick(os.environ.get("INPUT_PLATFORM"), os.environ.get("VAR_PLATFORM"), default="universal").lower()
           sync_to_gitee = normalize_bool(pick(os.environ.get("INPUT_SYNC_TO_GITEE"), os.environ.get("VAR_SYNC_TO_GITEE"), default="false"))
@@ -117,6 +129,30 @@ jobs:
 
           if not event_after:
             raise SystemExit("Missing EVENT_AFTER.")
+
+          if event_name == "workflow_dispatch":
+            if input_to_ref:
+              cp_target = subprocess.run(
+                ["git", "rev-parse", "--verify", "--quiet", f"{input_to_ref}^{{commit}}"],
+                capture_output=True,
+                text=True
+              )
+              if cp_target.returncode != 0 or not cp_target.stdout.strip():
+                raise SystemExit(f"Invalid to_ref: {input_to_ref}")
+              event_after = cp_target.stdout.strip()
+
+            if input_from_ref:
+              cp_base = subprocess.run(
+                ["git", "rev-parse", "--verify", "--quiet", f"{input_from_ref}^{{commit}}"],
+                capture_output=True,
+                text=True
+              )
+              if cp_base.returncode != 0 or not cp_base.stdout.strip():
+                raise SystemExit(f"Invalid from_ref: {input_from_ref}")
+              event_before = cp_base.stdout.strip()
+            else:
+              cp_prev = subprocess.run(["git", "rev-parse", f"{event_after}^"], capture_output=True, text=True)
+              event_before = cp_prev.stdout.strip() if cp_prev.returncode == 0 else ""
 
           if event_name == "push" and not auto_update_workflow_enabled:
             print("changed=false")
